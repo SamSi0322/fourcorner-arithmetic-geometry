@@ -1,0 +1,498 @@
+\section{Descent with a common source}
+\label{sec:common-source-descent}
+
+The square conditions at different places constrain the same rational
+points.  This section retains that dependence through finite quotients of
+the Mordell--Weil group.  The first construction combines characters modulo
+$4$ into an invariant of a complete coset modulo $2$.  A second application
+uses a quotient modulo $8$ to exclude the parameter $n=15569$.
+
+\subsection{The source coset and the formal parameter}
+
+Write
+\[
+ E_n:\quad y^2=x(x-n)(x+n),\qquad
+ T_0=(0,0),\quad T_+=(n,0),\quad T_-=(-n,0),
+\]
+where $n>1$ is odd and squarefree.  The ordered Kummer map is
+\[
+ \delta:E_n(\Q)/2E_n(\Q)\longrightarrow
+ (\Q^*/\Q^{*2})^2,\qquad P\longmapsto([x(P)],[x(P)-n]).
+\]
+Its values at the two-torsion points are
+\begin{equation}\label{eq:cs-torsion-rows}
+\begin{array}{c|rrrr}
+P&O&T_0&T_+&T_-\\ \hline
+\delta(P)&(1,1)&(-1,-n)&(n,2)&(-n,-2n).
+\end{array}
+\end{equation}
+Products and equalities in Kummer coordinates are understood modulo
+rational squares.  To recall the kernel statement, let $e_1,e_2,e_3$
+be the roots $0,n,-n$.  Intersecting a line with the cubic shows that,
+for each $i$, the product of $x-e_i$ over the three intersection points
+is a square.  This proves multiplicativity of each Kummer coordinate.
+If all $x(P)-e_i$ are squares, choose $r_i^2=x(P)-e_i$ with
+$r_1r_2r_3=-y(P)$, and put $s_1=r_1+r_2+r_3$,
+$s_2=r_1r_2+r_1r_3+r_2r_3$.  The point
+\[
+ (x(P)+s_2,-y(P)-s_1s_2)
+\]
+doubles to $P$, as substitution and its tangent of slope $-s_1$ show.
+The formulas extend at two-torsion by taking one $r_i=0$.
+Thus the kernel is $2E_n(\Q)$.
+
+For $j\geq2$, put
+\[
+ E_j(\Q_2)=\{O\}\cup
+ \{P\in E_n(\Q_2):v_2(x(P))\leq-2j\},\qquad
+ H=E_n(\Q)\cap E_2(\Q_2).
+\]
+Thus $E_j(\Q_2)$ is the indicated neighbourhood of the point at infinity.
+For a nonzero $P\in H$, its \emph{depth} is
+$j(P)=-v_2(x(P))/2$.  In the general criterion below we assume
+\begin{equation}\label{eq:cs-splitting}
+ E_n(\Q)=H\oplus E_n[2](\Q).
+\end{equation}
+This specifies the subgroup and every torsion translation used in the
+argument.
+
+Here are the formal-group estimates we shall need.  With $z=-x/y$ and
+$-1/y=z^3W$, the equation of $E_n$ gives
+\begin{equation}\label{eq:cs-formal-chart}
+ W=1-n^2z^4W^2,\qquad
+ W\in1+z^4\Z_2[[z^4]],\qquad x=z^{-2}W^{-1}.
+\end{equation}
+Moreover
+\[
+ \frac{dx}{2y}=
+ \left(1+\frac{zW'}{2W}\right)dz,
+ \qquad
+ \ell(z)=\int_0^z\frac{dx}{2y}
+       \in z+2z^5\Z_2[[z^4]].
+\]
+Indeed, the coefficients of $zW'/(2W)$ are even and its exponents are
+positive multiples of $4$; integration divides by odd integers.  The
+formal logarithm is additive and isometric on $4\Z_2$.  Consequently
+$H$ is torsion-free, its nonzero depths are integers, and
+\begin{equation}\label{eq:cs-local-squares}
+ x(P),\quad x(P)-n,\quad x(P)+n\in\Q_2^{*2}\qquad(P\in H\setminus\{O\}).
+\end{equation}
+The last assertion follows from \eqref{eq:cs-formal-chart}, since all the
+unit corrections are $1$ modulo $8$.
+
+Choose $\nu\geq2$ with $H\subseteq E_\nu(\Q_2)$, and define
+\begin{equation}\label{eq:cs-dyadic-character}
+ \phi_0(P)=2^{-\nu}\ell(P)\pmod4,
+ \qquad \eta_0(P)=\phi_0(P)\pmod2.
+\end{equation}
+These are homomorphisms.  Formula \eqref{eq:cs-formal-chart} also permits
+$\ell(P)$ to be replaced by $z(P)$ in \eqref{eq:cs-dyadic-character}.
+
+We consider rational points $Q=(a,b)$ and $R=(c,e)$ satisfying
+\begin{equation}\label{eq:cs-source-pair}
+ -n<a<0<c-n,\qquad
+ \delta(Q)\delta(R)=(-n,-n),\qquad
+ f(Q,R)=\frac{a+c}{2(c+n)}.
+\end{equation}
+In particular $f(Q,R)>0$.  The correspondence of
+Theorem~\ref{thm:ell-exact-source} sends a rational-distance configuration
+to such a pair with $f(Q,R)$ a nonzero rational square.
+
+Suppose $n\equiv1$ or $7\pmod8$, and choose $W\in H$ with
+\begin{equation}\label{eq:cs-source-row}
+ \delta(W)=
+ \begin{cases}(n,1),&n\equiv1\pmod8,\\
+ (-n,-n),&n\equiv7\pmod8.
+ \end{cases}
+\end{equation}
+Write $Q=U+\tau_Q$ and $R=V+\tau_R$ according to
+\eqref{eq:cs-splitting}.  The two-torsion rows are distinct over $\Q_2$.
+Equations \eqref{eq:cs-local-squares} and \eqref{eq:cs-source-pair} therefore
+give $\tau_Q+\tau_R=T_0$ when $n\equiv1$, and $\tau_Q=\tau_R$ when
+$n\equiv7$.  Applying \eqref{eq:cs-torsion-rows} over $\Q$ then gives
+\begin{equation}\label{eq:cs-complete-coset}
+ U+V\in W+2H.
+\end{equation}
+Thus the undetermined part of the source is one element of $2H$.
+
+\subsection{Local conditions on the two remainders}
+
+The following calculation extracts exactly the information needed from
+the place $2$.  Put $u=x(U)$ and $v=x(V)$.  Translation by two-torsion gives
+\begin{equation}\label{eq:cs-translations}
+ x(P+T_0)=-\frac{n^2}{x(P)},\quad
+ x(P+T_+)=n+\frac{2n^2}{x(P)-n},\quad
+ x(P+T_-)=-n+\frac{2n^2}{x(P)+n}.
+\end{equation}
+For $n\equiv1$, the orders $(T_0,O)$ and $(O,T_0)$ have respectively
+$v_2(f)=-1$ and $v_2(f)=v_2(u)-1$.  For $n\equiv7$, the orders
+$(T_+,T_+)$ and $(T_-,T_-)$ have respectively $v_2(f)=-1$ and
+$v_2(f)=v_2(v)-1$.  These four valuations are odd.  The other four orders
+give
+\begin{equation}\label{eq:cs-surviving-formulas}
+\begin{array}{c|c|c}
+n\pmod8&(\tau_Q,\tau_R)&f(Q,R)\\ \hline
+1&(T_-,T_+)&n(u+v)/(2v(u+n))\\
+1&(T_+,T_-)&(u+v)/(2(u-n))\\
+7&(O,O)&(u+v)/(2(v+n))\\
+7&(T_0,T_0)&-n(u+v)/(2u(v-n)).
+\end{array}
+\end{equation}
+Each expression in the last column differs from $(u+v)/2$ by a
+$\Q_2$-square.  If $U,V$ have different depths, $u+v$ has even valuation
+and $(u+v)/2$ has odd valuation.  If their depths agree, write
+$u=2^{-2j}r^2$, $v=2^{-2j}s^2$ with $r,s\in\Z_2^*$; then
+$v_2(r^2+s^2)=1$.  We obtain
+\begin{equation}\label{eq:cs-sign-match}
+ v_2(f)\text{ even}\quad\Longrightarrow\quad
+ j(U)=j(V),\qquad \phi_0(V)=\pm\phi_0(U).
+\end{equation}
+For the last assertion, at depth $\nu$ both character values are odd;
+at depth $\nu+1$ both equal $2$; at larger depths both vanish.
+
+We next specify the odd primes used in the criterion.  Let $q\equiv5\pmod8$
+be a prime with $q\nmid n$ and $n\in\Q_q^{*2}$.  We allow either of the
+following reduction conditions on the entire subgroup $H$:
+\begin{enumerate}
+\item $\operatorname{red}_q(H)\subseteq\{O,T_0\}$.  Write
+ $\operatorname{red}_q(P)=\zeta_q(P)T_0$ and set
+ $\phi_q=2\zeta_q:H\longrightarrow\Z/4\Z$.
+\item There is $A_q\in E_n(\F_q)$ with $2A_q=T_0$ such that
+ $\operatorname{red}_q(H)\subseteq\langle A_q\rangle$.  Define
+ $\operatorname{red}_q(P)=\phi_q(P)A_q$ and put $i_q=x(A_q)/n$.
+ Require that
+ \begin{equation}\label{eq:cs-wrong-unit}
+ \begin{cases}(1-i_q)/2,&n\equiv1\pmod8,\\
+ (1+i_q)/2,&n\equiv7\pmod8
+ \end{cases}
+ \quad\text{is a nonsquare in }\F_q.
+ \end{equation}
+\end{enumerate}
+In the second case $A_q+T_0=-A_q$, so
+\eqref{eq:cs-translations} gives $i_q^2=-1$.  In either
+case put $\eta_q=\phi_q\bmod2$.
+
+\begin{lemma}\label{lem:cs-odd-row}
+For such a prime, $\eta_q(W)=0$.  If a pair
+\eqref{eq:cs-source-pair} has $v_2(f)$ even and $f\in\Q_q^{*2}$, then
+\[
+ \phi_q(U)=\phi_q(V)\in\{0,2\}.
+\]
+\end{lemma}
+\begin{proof}
+Only the cyclic case requires a proof that $\eta_q(W)=0$.  An odd
+multiple of $A_q$ has first Kummer coordinate $ni_q$, a nonsquare since
+$q\equiv5\pmod8$.  The first coordinate of $\delta(W)$ is $n$ or $-n$,
+both local squares.  Thus $W$ has even reduction coordinate.  Equation
+\eqref{eq:cs-complete-coset} now implies $\eta_q(U)=\eta_q(V)$.
+
+If both parities are odd, their abscissae reduce to $ni_q$.
+Translation by $T_0$ preserves this abscissa, whereas translation by
+$T_+$ or $T_-$ changes it to $-ni_q$.  The four orders in
+\eqref{eq:cs-surviving-formulas} give exactly the residues in
+\eqref{eq:cs-wrong-unit}.  Their numerators and denominators are units,
+so this case is excluded.
+
+Both remainders therefore reduce to $O$ or $T_0$.  Suppose their
+reductions differ.  When $n\equiv1\pmod8$, the corresponding $Q,R$
+both reduce to $T_+$ or both to $T_-$.  In the first case $f$ has
+residue $1/2$.  In the second case use the exact identity
+\[
+ (2e)^2f=2(a+c)c(c-n).
+\]
+The right side is a unit with residue $-8n^3$, of squareclass $2$.
+The identity applies at every positive depth of approach to $T_-$,
+because $e\ne0$.
+
+When $n\equiv7\pmod8$, $Q,R$ reduce in opposite orders to $O,T_0$.
+Near $O$ the abscissa has negative even valuation and square unit part;
+near $T_0$ it has positive even valuation and square unit part.  These
+facts follow by writing the cubic as $y^2=x^3(1-n^2/x^2)$ or as
+$y^2=-n^2x(1-x^2/n^2)$, respectively.  The abscissa near $O$ dominates
+$a+c$, and substitution in $f$ again gives squareclass $2$.  Since $2$
+is a nonsquare at $q$, the reductions cannot differ.  Their equal labels
+$O$ or $T_0$ give the asserted equal character values.
+\end{proof}
+
+\subsection{A secondary invariant of the complete source}
+
+Take finitely many primes $q_1,\ldots,q_s$ satisfying the preceding
+conditions, and abbreviate their characters to $\phi_j,\eta_j$.  Set
+\[
+ V_H=H/2H,\qquad
+ M:V_H\longrightarrow\F_2^{s+1},\qquad
+ M(\bar Z)=(\eta_0(Z),\ldots,\eta_s(Z)).
+\]
+For $\kappa\in\ker M$, choose a representative $W\in H$ and define
+\begin{equation}\label{eq:cs-beta}
+ b(W)=\left(\frac{\phi_0(W)}2,\ldots,
+                  \frac{\phi_s(W)}2\right),\qquad
+ \beta(\kappa)=b(W)\pmod{\operatorname{im}M}.
+\end{equation}
+Division by $2$ denotes the isomorphism $2(\Z/4\Z)\simeq\F_2$.
+For any $Z\in H$,
+\begin{equation}\label{eq:cs-compensation}
+ b(W+2Z)=b(W)+M(\bar Z).
+\end{equation}
+Thus \eqref{eq:cs-beta} defines a linear map
+$\beta:\ker M\longrightarrow\operatorname{coker}M$.
+
+\begin{theorem}[Common-source character criterion]
+\label{thm:cs-matrix}
+Assume \eqref{eq:cs-splitting}, $n\equiv1$ or $7\pmod8$, and the
+reduction hypotheses above.  Let $W$ satisfy
+\eqref{eq:cs-source-row} and $\eta_0(W)=0$, and put $\kappa=\bar W$.
+If $\beta(\kappa)\ne0$, no pair \eqref{eq:cs-source-pair} has both
+$v_2(f)$ even and $f\in\Q_{q_j}^{*2}$ for every $j$.
+
+Equivalently, an exclusion certificate is a vector
+$\mathbf c=(c_0,\ldots,c_s)\in\F_2^{s+1}$ such that
+\[
+ \sum_{j=0}^s c_j\eta_j=0\text{ on }H,
+ \qquad
+ \frac12\sum_{j=0}^s c_j\phi_j(W)=1\quad\text{in }\F_2.
+\]
+\end{theorem}
+\begin{proof}
+Suppose a pair exists.  By \eqref{eq:cs-sign-match}, one of $K=U-V$
+and $K=U+V$ satisfies $\phi_0(K)=0$.  By
+Lemma~\ref{lem:cs-odd-row}, every other row is equal and even on $U,V$;
+both their sum and their difference vanish modulo $4$.  Hence this
+single choice of $K$ satisfies $\phi_j(K)=0$ for all $j$.
+Both choices lie in $W+2H$, so $K=W+2Z$ for some $Z\in H$.
+Dividing $0=\phi_j(W)+2\phi_j(Z)$ by $2$ gives
+$b(W)=M(\bar Z)$, contrary to $\beta(\kappa)\ne0$.
+
+Finally, a vector lies outside $\operatorname{im}M$ precisely when a
+linear functional annihilating that image takes value $1$ on it.
+Writing the functional as dot product with $\mathbf c$ gives the stated
+certificate.  The parity relation makes
+$\frac12\sum c_j\phi_j$ a homomorphism $H/2H\to\F_2$, so its value is
+independent of the representative $W$.
+\end{proof}
+
+For example, if $s=1$ and $\eta_1=\eta_0$, the secondary character is
+\[
+ \Delta=\frac{\phi_1-\phi_0}{2}:H/2H\longrightarrow\F_2.
+\]
+On $\ker\eta_0$, both individual half-characters change by $\eta_0(Z)$
+under $W\mapsto W+2Z$.  Their difference is unchanged.  This explains
+why the same correction must be retained at both places.
+
+\subsection{An exclusion using the common quotient modulo eight}
+
+\begin{theorem}\label{thm:cs-15569}
+Let $n=15569$.  There are no finite rational points $Q=(a,b)$,
+$R=(c,e)$ satisfying \eqref{eq:cs-source-pair} for which $f(Q,R)$ is a
+square in each of $\Q_2,\Q_3,\Q_{113}$.
+\end{theorem}
+
+\begin{proof}
+We first determine the exact quotient of the rational group that is
+needed.  The integer $n$ is prime and is $1$ modulo $8$.  One short primality
+certificate is
+\[
+ n-1=112\cdot139,\quad 2^{112}\equiv6064,\quad
+ 2^{n-1}\equiv1\pmod n,\quad 803n-2062\cdot6063=1.
+\]
+Since $139$ is prime, every prime divisor $p$ of $n$ has
+$139\mid p-1$; as $139>\sqrt n$, this proves primality.
+For a rational point, both Kummer coordinates are supported on $-1,2,n$: at an odd
+prime not dividing $n$, either all three cubic factors have the same
+negative valuation or at most one has positive valuation, and the
+equation forces the relevant valuations to be even.
+
+Over $\Q_2$, choose $v^2=n$ and use $X=x/n$, $Y=y/(nv)$.
+The curve becomes $Y^2=X(X-1)(X+1)$, with the same local Kummer
+coordinates.  Its non-two-torsion points have the following rows; the
+two-torsion centres have the rows in \eqref{eq:cs-torsion-rows}.
+\begin{equation}\label{eq:cs-eight-local-rows}
+\begin{array}{c|c}
+\text{condition}&\delta\text{ in }(\Q_2^*/\Q_2^{*2})^2\\ \hline
+v_2(X)\leq-4&(1,1)\\
+v_2(X)=-2&(1,5)\\
+v_2(X)=2&(-1,-5)\\
+v_2(X)\geq4&(-1,-1)\\
+X\equiv1\pmod8,\ v_2(X-1)=3&(1,10)\\
+X\equiv1\pmod8,\ v_2(X-1)\geq5&(1,2)\\
+X\equiv-1\pmod8,\ v_2(X+1)=3&(-1,-10)\\
+X\equiv-1\pmod8,\ v_2(X+1)\geq5&(-1,-2).
+\end{array}
+\end{equation}
+In the first four rows the nonzero valuation is even; in the last four
+rows the displayed positive valuation is odd.  The table follows from
+even valuation and unit part $1$ modulo $8$ in the cubic.  For example,
+$X=u/4$ forces $u\equiv1\pmod8$, $X=4u$ forces
+$u\equiv7\pmod8$, and near $\pm1$ the other two factors have valuations
+$0,1$.  At depth $3$ the additional unit class is $5$; at greater odd
+depth it is a square.  These cases exhaust the parity of the valuations
+and the odd unit residues.
+
+Since $n$ is a $\Q_2$-square, a globally supported Kummer coordinate
+cannot have the extra local unit class $5$.  The four remaining rows
+are precisely the distinct rows of $E_n[2]$.  Every rational point has
+a unique two-torsion translate in $H$, proving
+\eqref{eq:cs-splitting}.  Furthermore
+\[
+ \delta(H)\subseteq\{1,n\}^2,
+ \qquad \ker(\delta|_H)=2H.
+\]
+Thus $\dim_{\F_2}H/2H\leq2$.
+
+Two points $P,G\in H$ are specified by the following factorizations.
+The three entries in each row are $x,x-n,x+n$:
+\begingroup\setlength{\arraycolsep}{3pt}
+\begin{equation}\label{eq:cs-rational-generators}
+\begin{array}{c|c|ccc}
+ &d&d^2x&d^2(x-n)&d^2(x+n)\\ \hline
+P&7760&n\,7809^2&108983^2&n\,11009^2\\
+G&13382920&n\,13522049^2&n\,1934751^2&2373852137^2.
+\end{array}
+\end{equation}
+\endgroup
+Choose the negative ordinate in each row:
+\[
+ y(P)=-\frac{n(7809)(108983)(11009)}{7760^3},\qquad
+ y(G)=-\frac{n(13522049)(1934751)(2373852137)}{13382920^3}.
+\]
+The displayed differences are $n$, and their products are these
+ordinates squared.  Hence the two rows specify rational points with
+\[
+ \delta(P)=(n,1),\qquad \delta(G)=(n,n).
+\]
+They form a basis of $H/2H$.  The depths are $j(P)=4$, $j(G)=3$.
+The homomorphism $\ell/4\pmod2$ vanishes on these representatives and
+therefore on $H$, proving $H\subseteq E_3(\Q_2)$.  Every element of $H$
+has a representation
+\begin{equation}\label{eq:cs-mod-eight}
+ h=kG+mP+8h_1,\qquad 0\leq k,m<8.
+\end{equation}
+Indeed, successive substitution of $H=\{0,G,P,G+P\}+2H$ three times
+gives this assertion.  Direct reduction of the fractions in
+\eqref{eq:cs-rational-generators} gives
+\begin{equation}\label{eq:cs-z-eight}
+ z(G)/8\equiv7,\qquad z(P)/8\equiv6\pmod8.
+\end{equation}
+The formal logarithm shows that $z(h)/8\pmod8$ is a homomorphism on
+$H/8H$.
+
+Every nonzero $H$-point has positive first Kummer coordinate and hence
+lies on the real identity component.  Equations
+\eqref{eq:cs-source-pair} and \eqref{eq:cs-translations}, followed by
+the dyadic valuation test, leave only
+\begin{equation}\label{eq:cs-15569-branch}
+ Q=U+T_-,\qquad R=V+T_+,\qquad U+V\in P+2H.
+\end{equation}
+Write
+\[
+ U=kG+mP+8h_1,\qquad V=k'G+m'P+8h_2.
+\]
+The source relation is
+\begin{equation}\label{eq:cs-parities}
+ k+k'\equiv0,\qquad m+m'\equiv1\pmod2.
+\end{equation}
+
+At $3$, $n\equiv2$, and $E_n(\F_3)$ consists of its four two-torsion
+points.  Their local Kummer rows are
+\[
+ O:(1,1),\quad T_0:(2,1),\quad
+ T_+:(2,2),\quad T_-:(1,2).
+\]
+The entries $1,2$ denote unit squareclasses in $\Q_3$.
+Every root neighbourhood has an even positive offset valuation and
+the indicated constant unit class; near $O$ the negative valuation is
+even.  Since $-n$ is a local square, $Q,R$ have equal Kummer rows and
+therefore the same reduction.  A common reduction $T_+$ gives
+$f\equiv1/2$, a nonsquare.  For common reduction $T_-$ the identity
+$(2e)^2f=2(a+c)c(c-n)$ has nonsquare unit residue, including every
+positive pole depth.  Thus a square return requires their common
+reduction to be $O$ or $T_0$.
+
+The rational coordinates give $\operatorname{red}_3G=T_+$ and
+$\operatorname{red}_3P=T_0$.  In view of
+\eqref{eq:cs-15569-branch}, both $k$ and $k'$ must be odd.  It follows
+from \eqref{eq:cs-z-eight} that $U,V$ have depth exactly $3$.  Put
+\[
+ \alpha=z(U)/8\equiv7k+6m,\qquad
+ \gamma=z(V)/8\equiv7k'+6m'\pmod8.
+\]
+Both are odd.  Writing $u=2^{-6}r^2$ and $v=2^{-6}s^2$ in the formal
+chart gives $r\equiv\alpha^{-1}$ and
+$s\equiv\gamma^{-1}\pmod8$.  The square condition at $2$ is
+\begin{equation}\label{eq:cs-eight-match}
+ \frac{r^2+s^2}{2}\equiv1\pmod8
+ \quad\Longleftrightarrow\quad
+ \alpha\equiv\pm\gamma\pmod8.
+\end{equation}
+Here odd squares modulo $16$ are $1,9$, so their average is $1$ modulo
+$8$ exactly when the two squares agree modulo $16$.
+
+It remains to use the same coefficients at $113$.  At this prime
+$n\equiv88\equiv38^2$, and the curve is $y^2=x^3+53x$.  Its complete
+group structure follows from the short doubling certificate
+\begin{equation}\label{eq:cs-f113-certificate}
+\begin{array}{c|cccc}
+ &A&2A&4A&8A\\ \hline
+ &(23,39)&(81,112)&(77,79)&T_0\\[1mm]
+ &B&2B&4B&8B\\ \hline
+ &(2,1)&(7,6)&T_+&O.
+\end{array}
+\end{equation}
+Thus $A$ has order $16$ and $B$ order $8$.  Their cyclic subgroups have
+different points of order $2$, so intersect trivially.  They generate a
+subgroup of order $128$.  Hasse's bound places the total order between
+$93$ and $135$, whence
+\[
+ E_n(\F_{113})\simeq\Z/16\Z\oplus\Z/8\Z,
+ \qquad \exp(2E_n(\F_{113}))=8.
+\]
+Both coordinates of $\delta(H)$ are squares in $\Q_{113}$, so every
+element of $H$ is twice a local point.  Consequently
+$\operatorname{red}_{113}(8H)=O$.
+
+Set
+\[
+ g=\operatorname{red}_{113}G=(81,112),\qquad
+ w=\operatorname{red}_{113}P=(36,58).
+\]
+The addition law gives
+\[
+ 4g=T_0,\quad w=2g+T_+,\quad
+ x(g)=81,\ x(3g)=16,\ x(g+T_+)=87,\ x(3g+T_+)=11.
+\]
+Put $\lambda=k+2m$ and $\mu=k'+2m'$ modulo $8$.  Then
+$\alpha\equiv-\lambda$, $\gamma\equiv-\mu$, so $\lambda,\mu$ are odd and
+\eqref{eq:cs-eight-match} gives $\mu=\pm\lambda$.  Equations
+\eqref{eq:cs-parities} and \eqref{eq:cs-15569-branch} now imply
+\[
+ \operatorname{red}_{113}Q=(\lambda+4)g+(m+1)T_+,
+ \qquad
+ \operatorname{red}_{113}R=\pm\lambda g+mT_+.
+\]
+The possible abscissae and return residues are therefore
+\begin{equation}\label{eq:cs-four-residues}
+\begin{array}{cc|c|c}
+\bar a&\bar c&\bar f&\bar f^{56}\\ \hline
+11&81&21&-1\\
+16&87&71&-1\\
+81&11&29&-1\\
+87&16&101&-1.
+\end{array}
+\end{equation}
+All numerators and denominators are nonzero.  For a short check of the
+last column, $21^4=8$ and $21^{28}=98$ in $\F_{113}$, while $98^2=-1$.
+The other entries satisfy $71=26^2\cdot21$, $29=30^2\cdot21$, and
+$101=8^2\cdot21$.  Thus each return is a nonsquare.  This contradicts
+$f\in\Q_{113}^{*2}$ and completes the proof.
+\end{proof}
+
+\begin{corollary}\label{cor:cs-15569-layer}
+For a strict interior rational-distance configuration, put
+$t=r_{00}r_{11}+r_{10}r_{01}$.  Then $\sf(t^2-1)\ne15569$.
+\end{corollary}
+\begin{proof}
+Theorem~\ref{thm:ell-exact-source} gives the source
+\eqref{eq:cs-source-pair} with $n=\sf(t^2-1)$ and
+$f(Q,R)=1/(r_{00}+r_{11})^2$.  Apply
+Theorem~\ref{thm:cs-15569}.
+\end{proof}

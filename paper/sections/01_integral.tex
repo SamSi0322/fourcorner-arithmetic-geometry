@@ -1,0 +1,590 @@
+\section{Integral and Gaussian forms of the four-distance equations}
+\label{sec:integral}
+
+We label the vertices of the unit square by
+\[
+ P_0=(0,0),\qquad P_1=(1,0),\qquad
+ P_2=(0,1),\qquad P_3=(1,1).
+\]
+A \emph{strict rational-distance point} is a point $(x,y)$ with
+$0<x,y<1$ whose distances $r_i$ to all four $P_i$ belong to
+$\Q_{>0}$. Thus
+\begin{equation}\label{eq:int:four}
+\begin{aligned}
+ r_0^2&=x^2+y^2,&r_1^2&=(1-x)^2+y^2,\\
+ r_2^2&=x^2+(1-y)^2,&r_3^2&=(1-x)^2+(1-y)^2.
+\end{aligned}
+\end{equation}
+The labels in these equations will be retained throughout.
+
+\subsection{Recovering the point from its four radii}
+
+Subtracting adjacent equations gives
+\begin{equation}\label{eq:int:recover}
+ 2x=1+r_0^2-r_1^2,\qquad
+ 2y=1+r_0^2-r_2^2.
+\end{equation}
+In particular the coordinates are rational. The following elimination
+keeps both the point and its four positive radii.
+
+\begin{proposition}\label{prop:int:radius-model}
+Positive rational numbers $(r_0,r_1,r_2,r_3)$ arise from a unique strict
+rational-distance point if and only if
+\begin{align}
+ r_0^2+r_3^2&=r_1^2+r_2^2,\label{eq:int:flag}\\
+ (1+r_0^2-r_1^2)^2+(1+r_0^2-r_2^2)^2&=4r_0^2,\label{eq:int:radiusquartic}\\
+ -1<r_0^2-r_1^2&<1,\qquad
+ -1<r_0^2-r_2^2<1.\label{eq:int:strict-radii}
+\end{align}
+The point is given by \eqref{eq:int:recover}.
+\end{proposition}
+
+\begin{proof}
+Equations \eqref{eq:int:flag} and \eqref{eq:int:radiusquartic} follow
+by adding and subtracting \eqref{eq:int:four}. Conversely, define $x,y$
+by \eqref{eq:int:recover}. The inequalities give $0<x,y<1$, and
+\eqref{eq:int:radiusquartic} gives $x^2+y^2=r_0^2$. Subtracting $2x-1$
+and $2y-1$ gives the equations for $r_1,r_2$; the remaining equation
+then follows from \eqref{eq:int:flag}. Positivity fixes the four square
+roots, and \eqref{eq:int:recover} gives uniqueness.
+\end{proof}
+
+Let $L$ be the least positive common denominator of $x,y$, and put
+\begin{equation}\label{eq:int:lattice}
+ X=Lx,\qquad Y=Ly,\qquad A_i=Lr_i.
+\end{equation}
+Then $X,Y,L$ are integers with
+\[
+ 0<X,Y<L,\qquad \gcd(X,Y,L)=1.
+\]
+Each $A_i$ is an integer: a rational number whose square is an integer
+is itself an integer. Equations \eqref{eq:int:four} become
+\begin{equation}\label{eq:int:integer-four}
+\begin{aligned}
+ A_0^2&=X^2+Y^2,&A_1^2&=(L-X)^2+Y^2,\\
+ A_2^2&=X^2+(L-Y)^2,&A_3^2&=(L-X)^2+(L-Y)^2.
+\end{aligned}
+\end{equation}
+Conversely, positive integers satisfying these equations and
+$0<X,Y<L$ give a strict rational-distance point by division by $L$;
+the additional gcd condition makes $L$ its least coordinate denominator.
+
+\subsection{Parity, symmetry lines, and the primitive denominator}
+
+We first record the elementary descent needed to deal with the symmetry
+lines of the square.
+
+\begin{lemma}[Square-area descent]\label{lem:int:fermat}
+A rational right triangle cannot have positive rational-square area.
+\end{lemma}
+
+\begin{proof}
+Clearing denominators would give an integer right triangle of square
+area. Dividing by the gcd of its sides preserves this property: the
+new area is an integer and a rational square, hence an integer square.
+Choose a primitive such triangle with least hypotenuse. Its legs and
+hypotenuse have the form
+\[
+ 2rs,\quad r^2-s^2,\quad r^2+s^2,
+ \qquad r>s>0,\quad \gcd(r,s)=1,
+\]
+where $r,s$ have opposite parity. To obtain this parametrization, write
+the odd leg as $a$ and the hypotenuse as $h$. The coprime positive
+integers $(h+a)/2,(h-a)/2$ have square product and are therefore
+squares.
+
+The area $rs(r-s)(r+s)$ is a square. Its four factors are pairwise
+coprime, so
+\[
+ r=u^2,\qquad s=v^2,\qquad r+s=w^2,\qquad r-s=z^2.
+\]
+The numbers $w,z$ are odd. Since $w^2-z^2=2v^2$ and odd squares are
+$1$ modulo $8$, the integer $v$ is even. The positive integers
+\[
+ a'=(w+z)/2,\qquad b'=(w-z)/2
+\]
+satisfy
+\[
+ (a')^2+(b')^2=u^2,\qquad a'b'/2=(v/2)^2.
+\]
+They give a right triangle of square area with hypotenuse $u$ strictly
+smaller than $r^2+s^2$. Primitive reduction, if required, decreases
+the hypotenuse further. This contradicts its minimal choice.
+\end{proof}
+
+\begin{lemma}\label{lem:int:symmetry}
+A strict rational-distance point lies on neither a midline nor a
+diagonal of the square. Its four radii are pairwise distinct.
+\end{lemma}
+
+\begin{proof}
+On $y=1/2$, put $u=2x-1$, $p=2r_0$, and $q=2r_1$. Then
+\[
+ p^2=u^2+2u+2,\qquad q^2=u^2-2u+2,
+ \qquad (pq)^2=u^4+4.
+\]
+If $u\ne0$, the rational numbers $|u|,2/|u|,pq/|u|$ are the sides
+of a right triangle of area one, contrary to
+Lemma~\ref{lem:int:fermat}. If $u=0$, the squared distance to a vertex
+is $1/2$, which is not a rational square. The other midline follows
+by exchanging coordinates. On $x=y$ the distance to $P_0$ is
+$\sqrt2\,x$; on $x+y=1$ the distance to $P_1$ is
+$\sqrt2\,(1-x)$. These are irrational because the coordinates are
+rational and the indicated factors are positive. Finally, the
+perpendicular bisector of every pair of square vertices is one of
+these four lines.
+\end{proof}
+
+\begin{proposition}[Primitive congruences]\label{int:primitive}
+For every strict rational-distance point,
+\[
+ 24\mid L.
+\]
+After a single exchange of the coordinates, $X$ is odd and $4\mid Y$.
+All four $A_i$ are odd and prime to $3$. Every prime divisor of
+\begin{equation}\label{eq:int:diagonal-product}
+ (X-Y)(X+Y-L)
+\end{equation}
+is congruent to $1$ or $7$ modulo $8$.
+\end{proposition}
+
+\begin{proof}
+If $L$ were odd, one could choose an odd element from each of
+$\{X,X-L\}$ and $\{Y,Y-L\}$. The corresponding equation in
+\eqref{eq:int:integer-four} would have right side $2$ modulo $4$.
+Thus $L$ is even. Primitivity excludes both $X,Y$ even, and their
+squared sum excludes both odd. Exchange coordinates so that $X$ is
+odd. All $A_i$ are odd; reduction modulo $8$ then gives $4\mid Y$
+and $4\mid L-Y$, hence $4\mid L$.
+
+If $3\nmid L$, each of $\{X,X-L\}$ and $\{Y,Y-L\}$ contains a
+unit modulo $3$. The associated squared distance would be $2$ modulo
+$3$. Hence $3\mid L$. Now exactly one of $X,Y$ is divisible by $3$:
+both units would again give a nonsquare sum, while both nonunits would
+contradict primitivity. Consequently every $A_i$ is a $3$-adic unit.
+
+The integer in \eqref{eq:int:diagonal-product} is nonzero by
+Lemma~\ref{lem:int:symmetry}, and both factors are odd. Let an odd
+prime $p$ divide $X-Y$. If $X,Y$ are units modulo $p$, then $A_0^2$
+reduces to twice a nonzero square. Otherwise both are zero modulo $p$;
+primitivity gives $p\nmid L$, and $A_3^2$ reduces to $2L^2$.
+In either case $\leg2p=1$. If instead $p\mid X+Y-L$, then
+$A_1^2\equiv2Y^2$ and $A_2^2\equiv2X^2\pmod p$; at least one of
+$X,Y$ is a unit, again by primitivity. Thus $\leg2p=1$ in this case
+as well. The supplementary law for $2$ gives $p\equiv1,7\pmod8$.
+
+A nonzero integer supported on these primes, with either sign, is
+$1$ or $7$ modulo $8$. Were $L\equiv4\pmod8$, our orientation would
+instead give
+\[
+ (X-Y)(X+Y-L)=X^2-Y^2-LX+LY\equiv5\pmod8.
+\]
+This contradiction proves $8\mid L$, and therefore $24\mid L$.
+\end{proof}
+
+\subsection{Common content of the integer radii}
+
+The common divisor of the four radii has a precise relation to the
+coordinate denominator.
+
+\begin{proposition}\label{int:content}
+Set
+\[
+ G=\gcd(A_0,A_1,A_2,A_3),\qquad a_i=A_i/G.
+\]
+Then $G^2\mid L$. Every prime divisor of $G$ is $1$ modulo $4$,
+and $\gcd(G,6)=1$. Writing
+\begin{equation}\label{eq:int:content-normalization}
+ H=L/G^2,
+\end{equation}
+one has
+\[
+ 24\mid H,\qquad r_i=\frac{a_i}{GH},\qquad
+ \gcd(a_0,a_1,a_2,a_3)=1.
+\]
+For every prime $p\mid H$, all four $a_i$ are $p$-adic units.
+\end{proposition}
+
+\begin{proof}
+The congruences already proved give $\gcd(G,6)=1$. Suppose an odd
+prime $p$ divides $G$ but not $L$. Subtracting the origin square from
+the two adjacent squares gives $X\equiv Y\equiv L/2\pmod p$.
+Then $A_0^2\equiv L^2/2\ne0\pmod p$, a contradiction. Thus
+$p\mid L$. Primitivity and $X^2+Y^2\equiv0\pmod p$ now force both
+$X,Y$ to be units and $(Y/X)^2\equiv-1\pmod p$. In particular
+$p\equiv1\pmod4$.
+
+Write $s=v_p(G)$ and $e=v_p(L)$. The identity
+\[
+ A_1^2-A_0^2=L(L-2X)
+\]
+has right side of exact valuation $e$, since $p\nmid X$. Its left
+side is divisible by $p^{2s}$; hence $e\ge2s$. This proves
+$G^2\mid L$ at every prime. Division of the adjacent squared
+differences by $G^2$ shows that all four $a_i^2$ have the same residue
+modulo each prime divisor of $H$. If one were divisible by that prime,
+all would be, contrary to their collective gcd. The remaining
+assertions follow from \eqref{eq:int:content-normalization} and
+$24\mid L$.
+\end{proof}
+
+There is also a uniform relation between the denominators of a sum
+and a difference of two radii. Here the denominator of a nonzero
+rational number always means its positive reduced denominator.
+
+\begin{theorem}[Complementary denominators]\label{thm:int:pair-denominators}
+For any distinct $i,j$, let $d_+$ and $d_-$ be the denominators of
+$r_i+r_j$ and $r_i-r_j$. Then
+\begin{equation}\label{eq:int:denominator-product}
+ \gcd(d_+,d_-)=G,\qquad d_+d_-=L/2.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Both denominators divide $L$. Fix an odd $p\mid L$, and write
+$e=v_p(L)$, $s=v_p(G)$. If $s=0$, the four $A_i$ are units modulo
+$p$, because their squares have the same residue and at least one is
+a unit. Every difference $A_i^2-A_j^2$ is divisible by $p^e$.
+Exactly one of $A_i+A_j,A_i-A_j$ is divisible by $p$, so their
+reduced denominator depths are $0$ and $e$.
+
+Suppose $s>0$. The proof of Proposition~\ref{int:content} shows
+$Y/X\equiv\pm\sqrt{-1}\pmod p$. Thus
+$L-2X$, $L-2Y$, $X-Y$, and $X+Y-L$ are all units modulo $p$.
+The six squared differences are, up to sign,
+\begin{equation}\label{eq:int:six-differences}
+ L(L-2X),\quad L(L-2Y),\quad
+ 2L(X+Y-L),\quad 2L(X-Y),
+\end{equation}
+with repetitions in the parallel directions. Each has exact depth
+$e$. If $e>2s$, the four $a_i$ are units, and their sum and difference
+have depths $0$ and $e-2s$. The depths of the corresponding
+denominators are consequently $e-s$ and $s$. If $e=2s$, the squared
+difference of the normalized pair is a unit, so both its sum and
+difference are units; both denominator depths are $s$. In all cases
+the sum of the two depths is $e$ and their minimum is $s$.
+
+At $2$, write $e=v_2(L)\ge3$ and keep $X$ odd, $4\mid Y$. All four
+$A_i$ are odd. The horizontal and opposite squared differences in
+\eqref{eq:int:six-differences} have depth $e+1$; the vertical ones
+have depth at least $e+3$. Of a sum and a difference of two odd
+integers, precisely one has depth one. The other therefore has depth
+at least $e$. Their reduced denominator depths are $e-1$ and $0$.
+Combining the prime-by-prime statements proves
+\eqref{eq:int:denominator-product}.
+\end{proof}
+
+\subsection{Gaussian roots and the four corner classes}
+
+Put $c_0=0$, $c_1=1$, $c_2=i$, $c_3=1+i$, and define the integer
+Gaussian displacements
+\[
+ U_j=X+iY-Lc_j.
+\]
+For $j=(\epsilon,\eta)$ put
+\[
+ d_j=\gcd(|X-\epsilon L|,|Y-\eta L|),\qquad
+ m_j=\sf(d_j),
+\]
+where $\sf$ denotes the positive squarefree part of a positive integer.
+The coordinate orientation is the one in Proposition~\ref{int:primitive}.
+
+\begin{theorem}[Canonical corner classes]\label{int:gaussian}
+The integers $d_j$ are odd, pairwise coprime, and coprime to $L$.
+Every prime dividing any $d_j$ is $1$ or $7$ modulo $8$. There are
+nonzero $q_j\in\Z[i]$ such that
+\begin{equation}\label{eq:int:gaussian-roots}
+ U_j=m_jq_j^2,\qquad \Nm(q_j)=A_j/m_j>0.
+\end{equation}
+In particular $m_0,m_1,m_2,m_3$ are positive odd squarefree integers
+with disjoint supports, and, for $z=x+iy$,
+\begin{equation}\label{eq:int:gaussian-classes}
+ [z-c_j]=[Lm_j]\quad\text{in }\Q(i)^*/\Q(i)^{*2}.
+\end{equation}
+Conversely, if a rational strict point has a primitive representation
+with $X$ odd and admits \eqref{eq:int:gaussian-roots} with positive
+integers $m_j$ and $q_j\in\Z[i]$, all four of its distances are rational.
+\end{theorem}
+
+\begin{proof}
+Every first coordinate $X-\epsilon L$ is odd, so all $d_j$ are odd.
+A prime dividing $d_j$ and $L$ would divide $X,Y,L$. A prime dividing
+two different $d_j$ would, by subtracting their coordinate pairs,
+divide $L$ as well. This proves the asserted coprimalities.
+If $p\mid d_j$, the squared distance from the opposite vertex is
+$2L^2$ modulo $p$. Since $p\nmid L$, this implies $\leg2p=1$.
+
+Divide the two legs and hypotenuse of the $j$th Pythagorean triangle
+by $d_j$. This gives coprime integers $a,b$ with $a$ odd, $b$ even,
+and $a^2+b^2$ an integer square. The Gaussian integers $a+ib,a-ib$
+are coprime: a common odd Gaussian prime would divide both $a,b$,
+while $1+i$ does not divide their odd norm. Unique factorization in
+$\Z[i]$ therefore makes $a+ib$ a unit times a square. Here unique
+factorization follows from the norm-Euclidean algorithm: rounding both
+coordinates of a complex quotient gives a remainder whose norm is
+at most half that of the divisor. The unit is
+not $\pm i$, because a Gaussian square of odd norm has odd real
+part and even imaginary part. The remaining units $\pm1$ are
+Gaussian squares. Writing $d_j=m_jt_j^2$ and absorbing $t_j$ gives
+$U_j=m_jq_j^2$. Taking the positive square root of its norm proves
+$A_j=m_j\Nm(q_j)$. Finally $U_j/L$ has squareclass $m_j/L$, which
+equals $Lm_j$. For the converse, taking norms in the four displayed
+root equations gives the four distances
+$m_j\Nm(q_j)/L\in\Q_{>0}$.
+\end{proof}
+
+The product
+\begin{equation}\label{eq:int:kernel}
+ n=m_0m_1m_2m_3
+\end{equation}
+is thus a positive odd squarefree integer, prime to $L$, supported on
+primes $1$ and $7$ modulo $8$. Equation
+\eqref{eq:int:gaussian-classes} records both its corner allocation
+and the single common factor $L$.
+
+\begin{proposition}[The common squarefree kernel]\label{prop:int:kernel-product}
+Put $t=r_0r_3+r_1r_2$. Then $t>1$ and
+\[
+ [t^2-1]=[n]\quad\text{in }\Q^*/\Q^{*2}.
+\]
+Consequently the Gaussian corner kernel \eqref{eq:int:kernel} equals
+$\sf(t^2-1)$.
+\end{proposition}
+\begin{proof}
+Write $z=x+iy$, and set
+\[
+ A=z(z-1-i),\qquad B=(z-1)(z-i),\qquad
+ a=r_0r_3,\qquad b=r_1r_2.
+\]
+Then $B-A=i$, $A\overline A=a^2$ and $B\overline B=b^2$.
+The triangle inequality gives $a+b\geq1$. Equality forces $A$ and $B$
+to lie on the imaginary axis, and hence
+\[
+ \operatorname{Re}(A)=(x-y)(x+y-1)=0.
+\]
+Lemma~\ref{lem:int:symmetry} excludes equality, so $t>1$.
+Expanding with the two norm identities gives
+\[
+ (bA+aB)^2
+ =AB\bigl(A\overline B+B\overline A+2ab\bigr)
+ =AB\bigl((a+b)^2-|A-B|^2\bigr)
+ =(t^2-1)AB.
+\]
+Multiplication of the four Gaussian identities
+\eqref{eq:int:gaussian-roots} gives
+$AB=n(q_0q_1q_2q_3/L^2)^2$. Thus $(t^2-1)/n$ is a square
+in $\Q(i)$. A positive rational number which is a square in
+$\Q(i)$ is a square in $\Q$: if $(u+iv)^2$ is positive rational,
+then $uv=0$ and positivity forces $v=0$. This proves the claim.
+\end{proof}
+
+The common factor also occurs in the unit restrictions at ramified
+split primes. For $p\equiv1\pmod8$, choose either square root
+$\iota$ of $-1$ in $\F_p$ and define
+\[
+ \epsilon(p)=\leg{1+\iota}{p}.
+\]
+This is independent of the choice: replacing $\iota$ by $-\iota$
+multiplies $1+\iota$ by $-\iota$, a square in $\F_p^*$.
+Equivalently,
+\begin{equation}\label{eq:int:quartic-sign}
+ \epsilon(p)=2^{(p-1)/4}(-1)^{(p-1)/8}\in\{1,-1\},
+\end{equation}
+where the power is evaluated in $\F_p$ and the result identified
+with its sign.
+
+\begin{proposition}\label{prop:int:ramified-units}
+If $p\equiv1\pmod8$ divides $m_j$, then
+\[
+ \leg{Lm_k}{p}=1
+\]
+for either adjacent corner $k$, and
+\[
+ \leg{Lm_{j^{\mathrm{op}}}}p=\epsilon(p)
+\]
+for the opposite corner $j^{\mathrm{op}}$.
+\end{proposition}
+
+\begin{proof}
+Use the reduction homomorphism $\Z[i]\longrightarrow\F_p$ given by
+$i\mapsto\iota$. From \eqref{eq:int:gaussian-roots},
+$X+iY\equiv Lc_j\pmod p$, and therefore for $k\ne j$
+\[
+ m_kq_k^2\equiv L(c_j-c_k)\pmod p.
+\]
+All factors on the right are nonzero. Adjacent differences are
+$\pm1$ or $\pm i$, all squares modulo $p$. Opposite differences are
+these units times $1+i$. Taking quadratic characters proves the
+assertions. For \eqref{eq:int:quartic-sign}, use
+$(1+\iota)^2=2\iota$ and raise to $(p-1)/4$.
+\end{proof}
+
+\subsection{Signed radii and denominator growth}
+
+The integral equations also connect divisibility to the real size of
+the square. Set
+\[
+ d=2+\sqrt2.
+\]
+For every strict point,
+\begin{equation}\label{eq:int:total-bound}
+ A_0+A_1+A_2+A_3<dL.
+\end{equation}
+Indeed, the sum of the distances to the four vertices is a convex
+function on the square and equals $d$ at each vertex. A strict point
+is a convex combination of all four vertices with positive weights.
+The triangle inequality for the distance to $P_0$ is strict in this
+combination, because the two adjacent nonzero vertex vectors are not
+parallel. This proves \eqref{eq:int:total-bound}.
+
+Choose arbitrary signs and write $a,b,c,e$ for the signed versions
+of $A_0,A_1,A_2,A_3$. Put
+\[
+ S=a+b+c+e,\quad T=a-b-c+e,\quad
+ P=ae-bc,\quad Q=ae+bc.
+\]
+The four-distance equations give the identities
+\begin{equation}\label{eq:int:signed-identities}
+ a^2+e^2=b^2+c^2,\qquad
+ PQ=-L^2(L-2X)(L-2Y),\qquad ST=2P.
+\end{equation}
+The second follows by expanding $A_0^2A_3^2-A_1^2A_2^2$;
+the last follows from the first. Lemma~\ref{lem:int:symmetry} shows
+that the product on the right is nonzero. Thus $S,T,P,Q$ are all
+nonzero, for every sign choice. Moreover
+\begin{equation}\label{eq:int:signed-bound}
+ |T|\le A_0+A_1+A_2+A_3<dL.
+\end{equation}
+
+\begin{theorem}[Prime-power comparisons]\label{thm:int:prime-comparisons}
+Let $K=2^{v_2(L)}$. Then
+\begin{equation}\label{eq:int:two-bound}
+ K^2<\frac{2+\sqrt2}{4}\,L.
+\end{equation}
+If $p$ is an odd prime with $p\mid L$ and $p\mid XY$, and
+$P_p=p^{v_p(L)}$, then
+\begin{equation}\label{eq:int:odd-bound}
+ P_p^2<\frac{2+\sqrt2}{2p}\,L.
+\end{equation}
+In particular
+\begin{equation}\label{eq:int:three-bound}
+ 3^{2v_3(L)}<\frac{2+\sqrt2}{6}\,L.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+For the dyadic assertion use $X$ odd and $4\mid Y$. Write
+$h=v_2(L)\ge3$ and $j=v_2(L-2Y)\ge3$; the latter is finite by
+Lemma~\ref{lem:int:symmetry}. Choose the signs of $a,b,c,e$ so that
+all four are $1$ modulo $4$. Every pair sum then has depth one.
+The horizontal and vertical squared differences give
+\[
+ v_2(a-b)=v_2(c-e)=h,\qquad
+ v_2(a-c)=v_2(b-e)=h+j-1.
+\]
+Consequently $a,b,c,e$ are congruent modulo $2^h$. It follows that
+\[
+ S\equiv4a\pmod{2^h},\qquad
+ Q\equiv2a^2\pmod{2^h},
+\]
+so $v_2(S)=2$ and $v_2(Q)=1$. Since $v_2(L-2X)=1$, the identities
+\eqref{eq:int:signed-identities} yield
+\[
+ v_2(P)=2h+j,\qquad v_2(T)=2h+j-1\ge2h+2.
+\]
+The nonzero integer $T$ therefore has $|T|\ge4K^2$.
+Equation~\eqref{eq:int:signed-bound} proves \eqref{eq:int:two-bound}.
+
+For the odd-prime assertion, exchange the coordinates independently
+if needed so that $p\nmid X$ and $p\mid Y$. This is possible by
+primitivity and the hypothesis $p\mid XY$. The four $A_i$ are
+$p$-adic units and their squares have the same residue. Choose their
+signs so that $a,b,c,e$ have the same nonzero residue modulo $p$.
+Then $S\equiv4a$ and $Q\equiv2a^2\pmod p$ are units.
+Set $h=v_p(L)$ and $j=v_p(L-2Y)\ge1$, again finite. The same
+identities now give the exact depth
+\[
+ v_p(T)=2h+j\ge2h+1.
+\]
+Every $A_i$ is odd, so the signed sum $T$ is even. Hence
+\[
+ 2pP_p^2\le2p^{2h+j}\le |T|<dL,
+\]
+which proves \eqref{eq:int:odd-bound}. At $p=3$, the required
+divisibility $3\mid XY$ was proved in
+Proposition~\ref{int:primitive}, so \eqref{eq:int:three-bound}
+follows.
+\end{proof}
+
+Writing $L=Km$ with $m$ odd, \eqref{eq:int:two-bound} takes the
+linear form
+\[
+ K<\frac{2+\sqrt2}{4}\,m.
+\]
+For odd $p$ as in the theorem, writing $L=P_ps$ similarly gives
+$P_p<(2+\sqrt2)s/(2p)$. These comparisons apply to the complete
+prime powers in the denominator.
+
+\begin{corollary}\label{cor:int:six-smooth}
+The least coordinate denominator of a strict rational-distance point
+has a prime divisor at least $5$.
+\end{corollary}
+
+\begin{proof}
+If $L$ were supported on $2$ and $3$, write $L=KP$ with
+$K=2^{v_2(L)}$ and $P=3^{v_3(L)}$. The preceding theorem gives
+\[
+ K^2<dL/4,\qquad P^2<dL/6.
+\]
+Multiplication and $KP=L$ yield $1<d^2/24$. But
+$d^2=6+4\sqrt2<24$, a contradiction.
+\end{proof}
+
+The same signed identities give a precise statement in the other
+$5$-adic direction, where all four radii have nontrivial content.
+
+\begin{proposition}[The unit-coordinate direction at $5$]
+\label{prop:int:five-depth}
+Suppose $5\mid L$ and $5\nmid XY$. Write $L=5^h m$ with $5\nmid m$.
+There is an integer $s\ge1$ such that
+\[
+ v_5(A_i)=s\quad(0\le i\le3),\qquad h>2s.
+\]
+Some signed sum $T$ of the four $A_i$ has exact depth $2h-3s$,
+and
+\begin{equation}\label{eq:int:five-bound}
+ 5^{h-3s}<\frac{2+\sqrt2}{2}\,m.
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Nonzero squares modulo $5$ are $1$ and $4$. Since $X,Y$ are units
+and $X^2+Y^2$ is a square, this sum must be zero modulo $5$.
+Thus $Y/X\equiv\pm2\pmod5$, and all four $A_i$ are divisible by $5$.
+Let $s=\min_i v_5(A_i)$. The adjacent squared differences have
+exact depth $h$, so $h\ge2s$.
+
+If $h=2s$, division of the four squared-distance equations by
+$5^{2s}$ gives residues
+\[
+ c,\quad c+u,\quad c+v,\quad c+u+v,
+ \qquad u,v\ne0,\quad v/u=\pm2
+\]
+in $\F_5$. These four residues are distinct, whereas $\F_5$ has
+only three square residues. Therefore $h>2s$. Every squared
+difference has depth at least $h$, and hence all four radii have
+depth exactly $s$.
+
+Divide the four radii by $5^s$ and choose signs so that the resulting
+units $a,b,c,e$ have the same residue modulo $5$. Their sums
+$S=a+b+c+e$ and $Q=ae+bc$ are units. The determinant identity becomes
+\[
+ (ae-bc)(ae+bc)=-\frac{L^2(L-2X)(L-2Y)}{5^{4s}}.
+\]
+Both $L-2X,L-2Y$ are units, so $ae-bc$ and
+$a-b-c+e$ have exact depth $2h-4s$. Multiplying the latter by
+$5^s$ gives an actual signed sum of the integer radii with exact
+depth $2h-3s$. It is nonzero and even. Its absolute value is at
+least $2\cdot5^{2h-3s}$ and less than $dL$, which proves
+\eqref{eq:int:five-bound}.
+\end{proof}

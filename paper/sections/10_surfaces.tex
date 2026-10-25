@@ -1,0 +1,336 @@
+\section{The distance surface and its Brauer--Manin sets}
+\label{sec:surface}
+
+The four-distance equations also define a fixed surface, independent of
+the square-free parameter in Section~\ref{sec:elliptic-sources}.
+The surface approach is developed in \cite{berry1990}, and its
+product-quotient description belongs to the general construction in
+\cite{corvajaturchetzannier2025}.  We give the equations and their geometry
+explicitly, and then determine the projection of the proper Brauer--Manin
+set onto the positive real region.
+
+\subsection{A canonical complete intersection}
+
+Let $S\subset\PP^4_{[A:B:C:D:T]}$ be defined by
+\begin{equation}\label{eq:surface-canonical}
+ \begin{split}
+ Q&=A^2+D^2-B^2-C^2=0,\\
+ F&=(T^2+A^2-B^2)^2+(T^2+A^2-C^2)^2-4T^2A^2=0.
+ \end{split}
+\end{equation}
+On $T=1$, the identification with the distance equations is
+\begin{equation}\label{eq:surface-return}
+ (r_0,r_1,r_2,r_3)=(A,B,C,D),\qquad
+ x=\frac{1+A^2-B^2}{2},\qquad
+ y=\frac{1+A^2-C^2}{2}.
+\end{equation}
+Indeed, $F=0$ gives $x^2+y^2=A^2$, and subtraction gives the other
+three identities.  Let $X\to S$ be the minimal resolution.  Write $U$
+for the open subset $T=1$, $ABCD\ne0$, viewed as an open subset of $X$,
+and put
+\[
+ \mathcal C=\{(x,y,r_0,r_1,r_2,r_3)\in U(\R):
+       0<x,y<1,\ r_j>0\text{ for all }j\}.
+\]
+
+\begin{proposition}\label{prop:surface-invariants}
+The surface $S$ is geometrically integral and has precisely forty
+ordinary double points.  Its resolution $X$ is a simply connected
+minimal surface of general type, with
+\[
+ K_X^2=8,\qquad p_g(X)=5,\qquad q(X)=0,\qquad
+ c_2(X)=64,\qquad b_2(X)=62.
+\]
+The geometric Picard group of $X$ is a finitely generated free abelian
+group.
+\end{proposition}
+
+\begin{proof}
+Work first over an algebraically closed field of characteristic zero.
+Put $z=x+iy$, $w=x-iy$, and
+\[
+ (\alpha_0,\alpha_1,\alpha_2,\alpha_3)=(0,1,i,1+i).
+\]
+The affine distance equations become
+\begin{equation}\label{eq:surface-branch-grid}
+ r_j^2=(z-\alpha_j)(w-\overline\alpha_j),\qquad 0\le j\le3.
+\end{equation}
+Their four square classes are independent in
+$\overline\Q(z,w)^*/\overline\Q(z,w)^{*2}$: the divisor
+$z=\alpha_j$ occurs with odd multiplicity only in the $j$th radicand.
+Thus the affine surface is geometrically integral.  The complete
+intersection \eqref{eq:surface-canonical} is Cohen--Macaulay and purely
+two-dimensional. Its intersection with $T=0$ has dimension one, so every
+irreducible component meets the affine chart. There is consequently only
+one component, and it is generically reduced. The Cohen--Macaulay property
+excludes embedded components, hence $S$ is reduced and geometrically integral.
+
+The branch grid in \eqref{eq:surface-branch-grid} determines all affine
+singularities.  Away from the grid the covering is \'etale.  Along a
+single branch line, its square root is a local parameter.  At an
+intersection $z=\alpha_j$, $w=\overline\alpha_k$ with $j\ne k$, the two
+corresponding square roots are independent local parameters.  At an
+intersection with $j=k$, the local equation, after extracting square
+roots of units, is $r_j^2=uv$.  This is an ordinary double point.
+There are eight choices for the other three roots at each of the four
+vertices, giving thirty-two affine nodes.  In distance coordinates the
+three nonzero roots at a vertex are $\pm1,\pm1,\pm\sqrt2$.
+
+At infinity, write $H_\pm=A^2-B^2\pm i(A^2-C^2)$.  The boundary is
+the union of the two intersections $Q=H_\pm=0$ in $\PP^3$.  Each is
+smooth: the ratios of the four diagonal coefficients of $H_\pm$ to
+those of $Q$ are
+\[
+ 1\pm i,\quad 1,\quad \pm i,\quad 0,
+\]
+which are pairwise distinct.  Proportional gradients would therefore
+leave at most one coordinate nonzero, contrary to $Q=0$.  Their
+intersections are exactly
+\begin{equation}\label{eq:surface-infinity-nodes}
+ [1:\epsilon_1:\epsilon_2:\epsilon_3:0],
+ \qquad \epsilon_1,\epsilon_2,\epsilon_3\in\{1,-1\}.
+\end{equation}
+At any such point set $A=1$, $B=\epsilon_1+b$,
+$C=\epsilon_2+c$, $T=t$, and eliminate $D$ using $Q$.
+The quadratic term of $F$ is $4(b^2+c^2-t^2)$, which is nondegenerate.
+These are eight more nodes.  The preceding smoothness calculation
+also exhausts the points at infinity.  In particular $S$ is normal.
+
+Adjunction for a complete intersection gives $\omega_S=\OO_S(1)$.
+Ordinary double points are rational and their resolutions are crepant,
+so
+\[
+ K_X=\pi^*\OO_S(1),\qquad K_X^2=\deg S=8.
+\]
+The Koszul resolution
+\[
+ 0\longrightarrow\OO_{\PP^4}(-6)
+ \longrightarrow\OO_{\PP^4}(-2)\oplus\OO_{\PP^4}(-4)
+ \longrightarrow\OO_{\PP^4}
+ \longrightarrow\OO_S\longrightarrow0
+\]
+gives $H^1(S,\OO_S)=0$ and $h^0(S,\OO_S(1))=5$.
+Rationality of the singularities then gives $q=0$ and $p_g=5$ on $X$.
+The canonical divisor is nef and big; adjunction excludes a
+$(-1)$-curve.  Noether's formula gives $c_2=12(1-q+p_g)-K_X^2=64$,
+and $b_1=2q=0$ gives $b_2=62$.
+
+For simple connectedness, deform the two defining equations slightly
+to a smooth complete intersection of type $(2,4)$, which is simply
+connected by the Lefschetz hyperplane theorem.  Remove disjoint small
+neighbourhoods of the forty nodes.  The smoothing and the resolution
+have the same differentiable exterior.  Each boundary is
+$\mathbf{RP}^3$.  Both the corresponding Milnor fibre and the
+resolution neighbourhood are simply connected: the former retracts
+onto a two-sphere, and the latter onto the exceptional projective
+line.  Van Kampen's theorem therefore presents both fundamental
+groups as the fundamental group of the common exterior modulo the
+normal closures of the boundary-group images.  They are the same
+quotient.  Thus $X(\mathbf C)$ is simply connected.
+
+Consequently $H_1(X(\mathbf C),\Z)=0$, and the universal coefficient
+theorem makes $H^2(X(\mathbf C),\Z)$ torsion-free.  The exponential
+sequence and $q=0$ inject $\Pic(X_{\mathbf C})$ into this group.
+Finally $\Pic^0(X)=0$ and the N\'eron--Severi theorem give finite
+generation of the geometric Picard group.
+\end{proof}
+
+\subsection{A fixed product of genus-five curves}
+
+Let $K=\Q(i)$.  Define $C_0/K$ by its function field
+\begin{equation}\label{eq:surface-fixed-curve}
+ K(C_0)=K(z)(u_0,u_1,u_2,u_3),\qquad u_j^2=z-\alpha_j,
+\end{equation}
+and let $\overline C_0$ denote its coefficient conjugate.  Both curves
+are understood to be smooth and projective.
+
+\begin{proposition}\label{prop:surface-product}
+The curve $C_0$ has genus five.  The diagonal sign action of
+$G=(\Z/2\Z)^4$ gives a birational identification
+\[
+ X_K\sim (C_0\times\overline C_0)/G.
+\]
+Its invariant functions include the four labelled products
+$r_j=u_jv_j$, where $v_j^2=w-\overline\alpha_j$.
+The Jacobian of $C_0$ is geometrically isogenous to a product of five
+elliptic curves: four have $j=128$ and one has $j=1728$.
+\end{proposition}
+
+\begin{proof}
+The four radicands in \eqref{eq:surface-fixed-curve} are independent
+square classes by their valuations at their distinct zeros.  The
+covering $C_0\to\PP^1$ has degree sixteen.  Its inertia elements are
+the four individual sign changes at the finite branch points and their
+sum at infinity.  Each inertia group has order two, so
+\[
+ 2g(C_0)-2=16(-2)+5\cdot8=8.
+\]
+On the product, the diagonal action fixes $z,w,u_jv_j$.  The field
+they generate has degree sixteen over $K(z,w)$ by the square-class
+argument for \eqref{eq:surface-branch-grid}.  This is the degree of
+the invariant field, since the product field has degree $256$ over
+$K(z,w)$.  The invariant field is therefore precisely the distance
+function field.
+
+For a nonempty subset $J\subset\{0,1,2,3\}$, the corresponding
+character quotient is
+\[
+ y_J^2=\prod_{j\in J}(z-\alpha_j).
+\]
+Only the four subsets of size three and the subset of size four
+have positive genus; all five quotients have genus one.  The
+pullbacks of their differentials give the five distinct character
+lines in $H^0(C_0,\Omega^1)$, hence their product induces an isogeny
+on Jacobians.  The branch cross-ratios can be chosen as $i$ for the
+three-element quotients and $2$ for the four-element quotient.
+Substitution in
+\[
+ j(\lambda)=256\frac{(1-\lambda+\lambda^2)^3}
+                         {\lambda^2(1-\lambda)^2}
+\]
+gives the asserted values.
+\end{proof}
+
+\subsection{The positive real component}
+
+We write $\operatorname{Br}$ for the cohomological Brauer group and
+$\operatorname{Br}_0$ for the image of the Brauer group of the ground
+field.  The rational point used below lies on the boundary
+of $U$.
+
+\begin{lemma}\label{lem:surface-real-boundary}
+There is a point $P_*\in X(\Q)$ in the same real connected
+component as every point of $\mathcal C$.
+\end{lemma}
+
+\begin{proof}
+At the node $[1:1:1:1:0]$, use the local coordinates $b,c,t$ from
+the proof of Proposition~\ref{prop:surface-invariants}.  The
+exceptional conic is $b^2+c^2=t^2$.  Take the rational point
+$P_*=[-1:0:1]$ on this conic.
+
+Start with a point of $\mathcal C$, fix its $y\in(0,1)$, and let
+$x$ tend to $+\infty$, choosing all four positive distance roots.
+This is a path in the smooth affine locus because none of the
+distances vanishes.  In the chart $A=1$ its coordinates are
+$B=r_1/r_0$, $C=r_2/r_0$, $T=1/r_0$.  Rationalization gives
+\[
+ \frac b t=r_1-r_0=\frac{1-2x}{r_1+r_0}\longrightarrow-1,
+ \qquad
+ \frac c t=r_2-r_0=\frac{1-2y}{r_2+r_0}\longrightarrow0.
+\]
+The lifted path extends to $P_*$ on the resolution.
+\end{proof}
+
+\begin{proposition}\label{prop:surface-brauer-finite}
+The group $\operatorname{Br}(X)/\operatorname{Br}_0(X)$ is finite.
+\end{proposition}
+
+\begin{proof}
+Resolve the rational map $C_0\times\overline C_0\dashrightarrow X_K$
+from Proposition~\ref{prop:surface-product}.  This gives a smooth
+projective surface $Y$, birational to the product, and a generically
+finite morphism $f:Y\to X_K$ of degree sixteen.
+The product theorem of Skorobogatov--Zarhin
+\cite[Theorem~A]{skorobogatovzarhin2014}, with its corrected proof
+\cite{skorobogatovzarhin2023}, states that, over a field finitely
+generated over $\Q$, the map
+\[
+ \operatorname{Br}(\overline V)^{\Gamma}\oplus
+ \operatorname{Br}(\overline W)^{\Gamma}
+ \longrightarrow
+ \operatorname{Br}(\overline V\times\overline W)^{\Gamma}
+\]
+has finite cokernel for smooth projective geometrically integral
+varieties $V,W$.  The geometric Brauer group of a smooth projective
+curve is zero.  Applied to our two curves, this theorem and
+birational invariance therefore show that
+$\operatorname{Br}(\overline Y)^{\Gamma_K}$ is finite.
+
+Restriction--corestriction on function fields shows that the kernel of
+$f^*: \operatorname{Br}(\overline X)\to\operatorname{Br}(\overline Y)$
+is killed by sixteen.  This kernel is finite, because the Kummer
+sequence places $\operatorname{Br}(\overline X)[16]$ in a quotient of
+the finite group $H^2_{\mathrm{\acute et}}(\overline X,\mu_{16})$.
+Taking invariant subgroups thus proves that
+$\operatorname{Br}(\overline X)^{\Gamma_K}$, and hence
+$\operatorname{Br}(\overline X)^{\Gamma_\Q}$, is finite.
+
+By Proposition~\ref{prop:surface-invariants}, $\Pic(\overline X)$
+is a finitely generated free abelian group.  Its Galois action factors
+through a finite group.  Inflation--restriction and the vanishing of
+continuous homomorphisms from a profinite group to a discrete free
+abelian group identify its first Galois cohomology with that of a
+finite group acting on a lattice; this group is finite.  The
+Hochschild--Serre sequence now embeds
+$\operatorname{Br}_1(X)/\operatorname{Br}_0(X)$ in
+$H^1(\Q,\Pic(\overline X))$, while
+$\operatorname{Br}(X)/\operatorname{Br}_1(X)$ embeds in
+$\operatorname{Br}(\overline X)^{\Gamma_\Q}$.  Both are finite.
+\end{proof}
+
+\subsection{Adelic points with a prescribed strict real component}
+
+For a subgroup $B\subset\operatorname{Br}(U)$, let
+$U(\mathbf A_\Q)^B$ denote the points in the usual restricted-product
+adelic space orthogonal to $B$ under the Brauer--Manin pairing.  We
+identify $\operatorname{Br}(X)$ with its restriction to $U$.
+
+\begin{theorem}\label{thm:surface-brauer-projection}
+Every $w\in\mathcal C$ is the real component of an adelic point in
+$U(\mathbf A_\Q)^{\operatorname{Br}(X)}$.  Moreover, for every finite
+subgroup $B\subset\operatorname{Br}(U)$ and every $w\in\mathcal C$,
+there is a point $(P_v)\in U(\mathbf A_\Q)^B$ with $P_\infty=w$.
+\end{theorem}
+
+\begin{proof}
+First let $B_0$ be a finite subgroup of $\operatorname{Br}(X)$.
+Choose a finite set $\Sigma$ of primes such that $X$, $U$ and
+$P_*$ extend to a smooth proper model $\mathscr X$, a smooth
+geometrically integral open model $\mathscr U$, and a section over
+$\Z[1/\Sigma]$, and all the classes in $B_0$ extend to
+$\operatorname{Br}(\mathscr X)$.  The section is denoted by the same
+symbol $P_*$ here.  Lang--Weil and Hensel's lemma, after enlarging
+$\Sigma$, give a point of $\mathscr U(\Z_p)$ for every
+$p\notin\Sigma$.  Every class in $B_0$ evaluates to zero at this
+point and at the section, since $\operatorname{Br}(\Z_p)=0$.
+
+At each $p\in\Sigma$, the evaluation of a Brauer class on $X(\Q_p)$
+is locally constant.  Choose a sufficiently small neighbourhood of
+the rational point $P_*$ on which all the evaluations in $B_0$
+agree with their values at $P_*$.  This neighbourhood contains a
+point of $U(\Q_p)$: in smooth analytic coordinates a proper algebraic
+closed subset cannot contain an open ball.  At the real place use
+the prescribed $w$.  Evaluation is constant on real connected
+components, so Lemma~\ref{lem:surface-real-boundary} gives agreement
+with $P_*$ there as well.
+
+These choices form an adelic point of $U$, integral in the single
+model $\mathscr U$ outside $\Sigma$.  For each $\beta\in B_0$ its
+evaluations coincide place by place with those of
+$\beta(P_*)\in\operatorname{Br}(\Q)$.  Global reciprocity
+therefore gives orthogonality to $B_0$.
+
+Proposition~\ref{prop:surface-brauer-finite} supplies finitely many
+representatives for
+$\operatorname{Br}(X)/\operatorname{Br}_0(X)$.  Because the Brauer
+group is torsion, they generate a finite subgroup $B_0$.  Applying
+the construction to this group gives orthogonality to all of
+$\operatorname{Br}(X)$, as constants have zero total invariant.
+
+For the last assertion, use Harari's formal lemma in the form
+recalled in \cite{colliothelene_skoro2021}: if $V$ is smooth and
+geometrically integral over a number field, $U\subset V$ is a
+nonempty open subset, and $B\subset\operatorname{Br}(U)$ is finite,
+then an adelic point of $U$ orthogonal to
+$B\cap\operatorname{Br}(V)$ can be replaced by one orthogonal to
+$B$, preserving its components at any prescribed finite set of
+places.  Apply the lemma with $V=X$, starting with the point just
+constructed, and preserve the real component.
+\end{proof}
+
+Thus the positive real region lies in the projection of the adelic
+set for the entire proper Brauer group, and also in the projection
+for each finite subgroup of the affine Brauer group.  In the second
+assertion the finite subgroup is fixed before the adelic point is
+chosen; this is the quantifier order used in the theorem.

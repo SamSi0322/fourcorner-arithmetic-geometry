@@ -1,0 +1,14 @@
+.lake/
+__pycache__/
+.DS_Store
+*.olean
+*.ilean
+*.c
+*.o
+*.trace
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/main.pdf
+lean/verification/

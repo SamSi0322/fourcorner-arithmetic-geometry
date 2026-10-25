@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the version used."
+type: article
+title: "Arithmetic constraints and covering curves for rational distances in a square"
+authors:
+  - family-names: "Si"
+    given-names: "Yuan"
+    orcid: "https://orcid.org/0009-0005-1233-6972"
+doi: "10.5281/zenodo.23638745"
+version: "1.0.0"
+date-released: "2026-10-25"
+license: CC-BY-4.0

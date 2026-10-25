@@ -1,0 +1,643 @@
+\section{Ordered elliptic sources and fixed-distance fibres}
+\label{sec:elliptic-sources}
+
+We label the vertices $00,10,01,11$ by $0,1,2,3$, respectively.
+The distance surface is given by
+\begin{equation}\label{eq:ell-original}
+ r_0^2=x^2+y^2,\quad r_1^2=(x-1)^2+y^2,\quad
+ r_2^2=x^2+(y-1)^2,\quad r_3^2=(x-1)^2+(y-1)^2.
+\end{equation}
+Throughout, a strict rational point has $0<x,y<1$ and
+$r_0,r_1,r_2,r_3\in\Q_{>0}$.  This section gives two descriptions of
+the complete source of such points: an ordered pair on a congruent-number
+elliptic curve, with one final square condition, and a genus-five curve
+obtained by fixing a signed pair of distances.
+
+\subsection{Diagonal sums and a simultaneous square model}
+
+Set
+\[
+ s=r_0+r_3,\qquad d=r_0-r_3,\qquad
+ \tau=r_1+r_2,\qquad e=r_2-r_1.
+\]
+Subtracting the equations in \eqref{eq:ell-original} gives
+\[
+ sd=2(x+y-1),\qquad \tau e=2(x-y).
+\]
+The four equations are equivalently encoded by
+\begin{equation}\label{eq:ell-diagonal}
+ s^2+d^2=\tau^2+e^2,\qquad
+ (s^2-2)(2-d^2)=\tau^2e^2,
+\end{equation}
+together with the return formulas
+\begin{equation}\label{eq:ell-diagonal-return}
+ \begin{aligned}
+ (r_0,r_1,r_2,r_3)&=\tfrac12(s+d,\tau-e,\tau+e,s-d),\\
+ x&=\tfrac12+\tfrac14(sd+\tau e),\qquad
+ y=\tfrac12+\tfrac14(sd-\tau e).
+ \end{aligned}
+\end{equation}
+For example, eight times the difference between the first two sides of
+$x^2+y^2=r_0^2$ is
+$-(s^2-2)(2-d^2)+\tau^2e^2$; the other three equations follow by
+subtraction and the first equation of \eqref{eq:ell-diagonal}.
+
+\begin{lemma}\label{lem:ell-diagonal-exclusion}
+Neither diagonal of the square contains a strict rational four-distance
+point.  The square symmetries let us choose the chamber
+\begin{equation}\label{eq:ell-chamber}
+ x+y>1,\qquad x>y.
+\end{equation}
+\end{lemma}
+\begin{proof}
+On $x=y$
+one has $r_0=\sqrt2x$, and on $x+y=1$ one has
+$r_1=\sqrt2(1-x)$.  The square symmetries act on
+$(x+y-1,x-y)$ by signed permutations.
+\end{proof}
+In \eqref{eq:ell-chamber} we have
+\[
+ s>d>0,\qquad \tau>e>0,\qquad s,\tau>\sqrt2.
+\]
+The strict triangle inequalities give $d^2,e^2<2$.  In fact
+\begin{equation}\label{eq:ell-J-negative}
+ d^2+e^2\leq
+ 2\bigl((x+y-1)^2+(x-y)^2\bigr)
+ =4\bigl((x-\tfrac12)^2+(y-\tfrac12)^2\bigr)<2.
+\end{equation}
+
+Define
+\begin{equation}\label{eq:ell-pure-coordinates}
+ p=\frac{2-e^2}{d^2},\quad
+ \beta=\frac{s^2}{2-e^2},\quad
+ U=\frac{s}{d},\quad V=\frac{2e}{d},\quad
+ W=\frac{2\tau}{d},\quad T=\frac2d.
+\end{equation}
+Here $p,\beta>1$, and \eqref{eq:ell-diagonal} becomes
+\begin{equation}\label{eq:ell-pure}
+ \begin{aligned}
+ U^2&=p\beta,\qquad
+ V^2=2(p-1)(\beta-1),\\
+ W^2&=2(p+1)(\beta+1),\qquad
+ T^2=(p-1)\beta+p+1.
+ \end{aligned}
+\end{equation}
+Conversely these four equations give
+\begin{equation}\label{eq:ell-pure-return}
+ \begin{aligned}
+ (r_0,r_1,r_2,r_3)
+ &=\left(\frac{U+1}{T},\frac{W-V}{2T},
+          \frac{W+V}{2T},\frac{U-1}{T}\right),\\
+ x&=\frac12+\frac{U+WV/4}{T^2},\qquad
+ y=\frac12+\frac{U-WV/4}{T^2}.
+ \end{aligned}
+\end{equation}
+Thus all four square roots remain attached to the same $p,\beta$.
+
+\subsection{The complete ordered elliptic source}
+
+For a positive squarefree integer $n$, let
+\[
+ E_n:\quad Y^2=X(X-n)(X+n).
+\]
+An ordered source consists of two points
+$Q=(a,b)$ and $R=(c,\ell)$ on $E_n$, and three rational roots
+$u,v,h$ satisfying
+\begin{equation}\label{eq:ell-ordered-roots}
+ u^2=-\frac{ac}{n},\qquad
+ v^2=-\frac{(a-n)(c-n)}{n},\qquad
+ h^2=\frac{a+c}{2(c+n)}.
+\end{equation}
+The third product root is fixed by the ordinates:
+\begin{equation}\label{eq:ell-w-ordinate}
+ w=\frac{b\ell}{nuv},\qquad w^2=(a+n)(c+n).
+\end{equation}
+In particular the first two equations specify the ordered square classes
+\[
+ [ac]=[-n],\qquad [(a-n)(c-n)]=[-n]
+ \quad\text{in }\Q^*/\Q^{*2}.
+\]
+The condition on $h$ is a further square condition on this same pair.
+
+\begin{theorem}[Exact ordered-source correspondence]
+\label{thm:ell-exact-source}
+Strict rational points in the chamber \eqref{eq:ell-chamber} are in
+bijection with the union, over positive squarefree $n$, of the rational
+solutions of \eqref{eq:ell-ordered-roots} for which
+\begin{equation}\label{eq:ell-source-signs}
+ -n<a<0<c-n,\qquad b,\ell,u,v,h>0,
+\end{equation}
+and
+\begin{equation}\label{eq:ell-strict-metric}
+ \frac{2u}{a+c}\left(-\frac ba+\frac\ell c\right)<2.
+\end{equation}
+For this correspondence the final square is
+\begin{equation}\label{eq:ell-final-square}
+ f(Q,R):=\frac{a+c}{2(c+n)}
+       =\frac{1}{(r_0+r_3)^2}.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+We first give rational maps that preserve the actual roots and ordinates.
+From an ordered source set
+\begin{equation}\label{eq:ell-forward-pair}
+ \begin{aligned}
+ p&=-\frac na,& k&=\frac b{a^2},&
+ \beta&=\frac{c+n}{c-n},\\
+ U&=\frac{(n-a)w}{bv},&
+ V&=-\frac{2b}{av},&
+ W&=\frac{2(a-n)u}{av},& T&=2Uh.
+ \end{aligned}
+\end{equation}
+The curve equations and \eqref{eq:ell-ordered-roots} imply
+\eqref{eq:ell-pure} and
+\begin{equation}\label{eq:ell-k}
+ nk^2=p(p^2-1).
+\end{equation}
+For instance, $k^2=b^2/a^4=(a^2-n^2)/a^3$ gives
+\eqref{eq:ell-k}; the other identities follow by cancelling the factors
+$a,a\pm n,c,c\pm n$.
+Conversely, from \eqref{eq:ell-pure} and \eqref{eq:ell-k} put
+\begin{equation}\label{eq:ell-inverse-pair}
+ \begin{aligned}
+ a&=-\frac np,& b&=ka^2,&
+ c&=n\frac{\beta+1}{\beta-1},&
+ \ell&=\frac nk\frac{UVW}{(\beta-1)^2},\\
+ u&=\frac{(p-1)W}{kV},&
+ v&=\frac{2(p^2-1)}{kV},&
+ h&=\frac T{2U}.&&
+ \end{aligned}
+\end{equation}
+These formulas give, separately,
+\[
+ \begin{aligned}
+ b^2&=\frac{n^3(p^2-1)}{p^3}=a(a-n)(a+n),\\
+ \ell^2&=\frac{4n^3\beta(\beta+1)}{(\beta-1)^3}
+          =c(c-n)(c+n),\\
+ u^2&=\frac{n(\beta+1)}{p(\beta-1)}=-\frac{ac}{n},\\
+ v^2&=\frac{2n(p+1)}{p(\beta-1)}=-\frac{(a-n)(c-n)}n,\\
+ h^2&=\frac{(p-1)\beta+p+1}{4p\beta}
+       =\frac{a+c}{2(c+n)}.
+ \end{aligned}
+\]
+Inserting \eqref{eq:ell-inverse-pair} into
+\eqref{eq:ell-forward-pair} returns $U,V,W,T$ with their signs.
+Conversely it returns $b$ and $\ell$ as well as $a,c,u,v,h$.
+
+To obtain $n$ and $k$ from a strict original point, set
+\[
+ t=r_0r_3+r_1r_2=\frac{s^2-e^2}{2},\quad
+ J=d^2+e^2-2,\quad K=2-d^2,
+\]
+and choose the unique positive squarefree integer $n$ and positive
+$q\in\Q$ with $t^2-1=nq^2$.  This is possible because
+\eqref{eq:ell-diagonal} gives
+\begin{equation}\label{eq:ell-theta-id}
+ t^2-1=\left(\frac{de}{J}\right)^2K(2-e^2)>0.
+\end{equation}
+For completeness, writing $D=d^2$ and $E=e^2$, the two equations of
+\eqref{eq:ell-diagonal} give
+\[
+ s^2=-\frac{(2-E)(2+E-D)}{D+E-2},\qquad
+ \tau^2=-\frac{(2-D)(2+D-E)}{D+E-2}.
+\]
+These expressions prove \eqref{eq:ell-theta-id} and the identity
+\[
+ \frac{p(p^2-1)}{t^2-1}
+   =\left(\frac{\tau J^2}{d^4eK}\right)^2.
+\]
+Consequently
+\[
+ k=\frac{q\tau J^2}{d^4eK}>0
+\]
+satisfies \eqref{eq:ell-k}.  Equations
+\eqref{eq:ell-pure-coordinates} and \eqref{eq:ell-inverse-pair}
+now give the required source.  All their denominators are nonzero
+by \eqref{eq:ell-J-negative}, $d,e>0$, and $p,\beta>1$.
+
+On the source, direct use of \eqref{eq:ell-forward-pair} gives
+\begin{equation}\label{eq:ell-metric-identities}
+ q=\frac{2u}{a+c},\qquad
+ t=\frac{c-a}{c+a},\qquad
+ \frac{WV}{T^2}=-\frac{qb}{a},\qquad
+ \frac{4U}{T^2}=\frac{q\ell}{c}.
+\end{equation}
+Thus \eqref{eq:ell-strict-metric} is precisely
+$(4U+WV)/T^2<2$.  The signs in \eqref{eq:ell-source-signs}
+give $U>1$, $W>V>0$ and $T>0$.  All four radii in
+\eqref{eq:ell-pure-return} are positive.  That formula shows that
+the metric inequality is equivalent to $x<1$ in the chamber;
+it also gives $x>1/2$ and $|y-1/2|<1/2$.
+Finally $r_0+r_3=2U/T=1/h$ proves
+\eqref{eq:ell-final-square}.  The displayed inverse formulas and the
+uniqueness of $n,q>0$ prove bijectivity.
+\end{proof}
+
+The formulas above also describe the signed algebraic covers.  Let $S$
+denote the surface \eqref{eq:ell-original}, and let $X_n$ be the
+normalization of $E_n\times E_n$ in the field obtained by adjoining
+$u,v,h$ from \eqref{eq:ell-ordered-roots}.
+\begin{proposition}\label{prop:ell-original-cover}
+There is an equality of function fields
+\[
+ \Q(X_n)=\Q(S)(q),\qquad q^2=\frac{t^2-1}{n},
+ \qquad t=r_0r_3+r_1r_2.
+\]
+The extension has degree two.
+\end{proposition}
+\begin{proof}
+The four radicands in \eqref{eq:ell-original} have independent
+square classes over $\overline\Q(x,y)$: each factors into two lines,
+and each of these eight lines occurs for only one corner.  Hence
+$S$ is geometrically integral.
+The preceding maps are rational identities before signs are chosen.
+Their inverse recovers $q$ from the simultaneous-square coordinates by
+\[
+ q=\frac{kVW}{(p^2-1)T^2}.
+\]
+The two root classes defining $u,v$ are geometrically independent:
+their half-divisor classes on $E_n\times E_n$ restrict on either
+factor to the independent classes
+$[(0,0)-O]$ and $[(n,0)-O]$ in $E_n[2]$.
+Their degree-four cover is therefore connected and unramified.
+The zero divisor $a+c=0$ has simple generic multiplicity, which
+remains odd after this unramified pullback.  Adjoining $h$ is
+therefore ramified there, so this last quadratic extension is also
+connected.  These statements hold over $\overline\Q$.
+The resulting involution
+\[
+ (a,b,c,\ell,u,v,h)\longmapsto(a,-b,c,-\ell,-u,-v,h)
+\]
+fixes $U,V,W,T$, hence fixes $S$, and sends $q$ to $-q$.
+It is nontrivial, proving the degree assertion.  The normalization of
+the graph gives the corresponding birational identification of proper
+models.
+\end{proof}
+
+\subsection{Fixing an opposite pair of distances}
+
+Let $c_0=\mu/\nu$ be a fixed positive rational number, with coprime
+positive integers $\mu,\nu$.  Suppose
+\[
+ c_0=r_3+\varepsilon r_0,\qquad
+ d_0=r_3-\varepsilon r_0,\qquad \varepsilon\in\{1,-1\};
+\]
+for a difference we orient the pair so that $r_3>r_0$.
+The strict real bounds give $0<c_0<2$.
+With
+\[
+ A=2\nu^2-\mu^2,\quad B=4\nu^2-\mu^2,\quad
+ P=\nu d_0,\quad Z=\nu^2\bigl((1-2x)-(1-2y)\bigr),
+\]
+and $Q=2\nu r_1$, $R=2\nu r_2$, the full equations are
+\begin{equation}\label{eq:ell-fixed-opposite}
+ Z^2=A(P^2-2\nu^2),\qquad
+ Q^2=P^2+\mu^2+2Z,\qquad R^2=P^2+\mu^2-2Z.
+\end{equation}
+Indeed, if $u_0=1-2x$ and $v_0=1-2y$, then
+\[
+ c_0d_0=u_0+v_0,\qquad
+ c_0^2+d_0^2=2+u_0^2+v_0^2,
+\]
+so $(u_0-v_0)^2=(2-c_0^2)(d_0^2-2)$.
+The inverse is
+\begin{equation}\label{eq:ell-fixed-opposite-return}
+ \begin{aligned}
+ x&=\frac12-\frac{\mu P+Z}{4\nu^2},&
+ y&=\frac12-\frac{\mu P-Z}{4\nu^2},\\
+ r_3&=\frac{\mu+P}{2\nu},&
+ r_0&=\frac{\varepsilon(\mu-P)}{2\nu},&
+ r_1&=\frac{|Q|}{2\nu},&r_2&=\frac{|R|}{2\nu}.
+ \end{aligned}
+\end{equation}
+Its strict locus is specified by positivity of these radii and
+\begin{equation}\label{eq:ell-fixed-strict}
+ |\mu P+Z|<2\nu^2,\qquad |\mu P-Z|<2\nu^2.
+\end{equation}
+Substitution into \eqref{eq:ell-original} proves the inverse.
+
+\begin{proposition}\label{prop:ell-opposite-genus}
+For every rational $0<c_0<2$, the smooth projective curve determined
+by \eqref{eq:ell-fixed-opposite} is geometrically connected of genus five.
+\end{proposition}
+\begin{proof}
+Neither $A$ nor $B$ is zero.  Over the $Z$-line the three radicands,
+after multiplication by the same nonzero constant $A$, are
+\[
+ f_0=Z^2+2A\nu^2,\quad
+ f_+=(Z+A)^2+2A\mu^2,\quad
+ f_-=(Z-A)^2+2A\mu^2.
+\]
+All three have two simple roots.  A common root of $f_0,f_+$
+would be $Z=-\mu^2/2$, where $f_0=B^2/4\ne0$;
+the pair $f_0,f_-$ is identical after $Z\mapsto-Z$.
+A common root of $f_+,f_-$ would be $Z=0$, where
+$f_+=A(2\nu^2+\mu^2)\ne0$.
+Thus there are six distinct branch values.  The three square classes
+are independent over $\overline\Q(Z)$, since each has simple zeros
+belonging to no other radicand.  The cover has degree eight, with
+four points of ramification index two above each branch value;
+infinity is unramified.  Riemann--Hurwitz gives
+$2g-2=-16+6\cdot4=8$.
+\end{proof}
+
+Multiplication of the last two equations in
+\eqref{eq:ell-fixed-opposite} produces an elliptic quotient:
+\begin{equation}\label{eq:ell-fixed-elliptic}
+ F_{\mu,\nu}:\quad
+ \eta^2=\xi^3+\alpha\xi^2+B^2\xi,
+ \qquad \alpha=2(3\mu^2-4\nu^2),
+ \qquad (\xi,\eta)=(P^2,PQR).
+\end{equation}
+Its cubic discriminant is nonzero because
+$\alpha^2-4B^2=-32\mu^2A\ne0$.
+Every strict image satisfies
+\begin{equation}\label{eq:ell-quotient-interval}
+ 0<\xi<B.
+\end{equation}
+For the upper bound use $c_0^2+d_0^2<4$.
+For the lower bound, $P=0$ for a sum would place the original point
+on $x+y=1$, while for a difference $P=\nu(r_3+r_0)>0$.
+The quotient always has the four torsion points
+\begin{equation}\label{eq:ell-order-four}
+ O,\quad(0,0),\quad(B,2\mu B),\quad(B,-2\mu B).
+\end{equation}
+The duplication formula
+\begin{equation}\label{eq:ell-duplication}
+ \xi(2S)=\frac{(\xi(S)^2-B^2)^2}{4\eta(S)^2}
+\end{equation}
+shows that the last two double to $(0,0)$.
+
+\begin{theorem}[Uniform torsion for odd pair parameters]
+\label{thm:ell-torsion}
+If $\mu,\nu$ are odd, the rational torsion subgroup of
+$F_{\mu,\nu}$ is cyclic of order four, with points
+\eqref{eq:ell-order-four}.  Any strict four-distance point with
+opposite-pair value $\mu/\nu$ gives a point of infinite order on
+$F_{\mu,\nu}$.
+\end{theorem}
+\begin{proof}
+Put $S=(0,0)$ and $T=(B,2\mu B)$. The quadratic factor
+$\xi^2+\alpha\xi+B^2$ has discriminant
+$32\mu^2(\mu^2-2\nu^2)$, of exact $2$-adic valuation five.
+Consequently $S$ is the unique nonzero rational point killed by two.
+The duplication formula gives $2T=S$, so $T$ has exact order four.
+We have
+\[
+ B\equiv3\pmod8,\qquad \alpha\equiv14\pmod{16},\qquad
+ B^2\equiv9\pmod{16}.
+\]
+
+We first exclude odd torsion. For the integral Weierstrass equation over
+$\Z_2$, let $G_1$ be the subgroup of $F_{\mu,\nu}(\Q_2)$ reducing
+to infinity. Its parameter $z=-\xi/\eta$ lies in $2\Z_2$.
+The formal group law has integral coefficients and linear part
+$z_1+z_2$. Indeed, in coordinates $z=-\xi/\eta$ and $w=-1/\eta$
+the equation has a unit derivative in $w$ at $(0,0)$; successive
+coefficient comparison solves for $w$ as an integral power series in
+$z$. Substitution into the addition law gives
+\[
+ [m]z=mz+z^2g_m(z),\qquad g_m(z)\in\Z_2[[z]].
+\]
+If $m$ is odd and $z\ne0$, the two terms on the right have different
+valuations, with the first strictly smaller. Thus $G_1$ has no
+nonzero odd torsion. This argument uses the smooth point at infinity
+and applies to the present integral equation at $2$.
+
+For an arbitrary rational point $P$, put $Q=2P$. If $Q$ is finite,
+its abscissa $\xi$ is a rational square by
+\eqref{eq:ell-duplication}. If $\xi=0$, then $Q=S$ and $4P=O$.
+Suppose $\xi\ne0$, and write $v=\ord_2(\xi)$.
+The case $v=0$ is impossible. The curve equation makes the ordinate
+integral, and a unit square is $1$ or $9$ modulo $16$, so
+\[
+ \xi(\xi^2+\alpha\xi+B^2)\equiv8\pmod{16},
+\]
+whereas a square in $\Z_2$ cannot have this residue.
+
+If $v>0$, the term $B^2\xi$ has uniquely least valuation in the
+curve equation. Hence $2\ord_2(\eta)=v$, and
+\eqref{eq:ell-duplication} gives
+$\ord_2(\xi(2Q))=-v-2\le-4$.
+If $v<0$, the cubic term has uniquely least valuation, so
+$2\ord_2(\eta)=3v$ and
+$\ord_2(\xi(2Q))=v-2\le-4$.
+The numerator and denominator of the duplication formula are nonzero
+in both cases. A point with a pole in its abscissa belongs to $G_1$.
+We have therefore proved that $4P\in G_1$ for every rational point
+$P$, including the cases $4P=O$.
+If $P$ has odd order, then $4P=O$ by the preceding formal-group
+argument, and coprimality with four gives $P=O$.
+
+Every rational torsion point has $2$-power order. If $4P=O$, then
+$2P$ is $O$ or $S$. In the first case $P$ is $O$ or $S$; in the
+second, $2(P-T)=O$, so $P$ is $T$ or $-T$.
+There is no point of order eight: a half of $T$ or $-T$ would make
+$B$ a rational square by \eqref{eq:ell-duplication}, contrary to
+$B\equiv3\pmod8$. A point of larger $2$-power order would have a
+multiple of order eight. Thus the torsion subgroup is precisely
+$\{O,S,T,-T\}$.
+Finally, every strict image satisfies
+\eqref{eq:ell-quotient-interval}, whereas the finite torsion abscissas
+are $0$ and $B$. This proves the infinite-order assertion.
+\end{proof}
+
+\begin{corollary}\label{cor:ell-rank-zero}
+If $\mu,\nu$ are odd and $\rank F_{\mu,\nu}(\Q)=0$, then
+$\mu/\nu$ is neither an opposite-pair sum nor a nonzero absolute
+difference at a strict rational four-distance point.
+\end{corollary}
+\begin{proof}
+Such a point would give a rational point of $F_{\mu,\nu}$ in the interval
+\eqref{eq:ell-quotient-interval}. Rank zero makes every rational point
+torsion, whereas Theorem~\ref{thm:ell-torsion} places all torsion points
+outside that interval.
+\end{proof}
+
+\subsection{Adjacent pairs and fixed-pair finiteness}
+
+For an adjacent pair choose signed radii $R_0,R_1$ with
+$R_0+R_1=c_0>0$, where $R_i^2=r_i^2$.  Write $\lambda=c_0^2$.
+A strict adjacent sum is greater than one and an absolute difference
+is less than one, so a nonzero permitted value has
+$\lambda\ne0,1$.
+With $U_0=2x-1$ and $V_0=2y$, the first two distance equations
+give the conic
+\begin{equation}\label{eq:ell-adjacent-conic}
+ (\lambda-1)U_0^2+\lambda V_0^2
+       -\lambda(\lambda-1)H_0^2=0.
+\end{equation}
+It is smooth and contains $(c_0,0,1)$.  In the chart $H_0=1$,
+\[
+ R_0=\frac{c_0+U_0/c_0}{2},\qquad
+ R_1=\frac{c_0-U_0/c_0}{2}.
+\]
+The remaining roots are given by
+\[
+ f_2=\frac{(U_0+H_0)^2+(V_0-2H_0)^2}{H_0^2},\qquad
+ f_3=\frac{(U_0-H_0)^2+(V_0-2H_0)^2}{H_0^2}.
+\]
+Adjoin both square roots to the conic function field.  On its affine
+chart the return is
+\[
+ x=\frac{U_0+1}{2},\quad y=\frac{V_0}{2},\quad
+ (r_0,r_1,r_2,r_3)
+ =\left(|R_0|,|R_1|,\frac{|\sqrt{f_2}|}{2},
+                           \frac{|\sqrt{f_3}|}{2}\right).
+\]
+
+\begin{proposition}\label{prop:ell-adjacent-genus}
+For every rational $c_0>0$ with $c_0\ne1$, this normalized cover
+is geometrically connected of genus five.
+\end{proposition}
+\begin{proof}
+Over $\overline\Q$, the numerator of $f_2$ factors into the two lines
+$U_0+H_0\pm i(V_0-2H_0)=0$.
+For the line with sign $\delta=\pm1$, evaluation of the dual conic is
+\[
+ \frac{1}{\lambda-1}-\frac1\lambda
+ -\frac{(1-2\delta i)^2}{\lambda(\lambda-1)}
+ =\frac{4+4\delta i}{\lambda(\lambda-1)}\ne0.
+\]
+Both intersections are therefore transverse.  The two lines meet at
+$(-1,2,1)$, which would belong to the conic only if
+$\lambda^2-6\lambda+1=0$; this is impossible for rational $\lambda$.
+Thus $f_2$ has four distinct simple zeros.  The same calculation
+with $U_0\mapsto-U_0$ proves this for $f_3$.
+
+The two zero sets are disjoint.  Their numerator difference is
+$4U_0H_0$.  At $H_0=0$ a common zero would satisfy
+$U_0^2+V_0^2=0$, which together with the conic forces
+$U_0=V_0=0$.  In the chart $H_0=1$, a common zero has
+$U_0=0$ and $V_0=2\pm i$, whence the conic requires
+$\lambda=4\pm4i$, again impossible.
+The two points of the conic at infinity are distinct and neither
+numerator vanishes there; both poles of each $f_i$ have order two.
+The radicands are consequently independent square classes, and
+the degree-four cover has eight branch values, each contributing
+two to the ramification divisor.  Hence
+$2g-2=4(-2)+8\cdot2=8$.
+\end{proof}
+
+\begin{theorem}[Fixed-pair finiteness]\label{thm:ell-fixed-pair-finite}
+Fix two distinct vertices, signs $\varepsilon_i,\varepsilon_j\in\{1,-1\}$,
+and a nonzero rational number $c_0$.
+There are only finitely many strict rational four-distance points satisfying
+$\varepsilon_i r_i+\varepsilon_j r_j=c_0$.
+\end{theorem}
+\begin{proof}
+Changing both signs and applying a square symmetry reduces the pair
+to one of the two constructions above.  Their return formulas show
+that every strict point is the image of a rational point on the
+corresponding smooth projective genus-five curve.  Faltings'
+theorem \cite{faltings1983} makes this rational-point set finite.
+\end{proof}
+
+\subsection{The fibre with opposite difference one fifth}
+\label{subsec:ell-one-fifth}
+
+For $c_0=1/5$, take $\mu=1$, $\nu=5$, $\varepsilon=-1$ and
+$Z=7z$ in \eqref{eq:ell-fixed-opposite}.  The curve becomes
+\begin{equation}\label{eq:ell-one-fifth}
+ C:\quad P^2=z^2+50,\qquad
+ Q^2=z^2+14z+51,\qquad R^2=z^2-14z+51.
+\end{equation}
+Its strict positive branch has $P,Q,R>0$ and
+\begin{equation}\label{eq:ell-one-fifth-return}
+ \begin{aligned}
+ x&=\tfrac12-\frac{P+7z}{100},&
+ y&=\tfrac12-\frac{P-7z}{100},\\
+ (r_0,r_1,r_2,r_3)&=\tfrac1{10}(P-1,Q,R,P+1),&
+ |P+7z|&<50,&|P-7z|&<50.
+ \end{aligned}
+\end{equation}
+The projective model in coordinates $[P:Q:R:z:T]$ is obtained by
+homogenizing the three equations.  Above $T=0$ it has the eight
+rational points $[\pm1:\pm1:\pm1:1:0]$.  These points are smooth:
+in the chart $z=1$ the derivatives in $P,Q,R$ form an invertible
+diagonal matrix, and $T$ is a local parameter.
+
+\begin{proposition}[Elliptic decomposition of the fixed fibre]
+\label{prop:ell-one-fifth-jacobian}
+There is a $\Q$-isogeny
+\[
+ \Jac(C)\sim_{\Q} E_1\times F\times E_3\times E_4^2,
+\]
+where
+\begin{align*}
+ E_1&:\ y^2=x^3-4606x^2+6245001x,\\
+ F&:\ y^2=x^3-194x^2+9801x,\\
+ E_3&:\ y^2=x^3-9902x^2+25492401x,\\
+ E_4&:\ y^2=x^3-202x^2+9801x.
+\end{align*}
+\end{proposition}
+\begin{proof}
+Put $f_0=z^2+50$, $f_\pm=z^2\pm14z+51$.
+The seven nontrivial characters of the sign-change group
+$(\Z/2\Z)^3$ give quotients $w^2=\prod_{j\in I}f_j$.
+Their genera are $0,0,0,1,1,1,2$, according as $|I|$ is one,
+two, or three.  The pullbacks of their differential spaces are
+the respective character spaces in $H^0(C,\Omega_C^1)$, and
+their dimensions sum to five.  The product of the associated
+Jacobian pullback maps is therefore an isogeny over $\Q$.
+
+The quotient $w^2=f_+f_-=z^4-94z^2+2601$ maps with degree two
+to $y^2=x^3-94x^2+2601x$ by $(x,y)=(z^2,zw)$.
+The scaling $(x,y)\mapsto(49x,343y)$ gives $E_1$.
+The two quotients $w^2=f_0f_\pm$ are isomorphic by $z\mapsto-z$.
+For the plus sign the substitutions
+\[
+ W_0=w+z^2+7z+26,\qquad
+ x=2W_0+49,\qquad y=(4z+14)W_0+336
+\]
+give $E_4$.  Their rational inverse on $W_0\ne0$ is
+\[
+ W_0=(x-49)/2,\qquad
+ z=\frac{y-14W_0-336}{4W_0},\qquad
+ w=W_0-z^2-7z-26.
+\]
+
+The remaining genus-two curve is
+\[
+ D:\quad w^2=(z^2+50)(z^4-94z^2+2601).
+\]
+Its involutions $(z,w)\mapsto(-z,w)$ and
+$(z,w)\mapsto(-z,-w)$ have elliptic quotients.
+The first is $(x,y)=(z^2+50,w)$ on $F$.
+For the second put $\zeta=z^2$ and $v=zw$, so that
+$v^2=\zeta(\zeta+50)(\zeta^2-94\zeta+2601)$.
+More generally, for
+$v^2=\zeta(\zeta+c_1)(\zeta^2+a_1\zeta+b_1)$, the substitutions
+\[
+ X=\frac{c_1b_1}{\zeta}+b_1,\qquad
+ Y=\frac{c_1b_1v}{\zeta^2}
+\]
+give
+\[
+ Y^2=X^3+(c_1a_1-2b_1)X^2
+          +b_1(b_1-c_1a_1+c_1^2)X.
+\]
+Taking $(c_1,a_1,b_1)=(50,-94,2601)$ yields $E_3$.
+The two one-dimensional differential eigenspaces on $D$ prove
+$\Jac(D)\sim_\Q F\times E_3$, completing the decomposition.
+\end{proof}
+
+\begin{example}\label{ex:ell-nonlift}
+The elliptic quotient $F$ contains
+\[
+ (\xi,\eta)=\left(
+ \frac{1476225}{18496},-\frac{589188735}{2515456}\right).
+\]
+This follows by direct substitution in its cubic equation.
+Its first coordinate is $(1215/136)^2$ and satisfies $50<\xi<99$.
+A lift to \eqref{eq:ell-one-fifth} would require
+\[
+ Z^2=49(\xi-50)=\left(\frac{35}{136}\right)^2 22057.
+\]
+Since $148^2<22057<149^2$, the required rational root does not exist.
+Thus the interval \eqref{eq:ell-quotient-interval} and a square
+elliptic coordinate do not characterize the image of $C(\Q)$;
+the three simultaneous equations in \eqref{eq:ell-one-fifth}
+give the complete lift.
+\end{example}

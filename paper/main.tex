@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,amscd,mathrsfs,mathtools,booktabs,longtable,array,microtype}
+\usepackage[margin=1.05in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Q}{\mathbf Q}
+\newcommand{\Z}{\mathbf Z}
+\newcommand{\R}{\mathbf R}
+\newcommand{\F}{\mathbf F}
+\newcommand{\PP}{\mathbf P}
+\newcommand{\OO}{\mathcal O}
+\newcommand{\Jac}{\operatorname{Jac}}
+\newcommand{\Pic}{\operatorname{Pic}}
+\newcommand{\Sel}{\operatorname{Sel}}
+\newcommand{\Nm}{\operatorname{N}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Gal}{\operatorname{Gal}}
+\renewcommand{\sf}{\operatorname{sf}}
+\newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
+\newcommand{\eps}{\varepsilon}
+\hypersetup{pdftitle={Arithmetic constraints and covering curves for rational distances in a square},pdfauthor={Yuan Si}}
+\title{Arithmetic constraints and covering curves\newline for rational distances in a square}
+\author{Yuan Si}
+\date{}
+\setlength{\emergencystretch}{1em}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study points in the strict interior of a square whose four vertex
+ distances are rational. Primitive integral and Gaussian models yield exact
+ denominator identities, prime-power bounds, and reciprocity restrictions
+ on the squarefree classes assigned to opposite corners. We construct
+ ordered elliptic sources and covering curves of genera five, nine and
+ seventeen, with explicit maps retaining the four distances. A common
+ squareclass descent gives infinite families of genus-nine curves without
+ rational points, while a compensated source descent excludes an entire
+ squarefree kernel. Explicit quaternion evaluations give a parity
+ obstruction and an infinite family of complete genus-five failures of the
+ Hasse principle. We describe nine elliptic
+ factors of the genus-nine Jacobian and derive rank constraints. For the
+ fixed opposite-distance difference $1/5$, we determine all twenty-eight
+ bitangents of a genus-three quotient, its odd-theta algebra and the theta
+ class defining the original double cover. Finally, we prove that rational
+ boundary points and their real components produce locally soluble lifts
+ at every fixed finite Abel--Jacobi level.
+\end{abstract}
+\clearpage
+\tableofcontents
+\clearpage
+\input{sections/00_introduction}
+\input{sections/01_integral}
+\input{sections/04_reciprocity_profiles}
+\input{sections/08_critical_content}
+\input{sections/02_elliptic_sources}
+\input{sections/03_common_descent}
+\input{sections/09_jacobians}
+\input{sections/06_common_source_descent}
+\input{sections/05_hasse_families}
+\input{sections/07_theta_geometry}
+\appendix
+\input{sections/10_surfaces}
+\input{sections/references}
+\end{document}

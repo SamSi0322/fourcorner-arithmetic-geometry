@@ -1,0 +1,447 @@
+\section{Critical radius content and an elliptic residue curve}\label{sec:critical-content}
+
+The common content of the four integral radii produces a finite-field
+curve independent of the original denominator. Its elliptic structure
+gives a classification at every content prime. A second elliptic curve
+records the square class of the opposite-product parameter.
+
+\subsection{Critical reduction}
+
+Write the primitive integral equations as
+\begin{equation}\label{crit:integral}
+\begin{aligned}
+ A_0^2&=X^2+Y^2,& A_1^2&=(X-L)^2+Y^2,\\
+ A_2^2&=X^2+(Y-L)^2,& A_3^2&=(X-L)^2+(Y-L)^2,
+\end{aligned}
+\end{equation}
+with corner order \(00,10,01,11\), positive radii, \(0<X,Y<L\),
+and \(\gcd(X,Y,L)=1\). Thus \(r_j=A_j/L\). Put
+\[
+ G=\gcd_j A_j,\qquad H=L/G^2,\qquad a_j=A_j/G.
+\]
+Recall from Proposition~\ref{int:content} that \(G^2\mid L\) and
+\(p\mid G\Rightarrow p\equiv1\pmod4\). The local argument also
+fixes the valuations needed here. If an odd \(p\mid G\) did not
+divide \(L\), subtraction would give \(X=Y=L/2\pmod p\), contrary
+to \(X^2+Y^2=0\). Hence \(p\mid L\), and primitivity makes
+\(X,Y\) units. Consequently \((Y/X)^2=-1\pmod p\) and
+\[
+ v_p(A_1^2-A_0^2)=v_p\bigl(L(L-2X)\bigr)=v_p(L)\ge2v_p(G).
+\]
+The prime 2 cannot divide \(G\), since the equations modulo four
+would then force \(X,Y,L\) all even.
+
+\begin{definition}
+A prime \(p\mid G\) is \emph{critical} if \(v_p(L)=2v_p(G)\).
+\end{definition}
+
+At a critical prime set \(s=v_p(G)>0\) and, in \(\F_p\),
+\[
+ \iota=Y/X,\qquad\iota^2=-1,\qquad b=-2HX\ne0,\qquad c=a_0^2.
+\]
+The four normalized radii satisfy
+\begin{equation}\label{crit:pattern}
+ (a_0^2,a_1^2,a_2^2,a_3^2)
+ =\bigl(c,c+b,c+\iota b,c+(1+\iota)b\bigr).
+\end{equation}
+The shifts are distinct, so at most one normalized radius vanishes.
+At a noncritical content prime, \(p\mid H\); all \(a_j^2\) are then
+equal modulo \(p\), and \(\gcd_j a_j=1\) makes every \(a_j\) a unit.
+
+\subsection{The fixed elliptic curve}
+
+Over a field \(k\) of characteristic different from two containing
+\(\iota^2=-1\), define
+\begin{equation}\label{crit:curve}
+ \mathcal C_\iota:\quad
+ \begin{cases}
+ V_2^2-V_0^2=\iota(V_1^2-V_0^2),\\
+ V_3^2-V_0^2=(1+\iota)(V_1^2-V_0^2)
+ \end{cases}
+ \quad\subset\PP^3_k.
+\end{equation}
+Write \(b=V_1^2-V_0^2\), and let \(U_\iota\) be the open subset
+\(bV_0V_1V_2V_3\ne0\).
+
+\begin{proposition}\label{prop:crit-elliptic}
+The curve \(\mathcal C_\iota\) is smooth, geometrically connected,
+and \(k\)-isomorphic to the smooth projective curve
+\(E:y^2=x^3-x\). Its eight points with \(b=0\) are
+\([1:\epsilon_1:\epsilon_2:\epsilon_3]\), with \(\epsilon_j=\pm1\).
+\end{proposition}
+
+\begin{proof}
+The parameter \(T=V_0^2/b\) expresses its function field as
+\[
+ k(T)\left(\sqrt{\frac{T+1}{T}},\sqrt{\frac{T+\iota}{T}},
+                  \sqrt{\frac{T+1+\iota}{T}}\right).
+\]
+The three square classes are geometrically independent, by their
+respective odd valuations at \(-1,-\iota,-1-\iota\).
+The degree-eight cover has four branch values
+\(0,-1,-\iota,-1-\iota\), each with four points of ramification
+index two, and is unramified at infinity. Riemann--Hurwitz gives
+\(2g-2=-16+16=0\).
+The diagonal pencil of the two quadrics has coefficients
+\[
+ (\iota-1)\lambda+\iota\mu,\quad
+ -\iota\lambda-(1+\iota)\mu,\quad\lambda,\quad\mu.
+\]
+Their zero positions are distinct. A singular point would therefore
+have at most one nonzero coordinate, and no such point satisfies the
+two equations. Thus the displayed intersection is smooth.
+
+Even coordinate-sign changes, modulo simultaneous sign change, give
+a degree-four quotient
+\begin{equation}\label{crit:quartic}
+ W^2=T(T+1)(T+\iota)(T+1+\iota),\qquad
+ W=V_0V_1V_2V_3/b^2.
+\end{equation}
+A nonidentity element has a projective fixed point only if two
+coordinates vanish, which is impossible. After choosing a rational
+origin, each such involution is translation by nonzero two-torsion.
+Indeed an automorphism \(P\mapsto\alpha(P)+Q\) with
+\(\alpha\ne1\) has a fixed point because \(1-\alpha\) is surjective.
+The quotient group is therefore the entire two-torsion translation
+group. Factoring multiplication by two shows that the quotient is
+\(k\)-isomorphic to \(\mathcal C_\iota\).
+
+In \eqref{crit:quartic}, set \(R=(1+\iota)T+\iota\), \(S=2W\).
+Then \(S^2=1-R^4\), and
+\[
+ X_E=\frac{2(1+S)}{R^2},\quad Y_E=\frac{4(1+S)}{R^3},\qquad
+ R=\frac{2X_E}{Y_E},\quad S=\frac{X_E^2-4}{X_E^2+4}
+\]
+identify its function field with \(Y_E^2=X_E^3+4X_E\).
+Scaling by \(x=X_E/(1+\iota)^2\), \(y=Y_E/(1+\iota)^3\), and
+using \((1+\iota)^4=-4\), gives \(y^2=x^3-x\).
+The identifications extend to the smooth projective curves.
+\end{proof}
+
+For \(p\equiv1\pmod4\), write \(\chi_p\) for the quadratic
+character, with \(\chi_p(0)=0\), and put
+\[
+ \delta_p=\begin{cases}
+ 1,&\chi_p(\iota)=\chi_p(1+\iota)=1,\\0,&\text{otherwise}.
+ \end{cases}
+\]
+The zero-coordinate fibres are disjoint; each has four points when
+\(\delta_p=1\), and none otherwise. For example \(V_0=0,V_1=1\)
+gives \(V_2^2=\iota,V_3^2=1+\iota\). Dividing by a nonzero
+coordinate in each other fibre gives the same criterion. Therefore
+\begin{equation}\label{crit:count}
+ \#U_\iota(\F_p)=\#E(\F_p)-8-16\delta_p.
+\end{equation}
+Each admissible \(T=c/b\) gives eight projective points. Equivalently,
+\((\#E(\F_p)-8-16\delta_p)/8\) counts the \(T\) for which
+\(T,T+1,T+\iota,T+1+\iota\) are nonzero and have a common quadratic
+character. The square class of \(b\) supplies either common character.
+
+\subsection{The complete prime classification}
+
+\begin{theorem}\label{thm:crit-basic}
+For a prime \(p\equiv1\pmod4\), the following are equivalent:
+\begin{enumerate}
+\item \(p\notin\{5,13\}\).
+\item A pattern \eqref{crit:pattern} exists with \(b\ne0\) and all
+      four entries nonzero squares in \(\F_p\).
+\item For every \(s\ge1\), there are infinitely many primitive
+      triples \((X,Y,L)\), with \(0<X,Y<L\) and \(v_p(L)=2s\),
+      such that all four radicands in \eqref{crit:integral} have
+      roots in \(\Q_p\) of valuation exactly \(s\).
+\end{enumerate}
+At 5 and 13 no critical pattern exists even with zero entries.
+In particular, for a rational four-distance point,
+\[
+ p\in\{5,13\},\quad p\mid G\quad\Longrightarrow\quad p\mid H.
+\]
+\end{theorem}
+
+\begin{proof}
+Hasse's bound \(\#E(\F_p)\ge p+1-2\sqrt p\)
+\cite{silverman2009} exceeds 24 for \(p\ge37\).
+Equation~\eqref{crit:count} then gives a point in \(U_\iota\).
+The remaining existence cases are
+\[
+\begin{array}{c|c|c|c|c}
+p&\iota&(V_0,V_1,V_2,V_3)&b&c\\\hline
+17&4&(1,2,8,4)&3&1\\
+29&12&(2,8,12,1)&2&4.
+\end{array}
+\]
+Interchanging \(V_1,V_2\) replaces \(\iota\) by
+\(\iota^{-1}=-\iota\), covering the other root of minus one.
+
+For the exclusions, division by a nonzero square reduces \(b\) to
+one of its two square classes. The square sets including zero are
+\[
+ S_5=\{0,1,4\},\qquad S_{13}=\{0,1,3,4,9,10,12\}.
+\]
+All possibilities after the first two square tests are listed below:
+\[
+\begin{array}{c|c|c|l}
+p&\iota&b&c\ ;\ (c+\iota b,c+(1+\iota)b)\\\hline
+5&2&1&0;(2,3)\quad4;(1,2)\\
+5&2&2&4;(3,0)\\
+13&5&1&0;(5,6)\quad3;(8,9)\quad9;(1,2)\quad12;(4,5)\\
+13&5&2&1;(11,0)\quad10;(7,9)\quad12;(9,11).
+\end{array}
+\]
+Every pair contains a nonsquare.
+
+To realize an allowed signed unit pattern \((V_0,V_1,V_2,V_3)\),
+put \(c=V_0^2,b=V_1^2-V_0^2\), and fix \(s\ge1\).
+Choose positive integers \(X,Y\) with
+\begin{equation}\label{crit:lift-coordinates}
+ X\equiv-b/2\pmod p,\qquad
+ Y\equiv\widetilde\iota X+p^{2s}z\pmod{p^{2s+1}},\qquad
+ z\equiv\frac{c}{2\iota X}\pmod p,
+\end{equation}
+where Hensel's lemma supplies
+\(\widetilde\iota^2\equiv-1\pmod{p^{2s+1}}\).
+For sufficiently large positive integers \(k\), put
+\begin{equation}\label{crit:lift-denominator}
+ M=1+pXYk,\qquad L=p^{2s}M.
+\end{equation}
+Then \(L>X,Y\), \(v_p(L)=2s\), and \(\gcd(X,Y,L)=1\), since
+\(p\nmid XY\) and \(M\equiv1\pmod{XY}\).
+Expanding \eqref{crit:lift-coordinates} gives
+\((X^2+Y^2)/p^{2s}\equiv c\pmod p\).
+Subtracting \(2LX\) or \(2LY\), and adding \(L^2\), gives the
+other three reductions in \eqref{crit:pattern}.
+Hensel's lemma now supplies roots \(A_j=p^sv_j\), with
+\(v_j\in\Z_p^\times\) and \(v_j\equiv V_j\pmod p\), of the four
+original radicands. Varying \(k\) gives infinitely many coordinate
+pairs. Conversely, roots with these valuations reduce to a critical
+pattern, to which the exclusions at 5 and 13 apply.
+\end{proof}
+
+\begin{corollary}\label{cor:crit-crt}
+Let \(\mathcal P\) be a finite set of primes congruent to one modulo
+four, excluding 5 and 13, and prescribe \(s_p\ge1\).
+There are infinitely many primitive triples \((X,Y,L)\), with
+\(0<X,Y<L\), for which \(v_p(L)=2s_p\) and all four original
+radicands have roots of valuation \(s_p\) in \(\Q_p\), simultaneously
+for every \(p\in\mathcal P\).
+\end{corollary}
+
+\begin{proof}
+Choose \(X,Y\) by the Chinese remainder theorem using
+\eqref{crit:lift-coordinates} at the selected primes. If
+\(D=\gcd(X,Y)\), no selected prime divides \(D\). The congruences
+\[
+ L\equiv p^{2s_p}\pmod{p^{2s_p+1}}\quad(p\in\mathcal P),
+ \qquad L\equiv1\pmod D
+\]
+are compatible. Arbitrarily large solutions give the strict
+inequalities and primitivity. The prescribed unit-square reductions
+persist, so Hensel's lemma supplies the roots.
+\end{proof}
+
+\subsection{The opposite product and the prime 17}
+
+Define
+\begin{equation}\label{crit:product}
+ t=r_0r_3+r_1r_2=\frac{Q}{G^2H^2},\qquad
+ Q=a_0a_3+a_1a_2,\quad Q'=a_0a_3-a_1a_2.
+\end{equation}
+At a critical prime, multiplication in \(\F_p\) gives
+\begin{equation}\label{crit:product-unit}
+ QQ'=c\bigl(c+(1+\iota)b\bigr)-(c+b)(c+\iota b)
+     =-\iota b^2\ne0.
+\end{equation}
+Thus both products are units, even with a zero radius reduction.
+For \(s=v_p(G)\), the denominator unit in \eqref{crit:product} is a
+square, and hence
+\begin{equation}\label{crit:product-class}
+ v_p(t)=-2s,\qquad [p^{2s}t]=[Q]
+ \text{ in }\Q_p^\times/\Q_p^{\times2},\qquad
+ \frac{t+1}{t}\in\Q_p^{\times2}.
+\end{equation}
+The last assertion follows from
+\((t+1)/t\in1+p^{2s}\Z_p\).
+
+\begin{theorem}\label{thm:crit-17}
+If 17 is a critical content prime of a rational four-distance point,
+then none of \(t,2t,t+1,2(t+1)\) is a square in
+\(\Q_{17}\). Therefore, if any one is a rational square,
+\(17\mid G\) implies \(17\mid H\).
+At a critical 17, with \(s=v_{17}(G)\), one also has
+\[
+ a_0^2+a_3^2\equiv a_1^2+a_2^2\equiv0\pmod{17},\qquad
+ 17^{2s+1}\mid(2X-L)^2+(2Y-L)^2.
+\]
+\end{theorem}
+
+\begin{proof}
+Take \(\iota=4\). The square set is
+\(S_{17}=\{0,1,2,4,8,9,13,15,16\}\), and the scaling classes of
+\(b\) are represented by 1 and 3. Successive square tests give
+\[
+\begin{array}{c|c|c|c}
+b&c,c+b\in S_{17}&\text{also }c+4b\in S_{17}
+ &\text{also }c+5b\in S_{17}\\\hline
+1&\{0,1,8,15,16\}&\{0,15\}&\varnothing\\
+3&\{1,13,15,16\}&\{1,13\}&\{1\}.
+\end{array}
+\]
+Thus all coordinates are nonzero, and division by \(a_0\) gives
+\([1:\pm2:\pm8:\pm4]\). Hence
+\(Q/a_0^2\in\{3,5,12,14\}\), all nonsquares modulo 17.
+Interchanging the middle coordinates handles \(\iota=-4\).
+Since 2 and \((t+1)/t\) are local squares,
+\eqref{crit:product-class} gives the four exclusions.
+
+The same table yields \(c/b=-(1+\iota)/2\), so
+\(c=H(X+Y)\) and \(2c+(1+\iota)b=0\).
+The identity
+\begin{equation}\label{crit:center-identity}
+ \frac{(2X-L)^2+(2Y-L)^2}{G^2}
+ =4a_0^2-4H(X+Y)+2G^2H^2
+\end{equation}
+proves the divisibility. At a noncritical 17, its right side is a unit,
+since \(17\mid H\) and \(a_0\) is a unit, so the corresponding
+valuation is exactly \(2s\).
+\end{proof}
+
+\subsection{The normalized product-square cover}
+
+On \(\mathcal C_\iota\) put
+\(f=V_0V_3+V_1V_2\), \(f'=V_0V_3-V_1V_2\), so that
+\(ff'=-\iota b^2\). Let \(\widetilde{\mathcal C}_\iota\) be the
+smooth projective curve obtained by adjoining
+\begin{equation}\label{crit:double}
+ S^2=2f/V_0^2.
+\end{equation}
+On \(V_j\ne0\), the same extension is \(S_j^2=2f/V_j^2\).
+
+\begin{proposition}\label{prop:crit-double}
+The map \(\widetilde{\mathcal C}_\iota\to\mathcal C_\iota\) is a
+geometrically connected unramified double cover of genus-one curves
+with rational points. For \(p\equiv1\pmod4\), its number of
+rational points above \(b=0\) is
+\[
+ B_p=\begin{cases}16,&p\equiv1\pmod8,\\8,&p\equiv5\pmod8.
+ \end{cases}
+\]
+Moreover,
+\begin{equation}\label{crit:double-count}
+ \#\{V\in\mathcal C_\iota(\F_p):b(V)\ne0,\ \chi_p(2f(V))=1\}
+ =\frac{\#E(\F_p)-B_p}{2}.
+\end{equation}
+The character is unchanged by rescaling projective coordinates.
+\end{proposition}
+
+\begin{proof}
+At \(b=0\), the four zeros of \(f\) are
+\([1:\epsilon_1:\epsilon_2:-\epsilon_1\epsilon_2]\).
+There \(f'\ne0\), and \(b/V_0^2\) is a uniformizer, because the
+map \(T=V_0^2/b\) is unramified at infinity. Thus \(ff'=-\iota b^2\)
+makes every zero of \(f/V_0^2\) have order two. On \(V_0=0\), one has \(f=V_1V_2\ne0\), so its poles
+also have even order, proving that the cover is
+geometrically unramified.
+
+If the extension were geometrically trivial, its square root times
+\(V_0\) would be a regular global section of \(\OO_{\mathcal C_\iota}(1)\)
+vanishing precisely at the four displayed points. This degree-four
+line bundle has four sections by Riemann--Roch; the four independent
+coordinate sections span them. But the coordinate matrix of these
+points has determinant \(\pm16\), so no linear form vanishes at all
+four. The cover is connected. Riemann--Hurwitz gives genus one, and
+\(S=\pm2\) above \([1:1:1:1]\) gives rational points.
+With compatible origins the map is a degree-two isogeny.
+
+At the four points with \(b=0,f\ne0\), the values
+\(2f/V_0^2=\pm4\) give eight rational preimages. At each remaining
+point, the normalized local equation has residue
+\[
+ \left(\frac{S}{b/V_0^2}\right)^2
+ =\frac{-2\iota V_0^2}{f'}=\pm\iota.
+\]
+It gives two rational points precisely when \(\iota\) is square,
+equivalently \(p\equiv1\pmod8\). This proves the boundary count.
+Isogenous elliptic curves over a finite field have equal point
+counts. Apply this to the double cover and
+Proposition~\ref{prop:crit-elliptic}. For \(b\ne0\), one has
+\(f\ne0\), and each square value has exactly two preimages, proving
+\eqref{crit:double-count}.
+\end{proof}
+
+\begin{theorem}\label{thm:crit-refined}
+For a prime \(p\equiv1\pmod4\), the following are equivalent:
+\begin{enumerate}
+\item \(p\notin\{5,13,17\}\).
+\item There is a signed critical pattern with every \(V_j\ne0\)
+      and \(2(V_0V_3+V_1V_2)\in\F_p^{\times2}\).
+\item For every \(s\ge1\), there are infinitely many primitive
+      strictly interior rational coordinate pairs \((X/L,Y/L)\),
+      with \(v_p(L)=2s\), and roots \(A_j\in\Q_p\) of
+      \eqref{crit:integral}, each of valuation \(s\), such that
+      \(t=(A_0A_3+A_1A_2)/L^2\) satisfies
+      \(2t,2(t+1)\in\Q_p^{\times2}\).
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+If \(p\equiv5\pmod8\), zero-coordinate base points are impossible
+because \(\iota\) is nonsquare. For every such prime \(p\ge29\),
+Hasse's lower bound on the product cover exceeds 16 and therefore its
+boundary count, giving the required unit point.
+
+If \(p\equiv1\pmod8\), the base has at most sixteen geometric
+zero-coordinate points, giving at most 32 points on the double cover.
+Together with its sixteen points above \(b=0\), at most 48 points
+are excluded. For \(p\ge73\), Hasse's lower bound exceeds 48.
+Below 73 the primes in this class are 17 and 41. At 41 take
+\(\iota=9\) and \((V_0,V_1,V_2,V_3)=(6,18,2,13)\).
+The squared coordinates are \((36,37,4,5)\), so \(b=1\),
+\(Q=32\), and \(2Q=23=8^2\pmod{41}\).
+Swapping \(V_1,V_2\) preserves \(f\) and handles the other
+choice of \(\iota\). The exclusions follow from
+Theorems~\ref{thm:crit-basic} and
+\ref{thm:crit-17}, including every root sign.
+
+For local realization repeat
+\eqref{crit:lift-coordinates}--\eqref{crit:lift-denominator} with
+the prescribed signed pattern. Hensel's lemma gives
+\(A_j=p^sv_j\), \(v_j\equiv V_j\pmod p\). The product is
+\[
+ t=\frac{v_0v_3+v_1v_2}{p^{2s}M^2}.
+\]
+Twice the numerator is a unit square, so \(2t\) is square.
+The ratio \((t+1)/t\in1+p^{2s}\Z_p\) supplies the second
+root. Conversely, reduction gives an admissible signed pattern.
+\end{proof}
+
+\subsection{Excess radius valuations}
+
+\begin{corollary}\label{cor:crit-excess}
+Suppose at least one of \(t,2t,t+1,2(t+1)\) is a
+rational square. If \(p\mid G\) and \(v_p(A_j)>v_p(G)\) for
+some corner, then
+\[
+ v_p(L)=2v_p(G),\qquad p\equiv1\pmod{16},\qquad
+ 2^{(p-1)/4}\equiv1\pmod p.
+\]
+\end{corollary}
+
+\begin{proof}
+At a noncritical prime all normalized radii are units. Hence \(p\)
+is critical. A square symmetry moves the unique zero to corner zero
+and preserves the opposite-product sum. Dividing by \(a_1\) gives
+\[
+ a_0=0,\quad a_1=1,\quad a_2^2=\iota,\quad
+ a_3^2=1+\iota,\quad Q=a_2.
+\]
+Thus \(p\equiv1\pmod8\), and 2 is square in \(\Q_p\).
+By \eqref{crit:product-class}, any of the four square hypotheses
+forces \(\chi_p(Q)=1\). But
+\[
+ \chi_p(a_2)=\iota^{(p-1)/4}=(-1)^{(p-1)/8},
+\]
+so \(p\equiv1\pmod{16}\). Finally \((1+\iota)^2=2\iota\) gives
+\[
+ 1=\chi_p(1+\iota)
+ =2^{(p-1)/4}(-1)^{(p-1)/8}=2^{(p-1)/4}.
+\]
+\end{proof}

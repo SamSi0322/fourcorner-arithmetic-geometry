@@ -1,0 +1,14 @@
+{
+  "license": "Apache-2.0",
+  "sources": [
+    {
+      "repository": "https://github.com/MichaelStollBayreuth/EllipticCurves",
+      "revision": "7c476bd2eea67d7966f5f14e58da8b3f70ee59f8"
+    },
+    {
+      "repository": "https://github.com/Vilin97/MazurTheorem",
+      "revision": "9327963d4ec14fba49c7b14b004fd00707ffc2e9"
+    }
+  ],
+  "adaptations": "Selected compatible Basic/VariableChange modules; narrower Mathlib imports; six derivative identifiers renamed for compatibility. Mathematical endpoint statements retained. Original source headers and licenses are preserved."
+}

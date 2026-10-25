@@ -1,0 +1,162 @@
+import FourCorner
+
+#check FourCorner.ChamberMotion.act_involutive
+#print axioms FourCorner.ChamberMotion.act_involutive
+#check FourCorner.ChamberMotion.diagonal_action
+#print axioms FourCorner.ChamberMotion.diagonal_action
+#check FourCorner.ChamberMotion.preserves_strict
+#print axioms FourCorner.ChamberMotion.preserves_strict
+#check FourCorner.CommonRootSource.common_dyadic
+#print axioms FourCorner.CommonRootSource.common_dyadic
+#check FourCorner.CommonRootSource.ell_isSquare_37_field
+#print axioms FourCorner.CommonRootSource.ell_isSquare_37_field
+#check FourCorner.CommonRootSource.positive_squareclass_support
+#print axioms FourCorner.CommonRootSource.positive_squareclass_support
+#check FourCorner.CommonRootSource.ramified_square_classes_ratio
+#print axioms FourCorner.CommonRootSource.ramified_square_classes_ratio
+#check FourCorner.CommonRootSource.residue_matrix_proposition
+#print axioms FourCorner.CommonRootSource.residue_matrix_proposition
+#check FourCorner.CommonRootSource.squareclass_support
+#print axioms FourCorner.CommonRootSource.squareclass_support
+#check FourCorner.IntegralModel.actual_pair_reciprocity_literal_G
+#print axioms FourCorner.IntegralModel.actual_pair_reciprocity_literal_G
+#check FourCorner.IntegralModel.adjacent_oddPart_mod_four
+#print axioms FourCorner.IntegralModel.adjacent_oddPart_mod_four
+#check FourCorner.IntegralModel.adjacent_pair_reciprocity_literal_G
+#print axioms FourCorner.IntegralModel.adjacent_pair_reciprocity_literal_G
+#check FourCorner.IntegralModel.canonical_corner_classes
+#print axioms FourCorner.IntegralModel.canonical_corner_classes
+#check FourCorner.IntegralModel.cornerKernel_properties
+#print axioms FourCorner.IntegralModel.cornerKernel_properties
+#check FourCorner.IntegralModel.corner_gaussian_root_norm_div
+#print axioms FourCorner.IntegralModel.corner_gaussian_root_norm_div
+#check FourCorner.IntegralModel.corner_gaussian_squareclass_coordinates
+#print axioms FourCorner.IntegralModel.corner_gaussian_squareclass_coordinates
+#check FourCorner.IntegralModel.corner_ramified_character
+#print axioms FourCorner.IntegralModel.corner_ramified_character
+#check FourCorner.IntegralModel.corner_sevenPrimeCount_parity
+#print axioms FourCorner.IntegralModel.corner_sevenPrimeCount_parity
+#check FourCorner.IntegralModel.critical_excess
+#print axioms FourCorner.IntegralModel.critical_excess
+#check FourCorner.IntegralModel.critical_seventeen
+#print axioms FourCorner.IntegralModel.critical_seventeen
+#check FourCorner.IntegralModel.exists_prime_ge_five_dvd_L
+#print axioms FourCorner.IntegralModel.exists_prime_ge_five_dvd_L
+#check FourCorner.IntegralModel.fiveCofactor_factorization
+#print axioms FourCorner.IntegralModel.fiveCofactor_factorization
+#check FourCorner.IntegralModel.fiveCofactor_not_dvd
+#print axioms FourCorner.IntegralModel.fiveCofactor_not_dvd
+#check FourCorner.IntegralModel.fiveCofactor_pos
+#print axioms FourCorner.IntegralModel.fiveCofactor_pos
+#check FourCorner.IntegralModel.five_depth
+#print axioms FourCorner.IntegralModel.five_depth
+#check FourCorner.IntegralModel.kernel_product
+#print axioms FourCorner.IntegralModel.kernel_product
+#check FourCorner.IntegralModel.leastCoordinateDenominator
+#print axioms FourCorner.IntegralModel.leastCoordinateDenominator
+#check FourCorner.IntegralModel.minimal_positive_clearer
+#print axioms FourCorner.IntegralModel.minimal_positive_clearer
+#check FourCorner.IntegralModel.normalized_radii_ratios
+#print axioms FourCorner.IntegralModel.normalized_radii_ratios
+#check FourCorner.IntegralModel.opposite_colour_all_split
+#print axioms FourCorner.IntegralModel.opposite_colour_all_split
+#check FourCorner.IntegralModel.opposite_colour_congruences
+#print axioms FourCorner.IntegralModel.opposite_colour_congruences
+#check FourCorner.IntegralModel.opposite_colour_literal_seven_parity
+#print axioms FourCorner.IntegralModel.opposite_colour_literal_seven_parity
+#check FourCorner.IntegralModel.opposite_colour_residue_refinement
+#print axioms FourCorner.IntegralModel.opposite_colour_residue_refinement
+#check FourCorner.IntegralModel.opposite_colour_residue_table
+#print axioms FourCorner.IntegralModel.opposite_colour_residue_table
+#check FourCorner.IntegralModel.opposite_half_product_two_depth
+#print axioms FourCorner.IntegralModel.opposite_half_product_two_depth
+#check FourCorner.IntegralModel.opposite_half_product_two_depth_at_least_two
+#print axioms FourCorner.IntegralModel.opposite_half_product_two_depth_at_least_two
+#check FourCorner.IntegralModel.pair_denominators
+#print axioms FourCorner.IntegralModel.pair_denominators
+#check FourCorner.IntegralModel.pair_denominators_literal
+#print axioms FourCorner.IntegralModel.pair_denominators_literal
+#check FourCorner.IntegralModel.prime_power_comparisons
+#print axioms FourCorner.IntegralModel.prime_power_comparisons
+#check FourCorner.IntegralModel.primitive_congruences
+#print axioms FourCorner.IntegralModel.primitive_congruences
+#check FourCorner.IntegralModel.primitive_radius_half_sums
+#print axioms FourCorner.IntegralModel.primitive_radius_half_sums
+#check FourCorner.IntegralModel.radius_content
+#print axioms FourCorner.IntegralModel.radius_content
+#check FourCorner.IntegralModel.ramified_units
+#print axioms FourCorner.IntegralModel.ramified_units
+#check FourCorner.IntegralModel.rational_product_square_seventeen_noncritical
+#print axioms FourCorner.IntegralModel.rational_product_square_seventeen_noncritical
+#check FourCorner.IntegralModel.six_pair_identities
+#print axioms FourCorner.IntegralModel.six_pair_identities
+#check FourCorner.IntegralModel.six_pair_support
+#print axioms FourCorner.IntegralModel.six_pair_support
+#check FourCorner.commonRoot_ramified_both_distinct
+#print axioms FourCorner.commonRoot_ramified_both_distinct
+#check FourCorner.commonRoot_ramified_nonempty_iff
+#print axioms FourCorner.commonRoot_ramified_nonempty_iff
+#check FourCorner.diagonal_exclusion_and_chamber
+#print axioms FourCorner.diagonal_exclusion_and_chamber
+#check FourCorner.exactOrderedSourceCorrespondence
+#print axioms FourCorner.exactOrderedSourceCorrespondence
+#check FourCorner.exactOrderedSourceCorrespondence_final_square
+#print axioms FourCorner.exactOrderedSourceCorrespondence_final_square
+#check FourCorner.gaussian_corners_to_strict_point_of_roots
+#print axioms FourCorner.gaussian_corners_to_strict_point_of_roots
+#check FourCorner.gaussian_squareclass_iff_complex
+#print axioms FourCorner.gaussian_squareclass_iff_complex
+#check FourCorner.nine_flex_of_order_three
+#print axioms FourCorner.nine_flex_of_order_three
+#check FourCorner.originalStrictPoint_iff_orderedSource
+#print axioms FourCorner.originalStrictPoint_iff_orderedSource
+#check FourCorner.paperGInt_eq_oddPartChar_natAbs
+#print axioms FourCorner.paperGInt_eq_oddPartChar_natAbs
+#check FourCorner.paperG_eq_oddPartChar
+#print axioms FourCorner.paperG_eq_oddPartChar
+#check FourCorner.radius_model_iff_unique
+#print axioms FourCorner.radius_model_iff_unique
+#check FourCorner.ramified_iota_exists
+#print axioms FourCorner.ramified_iota_exists
+#check FourCorner.ramified_quartic_sign
+#print axioms FourCorner.ramified_quartic_sign
+#check FourCorner.ramified_sign_independent
+#print axioms FourCorner.ramified_sign_independent
+#check FourCorner.rational_right_triangle_not_square_area
+#print axioms FourCorner.rational_right_triangle_not_square_area
+#check FourCorner.real_coordinates_rational
+#print axioms FourCorner.real_coordinates_rational
+#check FourCorner.sevenPrimeCount_parity
+#print axioms FourCorner.sevenPrimeCount_parity
+#check FourCorner.strictChamberOrderedSourceCorrespondence
+#print axioms FourCorner.strictChamberOrderedSourceCorrespondence
+#check FourCorner.strictPoint_denominator_large_prime
+#print axioms FourCorner.strictPoint_denominator_large_prime
+#check FourCorner.strictPoint_iff_primitiveIntegral
+#print axioms FourCorner.strictPoint_iff_primitiveIntegral
+#check FourCorner.strict_point_difference_to_theta_positive_source
+#print axioms FourCorner.strict_point_difference_to_theta_positive_source
+#check FourCorner.strict_point_symmetry
+#print axioms FourCorner.strict_point_symmetry
+#check FourCorner.theta_criterion_original
+#print axioms FourCorner.theta_criterion_original
+#check FourCorner.theta_finite_primes
+#print axioms FourCorner.theta_finite_primes
+#check FourCorner.theta_lift_inverse_unique
+#print axioms FourCorner.theta_lift_inverse_unique
+#check FourCorner.theta_positive_source_iff_strict_point
+#print axioms FourCorner.theta_positive_source_iff_strict_point
+#check FourCorner.theta_real_correspondence
+#print axioms FourCorner.theta_real_correspondence
+#check FourCorner.theta_real_inverse_return
+#print axioms FourCorner.theta_real_inverse_return
+#check FourCorner.theta_real_inverse_valid
+#print axioms FourCorner.theta_real_inverse_valid
+#check FourCorner.theta_real_return_inverse
+#print axioms FourCorner.theta_real_return_inverse
+#check FourCorner.theta_real_return_valid
+#print axioms FourCorner.theta_real_return_valid
+#check FourCorner.theta_real_unique_source
+#print axioms FourCorner.theta_real_unique_source
+#check FourCorner.theta_strict_lift_iff_unique
+#print axioms FourCorner.theta_strict_lift_iff_unique

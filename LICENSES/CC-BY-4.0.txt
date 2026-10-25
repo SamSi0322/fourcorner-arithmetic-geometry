@@ -1,0 +1,4 @@
+Paper and LaTeX sources: Copyright (c) 2026 Yuan Si.
+Licensed under the Creative Commons Attribution 4.0 International License.
+License and legal text: https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode.en

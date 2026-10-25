@@ -1,0 +1,32 @@
+[
+  {
+    "directory": ".",
+    "target": "FourCorner",
+    "audit": [
+      "ProofAudit.lean"
+    ]
+  },
+  {
+    "directory": "projects/small_curves",
+    "target": "NineSmallCurvesComplete",
+    "audit": [
+      "source/NineSmallCurvesComplete.lean"
+    ]
+  },
+  {
+    "directory": "projects/uniform_torsion",
+    "target": "UniformFullCheck",
+    "audit": [
+      "source/UniformFullCheck.lean",
+      "extra/UniformDiscriminantDepth.lean"
+    ]
+  },
+  {
+    "directory": "projects/nine_three",
+    "target": "NineThreeScopeAudit",
+    "audit": [
+      "source/NineThreeTorsion.lean",
+      "source/NineThreeScopeAudit.lean"
+    ]
+  }
+]

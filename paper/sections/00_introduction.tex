@@ -1,0 +1,133 @@
+\section{Introduction}
+\label{sec:introduction}
+
+The rational-distance problem for a square asks for a point whose distances
+from all four vertices are rational. We consider the strict interior of the
+unit square and retain the four distances as part of the arithmetic data.
+Writing the vertices in the order $00,10,01,11$, the equations are
+\[
+ \begin{aligned}
+ r_0^2&=x^2+y^2,&r_1^2&=(1-x)^2+y^2,\\
+ r_2^2&=x^2+(1-y)^2,&r_3^2&=(1-x)^2+(1-y)^2,
+ \end{aligned}
+ \qquad 0<x,y<1,
+\]
+with $r_i\in\Q_{>0}$. Differences of the squared distances recover $x$
+and $y$, so this is a rational-point problem with a specified real chamber.
+
+The geometry of rational-distance varieties has been studied from several
+directions. Berry relates the square to a Kummer surface and a branched
+double cover, and studies associated curves of genus five
+\cite{berry1990}; his work on triangles develops the corresponding
+three-distance geometry \cite{berry1992}. Bremner and Ulas give
+constructions for rational-distance problems attached to several geometric
+objects \cite{bremnerulas2016}. Corvaja, Turchet and Zannier study distance
+varieties for general configurations of rational points, including their
+surfaces and product-quotient descriptions
+\cite{corvajaturchetzannier2025}. The present paper develops the arithmetic
+of explicit covering curves, the squareclasses carried by one ordered
+source, and congruences that hold at every denominator height.
+
+The first part concerns the primitive integral equations. Let $L$ be the
+least common denominator of $x,y$, and write $A_i=Lr_i$. We prove that
+$24\mid L$, that the common radius content $G=\gcd(A_0,A_1,A_2,A_3)$
+satisfies $G^2\mid L$, and that the six reduced denominators of the pairwise
+radius sums and differences satisfy exact gcd and product identities
+(Theorem~\ref{thm:int:pair-denominators}). Signed radius identities compare
+each prime-power divisor of $L$ with the size of the square. They imply,
+in particular, that $L$ has a prime divisor other than $2$ or $3$
+(Corollary~\ref{cor:int:six-smooth}).
+
+Gaussian factorization assigns four canonical, pairwise coprime
+squarefree integers $m_0,\ldots,m_3$ to the corners. Their product is
+the squarefree part of
+\[
+ (r_0r_3+r_1r_2)^2-1.
+\]
+All primes in these integers are $1$ or $7$ modulo $8$. A reciprocity
+identity for each pair of corners retains the common denominator and the
+sign of the Gaussian norm. For the two opposite pairs it gives
+\[
+ m_0m_3\equiv1\text{ or }15\pmod{16},\qquad
+ m_1m_2\equiv1\text{ or }15\pmod{16}
+\]
+(Theorem~\ref{thm:profile-main}). We also classify the residue pattern
+arising when $v_p(L)=2v_p(G)$. An elliptic residue curve identifies the
+exceptional primes $5$ and $13$; imposing the additional product-square
+condition gives the refined exceptional set $\{5,13,17\}$
+(Theorems~\ref{thm:crit-basic} and~\ref{thm:crit-refined}).
+
+The second part gives explicit rational correspondences. An ordered pair
+$Q=(a,b)$, $R=(c,e)$ on
+\[
+ E_n:\quad Y^2=X(X-n)(X+n)
+\]
+encodes the original point through two ordered product squareclasses,
+the two ordinates, and the single further square
+\[
+ \frac{a+c}{2(c+n)}.
+\]
+Theorem~\ref{thm:ell-exact-source} gives the forward and inverse maps,
+including all signs and strict inequalities. Fixing a signed sum or
+difference of two distances instead gives a smooth curve of genus five.
+The resulting fixed-pair finiteness theorem follows from the explicit
+branch calculation and Faltings' theorem
+(Theorem~\ref{thm:ell-fixed-pair-finite}).
+
+The product parameter $t=r_0r_3+r_1r_2$ leads to a genus-nine curve $D_t$
+with four ordered square roots over a common coordinate $\ell$. Its
+valuation conditions constrain one global class $[\ell]$. A generally
+nonsymmetric Legendre-symbol matrix then reduces the possible classes to
+two, and a local identity at $37$ excludes both under an explicit residue
+condition. This proves an infinite family of all-height no-point results
+(Theorem~\ref{thm:common-squareclass} and
+Corollary~\ref{cor:common-infinite}). The associated unramified double
+covers have genus seventeen. Nine explicit elliptic quotients describe
+$\Jac(D_t)$ and yield rank constraints on parameters admitting rational
+points (Theorems~\ref{thm:nine-isogeny}
+and~\ref{thm:nine-rank-strata}).
+
+Further descent must compare local data arising from the same global
+source. We express this requirement through a character map and a
+secondary obstruction in its cokernel. Keeping the complete compensation
+coset gives the criterion of Theorem~\ref{thm:cs-matrix}. A short
+arithmetic certificate applies it, together with a higher quotient, to
+exclude the entire kernel $n=15569$
+(Corollary~\ref{cor:cs-15569-layer}). A separate construction attaches
+a proper quaternion class to a complete genus-five source. Its local
+evaluations give an explicit parity criterion through Hilbert reciprocity
+(Theorem~\ref{thm:hp-uniform}). An explicit conic parametrization yields
+an infinite family of complete genus-five failures of the Hasse principle
+(Theorem~\ref{thm:hp-infinite}).
+
+The final section treats the fixed opposite-distance difference $1/5$
+in detail. Its genus-five source has an unramified genus-three quotient
+which is a smooth plane quartic. We determine all twenty-eight
+bitangents, their contact divisors and Galois action, obtaining the
+odd-theta algebra
+\[
+ \Q^8\times\Q(\sqrt2)^4\times\Q(\sqrt{51})^4
+ \times\Q(\sqrt2,\sqrt{51}).
+\]
+The calculation supplies explicit theta fractions of the type used in
+generalized descent \cite{bruinpoonenstoll2016,misme2026}. A polynomial
+identity identifies the original double cover with a specified difference
+of theta characteristics. We then prove a local-solubility theorem for
+every finite Abel--Jacobi multiplication cover through a rational boundary
+point. Its application preserves the original double cover and a strict
+real point (Corollary~\ref{cor:theta-surviving-covers}).
+
+For the models encoding the original four-distance configurations, we give
+explicit reconstruction formulas and the inequalities defining the strict
+real chamber. Finite residue calculations
+are given as explicit identities, congruences or complete small tables.
+We use the classical torsion theorem of Mazur, the finiteness theorem of
+Faltings, and standard facts about elliptic curves, covers and Brauer groups
+in the statements where they enter. The appendix describes the compact
+four-radius surface and the Brauer evaluations associated with its real
+components.
+
+\paragraph{Companion material.}
+The paper sources and a partial Lean formalization are archived at
+\url{https://doi.org/10.5281/zenodo.23638745}.
+The archive identifies the verified statements and the pinned build environment.

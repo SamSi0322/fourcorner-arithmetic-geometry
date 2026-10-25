@@ -1,0 +1,70 @@
+paper_label,section,lean_status,source,declarations
+prop:int:radius-model,sections/01_integral.tex,verified,FourCorner/RadiusModel.lean,FourCorner.radius_model_iff_unique; FourCorner.real_coordinates_rational
+lem:int:fermat,sections/01_integral.tex,verified,FourCorner/FermatSymmetry.lean,FourCorner.rational_right_triangle_not_square_area
+lem:int:symmetry,sections/01_integral.tex,verified,FourCorner/FermatSymmetry.lean,FourCorner.strict_point_symmetry
+int:primitive,sections/01_integral.tex,verified,FourCorner/PrimitiveCongruences.lean,FourCorner.IntegralModel.primitive_congruences; FourCorner.strictPoint_iff_primitiveIntegral; FourCorner.IntegralModel.leastCoordinateDenominator
+int:content,sections/01_integral.tex,verified,FourCorner/RadiusContent.lean,FourCorner.IntegralModel.radius_content; FourCorner.IntegralModel.normalized_radii_ratios; FourCorner.strictPoint_iff_primitiveIntegral
+thm:int:pair-denominators,sections/01_integral.tex,verified,FourCorner/PairDenominators.lean,FourCorner.IntegralModel.pair_denominators; FourCorner.IntegralModel.pair_denominators_literal
+int:gaussian,sections/01_integral.tex,verified,FourCorner/GaussianSquareClassEmbedding.lean,FourCorner.IntegralModel.canonical_corner_classes; FourCorner.IntegralModel.corner_gaussian_root_norm_div; FourCorner.IntegralModel.corner_gaussian_squareclass_coordinates; FourCorner.gaussian_squareclass_iff_complex; FourCorner.gaussian_corners_to_strict_point_of_roots
+prop:int:kernel-product,sections/01_integral.tex,verified,FourCorner/KernelProduct.lean,FourCorner.IntegralModel.kernel_product
+prop:int:ramified-units,sections/01_integral.tex,verified,FourCorner/RamifiedUnits.lean,FourCorner.IntegralModel.ramified_units; FourCorner.ramified_iota_exists; FourCorner.ramified_sign_independent; FourCorner.ramified_quartic_sign
+thm:int:prime-comparisons,sections/01_integral.tex,verified,FourCorner/DenominatorBoundsCorollary.lean,FourCorner.IntegralModel.prime_power_comparisons
+cor:int:six-smooth,sections/01_integral.tex,verified,FourCorner/DenominatorBoundsCorollary.lean,FourCorner.IntegralModel.exists_prime_ge_five_dvd_L; FourCorner.strictPoint_denominator_large_prime
+prop:int:five-depth,sections/01_integral.tex,verified,FourCorner/FiveDepth.lean,FourCorner.IntegralModel.five_depth; FourCorner.IntegralModel.fiveCofactor_pos; FourCorner.IntegralModel.fiveCofactor_factorization; FourCorner.IntegralModel.fiveCofactor_not_dvd
+lem:ell-diagonal-exclusion,sections/02_elliptic_sources.tex,verified,FourCorner/StrictChamber.lean,FourCorner.diagonal_exclusion_and_chamber; FourCorner.ChamberMotion.act_involutive; FourCorner.ChamberMotion.preserves_strict; FourCorner.ChamberMotion.diagonal_action
+thm:ell-exact-source,sections/02_elliptic_sources.tex,verified,FourCorner/OrderedSourceNormalization.lean,FourCorner.exactOrderedSourceCorrespondence; FourCorner.strictChamberOrderedSourceCorrespondence; FourCorner.exactOrderedSourceCorrespondence_final_square; FourCorner.originalStrictPoint_iff_orderedSource
+prop:ell-original-cover,sections/02_elliptic_sources.tex,not_fully_formalized,,
+prop:ell-opposite-genus,sections/02_elliptic_sources.tex,not_fully_formalized,,
+thm:ell-torsion,sections/02_elliptic_sources.tex,verified,projects/uniform_torsion/source/UniformStrictQuotient.lean,FourCorner.UniformTorsion.rational_torsion_classification; FourCorner.UniformTorsion.rational_torsion_eq_zmultiples; FourCorner.UniformTorsion.rational_torsion_card; FourCorner.UniformTorsion.rational_torsion_cyclic; FourCorner.UniformTorsion.strict_quotient_infinite_order_of_pair_value; FourCorner.UniformTorsion.strict_any_opposite_value_yields_nontorsion
+cor:ell-rank-zero,sections/02_elliptic_sources.tex,verified,projects/uniform_torsion/source/UniformStrictQuotient.lean,FourCorner.UniformTorsion.numberField_isOfFinAddOrder_of_finrank_zero; FourCorner.UniformTorsion.rank_zero_excludes_all_opposite_values
+prop:ell-adjacent-genus,sections/02_elliptic_sources.tex,not_fully_formalized,,
+thm:ell-fixed-pair-finite,sections/02_elliptic_sources.tex,not_fully_formalized,,
+prop:ell-one-fifth-jacobian,sections/02_elliptic_sources.tex,not_fully_formalized,,
+prop:common-genus-boundary,sections/03_common_descent.tex,not_fully_formalized,,
+lem:common-support,sections/03_common_descent.tex,verified,FourCorner/CommonRootSupport.lean,FourCorner.CommonRootSource.squareclass_support; FourCorner.CommonRootSource.positive_squareclass_support
+lem:common-ramified,sections/03_common_descent.tex,verified,FourCorner/CommonRootRamified.lean,FourCorner.CommonRootSource.ramified_square_classes_ratio; FourCorner.commonRoot_ramified_both_distinct; FourCorner.commonRoot_ramified_nonempty_iff
+lem:common-dyadic,sections/03_common_descent.tex,verified,FourCorner/CommonRootDyadic.lean,FourCorner.CommonRootSource.common_dyadic
+prop:common-matrix,sections/03_common_descent.tex,verified,FourCorner/CommonRootMatrix.lean,FourCorner.CommonRootSource.residue_matrix_proposition
+lem:common-37,sections/03_common_descent.tex,verified,FourCorner/CommonRoot37.lean,FourCorner.CommonRootSource.ell_isSquare_37_field
+thm:common-exclusion,sections/03_common_descent.tex,not_fully_formalized,,
+cor:common-infinite,sections/03_common_descent.tex,not_fully_formalized,,
+prop:common-genus17,sections/03_common_descent.tex,not_fully_formalized,,
+prop:common-finite-places,sections/03_common_descent.tex,not_fully_formalized,,
+lem:profile-pair-identity,sections/04_reciprocity_profiles.tex,verified,FourCorner/PairIdentity.lean,FourCorner.IntegralModel.six_pair_identities
+thm:profile-six-pair-support,sections/04_reciprocity_profiles.tex,verified,FourCorner/PairSupport.lean,FourCorner.IntegralModel.six_pair_support
+lem:profile-ramified-character,sections/04_reciprocity_profiles.tex,verified,FourCorner/CornerReciprocityActual.lean,FourCorner.IntegralModel.corner_ramified_character
+thm:profile-master,sections/04_reciprocity_profiles.tex,verified,FourCorner/CornerCharacterEncoding.lean,FourCorner.IntegralModel.actual_pair_reciprocity_literal_G; FourCorner.paperGInt_eq_oddPartChar_natAbs
+thm:profile-main,sections/04_reciprocity_profiles.tex,verified,FourCorner/CornerReciprocityOpposite.lean,FourCorner.IntegralModel.opposite_colour_congruences; FourCorner.IntegralModel.opposite_colour_residue_refinement
+cor:profile-split,sections/04_reciprocity_profiles.tex,verified,FourCorner/CornerReciprocityOpposite.lean,FourCorner.IntegralModel.opposite_colour_all_split
+thm:hp-uniform,sections/05_hasse_families.tex,not_fully_formalized,,
+lem:hp-norms,sections/05_hasse_families.tex,not_fully_formalized,,
+thm:hp-infinite,sections/05_hasse_families.tex,not_fully_formalized,,
+lem:cs-odd-row,sections/06_common_source_descent.tex,not_fully_formalized,,
+thm:cs-matrix,sections/06_common_source_descent.tex,not_fully_formalized,,
+thm:cs-15569,sections/06_common_source_descent.tex,not_fully_formalized,,
+cor:cs-15569-layer,sections/06_common_source_descent.tex,not_fully_formalized,,
+prop:theta-quotient,sections/07_theta_geometry.tex,not_fully_formalized,,
+prop:theta-strict-lift,sections/07_theta_geometry.tex,verified,FourCorner/ThetaStrictLift.lean,FourCorner.theta_strict_lift_iff_unique; FourCorner.theta_lift_inverse_unique; FourCorner.theta_criterion_original; FourCorner.theta_positive_source_iff_strict_point; FourCorner.strict_point_difference_to_theta_positive_source
+thm:theta-lines,sections/07_theta_geometry.tex,not_fully_formalized,,
+prop:theta-cover-class,sections/07_theta_geometry.tex,not_fully_formalized,,
+thm:theta-local-survival,sections/07_theta_geometry.tex,not_fully_formalized,,
+cor:theta-surviving-covers,sections/07_theta_geometry.tex,not_fully_formalized,,
+prop:theta-finite-primes,sections/07_theta_geometry.tex,verified,FourCorner/ThetaLocalFinite.lean,FourCorner.theta_finite_primes
+prop:crit-elliptic,sections/08_critical_content.tex,not_fully_formalized,,
+thm:crit-basic,sections/08_critical_content.tex,not_fully_formalized,,
+cor:crit-crt,sections/08_critical_content.tex,not_fully_formalized,,
+thm:crit-17,sections/08_critical_content.tex,verified,FourCorner/CriticalSeventeen.lean,FourCorner.IntegralModel.critical_seventeen; FourCorner.IntegralModel.rational_product_square_seventeen_noncritical
+prop:crit-double,sections/08_critical_content.tex,not_fully_formalized,,
+thm:crit-refined,sections/08_critical_content.tex,not_fully_formalized,,
+cor:crit-excess,sections/08_critical_content.tex,verified,FourCorner/CriticalExcess.lean,FourCorner.IntegralModel.critical_excess
+thm:nine-isogeny,sections/09_jacobians.tex,not_fully_formalized,,
+lem:nine-small-curves,sections/09_jacobians.tex,verified,projects/small_curves/source/NineSmallCurvesComplete.lean,FourCorner.nine_small_curves_complete; FourCorner.nine_small_curves_affine
+lem:nine-flex,sections/09_jacobians.tex,verified,FourCorner/NineFlex.lean,FourCorner.nine_flex_of_order_three
+lem:nine-three-torsion,sections/09_jacobians.tex,verified,projects/nine_three/source/NineThreeTorsion.lean,FourCorner.nine_three_torsion; FourCorner.nine_three_models_nonsingular; NineThreeScopeAudit.exact_paper_statement; NineThreeScopeAudit.literal_equations
+thm:nine-positive-ranks,sections/09_jacobians.tex,not_fully_formalized,,
+thm:nine-rank-strata,sections/09_jacobians.tex,not_fully_formalized,,
+prop:surface-invariants,sections/10_surfaces.tex,not_fully_formalized,,
+prop:surface-product,sections/10_surfaces.tex,not_fully_formalized,,
+lem:surface-real-boundary,sections/10_surfaces.tex,not_fully_formalized,,
+prop:surface-brauer-finite,sections/10_surfaces.tex,not_fully_formalized,,
+thm:surface-brauer-projection,sections/10_surfaces.tex,not_fully_formalized,,

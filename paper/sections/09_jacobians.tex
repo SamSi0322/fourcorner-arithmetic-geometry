@@ -1,0 +1,623 @@
+\section{Nine elliptic factors and rank constraints}\label{sec:nine-factors}
+
+The four roots in \eqref{eq:common-four-roots} give nine elliptic
+quotients.  Their rational twists can be identified explicitly, and the
+images of a single strict point impose rank conditions on every factor.
+Throughout this section put
+\[
+ s=t-1,\qquad T=t+1,\qquad d=sT,\qquad z=\ell+T.
+\]
+Thus the coordinate denoted by $\ell$ satisfies
+\begin{equation}\label{eq:nine-roots}
+ P^2=z,\qquad C^2=z-2t,\qquad
+ M^2=-\frac{s(z-2T)}{z-T},\qquad
+ B^2=\frac{T(z-2)}{z-T}.
+\end{equation}
+The smooth projective curve with this function field is $D_t$.
+For a strict rational-distance point, its four roots satisfy
+\[
+ t>1,\qquad s<\ell<T,\qquad P,B>0,\qquad CM\ne0.
+\]
+Here $CM\ne0$ also follows directly from the square: $C=0$ would give
+$x=y$, and $M=0$ would give $x+y=1$.  Either diagonal forces a positive
+rational distance to be a nonzero rational multiple of $\sqrt2$.
+
+\subsection{Character quotients and their rational models}
+
+Define the elliptic curves
+\begin{equation}\label{eq:nine-elliptic-models}
+\begin{aligned}
+ E_d &: Y^2=X(X-d)(X+d),\\
+ G_t &: Y^2=X(X-d^2)(X+d),\\
+ F_+ &: Y^2=X(X-2d)(X+2td),\\
+ F_- &: Y^2=X(X-2d)(X-2td),\\
+ H_+ &: Y^2=X(X-2T)(X-T^2),\\
+ H_- &: Y^2=X(X-2s)(X-d).
+\end{aligned}
+\end{equation}
+Each curve carries the point at infinity as its origin.  All six cubics
+are nonsingular for $t\notin\{0,1,-1\}$.
+
+\begin{theorem}\label{thm:nine-isogeny}
+For every $t\in\Q\setminus\{0,1,-1\}$ there is an isogeny over $\Q$
+\begin{equation}\label{eq:nine-isogeny}
+ \Jac(D_t)\sim_{\Q}
+ E_d^2\times G_t\times F_+^2\times F_-^2\times H_+\times H_-.
+\end{equation}
+The rank of the group of rational N\'eron--Severi classes of $\Jac(D_t)$
+is at least twelve.
+\end{theorem}
+\begin{proof}
+The sign changes of the four roots give a group
+$V=(\Z/2\Z)^4$, in the order $(P,C,M,B)$.  On the $z$-line its six
+inertia generators, over $0,2t,\infty,2T,2,T$, are
+\[
+ e_1,\quad e_2,\quad e_1+e_2,\quad
+ e_3,\quad e_4,\quad e_3+e_4.
+\]
+A nonzero character supported on just one of the blocks
+$\langle e_1,e_2\rangle$ and $\langle e_3,e_4\rangle$ is ramified at
+two points.  Its double-cover quotient is rational.  There are six such
+characters.  Each of the nine characters nonzero on both blocks is
+ramified at four points and has a genus-one quotient.
+
+The latter characters are the products of one member of
+$(P,C,PC)$ and one member of $(M,B,MB)$.  Their elliptic models are
+\begin{equation}\label{eq:nine-character-table}
+\begin{array}{c|ccc}
+ &M&B&MB\\\hline
+ P&E_d&H_+&F_+\\
+ C&H_-&E_d&F_-\\
+ PC&F_-&F_+&G_t.
+\end{array}
+\end{equation}
+Here are birational maps establishing all the models and their rational
+twists.  The character in the first column specifies the genus-one
+function field $\Q(z,\text{character})$:
+\begin{equation}\label{eq:nine-map-table}
+\begin{array}{c|c|c|c}
+\text{character}&\text{target}&X&Y\\\hline
+ PM&E_d&-s\ell&sPM\ell\\[1mm]
+ BC&E_d&T\ell&TBC\ell\\[1mm]
+ PB&H_+&Tz&TPB\ell\\[1mm]
+ CM&H_-&s(2T-z)&sCM\ell\\[1mm]
+ PCB&F_+&4tT\ell/z&4tT^2\ell PCB/z^2\\[1mm]
+ CMB&F_-&4td/(T-\ell)&-4td\ell CMB/(T-\ell)^2\\[1mm]
+ PCMB&G_t&dT(2t/z-1)&dtT\ell PCMB/z^2.
+\end{array}
+\end{equation}
+For example, the $PB$ and $PCMB$ equations before transformation are
+\[
+ (PB\ell)^2=Tz(z-2)(z-T),\qquad
+ (PCMB\ell)^2=-dz(z-2t)(z-2)(z-2T).
+\]
+Substitution of the corresponding rows gives the stated cubics.  The
+other rows follow by multiplying their radicands in
+\eqref{eq:nine-roots}.  Every displayed abscissa is an invertible
+M\"obius function of $z$, and its ordinate is a nonzero rational function
+of $z$ times the indicated character.  It therefore recovers that
+character and defines a birational map of genus-one curves.  All maps
+extend uniquely between the smooth projective models.  The inverse
+image of the point at infinity is a rational point on the smooth
+quotient; this point supplies the origin used for its Jacobian.
+More explicitly, the origins in the seven rows lie above
+$z=\infty,\infty,\infty,\infty,0,2T,0$, respectively.
+Each is the unique ramified point of its genus-one double cover above
+the indicated value.
+
+The involution
+\begin{equation}\label{eq:nine-iota}
+ (\ell,P,C,M,B)\longmapsto(d/\ell,B,M,C,P)
+\end{equation}
+exchanges the $PCB$ and $PMB$ characters, and exchanges $CMB$ and
+$PCM$.  Composing the two corresponding rows of
+\eqref{eq:nine-map-table} with this involution gives
+\[
+\begin{aligned}
+ PMB\longrightarrow F_+:\quad (X,Y)
+ &=\left(\frac{4td}{\ell+s},
+           \frac{4td\ell PMB}{(\ell+s)^2}\right),\\
+ PCM\longrightarrow F_-:\quad (X,Y)
+ &=\left(\frac{4ts\ell}{\ell-s},
+          -\frac{4ts^2\ell PCM}{(\ell-s)^2}\right).
+\end{aligned}
+\]
+Their origins lie above $z=2$ and $z=2t$, respectively.  This gives
+the two remaining entries of \eqref{eq:nine-character-table}.
+
+The pullback of the differential of each elliptic quotient lies in its
+one-dimensional character eigenspace in $H^0(D_t,\Omega^1)$.
+These nine distinct eigenspaces span that space, since $g(D_t)=9$.
+The product norm map from $\Jac(D_t)$ to the nine quotient
+Jacobians has the direct sum of these differential pullbacks as its
+cotangent map.  It therefore has invertible differential and is an
+isogeny over $\Q$.  Its dual gives the product pullback isogeny and
+proves \eqref{eq:nine-isogeny}.
+
+For an elliptic square $E^2$, the two factor divisors and the diagonal
+have intersection matrix
+\[
+ \begin{pmatrix}0&1&1\\1&0&1\\1&1&0\end{pmatrix},
+ \qquad\det=2.
+\]
+They give three independent rational divisor classes.  Apply this to
+$E_d^2,F_+^2,F_-^2$, and take the polarization class on each of
+$G_t,H_+,H_-$.  The twelve classes are independent on the product.
+Pullback and the norm along a rational isogeny identify N\'eron--Severi
+spaces after tensoring with $\Q$, proving the assertion.
+\end{proof}
+
+The genus-three quotient and its three Pryms also follow from the same
+character decomposition.  Let $K\subset V$ be generated by the sign
+changes of $(P,M)$ and of $(C,B)$.  None of the six inertia subgroups
+meets $K$ nontrivially.  Thus $D_t\to D_t/K$ is an unramified cover
+of degree four and its quotient has genus three.  Its invariant field
+is generated by
+\[
+ u=\frac{PM-BC}{2},\qquad v=\frac{PM+BC}{2},
+ \qquad z=\frac{u^2+v^2+2}{2}+t-\frac{uv}{t}.
+\]
+Consequently it is the smooth model of
+\begin{equation}\label{eq:nine-quartic}
+ C_t:\quad t^2(u^2+v^2)^2-4u^2v^2-4t^2d=0.
+\end{equation}
+The characters trivial on $K$ give
+\[
+ \Jac(C_t)\sim_{\Q}E_d^2\times G_t.
+\]
+The three intermediate double covers of $C_t$ have genus five.
+Writing $\kappa_1=e_1+e_3$ and $\kappa_2=e_2+e_4$, their Pryms are
+\[
+\begin{aligned}
+ \operatorname{Prym}(D_t/\langle\kappa_1\rangle\to C_t)
+   &\sim_{\Q}F_+\times F_-,\\
+ \operatorname{Prym}(D_t/\langle\kappa_2\rangle\to C_t)
+   &\sim_{\Q}F_+\times F_-,\\
+ \operatorname{Prym}(D_t/\langle\kappa_1+\kappa_2\rangle\to C_t)
+   &\sim_{\Q}H_+\times H_-.
+\end{aligned}
+\]
+The additional characters in these three quotients are respectively
+$(PMB,PCM)$, $(PCB,CMB)$, and $(PB,CM)$.  Removing the three
+characters of $C_t$ from each quotient proves the displayed isogenies.
+
+\subsection{Two-descent and four auxiliary point sets}
+
+We recall the elementary forms of two-descent used below; see also
+\cite{cassels1991,silverman2009}.  On a split cubic
+\[
+ E:\quad y^2=(x-e_1)(x-e_2)(x-e_3)
+\]
+with distinct rational roots, the Kummer homomorphism has coordinates
+$[x-e_i]$ in $\Q^\times/\Q^{\times2}$.  At $(e_i,0)$ its $i$th
+coordinate is $[(e_i-e_j)(e_i-e_k)]$; at another root $(e_j,0)$ it is
+$[e_j-e_i]$, and at infinity it is $1$.  The product of the three
+coordinates is $1$.  The map has kernel $2E(\Q)$.
+Indeed, the tangent-and-chord law proves multiplicativity, and when
+all three coordinates are squares one may choose rational roots
+$r_i^2=x-e_i$ with $r_1r_2r_3=-y$; the usual halving formulas give a
+point with abscissa
+\[
+ x+r_1r_2+r_1r_3+r_2r_3.
+\]
+The same calculation at a root shows that $(e_i,0)$ has a rational half
+if and only if both $e_i-e_j$ and $e_i-e_k$ are squares.
+
+For the integral model $y^2=x^3+ax^2+bx$, the one-coordinate
+isogeny descent sends an ordinary point to $[x]$, sends $(0,0)$ to
+$[b]$, and sends infinity to $1$.  Its kernel is the image of the dual
+isogeny from
+\[
+ E':\quad y^2=x^3-2ax^2+(a^2-4b)x.
+\]
+Its image consists of signed squarefree divisors $q$ of $b$ for which
+\begin{equation}\label{eq:nine-isogeny-quartic}
+ W^2=qU^4+aU^2V^2+(b/q)V^4,\qquad\gcd(U,V)=1,
+\end{equation}
+is soluble in integers, together with the stated values at zero and
+infinity.  To obtain this equation write $x=q(U/V)^2$ and substitute
+in the cubic.  A prime not dividing $b$ cannot occur to an odd exponent
+in $x$: negative valuations follow from the leading cubic term, and
+positive valuations from the constant term of $x^2+ax+b$.
+These observations give the support assertion and the homogeneous
+quartic.
+
+If $E$ has full rational two-torsion, write $\alpha(E)$ and
+$\alpha'(E')$ for these two images.  Then
+\begin{equation}\label{eq:nine-rank-descent}
+ 2^{\rank E(\Q)}=\frac{|\alpha(E)|\,|\alpha'(E')|}{4}.
+\end{equation}
+For completeness, the dual compositions are multiplication by two.
+The other rational two-torsion points of $E$ map onto the kernel of
+the dual isogeny.  The index calculation therefore gives
+$[E(\Q):2E(\Q)]=|\alpha(E)|\,|\alpha'(E')|$.
+Mordell--Weil and $E(\Q)[2]\simeq(\Z/2\Z)^2$ identify the left side
+with $2^{\rank E(\Q)+2}$, giving
+\eqref{eq:nine-rank-descent}.
+
+\begin{lemma}\label{lem:nine-small-curves}
+The following are complete rational point sets:
+\begin{align*}
+ E_1(\Q)&=\{O,(0,0),(1,0),(-1,0)\},\\
+ E_2(\Q)&=\{O,(0,0),(2,0),(-2,0)\},\\
+ A(\Q)&=\{O,(0,0),(6,0),(8,0)\},
+   &&A:\ y^2=x(x-6)(x-8),\\
+ E_0(\Q)&=\{O,(0,0),(-1,0),(-4,0),(2,\pm6),(-2,\pm2)\},
+   &&E_0:\ y^2=x(x+1)(x+4).
+\end{align*}
+Here $E_1$ and $E_2$ are the curves $y^2=x^3-x$ and $y^2=x^3-4x$.
+\end{lemma}
+\begin{proof}
+For $E_1$, the first descent image is $\{1,-1\}$.
+Its dual $y^2=x^3+4x$ has nonnegative rational abscissae, so its image
+is contained in $\{1,2\}$.  Both classes occur, the latter at $(2,4)$.
+Equation~\eqref{eq:nine-rank-descent} gives rank zero.
+For $E_2$, the first image is $\{1,-1,2,-2\}$, all represented by
+two-torsion.  Its dual $y^2=x^3+16x$ has only the candidates $1,2$.
+The class $2$ would require
+\[
+ W^2=2U^4+8V^4.
+\]
+If $U$ is odd the right side has valuation one at $2$; otherwise $V$
+is odd and it has valuation three.  Thus the second image is
+$\{1\}$ and the rank is zero.
+
+For every positive rational $d$, the torsion of $E_d$ is its rational
+two-torsion.  A rational half of the largest root $d$ would require
+both $d$ and $2d$ square; the other roots have negative differences.
+The third-division polynomial
+\[
+ 3x^4-6d^2x^2-d^4
+\]
+cannot vanish at a rational number, since it would give
+$x^2/d^2=1\pm2\sqrt3/3$.  Mazur's torsion theorem
+\cite{mazur1977}, in the full-two-torsion case, leaves only
+$(\Z/2\Z)^2$ after orders four and three have been excluded.
+This completes the point lists for $E_1,E_2$.
+
+For $A$, the model has $a=-14,b=48$.  There are no real points with
+$x<0$, so the first descent image is contained in $\{1,2,3,6\}$;
+the four two-torsion points realize all four classes.  The dual is
+$y^2=x^3+28x^2+4x$, with candidates $1,-1,2,-2$.
+For $q=-1$, equation~\eqref{eq:nine-isogeny-quartic} is nonsquare
+modulo three for every primitive pair.  For $q=2$ its right side is
+\[
+ 2\bigl((U^2-V^2)^2+16U^2V^2\bigr);
+\]
+opposite parity gives valuation one at two, and both odd gives
+valuation five.  For $q=-2$ the right side is
+\[
+ -2\bigl((U^2-V^2)^2-12U^2V^2\bigr),
+\]
+with valuations one and three, respectively.  Thus the dual image
+is $\{1\}$, proving rank zero.
+
+For $E_0$, the first descent image is $\{1,-1,2,-2\}$, as witnessed
+by $O,(-1,0),(2,6),(-2,2)$.  Its dual is
+$y^2=x(x-1)(x-9)$ and has only the candidates $1,3$.
+The second class would give
+\[
+ W^2=3U^4-10U^2V^2+3V^4.
+\]
+If both variables are units at three the right side is $2$ modulo
+three; if just one is a unit its valuation is one.  Thus the dual
+image is $\{1\}$ and the rank is zero.
+
+To determine the last two torsion groups, the following table gives
+all cubic values at the good primes five and seven, in the order
+$x=0,1,\ldots,p-1$:
+\[
+\begin{array}{c|c|c|c}
+\text{curve}&p&f(0),\ldots,f(p-1)&\#E(\F_p)\\\hline
+ A&5&0,0,3,0,2&4\\
+ A&7&0,0,6,3,4,1,0&8\\
+ E_0&5&0,0,1,4,0&8\\
+ E_0&7&0,3,1,0,6,4,0&8.
+\end{array}
+\]
+The nonzero squares are $1,4$ modulo five and $1,2,4$ modulo seven.
+Each point count follows by adding one for infinity and counting the
+two square roots of each nonzero square.  Prime-to-$p$ torsion injects
+under good reduction.  Combining the two primes bounds the torsion
+orders by four and eight, respectively: the five-primary part is
+excluded using seven, and the seven-primary part using five.
+The displayed rational points attain these bounds, completing both
+point lists.
+\end{proof}
+
+\subsection{Torsion of the six factors}
+
+We shall need a convenient parametrization of a rational flex.
+\begin{lemma}\label{lem:nine-flex}
+If $y^2=x(x-A)(x-B)$ is nonsingular and has a rational point of order
+three, then there is $k\in\Q\setminus\{0,1,-1,-\tfrac12,-2\}$ such that
+\begin{equation}\label{eq:nine-flex}
+ \frac BA=\frac{1+2k}{(1-k)(1+k)^3}.
+\end{equation}
+There is also a nonzero rational $r$ with $A=r^2(1-k^2)$.
+\end{lemma}
+\begin{proof}
+Write the tangent at the order-three point $(x,y)$ as
+$h(X)=m(X-x)+y$.  Since it meets the cubic with multiplicity three,
+\[
+ X(X-A)(X-B)-h(X)^2=(X-x)^3.
+\]
+For each root $e\in\{0,A,B\}$, the rational number
+$r_e=h(e)/(x-e)$ satisfies $r_e^2=x-e$.  These numbers are nonzero
+and distinct.  The identity $h(e)=y-mr_e^2=r_e^3$ shows that they are
+the three roots of $R^3+mR^2-y$.  Hence their pairwise products sum
+to zero.  Put $r=r_0$ and $k=r_A/r$.  Then
+$r_B/r=-k/(1+k)$, and
+\[
+ A=r^2(1-k^2),\qquad B=r^2\frac{1+2k}{(1+k)^2}.
+\]
+This gives \eqref{eq:nine-flex}.  The values $0,\pm1$ contradict
+nonzero roots or $A\ne0$; $-1/2$ makes $B=0$, and $-2$ makes $A=B$.
+\end{proof}
+
+\begin{lemma}\label{lem:nine-three-torsion}
+For rational $t\notin\{0,1,-1\}$, the curve $G_t$ has no rational
+three-torsion.  For $t>1$ the following additional assertions hold:
+\begin{enumerate}
+\item if $T$ is a rational square, neither $H_+$ nor $F_-$ has
+rational three-torsion;
+\item if $T$ is twice a rational square, $F_+$ has no rational
+three-torsion.
+\end{enumerate}
+\end{lemma}
+\begin{proof}
+Set
+\[
+ D=(1-k)(1+k)^3,\quad R=\frac{1+2k}{D},\quad
+ N=2+4k-2k^3-k^4.
+\]
+Then
+\begin{equation}\label{eq:nine-flex-shifts}
+ R-1=\frac{k^3(k+2)}D,\qquad R+1=\frac ND.
+\end{equation}
+Suppose first that $H_+$ has rational three-torsion and $T$ is a
+square.  Take $A=2T,B=T^2$ in Lemma~\ref{lem:nine-flex}.
+It gives $T/2=R$ and
+\[
+ r^2=\frac{4(1+2k)}{(1-k)^2(1+k)^4}.
+\]
+Thus $1+2k=a^2$ and $1-k^2=2b^2$ for rational $a,b$, whence
+$8b^2=3+2a^2-a^4$.  Write $a=U/V$ in lowest terms.  The rational
+number $2bV^2$ is an integer, since its square multiplied by two is
+integral.  Calling it $W$ gives
+\[
+ 2W^2=3V^4+2U^2V^2-U^4.
+\]
+Modulo sixteen the right side is $4$ if $U,V$ are both odd, is
+$7$ or $15$ if only $U$ is odd, and is $3$ or $11$ if only $V$
+is odd.  None is $0,2,8$, the possible residues of $2W^2$.
+
+For $F_-$ use $A=2d,B=2td$, so $t=R$.  If $T$ is square,
+\eqref{eq:nine-flex-shifts} and $A=r^2(1-k^2)$ show that
+\[
+ \frac{r^2}T=
+ \left(\frac{k}{(1-k)(1+k)^2}\right)^2 2k(k+2).
+\]
+Hence $2k(k+2)$ is square.  If $v_2(k)<0$ its valuation is
+$1+2v_2(k)$, and if $v_2(k)=0$ its valuation is one.  Consequently
+$v_2(k)>0$.  But then $D$ is a dyadic unit and $N\equiv2\pmod8$;
+thus $v_2(T)=v_2(N/D)=1$, contradicting that $T$ is square.
+
+For $F_+$ take $A=2d,B=-2td$, so $-t=R$.  If $T$ is twice square,
+\eqref{eq:nine-flex-shifts} gives
+\[
+ -2k(k+2)(1-k^2)
+ =2T\left(\frac{(1-k)(1+k)^2}{k}\right)^2\in\Q^{\times2}.
+\]
+On the quartic $w^2=-2k(k+2)(1-k^2)$, the transformation
+\[
+ X=4-4/k,\qquad Y=-4w/k^2
+\]
+gives the curve $A$ of Lemma~\ref{lem:nine-small-curves}.
+The branch point $k=0$ maps to infinity.  The quartic has no rational
+points at infinity, since its leading coefficient is $2$.
+The complete point list on $A$ therefore leaves just
+$k=0,-2,1,-1$, all excluded by Lemma~\ref{lem:nine-flex}.
+
+Finally, rational three-torsion on $G_t$ would give
+$A=d^2,B=-d$, and hence $R=-1/d$.  Since $d+1=t^2$,
+\[
+ t^2=\frac{R-1}R=\frac{k^3(k+2)}{1+2k}.
+\]
+Consequently
+\[
+ (X,Y)=\left(2k,\frac{2t(1+2k)}k\right)
+\]
+is a point on $E_0$.  Its complete list in
+Lemma~\ref{lem:nine-small-curves} leaves
+$k\in\{0,-\tfrac12,-2,1,-1\}$, again impossible.
+\end{proof}
+
+\subsection{Positive rank on every factor}
+
+\begin{theorem}\label{thm:nine-positive-ranks}
+Let a strict rational-distance point have product parameter
+$t=r_0r_3+r_1r_2$, and let the curves be as in
+\eqref{eq:nine-elliptic-models}.  Each of
+$E_d,G_t,F_+,F_-,H_+,H_-$ has positive rational rank.  In particular,
+\begin{equation}\label{eq:nine-rank-nine}
+ \rank\Jac(D_t)(\Q)\ge9.
+\end{equation}
+\end{theorem}
+\begin{proof}
+Every ordinate in \eqref{eq:nine-map-table} is nonzero at the strict
+point.  The point $(-s\ell,sPM\ell)$ on $E_d$ therefore has infinite
+order, by the torsion argument in
+Lemma~\ref{lem:nine-small-curves}.  If $d$ were square, $E_d$ would
+be rationally isomorphic to $E_1$; if $2d$ were square it would be
+isomorphic to $E_2$.  Both are rank zero.  Thus
+\begin{equation}\label{eq:nine-d-exclusions}
+ d\notin\Q^{\times2},\qquad 2d\notin\Q^{\times2}.
+\end{equation}
+
+We next exclude rational order four on the remaining curves.
+A two-torsion point can have a rational half only at the largest
+root, because any other root has a negative root difference.
+For $F_+$ its half would require $2d$ square.  For $H_+$ and $H_-$
+it would require $d$ square, after removing square factors.
+For $G_t$ it would require $d^2+d=dt^2$ square.  These contradict
+\eqref{eq:nine-d-exclusions}.
+
+For $F_-$ the largest root is $2td$.  Its half requires both
+$2td$ and $2d(t-1)$ square.  Their quotient gives
+$t/(t-1)$ square, so $b^2=t(t-1)$ for a nonzero rational $b$;
+the second condition also gives $a^2=2(t+1)$.
+Then $(X,Y)=(a^2,2ab)$ lies on
+\[
+ Y^2=X(X-2)(X-4)
+\]
+with nonzero ordinate.  Translation $X\mapsto X-2$ identifies this
+curve with $E_2$, contradicting its point list.
+
+Mazur's theorem now implies that torsion on each of the five curves
+is either $(\Z/2\Z)^2$ or $\Z/2\Z\times\Z/6\Z$.
+Lemma~\ref{lem:nine-three-torsion} excludes the second case for $G_t$,
+so its nonzero-ordinate image is of infinite order.
+For the other four curves, odd torsion is divisible by two.  Hence its
+Kummer image is trivial, and the Kummer image of all torsion is just
+the image of the rational two-torsion.
+
+The common roots yield the identities
+\begin{equation}\label{eq:nine-point-kummer}
+\begin{aligned}
+ X_{F_+}-2d&=2(TC/P)^2,&
+ X_{F_-}-2d&=2(sB/M)^2,\\
+ X_{H_+}&=TP^2,&
+ X_{H_-}-2s&=-sC^2.
+\end{aligned}
+\end{equation}
+On $H_-$, the possible torsion classes of the coordinate $X-2s$
+are $1$ and $[-2s]$.  The actual class $[-s]$ differs from the first
+by sign and from the second by $[2]$.  This image has infinite order.
+On $H_+$, the torsion classes of $X$ are $1,[2T]$.
+The actual class $[T]$ differs from both unless $T$ is square.
+In that case Lemma~\ref{lem:nine-three-torsion} excludes order three,
+and the nonzero ordinate excludes two-torsion.
+
+For $F_-$, the torsion classes of $X-2d$ are
+\[
+ 1,\quad[-2d],\quad[-s],\quad[2T].
+\]
+The actual class $[2]$ can meet this list only when $T$ is square;
+the same lemma handles that case.  For $F_+$ the list is
+\[
+ 1,\quad[-2d],\quad[T],\quad[-2dT].
+\]
+The actual class $[2]$ meets it only when $T$ is twice square,
+which is the remaining case of that lemma.  Thus all six ranks are
+positive.  Their multiplicities in \eqref{eq:nine-isogeny} give
+$2+1+2+2+1+1=9$.
+\end{proof}
+
+\subsection{Two independent images and the rank strata}
+
+Two quotient maps can furnish independent points on a single elliptic
+curve.  The following argument uses the full Kummer rows of the points
+and of their sum.  We write pairs of rational numbers for their classes
+in $(\Q^\times/\Q^{\times2})^2$.
+
+On $E_d$, take the two diagonal images
+\[
+ Q=(-s\ell,sPM\ell),\qquad R=(T\ell,TBC\ell).
+\]
+For the coordinates $(X,X-d)$ their rows are
+\begin{equation}\label{eq:nine-cm-rows}
+ \delta Q=(-s\ell,-s),\qquad
+ \delta R=(T\ell,T),\qquad
+ \delta(Q+R)=(-d,-d).
+\end{equation}
+For example $X(Q)-d=-sP^2$ and $X(R)-d=TC^2$.
+The four torsion rows are
+\begin{equation}\label{eq:nine-cm-torsion}
+ (1,1),\quad(-1,-d),\quad(d,2),\quad(-d,-2d).
+\end{equation}
+Since $d>0$ is nonsquare, the sum row in
+\eqref{eq:nine-cm-rows} is absent from this list.
+Comparing the individual rows, with signs retained, shows that either
+one can meet a torsion row only if $T$ is square or twice square.
+Thus
+\begin{equation}\label{eq:nine-cm-two}
+ T\notin\Q^{\times2}\cup2\Q^{\times2}
+ \quad\Longrightarrow\quad \rank E_d(\Q)\ge2.
+\end{equation}
+Indeed the images of $Q,R$ in
+$E_d(\Q)/(2E_d(\Q)+E_d(\Q)_{\mathrm{tors}})$ are then nonzero and
+distinct, hence linearly independent over $\F_2$.
+
+For $F_+$ and $F_-$, take the image in
+\eqref{eq:nine-map-table} and its image after the involution
+\eqref{eq:nine-iota}.  For both pairs the coordinates $(X,X-2d)$ give
+\begin{equation}\label{eq:nine-f-rows}
+ \delta Q_\pm=(tT\ell,2),\qquad
+ \delta R_\pm=(ts\ell,2),\qquad
+ \delta(Q_\pm+R_\pm)=(d,1).
+\end{equation}
+The first-coordinate products are, explicitly,
+\[
+ X(Q_+)X(R_+)=d\left(\frac{4tT}{PB}\right)^2,\qquad
+ X(Q_-)X(R_-)=d\left(\frac{4ts}{MC}\right)^2.
+\]
+The second coordinates follow from \eqref{eq:nine-point-kummer}.
+The complete torsion rows are
+\begin{equation}\label{eq:nine-f-torsion}
+\begin{array}{c|cccc}
+ F_+&(1,1)&(-t,-2d)&(2d,T)&(-2td,-2dT)\\
+ F_-&(1,1)&(t,-2d)&(2d,-s)&(2td,2T).
+\end{array}
+\end{equation}
+For $F_+$, the sum row $(d,1)$ never occurs: the positive rows
+would require $d$ or $2$ to be square.  An individual row in
+\eqref{eq:nine-f-rows} can occur only if $T$ is twice square.
+It follows that
+\begin{equation}\label{eq:nine-fplus-two}
+ T\notin2\Q^{\times2}\quad\Longrightarrow\quad\rank F_+(\Q)\ge2.
+\end{equation}
+For $F_-$, an individual row can meet torsion only when $T$ is
+square.  The sum row can meet torsion only if both $2t$ and $2T$
+are squares.  Therefore
+\begin{equation}\label{eq:nine-fminus-two}
+\begin{gathered}
+ T\notin\Q^{\times2},\qquad
+ \text{at least one of $2t,2T$ is nonsquare}
+ \\
+ \Longrightarrow\quad\rank F_-(\Q)\ge2.
+\end{gathered}
+\end{equation}
+
+\begin{theorem}[Rank strata]\label{thm:nine-rank-strata}
+For the product parameter of any strict rational-distance point, the
+following lower bounds hold:
+\begin{equation}\label{eq:nine-rank-table}
+\begin{array}{l|ccc|c}
+ \text{condition}&\rank E_d&\rank F_+&\rank F_-&\rank\Jac(D_t)\\\hline
+ T\notin\Q^{\times2}\cup2\Q^{\times2}&2&2&2&15\\
+ T\in\Q^{\times2}&1&2&1&11\\
+ T\in2\Q^{\times2},\ 2t\notin\Q^{\times2}&1&1&2&11\\
+ T\in2\Q^{\times2},\ 2t\in\Q^{\times2}&1&1&1&9.
+\end{array}
+\end{equation}
+Every entry in the table is a lower bound.
+\end{theorem}
+\begin{proof}
+Combine \eqref{eq:nine-cm-two}, \eqref{eq:nine-fplus-two}, and
+\eqref{eq:nine-fminus-two} with
+Theorem~\ref{thm:nine-positive-ranks}.  Formula~\eqref{eq:nine-isogeny}
+gives the rank identity
+\[
+ 2\rank E_d+\rank G_t+2\rank F_++2\rank F_-+
+ \rank H_++\rank H_-.
+\]
+Substitution gives the final column.  The four rows exhaust the
+positive rational values of $T$, since $2$ is nonsquare.
+\end{proof}
+
+The theorem gives a useful exclusion criterion for a fixed parameter:
+a rank bound below the relevant entry in
+\eqref{eq:nine-rank-table} excludes a strict point on that fibre.
+It also places every fibre arising from a strict point outside the
+classical Chabauty inequality $\rank\Jac(D_t)(\Q)<g(D_t)$.

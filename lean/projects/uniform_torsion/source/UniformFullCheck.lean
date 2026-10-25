@@ -1,0 +1,26 @@
+import UniformStrictQuotient
+
+#check @FourCorner.UniformTorsion.rational_torsion_classification
+#print axioms FourCorner.UniformTorsion.rational_torsion_classification
+#check @FourCorner.UniformTorsion.rational_torsion_eq_zmultiples
+#print axioms FourCorner.UniformTorsion.rational_torsion_eq_zmultiples
+#check @FourCorner.UniformTorsion.rational_torsion_card
+#print axioms FourCorner.UniformTorsion.rational_torsion_card
+#check @FourCorner.UniformTorsion.rational_torsion_cyclic
+#print axioms FourCorner.UniformTorsion.rational_torsion_cyclic
+#check @FourCorner.UniformTorsion.four_zero_or_pole
+#print axioms FourCorner.UniformTorsion.four_zero_or_pole
+#check @FourCorner.UniformTorsion.no_odd_torsion
+#print axioms FourCorner.UniformTorsion.no_odd_torsion
+#check @FourCorner.UniformTorsion.strict_quotient_equation
+#print axioms FourCorner.UniformTorsion.strict_quotient_equation
+#check @FourCorner.UniformTorsion.strict_quotient_interval
+#print axioms FourCorner.UniformTorsion.strict_quotient_interval
+#check @FourCorner.UniformTorsion.strict_quotient_infinite_order_of_pair_value
+#print axioms FourCorner.UniformTorsion.strict_quotient_infinite_order_of_pair_value
+#check @FourCorner.UniformTorsion.strict_any_opposite_value_yields_nontorsion
+#print axioms FourCorner.UniformTorsion.strict_any_opposite_value_yields_nontorsion
+#check @FourCorner.UniformTorsion.numberField_isOfFinAddOrder_of_finrank_zero
+#print axioms FourCorner.UniformTorsion.numberField_isOfFinAddOrder_of_finrank_zero
+#check @FourCorner.UniformTorsion.rank_zero_excludes_all_opposite_values
+#print axioms FourCorner.UniformTorsion.rank_zero_excludes_all_opposite_values

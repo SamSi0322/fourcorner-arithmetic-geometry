@@ -1,0 +1,687 @@
+{
+  "status": "PASS",
+  "release": "1.0.0",
+  "verified_numbered_statements": 34,
+  "total_numbered_statements": 69,
+  "compiler": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "own_project_objects_rebuilt": true,
+  "compatible_external_dependency_cache_reused": true,
+  "cold_kernel_checks": true,
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "audited_declarations": {
+    "FourCorner.ChamberMotion.act_involutive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ChamberMotion.diagonal_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ChamberMotion.preserves_strict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.common_dyadic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.ell_isSquare_37_field": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.positive_squareclass_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.ramified_square_classes_ratio": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.residue_matrix_proposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.squareclass_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.actual_pair_reciprocity_literal_G": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.adjacent_oddPart_mod_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.adjacent_pair_reciprocity_literal_G": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.canonical_corner_classes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.cornerKernel_properties": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.corner_gaussian_root_norm_div": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.corner_gaussian_squareclass_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.corner_ramified_character": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.corner_sevenPrimeCount_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.critical_excess": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.critical_seventeen": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.exists_prime_ge_five_dvd_L": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.fiveCofactor_factorization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.fiveCofactor_not_dvd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.fiveCofactor_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.five_depth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.kernel_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.leastCoordinateDenominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.minimal_positive_clearer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.normalized_radii_ratios": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.opposite_colour_all_split": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.opposite_colour_congruences": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.opposite_colour_literal_seven_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.opposite_colour_residue_refinement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.opposite_colour_residue_table": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.opposite_half_product_two_depth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.opposite_half_product_two_depth_at_least_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.pair_denominators": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.pair_denominators_literal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.prime_power_comparisons": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.primitive_congruences": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.primitive_radius_half_sums": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.radius_content": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.ramified_units": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.rational_product_square_seventeen_noncritical": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.six_pair_identities": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IntegralModel.six_pair_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.commonRoot_ramified_both_distinct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.commonRoot_ramified_nonempty_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.diagonal_exclusion_and_chamber": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.exactOrderedSourceCorrespondence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.exactOrderedSourceCorrespondence_final_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.gaussian_corners_to_strict_point_of_roots": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.gaussian_squareclass_iff_complex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.nine_flex_of_order_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.originalStrictPoint_iff_orderedSource": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.paperGInt_eq_oddPartChar_natAbs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.paperG_eq_oddPartChar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.radius_model_iff_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ramified_iota_exists": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ramified_quartic_sign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ramified_sign_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.rational_right_triangle_not_square_area": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.real_coordinates_rational": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.sevenPrimeCount_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.strictChamberOrderedSourceCorrespondence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.strictPoint_denominator_large_prime": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.strictPoint_iff_primitiveIntegral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.strict_point_difference_to_theta_positive_source": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.strict_point_symmetry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_criterion_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_finite_primes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_lift_inverse_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_positive_source_iff_strict_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_real_correspondence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_real_inverse_return": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_real_inverse_valid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_real_return_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_real_return_valid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_real_unique_source": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.theta_strict_lift_iff_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.nine_small_curves_affine": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.nine_small_curves_complete": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.rational_torsion_classification": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.rational_torsion_eq_zmultiples": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.rational_torsion_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.rational_torsion_cyclic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.four_zero_or_pole": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.no_odd_torsion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.strict_quotient_equation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.strict_quotient_interval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.strict_quotient_infinite_order_of_pair_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.strict_any_opposite_value_yields_nontorsion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.numberField_isOfFinAddOrder_of_finrank_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.rank_zero_excludes_all_opposite_values": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.quadratic_discriminant_padicValRat": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.quadratic_discriminant_padicValInt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UniformTorsion.alpha_discriminant_depth_five": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.nine_three_torsion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.nine_three_models_nonsingular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NineThreeScopeAudit.exact_paper_statement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NineThreeScopeAudit.literal_equations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "stages": [
+    {
+      "project": ".",
+      "stage": "build",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "--no-cache",
+        "build",
+        "FourCorner"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 138.19115954099107,
+      "log": "00_build.log",
+      "log_sha256": "81797d16ce167419a70b8524fef80354db4dd640d9985de116721dae5ab9259d"
+    },
+    {
+      "project": ".",
+      "stage": "audit_0",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "env",
+        "lean",
+        "-t0",
+        "-Ddebug.skipKernelTC=false",
+        "ProofAudit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.611333000008017,
+      "log": "00_audit_0.log",
+      "log_sha256": "bee7c995b864bdff97714cefe0637bf8584e83af94260b533cddf9b5e1218f86"
+    },
+    {
+      "project": "projects/small_curves",
+      "stage": "build",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "--no-cache",
+        "build",
+        "NineSmallCurvesComplete"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 148.53849962502136,
+      "log": "01_build.log",
+      "log_sha256": "6f673b961c20655d104b0de387309bce3419a49cceb86c68f07cd105d894c6a6"
+    },
+    {
+      "project": "projects/small_curves",
+      "stage": "audit_0",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "env",
+        "lean",
+        "-t0",
+        "-Ddebug.skipKernelTC=false",
+        "source/NineSmallCurvesComplete.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.4625414579932112,
+      "log": "01_audit_0.log",
+      "log_sha256": "c135aa6aeb88026bd017aaf131db98bc091d821253f9b6aa2604d8d0725c216b"
+    },
+    {
+      "project": "projects/uniform_torsion",
+      "stage": "build",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "--no-cache",
+        "build",
+        "UniformFullCheck"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 97.34216600001673,
+      "log": "02_build.log",
+      "log_sha256": "f7ceab8878eb9452a6a34dc25a8033f944e3205472955296127dc992624d4693"
+    },
+    {
+      "project": "projects/uniform_torsion",
+      "stage": "audit_0",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "env",
+        "lean",
+        "-t0",
+        "-Ddebug.skipKernelTC=false",
+        "source/UniformFullCheck.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.4987661250052042,
+      "log": "02_audit_0.log",
+      "log_sha256": "042320890d57048e985d952686b2705e380e51209c325fc54ad79f1bc617f532"
+    },
+    {
+      "project": "projects/uniform_torsion",
+      "stage": "audit_1",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "env",
+        "lean",
+        "-t0",
+        "-Ddebug.skipKernelTC=false",
+        "extra/UniformDiscriminantDepth.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.2390527089883108,
+      "log": "02_audit_1.log",
+      "log_sha256": "00776caf41a84c9d6932da1435daa3239c96a5fff599f4bde23e613197db6382"
+    },
+    {
+      "project": "projects/nine_three",
+      "stage": "build",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "--no-cache",
+        "build",
+        "NineThreeScopeAudit"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 148.67447012499906,
+      "log": "03_build.log",
+      "log_sha256": "8219a210fa1dc9067e88905b03381c9464ddb42ddaae221181fed19462011e7b"
+    },
+    {
+      "project": "projects/nine_three",
+      "stage": "audit_0",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "env",
+        "lean",
+        "-t0",
+        "-Ddebug.skipKernelTC=false",
+        "source/NineThreeTorsion.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.267115875001764,
+      "log": "03_audit_0.log",
+      "log_sha256": "8b1e828d5ebd686a9858077484465e1dba6476b7c472dd7c14598e956d8df473"
+    },
+    {
+      "project": "projects/nine_three",
+      "stage": "audit_1",
+      "command": [
+        "lake",
+        "--keep-toolchain",
+        "env",
+        "lean",
+        "-t0",
+        "-Ddebug.skipKernelTC=false",
+        "source/NineThreeScopeAudit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.310869290988194,
+      "log": "03_audit_1.log",
+      "log_sha256": "e359d14ff99ede6e714dfff7c029bc524a1ac2d33f1bbaf95526145c607994da"
+    }
+  ]
+}

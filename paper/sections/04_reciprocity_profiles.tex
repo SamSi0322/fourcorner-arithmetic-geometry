@@ -1,0 +1,404 @@
+\section{Reciprocity for the four corner colours}\label{sec:profiles}
+
+The squarefree parts of the four corner contents carry a finer reciprocity
+constraint than their product.  We shall prove that the product belonging
+to either pair of opposite corners is congruent to $1$ or $15$ modulo
+$16$.  The proof also describes the prime divisors of all six sums of two
+integer distances.  Its ingredients are the Gaussian square roots of the
+individual displacements and ordinary quadratic reciprocity.
+
+\subsection{Integer distances and Gaussian roots}
+
+Fix a strictly interior point with four positive rational distances, and use the corner
+order
+\[
+ c_0=0,\qquad c_1=1,\qquad c_2=\mathrm i,\qquad c_3=1+\mathrm i.
+\]
+Write
+\begin{equation}\label{eq:profile-lattice}
+ x=X/L,\qquad y=Y/L,\qquad L>0,\qquad \gcd(X,Y,L)=1,
+ \qquad A_j=Lr_j\in\Z_{>0}.
+\end{equation}
+Interchanging $x$ and $y$ if necessary, take $X$ odd.  The integral
+normalization of Section~\ref{sec:integral} gives $4\mid Y$ and
+$8\mid L$.  This interchange only exchanges the labels $1$ and $2$,
+so it preserves the two opposite pairs as unordered pairs.
+
+Put
+\begin{equation}\label{eq:profile-colours}
+ U_j=X+\mathrm iY-Lc_j,\qquad
+ g_j=\gcd\bigl(|\operatorname{Re}U_j|,|\operatorname{Im}U_j|\bigr),
+ \qquad m_j=\sf(g_j).
+\end{equation}
+The $m_j$ are positive, odd, squarefree, pairwise coprime, and coprime
+to $L$.  Every prime dividing them is $1$ or $7$ modulo $8$.
+These are canonical positive integers attached to the primitive
+coordinate lattice.
+
+We shall use Gaussian integers $w_j$ satisfying
+\begin{equation}\label{eq:profile-integer-roots}
+ U_j=m_jw_j^2,\qquad
+ N_{\Q(\mathrm i)/\Q}(w_j)=\frac{A_j}{m_j}>0.
+\end{equation}
+For completeness, the elementary construction is as follows.  The
+triple
+\[
+ \left(\frac{\operatorname{Re}U_j}{g_j},
+       \frac{\operatorname{Im}U_j}{g_j},\frac{A_j}{g_j}\right)
+\]
+is a primitive Pythagorean triple whose first leg is odd and whose
+second leg is even.  If its legs and hypotenuse are denoted by $a,b,k$,
+the positive integers $(k+a)/2$ and $(k-a)/2$ are relatively prime,
+and their product is $(b/2)^2$.  Thus they are squares, say $s^2,t^2$,
+and a choice of the sign of $t$ gives $a+\mathrm ib=(s+\mathrm it)^2$.
+Multiplying this root by the positive integer $\sqrt{g_j/m_j}$ gives
+$w_j$.  Its norm is positive and its norm squared is $A_j^2/m_j^2$,
+which proves the second identity in \eqref{eq:profile-integer-roots}.
+
+In particular, $A_j/m_j$ is an odd sum of two integer squares, whence
+\begin{equation}\label{eq:profile-radius-residue}
+ A_j\equiv m_j\pmod4.
+\end{equation}
+The signs in the norm identity will determine the characters at primes
+congruent to $7$ modulo $8$.
+
+The diagonal pairs have squared separation $2$, and adjacent pairs have
+squared separation $1$.  For $i\ne j$ define
+\begin{equation}\label{eq:profile-pair-data}
+ s_{ij}=m_im_j,\qquad d_{ij}=|c_i-c_j|^2\in\{1,2\},\qquad
+ V_{ij}=\frac{A_i+A_j}{2}\in\Z_{>0}.
+\end{equation}
+
+\begin{lemma}[The six pair identities]\label{lem:profile-pair-identity}
+For every pair $i\ne j$,
+\begin{equation}\label{eq:profile-pair-identity}
+ (A_i+A_j)^2-
+ 4s_{ij}\operatorname{Re}(w_i\overline{w_j})^2=d_{ij}L^2.
+\end{equation}
+Consequently, with $\Sigma_{ij}=r_i+r_j$ and
+$T_{ij}=2\operatorname{Re}(w_i\overline{w_j})/L$, one has
+\[
+ \Sigma_{ij}^2-s_{ij}T_{ij}^2=d_{ij}.
+\]
+\end{lemma}
+
+\begin{proof}
+Set $Z=w_i\overline{w_j}$ and $s=s_{ij}$.  Equation
+\eqref{eq:profile-integer-roots} gives
+\[
+ N(Z)=\frac{A_iA_j}{s},\qquad
+ Z^2=\frac{U_i\overline{U_j}}{s}.
+\]
+The identity $2\operatorname{Re}(Z)^2=N(Z)+\operatorname{Re}(Z^2)$
+therefore shows that the left side of
+\eqref{eq:profile-pair-identity} is
+\[
+ A_i^2+A_j^2-2\operatorname{Re}(U_i\overline{U_j})
+ =|U_i-U_j|^2=d_{ij}L^2.
+\]
+\end{proof}
+
+\subsection{Prime divisors of all six half-sums}
+
+\begin{theorem}[Six-pair support]\label{thm:profile-six-pair-support}
+Let $p$ be an odd prime dividing $V_{ij}$.  Then
+\begin{equation}\label{eq:profile-six-pair-support}
+ p\nmid s_{ij},\qquad \leg{-s_{ij}}p=1.
+\end{equation}
+Equivalently, every odd prime divisor of $V_{ij}$ is unramified and
+split in $\Q(\sqrt{-s_{ij}})$.
+\end{theorem}
+
+\begin{proof}
+Write $s=s_{ij}$, $d=d_{ij}$, and $V=V_{ij}$.
+If $p\mid m_i$, the point reduces to corner $i$ modulo $p$:
+$U_i\equiv0$ and $A_i\equiv0$.  Since $p\nmid L$,
+\[
+ A_j^2\equiv dL^2\not\equiv0\pmod p.
+\]
+Thus $p\nmid V$.  The same argument applies to a prime dividing $m_j$,
+and proves the first assertion.
+
+Suppose next that $p\mid L$.  If $p\equiv1\pmod4$, choose a square
+root of $-1$ modulo $p$ for which $X+\mathrm iY$ is nonzero.  Such a
+choice exists: vanishing for both choices would force $p\mid X,Y,L$.
+In this one embedding all the $U_k$ have the same nonzero residue,
+and hence all $w_k$ have nonzero residues.  Reducing
+\[
+ \left(\frac{w_i}{w_j}\right)^2
+   =\frac{m_j}{m_i}\frac{U_i}{U_j}
+\]
+gives $\leg{s}p=1$.  Since $\leg{-1}p=1$, the required conclusion
+follows.
+
+If $p\equiv3\pmod4$, the form $X^2+Y^2$ is anisotropic modulo $p$.
+Primitivity therefore makes its value nonzero, and every $A_k$ and
+$w_k$ is a unit at $p$.  Work in $\F_{p^2}=\F_p(\mathrm i)$, where
+conjugation is Frobenius.  For $h=w_i/w_j$ and $a=m_j/m_i\in\F_p^*$,
+we have $h^2=a$, and consequently
+\[
+ N_{\F_{p^2}/\F_p}(h)=h^{p+1}=a^{(p+1)/2}
+     =a\leg ap.
+\]
+The actual norm identity in \eqref{eq:profile-integer-roots} gives at
+the same time
+\[
+ N(h)=\frac{m_j}{m_i}\frac{A_i}{A_j}.
+\]
+It follows that $A_i/A_j=\leg{s}p$ modulo $p$.  The assumption
+$p\mid V$ makes this ratio $-1$, so $\leg{s}p=-1$ and
+$\leg{-s}p=1$.
+
+It remains to treat $p\nmid L$.  Reducing
+\eqref{eq:profile-pair-identity}, and using $p\mid V$ and $p\nmid s$,
+gives
+\[
+ -4s\operatorname{Re}(w_i\overline{w_j})^2=dL^2.
+\]
+All factors on the right are nonzero modulo $p$.  For an adjacent
+pair, $d=1$, this proves $\leg{-s}p=1$.  For an opposite pair the same
+argument proves the assertion whenever $\leg2p=1$.
+
+Finally, an opposite sum cannot vanish modulo a prime with
+$\leg2p=-1$.  For the pair $(0,3)$, the equality $A_0=-A_3$ modulo $p$
+implies $x+y=1$ in $\F_p$.  The other two distance squares then become
+$2x^2$ and $2y^2$.  At least one is nonzero, which is impossible when
+$2$ is a nonsquare.  For the pair $(1,2)$, the same reasoning gives
+$x=y$ and the other two squares $2x^2$ and $2(x-1)^2$, again with at
+least one nonzero.  This exhausts the cases.
+\end{proof}
+
+\subsection{The characters at a corner prime}
+
+Define a character on the subgroup $\{1,7,9,15\}$ of
+$(\Z/16\Z)^*$ by
+\begin{equation}\label{eq:profile-sigma}
+ \sigma(1)=\sigma(15)=1,\qquad
+ \sigma(7)=\sigma(9)=-1.
+\end{equation}
+We use the same notation for positive integers supported on primes
+congruent to $1$ or $7$ modulo $8$.  Multiplication of residues shows
+that this is multiplicative.  For a prime in the support,
+\begin{equation}\label{eq:profile-prime-sigma}
+ \sigma(p)=
+ \begin{cases}
+ (-1)^{(p-1)/8},&p\equiv1\pmod8,\\
+ (-1)^{(p+1)/8},&p\equiv7\pmod8.
+ \end{cases}
+\end{equation}
+
+\begin{lemma}[Ramified character]\label{lem:profile-ramified-character}
+For $p\mid m_i$ and $j\ne i$,
+\begin{equation}\label{eq:profile-ramified-character}
+ \leg{V_{ij}}p=\leg{m_j}p\,\sigma(p)^{d_{ij}-1}.
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+At the corner prime $p$ we have $A_i\equiv0$ and
+\[
+ U_j\equiv L(c_i-c_j)\pmod p.
+\]
+Since $\leg2p=1$, the characters of $V_{ij}$ and $A_j$ agree.
+The difference $c_i-c_j$ is a Gaussian unit for adjacent corners,
+and a Gaussian unit times $1+\mathrm i$ for opposite corners.
+
+First suppose $p\equiv7\pmod8$.  In $\F_{p^2}$, put
+$u=c_i-c_j$.  The two identities for $w_j$ give
+\[
+ \frac{A_j}{m_j}
+  =N(w_j)
+  =\left(\frac{Lu}{m_j}\right)^{(p+1)/2},
+\]
+and hence
+\begin{equation}\label{eq:profile-frobenius-radius}
+ A_j=L\leg{Lm_j}p\,u^{(p+1)/2}.
+\end{equation}
+The exponent $(p+1)/2$ is divisible by $4$.  It therefore kills every
+Gaussian unit.  In the adjacent case its final factor is $1$.
+In the opposite case that factor is
+\[
+ z_p=(1+\mathrm i)^{(p+1)/2}
+     =(-1)^{(p+1)/8}\,2^{(p+1)/4}\in\F_p,
+ \qquad z_p^2=2.
+\]
+Because $\leg{-1}p=-1$ and $\leg2p=1$, its character is
+$\leg{z_p}p=\sigma(p)$.  Taking characters in
+\eqref{eq:profile-frobenius-radius}, a sign $\pm1$ has its own value
+as character, so
+\[
+ \leg{A_j}p
+ =\leg Lp\leg{Lm_j}p\,\sigma(p)^{d_{ij}-1}
+ =\leg{m_j}p\,\sigma(p)^{d_{ij}-1}.
+\]
+
+Now suppose $p\equiv1\pmod8$ and work in a Gaussian embedding into
+$\F_p$.  All four Gaussian units are squares.  For an adjacent pair,
+$w_j^2=Lu/m_j$ therefore gives $\leg{Lm_j}p=1$, while
+$A_j^2=L^2$ gives $\leg{A_j}p=\leg Lp=\leg{m_j}p$.
+
+For an opposite pair write
+$\lambda_p=\leg{1+\mathrm i}p$.  This value is unchanged on replacing
+$\mathrm i$ by $-\mathrm i$, because their ratio is a Gaussian unit.
+The root equation gives $\leg{Lm_j}p=\lambda_p$.  Choose
+$J\in\F_p$ with $J^2=\mathrm i$.  It has order $8$, so
+\[
+ \leg Jp=(-1)^{(p-1)/8}=\sigma(p).
+\]
+Since $((1+\mathrm i)/J)^2=2$, either square root of $2$ has character
+$\lambda_p\sigma(p)$; changing its sign does not change that
+character.  The equation $A_j^2=2L^2$ now yields
+\[
+ \leg{A_j}p
+  =\leg Lp\lambda_p\sigma(p)
+  =\leg{m_j}p\sigma(p).
+\]
+This proves the formula for both congruence classes and both separations.
+\end{proof}
+
+\subsection{A pair reciprocity identity}
+
+For a positive integer $a$, let
+\begin{equation}\label{eq:profile-G}
+ \mathcal G(a)=\prod_{p\equiv3\ (4)}(-1)^{v_p(a)}.
+\end{equation}
+Thus $\mathcal G(a)$ is $1$ or $-1$ according as the odd part of $a$
+is $1$ or $3$ modulo $4$.  Let $e_j\in\{0,1\}$ be defined by
+\begin{equation}\label{eq:profile-e}
+ m_j\equiv(-1)^{e_j}\pmod4.
+\end{equation}
+Equivalently, $e_j$ is the parity of the number of prime factors of
+$m_j$ which are $7$ modulo $8$.
+
+\begin{theorem}[Pair reciprocity]\label{thm:profile-master}
+For every pair $i\ne j$, let $e\in\{0,1\}$ satisfy
+$e\equiv e_i+e_j\pmod2$.  Then
+\begin{equation}\label{eq:profile-master}
+ \mathcal G(V_{ij})^{1+e}
+   =(-1)^{e_ie_j}\sigma(m_im_j)^{d_{ij}-1}.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Put $s=m_im_j$ and $V=V_{ij}$.  All Jacobi symbols below have coprime
+positive arguments, by Theorem~\ref{thm:profile-six-pair-support}.
+Multiplication of \eqref{eq:profile-ramified-character} over the primes
+of $m_i$ and $m_j$ gives
+\[
+ \leg Vs
+  =\leg{m_j}{m_i}\leg{m_i}{m_j}\sigma(s)^{d_{ij}-1}
+  =(-1)^{e_ie_j}\sigma(s)^{d_{ij}-1}.
+\]
+Here the second equality is quadratic reciprocity; a Jacobi symbol with
+denominator $1$ is interpreted as $1$.
+
+Let $V_{\mathrm{odd}}$ be the odd part of $V$.  The six-pair support
+theorem gives, for every odd $p\mid V$,
+\[
+ \leg sp=\leg{-1}p.
+\]
+Multiplication with valuations therefore gives
+\[
+ \leg{s}{V_{\mathrm{odd}}}=\mathcal G(V).
+\]
+Also $\leg2s=1$, since every prime factor of $s$ is $1$ or $7$
+modulo $8$.  A second application of quadratic reciprocity yields
+\[
+ \leg Vs
+ =\leg{V_{\mathrm{odd}}}s
+ =\leg{s}{V_{\mathrm{odd}}}\mathcal G(V)^e
+ =\mathcal G(V)^{1+e}.
+\]
+Equating the two expressions proves the result.
+\end{proof}
+
+\subsection{The two opposite products}
+
+\begin{theorem}[Opposite-colour congruences]\label{thm:profile-main}
+For every strictly interior point with four positive rational distances,
+the canonical corner colours in \eqref{eq:profile-colours} satisfy
+\begin{equation}\label{eq:profile-main}
+ \boxed{\quad m_0m_3\equiv1\text{ or }15\pmod{16},\qquad
+               m_1m_2\equiv1\text{ or }15\pmod{16}.\quad}
+\end{equation}
+More precisely, an opposite product with an even number of prime factors
+congruent to $7$ modulo $8$ is $1$ modulo $16$; one with an odd number
+is $15$ modulo $16$.
+\end{theorem}
+
+\begin{proof}
+Fix an opposite pair $i,j$ and put $s=m_im_j$ and $V=V_{ij}$.
+Here $d_{ij}=2$.  If $e_i\ne e_j$, the left side of
+\eqref{eq:profile-master} is $\mathcal G(V)^2=1$, and
+$e_ie_j=0$.  Hence $\sigma(s)=1$.  Since $s\equiv7\pmod8$ in
+this case, the conclusion is $s\equiv15\pmod{16}$.
+
+Suppose instead that $e_i=e_j$.  By
+\eqref{eq:profile-radius-residue}, the integers $A_i,A_j$ have the
+same residue $(-1)^{e_i}$ modulo $4$.  Thus $V$ is odd and their
+half-difference $D=(A_i-A_j)/2$ is even.  The squared-distance
+identities give the exact formulas
+\[
+ A_0^2-A_3^2=2L(X+Y-L),\qquad
+ A_2^2-A_1^2=2L(X-Y).
+\]
+The factors $X+Y-L$ and $X-Y$ are odd.  Consequently, in either
+opposite pair,
+\[
+ v_2(VD)=v_2(L)-1\ge2.
+\]
+Since $V$ is odd, $4\mid D$.  It follows that
+\[
+ V\equiv A_i\equiv(-1)^{e_i}\pmod4,
+ \qquad \mathcal G(V)=(-1)^{e_i}.
+\]
+Now $e=0$ and $e_ie_j=e_i$, so the master identity reads
+\[
+ (-1)^{e_i}=(-1)^{e_i}\sigma(s).
+\]
+Therefore $\sigma(s)=1$.  As $s\equiv1\pmod8$, this gives
+$s\equiv1\pmod{16}$.
+\end{proof}
+
+Write $b=m_0m_3$, $c=m_1m_2$ and $n=bc$.  The allowable residue
+patterns take the particularly simple form
+\begin{equation}\label{eq:profile-residue-table}
+\begin{array}{c|c}
+ n\pmod{16}&(b,c)\pmod{16}\\ \hline
+ 1&(1,1),\ (15,15)\\
+ 15&(1,15),\ (15,1).
+\end{array}
+\end{equation}
+
+\begin{corollary}\label{cor:profile-split}
+If every prime dividing $m_0m_1m_2m_3$ is $1$ modulo $8$, then
+\[
+ m_0m_3\equiv m_1m_2\equiv1\pmod{16}.
+\]
+\end{corollary}
+
+\begin{proof}
+Every $e_j$ is zero, so both opposite products fall in the even case
+of Theorem~\ref{thm:profile-main}.
+\end{proof}
+
+For adjacent pairs the exponent $d_{ij}-1$ is zero, and the same
+reciprocity theorem gives
+\[
+ \mathcal G(V_{ij})^{1+e}=(-1)^{e_ie_j}.
+\]
+In particular, if two adjacent colours have the same residue modulo
+$4$, the odd part of their half-sum has that same residue modulo $4$.
+Together with Theorem~\ref{thm:profile-six-pair-support}, this supplies
+simultaneous arithmetic information for every pair of corners.
+
+The support conclusion also has a primitive-radius formulation.  Let
+$G=\gcd(A_0,A_1,A_2,A_3)$ and write $M_j=A_j/G$.  Since all $A_j$ are
+odd, $G$ and the $M_j$ are odd, and
+\[
+ \frac{A_i+A_j}{2}=G\frac{M_i+M_j}{2}.
+\]
+Every odd prime dividing $(M_i+M_j)/2$ consequently satisfies
+\eqref{eq:profile-six-pair-support}.  This formulation uses the same
+canonical colours \eqref{eq:profile-colours} and removes the common
+content of the four integer radii.

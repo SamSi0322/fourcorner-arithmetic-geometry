@@ -1,0 +1,568 @@
+\section{Theta characteristics and a complete double cover}
+\label{sec:theta}
+
+The fixed opposite-distance difference $1/5$ gives a particularly explicit
+connection between the distance equations, the geometry of a plane quartic,
+and descent on its Jacobian.  In this section we determine all the odd theta
+characteristics of that quartic and identify the double cover which restores
+the four distances.  A rational point at infinity then gives a local
+solubility theorem for every finite multiplication cover, including the
+pullbacks which retain this double cover.
+
+\subsection{The quartic quotient and its metric interpretation}
+
+Let $C\subset\PP^4_{[P:Q:R:z:T]}$ be the curve
+\begin{equation}
+ \begin{split}
+ P^2&=z^2+50T^2,\\
+ Q^2&=z^2+14zT+51T^2,\\
+ R^2&=z^2-14zT+51T^2.
+ \end{split}
+ \label{eq:theta-C}
+\end{equation}
+We use $C$ as a complete source: all three equations are imposed at the same
+value of $z/T$.  On $T=1$, put
+\begin{equation}
+ \begin{aligned}
+ x&=\frac{50-P-7z}{100},&
+ y&=\frac{50-P+7z}{100},\\
+ (r_0,r_1,r_2,r_3)&=
+ \left(\frac{P-1}{10},\frac Q{10},\frac R{10},\frac{P+1}{10}\right).
+ \end{aligned}
+ \label{eq:theta-return}
+\end{equation}
+The strict positive locus $\mathcal U\subset C(\R)$ is defined by
+\begin{equation}
+ T=1,\qquad P>1,\quad Q>0,\quad R>0,\qquad P+7|z|<50.
+ \label{eq:theta-U}
+\end{equation}
+It corresponds exactly to the strict distance configurations with
+$r_3-r_0=1/5$.  For completeness, the first distance identity follows from
+\[
+ 5000\bigl(r_0^2-x^2-y^2\bigr)
+   =49(P^2-z^2-50)=0.
+\]
+The other three follow from
+\[
+ r_1^2-r_0^2=1-2x,\qquad
+ r_2^2-r_0^2=1-2y,\qquad
+ r_3^2-r_0^2=2-2x-2y.
+\]
+Conversely, the inverse formulas are
+\[
+ P=5(r_3+r_0),\quad Q=10r_1,\quad R=10r_2,
+ \quad z=\frac{50(y-x)}7.
+\]
+The inequalities in \eqref{eq:theta-U} are precisely the positivity of the
+chosen roots and $0<x,y<1$.
+
+\begin{proposition}
+\label{prop:theta-quotient}
+The curve $C$ is smooth of genus five and has eight rational points at
+$T=0$.  The fixed-point-free involution
+\[
+ \sigma[P:Q:R:z:T]=[-P:-Q:-R:z:T]
+\]
+has quotient the smooth plane quartic $D\subset\PP^2_{[X:Y:Z]}$ defined by
+\begin{equation}
+ F=9801(X^4+Y^4)+19598X^2Y^2
+       -39592(X^2+Y^2)Z^2+39984Z^4=0.
+ \label{eq:theta-quartic}
+\end{equation}
+The quotient map is
+\[
+ \pi:C\longrightarrow D,\qquad [P:Q:R:z:T]\longmapsto[Q:R:P].
+\]
+In particular, $\pi$ is a connected \emph{\'etale} double cover.  The points
+\[
+ O_C=[1:1:1:1:0],\qquad O_D=[1:1:1]
+\]
+are rational and satisfy $\pi(O_C)=O_D$.
+\end{proposition}
+
+\begin{proof}
+On the chart $T=1$, the radicands in \eqref{eq:theta-C} have
+discriminants $-200$, $-8$ and $-8$, and pairwise resultants
+$9801$, $9801$ and $39984$. Their six roots are therefore distinct.  A simple zero
+of each polynomial shows that its square class is independent of those of
+the other two over $\overline\Q(z)$.  The map to the $[z:T]$-line has
+degree eight, with six branch values and inertia order two at each.
+Riemann--Hurwitz gives
+\[
+ 2g(C)-2=8(-2)+6\cdot4=8.
+\]
+The simple branch points are smooth.  At $T=0$ we may set $z=1$, and the
+points are exactly
+\[
+ [\epsilon_1:\epsilon_2:\epsilon_3:1:0],\qquad
+ \epsilon_i\in\{1,-1\}.
+\]
+The three derivatives with respect to $P,Q,R$ are nonzero there, so these
+points are smooth as well.
+
+There is no point of $C$ with $P=Q=R=0$: subtracting the last two equations
+gives $zT=0$, and the equations then force $z=T=0$.  Hence $\pi$ is a
+morphism.  A projective fixed point of $\sigma$ would have either
+$P=Q=R=0$ or $z=T=0$, both impossible.
+
+On the chart $P\ne0$, set
+\[
+ \xi=Q/P,\qquad \eta=R/P,\qquad v=T/P,\qquad w=z/P,
+ \qquad S=\xi^2+\eta^2.
+\]
+The three quadrics give
+\begin{equation}
+ v^2=\frac{S-2}{2},\qquad
+ wv=\frac{\xi^2-\eta^2}{28},\qquad
+ w^2=51-25S.
+ \label{eq:theta-vw}
+\end{equation}
+Eliminating $v,w$ gives
+\begin{equation}
+ (\xi^2-\eta^2)^2+9800(S-2)^2-392(S-2)=0,
+ \label{eq:theta-elimination}
+\end{equation}
+which is \eqref{eq:theta-quartic} on $Z=1$.
+
+Here is also a direct smoothness proof for the plane equation.  Write
+\[
+ a=9801,\quad b=19598,\quad c=-39592,\quad d=39984,
+ \qquad
+ M=\begin{pmatrix}2a&b&c\\b&2a&c\\c&c&2d\end{pmatrix}.
+\]
+At a singular point, the rows indexed by the nonzero coordinates
+annihilate the corresponding vector of coordinate squares.  The nonempty
+principal minors of $M$ have values
+\[
+ 19602,\quad79968,\quad156800,\quad6272,\quad-1229312,
+\]
+with repetitions.  Every such submatrix is invertible.  This proves
+smoothness; a smooth plane quartic is geometrically integral and has
+genus three.  The map to it has degree two, since generically $v$ determines
+$w$ in \eqref{eq:theta-vw}, and the two choices are interchanged by $\sigma$.
+The fixed-point calculation proves that the map is \emph{\'etale}.
+\end{proof}
+
+\begin{proposition}
+\label{prop:theta-strict-lift}
+A rational point $[\xi:\eta:1]\in D(\Q)$ is the image of a point of
+$\mathcal U\cap C(\Q)$ if and only if
+\begin{equation}
+ \xi>0,\qquad\eta>0,\qquad
+ v=\sqrt{\frac{\xi^2+\eta^2-2}{2}}\in\Q_{>0},\qquad
+ \left|\frac{\xi^2-\eta^2}{28v}\right|<\frac7{11}.
+ \label{eq:theta-strict-lift}
+\end{equation}
+For this choice of $v$, the unique point on the positive branch is
+\begin{equation}
+ P=\frac1v,\qquad Q=\frac\xi v,\qquad R=\frac\eta v,
+ \qquad z=\frac wv,
+ \qquad w=\frac{\xi^2-\eta^2}{28v}.
+ \label{eq:theta-inverse}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Equation \eqref{eq:theta-elimination} gives $w^2+50v^2=1$, and substitution
+in \eqref{eq:theta-inverse} gives all three equations of $C$.
+Moreover $P\ge\sqrt{50}>1$.  The remaining strict inequality is
+\[
+ P+7|z|<50\quad\Longleftrightarrow\quad1+7|w|<50v.
+\]
+Both sides on the right are positive.  Squaring and using
+$50v^2=1-w^2$ reduces it to
+\[
+ 99|w|^2+14|w|-49<0,
+\]
+whose positive root is $7/11$.  The inverse implication follows from the
+same calculation.
+\end{proof}
+
+Every real point of $D$ lies on $Z\ne0$.  Indeed,
+\[
+ F(X,Y,0)=9801(X^2+Y^2)^2-4X^2Y^2>0
+\]
+for a nonzero real pair $(X,Y)$.  The four points where $v^2=0$ are
+\begin{equation}
+ E_{\epsilon,\eta}=[\epsilon:\eta:1],\qquad
+ \epsilon,\eta\in\{1,-1\};
+ \label{eq:theta-four-boundary}
+\end{equation}
+each has two rational preimages at $T=0$ on $C$.
+
+\subsection{The complete bitangent configuration}
+
+Put $r=\sqrt2$, $s=\sqrt{51}$, and $K=\Q(r,s)$.  Independent signs in the
+following statement range over $\{1,-1\}$.
+
+\begin{theorem}
+\label{thm:theta-lines}
+The twenty-eight bitangents of $D$ are precisely the following lines:
+\begin{enumerate}
+\item $Z=uX$ and $Z=uY$, where $u=\epsilon r/2$ or $u=5\epsilon r$;
+\item $Z=(\epsilon hX+\eta hY)/14$, where $h=9$ or $h=11$;
+\item $Z=s(\epsilon hX+\eta jY)/102$, where
+      $(h,j)=(9,11)$ or $(11,9)$;
+\item $X=tY$, where $t=\epsilon r(s+7\eta)/2$.
+\end{enumerate}
+Each has two distinct contact points.  The associated odd-theta
+\emph{\'etale} algebra is
+\begin{equation}
+ L_{\mathrm{odd}}
+ =\Q^8\times\Q(\sqrt2)^4\times\Q(\sqrt{51})^4
+          \times\Q(\sqrt2,\sqrt{51}).
+ \label{eq:theta-algebra}
+\end{equation}
+The full Galois action is induced by the independent sign changes of $r$
+and $s$ in the displayed lines.
+\end{theorem}
+
+\begin{proof}
+We first give the contact identities.  These also specify the contact
+divisors, since each is the zero divisor of the displayed quadratic on its
+line.  For type~1, on $Z=uX$ one has
+\begin{equation}
+ F|_{Z=uX}=9801(Y^2+\alpha X^2)^2,
+ \quad
+ \alpha=\begin{cases}
+ -1/99,&u^2=1/2,\\
+ -9899/99,&u^2=50.
+ \end{cases}
+ \label{eq:theta-contact-I}
+\end{equation}
+Exchange $X,Y$ for the other four lines.  For type~2,
+\begin{equation}
+ \begin{array}{c|c|c}
+ h&k_h&q_h\\\hline
+ 9&-818/81&13122/49\\
+ 11&1222/121&29282/49
+ \end{array}
+ \qquad
+ F|_{Z=h(\epsilon X+\eta Y)/14}
+   =q_h(X^2+\epsilon\eta k_hXY+Y^2)^2.
+ \label{eq:theta-contact-II}
+\end{equation}
+For type~3 the identity is
+\begin{equation}
+ F|_{Z=s(\epsilon hX+\eta jY)/102}
+   =\frac{6534}{17}(X^2+\epsilon\eta k_{h,j}XY-Y^2)^2,
+ \quad
+ k_{9,11}=-\frac{980}{99},\quad k_{11,9}=\frac{980}{99}.
+ \label{eq:theta-contact-III}
+\end{equation}
+Finally, $t^2=50+7\eta s$ for type~4, and
+\begin{equation}
+ F|_{X=tY}
+  =39984\left(Z^2-\frac{39592(t^2+1)}{79968}Y^2\right)^2.
+ \label{eq:theta-contact-IV}
+\end{equation}
+All these homogeneous quadratics have nonzero discriminant: in
+\eqref{eq:theta-contact-I} the coefficient $\alpha$ is nonzero; in
+\eqref{eq:theta-contact-II} one has $k_h\ne\pm2$; in
+\eqref{eq:theta-contact-III} one has $k_{h,j}^2+4>0$; and in
+\eqref{eq:theta-contact-IV} one has $t^2+1\ne0$.
+
+We prove completeness by comparing coefficients of binary quartics.
+A line with one vanishing coefficient is of the form $X=a_0Z$,
+$Y=a_0Z$, or $X=a_0Y$.  For the first two forms the discriminant condition
+for the restricted even quartic to be a square is
+\[
+ -3136(a_0^2-2)(50a_0^2-1)=0.
+\]
+For the third form it is
+\[
+ -6272(a_0^4-100a_0^2+1)=0.
+\]
+The resulting lines are exactly types~1 and~4.  The three coordinate axes
+give nonzero discriminants and hence contribute no line.
+
+Now write a line with all coefficients nonzero as $Z=\alpha X+\beta Y$,
+and set $U=\alpha^2$, $V=\beta^2$.  With $a,b,c,d$ as in the proof of
+Proposition~\ref{prop:theta-quotient}, its restricted quartic has
+coefficients
+\begin{align*}
+ A_4&=a+cU+dU^2,&
+ A_3&=2\alpha\beta(c+2dU),\\
+ A_2&=b+c(U+V)+6dUV,&
+ A_1&=2\alpha\beta(c+2dV),\\
+ A_0&=a+cV+dV^2.
+\end{align*}
+For a square quartic, $A_4=0$ would imply $A_3=0$.  The latter forces
+$U=101/204$, for which $A_4=2/51$.  Thus $A_4,A_0$ are nonzero.
+If one of $A_3,A_1$ vanishes, both vanish, giving $U=V=101/204$; at that
+pair
+\[
+ A_2^2-4A_4A_0=\frac{78368326400}{51}\ne0.
+\]
+In the remaining case, comparison with the square of a quadratic gives
+\begin{align}
+ &(c+2dU)^2A_0-(c+2dV)^2A_4\notag\\
+ &\hspace{22mm}=2458624(U-V)(102U+102V-101)=0,
+ \label{eq:theta-square-factor-I}\\
+ E&:=A_0(c+2dV)A_2-UV(c+2dV)^3-2A_0^2(c+2dU)=0.
+ \label{eq:theta-square-factor-II}
+\end{align}
+More explicitly, when these four coefficients are nonzero, the restricted
+quartic is a square precisely when
+\[
+ A_4=A_0(A_3/A_1)^2,\qquad
+ A_2=\frac{A_1^2}{4A_0}+\frac{2A_0A_3}{A_1}.
+\]
+The square is then
+\[
+ A_0\left(\frac{A_3}{A_1}X^2+
+                   \frac{A_1}{2A_0}XY+Y^2\right)^2.
+\]
+Substitution gives exactly
+\eqref{eq:theta-square-factor-I}--\eqref{eq:theta-square-factor-II}.
+On the two lines singled out by
+\eqref{eq:theta-square-factor-I}, the second expression factors as
+\begin{align*}
+ E|_{V=U}
+  &=-1568(196U-121)(196U-81)(204U-101),\\
+ E|_{V=101/102-U}
+  &=\frac{76832}{17}(68U-27)(204U-121)(204U-101).
+\end{align*}
+After discarding $U=101/204$, already treated, these yield
+\[
+ (U,V)=\left(\frac{81}{196},\frac{81}{196}\right),\quad
+       \left(\frac{121}{196},\frac{121}{196}\right),\quad
+       \left(\frac{27}{68},\frac{121}{204}\right),\quad
+       \left(\frac{121}{204},\frac{27}{68}\right).
+\]
+These are precisely types~2 and~3, and their sufficiency was established
+by \eqref{eq:theta-contact-II}--\eqref{eq:theta-contact-III}.
+
+Since $D$ is a smooth plane quartic, its canonical bundle is
+$\OO_D(1)$.  A bitangent $\ell$ therefore cuts out $2B_\ell$, where
+$B_\ell$ is an effective theta characteristic of degree two.
+It has $h^0(B_\ell)=1$: a degree-two pencil would make $D$
+hyperelliptic, whereas its canonical map is a plane embedding.
+Conversely, an odd theta characteristic has a unique effective divisor
+of degree two and gives a bitangent by taking twice that divisor.
+The preceding classification is thus the full odd-theta set.
+
+The eight type~2 lines are rational.  Type~1 consists of four quadratic
+orbits over $\Q(r)$, and type~3 consists of four quadratic orbits over
+$\Q(s)$.  The four type~4 lines form one orbit over $K$: the value of
+$t^2$ recovers $s$ up to sign, and $t$ then recovers $r$ up to sign.
+This proves \eqref{eq:theta-algebra} and the Galois assertion.
+\end{proof}
+
+\subsection{Theta fractions and the literal lifting class}
+
+Choose the rational bitangent
+\[
+ \ell_0=14Z-9X-9Y.
+\]
+None of the twenty-eight bitangents contains $O_D$: this follows directly
+from their equations (for type~3 the coefficient of $s$ is rational and
+nonzero, and for type~4 $t^2=50\pm7s\ne1$).  Thus, for every line in
+Theorem~\ref{thm:theta-lines}, the function
+\begin{equation}
+ f_\ell=\frac{\ell}{\ell_0}\frac{\ell_0(O_D)}{\ell(O_D)}
+ \label{eq:theta-fractions}
+\end{equation}
+is defined at $O_D$ and satisfies
+\[
+ f_\ell(O_D)=1,\qquad
+ \operatorname{div}(f_\ell)=2(B_\ell-B_{\ell_0}).
+\]
+The line equations and their Galois action therefore give explicitly
+labelled theta fractions in each factor of \eqref{eq:theta-algebra}.
+Alternatively, relative to the canonical divisor $H=(Z=0)|_D$, the
+functions $\ell/Z$ have divisor $2B_\ell-H$.
+
+\begin{proposition}
+\label{prop:theta-cover-class}
+Let
+\[
+ C_0=X^2+Y^2-2Z^2,\qquad
+ N=97X^2+99Y^2-196Z^2,\qquad
+ h=\frac{C_0}{2Z^2},\qquad
+ \ell_\pm=Z\pm\frac X{\sqrt2}.
+\]
+The cover $\pi:C\to D$ is the normalization of $v^2=h$.  If
+$E_0=\sum_{\epsilon,\eta}E_{\epsilon,\eta}$ is the sum of the four points
+in \eqref{eq:theta-four-boundary}, its geometric covering class is
+\[
+ \delta=[E_0-H]\in\Jac(D)(\Q)[2]\setminus\{0\}.
+\]
+Over $\Q(\sqrt2)$ it is identified with
+$[B_{\ell_+}-B_{\ell_-}]$ by the exact function-field identity
+\begin{equation}
+ h=\frac{\ell_+}{\ell_-}
+       \left(\frac{N}{28\sqrt2\,Z\ell_+}\right)^2.
+ \label{eq:theta-cover-identity}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+The polynomial identity
+\begin{equation}
+ N^2=F+784C_0\left(Z^2-\frac{X^2}{2}\right)
+ \label{eq:theta-conic-identity}
+\end{equation}
+gives \eqref{eq:theta-cover-identity}, including its scalar, upon
+restriction to $D$.  The function-field description in
+\eqref{eq:theta-vw} identifies this cover with $C$.
+
+On the conic $C_0=0$, equation \eqref{eq:theta-elimination} becomes
+$(X^2-Y^2)^2=0$.  The conics $C_0=0$ and $X^2-Y^2=0$ meet transversely at
+the four points $E_{\epsilon,\eta}$.  They have no common point on $Z=0$.
+It follows that
+\[
+ (C_0=0)|_D=2E_0,\qquad
+ \operatorname{div}(h)=2E_0-2H.
+\]
+Taking divisors in \eqref{eq:theta-cover-identity} now gives the asserted
+identity of two-torsion classes.  The latter class is nonzero because the
+two distinct contact divisors $B_{\ell_+},B_{\ell_-}$ each have
+$h^0=1$; if they were linearly equivalent, they would be equal.
+\end{proof}
+
+The zeros of $h$ give useful rational charts on the normalized cover.
+Near $O_D$, take $X=1+u$, $Z=1$, and solve the quartic equation for $Y$.
+Its first terms are
+\begin{equation}
+ Y=1-u-\frac{48}{49}u^2+O(u^3),\qquad
+ h=\frac{u^2}{49}+O(u^3).
+ \label{eq:theta-boundary-expansion}
+\end{equation}
+Indeed substitution of $Y=1-u+au^2+O(u^3)$ gives the coefficient
+$-784a-768$ of $u^2$ in $F$.  In the normalized chart $v=u\omega$, the
+two points above $O_D$ have $\omega=\pm1/7$.  The same conclusion at the
+other three points follows by the sign changes of $X,Y$.  This also
+exhibits directly the eight rational boundary points of the cover.
+
+\subsection{Local survival at every finite descent level}
+
+The rational boundary and the real topology have a consequence independent
+of the explicit bitangent calculation.  We formulate it for an arbitrary
+abelian variety, so it applies both to $\Jac(C)$ and to the quartic quotient.
+
+\begin{theorem}
+\label{thm:theta-local-survival}
+Let $X/\Q$ be a smooth projective geometrically integral curve, let
+$B\subset X$ be a finite closed subset, and suppose $O\in B(\Q)$.
+Let $A/\Q$ be an abelian variety and $a:X\to A$ a morphism with $a(O)=0$.
+Let $\mathcal V\subset (X\setminus B)(\R)$ contain a point joined to $O$
+by a continuous path in $X(\R)$.
+For every integer $m\ge1$, form
+\[
+ X_m=X\times_{a,A,[m]}A.
+\]
+The geometrically connected component $X_m^0$ containing $(O,0)$ is
+defined over $\Q$.  It has a point above $X\setminus B$ over every
+$\Q_p$, and a real point above $\mathcal V$.
+\end{theorem}
+
+\begin{proof}
+In characteristic zero, multiplication by $m$ on $A$ is finite
+\emph{\'etale}.  Consequently $X_m\to X$ is finite \emph{\'etale},
+and $X_m$ is smooth and projective.  Its geometric connected components
+are disjoint.  The unique one containing the rational point $(O,0)$ is
+Galois invariant and therefore descends to $\Q$.
+
+Fix a finite prime $p$.  The $p$-adic inverse function theorem, applied
+to the projection at $(O,0)$, identifies a neighborhood of this point
+with a neighborhood of $O$ in $X(\Q_p)$.  A local parameter on the smooth
+curve takes infinitely many values in every sufficiently small
+$p$-adic neighborhood.  We may therefore choose a nearby point outside
+the finite set $B$ and lift it to $X_m^0(\Q_p)$.  This argument includes
+primes dividing $m$: the differential of $[m]$ is multiplication by the
+nonzero element $m$ of the field $\Q_p$.
+
+For the real assertion, let $\gamma$ be a path from $O$ to a point
+$P\in\mathcal V$.  The path $a\circ\gamma$ starts at zero and lies in
+$A(\R)^0$.  This identity component is a compact connected real Lie
+group; its multiplication map $[m]$ is a surjective covering map.
+Lift $a\circ\gamma$ starting at zero.  Together with $\gamma$ this gives
+a path on $X_m(\R)$ beginning at $(O,0)$, and hence lying in $X_m^0$.
+Its endpoint is the required point above $P$.
+\end{proof}
+
+\begin{corollary}
+\label{cor:theta-surviving-covers}
+Put $J_C=\Jac(C)$, $J_D=\Jac(D)$, and
+\[
+ i_C(P)=[P-O_C],\qquad i_D(S)=[S-O_D].
+\]
+For every $m\ge1$, the distinguished components of both covers
+\begin{equation}
+ C\times_{i_C,J_C,[m]}J_C,
+ \qquad
+ C\times_{i_D\circ\pi,J_D,[m]}J_D
+ \label{eq:theta-surviving-covers}
+\end{equation}
+have nonboundary points at every finite place and a real point whose
+image on $C$ belongs to $\mathcal U$ and gives $x\ne y$.
+\end{corollary}
+
+\begin{proof}
+Take $B=C\cap(T=0)$ and choose the positive square roots in
+\eqref{eq:theta-C} as $z$ decreases from $+\infty$ to $1/6$.
+All three radicands are positive, since they are
+$z^2+50$, $(z+7)^2+2$, and $(z-7)^2+2$.
+In projective coordinates this path starts at $O_C$.  At $z=1/6$ its
+coordinates are
+\[
+ P=\frac{\sqrt{1801}}6,\qquad
+ Q=\frac{\sqrt{1921}}6,\qquad
+ R=\frac{\sqrt{1753}}6.
+\]
+Here $1<P<8$ and $P+7z<8+7/6<50$, so it belongs to $\mathcal U$.
+Formula \eqref{eq:theta-return} gives $y-x=7/300\ne0$.
+Apply Theorem~\ref{thm:theta-local-survival} with $a=i_C$ and
+$a=i_D\circ\pi$, respectively.
+\end{proof}
+
+There is also an elementary uniform description of a finite-prime
+square sieve on this source.
+
+\begin{proposition}
+\label{prop:theta-finite-primes}
+For a fixed $z\in\Q_2$, the three equations
+\eqref{eq:theta-C} with $T=1$ have simultaneous roots in $\Q_2$ if and
+only if $v_2(z)<0$.  The analogous assertion over $\Q_3$ holds with
+$v_3(z)<0$.  For every finite set $S$ of primes, there are infinitely
+many rational values of $z$ for which all three radicands are squares
+in every $\Q_p$, $p\in S$, and whose positive real roots belong to
+$\mathcal U$.
+\end{proposition}
+
+\begin{proof}
+For integral $z$ at two, $z^2+50$ is $2,3$, or $6$ modulo eight, so
+cannot be a square.  Write $z=2^{-k}u$ with $k\ge1$ and $u$ a unit.
+For $k\ge2$, division by $z^2$ makes all three radicands units congruent
+to one modulo eight.  For $k=1$, multiplication by four gives
+\[
+ u^2+200,\qquad u^2+28u+204,\qquad u^2-28u+204,
+\]
+which are again one modulo eight.  The complete square criterion in
+$\Q_2$ proves sufficiency.
+
+At three, the residue classes $z=0,1,-1$ respectively make the first,
+third, and second radicand a nonsquare modulo three.  If $v_3(z)<0$,
+division by $z^2$ gives units congruent to one modulo three.  More
+generally, at any odd prime $p$, a negative valuation of $z$ gives this
+same unit congruence modulo $p$, so Hensel's lemma supplies all roots.
+
+Set $M=6\prod_{p\in S}p$ and take $z=M^{-k}$ for $k\ge1$.
+All the required valuations are negative, while $0<z\le1/6$.
+At the real place, the positive roots satisfy $1<P<8$ and
+$P+7z<8+7/6<50$.  These distinct rational parameters have all the
+asserted properties.
+\end{proof}
+
+Proposition~\ref{prop:theta-finite-primes} establishes survival of the
+simultaneous square conditions at any specified finite set of places.
+Corollary~\ref{cor:theta-surviving-covers} establishes the stronger
+statement after imposing a fixed multiplication level on either
+Jacobian: a single geometrically connected cover retains nonboundary
+points at every finite place and a strict real distance configuration.
+For the second cover in \eqref{eq:theta-surviving-covers}, this conclusion
+includes the literal quadratic lift identified in
+Proposition~\ref{prop:theta-cover-class}.  Thus these finite descent
+levels have nonempty local-solubility sets with the complete source
+and the strict real inequalities imposed.

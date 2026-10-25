@@ -1,0 +1,20 @@
+import EllipticCurves.MordellWeil
+import EllipticCurves.ReductionAtPrime
+import SplitKummerChecks
+import OddTorsion
+#check @WeierstrassCurve.Affine.fg_point_of_numberField
+#print axioms WeierstrassCurve.Affine.fg_point_of_numberField
+#check @WeierstrassCurve.Affine.ker_μ_eq
+#print axioms WeierstrassCurve.Affine.ker_μ_eq
+#check @WeierstrassCurve.Affine.eq_zero_of_isOfFinAddOrder_of_red_eq_zero
+#print axioms WeierstrassCurve.Affine.eq_zero_of_isOfFinAddOrder_of_red_eq_zero
+#check @WeierstrassCurve.Affine.addOrderOf_dvd_natCard_red
+#print axioms WeierstrassCurve.Affine.addOrderOf_dvd_natCard_red
+#check @SplitKummerAudit.mu_zero_iff_double
+#print axioms SplitKummerAudit.mu_zero_iff_double
+#check @WeierstrassCurve.Affine.formal_points_eq_zero_of_unit_nsmul
+#print axioms WeierstrassCurve.Affine.formal_points_eq_zero_of_unit_nsmul
+#check @WeierstrassCurve.Affine.eq_zero_of_odd_nsmul_of_mem_filtration_of_two_mem
+#print axioms WeierstrassCurve.Affine.eq_zero_of_odd_nsmul_of_mem_filtration_of_two_mem
+#check @WeierstrassCurve.Affine.eq_zero_of_odd_nsmul_of_four_nsmul_mem_filtration
+#print axioms WeierstrassCurve.Affine.eq_zero_of_odd_nsmul_of_four_nsmul_mem_filtration

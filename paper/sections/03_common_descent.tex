@@ -1,0 +1,557 @@
+\section{A common squareclass descent}\label{sec:common-descent}
+
+The sum of the products of opposite distances gives a useful one-parameter
+family of covering curves.  The four square roots in this family determine
+one point of the square.  In particular, the squareclass of their common
+coordinate can be compared at different places.
+
+\subsection{The four-root curve and its return map}
+
+Let $t\in\Q\setminus\{0,1,-1\}$, and put
+\[
+ s=t-1,\qquad T=t+1,\qquad d=sT=t^2-1.
+\]
+Let $\mathcal U_t$ be the affine curve
+\begin{equation}\label{eq:common-four-roots}
+ P^2=\ell+T,\qquad C^2=\ell-s,\qquad
+ M^2=\frac{s(T-\ell)}\ell,\qquad B^2=\frac{T(\ell+s)}\ell,
+ \qquad \ell PCMB\ne0.
+\end{equation}
+We denote its smooth projective completion by $D_t$.  The order of the
+four roots will be fixed throughout this section.
+
+For a point whose distances from $(0,0),(1,0),(0,1),(1,1)$ are
+$r_0,r_1,r_2,r_3$, respectively, the coordinates are
+\begin{equation}\label{eq:common-from-distances}
+\begin{gathered}
+ t=r_0r_3+r_1r_2,\qquad P=r_0+r_3,\qquad M=r_3-r_0,\\
+ B=r_1+r_2,\qquad C=r_2-r_1,\qquad \ell=P^2-t-1.
+\end{gathered}
+\end{equation}
+To verify the forward construction and its range, put $u=1-2x$,
+$v=1-2y$, $A=r_0r_3$, and $A'=r_1r_2$.
+Expansion of the four squared-distance identities gives
+\[
+ A^2-(A')^2=-uv,\qquad
+ (A+A')^2+(A-A')^2=1+(u^2+v^2)^2/4.
+\]
+Thus $t^2=(A+A')^2$ is the larger root of
+\[
+ F_t(Z)=Z^2-\bigl(1+(u^2+v^2)^2/4\bigr)Z+u^2v^2.
+\]
+The diagonal exclusion in Lemma~\ref{lem:ell-diagonal-exclusion} gives
+$u^2\ne v^2$, and hence $F_t(1)=-(u^2-v^2)^2/4<0$.
+For $a=u^2,b=v^2\in[0,1)$,
+\[
+ 16F_t(5/4)=5-5a^2+6ab-5b^2>0.
+\]
+Indeed this polynomial is strictly concave on $[0,1]^2$, with vertex
+values $5,0,0,1$, and its two zero vertices are excluded.
+The axis of $F_t$ is below $1$, so $1<t<\sqrt5/2$.
+Furthermore
+\[
+ PM=u+v,\quad BC=v-u,\quad
+ P^2-C^2=B^2-M^2=2t,\quad P^2+M^2=u^2+v^2+2.
+\]
+These identities give $(P^2-T)(M^2+s)=d$ by expansion.
+The first two equations of \eqref{eq:common-four-roots} follow from the
+definition of $\ell$; the last two then follow from this product
+identity and $B^2-M^2=2t$.  The diagonal exclusion also gives
+$C,M\ne0$.  Since $s>0$ and $d>0$, the product identity first gives
+$\ell>0$, and the equations for $C^2,M^2$ then give $s<\ell<T$.
+
+Conversely, a tuple in \eqref{eq:common-four-roots} determines
+\begin{equation}\label{eq:common-return}
+\begin{gathered}
+ u=\frac{PM-BC}{2},\qquad v=\frac{PM+BC}{2},\qquad
+ x=\frac{1-u}{2},\qquad y=\frac{1-v}{2},\\
+ r_0=\frac{P-M}{2},\quad r_3=\frac{P+M}{2},\quad
+ r_1=\frac{B-C}{2},\quad r_2=\frac{B+C}{2}.
+\end{gathered}
+\end{equation}
+These formulas give the four squared-distance identities over every field
+of characteristic zero.  Indeed, the root equations imply
+\[
+ B^2-M^2=P^2-C^2=2t,\qquad
+ P^2M^2+B^2C^2=2(P^2+M^2-2).
+\]
+Consequently $u^2+v^2=P^2+M^2-2=B^2+C^2-2$.  Since
+$u+v=PM$ and $u-v=-BC$, substitution into
+$\bigl((1-u)^2+(1-v)^2\bigr)/4$ and its three translates gives
+$r_0^2,r_1^2,r_2^2,r_3^2$.  Moreover,
+\[
+ r_0r_3+r_1r_2=\frac{P^2-M^2+B^2-C^2}{4}=t.
+\]
+For $t>1$, the strict real return chamber is
+\begin{equation}\label{eq:common-chamber}
+ s<\ell<T,\qquad P,B>0,\qquad |PM|+|BC|<2.
+\end{equation}
+In this chamber $P>|M|$ and $B>|C|$, so all four returned distances are
+positive.  The last inequality is equivalent to $|u|,|v|<1$, and hence to
+$0<x,y<1$.  These identities also show directly that the transformation
+\begin{equation}\label{eq:common-reflection}
+ (\ell,P,C,M,B)\longmapsto(d/\ell,B,M,C,P)
+\end{equation}
+is the reflection $x\mapsto1-x$ on the square.
+
+\begin{proposition}\label{prop:common-genus-boundary}
+The curve $D_t$ is geometrically connected of genus nine.  The map
+$\ell:D_t\to\PP^1$ has degree sixteen and is branched precisely at
+\[
+ 0,\quad\infty,\quad s,\quad T,\quad-s,\quad-T.
+\]
+If $t>1$, none of the points above these six values is rational.
+\end{proposition}
+\begin{proof}
+Over $\overline\Q(\ell)$, the four radicands in
+\eqref{eq:common-four-roots} have independent squareclasses: their
+valuations at $-T,s,T,-s$, respectively, each isolate one of the four
+classes.  The extension therefore has degree sixteen.  At each of the
+six displayed branch values the inertia group has order two.  For
+example, the valuation vectors at $0$ and $\infty$, in the order
+$(P,C,M,B)$, are $(0,0,1,1)$ and $(1,1,0,0)$ modulo two.  Thus
+Riemann--Hurwitz gives
+\[
+ 2g(D_t)-2=-32+6\cdot8=16.
+\]
+The following table records a regular function on the normalization and
+its value at each omitted fibre:
+\[
+\begin{array}{c|rrrrrr}
+ \ell&s&T&-s&-T&0&\infty\\\hline
+ \text{regular square}&M^2&C^2&P^2&B^2&C^2&M^2\\
+ \text{value}&2&2&2&2&-s&-s.
+\end{array}
+\]
+The first four require $\sqrt2\in\Q$, and the last two require a square
+root of the negative number $-s$.  This excludes every rational point
+on the six fibres.
+\end{proof}
+
+\subsection{Prime support and the ramified unit conditions}
+
+Write $[a]_K$ for the class of $a\in K^\times$ modulo squares; omit the
+subscript when $K=\Q$.  For a nonzero rational number $d$, set
+\[
+ S(d)=\{p:\ p\text{ is odd and }v_p(d)>0\text{ is odd}\}.
+\]
+
+\begin{lemma}[Support of the common coordinate]\label{lem:common-support}
+If $(\ell,P,C,M,B)\in\mathcal U_t(\Q)$, then
+\[
+ [\ell]\in\langle[-1],[2],[p]:p\in S(d)\rangle.
+\]
+For $t>1$, the sign is positive and the generator $[-1]$ can be omitted.
+\end{lemma}
+\begin{proof}
+Fix an odd prime $p$ and put $m=v_p(t)$ and $n=v_p(\ell)$.
+Suppose first that $m<0$, so $v_p(s)=v_p(T)=m$.
+If $n>m$, the first and third equations of
+\eqref{eq:common-four-roots} have valuations $m$ and $2m-n$;
+both must be even, so $n$ is even.  If $n<m$, the fourth and first
+have valuations $m$ and $n$, giving the same conclusion.  If $n=m$,
+the reductions of $P^2/t$ and $C^2/t$ differ by $2$.
+At least one is a unit; its square has valuation $m=n$, which is even.
+
+Now let $m\ge0$.  If both $s$ and $T$ are units, then $n<0$ is even
+by the first equation and $n>0$ is even by the third, whose valuation
+is $-n$.
+If $e=v_p(s)>0$, then $T$ is a unit.  Negative $n$ is even by the
+first equation, and $0<n<e$ is even by the second.  For $n>e$,
+the second and third equations have valuations $e$ and $e-n$, so
+both $e$ and $n$ are even.  Hence odd $n$ can occur only at
+$n=e$ with $e$ odd.  In that case $e=v_p(d)>0$.
+If instead $e=v_p(T)>0$, the first equation handles $n<0$ and
+$0<n<e$, while the first and fourth have valuations $e,e-n$ for
+$n>e$.  Again odd $n$ forces $n=e=v_p(d)>0$ odd.
+
+This accounts for every odd prime, including equal-valuation cases.
+Squareclasses in $\Q$ are determined by sign and valuation parity.
+Finally $C^2=\ell-s$ implies $\ell>s>0$ when $t>1$.
+\end{proof}
+
+\begin{lemma}[Ramified classes]\label{lem:common-ramified}
+Let $p$ be odd and suppose $v_p(d)>0$ is odd.  If
+$\mathcal U_t(\Q_p)$ is nonempty, then $\leg2p=1$ and every point satisfies
+\begin{equation}\label{eq:common-ramified-classes}
+ [\ell]_{\Q_p}\in\{1,[d]_{\Q_p}\}.
+\end{equation}
+If $\leg2p=1$, both classes in \eqref{eq:common-ramified-classes}
+occur.
+\end{lemma}
+\begin{proof}
+First suppose $e=v_p(s)>0$ is odd.  If $v_p(\ell)>0$, then
+$P^2\equiv2\pmod p$.  Otherwise
+$B^2=T(1+s/\ell)\equiv2\pmod p$.  Thus $2$ is a square modulo $p$.
+A negative $n=v_p(\ell)$ makes $M^2=-s(1-T/\ell)$ have odd valuation $e$.
+For $0<n<e$, the valuations $n$ of $C^2$ and $e-n$ of $M^2$
+cannot both be even.  For $n>e$, $C^2$ has odd valuation $e$.
+Only $n=0$ and $n=e$ remain.
+
+If $n=0$, the third equation forces $v_p(T-\ell)>0$, so
+$\ell\equiv T\equiv2\pmod p$ and $[\ell]_{\Q_p}=1$.
+If $n=e$, then
+\[
+ M^2=(d/\ell)(1-\ell/T),
+\]
+and the second factor is a principal unit, hence a square.
+Thus $[\ell]_{\Q_p}=[d]_{\Q_p}$.
+The substitution
+$(t,P,C,M,B)\mapsto(-t,C,P,B,M)$ leaves $\ell,d$ unchanged and proves
+the assertion when $v_p(T)>0$.
+
+For existence near $t=1$, choose $\ell=s+p^{2h}$ with $2h>e$.
+Then $C=p^h$, and the other three radicands have square unit residues
+$2,2,4$.  Hensel's lemma gives all three roots.  This realizes $[d]$;
+the reflection \eqref{eq:common-reflection} realizes $1$.
+The sign substitution treats the other case.
+\end{proof}
+
+\begin{lemma}[The dyadic exponent]\label{lem:common-dyadic}
+If $\mathcal U_t(\Q_2)$ is nonempty, then either $v_2(t)\ge2$ or
+$v_2(t)$ is negative and odd.  If additionally $d$ is a square in
+$\Q_2$, then
+\[
+ v_2(\ell)=v_2(t)<0\quad\text{is odd}.
+\]
+\end{lemma}
+\begin{proof}
+Apply \eqref{eq:common-return}, without real sign restrictions, to obtain
+coordinates $x,y$ and four distances $r_j$ in $\Q_2$.
+Choose $N=2^h$ with $h\ge0$ minimal such that
+$X=Nx,Y=Ny\in\Z_2$.  Then $A_j=Nr_j\in\Z_2$, since their squares
+are integral.  If $h=0$, one of the four distances has square
+$2\pmod4$, a contradiction.  Hence $h\ge1$, and $X,Y$ are not both
+even.  They cannot both be odd, since $A_0^2=X^2+Y^2$.
+After exchanging the coordinate axes, take $X$ odd and $Y$ even.
+Every $A_j$ is odd.  The first and third squared distances modulo eight
+now give $4\mid Y$ and $4\mid Y-N$, so $h\ge2$.
+
+Put $U=N-2X$, $V=N-2Y$, and
+$S_\pm=A_0A_3\pm A_1A_2$.  Direct expansion gives
+\[
+ S_+S_-=-N^2UV,\qquad t=S_+/N^2,\qquad v_2(U)=1.
+\]
+For $V\ne0$, we have $v_2(V)\ge2$.  Exactly one of the sum and
+difference of two odd units has valuation one.  The product identity
+therefore gives either $v_2(t)=1-2h$ or $v_2(t)=v_2(V)\ge2$.
+If $V=0$, then $S_+\ne0$ because $t\ne0$, so $S_-=0$ and
+$S_+=2A_0A_3$; again $v_2(t)=1-2h$.
+
+If $d$ is a dyadic square, the alternative $v_2(t)\ge2$ is impossible:
+it would give $d\equiv-1\pmod8$.  Write $m=v_2(t)<0$, which is odd,
+and $n=v_2(\ell)$.  For $n>m$, $P^2=\ell+T$ has odd valuation $m$.
+For $n<m$, $B^2=T(1+s/\ell)$ has odd valuation $m$.
+Thus $n=m$.
+\end{proof}
+
+\subsection{The residue matrix}
+
+Let $\Delta=p_1\cdots p_r>1$ be positive, odd and squarefree.  Define
+$A_\Delta=(a_{ij})\in M_r(\F_2)$ by
+\begin{equation}\label{eq:common-matrix}
+ (-1)^{a_{ij}}=\leg{p_j}{p_i}\quad(i\ne j),\qquad
+ a_{ii}=\sum_{j\ne i}a_{ij}.
+\end{equation}
+Thus every row sums to zero.  Quadratic reciprocity does not in general
+make this matrix symmetric; the denominator $p_i$ in
+\eqref{eq:common-matrix} specifies the place at which the row is imposed.
+
+\begin{proposition}\label{prop:common-matrix}
+Suppose
+\begin{equation}\label{eq:common-delta-hyp}
+ \Delta\equiv1\pmod8,\qquad p_i\equiv1\text{ or }7\pmod8,
+ \qquad t>1,\qquad d\in\Delta\Q^{\times2}.
+\end{equation}
+Every rational point of $\mathcal U_t$ has
+\begin{equation}\label{eq:common-kernel}
+ [\ell]=\left[2\prod_{i=1}^r p_i^{e_i}\right],
+ \qquad (e_1,\ldots,e_r)^\mathsf T\in\ker A_\Delta.
+\end{equation}
+If $\rank A_\Delta=r-1$, then
+\begin{equation}\label{eq:common-two-classes}
+ [\ell]\in\{[2],[2\Delta]\}.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Write $d=\Delta q^2$.  An odd valuation of $d$ cannot be negative,
+since $v_p(t)<0$ implies $v_p(t^2-1)=2v_p(t)$.
+Thus $S(d)=\{p_1,\ldots,p_r\}$.
+The support lemma leaves $[\ell]=[2^e\prod p_i^{e_i}]$.
+As $\Delta\equiv1\pmod8$, $d$ is a dyadic square; the dyadic lemma
+forces $e=1$.
+
+At $p_i$, if $e_i=0$, the ramified-class lemma requires $\ell$ to be a
+local square; if $e_i=1$, it requires $\ell/d$ to be a local square.
+All valuation parities have already been accounted for.
+Moreover $\leg2{p_i}=1$.  The remaining unit conditions are exactly
+\[
+ \sum_{j\ne i}a_{ij}(e_j+e_i)=0,
+\]
+which is row $i$ of \eqref{eq:common-kernel}.
+The zero and all-one vectors belong to the kernel.  If its dimension
+is one, they are its only vectors, proving \eqref{eq:common-two-classes}.
+\end{proof}
+
+\begin{lemma}[A local squareclass restriction at $37$]\label{lem:common-37}
+Suppose $t\in\Z_{37}$ and
+$\overline t\in\{14,-14,16,-16\}$.  Every point of
+$\mathcal U_t(\Q_{37})$ has $[\ell]_{\Q_{37}}=1$.
+\end{lemma}
+\begin{proof}
+The substitution $t\mapsto-t$ used above preserves $\ell$, so it is enough
+to treat $\overline t=14,16$.  In either case $T$ is a nonsquare unit.
+A positive valuation of $\ell$ would give $P^2\equiv T\pmod{37}$;
+a negative valuation would give $B^2\equiv T\pmod{37}$.
+Thus $\ell$ is a unit.  We prove that its reduction $\lambda$ is square.
+
+Work in $\F_{37}$.  The elements $13,15,17$ are twice squares:
+\[
+ 13=2\cdot5^2,\qquad15=2\cdot10^2,\qquad17=2\cdot8^2.
+\]
+The element $2$ is nonsquare, while $-1$ is square.
+If $\lambda$ were nonsquare, the last two radicands, together with the
+first two, would imply that all four elements
+\[
+ \lambda+\overline t+1,\quad\lambda+\overline t-1,
+ \quad\lambda-\overline t+1,\quad\lambda-\overline t-1
+\]
+are squares, allowing zero.
+
+Here is a polynomial test for two squares differing by $2$.
+If $a^2=z+1$ and $b^2=z-1$, put $w=(a+b)^2/2$.
+Since $(a+b)(a-b)=2$, we have $w\ne0$ and
+\[
+ z=(w+w^{-1})/2,\qquad w^{18}=-1.
+\]
+Let $T_j$ be the Chebyshev polynomials, characterized by
+$T_j((w+w^{-1})/2)=(w^j+w^{-j})/2$.
+Then $T_9(z)=0$.  Reduction of $-T_9/3$ modulo $37$ gives
+\[
+ F(Z)=Z^9+7Z^7+4Z^5+3Z^3-3Z.
+\]
+Apply this to $z=\lambda+\overline t$ and
+$z=\lambda-\overline t$.  Both $F$-values vanish.  Expanding and
+factoring their sum gives the identities in $\F_{37}[X]$
+\begin{align*}
+ F(X+14)+F(X-14)&=2X^3(X^2-14)(X^2+4)(X^2+6),\\
+ F(X+16)+F(X-16)&=2X^3(X^2-14)(X^2+6)(X^2+18).
+\end{align*}
+The three elements $14,31=-6,19=-18$ are nonsquares: each has
+$18$th power $-1$.  Since $\lambda\ne0$, the second identity is
+impossible.  The first leaves only $\lambda^2=-4$, hence
+$\lambda=12$ or $25$, both squares ($12=7^2$ and $25=5^2$).
+This too contradicts the assumed nonsquareness.
+Thus $\lambda$ is square; the square criterion for odd local fields
+then gives $[\ell]_{\Q_{37}}=1$.
+\end{proof}
+
+\begin{theorem}[Residue-matrix exclusion]\label{thm:common-exclusion}\label{thm:common-squareclass}
+Let $\Delta=p_1\cdots p_r>1$ be positive, odd and squarefree, and suppose
+\[
+ \Delta\equiv1\pmod8,\qquad
+ p_i\equiv1\text{ or }7\pmod8,\qquad
+ \rank_{\F_2}A_\Delta=r-1.
+\]
+For every rational $t>1$ satisfying
+\begin{equation}\label{eq:common-excluded-t}
+ t^2-1\in\Delta\Q^{\times2},\qquad t\in\Z_{37},\qquad
+ \overline t\in\{14,-14,16,-16\},
+\end{equation}
+one has $D_t(\Q)=\varnothing$.
+\end{theorem}
+\begin{proof}
+A rational point in the finite chart would satisfy
+$[\ell]\in\{[2],[2\Delta]\}$ by Proposition~\ref{prop:common-matrix}.
+The residues of $d$ at the two positive values of $\overline t$ are
+$10=11^2$ and $33=12^2$.  The prime $37$ does not divide $\Delta$,
+since its residue modulo eight is $5$.  From $d=\Delta q^2$ it follows
+that $q$ is a $37$-adic unit and $\Delta$ is a square unit there.
+Thus both $2$ and $2\Delta$ are nonsquares in $\Q_{37}$.
+This contradicts Lemma~\ref{lem:common-37}.  Proposition~
+\ref{prop:common-genus-boundary} excludes every rational point outside
+the finite chart.
+\end{proof}
+
+The theorem constrains one global squareclass.  A different choice of
+$\ell$ at each completion cannot replace the compatibility in
+\eqref{eq:common-kernel}.  In particular, the theorem applies without a
+bound on the height of $\ell$, on the height of $t$, or on the number of
+prime factors of $\Delta$.
+
+\subsection{An explicit infinite family}
+
+Consider
+\[
+ \Delta_0=1926281441=7\cdot17\cdot23\cdot31\cdot73\cdot311.
+\]
+In the indicated prime order, the matrix \eqref{eq:common-matrix} is
+\begin{equation}\label{eq:common-six-matrix}
+ A_{\Delta_0}=\begin{pmatrix}
+ 0&1&0&1&1&1\\
+ 1&1&1&1&1&1\\
+ 1&1&0&0&0&0\\
+ 0&1&1&1&1&0\\
+ 1&1&0&1&1&0\\
+ 0&1&1&1&0&1
+ \end{pmatrix}.
+\end{equation}
+Its entries follow from quadratic reciprocity and reduction of the six
+primes modulo one another.  Its kernel has a short explicit
+certificate.  Row three gives $e_1=e_2$; row five then gives
+$e_4=e_5$; row four gives $e_2=e_3$; row six gives $e_4=e_6$;
+and row one gives $e_2=e_4$.  Hence all six coordinates agree.
+The rank is therefore five.
+
+\begin{corollary}\label{cor:common-infinite}
+Put $C_0=269297$ and $K=2^{20}\cdot7\cdot37$.  For every integer
+$j\ge1$, define
+\begin{equation}\label{eq:common-infinite}
+ q_j=\frac1{C_0}+\frac K{1+K^2j},\qquad
+ t_j=\frac{1+\Delta_0q_j^2}{1-\Delta_0q_j^2}.
+\end{equation}
+The parameters $t_j$ are distinct and satisfy
+\[
+ 1<t_j<\frac{17}{16}<\frac{\sqrt5}{2},\qquad
+ D_{t_j}(\Q)=\varnothing.
+\]
+Every $D_{t_j}$ has a real point in the strict return chamber
+\eqref{eq:common-chamber}.  In addition, $t_j+1$ is neither a rational
+square nor twice a rational square, and
+$[t_j^2-1]=[\Delta_0]\notin\{1,[2]\}$.
+\end{corollary}
+\begin{proof}
+For $q_0=1/C_0$, direct cancellation gives
+\[
+ t(q_0)=\frac{138225}{131072}=:t_0,\qquad
+ 1-\Delta_0q_0^2=\frac{2^{18}}{C_0},\qquad
+ t_0\equiv14\pmod{37}.
+\]
+The perturbation $\delta_j=K/(1+K^2j)$ has $37$-adic valuation one.
+Since the denominator of $t(q_0)$ is a $37$-adic unit,
+$t_j\equiv14\pmod{37}$ for all $j$.  Also
+\[
+ t_j^2-1=\Delta_0
+ \left(\frac{2q_j}{1-\Delta_0q_j^2}\right)^2.
+\]
+At the real place $0<\delta_j<1/K<10^{-7}$.  The integer inequality
+\[
+ 33\Delta_0\left(\frac1{269297}+\frac1{10^7}\right)^2
+ =\frac{24893364230896160241}{26929700000000000000}<1
+\]
+gives $0<\Delta_0q_j^2<1/33$, and hence $1<t_j<17/16$.
+The sequence $q_j$ is strictly decreasing, and the function
+$(1+\Delta_0q^2)/(1-\Delta_0q^2)$ is strictly increasing on
+$0<q<1/\sqrt{\Delta_0}$.  Thus the $t_j$ are distinct.
+Theorem~\ref{thm:common-exclusion} now applies to each one.
+
+For the real assertion choose $\ell=\sqrt d$ and positive roots in
+\eqref{eq:common-four-roots}.  Since $s<\sqrt{sT}<T$, all four
+radicands are positive.  Furthermore
+\[
+ (PM)^2=(BC)^2=2\sqrt d.
+\]
+The inequality $t<\sqrt5/2$ gives $d<1/4$, so
+$|PM|+|BC|=2\sqrt{2\sqrt d}<2$.
+Finally $v_7(q_0)=-1$ and $v_7(\delta_j)=1$, whence
+$v_7(q_j)=-1$ and $v_7(1-\Delta_0q_j^2)=-1$.
+As $t_j+1=2/(1-\Delta_0q_j^2)$, we get $v_7(t_j+1)=1$,
+which proves both square exclusions.
+\end{proof}
+
+The limit parameter itself also satisfies the exclusion theorem:
+\begin{equation}\label{eq:common-t0}
+ t_0=\frac{138225}{131072},\qquad
+ t_0^2-1=\frac{\Delta_0}{2^{34}},\qquad D_{t_0}(\Q)=\varnothing.
+\end{equation}
+For a one-prime squareclass $\Delta=p\equiv1\pmod8$, the matrix is
+$(0)$, so its rank hypothesis is automatic.  Thus
+Theorem~\ref{thm:common-exclusion} also applies to every such $p$ and
+every $t$ satisfying \eqref{eq:common-excluded-t}.
+
+\subsection{The unramified genus-seventeen covers}
+
+The support lemma also gives a uniform finite descent for each fixed
+parameter.  For $t>1$ define
+\[
+ \mathcal K_t=\left\{2^e\prod_{p\in S(d)}p^{e_p}:
+                         e,e_p\in\{0,1\}\right\}.
+\]
+For $\kappa\in\mathcal K_t$, let $\widetilde D_{t,\kappa}$ be the
+smooth projective curve obtained by adjoining to
+\eqref{eq:common-four-roots} the further equation
+\begin{equation}\label{eq:common-genus17}
+ Z^2=\ell/\kappa.
+\end{equation}
+
+\begin{proposition}\label{prop:common-genus17}
+The morphism $\widetilde D_{t,\kappa}\to D_t$ is a geometrically
+connected unramified double cover, and
+$g(\widetilde D_{t,\kappa})=17$.  Every rational point of $D_t$ lifts
+to one of these covers; on the affine chart the lift retains the same
+coordinates $\ell,P,C,M,B$.
+\end{proposition}
+\begin{proof}
+On $D_t$, the function $\ell$ has eight zeros and eight poles, all of order
+two, since the map to the $\ell$-line has ramification index two over
+$0$ and $\infty$.  Thus adjoining its square root is unramified.
+To prove geometric connectedness, suppose that $\ell$ became a square in
+the four-radical function field over $\overline\Q$.  In a
+multiquadratic extension the base-field squareclasses that become
+squares are exactly the span of its defining classes.
+The valuations at $-T,s,T,-s$ force each coefficient of such an
+expression for $[\ell]$ to vanish.  The remaining class $[\ell]$ is nonzero
+on $\overline\Q(\ell)$, a contradiction.  Riemann--Hurwitz now gives
+\[
+ 2g(\widetilde D_{t,\kappa})-2=2(2\cdot9-2)=32.
+\]
+All rational points of $D_t$ are in the affine chart by
+Proposition~\ref{prop:common-genus-boundary}.  For such a point,
+Lemma~\ref{lem:common-support} supplies $\kappa\in\mathcal K_t$ with
+$[\ell]=[\kappa]$, giving a rational $Z$ in
+\eqref{eq:common-genus17}.
+\end{proof}
+
+\begin{proposition}[Finite local compatibility]\label{prop:common-finite-places}
+For fixed $t>1$, define
+\[
+ \mathfrak S_\ell(t)=\{\kappa\in\mathcal K_t:
+    \widetilde D_{t,\kappa}(\Q_v)\ne\varnothing
+    \text{ for every place }v\}.
+\]
+It suffices to impose these conditions at the real place, at the primes
+$p\le1153$, and at the primes at which one of $t,t-1,t+1$ has nonzero
+valuation.  If $\mathfrak S_\ell(t)$ is empty, then $D_t(\Q)$ is empty.
+\end{proposition}
+\begin{proof}
+Let $p$ be an odd prime outside the stated set.  The parameters
+$t,s,T,\kappa$ are units.  The six branch sections on the $\ell$-line
+remain distinct modulo $p$: their differences are products of units
+among $2,t,s,T$.  The normalization of the five-radical cover is
+smooth over $\Z_p$.  More explicitly, away from the branch sections
+it is finite \emph{\'etale}; near a branch section, after an
+\'etale extension extracting square roots of unit factors, its local
+models are $w^2=z$, with $z$ a parameter on the base.  These models
+are smooth, and smoothness descends.  The private-valuation argument
+in the preceding proposition persists on the geometric special fibre,
+so the latter is connected of genus seventeen.
+
+The Hasse--Weil bound gives
+\[
+ \#\widetilde D_{t,\kappa}(\F_p)\ge p+1-34\sqrt p>0
+ \qquad(p\ge1163).
+\]
+The next prime after $1153$ is $1163$.  Smooth Hensel lifting therefore
+supplies a $\Q_p$-point.  A smooth curve over a local field has
+infinitely many points in a sufficiently small neighbourhood of any
+rational point, so the point can also be chosen off the finite
+boundary.  The final assertion follows by applying
+Proposition~\ref{prop:common-genus17} to a rational point of $D_t$.
+\end{proof}
+
+Thus the common-coordinate descent produces finitely many
+geometrically connected covers while retaining all four ordered roots.
+The residue-matrix theorem supplies domains on which the associated
+compatibility set is empty, and Corollary~\ref{cor:common-infinite}
+gives an explicit infinite sequence of such domains inside the strict
+real return range.

@@ -1,0 +1,791 @@
+\section{A reciprocity obstruction on the complete source curve}
+\label{sec:hasse-families}
+
+We now retain the fourth square in the ordered distance construction.
+For $p\in\Q$, $p>1$, put $a=p-1$ and $b=p+1$.  The complete source
+is the intersection of three quadrics
+\begin{equation}\label{eq:hp-full}
+ C_p:\quad pV^2=2a(U^2-pZ^2),\qquad
+ pW^2=2b(U^2+pZ^2),\qquad pT^2=aU^2+pbZ^2
+ \quad\subset\PP^4_{[Z:U:V:W:T]}.
+\end{equation}
+On $Z\ne0$, the parameter $\rho=U^2/(pZ^2)$ gives the four ordered
+squares
+\begin{equation}\label{eq:hp-four}
+ p\rho,\quad 2(p-1)(\rho-1),\quad
+ 2(p+1)(\rho+1),\quad (p-1)\rho+p+1.
+\end{equation}
+The smooth projective model has genus five: its degree-sixteen map to
+$\PP^1_\rho$ has five branch values
+$0,1,-1,-b/a,\infty$, with inertia of order two at each.
+Thus $2g-2=-32+5\cdot8=8$.
+Write $\operatorname{Loc}(p)$ for the assertion that the four expressions
+in \eqref{eq:hp-four} are simultaneous nonzero squares at a finite
+$\rho\notin\{0,1,-1\}$ over each completion of $\Q$.
+The real solutions can be chosen in the strict distance region: take
+$\rho>1$ sufficiently close to $1$.  Indeed, if
+$F=a\rho+b$, $u^2=p\rho$, $v^2=2a(\rho-1)$ and
+$w^2=2b(\rho+1)$, the strict margin is
+$2F-4|u|-|vw|$, whose limit is $4p-4\sqrt p>0$.
+
+The obstruction below uses every source point on \eqref{eq:hp-full}.
+Its formula depends only on the valuations of $p,p-1,p+1$.
+We use the additive Hilbert symbol notation $(c,d)_v\in\operatorname{Br}(\Q_v)[2]$,
+and write its bit as $2\operatorname{inv}_v(c,d)_v\in\F_2$.
+For an odd prime $q$, and $c=q^r c_0,d=q^s d_0$ with units $c_0,d_0$,
+\begin{equation}\label{eq:hp-hilbert}
+ (-1)^{2\operatorname{inv}_q(c,d)_q}
+ =(-1)^{rs(q-1)/2}\leg{c_0}{q}^{s}\leg{d_0}{q}^{r}.
+\end{equation}
+For odd $u,v\in\Z_2^\times$, the dyadic rule is
+\begin{equation}\label{eq:hp-hilbert2}
+ 2\operatorname{inv}_2(2^r u,2^s v)
+ =\frac{(u-1)(v-1)}4+r\frac{v^2-1}8+s\frac{u^2-1}8\pmod2.
+\end{equation}
+
+\subsection{The obstruction and its arithmetic domain}
+
+Assume
+\begin{equation}\label{eq:hp-domain}
+ p(p^2-1)=nk^2,\qquad n>1\text{ odd and squarefree},\qquad k\in\Q^\times.
+\end{equation}
+For parameters satisfying $\operatorname{Loc}(p)$ define
+\begin{align}
+ A(p)&=\sum_{\substack{q\text{ odd},\ (2/q)=-1\\v_q(a)>0}}\frac{v_q(a)}2,
+ &B(p)&=\sum_{\substack{q\text{ odd},\ (2/q)=-1\\v_q(b)>0}}\frac{v_q(b)}2
+ \quad\text{in }\F_2.\label{eq:hp-AB}
+\end{align}
+If $v_q(p)<0$ is odd, choose $e\in\F_q$ with $e^2=2$ and define
+$\sigma_q\in\F_2$ by
+\[
+ (-1)^{\sigma_q}=\leg{2+e}{q},\qquad
+ P(p)=\sum_{\substack{q\text{ odd}\\v_q(p)<0\text{ odd}}}\sigma_q.
+\]
+This definition is independent of the choice of $e$, since
+$(2+e)(2-e)=2$ is a nonzero square.  The existence of $e$ and the
+integrality of the half-valuations follow from the next lemma.
+Put
+\begin{equation}\label{eq:hp-parity}
+ \mathcal T(p)=
+ \begin{cases}
+ B(p)+P(p),&v_2(p)\ne0,\\
+ [v_2(a)=5]+B(p)+P(p),&p\equiv1\pmod {16},\\
+ [v_2(b)=5]+A(p)+P(p),&p\equiv15\pmod {16}.
+ \end{cases}
+\end{equation}
+Here brackets denote an indicator, and unit congruences are interpreted
+in $\Z_2^\times$.
+
+\begin{theorem}\label{thm:hp-uniform}
+Suppose \eqref{eq:hp-domain} holds.  If $\operatorname{Loc}(p)$ holds
+and $\mathcal T(p)=1$, then $C_p(\Q)=\varnothing$.
+\end{theorem}
+
+We prove the theorem by constructing a quaternion algebra on a
+coordinate-omission curve and calculating its invariant at every place.
+The sum is $\mathcal T(p)/2$.  A rational point would make this sum zero
+by Hilbert reciprocity.
+
+Omitting $U$ and $W$, respectively, gives the genus-one curves
+\begin{align}
+ D_U:&\quad v^2=2t^2-4pz^2,\qquad
+ aw^2=2b(t^2-2z^2),\label{eq:hp-DU}\\
+ D_W:&\quad V^2=2T^2-4pZ^2,\qquad
+ aU^2=pT^2-pbZ^2.\label{eq:hp-DW}
+\end{align}
+These are projective equations in the four displayed coordinates.
+Both omission maps are everywhere defined: if all retained coordinates
+vanish, \eqref{eq:hp-full} forces the omitted coordinate to vanish too.
+
+\begin{lemma}\label{lem:hp-norms}
+Under $\operatorname{Loc}(p)$, the numbers $p,a,b$ are norms from
+$\Q(\sqrt2)$.  At an odd prime where $2$ is nonsquare their valuations
+are even.  Under \eqref{eq:hp-domain}, the possible dyadic branches are
+\[
+ v_2(p)\ge4\text{ even},\quad v_2(p)\le-4\text{ even},\quad
+ p\equiv1\pmod {16},\quad p\equiv15\pmod {16}.
+\]
+In the last two branches, respectively, $[a]_2=[2]_2$ and
+$[b]_2=[2]_2$, and the positive valuation is odd and at least five.
+\end{lemma}
+\begin{proof}
+At a completion where $2$ is nonsquare, a point of \eqref{eq:hp-DU}
+has $z,w\ne0$.  Its equations give the exact norm witnesses
+\[
+ \Nm\left(\frac{v+t\sqrt2}{2z(1+\sqrt2)}\right)=p,
+ \qquad
+ \Nm\left((2+\sqrt2)\frac b w(t+z\sqrt2)\right)=ab.
+\]
+At an odd inert prime the valuation of a norm is even.  At a pole of
+$p$, the valuations of $p,a,b$ agree.  Away from poles, $a,b$ are
+integral and cannot both have positive valuation.  The even valuation
+of $ab$ therefore makes each positive valuation even.  Thus
+$(2,a)_q=(2,b)_q=0$ at every odd place; their real invariants also vanish.
+Reciprocity gives vanishing at $2$.  The quadratic norm criterion gives
+the asserted global norms.
+
+The norm classes at $2$ are $1,-1,2,-2$.  Since
+$v_2(pab)$ is even, a nonzero $v_2(p)$ is even.  Depth $2$ is excluded
+by the unit part of $a$: if $p$ has depth $2$ it is $3\pmod8$, and
+if $p=u/4$ with $u\equiv1,7\pmod8$, it is $5,3\pmod8$.
+For a unit $p$, its norm condition gives $p\equiv1,7\pmod8$;
+the norm conditions on $b,a$ sharpen these to $1,15\pmod {16}$.
+We spell out the four-square restriction at $2$.
+Write $A=v_2(p)$ and $R=v_2(\rho)$.  Since $p\rho$ is square,
+$A+R$ is even.  If $A,R$ are both nonzero and have the same sign,
+the valuation of $2(p-1)(\rho-1)$ is odd.  If their signs are opposite
+and both are even, the same conclusion holds.  If their signs are
+opposite and both are odd, the fourth radicand has a unique term of
+negative odd valuation: it is $(p-1)\rho$ when $A>0$, and
+$p(\rho+1)$ when $A<0$.  Finally $A=R=0$ is impossible: the first
+square gives $p\equiv\rho\pmod8$, so one of the middle two radicands
+has valuation three.  Exactly one of $A,R$ is therefore zero and the
+other is even.
+
+For a unit $p$, the middle two squares force both $v_2(p-1)$ and
+$v_2(p+1)$ odd, so $p\equiv1$ or $7\pmod8$.  If $R>0$, the fourth
+square excludes $p\equiv1\pmod8$, because its valuation would be one.
+Thus $[p]_2=-1$; the product of the middle two squares gives
+$[p^2-1]_2=[\rho^2-1]_2=-1$.
+If $R<0$, the fourth square excludes $p\equiv7\pmod8$, because
+$(p-1)\rho$ would have odd valuation.  Now $[p]_2=1$ and
+$[p^2-1]_2=[\rho^2-1]_2=1$.
+In both cases $[pab]_2=1$.
+For $p\equiv1\pmod {16}$, $[p]_2=1$ and $[b]_2=2$, whence
+$[a]_2=2$; for $p\equiv15\pmod {16}$, $[p]_2=-1$ and
+$[a]_2=-2$, whence $[b]_2=2$.  The corresponding valuation is odd
+and at least five.
+\end{proof}
+
+\subsection{A rational anchor and the quaternion class}
+
+Temporarily suppose an actual rational point
+$Q_0=[z:v:w:t]\in D_U(\Q)$ is given.  Its $z,w,t$ are nonzero.
+For instance, $z=0$ gives $v^2=2t^2$, and $w=0$ gives $t^2=2z^2$;
+$t=0$ is excluded over $\R$.  Also $v\ne0$: otherwise
+$2p=(t/z)^2$, contrary to the even valuation of $pab$ at $2$.
+Define
+\begin{equation}\label{eq:hp-anchor}
+ z_1=aw-2bz,\qquad u_1=pb(w+2t+2z),\qquad
+ t_1=-b(aw+2pt+2az).
+\end{equation}
+This is a rational point on $aU^2-pT^2+pbZ^2=0$, since
+\[
+ au_1^2-pt_1^2+pbz_1^2
+ =2p^2b(aw^2-2bt^2+4bz^2)=0.
+\]
+The linear transformation $[z:t:w]\mapsto[z_1:u_1:t_1]$ has determinant
+$-8p^2b^2$ and hence never produces the zero tuple.  Choose the sign of
+$w$ so that $z_1t-zt_1\ne0$.  Such a choice exists: the sum for the two
+signs is $4abz(t+z)$, and $t=-z$ is impossible in \eqref{eq:hp-DU}.
+Fix this choice.  On $D_W$ put
+\begin{equation}\label{eq:hp-polar}
+ L_U=vV-2tT+4pzZ,\qquad
+ L_V=au_1U-pt_1T+pbz_1Z,\qquad
+ F=\frac{L_UL_V}{V^2},\qquad \alpha=(-a,F).
+\end{equation}
+
+Here is the divisor calculation underlying this construction.
+The projections from $D_W$ to the two conics in \eqref{eq:hp-DW} have
+degree two.  Let $E_U,E_V$ be the degree-two fibres over their respective
+rational anchors $[z:v:t]$ and $[z_1:u_1:t_1]$, and let $H_V$ be the
+degree-four coordinate section $V=0$.  A tangent line on a smooth
+conic meets it twice at its point of tangency.  Consequently
+\begin{equation}\label{eq:hp-divisor}
+ \operatorname{div}(F)=2(E_U+E_V-H_V).
+\end{equation}
+All residues of $(-a,F)$ vanish, so it defines a class on the smooth
+proper curve $D_W$.
+
+For completeness, the associated elliptic curve and ordered classes are
+\begin{equation}\label{eq:hp-elliptic}
+ E:\ y^2=x(x-L)(x-R),\qquad
+ L=\frac{8p}{a^2},\quad R=-\frac{8pb}{a^3},\qquad
+ \chi=(2,pa,2pa),\quad\beta=(-a,-a,1).
+\end{equation}
+The row $\chi$ describes the actual curve $D_W$.  Indeed, with
+$\xi_0=2aU,\xi_L=2V,\xi_R=2T,\zeta=a^2Z$ its equations become
+\[
+ 2\xi_0^2-pa\xi_L^2=L\zeta^2,
+ \qquad 2\xi_0^2-2pa\xi_R^2=R\zeta^2.
+\]
+In particular its degree-four covering map is
+$x=8U^2/(a^2Z^2)$, $y=16pUVT/(a^4Z^3)$.
+Write $T_0,T_L,T_R$ for the named two-torsion points, and
+$\sigma_i$ for the sign change of a coordinate $i$.
+The diagonal degree-four covering map is the intrinsic map
+$P\mapsto[P-\sigma_Z(P)]$ to the Jacobian: its ordered root functions
+are $2U/(aZ)$, $2V/(a^2Z)$ and $2T/(a^2Z)$, with the constants in
+$\chi$.  It sends the boundary sections $U=0,V=0,T=0,Z=0$ to
+$T_0,T_L,T_R,0$, respectively.
+Choose a geometric point $O_C$ above $Z=0$ to compute Abel sums.
+Then $\sigma_Z$ acts by negation and the covering map acts by
+multiplication by two.  Each other reflection acts as
+$P\mapsto t_i-P$, with $2t_i=0$ because it commutes with $\sigma_Z$.
+At a fixed point of $\sigma_i$, the covering image is $2P=t_i$;
+the boundary images therefore give
+$t_U=T_0,t_V=T_L,t_T=T_R$.
+Every fibre of the corresponding conic projection has Abel sum
+$P+\sigma_i(P)=t_i$, including ramified fibres counted twice.
+Thus the Abel sums of $E_U,E_V$ are $T_0,T_L$.
+Since $H_V\sim2E_V$, we obtain
+$[E_U+E_V-H_V]=T_0-T_L=T_R$.
+
+For the cyclic algebra in \eqref{eq:hp-polar}, the divisor identity
+\eqref{eq:hp-divisor} identifies the Picard cocycle as
+$\gamma\mapsto\epsilon_{-a}(\gamma)T_R$:
+over $\Q(\sqrt{-a})$ the norm of $E_U+E_V-H_V$ is its double,
+which is $\operatorname{div}(F)$.
+The Weil pairings of $T_R$ with $T_0,T_L,T_R$ are $-1,-1,1$,
+respectively, so the ordered two-descent row is $\beta=(-a,-a,1)$.
+
+We shall use only the constant-evaluation consequence of the Picard
+cocycle.  Let $k=\Q_v$ and choose any point of $D_W(k)$, which exists
+by $\operatorname{Loc}(p)$.  This point splits the degree map on
+$\Pic(\overline{D_W})$, giving the Galois module decomposition
+$\Pic(\overline{D_W})=E(\overline k)\oplus\Z$.
+The coefficient $-a$ becomes a square over $\overline k$, so $\alpha$
+lies in the algebraic Brauer group
+$\operatorname{Br}_1(D_W)=\ker(\operatorname{Br}(D_W)\to
+\operatorname{Br}(\overline{D_W}))$.
+The Hochschild--Serre exact sequence
+\cite[\S2, (2.1)]{creutz2020} contains
+\[
+ \operatorname{Br}(k)\longrightarrow\operatorname{Br}_1(D_W)
+ \longrightarrow H^1(k,\Pic(\overline{D_W})).
+\]
+A Kummer class $\beta\in E(k)/2E(k)\subset H^1(k,E[2])$ maps to zero
+in $H^1(k,E)$ by the multiplication-by-two exact sequence.  Since
+$H^1(k,\Z)=0$, an algebraic Brauer class with this Picard cocycle
+comes from $\operatorname{Br}(k)$ and has constant evaluation.
+For a torsor the cocycle is computed modulo its torsor class; that
+class becomes zero as soon as a local point is chosen.  Thus it
+suffices to prove local solubility of the full cover representing
+$\beta$.
+
+\subsection{The partner cover at every place}
+
+Put $c=-a$.  The complete partner cover is
+\begin{equation}\label{eq:hp-partner}
+ cA^2-cB^2=L\zeta^2,\qquad cA^2-C^2=R\zeta^2.
+\end{equation}
+Two useful projective points are
+\begin{align}
+ &[1:1:\sqrt c:0] &&\text{if $c$ is square},\label{eq:hp-partner-O}\\
+ &\left[\frac{4p}{a^2}\sqrt{\frac b{2p}}:\frac{4p}{a^2}:0:1\right]
+ &&\text{if $b/(2p)$ is square}.\label{eq:hp-partner-R}
+\end{align}
+These follow from $(R-L)/c=(4p/a^2)^2$.
+
+At an odd prime with $v_q(p)>0$, $c$ is square; with $v_q(a)>0$,
+$b/(2p)$ is square.  At a pole with $2$ square, the latter criterion
+again applies.  At a pole with $2$ nonsquare, write
+$p=\pi^{-2h}p_0$, $a=\pi^{-2h}a_0$, $b=\pi^{-2h}b_0$.
+Replacing $(A,B,C)$ by $(\pi^{2h}A',\pi^{2h}B',\pi^hC')$ gives a
+unit model whose three elliptic roots reduce to $0,8/p_0,-8/p_0$.
+It is a smooth genus-one curve over $\F_q$, so the Hasse bound and
+Hensel's lemma supply a point.  The same argument applies whenever
+$p,a,b$ are units.
+
+It remains to consider $v_q(b)>0$.  If $2$ is square, $c$ is square.
+Otherwise write $v_q(b)=2h$ and let $B_0$ be the unit squareclass of
+$\pi^{-2h}b$.  The Kummer row at $T_0$ is $(2B_0,2,B_0)$.
+If $B_0=1$ this is $\beta$.  If $B_0=2$, choose a residue $X$ with
+$X$ nonsquare and $X+2$ a nonzero square.  There are
+$(q+\leg{-2}{q})/4>0$ such residues: expanding the two character
+indicators reduces the count to
+$\sum_X\leg{X(X+2)}q=-1$, which follows from
+$(X+1-Y)(X+1+Y)=1$.
+Lifting $x=X$ gives an actual point of $E(\Q_q)$ with row $(2,1,2)$,
+since $L\equiv-2,R\equiv0$.  Adding $T_0$, whose row is now $(1,2,2)$,
+gives $\beta$.  The simultaneous square roots in the Kummer row give
+one point of \eqref{eq:hp-partner}.
+
+At $2$, the branches of Lemma~\ref{lem:hp-norms} suffice.
+If $v_2(p)\ge4$, $c$ is square.  If $v_2(p)=-2h\le-4$, normalize
+$z=1$ in the actual rational anchor.  Its norm condition leaves
+$[p]_2=1$ or $-1$.  In the first case the equation
+$v^2=2t^2-4p$ forces $v_2(t)=1-h$: a smaller valuation has odd leading
+depth and a larger one gives squareclass $-1$.
+Then $(2b/a)t^2(1-2/t^2)$ has squareclass $2$, contradicting the
+$w$-equation.  Thus $[p]_2=-1$ and $c$ is square.
+If $p\equiv1\pmod {16}$, $b/(2p)\in1+8\Z_2$, so
+\eqref{eq:hp-partner-R} applies.
+
+Finally suppose $p\equiv15\pmod {16}$.  Normalizing $z=1$, the
+first anchor equation forces $v_2(t)\ge2$; the second then implies
+that $2b$ is square.  Choose local $r,s,h_d,h_Z$ with
+\[
+ r^2=2b,\quad s^2=3-p,\quad h_d^2=-a/2,\quad
+ h_Z^2=\frac{p^2-4p-1}{2pa}.
+\]
+Here $3-p=4(1-b/4)$ and $1-b/4\in1+8\Z_2$, so the indicated $s$ exists.
+The last two unit radicands are squares because
+$-a/2\equiv1\pmod8$ and
+$h_Z^2-1=-b^2/(2pa)\in2^8\Z_2$.
+The actual point
+\[
+ [Z:U:V:T]=[h_Z/2:r/4:1:rs/(4h_d)]\in D_W(\Q_2)
+\]
+has row $\chi=(2,2,1)=\beta$ over $\Q_2$ and hence supplies a point
+of \eqref{eq:hp-partner}.  Over $\R$ one may use
+$[0:\sqrt{8p/a^3}:\sqrt{8pb/a^3}:1]$.
+The partner is therefore everywhere locally soluble, and the evaluation
+of $\alpha$ is constant at every place.
+
+\subsection{Evaluation of the quaternion algebra}
+
+We give the local calculations leading to \eqref{eq:hp-parity}.
+At a tangent fibre the extension in \eqref{eq:hp-divisor}, rather than
+the value of a vanishing rational function, is used.  When the missing
+coordinate is locally a square, the actual points
+\[
+ P_U=[z:u_0:v:t],\quad u_0^2=\frac p a(t^2-bz^2),\qquad
+ P_V=[z_1:u_1:v_1:t_1],\quad v_1^2=2t_1^2-4pz_1^2
+\]
+satisfy
+\begin{equation}\label{eq:hp-tangent-eval}
+ \alpha(P_U)=(-a,-pL_V(P_U)),\qquad
+ \alpha(P_V)=(-a,-2bL_U(P_V)).
+\end{equation}
+To see this, the polar identities are
+\[
+ (zV-vZ)^2-2(zT-tZ)^2=-2zZL_U,
+ \qquad
+ a(z_1U-u_1Z)^2-p(z_1T-t_1Z)^2=-2z_1ZL_V.
+\]
+Dividing by the square of $tZ-zT$ in the first case gives the limiting
+coefficient $-4p/v^2$ for $L_U$.  Dividing by the corresponding square
+in the second gives $-p^2b/(2au_1^2)$ for $L_V$; removing squares and
+norms from $\Q_v(\sqrt{-a})$ gives the factor $-2b$ in
+\eqref{eq:hp-tangent-eval}.  If $u_1=0$, use $U$ as parameter and
+$L_V/U^2\to-a/2$.  If $z_1=0$, use the chart $T=t_1$.
+The choice $z_1t-zt_1\ne0$ ensures the other polar is nonzero.
+
+For an odd prime the evaluation table is
+\begin{equation}\label{eq:hp-odd-table}
+\begin{array}{c|c}
+ \text{parameter branch}&2\operatorname{inv}_q\alpha\\ \hline
+ v_q(p),v_q(a),v_q(b)=0&0\\
+ v_q(p)>0&0\\
+ v_q(a)>0&2\operatorname{inv}_q(-a,-2)\\
+ v_q(b)>0,\ (2/q)=1&0\\
+ v_q(b)>0,\ (2/q)=-1&v_q(b)/2\\
+ v_q(p)<0\text{ even}&0\\
+ v_q(p)<0\text{ odd}&\text{bit of }\leg{-(2+e)}q,\quad e^2=2.
+\end{array}
+\end{equation}
+Here and below equality of entries is in $\F_2$.
+We justify the entries, including arbitrary valuation depths.
+At a good unit prime, the source and its two conics have smooth proper
+models.  Normalize the anchor primitively.  The anchor transformation
+has unit determinant, so both tangent sections are primitive.  Their
+horizontal divisors are even and neither has a vertical divisor.
+The quaternion extends over the model and specializes to
+$\operatorname{Br}(\F_q)=0$.  At a positive-$p$ prime, $-a$ is square.
+
+At a positive-$a$ prime where $2$ is square, use the actual point
+$[Z:U:V:T]=[1:\sqrt p:0:\pm\sqrt{2p}]$.
+Normalize $\min(v_q(t),v_q(z))=0$ and choose the sign so that $L_U$
+is a unit.  Direct substitution of \eqref{eq:hp-anchor} gives
+$L_V/L_U\equiv-p^2b\pmod q$; all terms involving $aw$ have positive
+valuation because $v_q(a)+2v_q(w)\ge0$.
+Removing the square pole $V^2$ leaves the class $-b=-2$.
+If $2$ is nonsquare, $v_q(a)$ is even.  In the same normalization
+$z_1\equiv-4z$, $t_1\equiv-4t$, and the missing square is
+$2t_1^2-4pz_1^2\equiv16v^2$.
+Choose $v_1\equiv4v$; then $L_U(P_V)\equiv8v^2$ is a unit.
+Both entries of the symbol in \eqref{eq:hp-tangent-eval} have unit
+squareclass, so its invariant is zero, as is $(-a,-2)_q$.
+
+At a positive-$b$ inert prime put $v_q(b)=2h$ and normalize
+$\min(v_q(t),v_q(z))=0$.  The unramified norm $t^2-2z^2$ gives
+$v_q(w)=h$ and $v_q(z)=0$.  The anchor transformation has
+$v_q(z_1)=h$, $v_q(t_1)\ge2h$.  Hence the missing square at $P_V$
+has class $-p=1$.  Choose its sign so that
+$L_U(P_V)/z_1\equiv\pm2v-4z$ is nonzero.
+Thus $v_q(L_U(P_V))=h$.  The first entry $-a$ has class $2$, and
+\eqref{eq:hp-hilbert} gives the bit $2h+h=h$.
+If $2$ is square, $-a$ is square instead.
+
+At a pole $v_q(p)=-2h$ with $2$ nonsquare, normalize $z=1$.
+The $w$-equation forbids $v_q(t)<0$, and the $v$-equation then
+forces $-p$, and hence $-a$, to be square.  If $2$ is square, set
+$Z=\pi^hZ'$.  Writing $p=\pi^{-2h}p_0$, $a=\pi^{-2h}a_0$,
+$b=\pi^{-2h}b_0$ gives the good model
+\[
+ V^2-2T^2+4p_0Z'^2=0,\qquad
+ a_0U^2-p_0T^2+p_0b_0Z'^2=0.
+\]
+Normalize $[v:t:z/\pi^h]$ primitively.  If $t$ is nonunit, $-p_0$
+is square.  Otherwise the transformed second anchor, multiplied by
+$\pi^{4h}$, reduces to
+$[0:p_0^2(w+2t):-p_0^2(w+2t)]$, a primitive point.
+The original second polar differs from its primitive-model polar by
+$\pi^{-6h}$, a square factor.  The good-model argument therefore
+again gives zero.
+
+At an odd-depth pole $v_q(p)=-(2h+1)$, $2$ is square.  Normalize $t=1$.
+The first anchor equation forces $v_q(z)\ge h+1$ and
+$v,w\equiv\pm\sqrt2$.  On $D_W$ choose
+$[Z:U:V:T]=[0:u:e:1]$, where $u^2=p/a$, $u\equiv1$ and
+$e^2=2$ has sign opposite to $v$.
+Then $L_U\equiv-4$; $L_V$ has valuation $-3(2h+1)$ and leading
+unit $2p_0^3(w+2)$.  Thus $[F]=[(-a)(w+2)]$ and
+$\alpha=(-a,-(w+2))$.  Formula \eqref{eq:hp-hilbert} gives the last
+line of \eqref{eq:hp-odd-table}.
+
+We next calculate the dyadic entries.  In either nonunit branch $-a$
+is square, as proved above, and the value is zero.
+For $p\equiv1\pmod {16}$ put $h=v_2(a)$, $d=(h-1)/2$ and normalize
+$z=1$.  The anchor has $t=2t_0$, $v=2v_0$, with $t_0,v_0$ odd and
+$v_0^2=2t_0^2-p$; moreover $v_2(w)=(3-h)/2$.
+Set
+\[
+ C=\frac{aw}{2b},\quad g=\frac{t_1}{2z_1},\quad
+ z_1=-2b(1-C),\quad v_2(C)=d.
+\]
+Then $g$ is odd and
+\[
+ g-t_0=\frac{a(t_0+1/2)+C(t_0+b/2)}{1-C},\qquad
+ v_2(g-t_0)\ge d+1.
+\]
+Choose $e^2=2g^2-p$ close to $-v_0$, and set
+$K=v_0e-2t_0g+p$.  Factoring
+$e^2-v_0^2=2(g-t_0)(g+t_0)$ gives
+$v_2(e+v_0)\ge d+2$, whence $[K]=[-2]_2$.
+The actual point $P_V$ with $v_1=2z_1e$ has $L_U=4z_1K$.
+Formula \eqref{eq:hp-tangent-eval} becomes
+$\alpha_2=(-2,(1-C)K)$.
+By \eqref{eq:hp-hilbert2} the $K$ term has bit one, and the
+$1-C$ term has bit one exactly when $d=2$.  Therefore
+\begin{equation}\label{eq:hp-dyadic-one}
+ 2\operatorname{inv}_2\alpha=1+[v_2(a)=5].
+\end{equation}
+
+For $p\equiv15\pmod {16}$ put $h=v_2(b)$, $d=(h-1)/2$ and again
+$z=1$.  Now $t=2t_0$ with $t_0$ even, $v=2v_0$,
+$v_0^2=-p+2t_0^2$, and $v_2(w)=(h+1)/2$.
+The transformed anchor has
+$v_2(z_1)=(h+3)/2$, $v_2(t_1)=h+2$.
+Thus $g=t_1/(2z_1)$ has depth $d$, and $e^2=2g^2-p$ is a square.
+Choose its sign so that $v_0e\equiv3\pmod4$.
+Since $p\equiv-1\pmod {32}$, the number
+$K=v_0e-2t_0g+p$ is $14$ or $2\pmod {16}$; its valuation is one
+and its odd part is $7$ or $1\pmod8$.
+Hence $(2,K)_2=0$ and \eqref{eq:hp-tangent-eval} gives
+\begin{equation}\label{eq:hp-dyadic-minus}
+ 2\operatorname{inv}_2\alpha
+ =2\operatorname{inv}_2(2,w/z)+[v_2(b)=5].
+\end{equation}
+Indeed $z_1=aw(1-2b/(aw))$, the correction has depth $d$, and
+$p,a,b$ are norms from $\Q_2(\sqrt2)$.
+
+The invariant at $\R$ is $1/2$.  To verify the sign in the chosen
+rational gauge, note that
+\[
+ (2pt+2az)^2-a^2w^2
+ =2\bigl((p^2+1)t^2+4patz+4paz^2\bigr)>0.
+\]
+The quadratic is positive definite, and $2pt+2az$ has the sign of $t$.
+Thus $t_1$ has the opposite sign to $t$.
+Cauchy--Schwarz on the two positive conics shows that $L_U$ and $L_V$
+have respective signs $-\operatorname{sgn}(tT)$ and
+$-\operatorname{sgn}(t_1T)$ away from their zeros.  Consequently
+$F<0$.  Since $-a<0$, the real invariant is $1/2$.
+The evaluation at a zero or pole is obtained by continuity of the
+proper class, so this value holds on every real component.
+
+\subsection{Reciprocity and the exclusion theorem}
+
+The dyadic ratio in \eqref{eq:hp-dyadic-minus} has an exact global
+support formula.  At an odd prime where $2$ is nonsquare,
+\begin{equation}\label{eq:hp-wsupport}
+ v_q(w/z)=
+ \begin{cases}
+ -v_q(a)/2,&v_q(a)>0,\\
+ v_q(b)/2,&v_q(b)>0,\\
+ 0,&\text{otherwise}.
+ \end{cases}
+\end{equation}
+For a unit or positive-$p$ branch, normalize $\min(v_q(t),v_q(z))=0$.
+The unramified norm $t^2-2z^2$ forces $w$ to be a unit, and $z$
+cannot be nonunit, since then $v^2$ has leading squareclass $2$.
+For $v_q(a)=2h>0$ normalize $w=1$: the same norm has depth $2h$,
+and the $v$-equation forces $v_q(z)=h$.
+For $v_q(b)=2h>0$ the normalization above gives $v_q(w)=h$, $v_q(z)=0$.
+At a pole, normalize $z=1$.  A negative valuation of $t$ would make
+$w^2$ have class $2$; with $t$ integral, $t^2-2$ is a unit, so $w$
+is a unit.  These arguments prove \eqref{eq:hp-wsupport} at all depths.
+Hilbert reciprocity for the literal rational number $w/z$ now gives
+\begin{equation}\label{eq:hp-WR}
+ 2\operatorname{inv}_2(2,w/z)=A(p)+B(p).
+\end{equation}
+
+Apply reciprocity also to the constant symbol $(-a,-2)$.
+Its real bit is one; its odd contributions are the positive-$a$
+entries of \eqref{eq:hp-odd-table} and, at odd-depth poles, the
+character $\leg{-1}q$.
+At $2$ its bit is one in the $p\equiv1\pmod {16}$ branch and zero
+in the other branches.
+Adding this zero global sum to the sum for $\alpha$ cancels the real
+entry and every positive-$a$ entry.  At odd poles the remaining
+character is $\leg{2+e}q$.  Hence
+\[
+ 2\sum_v\operatorname{inv}_v\alpha
+ =2\operatorname{inv}_2\alpha+
+   2\operatorname{inv}_2(-a,-2)+B(p)+P(p)
+ =\mathcal T(p),
+\]
+by \eqref{eq:hp-dyadic-one}, \eqref{eq:hp-dyadic-minus} and
+\eqref{eq:hp-WR}.  This proves the claimed invariant formula.
+
+To finish Theorem~\ref{thm:hp-uniform}, suppose a rational point of
+$C_p$ exists.  Its $U$-omission supplies the single rational anchor
+used throughout the construction.  A rational point on $C_p$ has
+$Z,V,W,T\ne0$ by the arguments following \eqref{eq:hp-DU}, and
+$U=0$ would make $pV^2=-2apZ^2<0$.  It therefore gives the
+nondegenerate four squares in \eqref{eq:hp-four}.
+The construction applies to this anchor and the image point on $D_W$.
+Evaluation there is a quaternion algebra over $\Q$, so the sum of its
+local invariants is zero.  This contradicts
+$\mathcal T(p)=1$.  The theorem follows.
+
+\subsection{A conic family with nonzero obstruction}
+
+Let
+\begin{equation}\label{eq:hp-conic}
+ r^2+2s^2=8,\qquad p=3-s^2>1.
+\end{equation}
+Then $r^2=2(p+1)$ and
+$[z:v:w:t]=[s:2(p-1):2r:r]$ is an actual rational point of $D_U$.
+Every odd inert prime dividing $p-1$ would make
+$s^2=2-(p-1)$ a nonsquare unit; thus $A(p)=0$.
+Every pole of $p$ has even depth, so $P(p)=0$.
+For rational points of this conic, $v_2(s)=1$ and $v_2(r)\ge3$.
+Indeed write $r=R/D$, $s=S/D$ with $\gcd(R,S,D)=1$.
+If $D$ were even, $R^2+2S^2=8D^2$ modulo $4$ would force $R,S$
+even.  Thus $D$ is odd.  Reduction modulo $8$ gives $R,S$ even;
+writing $R=2R_1$, $S=2S_1$ gives $R_1^2+2S_1^2=2D^2$.
+Here $R_1$ is even and $S_1$ odd.  With $R_1=2R_2$, the identity
+$2R_2^2+S_1^2=D^2$ modulo $8$ forces $R_2$ even.
+Consequently $p\equiv-1\pmod {32}$ and
+$v_2(p+1)=2v_2(r)-1$.
+Formula \eqref{eq:hp-parity} reduces to
+\begin{equation}\label{eq:hp-thinbit}
+ \mathcal T(p)=[v_2(r)=3].
+\end{equation}
+Thus every locally soluble complete source in this conic family with
+$v_2(r)=3$ is a genus-five failure of the Hasse principle.
+
+\begin{theorem}\label{thm:hp-infinite}
+For every integer $j\ge0$, set
+\[
+ N=3+154j,\quad M=N+2,\quad D=N^2+2M^2,\qquad
+ r=\frac{8MN}{D},\quad s=\frac{2(N^2-2M^2)}D,\quad p=3-s^2.
+\]
+The curves $C_p$ form an infinite family of smooth genus-five curves
+with points at every completion of $\Q$, including points in the
+strict real distance region, and with no rational point.
+\end{theorem}
+\begin{proof}
+The displayed parametrization satisfies \eqref{eq:hp-conic}.
+The integers $M,N,D$ are odd, $\gcd(M,N)=1$ and $v_2(r)=3$.
+The ratio $m=M/N$ decreases strictly from $5/3$ towards $1$.
+On $1<m\le5/3$, the function
+$s=2(1-2m^2)/(1+2m^2)$ is negative with derivative
+$-16m/(1+2m^2)^2<0$; thus $p=3-s^2$ decreases as a function of $m$.
+It follows that the distinct parameters $p$ increase from
+$3719/3481>1$.
+Their squarefree kernels in $p(p^2-1)$ are odd, since
+$[p(p^2-1)]_2=1$.  Such a kernel cannot equal one:
+if $p(p^2-1)=y^2$, the legs $(p^2-1)/y,2p/y$ and hypotenuse
+$(p^2+1)/y$ give a rational right triangle of area one, contradicting
+Lemma~\ref{lem:int:fermat}.
+By \eqref{eq:hp-thinbit}, it remains to prove $\operatorname{Loc}(p)$.
+We give the local proof directly.
+
+At $2$ use $\rho=b/(3p+1)$.  Its four radicands are
+\begin{equation}\label{eq:hp-rho-minus}
+ \frac{r^2}{4}\frac{2p}{3p+1},\qquad
+ 4\frac{-p(p-1)}{3p+1},\qquad
+ r^2\frac{2(2p+1)}{3p+1},\qquad
+ 4p\rho.
+\end{equation}
+The three unit factors displayed after their square factors lie in
+$1+8\Z_2$, because $p\equiv-1\pmod {32}$.
+At an odd prime with $v_q(p)>0$ or $v_q(p-1)>0$, the identities
+$r^2=2(p+1)$ or $s^2=3-p$, respectively, make $2$ square locally.
+Take $\rho=p$.  The first three radicands are then explicit squares,
+and the fourth, $p^2+1$, has square residue $1$ or $2$.
+If $v_q(p+1)>0$, use \eqref{eq:hp-rho-minus} again: the first and
+third radicands divided by $r^2$ have residues $1/4$ and $1$;
+the second divided by $4$ has residue $1$.
+At a pole of $p$, the identity $s^2=3-p$ makes $-p$ a local square.
+Put $h=1/p$ and $\rho=-(p+1)/(p+3)$.  The radicands become
+\[
+ (-p)\frac{1+h}{1+3h},\quad
+ (-4p)\frac{(1-h)(1+2h)}{1+3h},\quad
+ 4\frac{1+h}{1+3h},\quad 4\frac{1+h}{1+3h}.
+\]
+Every remaining factor is a principal unit and hence square.
+These witnesses treat all nonordinary odd primes and every depth.
+
+At an ordinary prime $q$, the model has five distinct branch points
+and smooth genus-five reduction.  If $q\ge101$, Hasse--Weil gives
+\[
+ \#C_p(\F_q)\ge q+1-10\sqrt q>0.
+\]
+Any such point gives a nondegenerate $\Q_q$-point.  At a finite branch
+point $\rho_0$, write its one vanishing radicand as $u(\rho-\rho_0)$
+with $u$ a unit, and take $\rho=\rho_0+q^2/u$.
+The other three radicands remain square units.  At infinity the three
+leading ratios to $p\rho$ are squares; taking
+$\rho=1/(pq^2)$ gives four nonzero roots.  Thus normalized branch
+points are sufficient for lifting.
+
+Here is a short finite-field proof for the remaining primes.  It also
+records the explicit arithmetic used for the small-prime part.
+Let $\chi$ be the quadratic character of $\F_q$, extended by $\chi(0)=0$,
+and put
+\[
+ H=\chi(-1),\quad T=\chi(2),\quad A=\chi(p),\quad B=\chi(p-1),
+ \quad c=-\frac{p+1}{p-1}.
+\]
+The conic identity gives $\chi(p+1)=T$.
+The five elliptic character quotients are
+\begin{align*}
+ E_0 &:y^2=p(p^2-1)x(x-1)(x+1),\\
+ E_1 &:y^2=2p\,x(x-1)(x-c),\\
+ E_2 &:y^2=2p(p^2-1)x(x+1)(x-c),\\
+ E_3 &:y^2=(p+1)(x-1)(x+1)(x-c),\\
+ E_4 &:y^2=p(p+1)c(x-1)(x+1)(x-c^{-1}).
+\end{align*}
+If $t_i=q+1-\#E_i(\F_q)$, expansion by the characters of the four
+square roots gives
+\begin{equation}\label{eq:hp-five-traces}
+ \#C_p(\F_q)=q+1-\sum_{i=0}^4t_i.
+\end{equation}
+Indeed the products of three radicands give $E_0,E_1,E_2,E_3$;
+the product of all four, after $x=1/\rho$, gives $E_4$.
+The remaining characters have genus zero and their finite sums cancel
+with their contributions at infinity.
+
+Each $E_i$ has rational two-torsion.  On
+$y^2=d\prod(x-e_i)$, the point $(e_i,0)$ is twice a rational point
+if and only if $d(e_i-e_j)$ and $d(e_i-e_k)$ are both squares.
+This follows by writing the tangent at a putative half-point through
+$(e_i,0)$ and factoring the resulting quadratic; conversely those two
+square roots give the two tangent slopes and a half-point.
+Consequently the group order is $4\pmod8$ when there is no rational
+point of order four, is divisible by eight when such a point exists,
+and is divisible by sixteen when all four-torsion is rational.
+
+Let $U_q,V_q,W_q$ be the largest integers at most $2\sqrt q$
+congruent to $q+1\pmod8$, $q-3\pmod8$, and $q+1\pmod {16}$,
+respectively.  Set
+$\tau_q=-\sum_{x\in\F_q}\chi(x^3-x)$.
+Then $t_0=TAB\tau_q$; for $q\equiv3\pmod4$, $\tau_q=0$ by
+pairing $x$ and $-x$.
+Applying the preceding halving criterion to the displayed roots gives
+the following upper bounds on the sum in \eqref{eq:hp-five-traces}.
+Only the sign patterns without an immediate rational branch point
+need be listed:
+\begin{center}
+\begin{tabular}{ccl}
+\toprule
+$q\bmod8$&sign pattern&upper bound for $\sum t_i$\\
+\midrule
+$3$&all $A,B$&$3U_q+V_q$\\
+$7$&$A=-1,B=1$&$2U_q+2V_q$\\
+$1$&$A=B=-1$&$\tau_q+2U_q+2V_q$\\
+$5$&$A=-1,B=1$&$\tau_q+4U_q$\\
+$5$&$A=B$&$-\tau_q+2U_q+V_q+W_q$\\
+\bottomrule
+\end{tabular}
+\end{center}
+For example, in the first row exactly three of $E_1,\ldots,E_4$ have
+order divisible by eight, and the remaining order is $4\pmod8$.
+In the second and third rows two have each type; in the fourth all
+four have order divisible by eight; in the last, one has full rational
+four-torsion, two have an order divisible by eight, and one has order
+$4\pmod8$.  These statements follow by inserting $A,B,H,T$ into
+$d(e_i-e_j)$ and $d(e_i-e_k)$.
+The omitted branch patterns are also explicit: when $T=1$, $\rho=1$
+works for $A=1$, and $\rho=0$ works for $HB=1$; when $H=1,T=-1$,
+$\rho=c$ works for $A=1,B=-1$.
+
+The trace values needed below are
+\[
+\begin{array}{c|rrrrrrrrrrr}
+q&5&13&17&29&37&41&53&61&73&89&97\\\hline
+\tau_q&-2&6&2&-10&-2&10&14&-10&-6&10&18.
+\end{array}
+\]
+They can be evaluated from the displayed finite sum; equivalently,
+for $q=u^2+v^2$, $u$ odd, $v$ even and $u+v\equiv1\pmod4$, the
+usual Gaussian evaluation of this sum is $\tau_q=2u$.
+Substitution in the bounds proves positivity except for the following
+cases, where the two conic conditions
+$\chi(2(p+1))=1$ and $\chi(3-p)\in\{0,1\}$ are retained.
+The congruence $N\equiv3$, $M\equiv5\pmod {7\cdot11}$ gives
+$p\equiv1\pmod7$ and $p\equiv9\pmod {11}$.
+At $17$ the remaining residues are $7,12$, and at $41$ they are
+$7,35$; taking $\rho=p$ works because $p^2+1$ has respective square
+residues $16,9$ and $9,37$.
+At $13$ the sign case $A=-1,B=1$ would require $p=5$, but
+$3-p=11$ is nonsquare.
+At $53$ the remaining case is $A=-1,B=1$, and at $61$ the case
+$A=B=-1$ is also settled by $\rho=-2$, whose radicands are
+$-2p,-6(p-1),-r^2,s^2$; use $(3/53)=-1$ and $(3/61)=1$.
+The residual cases have the following explicit nonzero square roots:
+\begin{center}\small
+\begin{tabular}{rrrr}
+\toprule
+$q$&$p\bmod q$&$\rho\bmod q$&roots in the order \eqref{eq:hp-four}\\
+\midrule
+11&9&4&$5,2,1,3$\\
+19&2&3&$5,2,9,5$\\
+19&11&5&$6,2,7,9$\\
+19&13&10&$4,8,2,1$\\
+19&17&4&$7,1,3,5$\\
+23&17&5&$4,6,3,11$\\
+29&7&22&$3,7,7,13$\\
+29&25&4&$10,12,12,8$\\
+43&2&3&$7,2,14,7$\\
+43&6&10&$19,2,5,10$\\
+43&11&9&$20,17,5,4$\\
+43&21&14&$6,2,12,1$\\
+43&25&35&$12,16,18,7$\\
+43&29&5&$4,3,4,16$\\
+43&31&10&$3,14,4,17$\\
+43&32&3&$15,9,7,13$\\
+43&33&12&$3,4,14,17$\\
+43&36&23&$21,11,20,5$\\
+61&16&3&$29,11,21,1$\\
+61&42&12&$4,29,9,13$\\
+61&49&12&$10,18,18,4$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Every row is checked by squaring its four entries in \eqref{eq:hp-four};
+all roots are nonzero and therefore lift by Hensel's lemma.
+This completes the proof of finite-place solubility.
+At the real place the strict open interval described after
+\eqref{eq:hp-four} supplies the required points.
+Now \eqref{eq:hp-thinbit} and Theorem~\ref{thm:hp-uniform} give
+$C_p(\Q)=\varnothing$ for every parameter in the family.
+
+There are also infinitely many geometric isomorphism classes among these
+curves. A fixed smooth curve of genus five has finite automorphism group:
+its automorphism scheme is of finite type, for example through the
+tricanonical embedding, and its tangent space is $H^0(C,T_C)=0$ because
+$\deg T_C=-8$. It therefore has finitely many subgroups isomorphic to
+$(\Z/2)^4$. Each such subgroup gives one quotient with its unordered
+branch configuration. Here that configuration is
+$\{0,1,-1,c,\infty\}$, with $c=-(p+1)/(p-1)$. For a fixed configuration,
+there are finitely many ways to choose and normalize three ordered branch
+points, and hence finitely many values of $c$. Since $p=(c-1)/(c+1)$,
+a fixed geometric curve occurs for only finitely many of our distinct
+parameters.
+\end{proof}

@@ -1,0 +1,1084 @@
+{
+  "release": "1.0.0",
+  "numbered_statements": 69,
+  "fully_formalized_numbered_statements": 34,
+  "not_fully_formalized_numbered_statements": 35,
+  "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
+  "statements": [
+    {
+      "label": "prop:int:radius-model",
+      "kind": "proposition",
+      "section": "sections/01_integral.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:int:radius-model}\nPositive rational numbers $(r_0,r_1,r_2,r_3)$ arise from a unique strict\nrational-distance point if and only if\n\\begin{align}\n r_0^2+r_3^2&=r_1^2+r_2^2,\\label{eq:int:flag}\\\\\n (1+r_0^2-r_1^2)^2+(1+r_0^2-r_2^2)^2&=4r_0^2,\\label{eq:int:radiusquartic}\\\\\n -1<r_0^2-r_1^2&<1,\\qquad\n -1<r_0^2-r_2^2<1.\\label{eq:int:strict-radii}\n\\end{align}\nThe point is given by \\eqref{eq:int:recover}.",
+      "statement_sha256": "ee07f62a72833e80ae34295ab3e17966319c158b6a1db2333adbf33fb373e3f3",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.radius_model_iff_unique",
+        "FourCorner.real_coordinates_rational"
+      ],
+      "source": "FourCorner/RadiusModel.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:int:fermat",
+      "kind": "lemma",
+      "section": "sections/01_integral.tex",
+      "title": "Square-area descent",
+      "statement_tex": "\\label{lem:int:fermat}\nA rational right triangle cannot have positive rational-square area.",
+      "statement_sha256": "0663d87705c8758e9fed2e0bed76f2f770f480ef3b04380d690f3691cdc06917",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.rational_right_triangle_not_square_area"
+      ],
+      "source": "FourCorner/FermatSymmetry.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:int:symmetry",
+      "kind": "lemma",
+      "section": "sections/01_integral.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:int:symmetry}\nA strict rational-distance point lies on neither a midline nor a\ndiagonal of the square. Its four radii are pairwise distinct.",
+      "statement_sha256": "cd071b358216f945c65728bc00b08d3bcd0767f13f76a03c88f1502d5f3f10d8",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.strict_point_symmetry"
+      ],
+      "source": "FourCorner/FermatSymmetry.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "int:primitive",
+      "kind": "proposition",
+      "section": "sections/01_integral.tex",
+      "title": "Primitive congruences",
+      "statement_tex": "\\label{int:primitive}\nFor every strict rational-distance point,\n\\[\n 24\\mid L.\n\\]\nAfter a single exchange of the coordinates, $X$ is odd and $4\\mid Y$.\nAll four $A_i$ are odd and prime to $3$. Every prime divisor of\n\\begin{equation}\\label{eq:int:diagonal-product}\n (X-Y)(X+Y-L)\n\\end{equation}\nis congruent to $1$ or $7$ modulo $8$.",
+      "statement_sha256": "0bb0e93dfbb2cc8ce729706d7e8f034f64484ca6c6f65474d904370ffaf991ec",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.primitive_congruences",
+        "FourCorner.strictPoint_iff_primitiveIntegral",
+        "FourCorner.IntegralModel.leastCoordinateDenominator"
+      ],
+      "source": "FourCorner/PrimitiveCongruences.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "int:content",
+      "kind": "proposition",
+      "section": "sections/01_integral.tex",
+      "title": null,
+      "statement_tex": "\\label{int:content}\nSet\n\\[\n G=\\gcd(A_0,A_1,A_2,A_3),\\qquad a_i=A_i/G.\n\\]\nThen $G^2\\mid L$. Every prime divisor of $G$ is $1$ modulo $4$,\nand $\\gcd(G,6)=1$. Writing\n\\begin{equation}\\label{eq:int:content-normalization}\n H=L/G^2,\n\\end{equation}\none has\n\\[\n 24\\mid H,\\qquad r_i=\\frac{a_i}{GH},\\qquad\n \\gcd(a_0,a_1,a_2,a_3)=1.\n\\]\nFor every prime $p\\mid H$, all four $a_i$ are $p$-adic units.",
+      "statement_sha256": "0406c649deb2006fa6e8161f61c5cb198de33bda05937aeb9892404ce73add94",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.radius_content",
+        "FourCorner.IntegralModel.normalized_radii_ratios",
+        "FourCorner.strictPoint_iff_primitiveIntegral"
+      ],
+      "source": "FourCorner/RadiusContent.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:int:pair-denominators",
+      "kind": "theorem",
+      "section": "sections/01_integral.tex",
+      "title": "Complementary denominators",
+      "statement_tex": "\\label{thm:int:pair-denominators}\nFor any distinct $i,j$, let $d_+$ and $d_-$ be the denominators of\n$r_i+r_j$ and $r_i-r_j$. Then\n\\begin{equation}\\label{eq:int:denominator-product}\n \\gcd(d_+,d_-)=G,\\qquad d_+d_-=L/2.\n\\end{equation}",
+      "statement_sha256": "d265fed0f51a771203da122fb741ff4384de8281437f6240375bcf3d364b3425",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.pair_denominators",
+        "FourCorner.IntegralModel.pair_denominators_literal"
+      ],
+      "source": "FourCorner/PairDenominators.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "int:gaussian",
+      "kind": "theorem",
+      "section": "sections/01_integral.tex",
+      "title": "Canonical corner classes",
+      "statement_tex": "\\label{int:gaussian}\nThe integers $d_j$ are odd, pairwise coprime, and coprime to $L$.\nEvery prime dividing any $d_j$ is $1$ or $7$ modulo $8$. There are\nnonzero $q_j\\in\\Z[i]$ such that\n\\begin{equation}\\label{eq:int:gaussian-roots}\n U_j=m_jq_j^2,\\qquad \\Nm(q_j)=A_j/m_j>0.\n\\end{equation}\nIn particular $m_0,m_1,m_2,m_3$ are positive odd squarefree integers\nwith disjoint supports, and, for $z=x+iy$,\n\\begin{equation}\\label{eq:int:gaussian-classes}\n [z-c_j]=[Lm_j]\\quad\\text{in }\\Q(i)^*/\\Q(i)^{*2}.\n\\end{equation}\nConversely, if a rational strict point has a primitive representation\nwith $X$ odd and admits \\eqref{eq:int:gaussian-roots} with positive\nintegers $m_j$ and $q_j\\in\\Z[i]$, all four of its distances are rational.",
+      "statement_sha256": "adccfecc8b65eabd23836349445eae860777da4b8ee7f013be13121030c52e73",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.canonical_corner_classes",
+        "FourCorner.IntegralModel.corner_gaussian_root_norm_div",
+        "FourCorner.IntegralModel.corner_gaussian_squareclass_coordinates",
+        "FourCorner.gaussian_squareclass_iff_complex",
+        "FourCorner.gaussian_corners_to_strict_point_of_roots"
+      ],
+      "source": "FourCorner/GaussianSquareClassEmbedding.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:int:kernel-product",
+      "kind": "proposition",
+      "section": "sections/01_integral.tex",
+      "title": "The common squarefree kernel",
+      "statement_tex": "\\label{prop:int:kernel-product}\nPut $t=r_0r_3+r_1r_2$. Then $t>1$ and\n\\[\n [t^2-1]=[n]\\quad\\text{in }\\Q^*/\\Q^{*2}.\n\\]\nConsequently the Gaussian corner kernel \\eqref{eq:int:kernel} equals\n$\\sf(t^2-1)$.",
+      "statement_sha256": "35a88dd3441baa37754fd4ad40c19d63e0bb3668cbcc67b17dd96284faaaab91",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.kernel_product"
+      ],
+      "source": "FourCorner/KernelProduct.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:int:ramified-units",
+      "kind": "proposition",
+      "section": "sections/01_integral.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:int:ramified-units}\nIf $p\\equiv1\\pmod8$ divides $m_j$, then\n\\[\n \\leg{Lm_k}{p}=1\n\\]\nfor either adjacent corner $k$, and\n\\[\n \\leg{Lm_{j^{\\mathrm{op}}}}p=\\epsilon(p)\n\\]\nfor the opposite corner $j^{\\mathrm{op}}$.",
+      "statement_sha256": "2f4b6626a7aa2cd7e5a9eecb00e24e7432d9f14a7f32301f623147d4299d5c22",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.ramified_units",
+        "FourCorner.ramified_iota_exists",
+        "FourCorner.ramified_sign_independent",
+        "FourCorner.ramified_quartic_sign"
+      ],
+      "source": "FourCorner/RamifiedUnits.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:int:prime-comparisons",
+      "kind": "theorem",
+      "section": "sections/01_integral.tex",
+      "title": "Prime-power comparisons",
+      "statement_tex": "\\label{thm:int:prime-comparisons}\nLet $K=2^{v_2(L)}$. Then\n\\begin{equation}\\label{eq:int:two-bound}\n K^2<\\frac{2+\\sqrt2}{4}\\,L.\n\\end{equation}\nIf $p$ is an odd prime with $p\\mid L$ and $p\\mid XY$, and\n$P_p=p^{v_p(L)}$, then\n\\begin{equation}\\label{eq:int:odd-bound}\n P_p^2<\\frac{2+\\sqrt2}{2p}\\,L.\n\\end{equation}\nIn particular\n\\begin{equation}\\label{eq:int:three-bound}\n 3^{2v_3(L)}<\\frac{2+\\sqrt2}{6}\\,L.\n\\end{equation}",
+      "statement_sha256": "73f3b714a1b69c5a80aea63799184964705042671d3c4978ab621c5b72ca8bc6",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.prime_power_comparisons"
+      ],
+      "source": "FourCorner/DenominatorBoundsCorollary.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "cor:int:six-smooth",
+      "kind": "corollary",
+      "section": "sections/01_integral.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:int:six-smooth}\nThe least coordinate denominator of a strict rational-distance point\nhas a prime divisor at least $5$.",
+      "statement_sha256": "7de37c16d6c481838b147e46192f5af6bfe3fa8317e6ab942fe8dced16886cd4",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.exists_prime_ge_five_dvd_L",
+        "FourCorner.strictPoint_denominator_large_prime"
+      ],
+      "source": "FourCorner/DenominatorBoundsCorollary.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:int:five-depth",
+      "kind": "proposition",
+      "section": "sections/01_integral.tex",
+      "title": "The unit-coordinate direction at $5$",
+      "statement_tex": "\\label{prop:int:five-depth}\nSuppose $5\\mid L$ and $5\\nmid XY$. Write $L=5^h m$ with $5\\nmid m$.\nThere is an integer $s\\ge1$ such that\n\\[\n v_5(A_i)=s\\quad(0\\le i\\le3),\\qquad h>2s.\n\\]\nSome signed sum $T$ of the four $A_i$ has exact depth $2h-3s$,\nand\n\\begin{equation}\\label{eq:int:five-bound}\n 5^{h-3s}<\\frac{2+\\sqrt2}{2}\\,m.\n\\end{equation}",
+      "statement_sha256": "9f6a1cde000605634c8951b5600b04592d1715c5c39ba2171a08d6bb458c5b6c",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.five_depth",
+        "FourCorner.IntegralModel.fiveCofactor_pos",
+        "FourCorner.IntegralModel.fiveCofactor_factorization",
+        "FourCorner.IntegralModel.fiveCofactor_not_dvd"
+      ],
+      "source": "FourCorner/FiveDepth.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:ell-diagonal-exclusion",
+      "kind": "lemma",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:ell-diagonal-exclusion}\nNeither diagonal of the square contains a strict rational four-distance\npoint.  The square symmetries let us choose the chamber\n\\begin{equation}\\label{eq:ell-chamber}\n x+y>1,\\qquad x>y.\n\\end{equation}",
+      "statement_sha256": "e0a84f27043a094292900478a8fb8a2845ebf52e2e4511e70a0e135480947b3c",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.diagonal_exclusion_and_chamber",
+        "FourCorner.ChamberMotion.act_involutive",
+        "FourCorner.ChamberMotion.preserves_strict",
+        "FourCorner.ChamberMotion.diagonal_action"
+      ],
+      "source": "FourCorner/StrictChamber.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:ell-exact-source",
+      "kind": "theorem",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": "Exact ordered-source correspondence",
+      "statement_tex": "\\label{thm:ell-exact-source}\nStrict rational points in the chamber \\eqref{eq:ell-chamber} are in\nbijection with the union, over positive squarefree $n$, of the rational\nsolutions of \\eqref{eq:ell-ordered-roots} for which\n\\begin{equation}\\label{eq:ell-source-signs}\n -n<a<0<c-n,\\qquad b,\\ell,u,v,h>0,\n\\end{equation}\nand\n\\begin{equation}\\label{eq:ell-strict-metric}\n \\frac{2u}{a+c}\\left(-\\frac ba+\\frac\\ell c\\right)<2.\n\\end{equation}\nFor this correspondence the final square is\n\\begin{equation}\\label{eq:ell-final-square}\n f(Q,R):=\\frac{a+c}{2(c+n)}\n       =\\frac{1}{(r_0+r_3)^2}.\n\\end{equation}",
+      "statement_sha256": "fe811360c46d9b39cf4804f3cb7a2787897e9ae5e3a3cd63e83f28c3ee1d00e9",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.exactOrderedSourceCorrespondence",
+        "FourCorner.strictChamberOrderedSourceCorrespondence",
+        "FourCorner.exactOrderedSourceCorrespondence_final_square",
+        "FourCorner.originalStrictPoint_iff_orderedSource"
+      ],
+      "source": "FourCorner/OrderedSourceNormalization.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:ell-original-cover",
+      "kind": "proposition",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:ell-original-cover}\nThere is an equality of function fields\n\\[\n \\Q(X_n)=\\Q(S)(q),\\qquad q^2=\\frac{t^2-1}{n},\n \\qquad t=r_0r_3+r_1r_2.\n\\]\nThe extension has degree two.",
+      "statement_sha256": "86d2dbbf88ef256139e44a9743f1a842652c00c1a83fe51ccf19d1bdd31ec79e",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:ell-opposite-genus",
+      "kind": "proposition",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:ell-opposite-genus}\nFor every rational $0<c_0<2$, the smooth projective curve determined\nby \\eqref{eq:ell-fixed-opposite} is geometrically connected of genus five.",
+      "statement_sha256": "bb1e37ead3cc62113c3bfc6fc09fbeba027ece1605e7bb714869345755e783b2",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:ell-torsion",
+      "kind": "theorem",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": "Uniform torsion for odd pair parameters",
+      "statement_tex": "\\label{thm:ell-torsion}\nIf $\\mu,\\nu$ are odd, the rational torsion subgroup of\n$F_{\\mu,\\nu}$ is cyclic of order four, with points\n\\eqref{eq:ell-order-four}.  Any strict four-distance point with\nopposite-pair value $\\mu/\\nu$ gives a point of infinite order on\n$F_{\\mu,\\nu}$.",
+      "statement_sha256": "67cc795f8120956e4c0af21446c260f986a40a4af8eafe0ad89500bfd73f52f3",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.UniformTorsion.rational_torsion_classification",
+        "FourCorner.UniformTorsion.rational_torsion_eq_zmultiples",
+        "FourCorner.UniformTorsion.rational_torsion_card",
+        "FourCorner.UniformTorsion.rational_torsion_cyclic",
+        "FourCorner.UniformTorsion.strict_quotient_infinite_order_of_pair_value",
+        "FourCorner.UniformTorsion.strict_any_opposite_value_yields_nontorsion"
+      ],
+      "source": "projects/uniform_torsion/source/UniformStrictQuotient.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "cor:ell-rank-zero",
+      "kind": "corollary",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:ell-rank-zero}\nIf $\\mu,\\nu$ are odd and $\\rank F_{\\mu,\\nu}(\\Q)=0$, then\n$\\mu/\\nu$ is neither an opposite-pair sum nor a nonzero absolute\ndifference at a strict rational four-distance point.",
+      "statement_sha256": "087db555ac70a932ab0e46292d86fba4773d3fb387b7eda4d0dc771ef35818d7",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.UniformTorsion.numberField_isOfFinAddOrder_of_finrank_zero",
+        "FourCorner.UniformTorsion.rank_zero_excludes_all_opposite_values"
+      ],
+      "source": "projects/uniform_torsion/source/UniformStrictQuotient.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:ell-adjacent-genus",
+      "kind": "proposition",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:ell-adjacent-genus}\nFor every rational $c_0>0$ with $c_0\\ne1$, this normalized cover\nis geometrically connected of genus five.",
+      "statement_sha256": "b66b3f43153d5dbf2e7fc8534f17b4d31ff9181988cb95a4df1aad89c2981672",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:ell-fixed-pair-finite",
+      "kind": "theorem",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": "Fixed-pair finiteness",
+      "statement_tex": "\\label{thm:ell-fixed-pair-finite}\nFix two distinct vertices, signs $\\varepsilon_i,\\varepsilon_j\\in\\{1,-1\\}$,\nand a nonzero rational number $c_0$.\nThere are only finitely many strict rational four-distance points satisfying\n$\\varepsilon_i r_i+\\varepsilon_j r_j=c_0$.",
+      "statement_sha256": "0ad7e982ffe6375621479415f2127dc76ed253e9dd1e269ee560d3a19f7f2080",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:ell-one-fifth-jacobian",
+      "kind": "proposition",
+      "section": "sections/02_elliptic_sources.tex",
+      "title": "Elliptic decomposition of the fixed fibre",
+      "statement_tex": "\\label{prop:ell-one-fifth-jacobian}\nThere is a $\\Q$-isogeny\n\\[\n \\Jac(C)\\sim_{\\Q} E_1\\times F\\times E_3\\times E_4^2,\n\\]\nwhere\n\\begin{align*}\n E_1&:\\ y^2=x^3-4606x^2+6245001x,\\\\\n F&:\\ y^2=x^3-194x^2+9801x,\\\\\n E_3&:\\ y^2=x^3-9902x^2+25492401x,\\\\\n E_4&:\\ y^2=x^3-202x^2+9801x.\n\\end{align*}",
+      "statement_sha256": "7a05cea467edf5a526eae9db8e789614d44eec54cba9058a75596a3e3834b9a5",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:common-genus-boundary",
+      "kind": "proposition",
+      "section": "sections/03_common_descent.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:common-genus-boundary}\nThe curve $D_t$ is geometrically connected of genus nine.  The map\n$\\ell:D_t\\to\\PP^1$ has degree sixteen and is branched precisely at\n\\[\n 0,\\quad\\infty,\\quad s,\\quad T,\\quad-s,\\quad-T.\n\\]\nIf $t>1$, none of the points above these six values is rational.",
+      "statement_sha256": "caa3d02ba41691ea76bb101217a3627f24d465155be1cfd1357b2314a020fab4",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "lem:common-support",
+      "kind": "lemma",
+      "section": "sections/03_common_descent.tex",
+      "title": "Support of the common coordinate",
+      "statement_tex": "\\label{lem:common-support}\nIf $(\\ell,P,C,M,B)\\in\\mathcal U_t(\\Q)$, then\n\\[\n [\\ell]\\in\\langle[-1],[2],[p]:p\\in S(d)\\rangle.\n\\]\nFor $t>1$, the sign is positive and the generator $[-1]$ can be omitted.",
+      "statement_sha256": "838276a2d924220cd76a843f5f184885103427d1a9f18c8a4c0c14182c4f700a",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonRootSource.squareclass_support",
+        "FourCorner.CommonRootSource.positive_squareclass_support"
+      ],
+      "source": "FourCorner/CommonRootSupport.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:common-ramified",
+      "kind": "lemma",
+      "section": "sections/03_common_descent.tex",
+      "title": "Ramified classes",
+      "statement_tex": "\\label{lem:common-ramified}\nLet $p$ be odd and suppose $v_p(d)>0$ is odd.  If\n$\\mathcal U_t(\\Q_p)$ is nonempty, then $\\leg2p=1$ and every point satisfies\n\\begin{equation}\\label{eq:common-ramified-classes}\n [\\ell]_{\\Q_p}\\in\\{1,[d]_{\\Q_p}\\}.\n\\end{equation}\nIf $\\leg2p=1$, both classes in \\eqref{eq:common-ramified-classes}\noccur.",
+      "statement_sha256": "a79c12abeecbe552b621dbfa124c12bfe0fb858575df29d58aa1ea2ec7150509",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonRootSource.ramified_square_classes_ratio",
+        "FourCorner.commonRoot_ramified_both_distinct",
+        "FourCorner.commonRoot_ramified_nonempty_iff"
+      ],
+      "source": "FourCorner/CommonRootRamified.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:common-dyadic",
+      "kind": "lemma",
+      "section": "sections/03_common_descent.tex",
+      "title": "The dyadic exponent",
+      "statement_tex": "\\label{lem:common-dyadic}\nIf $\\mathcal U_t(\\Q_2)$ is nonempty, then either $v_2(t)\\ge2$ or\n$v_2(t)$ is negative and odd.  If additionally $d$ is a square in\n$\\Q_2$, then\n\\[\n v_2(\\ell)=v_2(t)<0\\quad\\text{is odd}.\n\\]",
+      "statement_sha256": "d7ee53498deab918158fdeb5341eb87a2545ef53a57707b302a6b32ef1a641e9",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonRootSource.common_dyadic"
+      ],
+      "source": "FourCorner/CommonRootDyadic.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:common-matrix",
+      "kind": "proposition",
+      "section": "sections/03_common_descent.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:common-matrix}\nSuppose\n\\begin{equation}\\label{eq:common-delta-hyp}\n \\Delta\\equiv1\\pmod8,\\qquad p_i\\equiv1\\text{ or }7\\pmod8,\n \\qquad t>1,\\qquad d\\in\\Delta\\Q^{\\times2}.\n\\end{equation}\nEvery rational point of $\\mathcal U_t$ has\n\\begin{equation}\\label{eq:common-kernel}\n [\\ell]=\\left[2\\prod_{i=1}^r p_i^{e_i}\\right],\n \\qquad (e_1,\\ldots,e_r)^\\mathsf T\\in\\ker A_\\Delta.\n\\end{equation}\nIf $\\rank A_\\Delta=r-1$, then\n\\begin{equation}\\label{eq:common-two-classes}\n [\\ell]\\in\\{[2],[2\\Delta]\\}.\n\\end{equation}",
+      "statement_sha256": "df2a14f14a2ca513babddd4cfceb8262e9db0e66dc05dd089e06498cc31a40ed",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonRootSource.residue_matrix_proposition"
+      ],
+      "source": "FourCorner/CommonRootMatrix.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:common-37",
+      "kind": "lemma",
+      "section": "sections/03_common_descent.tex",
+      "title": "A local squareclass restriction at $37$",
+      "statement_tex": "\\label{lem:common-37}\nSuppose $t\\in\\Z_{37}$ and\n$\\overline t\\in\\{14,-14,16,-16\\}$.  Every point of\n$\\mathcal U_t(\\Q_{37})$ has $[\\ell]_{\\Q_{37}}=1$.",
+      "statement_sha256": "49cf3e6b667c6da80b339997b22aceb5fd4ecbeabed9072af9f6ebfa7bd6e3e5",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonRootSource.ell_isSquare_37_field"
+      ],
+      "source": "FourCorner/CommonRoot37.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:common-exclusion",
+      "kind": "theorem",
+      "section": "sections/03_common_descent.tex",
+      "title": "Residue-matrix exclusion",
+      "statement_tex": "\\label{thm:common-exclusion}\\label{thm:common-squareclass}\nLet $\\Delta=p_1\\cdots p_r>1$ be positive, odd and squarefree, and suppose\n\\[\n \\Delta\\equiv1\\pmod8,\\qquad\n p_i\\equiv1\\text{ or }7\\pmod8,\\qquad\n \\rank_{\\F_2}A_\\Delta=r-1.\n\\]\nFor every rational $t>1$ satisfying\n\\begin{equation}\\label{eq:common-excluded-t}\n t^2-1\\in\\Delta\\Q^{\\times2},\\qquad t\\in\\Z_{37},\\qquad\n \\overline t\\in\\{14,-14,16,-16\\},\n\\end{equation}\none has $D_t(\\Q)=\\varnothing$.",
+      "statement_sha256": "3f7f880c54aaef5b50bcd9d7a2314b9257a44fbc98c1b61781381017ef556d68",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "cor:common-infinite",
+      "kind": "corollary",
+      "section": "sections/03_common_descent.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:common-infinite}\nPut $C_0=269297$ and $K=2^{20}\\cdot7\\cdot37$.  For every integer\n$j\\ge1$, define\n\\begin{equation}\\label{eq:common-infinite}\n q_j=\\frac1{C_0}+\\frac K{1+K^2j},\\qquad\n t_j=\\frac{1+\\Delta_0q_j^2}{1-\\Delta_0q_j^2}.\n\\end{equation}\nThe parameters $t_j$ are distinct and satisfy\n\\[\n 1<t_j<\\frac{17}{16}<\\frac{\\sqrt5}{2},\\qquad\n D_{t_j}(\\Q)=\\varnothing.\n\\]\nEvery $D_{t_j}$ has a real point in the strict return chamber\n\\eqref{eq:common-chamber}.  In addition, $t_j+1$ is neither a rational\nsquare nor twice a rational square, and\n$[t_j^2-1]=[\\Delta_0]\\notin\\{1,[2]\\}$.",
+      "statement_sha256": "ba049c41725353efd6b975efd11687dd5cc92d993ac329ffaab60be9b1287518",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:common-genus17",
+      "kind": "proposition",
+      "section": "sections/03_common_descent.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:common-genus17}\nThe morphism $\\widetilde D_{t,\\kappa}\\to D_t$ is a geometrically\nconnected unramified double cover, and\n$g(\\widetilde D_{t,\\kappa})=17$.  Every rational point of $D_t$ lifts\nto one of these covers; on the affine chart the lift retains the same\ncoordinates $\\ell,P,C,M,B$.",
+      "statement_sha256": "29fafbbef9abd3812f84dc4e863ce1ebec0f30af2d29bfb6776b9f0e46f15e1f",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:common-finite-places",
+      "kind": "proposition",
+      "section": "sections/03_common_descent.tex",
+      "title": "Finite local compatibility",
+      "statement_tex": "\\label{prop:common-finite-places}\nFor fixed $t>1$, define\n\\[\n \\mathfrak S_\\ell(t)=\\{\\kappa\\in\\mathcal K_t:\n    \\widetilde D_{t,\\kappa}(\\Q_v)\\ne\\varnothing\n    \\text{ for every place }v\\}.\n\\]\nIt suffices to impose these conditions at the real place, at the primes\n$p\\le1153$, and at the primes at which one of $t,t-1,t+1$ has nonzero\nvaluation.  If $\\mathfrak S_\\ell(t)$ is empty, then $D_t(\\Q)$ is empty.",
+      "statement_sha256": "4ea8ab111c9f24ab310eb91acf2e8f461ea7c994dbfc13c20d290e7b6a480ca2",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "lem:profile-pair-identity",
+      "kind": "lemma",
+      "section": "sections/04_reciprocity_profiles.tex",
+      "title": "The six pair identities",
+      "statement_tex": "\\label{lem:profile-pair-identity}\nFor every pair $i\\ne j$,\n\\begin{equation}\\label{eq:profile-pair-identity}\n (A_i+A_j)^2-\n 4s_{ij}\\operatorname{Re}(w_i\\overline{w_j})^2=d_{ij}L^2.\n\\end{equation}\nConsequently, with $\\Sigma_{ij}=r_i+r_j$ and\n$T_{ij}=2\\operatorname{Re}(w_i\\overline{w_j})/L$, one has\n\\[\n \\Sigma_{ij}^2-s_{ij}T_{ij}^2=d_{ij}.\n\\]",
+      "statement_sha256": "92d7ab12d4957b6e817ea051aec19a0f6250cea8d455ba14684b809c0d33197d",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.six_pair_identities"
+      ],
+      "source": "FourCorner/PairIdentity.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:profile-six-pair-support",
+      "kind": "theorem",
+      "section": "sections/04_reciprocity_profiles.tex",
+      "title": "Six-pair support",
+      "statement_tex": "\\label{thm:profile-six-pair-support}\nLet $p$ be an odd prime dividing $V_{ij}$.  Then\n\\begin{equation}\\label{eq:profile-six-pair-support}\n p\\nmid s_{ij},\\qquad \\leg{-s_{ij}}p=1.\n\\end{equation}\nEquivalently, every odd prime divisor of $V_{ij}$ is unramified and\nsplit in $\\Q(\\sqrt{-s_{ij}})$.",
+      "statement_sha256": "fffd43d53fdcc47bfa9f58281963b4128a1facb6866d4ff15f1747099a986544",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.six_pair_support"
+      ],
+      "source": "FourCorner/PairSupport.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:profile-ramified-character",
+      "kind": "lemma",
+      "section": "sections/04_reciprocity_profiles.tex",
+      "title": "Ramified character",
+      "statement_tex": "\\label{lem:profile-ramified-character}\nFor $p\\mid m_i$ and $j\\ne i$,\n\\begin{equation}\\label{eq:profile-ramified-character}\n \\leg{V_{ij}}p=\\leg{m_j}p\\,\\sigma(p)^{d_{ij}-1}.\n\\end{equation}",
+      "statement_sha256": "8765281782d039c40e27697ec3969805c880c46e16ebc4e2e6c94bb4dd27d97d",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.corner_ramified_character"
+      ],
+      "source": "FourCorner/CornerReciprocityActual.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:profile-master",
+      "kind": "theorem",
+      "section": "sections/04_reciprocity_profiles.tex",
+      "title": "Pair reciprocity",
+      "statement_tex": "\\label{thm:profile-master}\nFor every pair $i\\ne j$, let $e\\in\\{0,1\\}$ satisfy\n$e\\equiv e_i+e_j\\pmod2$.  Then\n\\begin{equation}\\label{eq:profile-master}\n \\mathcal G(V_{ij})^{1+e}\n   =(-1)^{e_ie_j}\\sigma(m_im_j)^{d_{ij}-1}.\n\\end{equation}",
+      "statement_sha256": "3eff52c38a9d6e0e5564eee5da0651143b132afb268bc5ad2ccdf7644c339de7",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.actual_pair_reciprocity_literal_G",
+        "FourCorner.paperGInt_eq_oddPartChar_natAbs"
+      ],
+      "source": "FourCorner/CornerCharacterEncoding.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:profile-main",
+      "kind": "theorem",
+      "section": "sections/04_reciprocity_profiles.tex",
+      "title": "Opposite-colour congruences",
+      "statement_tex": "\\label{thm:profile-main}\nFor every strictly interior point with four positive rational distances,\nthe canonical corner colours in \\eqref{eq:profile-colours} satisfy\n\\begin{equation}\\label{eq:profile-main}\n \\boxed{\\quad m_0m_3\\equiv1\\text{ or }15\\pmod{16},\\qquad\n               m_1m_2\\equiv1\\text{ or }15\\pmod{16}.\\quad}\n\\end{equation}\nMore precisely, an opposite product with an even number of prime factors\ncongruent to $7$ modulo $8$ is $1$ modulo $16$; one with an odd number\nis $15$ modulo $16$.",
+      "statement_sha256": "636a914981ac4b7129a5be08837830254edf997d52ac2047d963357648efc365",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.opposite_colour_congruences",
+        "FourCorner.IntegralModel.opposite_colour_residue_refinement"
+      ],
+      "source": "FourCorner/CornerReciprocityOpposite.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "cor:profile-split",
+      "kind": "corollary",
+      "section": "sections/04_reciprocity_profiles.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:profile-split}\nIf every prime dividing $m_0m_1m_2m_3$ is $1$ modulo $8$, then\n\\[\n m_0m_3\\equiv m_1m_2\\equiv1\\pmod{16}.\n\\]",
+      "statement_sha256": "5cda75ff48b32be5c6653bc7effcab81dd4355e624647bbda19e68595ffb290c",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.opposite_colour_all_split"
+      ],
+      "source": "FourCorner/CornerReciprocityOpposite.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:hp-uniform",
+      "kind": "theorem",
+      "section": "sections/05_hasse_families.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:hp-uniform}\nSuppose \\eqref{eq:hp-domain} holds.  If $\\operatorname{Loc}(p)$ holds\nand $\\mathcal T(p)=1$, then $C_p(\\Q)=\\varnothing$.",
+      "statement_sha256": "20fd8d3c25dab8aba827b26ea2b1d7690ef9bcf1c0b325a6e048032b762904d2",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "lem:hp-norms",
+      "kind": "lemma",
+      "section": "sections/05_hasse_families.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:hp-norms}\nUnder $\\operatorname{Loc}(p)$, the numbers $p,a,b$ are norms from\n$\\Q(\\sqrt2)$.  At an odd prime where $2$ is nonsquare their valuations\nare even.  Under \\eqref{eq:hp-domain}, the possible dyadic branches are\n\\[\n v_2(p)\\ge4\\text{ even},\\quad v_2(p)\\le-4\\text{ even},\\quad\n p\\equiv1\\pmod {16},\\quad p\\equiv15\\pmod {16}.\n\\]\nIn the last two branches, respectively, $[a]_2=[2]_2$ and\n$[b]_2=[2]_2$, and the positive valuation is odd and at least five.",
+      "statement_sha256": "50bae60ba8367014c863eb72946ee2f6fe05d293f667ad0c20ed15be89bb9bac",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:hp-infinite",
+      "kind": "theorem",
+      "section": "sections/05_hasse_families.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:hp-infinite}\nFor every integer $j\\ge0$, set\n\\[\n N=3+154j,\\quad M=N+2,\\quad D=N^2+2M^2,\\qquad\n r=\\frac{8MN}{D},\\quad s=\\frac{2(N^2-2M^2)}D,\\quad p=3-s^2.\n\\]\nThe curves $C_p$ form an infinite family of smooth genus-five curves\nwith points at every completion of $\\Q$, including points in the\nstrict real distance region, and with no rational point.",
+      "statement_sha256": "25c509424f69de9f41c2fb9610a5dabace08b5d88e26bbe4e58a071f0ca126aa",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "lem:cs-odd-row",
+      "kind": "lemma",
+      "section": "sections/06_common_source_descent.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:cs-odd-row}\nFor such a prime, $\\eta_q(W)=0$.  If a pair\n\\eqref{eq:cs-source-pair} has $v_2(f)$ even and $f\\in\\Q_q^{*2}$, then\n\\[\n \\phi_q(U)=\\phi_q(V)\\in\\{0,2\\}.\n\\]",
+      "statement_sha256": "2c7c83874422a3e7e0dafb95dc3b1ccd8d3d88f418ed1912354f4fb1f4dba9df",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:cs-matrix",
+      "kind": "theorem",
+      "section": "sections/06_common_source_descent.tex",
+      "title": "Common-source character criterion",
+      "statement_tex": "\\label{thm:cs-matrix}\nAssume \\eqref{eq:cs-splitting}, $n\\equiv1$ or $7\\pmod8$, and the\nreduction hypotheses above.  Let $W$ satisfy\n\\eqref{eq:cs-source-row} and $\\eta_0(W)=0$, and put $\\kappa=\\bar W$.\nIf $\\beta(\\kappa)\\ne0$, no pair \\eqref{eq:cs-source-pair} has both\n$v_2(f)$ even and $f\\in\\Q_{q_j}^{*2}$ for every $j$.\n\nEquivalently, an exclusion certificate is a vector\n$\\mathbf c=(c_0,\\ldots,c_s)\\in\\F_2^{s+1}$ such that\n\\[\n \\sum_{j=0}^s c_j\\eta_j=0\\text{ on }H,\n \\qquad\n \\frac12\\sum_{j=0}^s c_j\\phi_j(W)=1\\quad\\text{in }\\F_2.\n\\]",
+      "statement_sha256": "df40fec321b23607c7b22dbd5a5ee0dcc80f68f06cbde829846fb6d74e09f12d",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:cs-15569",
+      "kind": "theorem",
+      "section": "sections/06_common_source_descent.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:cs-15569}\nLet $n=15569$.  There are no finite rational points $Q=(a,b)$,\n$R=(c,e)$ satisfying \\eqref{eq:cs-source-pair} for which $f(Q,R)$ is a\nsquare in each of $\\Q_2,\\Q_3,\\Q_{113}$.",
+      "statement_sha256": "c76c6d9636f3ff67c9b9d77a3468beba1a16d88fc7c9d1ec567ea8ca426baebe",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "cor:cs-15569-layer",
+      "kind": "corollary",
+      "section": "sections/06_common_source_descent.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:cs-15569-layer}\nFor a strict interior rational-distance configuration, put\n$t=r_{00}r_{11}+r_{10}r_{01}$.  Then $\\sf(t^2-1)\\ne15569$.",
+      "statement_sha256": "3a242e93ce72ba5cd6457beeab3c0eb2b3ba0167c97c0ae1ca9ff01696b56293",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:theta-quotient",
+      "kind": "proposition",
+      "section": "sections/07_theta_geometry.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:theta-quotient}\nThe curve $C$ is smooth of genus five and has eight rational points at\n$T=0$.  The fixed-point-free involution\n\\[\n \\sigma[P:Q:R:z:T]=[-P:-Q:-R:z:T]\n\\]\nhas quotient the smooth plane quartic $D\\subset\\PP^2_{[X:Y:Z]}$ defined by\n\\begin{equation}\n F=9801(X^4+Y^4)+19598X^2Y^2\n       -39592(X^2+Y^2)Z^2+39984Z^4=0.\n \\label{eq:theta-quartic}\n\\end{equation}\nThe quotient map is\n\\[\n \\pi:C\\longrightarrow D,\\qquad [P:Q:R:z:T]\\longmapsto[Q:R:P].\n\\]\nIn particular, $\\pi$ is a connected \\emph{\\'etale} double cover.  The points\n\\[\n O_C=[1:1:1:1:0],\\qquad O_D=[1:1:1]\n\\]\nare rational and satisfy $\\pi(O_C)=O_D$.",
+      "statement_sha256": "9cf4239db653c013d0f073df37861775d13722b0ac39e4cb0351df6d05c573dc",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:theta-strict-lift",
+      "kind": "proposition",
+      "section": "sections/07_theta_geometry.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:theta-strict-lift}\nA rational point $[\\xi:\\eta:1]\\in D(\\Q)$ is the image of a point of\n$\\mathcal U\\cap C(\\Q)$ if and only if\n\\begin{equation}\n \\xi>0,\\qquad\\eta>0,\\qquad\n v=\\sqrt{\\frac{\\xi^2+\\eta^2-2}{2}}\\in\\Q_{>0},\\qquad\n \\left|\\frac{\\xi^2-\\eta^2}{28v}\\right|<\\frac7{11}.\n \\label{eq:theta-strict-lift}\n\\end{equation}\nFor this choice of $v$, the unique point on the positive branch is\n\\begin{equation}\n P=\\frac1v,\\qquad Q=\\frac\\xi v,\\qquad R=\\frac\\eta v,\n \\qquad z=\\frac wv,\n \\qquad w=\\frac{\\xi^2-\\eta^2}{28v}.\n \\label{eq:theta-inverse}\n\\end{equation}",
+      "statement_sha256": "9601453cf7b52345e1f38ad6674b852805fd0f323c7ce4ec9bc96f0d3350fc1b",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.theta_strict_lift_iff_unique",
+        "FourCorner.theta_lift_inverse_unique",
+        "FourCorner.theta_criterion_original",
+        "FourCorner.theta_positive_source_iff_strict_point",
+        "FourCorner.strict_point_difference_to_theta_positive_source"
+      ],
+      "source": "FourCorner/ThetaStrictLift.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:theta-lines",
+      "kind": "theorem",
+      "section": "sections/07_theta_geometry.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:theta-lines}\nThe twenty-eight bitangents of $D$ are precisely the following lines:\n\\begin{enumerate}\n\\item $Z=uX$ and $Z=uY$, where $u=\\epsilon r/2$ or $u=5\\epsilon r$;\n\\item $Z=(\\epsilon hX+\\eta hY)/14$, where $h=9$ or $h=11$;\n\\item $Z=s(\\epsilon hX+\\eta jY)/102$, where\n      $(h,j)=(9,11)$ or $(11,9)$;\n\\item $X=tY$, where $t=\\epsilon r(s+7\\eta)/2$.\n\\end{enumerate}\nEach has two distinct contact points.  The associated odd-theta\n\\emph{\\'etale} algebra is\n\\begin{equation}\n L_{\\mathrm{odd}}\n =\\Q^8\\times\\Q(\\sqrt2)^4\\times\\Q(\\sqrt{51})^4\n          \\times\\Q(\\sqrt2,\\sqrt{51}).\n \\label{eq:theta-algebra}\n\\end{equation}\nThe full Galois action is induced by the independent sign changes of $r$\nand $s$ in the displayed lines.",
+      "statement_sha256": "67f58b2a9074cba08f19041f0816b7dc706e949cf5f1c452a93c249496e5cb0c",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:theta-cover-class",
+      "kind": "proposition",
+      "section": "sections/07_theta_geometry.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:theta-cover-class}\nLet\n\\[\n C_0=X^2+Y^2-2Z^2,\\qquad\n N=97X^2+99Y^2-196Z^2,\\qquad\n h=\\frac{C_0}{2Z^2},\\qquad\n \\ell_\\pm=Z\\pm\\frac X{\\sqrt2}.\n\\]\nThe cover $\\pi:C\\to D$ is the normalization of $v^2=h$.  If\n$E_0=\\sum_{\\epsilon,\\eta}E_{\\epsilon,\\eta}$ is the sum of the four points\nin \\eqref{eq:theta-four-boundary}, its geometric covering class is\n\\[\n \\delta=[E_0-H]\\in\\Jac(D)(\\Q)[2]\\setminus\\{0\\}.\n\\]\nOver $\\Q(\\sqrt2)$ it is identified with\n$[B_{\\ell_+}-B_{\\ell_-}]$ by the exact function-field identity\n\\begin{equation}\n h=\\frac{\\ell_+}{\\ell_-}\n       \\left(\\frac{N}{28\\sqrt2\\,Z\\ell_+}\\right)^2.\n \\label{eq:theta-cover-identity}\n\\end{equation}",
+      "statement_sha256": "70c5b021954bcde05ad7c237022d862db2bdfafd4a621c001189b7468990a20d",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:theta-local-survival",
+      "kind": "theorem",
+      "section": "sections/07_theta_geometry.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:theta-local-survival}\nLet $X/\\Q$ be a smooth projective geometrically integral curve, let\n$B\\subset X$ be a finite closed subset, and suppose $O\\in B(\\Q)$.\nLet $A/\\Q$ be an abelian variety and $a:X\\to A$ a morphism with $a(O)=0$.\nLet $\\mathcal V\\subset (X\\setminus B)(\\R)$ contain a point joined to $O$\nby a continuous path in $X(\\R)$.\nFor every integer $m\\ge1$, form\n\\[\n X_m=X\\times_{a,A,[m]}A.\n\\]\nThe geometrically connected component $X_m^0$ containing $(O,0)$ is\ndefined over $\\Q$.  It has a point above $X\\setminus B$ over every\n$\\Q_p$, and a real point above $\\mathcal V$.",
+      "statement_sha256": "33b525311bcdbc9176fb48aca5d0a8b355112b4791f0128b0925562985e3a090",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "cor:theta-surviving-covers",
+      "kind": "corollary",
+      "section": "sections/07_theta_geometry.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:theta-surviving-covers}\nPut $J_C=\\Jac(C)$, $J_D=\\Jac(D)$, and\n\\[\n i_C(P)=[P-O_C],\\qquad i_D(S)=[S-O_D].\n\\]\nFor every $m\\ge1$, the distinguished components of both covers\n\\begin{equation}\n C\\times_{i_C,J_C,[m]}J_C,\n \\qquad\n C\\times_{i_D\\circ\\pi,J_D,[m]}J_D\n \\label{eq:theta-surviving-covers}\n\\end{equation}\nhave nonboundary points at every finite place and a real point whose\nimage on $C$ belongs to $\\mathcal U$ and gives $x\\ne y$.",
+      "statement_sha256": "cbf735c305f8370e5d67f56986489198f06223d237b0b2d116da0d83df1cb56f",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:theta-finite-primes",
+      "kind": "proposition",
+      "section": "sections/07_theta_geometry.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:theta-finite-primes}\nFor a fixed $z\\in\\Q_2$, the three equations\n\\eqref{eq:theta-C} with $T=1$ have simultaneous roots in $\\Q_2$ if and\nonly if $v_2(z)<0$.  The analogous assertion over $\\Q_3$ holds with\n$v_3(z)<0$.  For every finite set $S$ of primes, there are infinitely\nmany rational values of $z$ for which all three radicands are squares\nin every $\\Q_p$, $p\\in S$, and whose positive real roots belong to\n$\\mathcal U$.",
+      "statement_sha256": "f22249103a7274522571b7a01050289821530cf3d7e9dfe2d671ff0ad3495a75",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.theta_finite_primes"
+      ],
+      "source": "FourCorner/ThetaLocalFinite.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:crit-elliptic",
+      "kind": "proposition",
+      "section": "sections/08_critical_content.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:crit-elliptic}\nThe curve \\(\\mathcal C_\\iota\\) is smooth, geometrically connected,\nand \\(k\\)-isomorphic to the smooth projective curve\n\\(E:y^2=x^3-x\\). Its eight points with \\(b=0\\) are\n\\([1:\\epsilon_1:\\epsilon_2:\\epsilon_3]\\), with \\(\\epsilon_j=\\pm1\\).",
+      "statement_sha256": "0ff980dea6aba90809bc2b248e7c8e6ebe408a56bd2f973265782eb3d3a980a6",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:crit-basic",
+      "kind": "theorem",
+      "section": "sections/08_critical_content.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:crit-basic}\nFor a prime \\(p\\equiv1\\pmod4\\), the following are equivalent:\n\\begin{enumerate}\n\\item \\(p\\notin\\{5,13\\}\\).\n\\item A pattern \\eqref{crit:pattern} exists with \\(b\\ne0\\) and all\n      four entries nonzero squares in \\(\\F_p\\).\n\\item For every \\(s\\ge1\\), there are infinitely many primitive\n      triples \\((X,Y,L)\\), with \\(0<X,Y<L\\) and \\(v_p(L)=2s\\),\n      such that all four radicands in \\eqref{crit:integral} have\n      roots in \\(\\Q_p\\) of valuation exactly \\(s\\).\n\\end{enumerate}\nAt 5 and 13 no critical pattern exists even with zero entries.\nIn particular, for a rational four-distance point,\n\\[\n p\\in\\{5,13\\},\\quad p\\mid G\\quad\\Longrightarrow\\quad p\\mid H.\n\\]",
+      "statement_sha256": "2462e1decf41222bc984a43a82a05c0af8cb82ee11615c9b83ebb8aba2c0626a",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "cor:crit-crt",
+      "kind": "corollary",
+      "section": "sections/08_critical_content.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:crit-crt}\nLet \\(\\mathcal P\\) be a finite set of primes congruent to one modulo\nfour, excluding 5 and 13, and prescribe \\(s_p\\ge1\\).\nThere are infinitely many primitive triples \\((X,Y,L)\\), with\n\\(0<X,Y<L\\), for which \\(v_p(L)=2s_p\\) and all four original\nradicands have roots of valuation \\(s_p\\) in \\(\\Q_p\\), simultaneously\nfor every \\(p\\in\\mathcal P\\).",
+      "statement_sha256": "7414b47a192277b8621712ed0028db510465b2d85a50bfea20ea73eab1a62109",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:crit-17",
+      "kind": "theorem",
+      "section": "sections/08_critical_content.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:crit-17}\nIf 17 is a critical content prime of a rational four-distance point,\nthen none of \\(t,2t,t+1,2(t+1)\\) is a square in\n\\(\\Q_{17}\\). Therefore, if any one is a rational square,\n\\(17\\mid G\\) implies \\(17\\mid H\\).\nAt a critical 17, with \\(s=v_{17}(G)\\), one also has\n\\[\n a_0^2+a_3^2\\equiv a_1^2+a_2^2\\equiv0\\pmod{17},\\qquad\n 17^{2s+1}\\mid(2X-L)^2+(2Y-L)^2.\n\\]",
+      "statement_sha256": "01f003770c48e44a0d54e2c8671a84dbbf5796c348e5c75b22936b378817c6dc",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.critical_seventeen",
+        "FourCorner.IntegralModel.rational_product_square_seventeen_noncritical"
+      ],
+      "source": "FourCorner/CriticalSeventeen.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "prop:crit-double",
+      "kind": "proposition",
+      "section": "sections/08_critical_content.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:crit-double}\nThe map \\(\\widetilde{\\mathcal C}_\\iota\\to\\mathcal C_\\iota\\) is a\ngeometrically connected unramified double cover of genus-one curves\nwith rational points. For \\(p\\equiv1\\pmod4\\), its number of\nrational points above \\(b=0\\) is\n\\[\n B_p=\\begin{cases}16,&p\\equiv1\\pmod8,\\\\8,&p\\equiv5\\pmod8.\n \\end{cases}\n\\]\nMoreover,\n\\begin{equation}\\label{crit:double-count}\n \\#\\{V\\in\\mathcal C_\\iota(\\F_p):b(V)\\ne0,\\ \\chi_p(2f(V))=1\\}\n =\\frac{\\#E(\\F_p)-B_p}{2}.\n\\end{equation}\nThe character is unchanged by rescaling projective coordinates.",
+      "statement_sha256": "e4dddd8ca46d1ce324b8fe14efb454f17a23c70b33f5074911c5b2d327cc14ca",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:crit-refined",
+      "kind": "theorem",
+      "section": "sections/08_critical_content.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:crit-refined}\nFor a prime \\(p\\equiv1\\pmod4\\), the following are equivalent:\n\\begin{enumerate}\n\\item \\(p\\notin\\{5,13,17\\}\\).\n\\item There is a signed critical pattern with every \\(V_j\\ne0\\)\n      and \\(2(V_0V_3+V_1V_2)\\in\\F_p^{\\times2}\\).\n\\item For every \\(s\\ge1\\), there are infinitely many primitive\n      strictly interior rational coordinate pairs \\((X/L,Y/L)\\),\n      with \\(v_p(L)=2s\\), and roots \\(A_j\\in\\Q_p\\) of\n      \\eqref{crit:integral}, each of valuation \\(s\\), such that\n      \\(t=(A_0A_3+A_1A_2)/L^2\\) satisfies\n      \\(2t,2(t+1)\\in\\Q_p^{\\times2}\\).\n\\end{enumerate}",
+      "statement_sha256": "572baf4401df94dfdd4b3584c725b6a69cc84fdb160ede051b4b243d30542332",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "cor:crit-excess",
+      "kind": "corollary",
+      "section": "sections/08_critical_content.tex",
+      "title": null,
+      "statement_tex": "\\label{cor:crit-excess}\nSuppose at least one of \\(t,2t,t+1,2(t+1)\\) is a\nrational square. If \\(p\\mid G\\) and \\(v_p(A_j)>v_p(G)\\) for\nsome corner, then\n\\[\n v_p(L)=2v_p(G),\\qquad p\\equiv1\\pmod{16},\\qquad\n 2^{(p-1)/4}\\equiv1\\pmod p.\n\\]",
+      "statement_sha256": "9b1742bd6b8889d57596ebf14c2259fb7e6b90a32e64d3db790c352b63c8e28d",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.IntegralModel.critical_excess"
+      ],
+      "source": "FourCorner/CriticalExcess.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:nine-isogeny",
+      "kind": "theorem",
+      "section": "sections/09_jacobians.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:nine-isogeny}\nFor every $t\\in\\Q\\setminus\\{0,1,-1\\}$ there is an isogeny over $\\Q$\n\\begin{equation}\\label{eq:nine-isogeny}\n \\Jac(D_t)\\sim_{\\Q}\n E_d^2\\times G_t\\times F_+^2\\times F_-^2\\times H_+\\times H_-.\n\\end{equation}\nThe rank of the group of rational N\\'eron--Severi classes of $\\Jac(D_t)$\nis at least twelve.",
+      "statement_sha256": "2ddcaff48238f2ca062f1c073b179ef83df6946fecdcebcf9c8b886cd3d5145f",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "lem:nine-small-curves",
+      "kind": "lemma",
+      "section": "sections/09_jacobians.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:nine-small-curves}\nThe following are complete rational point sets:\n\\begin{align*}\n E_1(\\Q)&=\\{O,(0,0),(1,0),(-1,0)\\},\\\\\n E_2(\\Q)&=\\{O,(0,0),(2,0),(-2,0)\\},\\\\\n A(\\Q)&=\\{O,(0,0),(6,0),(8,0)\\},\n   &&A:\\ y^2=x(x-6)(x-8),\\\\\n E_0(\\Q)&=\\{O,(0,0),(-1,0),(-4,0),(2,\\pm6),(-2,\\pm2)\\},\n   &&E_0:\\ y^2=x(x+1)(x+4).\n\\end{align*}\nHere $E_1$ and $E_2$ are the curves $y^2=x^3-x$ and $y^2=x^3-4x$.",
+      "statement_sha256": "299ee444203367ddbb48842608ee14f88c3f03fc305432d511c6d427da9e0332",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.nine_small_curves_complete",
+        "FourCorner.nine_small_curves_affine"
+      ],
+      "source": "projects/small_curves/source/NineSmallCurvesComplete.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:nine-flex",
+      "kind": "lemma",
+      "section": "sections/09_jacobians.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:nine-flex}\nIf $y^2=x(x-A)(x-B)$ is nonsingular and has a rational point of order\nthree, then there is $k\\in\\Q\\setminus\\{0,1,-1,-\\tfrac12,-2\\}$ such that\n\\begin{equation}\\label{eq:nine-flex}\n \\frac BA=\\frac{1+2k}{(1-k)(1+k)^3}.\n\\end{equation}\nThere is also a nonzero rational $r$ with $A=r^2(1-k^2)$.",
+      "statement_sha256": "ef46405d6d85fd47f5a2682151c8442a61ab76f728d2995a1981450cf3a44cbb",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.nine_flex_of_order_three"
+      ],
+      "source": "FourCorner/NineFlex.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "lem:nine-three-torsion",
+      "kind": "lemma",
+      "section": "sections/09_jacobians.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:nine-three-torsion}\nFor rational $t\\notin\\{0,1,-1\\}$, the curve $G_t$ has no rational\nthree-torsion.  For $t>1$ the following additional assertions hold:\n\\begin{enumerate}\n\\item if $T$ is a rational square, neither $H_+$ nor $F_-$ has\nrational three-torsion;\n\\item if $T$ is twice a rational square, $F_+$ has no rational\nthree-torsion.\n\\end{enumerate}",
+      "statement_sha256": "b2490fd57673a70b6dc968f662721b23b47431ac95639ec3d7e3d17d18cad3a3",
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.nine_three_torsion",
+        "FourCorner.nine_three_models_nonsingular",
+        "NineThreeScopeAudit.exact_paper_statement",
+        "NineThreeScopeAudit.literal_equations"
+      ],
+      "source": "projects/nine_three/source/NineThreeTorsion.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "label": "thm:nine-positive-ranks",
+      "kind": "theorem",
+      "section": "sections/09_jacobians.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:nine-positive-ranks}\nLet a strict rational-distance point have product parameter\n$t=r_0r_3+r_1r_2$, and let the curves be as in\n\\eqref{eq:nine-elliptic-models}.  Each of\n$E_d,G_t,F_+,F_-,H_+,H_-$ has positive rational rank.  In particular,\n\\begin{equation}\\label{eq:nine-rank-nine}\n \\rank\\Jac(D_t)(\\Q)\\ge9.\n\\end{equation}",
+      "statement_sha256": "3315df85b5f85abdbc12cf182c9074a182223e7f15a50443d32c9d9883dcc062",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:nine-rank-strata",
+      "kind": "theorem",
+      "section": "sections/09_jacobians.tex",
+      "title": "Rank strata",
+      "statement_tex": "\\label{thm:nine-rank-strata}\nFor the product parameter of any strict rational-distance point, the\nfollowing lower bounds hold:\n\\begin{equation}\\label{eq:nine-rank-table}\n\\begin{array}{l|ccc|c}\n \\text{condition}&\\rank E_d&\\rank F_+&\\rank F_-&\\rank\\Jac(D_t)\\\\\\hline\n T\\notin\\Q^{\\times2}\\cup2\\Q^{\\times2}&2&2&2&15\\\\\n T\\in\\Q^{\\times2}&1&2&1&11\\\\\n T\\in2\\Q^{\\times2},\\ 2t\\notin\\Q^{\\times2}&1&1&2&11\\\\\n T\\in2\\Q^{\\times2},\\ 2t\\in\\Q^{\\times2}&1&1&1&9.\n\\end{array}\n\\end{equation}\nEvery entry in the table is a lower bound.",
+      "statement_sha256": "c5f166e598ac729e165dca4ced59a7bc3dff2a30b1599b496a3d4df5a9b4eef4",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:surface-invariants",
+      "kind": "proposition",
+      "section": "sections/10_surfaces.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:surface-invariants}\nThe surface $S$ is geometrically integral and has precisely forty\nordinary double points.  Its resolution $X$ is a simply connected\nminimal surface of general type, with\n\\[\n K_X^2=8,\\qquad p_g(X)=5,\\qquad q(X)=0,\\qquad\n c_2(X)=64,\\qquad b_2(X)=62.\n\\]\nThe geometric Picard group of $X$ is a finitely generated free abelian\ngroup.",
+      "statement_sha256": "588108d255dd02556a73be51e778e154625baf442725388219f702a21bf99a52",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:surface-product",
+      "kind": "proposition",
+      "section": "sections/10_surfaces.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:surface-product}\nThe curve $C_0$ has genus five.  The diagonal sign action of\n$G=(\\Z/2\\Z)^4$ gives a birational identification\n\\[\n X_K\\sim (C_0\\times\\overline C_0)/G.\n\\]\nIts invariant functions include the four labelled products\n$r_j=u_jv_j$, where $v_j^2=w-\\overline\\alpha_j$.\nThe Jacobian of $C_0$ is geometrically isogenous to a product of five\nelliptic curves: four have $j=128$ and one has $j=1728$.",
+      "statement_sha256": "7c0952365c0d42d47b2eb759bce6cad8f9459e1e961b46e6971925a3e3e5b336",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "lem:surface-real-boundary",
+      "kind": "lemma",
+      "section": "sections/10_surfaces.tex",
+      "title": null,
+      "statement_tex": "\\label{lem:surface-real-boundary}\nThere is a point $P_*\\in X(\\Q)$ in the same real connected\ncomponent as every point of $\\mathcal C$.",
+      "statement_sha256": "2cb2645c65e57d6d94abb170bdb1f22bdfadf993e9c55a46c2f6dfae32fcd5af",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "prop:surface-brauer-finite",
+      "kind": "proposition",
+      "section": "sections/10_surfaces.tex",
+      "title": null,
+      "statement_tex": "\\label{prop:surface-brauer-finite}\nThe group $\\operatorname{Br}(X)/\\operatorname{Br}_0(X)$ is finite.",
+      "statement_sha256": "b4040505daff7aceeca823c93afbb84579eb126a5a42328aed27d1eef4735a91",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    },
+    {
+      "label": "thm:surface-brauer-projection",
+      "kind": "theorem",
+      "section": "sections/10_surfaces.tex",
+      "title": null,
+      "statement_tex": "\\label{thm:surface-brauer-projection}\nEvery $w\\in\\mathcal C$ is the real component of an adelic point in\n$U(\\mathbf A_\\Q)^{\\operatorname{Br}(X)}$.  Moreover, for every finite\nsubgroup $B\\subset\\operatorname{Br}(U)$ and every $w\\in\\mathcal C$,\nthere is a point $(P_v)\\in U(\\mathbf A_\\Q)^B$ with $P_\\infty=w$.",
+      "statement_sha256": "ee393dabdec8a8e59e217347bcd8872b9130d5b9c52cdf54a9f1e0c4a53b9e8d",
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": []
+    }
+  ]
+}
