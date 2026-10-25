@@ -77,5 +77,15 @@
     "audit": [
       "Source/CommonSourceMatrixPackage.lean"
     ]
+  },
+  {
+    "directory": "projects/common_finite_places",
+    "target": "CommonFinitePlacesProject",
+    "audit": [
+      {
+        "source": "Source/FiniteLocalPackage.lean",
+        "setup": ".lake/build/ir/FiniteLocalPackage.setup.json"
+      }
+    ]
   }
 ]

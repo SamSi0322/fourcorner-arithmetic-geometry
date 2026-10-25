@@ -1,0 +1,101 @@
+import CommonFinitePlacesFull
+import ResidueChartClassification
+
+-- Full paper statement, actual local points, original coordinates, finite-base genus,
+-- and same-place exhaustive chart certificates, including zero and infinity.
+#check @FourCorner.LocalPointCompatibility.common_finite_places
+#check @FourCorner.LocalPointCompatibility.everywhere_eq_finite
+#check @FourCorner.FiniteBaseGenus.seventeen_of_finite
+#check @FourCorner.ResidueChartClassification.seven_chart_classification
+#check @FourCorner.InfinityRootOrders.normalized_original
+#check @FourCorner.OriginalChartParameters.finite_parameters
+
+#print axioms FourCorner.LocalPointCompatibility.common_finite_places
+#print axioms FourCorner.LocalPointCompatibility.everywhere_eq_finite
+#print axioms FourCorner.LocalPointCompatibility.good_prime_point
+#print axioms FourCorner.LocalPointCompatibility.good_prime_source
+#print axioms FourCorner.LocalPointCompatibility.good_prime_rational_place
+#print axioms FourCorner.LocalPointCompatibility.mem_exceptionalPrimes
+#print axioms FourCorner.LocalPointCompatibility.exceptional_primes_finite
+#print axioms FourCorner.LocalPointCompatibility.outside_exceptionalPrimes
+#print axioms FourCorner.LocalPointCompatibility.good_parameter_residues
+#print axioms FourCorner.Genus17Support.mem_twists
+#print axioms FourCorner.Genus17Support.twist_ne_zero
+#print axioms FourCorner.ResidueRadicalDegree.degree_thirty_two
+#print axioms FourCorner.FiniteFiveIndependence.nonempty_product_nonsquare
+#print axioms FourCorner.ResidueRadicalField.isCurveOver
+#print axioms FourCorner.ResidueFullConstants.constantsAreBase
+#print axioms FourCorner.ResidueConstantFieldComparison.fractionFieldEquiv
+#print axioms FourCorner.ResidueFrobeniusData.generation
+#print axioms FourCorner.ResidueFrobeniusData.frobenius_original
+#print axioms FourCorner.FiniteBaseGenus.seventeen_of_finite
+#print axioms FourCorner.OddResidueGenus.five_genus
+#print axioms AlgebraicCurve.finite_degree_one_places_and_hasseWeil_bound
+#print axioms AlgebraicCurve.genusFF_eq_of_constantFieldExtension_of_finite_of_isAlgClosed
+#print axioms FourCorner.ResidueDegreeOnePlace.exists_degree_one
+#print axioms FourCorner.ResidueDegreeOnePlace.exists_rational
+#print axioms FourCorner.ResiduePlaceEvaluation.evaluate_constant
+#print axioms FourCorner.ResiduePlaceEvaluation.pole_inverse
+#print axioms FourCorner.FiniteResidueChart.section_coe
+#print axioms FourCorner.FiniteResidueChart.residue_equations
+#print axioms FourCorner.FiniteBranchCharts.branch_chart
+#print axioms FourCorner.FiniteBranchCharts.ordinary_chart
+#print axioms FourCorner.InfinityResidueChart.infinity_chart
+#print axioms FourCorner.PadicTranscendental.dense_transcendental
+#print axioms FourCorner.PadicTranscendental.exists_in_ball
+#print axioms FourCorner.PadicUnitNeighbourhood.root_of_close
+#print axioms FourCorner.PadicUnitNeighbourhood.transcendental_simultaneous_roots
+#print axioms FourCorner.FiniteHenselRealization.ordinary
+#print axioms FourCorner.FiniteHenselRealization.branch
+#print axioms FourCorner.FiniteBranchParameters.pivot_equation
+#print axioms FourCorner.FiniteBranchRealization.realize
+#print axioms FourCorner.InfinityHenselRealization.recovered_squares
+#print axioms FourCorner.InfinityHenselRealization.realize
+#print axioms FourCorner.FinitePlaceRealization.realize
+#print axioms FourCorner.InfinityPlaceRealization.realize
+#print axioms FourCorner.FiveRootUniversal.equiv
+#print axioms FourCorner.FiveRootUniversal.lift_coord
+#print axioms FourCorner.FiveRadicalEmbedding.literalEquiv
+#print axioms FourCorner.FiveRadicalEmbedding.embedding_root
+#print axioms FourCorner.FiveRadicalEmbedding.embedding_ell
+#print axioms FourCorner.LinearizedFieldPoint.recovered_squares
+#print axioms FourCorner.LinearizedFieldPoint.point
+#print axioms FourCorner.LinearizedFieldPoint.point_overQ
+#print axioms FourCorner.LinearizedFieldPoint.fieldEmbedding_coordinate
+#print axioms FourCorner.LinearizedFieldPoint.fieldEmbedding_ell
+#print axioms FourCorner.GenericFieldPoint.pointOfEmbedding_regular_value
+#print axioms FourCorner.FiniteHenselRealization.actual_point
+#print axioms FourCorner.LocalPointCompatibility.global_point_gives_everywhere_twist
+#print axioms FourCorner.LocalPointCompatibility.pointOver_cover
+#print axioms FourCorner.LocalPointCompatibility.everywhere_empty_no_rational_point
+#print axioms FourCorner.LocalPointCompatibility.finite_tests_empty_no_rational_point
+#print axioms FourCorner.ResidueValuationFacts.evaluate_zero_iff_ord_pos
+#print axioms FourCorner.ResidueValuationFacts.evaluate_nonzero_iff_unit
+#print axioms FourCorner.ResidueValuationFacts.unit_of_ord_zero
+#print axioms FourCorner.LinearizedFactors.roots_sq_factor
+#print axioms FourCorner.LinearizedFactors.roots_ne_zero
+#print axioms FourCorner.ResiduePlaceImage.finite_image
+#print axioms FourCorner.ResiduePlaceImage.infinity_image
+#print axioms FourCorner.FiniteRootData.residue_zero_iff
+#print axioms FourCorner.FiniteRootData.unit_iff
+#print axioms FourCorner.FiniteRootData.root_order
+#print axioms FourCorner.FiniteBranchCharts.branch_injective
+#print axioms FourCorner.InfinityRootOrders.root_order
+#print axioms FourCorner.InfinityRootOrders.parameter_order
+#print axioms FourCorner.InfinityRootOrders.normalized_order
+#print axioms FourCorner.InfinityRootOrders.normalized_original
+#print axioms FourCorner.InfinityChartEquations.normalized_sq
+#print axioms FourCorner.InfinityResidueChart.parameter_residue
+#print axioms FourCorner.InfinityResidueChart.root_unit
+#print axioms FourCorner.InfinityResidueChart.residue_equations
+#print axioms FourCorner.OriginalFiniteOrders.original_order
+#print axioms FourCorner.OriginalFiniteOrders.zero_poles
+#print axioms FourCorner.OriginalFiniteChart.original_sq
+#print axioms FourCorner.OriginalFiniteChart.residue_equations
+#print axioms FourCorner.OriginalFiniteUnits.residue_zero_iff
+#print axioms FourCorner.OriginalFiniteUnits.unit_iff
+#print axioms FourCorner.OriginalChartParameters.finite_parameters
+#print axioms FourCorner.ZeroResidueChart.zero_chart
+#print axioms FourCorner.ResidueChartClassification.finite_data
+#print axioms FourCorner.ResidueChartClassification.infinity_data
+#print axioms FourCorner.ResidueChartClassification.seven_chart_classification

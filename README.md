@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 43 of the 69 numbered statements. Further
+The current Lean development fully verifies 44 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -37,3 +37,7 @@ permitted whole-subgroup reduction probes, retaining every source compensator.
 
 The complete common-source character criterion is also formalized, including
 the original logarithmic character and the equivalent finite certificate.
+
+The finite-local companion proves that the stated finite tests give exactly the
+everywhere-local twist set, including the real place, and proves the resulting
+rational-point exclusion implication.

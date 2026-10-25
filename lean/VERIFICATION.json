@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 43,
+  "verified_numbered_statements": 44,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -1482,6 +1482,441 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.common_finite_places": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.everywhere_eq_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.good_prime_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.good_prime_source": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.good_prime_rational_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.mem_exceptionalPrimes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.exceptional_primes_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.outside_exceptionalPrimes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.good_parameter_residues": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueRadicalDegree.degree_thirty_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteFiveIndependence.nonempty_product_nonsquare": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueRadicalField.isCurveOver": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueFullConstants.constantsAreBase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueConstantFieldComparison.fractionFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueFrobeniusData.generation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueFrobeniusData.frobenius_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteBaseGenus.seventeen_of_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OddResidueGenus.five_genus": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AlgebraicCurve.finite_degree_one_places_and_hasseWeil_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "AlgebraicCurve.genusFF_eq_of_constantFieldExtension_of_finite_of_isAlgClosed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueDegreeOnePlace.exists_degree_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueDegreeOnePlace.exists_rational": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResiduePlaceEvaluation.evaluate_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResiduePlaceEvaluation.pole_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteResidueChart.section_coe": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteResidueChart.residue_equations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteBranchCharts.branch_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteBranchCharts.ordinary_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityResidueChart.infinity_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PadicTranscendental.dense_transcendental": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PadicTranscendental.exists_in_ball": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PadicUnitNeighbourhood.root_of_close": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PadicUnitNeighbourhood.transcendental_simultaneous_roots": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteHenselRealization.ordinary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteHenselRealization.branch": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteBranchParameters.pivot_equation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteBranchRealization.realize": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityHenselRealization.recovered_squares": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityHenselRealization.realize": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FinitePlaceRealization.realize": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityPlaceRealization.realize": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiveRootUniversal.equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiveRootUniversal.lift_coord": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiveRadicalEmbedding.literalEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiveRadicalEmbedding.embedding_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiveRadicalEmbedding.embedding_ell": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LinearizedFieldPoint.recovered_squares": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LinearizedFieldPoint.point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LinearizedFieldPoint.point_overQ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LinearizedFieldPoint.fieldEmbedding_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LinearizedFieldPoint.fieldEmbedding_ell": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.GenericFieldPoint.pointOfEmbedding_regular_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteHenselRealization.actual_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.global_point_gives_everywhere_twist": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.pointOver_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.everywhere_empty_no_rational_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LocalPointCompatibility.finite_tests_empty_no_rational_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueValuationFacts.evaluate_zero_iff_ord_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueValuationFacts.evaluate_nonzero_iff_unit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueValuationFacts.unit_of_ord_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LinearizedFactors.roots_sq_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.LinearizedFactors.roots_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResiduePlaceImage.finite_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResiduePlaceImage.infinity_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteRootData.residue_zero_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteRootData.unit_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteRootData.root_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteBranchCharts.branch_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityRootOrders.root_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityRootOrders.parameter_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityRootOrders.normalized_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityRootOrders.normalized_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityChartEquations.normalized_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityResidueChart.parameter_residue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityResidueChart.root_unit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.InfinityResidueChart.residue_equations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalFiniteOrders.original_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalFiniteOrders.zero_poles": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalFiniteChart.original_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalFiniteChart.residue_equations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalFiniteUnits.residue_zero_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalFiniteUnits.unit_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalChartParameters.finite_parameters": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ZeroResidueChart.zero_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueChartClassification.finite_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueChartClassification.infinity_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ResidueChartClassification.seven_chart_classification": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -1491,13 +1926,13 @@
   ],
   "full_paper_formalization": false,
   "release": "development-after-1.0.0",
-  "verified_at_utc": "2026-10-25T20:27:37.204950+00:00",
+  "verified_at_utc": "2026-10-25T20:45:41.498303+00:00",
   "compiler": "leanprover/lean4:v4.33.1",
   "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "project_count": 11,
+  "project_count": 12,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/common_source_matrix"
+    "projects/common_finite_places"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -1509,9 +1944,10 @@
     "projects/common_exclusion",
     "projects/common_genus",
     "projects/common_genus17",
-    "projects/common_source"
+    "projects/common_source",
+    "projects/common_source_matrix"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The common-source matrix package was freshly built and all 25 owned modules were individually cold-checked.",
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The finite-local package was freshly built and all 210 owned modules were individually cold-checked with native Lake setup maps and empty options.",
   "published_snapshot": {
     "version": "1.0.0",
     "verified_numbered_statements": 34,

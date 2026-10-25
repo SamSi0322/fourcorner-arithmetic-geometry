@@ -15,8 +15,24 @@ env['MATHLIB_NO_CACHE_ON_UPDATE']='1';env.setdefault('LEAN_NUM_THREADS','2')
 records=[];audited={}
 for index,project in enumerate(projects):
  cwd=root/project['directory'];steps=[('build',[lake,'--keep-toolchain','--no-cache','build',project['target']])]
- steps.extend((f'audit_{j}',[lake,'--keep-toolchain','env','lean','-t0','-Ddebug.skipKernelTC=false',source]) for j,source in enumerate(project['audit']))
+ for j,audit in enumerate(project['audit']):
+  source=audit if isinstance(audit,str) else audit['source']
+  setup=None if isinstance(audit,str) else audit.get('setup')
+  # Lake generates exact module-provider maps when dependencies share namespaces.
+  args=[lake,'--keep-toolchain','env','lean']
+  if setup:
+   setup_path=Path(setup)
+   if setup_path.is_absolute() or '..' in setup_path.parts:
+    raise SystemExit('Audit setup must be a project-relative generated file: '+setup)
+   args.extend(['--setup',setup])
+  args.extend(['-t0','-Ddebug.skipKernelTC=false',source])
+  steps.append((f'audit_{j}',args))
  for name,args in steps:
+  if '--setup' in args:
+   setup_path=cwd/args[args.index('--setup')+1]
+   setup_data=json.loads(setup_path.read_text())
+   if setup_data.get('options') != {}:
+    raise SystemExit('Audit setup contains unexpected Lean options: '+str(setup_path))
   rel=f'{index:02d}_{name}.log';start=time.monotonic()
   with (logs/rel).open('w') as out:result=subprocess.run(args,cwd=cwd,env=env,stdout=out,stderr=subprocess.STDOUT)
   data=(logs/rel).read_bytes();text=data.decode(errors='replace')
