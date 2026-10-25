@@ -9,7 +9,26 @@ require fourcorner_elliptic_foundations from "vendor/EllipticFoundations"
 require mathlib from git "https://github.com/leanprover-community/mathlib4.git" @ "db584cd6d46c92f209a44c0f1c829460d327499d"
 lean_lib FourCorner where
   srcDir := "source"
-  globs := #[.submodules `FourCorner]
+  roots := #[]
+  globs := #[
+    .one `FourCorner.CommonRootSupportDecomposition,
+    .one `FourCorner.NineCubicValuation,
+    .one `FourCorner.NineFlexGroup,
+    .one `FourCorner.NineSmallACoordinates,
+    .one `FourCorner.NineSmallALocal,
+    .one `FourCorner.NineSmallAPoints,
+    .one `FourCorner.NineSmallASignedSupport,
+    .one `FourCorner.NineSmallE0,
+    .one `FourCorner.NineSmallE0Local,
+    .one `FourCorner.NineSmallE0Points,
+    .one `FourCorner.NineSmallE1,
+    .one `FourCorner.NineSmallE2,
+    .one `FourCorner.NineSmallFiniteFive,
+    .one `FourCorner.RatIntegralAux,
+    .one `FourCorner.RationalSquarefree,
+    .one `FourCorner.SquareArea,
+    .one `FourCorner.SquarefreePart
+  ]
 lean_lib OrderedEval where
   srcDir := "source"
 lean_lib SignedSquareClasses where

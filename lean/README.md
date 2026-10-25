@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 41 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 42 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -68,3 +68,8 @@ and genus seventeen after base change; unramifiedness is verified at every curve
 place, including infinity, with the residue extensions and their separability.
 The four original roots retain their signs, and the added equation is exactly
 `Z^2 = ell/kappa`.
+
+The common-source package proves both branches of the odd-prime row lemma on the
+actual rational elliptic group. Its characters use the reduction image of the
+entire subgroup, and its exclusions retain all compensation points and every
+valuation depth. The original ordered-source and reduction maps are checked.

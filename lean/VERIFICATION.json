@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 41,
+  "verified_numbered_statements": 42,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -1162,6 +1162,181 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.CommonSource.common_source_odd_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.exists_actual_pair_from_paper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.ActualOddProbe.character": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_generator_coordinate_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.neutralPhi": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.neutralPhi_eq_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_neutral_odd_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_cyclic_W_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_cyclic_odd_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_pair_odd_remainders_impossible": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_pair_even_mismatch_impossible": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.ActualPair.remainders_nonempty": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.ActualPair.Remainders.surviving_orders": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.ActualPair.complete_coset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.source_torsion_sum_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.source_torsion_sum_seven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.localKummer_H": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.localKummer_twoTorsion_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_source_coset_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_source_coset_seven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.source_remainder_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_source_surviving_orders": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.residue_half_zero_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.residue_half_zero_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_phi_even_of_first_slot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.H_first_slot_reduction_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_even_reduction_mismatch": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.odd_remainders_wrong_return_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.odd_remainders_wrong_return_seven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.even_mismatch_wrong_return_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.even_mismatch_wrong_return_seven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.Slot14.phi_spec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.Slot14.phi_even_labels_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.kummerDelta_eq_iff_coset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.reduce": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -1171,13 +1346,13 @@
   ],
   "full_paper_formalization": false,
   "release": "development-after-1.0.0",
-  "verified_at_utc": "2026-10-25T17:34:56.145076+00:00",
+  "verified_at_utc": "2026-10-25T18:13:19.449536+00:00",
   "compiler": "leanprover/lean4:v4.33.1",
   "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "project_count": 9,
+  "project_count": 10,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/common_genus17"
+    "projects/common_source"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -1187,9 +1362,10 @@
     "projects/opposite_genus",
     "projects/adjacent_genus",
     "projects/common_exclusion",
-    "projects/common_genus"
+    "projects/common_genus",
+    "projects/common_genus17"
   ],
-  "cold_kernel_checks": "Every declared endpoint, including all 54 genus17 identity and scope endpoints, checked with lean -t0 and debug.skipKernelTC=false.",
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The new common-source project and its 33 owned modules were also rebuilt and checked individually; the corrected parent ownership configuration was separately rebuilt and audited.",
   "published_snapshot": {
     "version": "1.0.0",
     "verified_numbered_statements": 34,

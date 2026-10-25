@@ -1,0 +1,30 @@
+{
+  "root_authorized_configuration_only_fix": true,
+  "old_sha256": "ebd354ae3caca764d23680d8fbe9aff0efbeeebcb74fc2cd4fb4a07a862487d0",
+  "new_sha256": "5ee4990399e0a736e0808ef292e89779a3ac8295f4650d78624bc969d831d62c",
+  "actual_FourCorner_modules": [
+    "FourCorner.CommonRootSupportDecomposition",
+    "FourCorner.NineCubicValuation",
+    "FourCorner.NineFlexGroup",
+    "FourCorner.NineSmallACoordinates",
+    "FourCorner.NineSmallALocal",
+    "FourCorner.NineSmallAPoints",
+    "FourCorner.NineSmallASignedSupport",
+    "FourCorner.NineSmallE0",
+    "FourCorner.NineSmallE0Local",
+    "FourCorner.NineSmallE0Points",
+    "FourCorner.NineSmallE1",
+    "FourCorner.NineSmallE2",
+    "FourCorner.NineSmallFiniteFive",
+    "FourCorner.RatIntegralAux",
+    "FourCorner.RationalSquarefree",
+    "FourCorner.SquareArea",
+    "FourCorner.SquarefreePart"
+  ],
+  "all_other_library_definitions_and_dependency_pins_unchanged": true,
+  "all_mathematical_source_bytes_unchanged": true,
+  "parent_mathematical_sources_hashed": 70,
+  "reason": "Lean4.33.1 Lake builds every matching import provider. The parent broad FourCorner glob claimed seven root modules absent from the small_curves source tree; dependency order did not resolve the ambiguity.",
+  "path": "../small_curves/lakefile.lean",
+  "configuration_patch": "PARENT_LIBRARY_OWNERSHIP.patch"
+}

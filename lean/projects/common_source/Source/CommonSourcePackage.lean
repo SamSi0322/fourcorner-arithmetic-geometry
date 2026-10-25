@@ -1,0 +1,41 @@
+import OddRowFull
+
+#check @FourCorner.CommonSource.common_source_odd_row
+#check @FourCorner.CommonSource.exists_actual_pair_from_paper
+#check @FourCorner.CommonSource.ActualOddProbe.character
+
+#print axioms FourCorner.CommonSource.common_source_odd_row
+#print axioms FourCorner.CommonSource.exists_actual_pair_from_paper
+#print axioms FourCorner.CommonSource.ActualOddProbe.character
+#print axioms FourCorner.CommonSource.actual_generator_coordinate_unique
+#print axioms FourCorner.CommonSource.neutralPhi
+#print axioms FourCorner.CommonSource.neutralPhi_eq_iff
+#print axioms FourCorner.CommonSource.actual_neutral_odd_row
+#print axioms FourCorner.CommonSource.actual_cyclic_W_even
+#print axioms FourCorner.CommonSource.actual_cyclic_odd_row
+#print axioms FourCorner.CommonSource.actual_pair_odd_remainders_impossible
+#print axioms FourCorner.CommonSource.actual_pair_even_mismatch_impossible
+#print axioms FourCorner.CommonSource.ActualPair.remainders_nonempty
+#print axioms FourCorner.CommonSource.ActualPair.Remainders.surviving_orders
+#print axioms FourCorner.CommonSource.ActualPair.complete_coset
+#print axioms FourCorner.CommonSource.source_torsion_sum_one
+#print axioms FourCorner.CommonSource.source_torsion_sum_seven
+#print axioms FourCorner.CommonSource.localKummer_H
+#print axioms FourCorner.CommonSource.localKummer_twoTorsion_injective
+#print axioms FourCorner.CommonSource.actual_source_coset_one
+#print axioms FourCorner.CommonSource.actual_source_coset_seven
+#print axioms FourCorner.CommonSource.source_remainder_coordinates
+#print axioms FourCorner.CommonSource.actual_source_surviving_orders
+#print axioms FourCorner.CommonSource.residue_half_zero_order
+#print axioms FourCorner.CommonSource.residue_half_zero_coordinates
+#print axioms FourCorner.CommonSource.actual_phi_even_of_first_slot
+#print axioms FourCorner.CommonSource.H_first_slot_reduction_square
+#print axioms FourCorner.CommonSource.actual_even_reduction_mismatch
+#print axioms FourCorner.CommonSource.odd_remainders_wrong_return_one
+#print axioms FourCorner.CommonSource.odd_remainders_wrong_return_seven
+#print axioms FourCorner.CommonSource.even_mismatch_wrong_return_one
+#print axioms FourCorner.CommonSource.even_mismatch_wrong_return_seven
+#print axioms FourCorner.CommonSource.Slot14.phi_spec
+#print axioms FourCorner.CommonSource.Slot14.phi_even_labels_iff
+#print axioms FourCorner.CommonSource.kummerDelta_eq_iff_coset
+#print axioms FourCorner.CommonSource.reduce
