@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 37,
-  "not_fully_formalized_numbered_statements": 32,
+  "fully_formalized_numbered_statements": 40,
+  "not_fully_formalized_numbered_statements": 29,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -413,10 +413,49 @@
       "title": null,
       "statement_tex": "\\label{prop:common-genus-boundary}\nThe curve $D_t$ is geometrically connected of genus nine.  The map\n$\\ell:D_t\\to\\PP^1$ has degree sixteen and is branched precisely at\n\\[\n 0,\\quad\\infty,\\quad s,\\quad T,\\quad-s,\\quad-T.\n\\]\nIf $t>1$, none of the points above these six values is rational.",
       "statement_sha256": "caa3d02ba41691ea76bb101217a3627f24d465155be1cfd1357b2314a020fab4",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonGenusBoundaryFull.prop_common_genus_boundary",
+        "FourCorner.CommonPostStalkFields.sourceEquiv",
+        "FourCorner.CommonPostStalkFields.baseEquiv",
+        "FourCorner.CommonPostStalkFields.source_stalk_bijective",
+        "FourCorner.CommonPostStalkFields.base_stalk_bijective",
+        "FourCorner.CommonPostStalkFields.source_factor",
+        "FourCorner.CommonPostStalkFields.base_factor",
+        "FourCorner.GenericStalkField.factor",
+        "FourCorner.FractionGenericStalk.open_stalk_eval_bijective",
+        "FourCorner.CommonPostEllDegree.fieldPullback",
+        "FourCorner.CommonPostEllDegree.generic_stalk_square",
+        "FourCorner.CommonPostEllDegree.degree_sixteen",
+        "FourCorner.NormalizationPlaceRestriction.heightOne_restrict",
+        "FourCorner.NormalizationPointRestriction.point_restrict",
+        "FourCorner.NormalizedModelPointRestriction.point_restrict",
+        "FourCorner.CommonPostBranchFibres.ellClosed_place",
+        "FourCorner.CommonPostBranchFibres.branchPoints_card",
+        "FourCorner.CommonPostBranchFibres.branch_locus_exact",
+        "FourCorner.CommonPostBranchFibres.ramification_formula",
+        "FourCorner.CommonPostBranchFibres.rational_point_avoids_branch_fibres",
+        "FourCorner.CommonPostBranchValues.branchPoints_eq",
+        "FourCorner.CommonPostBranchValues.finiteValue_place",
+        "FourCorner.CommonPostBranchValues.infinityValue_place",
+        "FourCorner.CommonPostBranchValues.finiteValue_order",
+        "FourCorner.CommonPostBranchValues.infinityValue_order",
+        "FourCorner.NormalizedBaseP1.generic_iso",
+        "FourCorner.ProjectiveLineCharts.fieldEquiv",
+        "FourCorner.ProjectiveLineCharts.chartEquiv",
+        "FourCorner.CommonPostGeometricGenus.geometricFieldEquiv",
+        "FourCorner.CommonPostGeometricGenus.geometric_globalDifferentials_nine",
+        "FourCorner.CommonPostFiniteP1.generic_ellMap",
+        "FourCorner.CommonPostFiniteP1.ellMap_isFinite",
+        "FourCorner.CommonPostPointResidue.valuation_eval_eq",
+        "FourCorner.CommonPostModelBoundary.actual_model_point_avoids_boundary"
+      ],
+      "source": "projects/common_genus/Source/CommonGenusBoundaryFull.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "lem:common-support",
@@ -518,10 +557,18 @@
       "title": "Residue-matrix exclusion",
       "statement_tex": "\\label{thm:common-exclusion}\\label{thm:common-squareclass}\nLet $\\Delta=p_1\\cdots p_r>1$ be positive, odd and squarefree, and suppose\n\\[\n \\Delta\\equiv1\\pmod8,\\qquad\n p_i\\equiv1\\text{ or }7\\pmod8,\\qquad\n \\rank_{\\F_2}A_\\Delta=r-1.\n\\]\nFor every rational $t>1$ satisfying\n\\begin{equation}\\label{eq:common-excluded-t}\n t^2-1\\in\\Delta\\Q^{\\times2},\\qquad t\\in\\Z_{37},\\qquad\n \\overline t\\in\\{14,-14,16,-16\\},\n\\end{equation}\none has $D_t(\\Q)=\\varnothing$.",
       "statement_sha256": "3f7f880c54aaef5b50bcd9d7a2314b9257a44fbc98c1b61781381017ef556d68",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonExclusionPaper.common_exclusion_squarefree",
+        "FourCorner.CommonExclusion.common_exclusion",
+        "FourCorner.CommonPointSource.actual_point_coordinates_forAlgebra"
+      ],
+      "source": "projects/common_exclusion/Source/CommonExclusionPaper.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "cor:common-infinite",
@@ -530,10 +577,18 @@
       "title": null,
       "statement_tex": "\\label{cor:common-infinite}\nPut $C_0=269297$ and $K=2^{20}\\cdot7\\cdot37$.  For every integer\n$j\\ge1$, define\n\\begin{equation}\\label{eq:common-infinite}\n q_j=\\frac1{C_0}+\\frac K{1+K^2j},\\qquad\n t_j=\\frac{1+\\Delta_0q_j^2}{1-\\Delta_0q_j^2}.\n\\end{equation}\nThe parameters $t_j$ are distinct and satisfy\n\\[\n 1<t_j<\\frac{17}{16}<\\frac{\\sqrt5}{2},\\qquad\n D_{t_j}(\\Q)=\\varnothing.\n\\]\nEvery $D_{t_j}$ has a real point in the strict return chamber\n\\eqref{eq:common-chamber}.  In addition, $t_j+1$ is neither a rational\nsquare nor twice a rational square, and\n$[t_j^2-1]=[\\Delta_0]\\notin\\{1,[2]\\}$.",
       "statement_sha256": "ba049c41725353efd6b975efd11687dd5cc92d993ac329ffaab60be9b1287518",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonInfinite.common_infinite",
+        "FourCorner.CommonInfinite.familyPointOfEmbedding_regular_value",
+        "FourCorner.CommonInfinite.familyPointOfEmbedding_over"
+      ],
+      "source": "projects/common_exclusion/Source/CommonInfinite.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "prop:common-genus17",

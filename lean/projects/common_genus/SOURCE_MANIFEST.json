@@ -1,0 +1,184 @@
+{
+  "CommonPostRamification": {
+    "path": "Source/CommonPostRamification.lean",
+    "sha256": "129a697ace184813834b1bd50ac1b333799055dbb3a673cd0486a98a583da65f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "NormalizationPlaceRestriction": {
+    "path": "Source/NormalizationPlaceRestriction.lean",
+    "sha256": "9b9eb24a0d79170dab70b4c39ca3b47f04d601fc62af9bff6b61102f7f94f349",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "NormalizationPointRestriction": {
+    "path": "Source/NormalizationPointRestriction.lean",
+    "sha256": "fee90a9dde44674cd976795a2c2228dee5b54fafae39153e680a89c4053089fb",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "NormalizedModelPointRestriction": {
+    "path": "Source/NormalizedModelPointRestriction.lean",
+    "sha256": "14c56fd2ec8ed08478ea6d1ca43749b4bf25d5dd5bd2af707f5270a8268bd5d8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "CommonPostBranchFibres": {
+    "path": "Source/CommonPostBranchFibres.lean",
+    "sha256": "1cb2105bb291b0bc248fd698b8d66ed3ea9d877562d4908d4f28eac55f310a90",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "CommonPostBranchValues": {
+    "path": "Source/CommonPostBranchValues.lean",
+    "sha256": "b747420d71e720d4ca323fe1c7bcdb1eb5a0f818af35cb5360b425dc9cf6cb6a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "NormalizationGenericPoint": {
+    "path": "Source/NormalizationGenericPoint.lean",
+    "sha256": "3ee25f519b7d3823fff4de8bc5d2b653948d9345c41f1177ba729505c61aacdf",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "FractionGenericStalk": {
+    "path": "Source/FractionGenericStalk.lean",
+    "sha256": "a8dec3ade42ecdffae25b6c02b118759f3a30820d7d9227b385675dcde86c60b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "GenericStalkField": {
+    "path": "Source/GenericStalkField.lean",
+    "sha256": "3b4d142d26fef3a6b90d389cd105923ad7e46f6a203e1b5007ce2355d23f800b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "CommonPostGenericEll": {
+    "path": "Source/CommonPostGenericEll.lean",
+    "sha256": "588d0957c5bdae286c5021533b40988859153fc44c4a5fb469f5b3ce5687ae90",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "CommonPostStalkFields": {
+    "path": "Source/CommonPostStalkFields.lean",
+    "sha256": "1c21e573a6f46832c265737749ef1b1621d9f91492b93f537a1c4f9a2dd55c69",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "CommonPostEllDegree": {
+    "path": "Source/CommonPostEllDegree.lean",
+    "sha256": "7703aad4a753dfeb27184cce74bd9d51277baa62cb8b96157c83a72b91d126f1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "CommonGenusBoundaryFull": {
+    "path": "Source/CommonGenusBoundaryFull.lean",
+    "sha256": "845d88be01fd42b3bff40565b696f4ab5826cf982af6a3f4d5c7ca55b1717624",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact frozen source; no import or proof-body modification."
+  },
+  "CommonGenusPackage": {
+    "path": "Source/CommonGenusPackage.lean",
+    "sha256": "09b5b4f115c8402b9358ca136c7cb2bc20a3cea038e3ececc6db7040a8a7a025",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Verification entry point"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "verification_scope": "Full statement plus 34 actual generic-stalk/degree/point/fibre/P1-coordinate/differential declarations."
+  }
+}

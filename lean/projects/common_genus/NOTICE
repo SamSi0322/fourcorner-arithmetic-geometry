@@ -1,0 +1,7 @@
+Common-coordinate genus, finite ell cover, and rational boundary fibres.
+Original new project proofs and integration support: Yuan Si, Apache-2.0.
+The source dependency common_exclusion and its fourcorner_paper, adjacent_genus,
+and opposite_genus parents retain their original source attribution and licenses.
+In particular, the reused normalization/model and valuative infrastructure retains
+its existing upstream Apache-2.0 attribution in the parent packages. Lean, Mathlib,
+and other standard dependencies are not vendored and retain their original licenses.

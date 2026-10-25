@@ -42,5 +42,19 @@
     "audit": [
       "Source/AdjacentGenus.lean"
     ]
+  },
+  {
+    "directory": "projects/common_exclusion",
+    "target": "CommonExclusionProject",
+    "audit": [
+      "Source/CommonExclusionPackage.lean"
+    ]
+  },
+  {
+    "directory": "projects/common_genus",
+    "target": "CommonGenusProject",
+    "audit": [
+      "Source/CommonGenusPackage.lean"
+    ]
   }
 ]

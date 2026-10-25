@@ -1,0 +1,43 @@
+import CommonExclusionPaper
+import CommonExclusion
+import CommonInfinite
+
+#check FourCorner.CommonExclusion.common_exclusion
+#check FourCorner.CommonInfinite.common_infinite
+#check FourCorner.CommonPointSource.actual_point_coordinates_forAlgebra
+#check FourCorner.CommonInfinite.familyPointOfEmbedding_regular_value
+
+#print axioms FourCorner.CommonExclusion.common_exclusion
+#print axioms FourCorner.CommonExclusion.model_no_rational_point
+#print axioms FourCorner.CommonPointSource.sourceForAlgebra
+#print axioms FourCorner.CommonPointSource.actual_point_coordinates_forAlgebra
+#print axioms FourCorner.CommonPostPointResidue.valuation_eval_eq
+#print axioms FourCorner.CommonLiteralField.rationalPlaceSource07
+#print axioms FourCorner.CommonLiteralField.ell_regular_at_rational_place
+#print axioms FourCorner.CommonLiteralField.rational_place_avoids_finite_boundary
+#print axioms FourCorner.CommonPostModelBoundary.actual_model_point_avoids_boundary
+#print axioms FourCorner.CommonPostFiniteP1.generic_ellMap
+#print axioms FourCorner.CommonPostFiniteP1.ellMap_isFinite
+#print axioms FourCorner.CommonPostGeometricGenus.geometric_globalDifferentials_nine
+#print axioms FourCorner.common_root_exclusion
+#print axioms FourCorner.CommonRootSource.residue_matrix_proposition
+#print axioms FourCorner.CommonRootSource.ell_isSquare_37_field
+#print axioms FourCorner.CommonInfinite.common_infinite
+#print axioms FourCorner.CommonInfinite.family_no_rational_points
+#print axioms FourCorner.CommonInfinite.family_strict_real_point
+#print axioms FourCorner.CommonInfinite.familyPointOfEmbedding_over
+#print axioms FourCorner.CommonInfinite.familyPointOfEmbedding_regular_value
+#print axioms FourCorner.CommonFamilyRank.prime_matrix_rank
+#print axioms FourCorner.commonSixPrimes_matrix_eq
+#print axioms FourCorner.family_parameter_injective
+#print axioms FourCorner.family_padic_parameter
+#print axioms FourCorner.family_discriminant_identity
+#print axioms FourCorner.family_t_add_one_not_square
+#print axioms FourCorner.family_t_add_one_not_twice_square
+#print axioms FourCorner.RealFieldEmbedding08.embedding_ell
+#print axioms FourCorner.RealFieldEmbedding08.embedding_root
+#print axioms FourCorner.real_transcendental_source08
+
+#check FourCorner.CommonExclusionPaper.common_exclusion_squarefree
+#print axioms FourCorner.CommonExclusionPaper.prime_tuple_injective_of_squarefree
+#print axioms FourCorner.CommonExclusionPaper.common_exclusion_squarefree
