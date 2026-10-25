@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 40 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 41 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -31,7 +31,8 @@ revisions. From this directory run:
 python3 verify.py
 ```
 
-The verifier builds all eight projects and runs cold kernel checks with `lean -t0`.
+The verifier builds every project in `projects.json` and runs cold kernel checks
+with `lean -t0`.
 It checks printed axiom lists against `propext`, `Classical.choice`, `Quot.sound`.
 Reports are written to `verification/`. Each companion is also buildable through
 its own ordinary Lake project; `projects.json` records exact targets and audits.
@@ -60,3 +61,10 @@ complete-curve residue-matrix exclusion and the explicit infinite family, with
 real chamber coordinates tied to points on the same rational models. Fixed
 finite-field and fixed-matrix subclaims use kernel-checked finite decisions;
 the global parameter and height quantifiers are retained.
+
+The genus-seventeen package proves the exact finite twist domain and the complete
+same-point rational lifting statement. Its covers have actual generic degree two
+and genus seventeen after base change; unramifiedness is verified at every curve
+place, including infinity, with the residue extensions and their separability.
+The four original roots retain their signs, and the added equation is exactly
+`Z^2 = ell/kappa`.

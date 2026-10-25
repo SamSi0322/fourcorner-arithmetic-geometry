@@ -56,5 +56,12 @@
     "audit": [
       "Source/CommonGenusPackage.lean"
     ]
+  },
+  {
+    "directory": "projects/common_genus17",
+    "target": "CommonGenus17Project",
+    "audit": [
+      "Source/Genus17Package.lean"
+    ]
   }
 ]

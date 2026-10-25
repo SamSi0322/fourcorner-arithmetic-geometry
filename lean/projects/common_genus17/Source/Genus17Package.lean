@@ -1,0 +1,69 @@
+import Genus17Full
+import Genus17PointSupport
+
+-- Full paper statement and its actual generic-stalk, residue, coordinate and lifting identities.
+#check @FourCorner.CommonGenus17Full.common_genus17
+#check @FourCorner.Genus17Geometry.cover_generic_stalk_square
+#check @FourCorner.Genus17Geometry.cover_degree_two
+#check @FourCorner.Genus17Geometry.cover_valuatively_unramified
+#check @FourCorner.Genus17Geometry.cover_generic_finite_separable
+#check @FourCorner.Genus17GeometricGenus.geometric_globalDifferentials_seventeen
+#check @FourCorner.Genus17ActualLift.actual_point_lifts
+#check @FourCorner.Genus17Support.mem_twists
+#check @FourCorner.RationalCoordinateLift.included_regular_value
+#check @FourCorner.CommonPointSource.actual_point_coordinates_forAlgebra
+
+#print axioms FourCorner.CommonGenus17Full.common_genus17
+#print axioms FourCorner.Genus17Geometry.common_genus17_geometry_complete
+#print axioms FourCorner.Genus17Geometry.cover_generic_finite_separable
+#print axioms FourCorner.Genus17Geometry.cover_residue_finite_separable
+#print axioms FourCorner.Genus17Geometry.cover_valuatively_unramified
+#print axioms FourCorner.Genus17Geometry.cover_generic_stalk_square
+#print axioms FourCorner.Genus17Geometry.cover_degree_two
+#print axioms FourCorner.Genus17Geometry.cover_point_restrict
+#print axioms FourCorner.Genus17Geometry.cover_function_preservation
+#print axioms FourCorner.Genus17Geometry.cover_ell_preservation
+#print axioms FourCorner.Genus17Geometry.cover_orderedRoot_preservation
+#print axioms FourCorner.Genus17Geometry.fifthRoot_function_equation
+#print axioms FourCorner.Genus17Geometry.cover_overQ
+#print axioms FourCorner.Genus17GeometricGenus.geometric_globalDifferentials_seventeen
+#print axioms FourCorner.Genus17Support.mem_oddSupport
+#print axioms FourCorner.Genus17Support.mem_twists
+#print axioms FourCorner.Genus17Support.twist_pos
+#print axioms FourCorner.Genus17Support.source_has_global_twist
+#print axioms FourCorner.CommonRootSource.positive_squareclass_support
+#print axioms FourCorner.Genus17ActualLift.actual_point_lifts
+#print axioms FourCorner.Genus17PointSupport.actual_point_twist
+#print axioms FourCorner.CommonPointSource.actual_point_coordinates_forAlgebra
+#print axioms FourCorner.RationalPlaceSourceAnyAlgebra.point_source_eq
+#print axioms FourCorner.RationalCoordinateLift.included_regular_value
+#print axioms FourCorner.RationalCoordinateLift.regular_value_of_place_eq
+#print axioms FourCorner.RationalPlacePoint.pointOfPlace_place
+#print axioms FourCorner.RationalPlacePoint.point_place_injective
+#print axioms FourCorner.UnitDiscriminantClosure.integralClosure_eq_adjoin
+#print axioms FourCorner.QuadraticOrder.equivAdjoin
+#print axioms FourCorner.QuadraticClosureEvaluation.evaluate_algebraMap
+#print axioms FourCorner.QuadraticClosureEvaluation.evaluate_root
+#print axioms FourCorner.QuadraticPlaceExtension.exists_rational_place
+#print axioms FourCorner.Genus17PowerBasis.discr_eq
+#print axioms FourCorner.Genus17PlaceLift.rational_place_lifts
+#print axioms FourCorner.Genus17Geometry.common_genus17_geometry
+#print axioms FourCorner.CanonicalGenericField.factor
+#print axioms FourCorner.Genus17Geometry.source_field_factor
+#print axioms FourCorner.Genus17Geometry.target_field_factor
+#print axioms FourCorner.Genus17Geometry.cover_all_closed_indices_one
+#print axioms FourCorner.Genus17Geometry.fifthRoot_sq_literal
+#print axioms FourCorner.Genus17Geometry.cover_isFinite
+#print axioms FourCorner.Genus17Geometry.cover_zero_chart
+#print axioms FourCorner.Genus17Geometry.model_geometricallyIntegral
+#print axioms FourCorner.Genus17Geometry.model_geometricallyConnected
+#print axioms FourCorner.Genus17GeometricGenus.geometricFieldEquiv
+#print axioms FourCorner.Genus17Geometry.genusFF_seventeen
+#print axioms FourCorner.Genus17GeometricField.all_constants_domain
+#print axioms FourCorner.Genus17ConstantFieldComparison.fractionFieldEquiv
+#print axioms FourCorner.Genus17TensorComparison.baseChangeEquiv
+#print axioms FourCorner.RationalPlaceSourceAnyAlgebra.coordinates
+#print axioms FourCorner.QuadraticDiscriminant.discr_eq
+#print axioms FourCorner.Genus17Support.twist_ne_zero
+#print axioms FourCorner.Genus17PowerBasis.dim_eq_two
+#print axioms FourCorner.Genus17PowerBasis.gen_eq

@@ -1,0 +1,483 @@
+{
+  "Genus17Model": {
+    "path": "Source/Genus17Model.lean",
+    "sha256": "3200a623e34332178e08e675641fa11e83a5044655eb10454d8a7498914901d9",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17Cover": {
+    "path": "Source/Genus17Cover.lean",
+    "sha256": "69ecd6995c4c74696ab29ff50c6babd778fadeecc07d0199ff1913036191ed12",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "CanonicalGenericField": {
+    "path": "Source/CanonicalGenericField.lean",
+    "sha256": "b35a48617bd154ccffe381a67576664928f9e476d58b5ca212c67a469123ca14",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17GenericCover": {
+    "path": "Source/Genus17GenericCover.lean",
+    "sha256": "efe1197e55652f4418f5339b176bf77685c241b3e4d797868a9467d89e67e258",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17Coordinates": {
+    "path": "Source/Genus17Coordinates.lean",
+    "sha256": "75f2ad12d08468c4b7a782abda57739dd539bdcecc0655a3aeed4b59415dc526",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17FieldGenus": {
+    "path": "Source/Genus17FieldGenus.lean",
+    "sha256": "2db77e2e824c0cf5ecd9898eb2fcb5b1e44023260a2186e7d85f5199c42cdae8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17PointMap": {
+    "path": "Source/Genus17PointMap.lean",
+    "sha256": "879bf12ede1e188d4fab8f862411b8930a8a5a2cc6fac3432a6b37b3d7fe0e70",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "FiveSquareDegree": {
+    "path": "Source/FiveSquareDegree.lean",
+    "sha256": "1d37689b093084f5a6c7ce6a763b2a4e7a2746f8e7e2981013de9b710ae2a93f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17Generators": {
+    "path": "Source/Genus17Generators.lean",
+    "sha256": "da62841d325bd39030f31be1a2f4f8e353e0d1777fa0c59bb8130731defddbf8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "FiniteTensorGenerators": {
+    "path": "Source/FiniteTensorGenerators.lean",
+    "sha256": "976b5efef2d4bde655b38128cba386d3eb8be05ae885e2e7e9cff87885166a13",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17TensorComparison": {
+    "path": "Source/Genus17TensorComparison.lean",
+    "sha256": "27140a715094b26104cccfd09c405ffa0a2b4a495ab400165a14386ef7f0fd35",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17GeometricField": {
+    "path": "Source/Genus17GeometricField.lean",
+    "sha256": "8ed6ac0e44431facb87e72e655bf66716ce55ee16fe75f53aae4f01c04fa2bb5",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17ConstantFieldComparison": {
+    "path": "Source/Genus17ConstantFieldComparison.lean",
+    "sha256": "e2b157c39507f203db976803c52e1b67707cf0c28b2e5e3857bb3ba1f514e66b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17GeometricModel": {
+    "path": "Source/Genus17GeometricModel.lean",
+    "sha256": "7234cd254d9ae18c6af2d8335072c848efd4610e390a89f2cbce1e6cb1452c68",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17GeometricGenus": {
+    "path": "Source/Genus17GeometricGenus.lean",
+    "sha256": "c2efbac1ac76c20434573b78490ceb8acb9792e2a0f82305581ba935efb615e1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17GeometryStatement": {
+    "path": "Source/Genus17GeometryStatement.lean",
+    "sha256": "6a86e4766bef070729a9c55df3530b62d33d808eae971ee87b5f663bbabd84ae",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17ResidueSeparable": {
+    "path": "Source/Genus17ResidueSeparable.lean",
+    "sha256": "9bb72c0f93860e29ca257355a4071cd8da3082e52af22dd7a0f193060b20521a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17ValuativeUnramified": {
+    "path": "Source/Genus17ValuativeUnramified.lean",
+    "sha256": "6b4965d6670a53350f35d021f001d9f6f34521931f1ddd631dacc14890e91663",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17GenericSeparable": {
+    "path": "Source/Genus17GenericSeparable.lean",
+    "sha256": "c2b99ef93b7130d77c30c9c8f3fa490255610f5a4e1c7a87ca64ff09958fd79d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17GeometryComplete": {
+    "path": "Source/Genus17GeometryComplete.lean",
+    "sha256": "05afa6124b9d4d82607e1c76313edb915bc39e452477968de1fcba688db71c27",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17Support": {
+    "path": "Source/Genus17Support.lean",
+    "sha256": "f585b07b309c702531c4e02062ad52753b3dd0210ad5319f637802a5599d35bb",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "RationalPlaceSourceAnyAlgebra": {
+    "path": "Source/RationalPlaceSourceAnyAlgebra.lean",
+    "sha256": "5f769696bf49d6872c257da7c8ddd43555f4a61fe3ab135df115cf239d11c1a2",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "UnitDiscriminantClosure": {
+    "path": "Source/UnitDiscriminantClosure.lean",
+    "sha256": "c0136e35fbe878e41d7de4aefed8c04ecfc6c19527dd25d273cfd15f58d2f86b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "QuadraticDiscriminant": {
+    "path": "Source/QuadraticDiscriminant.lean",
+    "sha256": "816725b750ccb915ce70925c2e898ac85a5bd6ddd78d8a3fd6b37c501b5a4fc4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17PowerBasis": {
+    "path": "Source/Genus17PowerBasis.lean",
+    "sha256": "6e0043bcae4ee794e349b8e3aaf90108d725bb0fbc73c1e4b2ece4b6340d451c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "QuadraticOrder": {
+    "path": "Source/QuadraticOrder.lean",
+    "sha256": "5f896e5d3460377cfa8e3ba1ab0bb440a637d2c7602797077107a1a7a77502a3",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "QuadraticOrderEvaluation": {
+    "path": "Source/QuadraticOrderEvaluation.lean",
+    "sha256": "148c1f9f089e5602b0eec18548d355bb10e47d0f0e8d274c0de005e79a5b7e45",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "QuadraticClosureEvaluation": {
+    "path": "Source/QuadraticClosureEvaluation.lean",
+    "sha256": "86069aeda266989d1ca5369c6b3994778bd64b79b55c44736cba8ad2ca29e2b6",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "RationalPlacePoint": {
+    "path": "Source/RationalPlacePoint.lean",
+    "sha256": "1e315c932a0466e600c7cbeb0a40d8d7c7bf2a74cbd679f7d8fa3f16233262c1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "QuadraticPlaceExtension": {
+    "path": "Source/QuadraticPlaceExtension.lean",
+    "sha256": "dac6a66134ca82badcda25cd998e7a22fcd1fbbea1825f8e3061be4293ff0680",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17PlaceLift": {
+    "path": "Source/Genus17PlaceLift.lean",
+    "sha256": "e747f6ce5eb146e23f631398a81d3d582f00a360830c45d7e432b61d80f39954",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "RationalCoordinateLift": {
+    "path": "Source/RationalCoordinateLift.lean",
+    "sha256": "fcd49d4bbe30f47f153635f627790af668fc6b62c2c869adc7ba0925235fcf90",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17ActualLift": {
+    "path": "Source/Genus17ActualLift.lean",
+    "sha256": "75f16afc04b6abd15a7e0bd80fe5252a26693ba63581e2a9f04a77c725b48f5c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17TwistsPositive": {
+    "path": "Source/Genus17TwistsPositive.lean",
+    "sha256": "827ead326a03fce6c99f47e43f171d806e432f9a7d57a64105d4c88c4d9a1f52",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17Full": {
+    "path": "Source/Genus17Full.lean",
+    "sha256": "f265e8efbb6ad0a0c05e7d47cc13f0110ef74ff8ef668d5c675b03b0f451a477",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17PointSupport": {
+    "path": "Source/Genus17PointSupport.lean",
+    "sha256": "9691deed1712f33123ec61a44d528cb7e2e4e87092bde2c08b67de5d9ab01761",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Byte-identical frozen ordinary/cold checked source; no import or proof-body adaptation."
+  },
+  "Genus17Package": {
+    "path": "Source/Genus17Package.lean",
+    "sha256": "ab9affa699aac85bc2d1ee508683916e716e406267623e8aaa0793fd64d49543",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Verification entry point"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "axiom_audit_declarations": 54
+  }
+}

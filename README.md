@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 40 of the 69 numbered statements. Further
+The current Lean development fully verifies 41 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -27,3 +27,7 @@ propositions. The paper itself is unchanged.
 Development also includes the complete common-curve genus/boundary theorem,
 residue-matrix exclusion and explicit infinite family, with full source-point
 and regular-section identities.
+
+The genus-seventeen companion proves the complete finite twist construction,
+unramified double covers of the same genus-nine curve, and rational-point
+lifting that preserves the original point and all five ordered coordinates.

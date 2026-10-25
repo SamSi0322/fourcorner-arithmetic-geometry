@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 40,
+  "verified_numbered_statements": 41,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -902,6 +902,266 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.CommonGenus17Full.common_genus17": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.common_genus17_geometry_complete": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_generic_finite_separable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_residue_finite_separable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_valuatively_unramified": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_generic_stalk_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_degree_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_point_restrict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_function_preservation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_ell_preservation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_orderedRoot_preservation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.fifthRoot_function_equation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_overQ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17GeometricGenus.geometric_globalDifferentials_seventeen": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Support.mem_oddSupport": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Support.mem_twists": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Support.twist_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Support.source_has_global_twist": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17ActualLift.actual_point_lifts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17PointSupport.actual_point_twist": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalPlaceSourceAnyAlgebra.point_source_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalCoordinateLift.included_regular_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalCoordinateLift.regular_value_of_place_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalPlacePoint.pointOfPlace_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalPlacePoint.point_place_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.UnitDiscriminantClosure.integralClosure_eq_adjoin": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.QuadraticOrder.equivAdjoin": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.QuadraticClosureEvaluation.evaluate_algebraMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.QuadraticClosureEvaluation.evaluate_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.QuadraticPlaceExtension.exists_rational_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17PowerBasis.discr_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17PlaceLift.rational_place_lifts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.common_genus17_geometry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CanonicalGenericField.factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.source_field_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.target_field_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_all_closed_indices_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.fifthRoot_sq_literal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_isFinite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.cover_zero_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.model_geometricallyIntegral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.model_geometricallyConnected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17GeometricGenus.geometricFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Geometry.genusFF_seventeen": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17GeometricField.all_constants_domain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17ConstantFieldComparison.fractionFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17TensorComparison.baseChangeEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalPlaceSourceAnyAlgebra.coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.QuadraticDiscriminant.discr_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17Support.twist_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17PowerBasis.dim_eq_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Genus17PowerBasis.gen_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -911,14 +1171,25 @@
   ],
   "full_paper_formalization": false,
   "release": "development-after-1.0.0",
-  "verified_at_utc": "2026-10-25T16:13:53.034104+00:00",
+  "verified_at_utc": "2026-10-25T17:34:56.145076+00:00",
   "compiler": "leanprover/lean4:v4.33.1",
   "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "project_count": 8,
+  "project_count": 9,
   "project_sources_built_in_this_checkout": true,
-  "new_projects_freshly_built": true,
-  "unchanged_earlier_projects_reused_verified_builds": true,
-  "cold_kernel_checks": true,
+  "new_projects_freshly_built": [
+    "projects/common_genus17"
+  ],
+  "unchanged_earlier_projects_reused_verified_builds": [
+    ".",
+    "projects/small_curves",
+    "projects/uniform_torsion",
+    "projects/nine_three",
+    "projects/opposite_genus",
+    "projects/adjacent_genus",
+    "projects/common_exclusion",
+    "projects/common_genus"
+  ],
+  "cold_kernel_checks": "Every declared endpoint, including all 54 genus17 identity and scope endpoints, checked with lean -t0 and debug.skipKernelTC=false.",
   "published_snapshot": {
     "version": "1.0.0",
     "verified_numbered_statements": 34,
