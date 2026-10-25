@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 35 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 37 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -31,7 +31,7 @@ revisions. From this directory run:
 python3 verify.py
 ```
 
-The verifier builds all four projects and runs cold kernel checks with `lean -t0`.
+The verifier builds all six projects and runs cold kernel checks with `lean -t0`.
 It checks printed axiom lists against `propext`, `Classical.choice`, `Quot.sound`.
 Reports are written to `verification/`. Each companion is also buildable through
 its own ordinary Lake project; `projects.json` records exact targets and audits.
@@ -46,3 +46,10 @@ beside each vendor copy. A subset of a dependency is included for these proofs;
 the package does not claim to formalize the full named upstream project.
 
 The manuscript PDF and LaTeX are CC BY 4.0. See the release-level LICENSES file.
+
+The two genus-five companion projects prove the complete opposite and adjacent
+fixed-distance curve propositions. The opposite proof uses the actual literal
+projective intersection; the adjacent proof constructs the actual finite
+normalization cover in the ordered conic field extension. Both identify the
+geometric genus using global Kähler differentials on the categorical base change.
+The adjacent package reuses the opposite package’s pinned source foundations.

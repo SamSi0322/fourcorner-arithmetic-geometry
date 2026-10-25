@@ -1,0 +1,96 @@
+{
+  "status": "FRESH_ORDINARY_LAKE_AND_COLD_VERIFIED",
+  "main_declaration": "FourCorner.AdjacentNormalizationCover.adjacent_normalized_cover_connected_genus_five",
+  "additional_mathematical_sources": 16,
+  "audit_entry_points": 1,
+  "shared_source_dependency": "../opposite_genus",
+  "shared_source_copies": 0,
+  "main_source_sha256": "89b2835a9cdfe9737837bcd26d48b535a0e53733ebe3146cdb6ab02f3d3aeaea",
+  "entry_source_sha256": "e568bb13cf88d1d56d466543cda2e8c5d927e923865156270c5f2816726c4a93",
+  "source_manifest_sha256": "2c5bd8ca3b86947d5a82d5892fac7ca8e3b9858006ed05be183ab04aa651d162",
+  "identity_and_genus_bundle": [
+    "FourCorner.AdjacentNormalizationCover.adjacent_normalized_cover_connected_genus_five",
+    "FourCorner.AdjacentNormalizationCover.cover_isFinite",
+    "FourCorner.AdjacentNormalizationCover.cover_over",
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_U",
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_V",
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_slope",
+    "FourCorner.NormalizedModelCover.generic_cover",
+    "FourCorner.AdjacentPostSourceMap.literalGenericFieldEquiv_coordinate",
+    "FourCorner.AdjacentPostNormalizedCharts.canonical_eq_normalized_gluing",
+    "FourCorner.AdjacentPostNormalizedCharts.zero_chart_isIntegralClosure",
+    "FourCorner.AdjacentPostNormalizedCharts.infinity_chart_isIntegralClosure",
+    "FourCorner.FiniteNormalizationCover.zero_isPullback",
+    "FourCorner.FiniteNormalizationCover.infinity_isPullback"
+  ],
+  "axioms": {
+    "FourCorner.AdjacentNormalizationCover.adjacent_normalized_cover_connected_genus_five": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.cover_isFinite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.cover_over": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_U": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_V": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_slope": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.NormalizedModelCover.generic_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostSourceMap.literalGenericFieldEquiv_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostNormalizedCharts.canonical_eq_normalized_gluing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostNormalizedCharts.zero_chart_isIntegralClosure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostNormalizedCharts.infinity_chart_isIntegralClosure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteNormalizationCover.zero_isPullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteNormalizationCover.infinity_isPullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "compiler": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "full_paper_formalization": false
+}

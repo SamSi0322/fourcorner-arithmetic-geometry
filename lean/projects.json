@@ -28,5 +28,19 @@
       "source/NineThreeTorsion.lean",
       "source/NineThreeScopeAudit.lean"
     ]
+  },
+  {
+    "directory": "projects/opposite_genus",
+    "target": "OppositeGenus",
+    "audit": [
+      "Source/OppositeGenus.lean"
+    ]
+  },
+  {
+    "directory": "projects/adjacent_genus",
+    "target": "AdjacentGenus",
+    "audit": [
+      "Source/AdjacentGenus.lean"
+    ]
   }
 ]

@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 35 of the 69 numbered statements. Further
+The current Lean development fully verifies 37 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -21,5 +21,5 @@ as subsequent Zenodo versions. Cite the DOI of the specific version used.
 
 The published [v1.0.0 Zenodo archive](https://doi.org/10.5281/zenodo.23638745)
 remains at 34 of 69 statements. This development branch adds the complete
-Hasse-family norm lemma and its exact local-source interface; the paper itself
-is unchanged.
+Hasse-family norm lemma and the two complete fixed-distance genus-five
+propositions. The paper itself is unchanged.

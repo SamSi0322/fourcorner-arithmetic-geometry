@@ -1,0 +1,8 @@
+Adjacent normalized-cover genus-five formalization.
+Original project proofs and integration support: Yuan Si, Apache-2.0.
+Depends on the sibling opposite_genus canonical shared source package; its source
+provenance and original third-party licenses/notices remain applicable.
+ProperCurveExtension adapts a local valuative proof from anthropics/fermats-last-theorem,
+commit 6e837e75355538c7f80bab5b956861e86c4eacc2, under Apache-2.0; source path is recorded
+in SOURCE_MANIFEST.json and acknowledged in the source file.
+Lean, Mathlib and standard dependencies are not vendored and retain their original licenses.

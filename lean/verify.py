@@ -25,7 +25,9 @@ for index,project in enumerate(projects):
   print(project['directory'],name,'exit',result.returncode,flush=True)
   if result.returncode:raise SystemExit(result.returncode)
   if name.startswith('audit'):
-   for theorem,axes in re.findall(r"'([^']+)' depends on axioms: \[([^]]*)\]",text):
+   for theorem in re.findall(r"'([^']+)' does not depend on any axioms",text):
+    audited[theorem]=[]
+   for theorem,axes in re.findall(r"'([^']+)' depends on axioms:\s*\[([^]]*)\]",text):
     axioms={re.sub(r'\.\{[^}]*\}','',a.strip()) for a in axes.split(',') if a.strip()}
     if not axioms<=permitted:raise SystemExit('Unexpected axiom closure: '+theorem+' '+repr(axioms))
     audited[theorem]=sorted(axioms)

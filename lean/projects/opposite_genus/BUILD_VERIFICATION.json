@@ -1,0 +1,39 @@
+{
+  "status": "SOURCE_REBUILD_AND_ORDINARY_LAKE_VERIFIED",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "nonstandard_sources_rebuilt": 456,
+  "verification_entrypoints_rebuilt": 1,
+  "reused_nonstandard_artifacts": 0,
+  "ordinary_exit_codes_all_zero": true,
+  "cold_exit_codes_all_zero": true,
+  "cold_targets": [
+    "OppositeProjectiveGenusFive",
+    "OppositeGenus"
+  ],
+  "cold_flags": [
+    "-t0",
+    "-Ddebug.skipKernelTC=false"
+  ],
+  "main_declaration": "FourCorner.OppositeProjective.ExactGenus.prop_ell_opposite_genus",
+  "main_source_sha256": "48959a21bfd918a601b8cc6d98250f55148034656e250b7c058e5008286756a3",
+  "main_type_text_sha256": "d617b6d8b66dd64be28796600d08c69f830cbbf79e1819f8eb706ca87b002c0d",
+  "original_and_rebuilt_main_type_identical": true,
+  "transitive_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_manifest_sha256": "a414a7bf22463905e88fa209bf5f5c346b9aa897c6a04d2f1badb9323f037e79",
+  "locked_standard_package_revisions_verified": 9,
+  "declarative_lake_configuration_loaded_offline": true,
+  "lake_full_build_executed": true,
+  "verified_build_method": "Complete isolated nonstandard source rebuild, followed by a fresh ordinary Lake build in a separate checkout and cold checks of main source and entry point.",
+  "historical_compile_source_paths_verified": 456,
+  "unresolved_source_variants": 0,
+  "byte_identical_historical_source_aliases": 4,
+  "pinned_upstream_source_files": 351,
+  "original_local_proof_and_support_sources": 105,
+  "verification_entrypoints": 1,
+  "root_cold_checks_passed": true
+}

@@ -1,0 +1,6 @@
+Opposite-pair genus-five formalization.
+Original project proofs and integration support: Yuan Si, Apache-2.0.
+Contains adapted source from anthropics/fermats-last-theorem, commit 6e837e75355538c7f80bab5b956861e86c4eacc2, under Apache-2.0.
+Original copyright and author notices in individual source files are preserved.
+SOURCE_MANIFEST.json identifies upstream source paths and local adaptations.
+Lean, Mathlib, and their standard dependencies are not vendored; their own licenses apply.

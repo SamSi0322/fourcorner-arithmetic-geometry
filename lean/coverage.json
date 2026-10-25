@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 35,
-  "not_fully_formalized_numbered_statements": 34,
+  "fully_formalized_numbered_statements": 37,
+  "not_fully_formalized_numbered_statements": 32,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -299,10 +299,16 @@
       "title": null,
       "statement_tex": "\\label{prop:ell-opposite-genus}\nFor every rational $0<c_0<2$, the smooth projective curve determined\nby \\eqref{eq:ell-fixed-opposite} is geometrically connected of genus five.",
       "statement_sha256": "bb1e37ead3cc62113c3bfc6fc09fbeba027ece1605e7bb714869345755e783b2",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.OppositeProjective.ExactGenus.prop_ell_opposite_genus"
+      ],
+      "source": "projects/opposite_genus/Source/OppositeProjectiveGenusFive.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "thm:ell-torsion",
@@ -353,10 +359,28 @@
       "title": null,
       "statement_tex": "\\label{prop:ell-adjacent-genus}\nFor every rational $c_0>0$ with $c_0\\ne1$, this normalized cover\nis geometrically connected of genus five.",
       "statement_sha256": "b66b3f43153d5dbf2e7fc8534f17b4d31ff9181988cb95a4df1aad89c2981672",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.AdjacentNormalizationCover.adjacent_normalized_cover_connected_genus_five",
+        "FourCorner.AdjacentNormalizationCover.cover_isFinite",
+        "FourCorner.AdjacentNormalizationCover.cover_over",
+        "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_U",
+        "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_V",
+        "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_slope",
+        "FourCorner.NormalizedModelCover.generic_cover",
+        "FourCorner.AdjacentPostSourceMap.literalGenericFieldEquiv_coordinate",
+        "FourCorner.AdjacentPostNormalizedCharts.canonical_eq_normalized_gluing",
+        "FourCorner.AdjacentPostNormalizedCharts.zero_chart_isIntegralClosure",
+        "FourCorner.AdjacentPostNormalizedCharts.infinity_chart_isIntegralClosure",
+        "FourCorner.FiniteNormalizationCover.zero_isPullback",
+        "FourCorner.FiniteNormalizationCover.infinity_isPullback"
+      ],
+      "source": "projects/adjacent_genus/Source/AdjacentNormalizationCover.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "thm:ell-fixed-pair-finite",

@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 35,
+  "verified_numbered_statements": 37,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -537,6 +537,76 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.OppositeProjective.ExactGenus.prop_ell_opposite_genus": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.adjacent_normalized_cover_connected_genus_five": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.cover_isFinite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.cover_over": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_U": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_V": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentNormalizationCover.conicFunctionFieldEquiv_slope": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.NormalizedModelCover.generic_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostSourceMap.literalGenericFieldEquiv_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostNormalizedCharts.canonical_eq_normalized_gluing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostNormalizedCharts.zero_chart_isIntegralClosure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AdjacentPostNormalizedCharts.infinity_chart_isIntegralClosure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteNormalizationCover.zero_isPullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteNormalizationCover.infinity_isPullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -546,11 +616,13 @@
   ],
   "full_paper_formalization": false,
   "release": "development-after-1.0.0",
-  "verified_at_utc": "2026-10-25T10:57:43.964373+00:00",
+  "verified_at_utc": "2026-10-25T14:00:15.528886+00:00",
   "compiler": "leanprover/lean4:v4.33.1",
   "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "own_project_objects_rebuilt": true,
-  "compatible_external_dependency_cache_reused": true,
+  "project_count": 6,
+  "project_sources_built_in_this_checkout": true,
+  "new_geometry_projects_freshly_built": true,
+  "unchanged_earlier_projects_reused_verified_builds": true,
   "cold_kernel_checks": true,
   "published_snapshot": {
     "version": "1.0.0",
