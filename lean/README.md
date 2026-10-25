@@ -1,11 +1,18 @@
-# Lean companion — release 1.0.0
+# Lean companion — postpublication development
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 34 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 35 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
-of the remaining statements is continuing.
+of the remaining statements is continuing. The published v1.0.0 snapshot remains
+at 34 of 69 statements.
+
+The new complete norm lemma is `FourCorner.HasseNorms.hp_norms`. Its proof
+constructs the quadratic norm criterion using Euclidean division in the
+integer square-root-of-two ring; it assumes no global reciprocity axiom.
+`HasseNormsInterface.lean` also proves the literal local-source equivalence
+and the field-norm criterion for every rational scalar.
 
 ## Environment
 

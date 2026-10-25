@@ -160,3 +160,17 @@ import FourCorner
 #print axioms FourCorner.theta_real_unique_source
 #check FourCorner.theta_strict_lift_iff_unique
 #print axioms FourCorner.theta_strict_lift_iff_unique
+
+-- Postpublication Hasse norm integration.
+#check FourCorner.HasseNorms.hp_norms
+#print axioms FourCorner.HasseNorms.hp_norms
+#check FourCorner.HasseNorms.global_norm_witnesses
+#print axioms FourCorner.HasseNorms.global_norm_witnesses
+#check FourCorner.HasseNorms.dyadic_conclusion
+#print axioms FourCorner.HasseNorms.dyadic_conclusion
+#check FourCorner.HasseNormsInterface.localPoint_iff_localSquares
+#print axioms FourCorner.HasseNormsInterface.localPoint_iff_localSquares
+#check FourCorner.HasseNormsInterface.loc_iff_literal_conditions
+#print axioms FourCorner.HasseNormsInterface.loc_iff_literal_conditions
+#check FourCorner.HasseNormsInterface.field_norm_iff_even_inert
+#print axioms FourCorner.HasseNormsInterface.field_norm_iff_even_inert

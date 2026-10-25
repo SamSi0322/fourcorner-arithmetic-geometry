@@ -37,7 +37,7 @@ thm:profile-master,sections/04_reciprocity_profiles.tex,verified,FourCorner/Corn
 thm:profile-main,sections/04_reciprocity_profiles.tex,verified,FourCorner/CornerReciprocityOpposite.lean,FourCorner.IntegralModel.opposite_colour_congruences; FourCorner.IntegralModel.opposite_colour_residue_refinement
 cor:profile-split,sections/04_reciprocity_profiles.tex,verified,FourCorner/CornerReciprocityOpposite.lean,FourCorner.IntegralModel.opposite_colour_all_split
 thm:hp-uniform,sections/05_hasse_families.tex,not_fully_formalized,,
-lem:hp-norms,sections/05_hasse_families.tex,not_fully_formalized,,
+lem:hp-norms,sections/05_hasse_families.tex,verified,FourCorner/HasseNorms.lean,FourCorner.HasseNorms.hp_norms; FourCorner.HasseNormsInterface.loc_iff_literal_conditions
 thm:hp-infinite,sections/05_hasse_families.tex,not_fully_formalized,,
 lem:cs-odd-row,sections/06_common_source_descent.tex,not_fully_formalized,,
 thm:cs-matrix,sections/06_common_source_descent.tex,not_fully_formalized,,

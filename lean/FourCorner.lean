@@ -29,3 +29,4 @@ import FourCorner.CornerAdjacentLiteral
 import FourCorner.CornerPrimitiveHalfSum
 import FourCorner.CornerOppositeDepth
 import FourCorner.ThetaRealCorrespondence
+import FourCorner.HasseNormsInterface

@@ -1,8 +1,8 @@
 {
-  "release": "1.0.0",
+  "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 34,
-  "not_fully_formalized_numbered_statements": 35,
+  "fully_formalized_numbered_statements": 35,
+  "not_fully_formalized_numbered_statements": 34,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -664,10 +664,17 @@
       "title": null,
       "statement_tex": "\\label{lem:hp-norms}\nUnder $\\operatorname{Loc}(p)$, the numbers $p,a,b$ are norms from\n$\\Q(\\sqrt2)$.  At an odd prime where $2$ is nonsquare their valuations\nare even.  Under \\eqref{eq:hp-domain}, the possible dyadic branches are\n\\[\n v_2(p)\\ge4\\text{ even},\\quad v_2(p)\\le-4\\text{ even},\\quad\n p\\equiv1\\pmod {16},\\quad p\\equiv15\\pmod {16}.\n\\]\nIn the last two branches, respectively, $[a]_2=[2]_2$ and\n$[b]_2=[2]_2$, and the positive valuation is odd and at least five.",
       "statement_sha256": "50bae60ba8367014c863eb72946ee2f6fe05d293f667ad0c20ed15be89bb9bac",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.HasseNorms.hp_norms",
+        "FourCorner.HasseNormsInterface.loc_iff_literal_conditions"
+      ],
+      "source": "FourCorner/HasseNorms.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "thm:hp-infinite",
@@ -1080,5 +1087,10 @@
       "source": null,
       "axioms": []
     }
-  ]
+  ],
+  "published_snapshot": {
+    "version": "1.0.0",
+    "verified_numbered_statements": 34,
+    "doi": "10.5281/zenodo.23638745"
+  }
 }

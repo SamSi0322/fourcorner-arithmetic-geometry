@@ -1,18 +1,7 @@
 {
   "status": "PASS",
-  "release": "1.0.0",
-  "verified_numbered_statements": 34,
+  "verified_numbered_statements": 35,
   "total_numbered_statements": 69,
-  "compiler": "leanprover/lean4:v4.33.1",
-  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "own_project_objects_rebuilt": true,
-  "compatible_external_dependency_cache_reused": true,
-  "cold_kernel_checks": true,
-  "permitted_axioms": [
-    "Classical.choice",
-    "Quot.sound",
-    "propext"
-  ],
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
       "Classical.choice",
@@ -414,6 +403,36 @@
       "Quot.sound",
       "propext"
     ],
+    "FourCorner.HasseNorms.hp_norms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseNorms.global_norm_witnesses": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseNorms.dyadic_conclusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseNormsInterface.localPoint_iff_localSquares": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseNormsInterface.loc_iff_literal_conditions": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseNormsInterface.field_norm_iff_even_inert": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
     "FourCorner.nine_small_curves_affine": [
       "Classical.choice",
       "Quot.sound",
@@ -520,168 +539,22 @@
       "propext"
     ]
   },
-  "stages": [
-    {
-      "project": ".",
-      "stage": "build",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "--no-cache",
-        "build",
-        "FourCorner"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 138.19115954099107,
-      "log": "00_build.log",
-      "log_sha256": "81797d16ce167419a70b8524fef80354db4dd640d9985de116721dae5ab9259d"
-    },
-    {
-      "project": ".",
-      "stage": "audit_0",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "env",
-        "lean",
-        "-t0",
-        "-Ddebug.skipKernelTC=false",
-        "ProofAudit.lean"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 2.611333000008017,
-      "log": "00_audit_0.log",
-      "log_sha256": "bee7c995b864bdff97714cefe0637bf8584e83af94260b533cddf9b5e1218f86"
-    },
-    {
-      "project": "projects/small_curves",
-      "stage": "build",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "--no-cache",
-        "build",
-        "NineSmallCurvesComplete"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 148.53849962502136,
-      "log": "01_build.log",
-      "log_sha256": "6f673b961c20655d104b0de387309bce3419a49cceb86c68f07cd105d894c6a6"
-    },
-    {
-      "project": "projects/small_curves",
-      "stage": "audit_0",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "env",
-        "lean",
-        "-t0",
-        "-Ddebug.skipKernelTC=false",
-        "source/NineSmallCurvesComplete.lean"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 2.4625414579932112,
-      "log": "01_audit_0.log",
-      "log_sha256": "c135aa6aeb88026bd017aaf131db98bc091d821253f9b6aa2604d8d0725c216b"
-    },
-    {
-      "project": "projects/uniform_torsion",
-      "stage": "build",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "--no-cache",
-        "build",
-        "UniformFullCheck"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 97.34216600001673,
-      "log": "02_build.log",
-      "log_sha256": "f7ceab8878eb9452a6a34dc25a8033f944e3205472955296127dc992624d4693"
-    },
-    {
-      "project": "projects/uniform_torsion",
-      "stage": "audit_0",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "env",
-        "lean",
-        "-t0",
-        "-Ddebug.skipKernelTC=false",
-        "source/UniformFullCheck.lean"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 2.4987661250052042,
-      "log": "02_audit_0.log",
-      "log_sha256": "042320890d57048e985d952686b2705e380e51209c325fc54ad79f1bc617f532"
-    },
-    {
-      "project": "projects/uniform_torsion",
-      "stage": "audit_1",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "env",
-        "lean",
-        "-t0",
-        "-Ddebug.skipKernelTC=false",
-        "extra/UniformDiscriminantDepth.lean"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 2.2390527089883108,
-      "log": "02_audit_1.log",
-      "log_sha256": "00776caf41a84c9d6932da1435daa3239c96a5fff599f4bde23e613197db6382"
-    },
-    {
-      "project": "projects/nine_three",
-      "stage": "build",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "--no-cache",
-        "build",
-        "NineThreeScopeAudit"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 148.67447012499906,
-      "log": "03_build.log",
-      "log_sha256": "8219a210fa1dc9067e88905b03381c9464ddb42ddaae221181fed19462011e7b"
-    },
-    {
-      "project": "projects/nine_three",
-      "stage": "audit_0",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "env",
-        "lean",
-        "-t0",
-        "-Ddebug.skipKernelTC=false",
-        "source/NineThreeTorsion.lean"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 6.267115875001764,
-      "log": "03_audit_0.log",
-      "log_sha256": "8b1e828d5ebd686a9858077484465e1dba6476b7c472dd7c14598e956d8df473"
-    },
-    {
-      "project": "projects/nine_three",
-      "stage": "audit_1",
-      "command": [
-        "lake",
-        "--keep-toolchain",
-        "env",
-        "lean",
-        "-t0",
-        "-Ddebug.skipKernelTC=false",
-        "source/NineThreeScopeAudit.lean"
-      ],
-      "exit_code": 0,
-      "elapsed_seconds": 3.310869290988194,
-      "log": "03_audit_1.log",
-      "log_sha256": "e359d14ff99ede6e714dfff7c029bc524a1ac2d33f1bbaf95526145c607994da"
-    }
-  ]
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "full_paper_formalization": false,
+  "release": "development-after-1.0.0",
+  "verified_at_utc": "2026-10-25T10:57:43.964373+00:00",
+  "compiler": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "own_project_objects_rebuilt": true,
+  "compatible_external_dependency_cache_reused": true,
+  "cold_kernel_checks": true,
+  "published_snapshot": {
+    "version": "1.0.0",
+    "verified_numbered_statements": 34,
+    "doi": "10.5281/zenodo.23638745"
+  }
 }
