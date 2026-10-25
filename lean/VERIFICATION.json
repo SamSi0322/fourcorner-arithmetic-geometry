@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 42,
+  "verified_numbered_statements": 43,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -1337,6 +1337,151 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.CommonSource.common_source_matrix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.literal_paper_source_exclusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.common_source_character_criterion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.common_source_character_certificate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.paper_beta_zero_of_source": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.paperSourceRows_W_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.actual_source_paper_log_sign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.paper_primitive_source_module_pullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.original_coordinate_differential_pullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_X": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_Y": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_denominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_tower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.paperEllSeries_eq_canonical": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.paperEllSeries_literal_pullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.formal_origin_and_normalization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.paperLog_hasSum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.wholeLogInteger_paper_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.paperLogCharacter_eq_parameter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.wholeLogInteger_mod_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.LogPrecision.canonicalLogCharacter_eq_parameter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.compensation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.pair_common_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.beta_eq_zero_of_common_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.beta_eq_zero_iff_kernel_representative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.beta_ne_zero_iff_certificate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.weightedCharacter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.certificateCharacter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonSource.beta_ne_zero_iff_weighted_certificate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -1346,13 +1491,13 @@
   ],
   "full_paper_formalization": false,
   "release": "development-after-1.0.0",
-  "verified_at_utc": "2026-10-25T18:13:19.449536+00:00",
+  "verified_at_utc": "2026-10-25T20:27:37.204950+00:00",
   "compiler": "leanprover/lean4:v4.33.1",
   "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "project_count": 10,
+  "project_count": 11,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/common_source"
+    "projects/common_source_matrix"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -1363,9 +1508,10 @@
     "projects/adjacent_genus",
     "projects/common_exclusion",
     "projects/common_genus",
-    "projects/common_genus17"
+    "projects/common_genus17",
+    "projects/common_source"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The new common-source project and its 33 owned modules were also rebuilt and checked individually; the corrected parent ownership configuration was separately rebuilt and audited.",
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The common-source matrix package was freshly built and all 25 owned modules were individually cold-checked.",
   "published_snapshot": {
     "version": "1.0.0",
     "verified_numbered_statements": 34,

@@ -1,0 +1,70 @@
+import CommonSourceMatrixFull
+
+#check @FourCorner.CommonSource.common_source_matrix
+#print axioms FourCorner.CommonSource.common_source_matrix
+#check @FourCorner.CommonSource.literal_paper_source_exclusion
+#print axioms FourCorner.CommonSource.literal_paper_source_exclusion
+#check @FourCorner.CommonSource.common_source_character_criterion
+#print axioms FourCorner.CommonSource.common_source_character_criterion
+#check @FourCorner.CommonSource.common_source_character_certificate
+#print axioms FourCorner.CommonSource.common_source_character_certificate
+#check @FourCorner.CommonSource.paper_beta_zero_of_source
+#print axioms FourCorner.CommonSource.paper_beta_zero_of_source
+#check @FourCorner.CommonSource.paperSourceRows_W_even
+#print axioms FourCorner.CommonSource.paperSourceRows_W_even
+#check @FourCorner.CommonSource.actual_source_paper_log_sign
+#print axioms FourCorner.CommonSource.actual_source_paper_log_sign
+#check @FourCorner.CommonSource.LogPrecision.paper_primitive_source_module_pullback
+#print axioms FourCorner.CommonSource.LogPrecision.paper_primitive_source_module_pullback
+#check @FourCorner.CommonSource.LogPrecision.original_coordinate_differential_pullback
+#print axioms FourCorner.CommonSource.LogPrecision.original_coordinate_differential_pullback
+#check @FourCorner.CommonSource.LogPrecision.coordinateEvaluation_X
+#print axioms FourCorner.CommonSource.LogPrecision.coordinateEvaluation_X
+#check @FourCorner.CommonSource.LogPrecision.coordinateEvaluation_Y
+#print axioms FourCorner.CommonSource.LogPrecision.coordinateEvaluation_Y
+#check @FourCorner.CommonSource.LogPrecision.coordinateEvaluation_denominator
+#print axioms FourCorner.CommonSource.LogPrecision.coordinateEvaluation_denominator
+#check @FourCorner.CommonSource.LogPrecision.coordinateEvaluation_tower
+#print axioms FourCorner.CommonSource.LogPrecision.coordinateEvaluation_tower
+#check @FourCorner.CommonSource.LogPrecision.paperEllSeries_eq_canonical
+#print axioms FourCorner.CommonSource.LogPrecision.paperEllSeries_eq_canonical
+#check @FourCorner.CommonSource.LogPrecision.paperEllSeries_literal_pullback
+#print axioms FourCorner.CommonSource.LogPrecision.paperEllSeries_literal_pullback
+#check @FourCorner.CommonSource.LogPrecision.formal_origin_and_normalization
+#print axioms FourCorner.CommonSource.LogPrecision.formal_origin_and_normalization
+#check @FourCorner.CommonSource.LogPrecision.paperLog_hasSum
+#print axioms FourCorner.CommonSource.LogPrecision.paperLog_hasSum
+#check @FourCorner.CommonSource.LogPrecision.wholeLogInteger_paper_value
+#print axioms FourCorner.CommonSource.LogPrecision.wholeLogInteger_paper_value
+#check @FourCorner.CommonSource.LogPrecision.paperLogCharacter_eq_parameter
+#print axioms FourCorner.CommonSource.LogPrecision.paperLogCharacter_eq_parameter
+#check @FourCorner.CommonSource.LogPrecision.wholeLogInteger_mod_four
+#print axioms FourCorner.CommonSource.LogPrecision.wholeLogInteger_mod_four
+#check @FourCorner.CommonSource.LogPrecision.canonicalLogCharacter_eq_parameter
+#print axioms FourCorner.CommonSource.LogPrecision.canonicalLogCharacter_eq_parameter
+#check @FourCorner.CommonSource.compensation
+#print axioms FourCorner.CommonSource.compensation
+#check @FourCorner.CommonSource.pair_common_kernel
+#print axioms FourCorner.CommonSource.pair_common_kernel
+#check @FourCorner.CommonSource.beta_eq_zero_of_common_kernel
+#print axioms FourCorner.CommonSource.beta_eq_zero_of_common_kernel
+#check @FourCorner.CommonSource.beta_eq_zero_iff_kernel_representative
+#print axioms FourCorner.CommonSource.beta_eq_zero_iff_kernel_representative
+#check @FourCorner.CommonSource.beta_ne_zero_iff_certificate
+#print axioms FourCorner.CommonSource.beta_ne_zero_iff_certificate
+#check @FourCorner.CommonSource.weightedCharacter
+#print axioms FourCorner.CommonSource.weightedCharacter
+#check @FourCorner.CommonSource.certificateCharacter
+#print axioms FourCorner.CommonSource.certificateCharacter
+#check @FourCorner.CommonSource.beta_ne_zero_iff_weighted_certificate
+#print axioms FourCorner.CommonSource.beta_ne_zero_iff_weighted_certificate
+#check @FourCorner.CommonSource.common_source_odd_row
+#print axioms FourCorner.CommonSource.common_source_odd_row
+#check @FourCorner.CommonSource.exists_actual_pair_from_paper
+#print axioms FourCorner.CommonSource.exists_actual_pair_from_paper
+
+open Lean Elab Command in
+run_cmd do
+  let env ← getEnv
+  for m in env.header.moduleNames do
+    logInfo m!"AUDIT_IMPORT {m}"

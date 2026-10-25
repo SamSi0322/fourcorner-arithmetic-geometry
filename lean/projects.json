@@ -70,5 +70,12 @@
     "audit": [
       "Source/CommonSourcePackage.lean"
     ]
+  },
+  {
+    "directory": "projects/common_source_matrix",
+    "target": "CommonSourceMatrixProject",
+    "audit": [
+      "Source/CommonSourceMatrixPackage.lean"
+    ]
   }
 ]

@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 42 of the 69 numbered statements. Further
+The current Lean development fully verifies 43 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -34,3 +34,6 @@ lifting that preserves the original point and all five ordered coordinates.
 
 The common-source companion also proves the odd-prime row lemma for both
 permitted whole-subgroup reduction probes, retaining every source compensator.
+
+The complete common-source character criterion is also formalized, including
+the original logarithmic character and the equivalent finite certificate.

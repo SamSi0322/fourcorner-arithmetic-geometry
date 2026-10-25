@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 42 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 43 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -73,3 +73,9 @@ The common-source package proves both branches of the odd-prime row lemma on the
 actual rational elliptic group. Its characters use the reduction image of the
 entire subgroup, and its exclusions retain all compensation points and every
 valuation depth. The original ordered-source and reduction maps are checked.
+
+The common-source matrix package identifies the normalized integral of the
+original curve differential through its native coordinate ring and Kähler
+pullback. It proves the whole-subgroup logarithmic character comparison and
+combines the exact source coset with all odd-prime rows. The resulting theorem
+includes both the source exclusion and the precise certificate equivalence.

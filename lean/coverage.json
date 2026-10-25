@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 42,
-  "not_fully_formalized_numbered_statements": 27,
+  "fully_formalized_numbered_statements": 43,
+  "not_fully_formalized_numbered_statements": 26,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -885,10 +885,46 @@
       "title": "Common-source character criterion",
       "statement_tex": "\\label{thm:cs-matrix}\nAssume \\eqref{eq:cs-splitting}, $n\\equiv1$ or $7\\pmod8$, and the\nreduction hypotheses above.  Let $W$ satisfy\n\\eqref{eq:cs-source-row} and $\\eta_0(W)=0$, and put $\\kappa=\\bar W$.\nIf $\\beta(\\kappa)\\ne0$, no pair \\eqref{eq:cs-source-pair} has both\n$v_2(f)$ even and $f\\in\\Q_{q_j}^{*2}$ for every $j$.\n\nEquivalently, an exclusion certificate is a vector\n$\\mathbf c=(c_0,\\ldots,c_s)\\in\\F_2^{s+1}$ such that\n\\[\n \\sum_{j=0}^s c_j\\eta_j=0\\text{ on }H,\n \\qquad\n \\frac12\\sum_{j=0}^s c_j\\phi_j(W)=1\\quad\\text{in }\\F_2.\n\\]",
       "statement_sha256": "df40fec321b23607c7b22dbd5a5ee0dcc80f68f06cbde829846fb6d74e09f12d",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CommonSource.common_source_matrix",
+        "FourCorner.CommonSource.literal_paper_source_exclusion",
+        "FourCorner.CommonSource.common_source_character_criterion",
+        "FourCorner.CommonSource.common_source_character_certificate",
+        "FourCorner.CommonSource.paper_beta_zero_of_source",
+        "FourCorner.CommonSource.paperSourceRows_W_even",
+        "FourCorner.CommonSource.actual_source_paper_log_sign",
+        "FourCorner.CommonSource.LogPrecision.paper_primitive_source_module_pullback",
+        "FourCorner.CommonSource.LogPrecision.original_coordinate_differential_pullback",
+        "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_X",
+        "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_Y",
+        "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_denominator",
+        "FourCorner.CommonSource.LogPrecision.coordinateEvaluation_tower",
+        "FourCorner.CommonSource.LogPrecision.paperEllSeries_eq_canonical",
+        "FourCorner.CommonSource.LogPrecision.paperEllSeries_literal_pullback",
+        "FourCorner.CommonSource.LogPrecision.formal_origin_and_normalization",
+        "FourCorner.CommonSource.LogPrecision.paperLog_hasSum",
+        "FourCorner.CommonSource.LogPrecision.wholeLogInteger_paper_value",
+        "FourCorner.CommonSource.LogPrecision.paperLogCharacter_eq_parameter",
+        "FourCorner.CommonSource.LogPrecision.wholeLogInteger_mod_four",
+        "FourCorner.CommonSource.LogPrecision.canonicalLogCharacter_eq_parameter",
+        "FourCorner.CommonSource.compensation",
+        "FourCorner.CommonSource.pair_common_kernel",
+        "FourCorner.CommonSource.beta_eq_zero_of_common_kernel",
+        "FourCorner.CommonSource.beta_eq_zero_iff_kernel_representative",
+        "FourCorner.CommonSource.beta_ne_zero_iff_certificate",
+        "FourCorner.CommonSource.weightedCharacter",
+        "FourCorner.CommonSource.certificateCharacter",
+        "FourCorner.CommonSource.beta_ne_zero_iff_weighted_certificate",
+        "FourCorner.CommonSource.common_source_odd_row",
+        "FourCorner.CommonSource.exists_actual_pair_from_paper"
+      ],
+      "source": "projects/common_source_matrix/Source/CommonSourceMatrixFull.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "thm:cs-15569",
