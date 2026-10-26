@@ -31,7 +31,10 @@ for index,project in enumerate(projects):
   if '--setup' in args:
    setup_path=cwd/args[args.index('--setup')+1]
    setup_data=json.loads(setup_path.read_text())
-   if setup_data.get('options') != {}:
+   expected_options=project.get('expected_setup_options',{})
+   if expected_options not in ({},{'autoImplicit':False,'maxSynthPendingDepth':3}):
+    raise SystemExit('Unsupported declared elaboration options: '+repr(expected_options))
+   if setup_data.get('options') != expected_options:
     raise SystemExit('Audit setup contains unexpected Lean options: '+str(setup_path))
   rel=f'{index:02d}_{name}.log';start=time.monotonic()
   with (logs/rel).open('w') as out:result=subprocess.run(args,cwd=cwd,env=env,stdout=out,stderr=subprocess.STDOUT)

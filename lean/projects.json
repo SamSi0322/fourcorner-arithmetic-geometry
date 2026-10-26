@@ -177,5 +177,19 @@
         "setup": ".lake/build/ir/HpInfiniteCompleteAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/descent_algebra",
+    "target": "DescentAlgebra",
+    "expected_setup_options": {
+      "autoImplicit": false,
+      "maxSynthPendingDepth": 3
+    },
+    "audit": [
+      {
+        "source": "Source/DescentAlgebraAudit.lean",
+        "setup": ".lake/build/ir/DescentAlgebraAudit.setup.json"
+      }
+    ]
   }
 ]

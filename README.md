@@ -75,3 +75,7 @@ The explicit infinite Hasse-failure family is fully formalized on its original
 genus-five projective curves. Every member has points at all completions and in
 the strict real distance region, but no rational point; the family contains
 infinitely many unmarked geometric isomorphism classes.
+
+Verified descent-algebra foundations are also included as a standalone source
+project. They support the remaining geometric formalization; statement-level
+coverage remains 55 of 69.

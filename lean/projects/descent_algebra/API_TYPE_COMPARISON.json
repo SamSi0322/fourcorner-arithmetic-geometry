@@ -1,0 +1,259 @@
+{
+  "rule": "Exact kernel expression repr after alpha-normalizing forall/lam/let binder names to anonymous and removing metadata; constants, universes, binderInfo, values and expression structure preserved. No unfolding or proposition weakening.",
+  "original_context": "Four independently frozen original provider contexts, probed separately without staged modules.",
+  "staged_context": "Private targeted compile using pinned official Mathlib providers only.",
+  "public_declarations": [
+    {
+      "declaration": "FourCorner.FiniteWidePullback.exists_good_limit",
+      "level_parameters": [
+        "v",
+        "u"
+      ],
+      "original_sha256": "16fbfe87e941e030cd87fe4381115e5f46f801efbfad81d1520aa318ba254f5b",
+      "staged_sha256": "16fbfe87e941e030cd87fe4381115e5f46f801efbfad81d1520aa318ba254f5b",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.FiniteWidePullback.fin_base",
+      "level_parameters": [
+        "v",
+        "u"
+      ],
+      "original_sha256": "23aea408a853569b10b2c155c910f4d525b9cbdb02053d698679d9054b2fc2b5",
+      "staged_sha256": "23aea408a853569b10b2c155c910f4d525b9cbdb02053d698679d9054b2fc2b5",
+      "identical": true
+    },
+    {
+      "declaration": "CategoryTheory.MorphismProperty.widePullback_base",
+      "level_parameters": [
+        "v",
+        "u"
+      ],
+      "original_sha256": "d20bcd9039039f54639e3c6e00670fba67eefc346990382417331224c7abc339",
+      "staged_sha256": "d20bcd9039039f54639e3c6e00670fba67eefc346990382417331224c7abc339",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.FiniteWidePullback.scheme_fibre_power",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "313ab90bb0582c49299830b200115cf16270fc5ebf00fac384c7534c5df06243",
+      "staged_sha256": "313ab90bb0582c49299830b200115cf16270fc5ebf00fac384c7534c5df06243",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.FiniteWidePullback.proper_scheme_fibre_power",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "c6afd92bd24dcfce78418412db400a1cbd2cd35f221367960941a4f49ce841d7",
+      "staged_sha256": "c6afd92bd24dcfce78418412db400a1cbd2cd35f221367960941a4f49ce841d7",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.FiniteWidePullback.affine_scheme_fibre_power",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "84eb8d61996199b07abf2e8cf76d70b37e0bdbc5655cf513e6605f515461cfd7",
+      "staged_sha256": "84eb8d61996199b07abf2e8cf76d70b37e0bdbc5655cf513e6605f515461cfd7",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.coefficient",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3"
+      ],
+      "original_sha256": "1e4e8731ea7ec8890913d605a8c4d1459a790c4e174ef903316f4c9e3e797d43",
+      "staged_sha256": "1e4e8731ea7ec8890913d605a8c4d1459a790c4e174ef903316f4c9e3e797d43",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.coefficient_tmul",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3"
+      ],
+      "original_sha256": "74572fb99149f6447e1d031adfb9bc1eeab09f072a245ba0ebc9c5aedc27b354",
+      "staged_sha256": "74572fb99149f6447e1d031adfb9bc1eeab09f072a245ba0ebc9c5aedc27b354",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.coefficient_natural",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3",
+        "u_4"
+      ],
+      "original_sha256": "96244e55df5703e896c40fcd571730afff5e24cd172de44401679fc9f3e67970",
+      "staged_sha256": "96244e55df5703e896c40fcd571730afff5e24cd172de44401679fc9f3e67970",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.exists_nonzero_coefficient",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3"
+      ],
+      "original_sha256": "917577156a845ac4eb420ad7948d860f9a71c58c47a4c93e0122cb289241f3be",
+      "staged_sha256": "917577156a845ac4eb420ad7948d860f9a71c58c47a4c93e0122cb289241f3be",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.unitVector",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3"
+      ],
+      "original_sha256": "30e8100e5e561f8564e1ee629cbc6f268879cc66b4f76728135fd3cdf5f01ef4",
+      "staged_sha256": "30e8100e5e561f8564e1ee629cbc6f268879cc66b4f76728135fd3cdf5f01ef4",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.coefficient_invariant",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3"
+      ],
+      "original_sha256": "865f229e037c57938dcba1f8f02927eb2223c282a711acdb2ea63c820ddbaed0",
+      "staged_sha256": "865f229e037c57938dcba1f8f02927eb2223c282a711acdb2ea63c820ddbaed0",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.exists_nonzero_invariant_of_injective",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3"
+      ],
+      "original_sha256": "3590f13579509e5cfb2ed35e61f036974b25258f020fe4e29c281464cfe52eb2",
+      "staged_sha256": "3590f13579509e5cfb2ed35e61f036974b25258f020fe4e29c281464cfe52eb2",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.PairCoactionInvariants.exists_nonzero_invariant_of_counit",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3"
+      ],
+      "original_sha256": "19cfede06a749e1086fcb06c75655a63c6dced8357043c650bd057988a8d0e1a",
+      "staged_sha256": "19cfede06a749e1086fcb06c75655a63c6dced8357043c650bd057988a8d0e1a",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.IdealFlatDescent.tensor_kernel_of_flat",
+      "level_parameters": [
+        "u_1",
+        "u_2",
+        "u_3",
+        "u_4"
+      ],
+      "original_sha256": "cbe0a57958853ebccf589fdcbc1542602becd82f17cc4b9f006d3e029fd896d0",
+      "staged_sha256": "cbe0a57958853ebccf589fdcbc1542602becd82f17cc4b9f006d3e029fd896d0",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.IdealFlatDescent.map_comap_of_tensor_invariance",
+      "level_parameters": [
+        "u_1",
+        "u_2"
+      ],
+      "original_sha256": "1a3813c5557a27f26c7d047bf45b69df5aaa538b44e95357ff9fb573b52e51b4",
+      "staged_sha256": "1a3813c5557a27f26c7d047bf45b69df5aaa538b44e95357ff9fb573b52e51b4",
+      "identical": true
+    },
+    {
+      "declaration": "Ideal.map_comap_eq_self_of_map_includeLeft_eq_map_includeRight",
+      "level_parameters": [
+        "u_1",
+        "u_2"
+      ],
+      "original_sha256": "24851f6bb0644ca25ca32786bd1849fa212c1cea16187d35e087814d381eb8b1",
+      "staged_sha256": "24851f6bb0644ca25ca32786bd1849fa212c1cea16187d35e087814d381eb8b1",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.IdealFlatDescent.affine_global_sections_faithfully_flat",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "4b8c028c33347fbd72fb9f14ccdd8a4df65020f3befbdaa0e1627fa9bc4ea2d4",
+      "staged_sha256": "4b8c028c33347fbd72fb9f14ccdd8a4df65020f3befbdaa0e1627fa9bc4ea2d4",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.IdealFlatDescent.affine_ideal_descends",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "c0871b88e1284ac2d80a68dd5934821224ad2a378d0fff32cb6fb35d8d42ee8e",
+      "staged_sha256": "c0871b88e1284ac2d80a68dd5934821224ad2a378d0fff32cb6fb35d8d42ee8e",
+      "identical": true
+    },
+    {
+      "declaration": "Module.finitePresentation_of_rankAtStalk_eq",
+      "level_parameters": [
+        "u_1",
+        "u_2"
+      ],
+      "original_sha256": "baf025fd80cc3a6fd17d4801d9fbbdb7fba705f380b220a3cec18d1d5c37d679",
+      "staged_sha256": "baf025fd80cc3a6fd17d4801d9fbbdb7fba705f380b220a3cec18d1d5c37d679",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.ModuleLocalizedRank.tensorEquivOfLocalizedEquiv",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "1b5aa5bdb4ab8afdafd4f0a8d51b5d894071b70a648a54c8e9af81c4f82aed33",
+      "staged_sha256": "1b5aa5bdb4ab8afdafd4f0a8d51b5d894071b70a648a54c8e9af81c4f82aed33",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.ModuleLocalizedRank.tensorPiLocalization",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "b886a81c0994419b968d897439f2efe502beb32ec41558506773886647822020",
+      "staged_sha256": "b886a81c0994419b968d897439f2efe502beb32ec41558506773886647822020",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.ModuleLocalizedRank.scalarTensorEquiv",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "4338c163e0d6804dc8988f3ec6d250cf4768214bb6a2c2d439fcacc8dcff3dec",
+      "staged_sha256": "4338c163e0d6804dc8988f3ec6d250cf4768214bb6a2c2d439fcacc8dcff3dec",
+      "identical": true
+    },
+    {
+      "declaration": "FourCorner.ModuleLocalizedRank.rankAtMaximal_eq_of_localizedEquiv",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "250a417b1e5b8b999aa5038e3d8024c2534ebbcc8da0a1f35e3f3c510a10c0b2",
+      "staged_sha256": "250a417b1e5b8b999aa5038e3d8024c2534ebbcc8da0a1f35e3f3c510a10c0b2",
+      "identical": true
+    },
+    {
+      "declaration": "Module.rankAtStalk_eq_of_forall_localizedModule_equiv",
+      "level_parameters": [
+        "u"
+      ],
+      "original_sha256": "45aac5280bb4d60b7e4b16ba1d74d487faec30e2e8939bdaa21a8295a47c58b9",
+      "staged_sha256": "45aac5280bb4d60b7e4b16ba1d74d487faec30e2e8939bdaa21a8295a47c58b9",
+      "identical": true
+    }
+  ],
+  "payload_note": "The complete normalized type expressions are retained with the original validation evidence; this portable index contains their SHA-256 hashes. DescentAlgebraAudit prints all public kernel types from the current source build."
+}

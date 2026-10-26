@@ -1,0 +1,250 @@
+{
+  "owner": "Yuan Si",
+  "license": "Apache-2.0",
+  "original_frozen_bundles": [
+    {
+      "id": "jacobian_finite_wide_pullback",
+      "freeze_sha256": "0fb180066e7430b385d28fb0b6b16e03a100f4625442e20bf554e6dcaaba3785"
+    },
+    {
+      "id": "jacobian_pair_coaction_invariants",
+      "freeze_sha256": "61f3efcb2183a8d5c8da3187959d726835df7a8580ee58dc05c76970b7c708cc"
+    },
+    {
+      "id": "jacobian_ideal_descent",
+      "freeze_sha256": "7971e147ea31d3e8bd315fba6c55c626300cae3d15d2dfbbe30ff0e7685caedf"
+    },
+    {
+      "id": "jacobian_module_rank_presentation",
+      "freeze_sha256": "8692a9b5edfcda32f3da05297360d8f26ce70d17f918e682f69d29f8e7f5c0cd"
+    }
+  ],
+  "sources": [
+    {
+      "module": "FiniteWidePullback",
+      "path": "Source/FiniteWidePullback.lean",
+      "sha256": "96406d68cee1ce02025842a3a1baf237da6cfe1f0f7f7eed638367dd4ab76b3f",
+      "original_freeze_id": "jacobian_finite_wide_pullback",
+      "original_freeze_sha256": "0fb180066e7430b385d28fb0b6b16e03a100f4625442e20bf554e6dcaaba3785",
+      "original_source_id": "jacobian_finite_wide_pullback/Source/FiniteWidePullback.lean",
+      "original_source_sha256": "96406d68cee1ce02025842a3a1baf237da6cfe1f0f7f7eed638367dd4ab76b3f",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "3da1639a45ee04f19fc59c39d57a0b6c82cf18c4049240175fa759c5055a204b",
+      "import_adaptation": false,
+      "imports": [
+        "Mathlib.CategoryTheory.MorphismProperty.Limits",
+        "Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits",
+        "Mathlib.CategoryTheory.Limits.Shapes.WidePullbacks",
+        "Mathlib.Data.Fintype.EquivFin"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_CategoryTheory_MorphismProperty_widePullback_base",
+      "path": "Source/Theorems/Thm_CategoryTheory_MorphismProperty_widePullback_base.lean",
+      "sha256": "80c926b1a47fd2d2d66b473a793a01b18427a94efbb95cbd1efbcafc33f5b0a9",
+      "original_freeze_id": "jacobian_finite_wide_pullback",
+      "original_freeze_sha256": "0fb180066e7430b385d28fb0b6b16e03a100f4625442e20bf554e6dcaaba3785",
+      "original_source_id": "jacobian_finite_wide_pullback/Source/Theorems/Thm_CategoryTheory_MorphismProperty_widePullback_base.lean",
+      "original_source_sha256": "80c926b1a47fd2d2d66b473a793a01b18427a94efbb95cbd1efbcafc33f5b0a9",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "b5518f26143459f3a9ec9f916e9d008cae60a33817831b239c9cfe22517ec7b2",
+      "import_adaptation": false,
+      "imports": [
+        "FiniteWidePullback"
+      ]
+    },
+    {
+      "module": "WidePullbackSchemeApplications",
+      "path": "Source/WidePullbackSchemeApplications.lean",
+      "sha256": "ff57cf50e0bf5fd5390a2a874761f3d28627fece14a3e3080b90584442cebb9a",
+      "original_freeze_id": "jacobian_finite_wide_pullback",
+      "original_freeze_sha256": "0fb180066e7430b385d28fb0b6b16e03a100f4625442e20bf554e6dcaaba3785",
+      "original_source_id": "jacobian_finite_wide_pullback/Source/WidePullbackSchemeApplications.lean",
+      "original_source_sha256": "ff57cf50e0bf5fd5390a2a874761f3d28627fece14a3e3080b90584442cebb9a",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "90ff8e749f5863d7d58e85ad5c7412d72e0796716f903fb26ab7db5a6116c059",
+      "import_adaptation": false,
+      "imports": [
+        "Theorems.Thm_CategoryTheory_MorphismProperty_widePullback_base",
+        "Mathlib.AlgebraicGeometry.Morphisms.Proper",
+        "Mathlib.AlgebraicGeometry.Morphisms.Affine"
+      ]
+    },
+    {
+      "module": "PairCoactionInvariants",
+      "path": "Source/PairCoactionInvariants.lean",
+      "sha256": "5088c29425c37faa2554969e24356b31c942ba87db5f7978c9af131943f04be2",
+      "original_freeze_id": "jacobian_pair_coaction_invariants",
+      "original_freeze_sha256": "61f3efcb2183a8d5c8da3187959d726835df7a8580ee58dc05c76970b7c708cc",
+      "original_source_id": "jacobian_pair_coaction_invariants/Source/PairCoactionInvariants.lean",
+      "original_source_sha256": "5088c29425c37faa2554969e24356b31c942ba87db5f7978c9af131943f04be2",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "544d7421fa7558d5a7304ae6e6fa9ea6a8ce0bbee4b34ce5e92b3f63710ce9f5",
+      "import_adaptation": false,
+      "imports": [
+        "Mathlib.LinearAlgebra.TensorProduct.Basis",
+        "Mathlib.LinearAlgebra.TensorProduct.Map",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace"
+      ]
+    },
+    {
+      "module": "FlatTensorKernel",
+      "path": "Source/FlatTensorKernel.lean",
+      "sha256": "b031cc2860a07cd9b99afe54f9163849dda119e55301575a049f47759d47a2e3",
+      "original_freeze_id": "jacobian_ideal_descent",
+      "original_freeze_sha256": "7971e147ea31d3e8bd315fba6c55c626300cae3d15d2dfbbe30ff0e7685caedf",
+      "original_source_id": "jacobian_ideal_descent/Source/FlatTensorKernel.lean",
+      "original_source_sha256": "b031cc2860a07cd9b99afe54f9163849dda119e55301575a049f47759d47a2e3",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "40d5cb6365cf99dbf900346d832c6cfabe0a0e6cc2c74dc044fa55513f920e7e",
+      "import_adaptation": false,
+      "imports": [
+        "Mathlib.RingTheory.Flat.Basic",
+        "Mathlib.LinearAlgebra.TensorProduct.RightExactness"
+      ]
+    },
+    {
+      "module": "IdealFlatDescent",
+      "path": "Source/IdealFlatDescent.lean",
+      "sha256": "ca4060f5533cd0185e95b5a7f69bd90dfc5b8d54183cdf93aeab1f6d1c8cdded",
+      "original_freeze_id": "jacobian_ideal_descent",
+      "original_freeze_sha256": "7971e147ea31d3e8bd315fba6c55c626300cae3d15d2dfbbe30ff0e7685caedf",
+      "original_source_id": "jacobian_ideal_descent/Source/IdealFlatDescent.lean",
+      "original_source_sha256": "ca4060f5533cd0185e95b5a7f69bd90dfc5b8d54183cdf93aeab1f6d1c8cdded",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "9351d91e58981a2f391b02df0be5fc7a2be0a184023dcb823f8dc72db3270748",
+      "import_adaptation": false,
+      "imports": [
+        "FlatTensorKernel",
+        "Mathlib.RingTheory.Ideal.Quotient.Operations"
+      ]
+    },
+    {
+      "module": "IdealTensorDescent",
+      "path": "Source/IdealTensorDescent.lean",
+      "sha256": "af1a599c15c098b57d48040c26b1a5736c1eca4f150b0b6f8f649d756368566a",
+      "original_freeze_id": "jacobian_ideal_descent",
+      "original_freeze_sha256": "7971e147ea31d3e8bd315fba6c55c626300cae3d15d2dfbbe30ff0e7685caedf",
+      "original_source_id": "jacobian_ideal_descent/Source/IdealTensorDescent.lean",
+      "original_source_sha256": "af1a599c15c098b57d48040c26b1a5736c1eca4f150b0b6f8f649d756368566a",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "40151b6117f76b69ba68cd16562b35385b7d552bb9f9561bd75a37f3bc28d381",
+      "import_adaptation": false,
+      "imports": [
+        "IdealFlatDescent",
+        "Mathlib.RingTheory.Flat.FaithfullyFlat.Algebra"
+      ]
+    },
+    {
+      "module": "AffineIdealDescent",
+      "path": "Source/AffineIdealDescent.lean",
+      "sha256": "8a604e4cecb3d518c42113c0cd1bb528fbec73d4616bac8e9c6db7e921b3fbdc",
+      "original_freeze_id": "jacobian_ideal_descent",
+      "original_freeze_sha256": "7971e147ea31d3e8bd315fba6c55c626300cae3d15d2dfbbe30ff0e7685caedf",
+      "original_source_id": "jacobian_ideal_descent/Source/AffineIdealDescent.lean",
+      "original_source_sha256": "8a604e4cecb3d518c42113c0cd1bb528fbec73d4616bac8e9c6db7e921b3fbdc",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "96bc8482d3320498e2e281cd3e3c821874af4808b83987f30fc18930c0544ffe",
+      "import_adaptation": false,
+      "imports": [
+        "IdealTensorDescent",
+        "Mathlib.AlgebraicGeometry.Morphisms.Flat",
+        "Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Ideal_map_comap_eq_self_of_map_includeLeft_eq_map_includeRight",
+      "path": "Source/Theorems/Thm_Ideal_map_comap_eq_self_of_map_includeLeft_eq_map_includeRight.lean",
+      "sha256": "53a13674eefe529e4da77d1a8c8fff0d5749ee23ab6403bbb619ec4a62141acf",
+      "original_freeze_id": "jacobian_ideal_descent",
+      "original_freeze_sha256": "7971e147ea31d3e8bd315fba6c55c626300cae3d15d2dfbbe30ff0e7685caedf",
+      "original_source_id": "jacobian_ideal_descent/Source/Theorems/Thm_Ideal_map_comap_eq_self_of_map_includeLeft_eq_map_includeRight.lean",
+      "original_source_sha256": "53a13674eefe529e4da77d1a8c8fff0d5749ee23ab6403bbb619ec4a62141acf",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "52990216886479e243deeb412d03b6517262fec971971bcaf1940fc6b816f20d",
+      "import_adaptation": false,
+      "imports": [
+        "IdealTensorDescent"
+      ]
+    },
+    {
+      "module": "ModuleConstantRankPresentation",
+      "path": "Source/ModuleConstantRankPresentation.lean",
+      "sha256": "34db249f06872d7050cc6015fb623e915b4f1657ba8c0c4be3de2be7c119e0bd",
+      "original_freeze_id": "jacobian_module_rank_presentation",
+      "original_freeze_sha256": "8692a9b5edfcda32f3da05297360d8f26ce70d17f918e682f69d29f8e7f5c0cd",
+      "original_source_id": "jacobian_module_rank_presentation/Source/ModuleConstantRankPresentation.lean",
+      "original_source_sha256": "1faa164d6806a6ce070b9b2ff6dd5777c167e78a9796b586fdd7e65ef9e236dc",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "e755b3c5bdfadcdc265928111922c91b6bdea3d70365e15f9b33dad5b4da8bee",
+      "import_adaptation": true,
+      "imports": [
+        "Mathlib.RingTheory.Flat.LocallyFree",
+        "Mathlib.RingTheory.LocalProperties.FinitePresentation"
+      ]
+    },
+    {
+      "module": "ModuleLocalizedRank",
+      "path": "Source/ModuleLocalizedRank.lean",
+      "sha256": "c177cbf1b1bd63281c816b2bf9d416a117386ff59f317b1950ca5a72a7be4e12",
+      "original_freeze_id": "jacobian_module_rank_presentation",
+      "original_freeze_sha256": "8692a9b5edfcda32f3da05297360d8f26ce70d17f918e682f69d29f8e7f5c0cd",
+      "original_source_id": "jacobian_module_rank_presentation/Source/ModuleLocalizedRank.lean",
+      "original_source_sha256": "c177cbf1b1bd63281c816b2bf9d416a117386ff59f317b1950ca5a72a7be4e12",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "74893aab8e9dad5bb8530eb52407cfbd2c6ebe2e6a40899d427fa91ce53973cd",
+      "import_adaptation": false,
+      "imports": [
+        "ModuleConstantRankPresentation",
+        "Mathlib.RingTheory.Spectrum.Prime.Noetherian",
+        "Mathlib.LinearAlgebra.TensorProduct.Pi"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Module_rankAtStalk_eq_of_forall_localizedModule_equiv",
+      "path": "Source/Theorems/Thm_Module_rankAtStalk_eq_of_forall_localizedModule_equiv.lean",
+      "sha256": "f828e85229b9ae70ac0c495c962951127e94562e771caec2e90a2aa20dbcb583",
+      "original_freeze_id": "jacobian_module_rank_presentation",
+      "original_freeze_sha256": "8692a9b5edfcda32f3da05297360d8f26ce70d17f918e682f69d29f8e7f5c0cd",
+      "original_source_id": "jacobian_module_rank_presentation/Source/Theorems/Thm_Module_rankAtStalk_eq_of_forall_localizedModule_equiv.lean",
+      "original_source_sha256": "f828e85229b9ae70ac0c495c962951127e94562e771caec2e90a2aa20dbcb583",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "import_adaptation": false,
+      "imports": [
+        "ModuleLocalizedRank"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Module_finitePresentation_of_rankAtStalk_eq",
+      "path": "Source/Theorems/Thm_Module_finitePresentation_of_rankAtStalk_eq.lean",
+      "sha256": "46b141c9b8b5013378a252a51678b296668d5910f53500ed0deb805b3d2cd294",
+      "original_freeze_id": "jacobian_module_rank_presentation",
+      "original_freeze_sha256": "8692a9b5edfcda32f3da05297360d8f26ce70d17f918e682f69d29f8e7f5c0cd",
+      "original_source_id": "jacobian_module_rank_presentation/Source/Theorems/Thm_Module_finitePresentation_of_rankAtStalk_eq.lean",
+      "original_source_sha256": "46b141c9b8b5013378a252a51678b296668d5910f53500ed0deb805b3d2cd294",
+      "non_import_bytes_unchanged": true,
+      "non_import_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "import_adaptation": false,
+      "imports": [
+        "ModuleConstantRankPresentation"
+      ]
+    }
+  ],
+  "excluded_private_callers_audits": [
+    "FiniteWidePullbackAudit",
+    "PairCoactionInvariantsAudit",
+    "IdealDescentAudit including caller_type_match",
+    "ModuleRankPresentationAudit"
+  ],
+  "official_mathlib_sources_not_owned": [
+    {
+      "module": "Mathlib.RingTheory.Flat.LocallyFree",
+      "pinned_official_sha256": "79df048a52adc7f20d8b2a23d1a40922d4565e45a05af4b23e27fe0960d0758a"
+    },
+    {
+      "module": "Mathlib.RingTheory.LocalProperties.FinitePresentation",
+      "pinned_official_sha256": "d7f219a177e6ae169a07cbba855bb8e8871525e52673eb082bf24c77c3198847"
+    }
+  ]
+}

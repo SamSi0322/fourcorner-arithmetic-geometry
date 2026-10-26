@@ -129,3 +129,8 @@ The infinite Hasse-failure package proves every member of the exact displayed
 family on the literal projective model, including all local points, strict real
 points, geometric genus five and absence of rational points. Its infinitude is
 proved for unmarked geometric isomorphism classes.
+
+The descent-algebra support project adds finite wide-pullback stability,
+flat ideal descent, constant-rank finite presentation and coaction invariant
+lemmas. These shared foundations are included in the build and axiom audit;
+they add no complete numbered statement to the 55/69 coverage.

@@ -3112,6 +3112,125 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.FiniteWidePullback.exists_good_limit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteWidePullback.fin_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CategoryTheory.MorphismProperty.widePullback_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteWidePullback.scheme_fibre_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteWidePullback.proper_scheme_fibre_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FiniteWidePullback.affine_scheme_fibre_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.coefficient": [
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.coefficient_tmul": [
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.coefficient_natural": [
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.exists_nonzero_coefficient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.unitVector": [
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.coefficient_invariant": [
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.exists_nonzero_invariant_of_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.PairCoactionInvariants.exists_nonzero_invariant_of_counit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IdealFlatDescent.tensor_kernel_of_flat": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IdealFlatDescent.map_comap_of_tensor_invariance": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Ideal.map_comap_eq_self_of_map_includeLeft_eq_map_includeRight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IdealFlatDescent.affine_global_sections_faithfully_flat": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.IdealFlatDescent.affine_ideal_descends": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Module.finitePresentation_of_rankAtStalk_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ModuleLocalizedRank.tensorEquivOfLocalizedEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ModuleLocalizedRank.tensorPiLocalization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ModuleLocalizedRank.scalarTensorEquiv": [
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ModuleLocalizedRank.rankAtMaximal_eq_of_localizedEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Module.rankAtStalk_eq_of_forall_localizedModule_equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -3128,11 +3247,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T17:39:21.217702+00:00",
-  "project_count": 21,
+  "verified_at_utc": "2026-10-26T23:35:28.272386+00:00",
+  "project_count": 22,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/hasse_infinite"
+    "projects/descent_algebra"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -3154,7 +3273,8 @@
     "projects/cs15569",
     "projects/theta_quotient",
     "projects/critical_refined",
-    "projects/critical_double"
+    "projects/critical_double",
+    "projects/hasse_infinite"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All82 infinite-family owned source modules were freshly built and individually cold-checked with actual native Lake provider maps, empty options and standard transitive axioms."
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All15 descent-algebra owned files were freshly built and individually cold-checked using actual native Lake provider maps and only the declared autoImplicit=false/maxSynthPendingDepth=3 elaboration options. All60 introduced declarations use standard transitive axioms; supporting project adds no numbered credit."
 }

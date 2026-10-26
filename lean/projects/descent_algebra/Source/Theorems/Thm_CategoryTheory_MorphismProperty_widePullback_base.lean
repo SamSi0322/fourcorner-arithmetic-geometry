@@ -1,0 +1,4 @@
+import FiniteWidePullback
+
+#check @CategoryTheory.MorphismProperty.widePullback_base
+#print axioms CategoryTheory.MorphismProperty.widePullback_base
