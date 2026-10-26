@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 45,
+  "verified_numbered_statements": 47,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -2337,6 +2337,236 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.critical_allowed_iff_unit_pattern": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.critical_infinite_local_triples": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.critical_unit_iff_infinite_local": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.critical_basic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.critical_basic_original_source": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFiniteGenus.genus_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFiniteGenus.hasse_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGoodPlacePattern.from_good_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGoodPlacePattern.exists_good_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGoodPlacePattern.exists_unit_pattern": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.critical_crt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.critical_crt_infinite_from_unit_patterns": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalCRTCompletion.allowed_unit_pattern": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.paper_local_reverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.paper_local_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.paper_infinite_local_reverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.original_padic_roots_to_unit_pattern": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.nat_padic_roots_to_unit_pattern": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.strict_nat_local_reverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.all_depths_local_reverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.unit_pattern_of_padic_roots": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPadicConverse.padic_roots_exclude_exceptional": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FractionTensorDomain.tensor_isDomain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRadicalField.degree_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRadicalField.actual_critical_equations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRadicalField.a_transcendental": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRadicalField.isCurveOver": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRadicalField.essFiniteType": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFieldConstants.constant_embedding": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFieldConstants.constant_smul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFieldConstants.tower_fraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFieldConstants.field_tensor_domain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFieldConstants.constantsAreBase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalConstantFieldComparison.mapped_hypotheses": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalConstantFieldComparison.fractionFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGeometricGenus.infinity_unramified": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGeometricGenus.genus_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBadPlaces.rational_bad_mem_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBadPlaces.finite_and_card_le_twentyFour": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBadPlaces.actual_bad_places": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFiberBounds.card_le_finrank": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFiberBounds.card_le_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalLinePlaceImage.finite_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RationalLinePlaceImage.infinity_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalHasseNumerics.count_gt_twentyFour": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalHasseNumerics.exists_outside": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -2346,13 +2576,18 @@
   ],
   "full_paper_formalization": false,
   "release": "development-after-1.0.0",
-  "verified_at_utc": "2026-10-26T07:35:38.548147+00:00",
   "compiler": "leanprover/lean4:v4.33.1",
   "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "project_count": 13,
+  "published_snapshot": {
+    "version": "1.0.0",
+    "verified_numbered_statements": 34,
+    "doi": "10.5281/zenodo.23638745"
+  },
+  "verified_at_utc": "2026-10-26T10:17:40.001630+00:00",
+  "project_count": 14,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/critical_elliptic"
+    "projects/critical_prime"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -2366,12 +2601,8 @@
     "projects/common_genus17",
     "projects/common_source",
     "projects/common_source_matrix",
-    "projects/common_finite_places"
+    "projects/common_finite_places",
+    "projects/critical_elliptic"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The critical-elliptic package was freshly built, and all 67 owned modules were individually cold-checked with native Lake setup maps and empty options.",
-  "published_snapshot": {
-    "version": "1.0.0",
-    "verified_numbered_statements": 34,
-    "doi": "10.5281/zenodo.23638745"
-  }
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The critical-prime package was freshly built, and all 37 owned modules were individually cold-checked with native Lake setup maps and empty options."
 }

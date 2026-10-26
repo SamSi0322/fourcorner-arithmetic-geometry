@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 45,
-  "not_fully_formalized_numbered_statements": 24,
+  "fully_formalized_numbered_statements": 47,
+  "not_fully_formalized_numbered_statements": 22,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1252,10 +1252,21 @@
       "title": null,
       "statement_tex": "\\label{thm:crit-basic}\nFor a prime \\(p\\equiv1\\pmod4\\), the following are equivalent:\n\\begin{enumerate}\n\\item \\(p\\notin\\{5,13\\}\\).\n\\item A pattern \\eqref{crit:pattern} exists with \\(b\\ne0\\) and all\n      four entries nonzero squares in \\(\\F_p\\).\n\\item For every \\(s\\ge1\\), there are infinitely many primitive\n      triples \\((X,Y,L)\\), with \\(0<X,Y<L\\) and \\(v_p(L)=2s\\),\n      such that all four radicands in \\eqref{crit:integral} have\n      roots in \\(\\Q_p\\) of valuation exactly \\(s\\).\n\\end{enumerate}\nAt 5 and 13 no critical pattern exists even with zero entries.\nIn particular, for a rational four-distance point,\n\\[\n p\\in\\{5,13\\},\\quad p\\mid G\\quad\\Longrightarrow\\quad p\\mid H.\n\\]",
       "statement_sha256": "2462e1decf41222bc984a43a82a05c0af8cb82ee11615c9b83ebb8aba2c0626a",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.critical_basic",
+        "FourCorner.critical_basic_original_source",
+        "FourCorner.critical_allowed_iff_unit_pattern",
+        "FourCorner.critical_infinite_local_triples",
+        "FourCorner.critical_unit_iff_infinite_local",
+        "FourCorner.CriticalCRTCompletion.allowed_unit_pattern"
+      ],
+      "source": "projects/critical_prime/Source/CriticalBasicFull.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "cor:crit-crt",
@@ -1264,10 +1275,17 @@
       "title": null,
       "statement_tex": "\\label{cor:crit-crt}\nLet \\(\\mathcal P\\) be a finite set of primes congruent to one modulo\nfour, excluding 5 and 13, and prescribe \\(s_p\\ge1\\).\nThere are infinitely many primitive triples \\((X,Y,L)\\), with\n\\(0<X,Y<L\\), for which \\(v_p(L)=2s_p\\) and all four original\nradicands have roots of valuation \\(s_p\\) in \\(\\Q_p\\), simultaneously\nfor every \\(p\\in\\mathcal P\\).",
       "statement_sha256": "7414b47a192277b8621712ed0028db510465b2d85a50bfea20ea73eab1a62109",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.critical_crt",
+        "FourCorner.critical_crt_infinite_from_unit_patterns"
+      ],
+      "source": "projects/critical_prime/Source/CriticalCRTCompletion.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "thm:crit-17",

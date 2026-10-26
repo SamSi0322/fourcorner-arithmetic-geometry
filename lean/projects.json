@@ -97,5 +97,15 @@
         "setup": ".lake/build/ir/CriticalEllipticPackage.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/critical_prime",
+    "target": "CriticalPrimeProject",
+    "audit": [
+      {
+        "source": "Source/CriticalPrimeFullAudit.lean",
+        "setup": ".lake/build/ir/CriticalPrimeFullAudit.setup.json"
+      }
+    ]
   }
 ]

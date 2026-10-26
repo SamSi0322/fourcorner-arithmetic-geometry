@@ -1,0 +1,155 @@
+{
+  "CriticalPrimeFullAudit": [
+    "CriticalBasicFull"
+  ],
+  "CriticalBasicFull": [
+    "CriticalCRTCompletion",
+    "CriticalPaperReverse"
+  ],
+  "CriticalCRTCompletion": [
+    "CriticalCRTInterfaces",
+    "CriticalCRTPrimeBridge"
+  ],
+  "CriticalCRTInterfaces": [
+    "CrtSupport.CriticalBasicFamilyWave24"
+  ],
+  "CrtSupport.CriticalBasicFamilyWave24": [
+    "CrtSupport.CriticalBasicWave24",
+    "CrtSupport.CriticalCRTAssemblyWave25"
+  ],
+  "CrtSupport.CriticalBasicWave24": [
+    "FourCorner.CriticalExcessActual",
+    "FourCorner.IntegralNormalization"
+  ],
+  "CrtSupport.CriticalCRTAssemblyWave25": [
+    "CrtSupport.CriticalCRTPersistenceWave25",
+    "CrtSupport.CriticalCongruenceWave24",
+    "Mathlib.Data.Int.ModEq"
+  ],
+  "CrtSupport.CriticalCRTPersistenceWave25": [
+    "CrtSupport.CriticalBasicLiftWave24",
+    "CrtSupport.CriticalCRTWave25"
+  ],
+  "CrtSupport.CriticalBasicLiftWave24": [
+    "FourCorner.CommonRootTwoLift",
+    "Mathlib.NumberTheory.Padics.PadicNumbers"
+  ],
+  "CrtSupport.CriticalCRTWave25": [
+    "Mathlib.Data.Nat.ChineseRemainder",
+    "Mathlib.NumberTheory.Padics.PadicVal.Basic",
+    "Mathlib.Data.Rat.Lemmas",
+    "Mathlib.Tactic"
+  ],
+  "CrtSupport.CriticalCongruenceWave24": [
+    "CrtSupport.CriticalBasicLiftWave24",
+    "Mathlib.Data.Int.ModEq"
+  ],
+  "CriticalCRTPrimeBridge": [
+    "CrtSupport.CriticalBasicWave24",
+    "CriticalGoodPlacePattern",
+    "Mathlib.NumberTheory.LegendreSymbol.Basic"
+  ],
+  "CriticalGoodPlacePattern": [
+    "CriticalFiniteGenus",
+    "CriticalBadPlaces",
+    "CriticalHasseNumerics"
+  ],
+  "CriticalFiniteGenus": [
+    "CriticalConstantFieldComparison",
+    "CriticalGeometricGenus",
+    "GeometricFrobeniusTransport",
+    "Theorems.Thm_AlgebraicCurve_genusFF_eq_of_constantFieldExtension_of_finite_of_isAlgClosed",
+    "SharpPointBound"
+  ],
+  "CriticalConstantFieldComparison": [
+    "CriticalTensorLocalization"
+  ],
+  "CriticalTensorLocalization": [
+    "CriticalFieldConstants",
+    "Slot03HighTensorFraction"
+  ],
+  "CriticalFieldConstants": [
+    "CriticalRadicalField",
+    "FractionTensorDomain",
+    "TensorAlgebraicConstants",
+    "FunctionFieldIntegralConstants"
+  ],
+  "CriticalRadicalField": [
+    "CriticalAffineBaseChange",
+    "geometry.RatFuncFiniteExtension"
+  ],
+  "FractionTensorDomain": [
+    "Mathlib.RingTheory.Localization.BaseChange",
+    "Mathlib.RingTheory.Localization.FractionRing",
+    "Mathlib.RingTheory.Flat.Basic",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace"
+  ],
+  "CriticalGeometricGenus": [
+    "CriticalRamificationSum"
+  ],
+  "CriticalRamificationSum": [
+    "CriticalActualRamification",
+    "geometry.BiquadraticRamificationSum"
+  ],
+  "CriticalActualRamification": [
+    "CriticalBranchPlaces",
+    "RadicalSeparable"
+  ],
+  "CriticalBranchPlaces": [
+    "CriticalTwoRamification",
+    "geometry.OppositePlaceOrders"
+  ],
+  "CriticalTwoRamification": [
+    "CriticalRadicalField",
+    "OddFourTower"
+  ],
+  "CriticalBadPlaces": [
+    "CriticalBadUnits",
+    "Theorems.Thm_AlgebraicCurve_Place_isRational_iff_deg_eq_one"
+  ],
+  "CriticalBadUnits": [
+    "CriticalBadCover",
+    "RationalLinePlaceImage"
+  ],
+  "CriticalBadCover": [
+    "CriticalFiberBounds"
+  ],
+  "CriticalFiberBounds": [
+    "CriticalActualRamification",
+    "geometry.QuadraticPlaceRamification"
+  ],
+  "RationalLinePlaceImage": [
+    "CriticalActualRamification",
+    "OddFourPlaces",
+    "ResidueValuationFacts"
+  ],
+  "CriticalHasseNumerics": [
+    "Mathlib.Analysis.SpecialFunctions.Sqrt",
+    "Mathlib.Tactic"
+  ],
+  "CriticalPaperReverse": [
+    "CriticalOriginalPadicReverse"
+  ],
+  "CriticalOriginalPadicReverse": [
+    "CriticalPadicReverse",
+    "CrtSupport.CriticalBasicLiftWave24"
+  ],
+  "CriticalPadicReverse": [
+    "CriticalResiduePatternData",
+    "CrtSupport.CriticalBasicWave24"
+  ],
+  "CriticalResiduePatternData": [
+    "CriticalNormalizedRadii"
+  ],
+  "CriticalNormalizedRadii": [
+    "PrimitivePadicCoordinates"
+  ],
+  "PrimitivePadicCoordinates": [
+    "PadicUnitNormalization",
+    "Mathlib.Data.Int.GCD"
+  ],
+  "PadicUnitNormalization": [
+    "FourCorner.CommonRootPadicVal",
+    "Mathlib.NumberTheory.Padics.RingHoms"
+  ]
+}

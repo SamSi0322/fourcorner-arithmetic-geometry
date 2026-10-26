@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 45 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 47 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -91,3 +91,8 @@ The critical-elliptic package proves the complete proposition over every allowed
 field. It constructs a genuine isomorphism of the original projective curve with
 the independent elliptic model and classifies the eight boundary points over
 every field extension, with actual Scheme-point equality and uniqueness.
+
+The critical-prime package proves the complete prime classification and
+simultaneous local-realization theorem. It retains actual finite-field places,
+all positive p-adic depths, primitive strict integer triples, the same ordered
+four-root tuple at each triple, and infinitely many distinct rational pairs.
