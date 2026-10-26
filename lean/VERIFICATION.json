@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 54,
+  "verified_numbered_statements": 55,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -3082,6 +3082,36 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.HpInfiniteComplete.hp_infinite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HpLiteralGeometricNonisoAudit.original_family_infinite_geometric_classes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HpLiteralFamilyConstituents.all_members": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HpLiteralFieldIdentification.literal_model_iso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HpLiteralGeometric.geometric_globalDifferentials_five": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HpLiteralPoints.family_no_literal_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -3098,11 +3128,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T17:14:31.305277+00:00",
-  "project_count": 20,
+  "verified_at_utc": "2026-10-26T17:39:21.217702+00:00",
+  "project_count": 21,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/critical_double"
+    "projects/hasse_infinite"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -3123,7 +3153,8 @@
     "projects/hasse_uniform",
     "projects/cs15569",
     "projects/theta_quotient",
-    "projects/critical_refined"
+    "projects/critical_refined",
+    "projects/critical_double"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All55 critical-double owned source modules were freshly built and individually cold-checked with actual native Lake provider maps, empty options and standard transitive axioms."
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All82 infinite-family owned source modules were freshly built and individually cold-checked with actual native Lake provider maps, empty options and standard transitive axioms."
 }

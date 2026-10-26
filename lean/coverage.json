@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 54,
-  "not_fully_formalized_numbered_statements": 15,
+  "fully_formalized_numbered_statements": 55,
+  "not_fully_formalized_numbered_statements": 14,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -932,10 +932,16 @@
       "title": null,
       "statement_tex": "\\label{thm:hp-infinite}\nFor every integer $j\\ge0$, set\n\\[\n N=3+154j,\\quad M=N+2,\\quad D=N^2+2M^2,\\qquad\n r=\\frac{8MN}{D},\\quad s=\\frac{2(N^2-2M^2)}D,\\quad p=3-s^2.\n\\]\nThe curves $C_p$ form an infinite family of smooth genus-five curves\nwith points at every completion of $\\Q$, including points in the\nstrict real distance region, and with no rational point.",
       "statement_sha256": "25c509424f69de9f41c2fb9610a5dabace08b5d88e26bbe4e58a071f0ca126aa",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.HpInfiniteComplete.hp_infinite"
+      ],
+      "source": "projects/hasse_infinite/Source/HpInfiniteComplete.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "lem:cs-odd-row",

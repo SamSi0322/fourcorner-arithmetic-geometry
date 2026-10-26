@@ -167,5 +167,15 @@
         "setup": ".lake/build/ir/CriticalDoubleFullAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/hasse_infinite",
+    "target": "HasseInfiniteProject",
+    "audit": [
+      {
+        "source": "Source/HpInfiniteCompleteAudit.lean",
+        "setup": ".lake/build/ir/HpInfiniteCompleteAudit.setup.json"
+      }
+    ]
   }
 ]
