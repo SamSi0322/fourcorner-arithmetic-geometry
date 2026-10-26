@@ -1,0 +1,28 @@
+[
+  {
+    "old_module": "FourCorner.NineCubicValuation",
+    "new_module": "CS15569Support.NineCubicValuation",
+    "old_source_path": "Source/FourCorner/NineCubicValuation.lean",
+    "new_source_path": "Source/CS15569Support/NineCubicValuation.lean",
+    "old_source_sha256": "9a1491fddfd6418cb4757817b8b6356b3378784327fc34efd7094c055de73f87",
+    "new_source_sha256": "9a1491fddfd6418cb4757817b8b6356b3378784327fc34efd7094c055de73f87",
+    "source_bytes_unchanged": true,
+    "body_without_import_lines_sha256": "206f630034f3257235eab4f2e9396f5783d73dede309c500a913fff2273a2ee4",
+    "body_without_import_lines_byte_identical": true,
+    "namespaces_unchanged": true,
+    "exact_line_diff": ""
+  },
+  {
+    "old_module": "FourCorner.NineSmallASignedSupport",
+    "new_module": "CS15569Support.NineSmallASignedSupport",
+    "old_source_path": "Source/FourCorner/NineSmallASignedSupport.lean",
+    "new_source_path": "Source/CS15569Support/NineSmallASignedSupport.lean",
+    "old_source_sha256": "ceb52e5e2cfd5df030def32eaa75e9d849cd11d3360d4bde5f45487c9dd03fb6",
+    "new_source_sha256": "a0eef231b763b2bfbcda0ed34f5b01ce4cd1e02d99afdeb101bfdfd7f36934c8",
+    "source_bytes_unchanged": false,
+    "body_without_import_lines_sha256": "27f12e4ccf58c0e1805237c36cb36d40f0aef97f8d672c975068e41e4a5827db",
+    "body_without_import_lines_byte_identical": true,
+    "namespaces_unchanged": true,
+    "exact_line_diff": "--- stage02/Source/FourCorner/NineSmallASignedSupport.lean\n+++ stage03/Source/CS15569Support/NineSmallASignedSupport.lean\n@@ -1,5 +1,5 @@\n import FourCorner.CommonRootSupportDecomposition\n-import FourCorner.NineCubicValuation\n+import CS15569Support.NineCubicValuation\n \n /-! Signed squarefree support for rational coordinates on integral cubics. -/\n namespace FourCorner\n"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 49,
+  "verified_numbered_statements": 51,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -2687,6 +2687,136 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.Cs15569Completion.no_minus_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.unit_offset_deep": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_dyadic_splitting": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_dyadic_direct_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_H_halving": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_H_mod_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_H_mod_eight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_H_kummer_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.raw_source_actual_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_pair_complete_coset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.entire_compensated_P_class": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_H_depth_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.phiEight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.phiEight_parameter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_source_coefficient_parities": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.three_forces_odd_coefficients": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_depth_three_square_sign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.coefficient_odd_depth_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_source_torsion_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.red113_eight_H": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_source_four_abscissae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.integral_abscissa_of_red113": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.actual_pair_exclusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.cs15569_source_exclusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.cs15569_source_exclusion_cast": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.Cs15569Completion.cs15569_layer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -2703,11 +2833,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T12:09:54.254763+00:00",
-  "project_count": 16,
+  "verified_at_utc": "2026-10-26T14:26:41.206496+00:00",
+  "project_count": 17,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/hasse_uniform"
+    "projects/cs15569"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -2724,7 +2854,8 @@
     "projects/common_finite_places",
     "projects/critical_elliptic",
     "projects/critical_prime",
-    "projects/original_cover"
+    "projects/original_cover",
+    "projects/hasse_uniform"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The Hasse-uniform package was freshly built, and all68 owned modules were individually cold-checked with native Lake setup maps and empty options."
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All64 CS15569 source modules were freshly built and individually cold-checked with native Lake provider maps; two import-only aliases and38 unchanged accepted-source copies isolate package ownership without mathematical changes."
 }

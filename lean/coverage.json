@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 49,
-  "not_fully_formalized_numbered_statements": 20,
+  "fully_formalized_numbered_statements": 51,
+  "not_fully_formalized_numbered_statements": 18,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1044,10 +1044,17 @@
       "title": null,
       "statement_tex": "\\label{thm:cs-15569}\nLet $n=15569$.  There are no finite rational points $Q=(a,b)$,\n$R=(c,e)$ satisfying \\eqref{eq:cs-source-pair} for which $f(Q,R)$ is a\nsquare in each of $\\Q_2,\\Q_3,\\Q_{113}$.",
       "statement_sha256": "c76c6d9636f3ff67c9b9d77a3468beba1a16d88fc7c9d1ec567ea8ca426baebe",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.Cs15569Completion.cs15569_source_exclusion",
+        "FourCorner.Cs15569Completion.cs15569_source_exclusion_cast"
+      ],
+      "source": "projects/cs15569/Source/Cs15569Complete.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "cor:cs-15569-layer",
@@ -1056,10 +1063,16 @@
       "title": null,
       "statement_tex": "\\label{cor:cs-15569-layer}\nFor a strict interior rational-distance configuration, put\n$t=r_{00}r_{11}+r_{10}r_{01}$.  Then $\\sf(t^2-1)\\ne15569$.",
       "statement_sha256": "3a242e93ce72ba5cd6457beeab3c0eb2b3ba0167c97c0ae1ca9ff01696b56293",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.Cs15569Completion.cs15569_layer"
+      ],
+      "source": "projects/cs15569/Source/Cs15569Complete.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "prop:theta-quotient",

@@ -127,5 +127,15 @@
         "setup": ".lake/build/ir/HasseUniformCompleteAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/cs15569",
+    "target": "Cs15569Project",
+    "audit": [
+      {
+        "source": "Source/Cs15569Audit.lean",
+        "setup": ".lake/build/ir/Cs15569Audit.setup.json"
+      }
+    ]
   }
 ]

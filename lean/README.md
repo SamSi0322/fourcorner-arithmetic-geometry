@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 49 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 51 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -106,3 +106,9 @@ The uniform Hasse-family package proves the original no-rational-point theorem
 with its complete parameter domain, local condition and obstruction bit. Its
 direct arithmetic proof retains all projective boundary points and every
 valuation depth, with no geometric reciprocity or local-evaluation premise.
+
+The 15569 package proves the complete raw ordered-source exclusion and the
+original strict-point layer corollary. Full rational subgroup decomposition,
+all compensation classes, the exact dyadic character, and actual reductions
+at three and 113 are established inside the proof, without a rank, basis,
+saturation, residue-image or height-bound premise.
