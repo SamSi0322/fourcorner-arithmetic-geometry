@@ -1,0 +1,884 @@
+{
+  "CriticalProj23": {
+    "path": "Source/CriticalProj23.lean",
+    "sha256": "37cae3410104c8d6fd62bc15a14386700d496422c47993b64ff406f0c871946d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalElliptic23": {
+    "path": "Source/CriticalElliptic23.lean",
+    "sha256": "ad62803b905e3bb8e7d937cea93ac6e8cef0fd5da218f98d9f6aef5b1745c9f1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalProjCoordinates23": {
+    "path": "Source/CriticalProjCoordinates23.lean",
+    "sha256": "d6a618978013b5badba15b79872ca7adbc536ca3b214e69e63784bcb1947a17f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalAffineGeometry": {
+    "path": "Source/CriticalAffineGeometry.lean",
+    "sha256": "ff747b0b2bb36f479b62eb5525e8a79f195b0130065a50b99b30369e59bf342c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalSquareclasses": {
+    "path": "Source/CriticalSquareclasses.lean",
+    "sha256": "f1b9996075f2ff180e64ead4c58efbb46f5491085a3a5d4926f9d1580fd449e4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalAffineTower": {
+    "path": "Source/CriticalAffineTower.lean",
+    "sha256": "dee92bd6a57c6467e57861af481190c8dd67d699ca665928b731dfa151c8d94d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalAffineDomain": {
+    "path": "Source/CriticalAffineDomain.lean",
+    "sha256": "227afb571230213f5f47724979c82393700c96c663f3d6fca7212b624c8d278a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalAmbientChart": {
+    "path": "Source/CriticalAmbientChart.lean",
+    "sha256": "2faab2a7023bd987de455ee5695425764dffd5bee0873c2a847cee0b4e824576",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalQuotientChart": {
+    "path": "Source/CriticalQuotientChart.lean",
+    "sha256": "781417710dde177c88487080c06a63e926d10384eb7c6d7666f27e00e817b4c0",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalCharts23": {
+    "path": "Source/CriticalCharts23.lean",
+    "sha256": "6ad0c76e70f4876f8f26f321a5930391720ee1ce8bedcf994daafa1edb43e2af",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalProper23": {
+    "path": "Source/CriticalProper23.lean",
+    "sha256": "d43a57205fe19e9c9ace0190709d246e7095f3f7219be4bb6344ba71cec4799f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalStandardCharts": {
+    "path": "Source/CriticalStandardCharts.lean",
+    "sha256": "55d05f9f24ab2f840f3ce9a5892f9d9f77366a82ecf07dcc410d09856a0c2944",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalSecondChart": {
+    "path": "Source/CriticalSecondChart.lean",
+    "sha256": "094cd5a25cc91b8257eab34bd1d18bbec0e60464ddbc80b6b2ced145fb489b3a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalSchemePoints23": {
+    "path": "Source/CriticalSchemePoints23.lean",
+    "sha256": "948e62fc3429d6e498930b30c6e26e7bbada6e8a89ef05cac8c401dad98b5dea",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalTwoChartCover": {
+    "path": "Source/CriticalTwoChartCover.lean",
+    "sha256": "eeeae66ae857067b8581468072e41dcc73a472d123efcec6441a0af4023eb59f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalProjectiveIntegral": {
+    "path": "Source/CriticalProjectiveIntegral.lean",
+    "sha256": "cdd0a1bc87b869607ee832c774bc8edb623aea692596da3a8b3870292dc5a3a3",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalScalarGeometry": {
+    "path": "Source/CriticalScalarGeometry.lean",
+    "sha256": "0b0f0ce4293d4cf55e54871b4b2c69d1665a8f270678ca3bb517ceaedf396754",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalChartJacobian": {
+    "path": "Source/CriticalChartJacobian.lean",
+    "sha256": "9a03e484a7a6984958eee78cd7fcd323d0229ce1d4aedd7163902a6e1fd67168",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalChartSmooth": {
+    "path": "Source/CriticalChartSmooth.lean",
+    "sha256": "6e93ad298d571ee9e2f490e96b3ac7b86efc04ff82d0292858a58fd5e438ac47",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalChartBase": {
+    "path": "Source/CriticalChartBase.lean",
+    "sha256": "87ac204ef32b21692dfe4b0c3597eeccc3673b45a36de2c7b3927191c33d31cb",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalProjectiveSmooth": {
+    "path": "Source/CriticalProjectiveSmooth.lean",
+    "sha256": "087bec6168e04b38bbe3171b30c98093d263b1ff368e4331b111c5a2a347e241",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "SmoothCurveValuation": {
+    "path": "Source/SmoothCurveValuation.lean",
+    "sha256": "2caa15437eabff7c9daf76dc826f836b9243b6ad18a69caa60f4b7a929b22990",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted pinned upstream generic extension sections plus original project wrappers",
+      "repository": "https://github.com/anthropics/fermats-last-theorem",
+      "revision": "6e837e75355538c7f80bab5b956861e86c4eacc2",
+      "upstream_source_sha256": "99dde19f70067fc638bc6bc6910c0df077f45f166046df09d61d60e71017d934",
+      "derivation": "UPSTREAM_DERIVATION.json"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "SmoothCurveGenericExtension": {
+    "path": "Source/SmoothCurveGenericExtension.lean",
+    "sha256": "17fa8c09b57783f097e90c8a8cee22a85578bcbb14f99b46fdb18fb4a2cb628d",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted pinned upstream generic extension sections plus original project wrappers",
+      "repository": "https://github.com/anthropics/fermats-last-theorem",
+      "revision": "6e837e75355538c7f80bab5b956861e86c4eacc2",
+      "upstream_source_sha256": "99dde19f70067fc638bc6bc6910c0df077f45f166046df09d61d60e71017d934",
+      "derivation": "UPSTREAM_DERIVATION.json"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "SmoothCurveGenericIso": {
+    "path": "Source/SmoothCurveGenericIso.lean",
+    "sha256": "273dbeae80758e9a10ddcf3d94b3c88abdab3787eef4abbd602ead3acce4b12b",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted pinned upstream generic extension sections plus original project wrappers",
+      "repository": "https://github.com/anthropics/fermats-last-theorem",
+      "revision": "6e837e75355538c7f80bab5b956861e86c4eacc2",
+      "upstream_source_sha256": "99dde19f70067fc638bc6bc6910c0df077f45f166046df09d61d60e71017d934",
+      "derivation": "UPSTREAM_DERIVATION.json"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "SmoothCurveFieldIso": {
+    "path": "Source/SmoothCurveFieldIso.lean",
+    "sha256": "d983bc551984a0e1238195357c9d5131943f418d6fcea7e9482595319f6f5fc8",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted pinned upstream generic extension sections plus original project wrappers",
+      "repository": "https://github.com/anthropics/fermats-last-theorem",
+      "revision": "6e837e75355538c7f80bab5b956861e86c4eacc2",
+      "upstream_source_sha256": "99dde19f70067fc638bc6bc6910c0df077f45f166046df09d61d60e71017d934",
+      "derivation": "UPSTREAM_DERIVATION.json"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AffineGenericStalk": {
+    "path": "Source/AffineGenericStalk.lean",
+    "sha256": "ac16257b45331200004cb05aa1a574e8f2cefc7771c4f2ccebfddabf7bae7145",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalProjectiveField": {
+    "path": "Source/CriticalProjectiveField.lean",
+    "sha256": "a0b4b9416cfffafc970e4a7753e156987afc48b8532b9268ca64ba8946db9821",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalConicParameter": {
+    "path": "Source/CriticalConicParameter.lean",
+    "sha256": "0077f709dda00f4e544482a21202b5e6c9f1dc5aa915dcb47fff2a741f083ebd",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalQuarticCubic": {
+    "path": "Source/CriticalQuarticCubic.lean",
+    "sha256": "c016d843728cb541e615e1adbee6c75d72c285e74285c5fe525ecc4ca827eba3",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalDirectQuartic": {
+    "path": "Source/CriticalDirectQuartic.lean",
+    "sha256": "787bfd691c85a39f357ea18c91e7c6db5aad499e49e1096835b5ca1072d64495",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalDirectMap": {
+    "path": "Source/CriticalDirectMap.lean",
+    "sha256": "6945e8471b57de0f99befd30d2b61833b23780a5155136e5fab2e903644cb124",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalMapTranscendence": {
+    "path": "Source/CriticalMapTranscendence.lean",
+    "sha256": "43078b33dca1f9f988e09a835feee91e47792a46856c07f01ff46189f786cf89",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalEllipticField": {
+    "path": "Source/CriticalEllipticField.lean",
+    "sha256": "83e76d31e5d1969f38cb5f1ae096d9292b1cd95afa99eb4999ef1220fa83c5a4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "IntegralEvaluationInjection": {
+    "path": "Source/IntegralEvaluationInjection.lean",
+    "sha256": "815f93e0e859e3f10d08c7d4af51911a11d3e9d5a02dd3848ac8412b716f57c0",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalEllipticEvaluation": {
+    "path": "Source/CriticalEllipticEvaluation.lean",
+    "sha256": "dc8d911ec1cfa159e4d70eec621b3b32f4a117ec1847b76f04b7fa3dd201d811",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalFieldEquivalence": {
+    "path": "Source/CriticalFieldEquivalence.lean",
+    "sha256": "20132af6ba1ed086dcaa7d6ad0681fc3c3db0812956c324216ca5d123cbf199e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalFieldCoordinates": {
+    "path": "Source/CriticalFieldCoordinates.lean",
+    "sha256": "b80d12a134c09199934400fb67448b0a308716aaa25de6e4b4ba72d73fa3ce4d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "FractionFieldGenerators": {
+    "path": "Source/FractionFieldGenerators.lean",
+    "sha256": "6d4dc230566172843245bfcc04d1c829145694b35947d3c7fa055f12f87afb29",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalAffineFieldBridge": {
+    "path": "Source/CriticalAffineFieldBridge.lean",
+    "sha256": "33522fb18d72688f9095c7b6da06b21b7a23e4c8769205189f3c65d1ebf8373d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalMapNaturality": {
+    "path": "Source/CriticalMapNaturality.lean",
+    "sha256": "8c108bca9d05bbfa318b0f85b976e2515ce4f79401a5166fc66b25ddc2a9138a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalFieldInverse": {
+    "path": "Source/CriticalFieldInverse.lean",
+    "sha256": "f23c14952e1f5163d1ce71ae234c68e57b3806eb69a806b43a21517561c9ffc2",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalNativeFieldIso": {
+    "path": "Source/CriticalNativeFieldIso.lean",
+    "sha256": "2821a1c7362a00e41b9a7b72f9c758ccd517b96c8c089138180f6eec8cb2d99a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalNativeFieldCoordinates": {
+    "path": "Source/CriticalNativeFieldCoordinates.lean",
+    "sha256": "f1fe6aa8e3679d37d6eceb850d0cfb2f3acdcb70048bfa3bda7fe821c09f0f81",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticModel": {
+    "path": "Source/EllipticQuarticModel.lean",
+    "sha256": "68f4d3470cdc6748df5af8cfaf101c0ebfc20b5410ac701466dba7e3eb59ea8e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticCover": {
+    "path": "Source/EllipticQuarticCover.lean",
+    "sha256": "4c07af5213502701e17ef5ff5341131a9733b9b50857394e827ec3afaee4eb8c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticAffine": {
+    "path": "Source/EllipticQuarticAffine.lean",
+    "sha256": "38e01cb945d8c69a43779b5bdf81e265725a965de5c8c5c2a42d0132ff748d41",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticAffineIso": {
+    "path": "Source/EllipticQuarticAffineIso.lean",
+    "sha256": "f955f1e3ccf09286db9eb13c75b9e7826c54650a1add3e9769416484e35c53dc",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticInfinityAffine": {
+    "path": "Source/EllipticInfinityAffine.lean",
+    "sha256": "7c0689488ec2af8741400f74912e9214e70230ef95c34f70a25c9fc61632250b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticChartBase": {
+    "path": "Source/EllipticQuarticChartBase.lean",
+    "sha256": "e82a33aa3f47612ed500af2bdf9e16da1732648c6f8efd510b6a235fbf598cc8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticPoint": {
+    "path": "Source/EllipticQuarticPoint.lean",
+    "sha256": "5741c0736876f0c85fa9e330940506ba14e52bd9ebff6eeebc7ed4f7d1c9551a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticIntegral": {
+    "path": "Source/EllipticQuarticIntegral.lean",
+    "sha256": "5b8de1ee2a84947eaa2062aec2944601cad093dec1b165633b7d9cbac83feaf7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticFunctionField": {
+    "path": "Source/EllipticQuarticFunctionField.lean",
+    "sha256": "120817d6d7ec4a94fa5aa4dc8c0c3f977476ce3a7646d37fc9c87176ccbb5951",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticChartSmooth": {
+    "path": "Source/EllipticQuarticChartSmooth.lean",
+    "sha256": "a711fa0c9cc2905d6e9bcc80e2675595eab3b0b47c5bf1c02cab04096aeb1a8b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "EllipticQuarticSmooth": {
+    "path": "Source/EllipticQuarticSmooth.lean",
+    "sha256": "09448a0b025a56b681748f362786b85f6bfcd227dd5147b380063df42e1ed5a5",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalSchemeIso": {
+    "path": "Source/CriticalSchemeIso.lean",
+    "sha256": "de9f665ebbb0fa094431acc2dcc1b5041212de117c9983d0e492602d9f4e9c67",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalAffineBaseChange": {
+    "path": "Source/CriticalAffineBaseChange.lean",
+    "sha256": "09d688e4efd1f2754dad289f99648da74c55a11d3da3f01da77b239c42a5c262",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AffineChartSections": {
+    "path": "Source/AffineChartSections.lean",
+    "sha256": "ef3168bb9e738c89cc51e9c569a191c5235b66579377e919e9cf08d4152a6ad8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalGeometricIntegral": {
+    "path": "Source/CriticalGeometricIntegral.lean",
+    "sha256": "64fb667d87e1524b726984b3f5c48b0fac6675e82b92ff7222de18fe4b89eb7f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalGeometricConnected": {
+    "path": "Source/CriticalGeometricConnected.lean",
+    "sha256": "7e873e4407dc38577c4da1d066844b88e8db3c9390e912a89f86cb65b6687205",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalExtensionPoints": {
+    "path": "Source/CriticalExtensionPoints.lean",
+    "sha256": "a45c53b3cacc3d8a7c11643eff36d04e8a9b93d3bb400b934d840d25512d2e6d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalHomogeneousEvaluation": {
+    "path": "Source/CriticalHomogeneousEvaluation.lean",
+    "sha256": "e3e23a91bb39f6126ebdf2403d1e16745cab43bf12f0066f73a447c2e6a3bcbf",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalBoundaryChart": {
+    "path": "Source/CriticalBoundaryChart.lean",
+    "sha256": "e0c315d04ccb8f6d2ffadcc1022a2075a09cbc9dad905082e601d1eebd600488",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalSignPoints": {
+    "path": "Source/CriticalSignPoints.lean",
+    "sha256": "9560acfc963b04c0111b27f9e95d7387695868b4042ab169533a26665e872328",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalBoundaryClassification": {
+    "path": "Source/CriticalBoundaryClassification.lean",
+    "sha256": "46bc5e9e05fe3714712dd8ce3f19c540fa3af72da6fdb6c856faeef820facf83",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalBoundaryCardinality": {
+    "path": "Source/CriticalBoundaryCardinality.lean",
+    "sha256": "285a0a282418db5a967decc0acbf24aec2a95dbf77837bbd477bd567f0e1837b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalEllipticFull": {
+    "path": "Source/CriticalEllipticFull.lean",
+    "sha256": "f1419d1a0139e5ab7ab293d3ae8558297c98b575b2ea731362c6224d029cbd04",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CriticalEllipticPackage": {
+    "path": "Source/CriticalEllipticPackage.lean",
+    "sha256": "637dd0879616345804a99820cfb03bb3e70fcd97451250f175eacb341bd12ea8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Verification entry point"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 44,
+  "verified_numbered_statements": 45,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -1917,6 +1917,426 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.CriticalEllipticFull.unique_geometric_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalEllipticFull.critical_elliptic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeIso.iso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeIso.iso_over_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeIso.exists_iso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeIso.genericFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProjectiveField.nativeChart_over_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProjectiveField.fieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProjectiveField.generic_diagram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNativeFieldIso.fieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNativeFieldIso.original_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNativeFieldIso.fieldEquiv_x": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNativeFieldIso.fieldEquiv_y": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNativeFieldIso.source_denominators": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalFieldEquivalence.inverse_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalEllipticField.x_transcendental": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalEllipticField.equation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalEllipticEvaluation.evaluate_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDirectMap.elliptic_equation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDirectMap.inverse_denominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDirectMap.inverseA_forward": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDirectMap.inverseB_forward": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDirectMap.inverseC_forward": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalConicParameter.first_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalConicParameter.second_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineDomain.coordinate_transcendental": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineDomain.ring_isDomain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProjectiveSmooth.projective_smooth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProjectiveIntegral.projective_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.EllipticQuarticModel.proper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.EllipticQuarticModel.smooth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.EllipticQuarticModel.integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.EllipticQuarticModel.nativeFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.SmoothCurveExtension.iso_of_functionField_algEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AffineGenericStalk.fieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineGeometry.coordinate_equations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineGeometry.coordinate_generates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineGeometry.ofCoordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAmbientChart.ambientEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalQuotientChart.chartEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalQuotientChart.chartSchemeIso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalStandardCharts.chartIso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalStandardCharts.zeroChartIso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalScalarGeometry.zero_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalScalarGeometry.minor_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalChartJacobian.jacobian_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalChartSmooth.field_point_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalChartSmooth.pair_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalChartSmooth.field_point_jacobian": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalChartSmooth.affine_smooth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalChartBase.chart_over_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProjectiveSmooth.actual_chart_smooth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSquareclasses.independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineTower.equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineDomain.tower_coeff_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSecondChart.equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSecondChart.isDomain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalTwoChartCover.two_charts_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalTwoChartCover.cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalTwoChartCover.overlap_nonempty": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineBaseChange.affineEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalAffineBaseChange.isDomain_tensor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGeometricIntegral.pullback_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGeometricIntegral.geometricallyIntegral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProj23.inclusion_isClosedImmersion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProj23.criticalToSpec_isProper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProj23.coordinate_opens_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AffineChartSections.sectionAlgEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.AffineChartSections.isDomain_tensor_sections": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGeometricConnected.geometricallyConnected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalExtensionPoints.point_affine_algebra": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalExtensionPoints.point_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalHomogeneousEvaluation.chart_preimage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalHomogeneousEvaluation.point_preimage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalHomogeneousEvaluation.shift_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBoundaryChart.factors_zero_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSignPoints.point_over": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSignPoints.evaluation_ax": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBoundaryClassification.geometric_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBoundaryClassification.point_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBoundaryCardinality.pointOver_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBoundaryCardinality.point_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBoundaryCardinality.pointOver_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalBoundaryCardinality.point_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -1926,13 +2346,13 @@
   ],
   "full_paper_formalization": false,
   "release": "development-after-1.0.0",
-  "verified_at_utc": "2026-10-25T20:45:41.498303+00:00",
+  "verified_at_utc": "2026-10-26T07:35:38.548147+00:00",
   "compiler": "leanprover/lean4:v4.33.1",
   "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
-  "project_count": 12,
+  "project_count": 13,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/common_finite_places"
+    "projects/critical_elliptic"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -1945,9 +2365,10 @@
     "projects/common_genus",
     "projects/common_genus17",
     "projects/common_source",
-    "projects/common_source_matrix"
+    "projects/common_source_matrix",
+    "projects/common_finite_places"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The finite-local package was freshly built and all 210 owned modules were individually cold-checked with native Lake setup maps and empty options.",
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The critical-elliptic package was freshly built, and all 67 owned modules were individually cold-checked with native Lake setup maps and empty options.",
   "published_snapshot": {
     "version": "1.0.0",
     "verified_numbered_statements": 34,

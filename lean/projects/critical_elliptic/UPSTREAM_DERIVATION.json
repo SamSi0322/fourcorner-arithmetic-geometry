@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/anthropics/fermats-last-theorem",
+  "revision": "6e837e75355538c7f80bab5b956861e86c4eacc2",
+  "license": "Apache-2.0",
+  "source": "P2M/Sol/S_AlgebraicCurve_CurveModel_exists_hom_of_algHom.lean",
+  "source_sha256": "99dde19f70067fc638bc6bc6910c0df077f45f166046df09d61d60e71017d934",
+  "extracted_sections": [
+    "Spread",
+    "LocalRings"
+  ],
+  "changes": [
+    "new namespace and imports",
+    "valuationRing_stalk made public",
+    "generalized CurveModel arguments to original Scheme and native smooth/proper predicates",
+    "explicit categorical composition and transparency elaboration repairs, kernel checks unchanged",
+    "removed unused FlatRank import; added exact Unramified.LocalRing import",
+    "mem_domain_of_valuationRing made public as well"
+  ],
+  "scope": "arbitrary Field, no CurveModel or CharZero assumption",
+  "additional_adapted_sections": [
+    "exists_hom_comp_toBase_eq generic extension without CurveModel",
+    "isDominant_fromSpecStalk_genericPoint and dense uniqueness",
+    "fromSpecStalk_genericPoint_comp_eq base-field identity"
+  ],
+  "original_project_proofs": [
+    "ring-equivalence inverses give inverse extended maps",
+    "K-algebra equivalence wrapper"
+  ]
+}

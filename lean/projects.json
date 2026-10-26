@@ -87,5 +87,15 @@
         "setup": ".lake/build/ir/FiniteLocalPackage.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/critical_elliptic",
+    "target": "CriticalEllipticProject",
+    "audit": [
+      {
+        "source": "Source/CriticalEllipticPackage.lean",
+        "setup": ".lake/build/ir/CriticalEllipticPackage.setup.json"
+      }
+    ]
   }
 ]
