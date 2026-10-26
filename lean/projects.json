@@ -117,5 +117,15 @@
         "setup": ".lake/build/ir/OriginalCoverAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/hasse_uniform",
+    "target": "HasseUniformProject",
+    "audit": [
+      {
+        "source": "Source/HasseUniformCompleteAudit.lean",
+        "setup": ".lake/build/ir/HasseUniformCompleteAudit.setup.json"
+      }
+    ]
   }
 ]

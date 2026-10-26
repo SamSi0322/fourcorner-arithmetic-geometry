@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 48,
+  "verified_numbered_statements": 49,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -2617,6 +2617,76 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.HasseProjectivePoint.rationalPoint_nonempty_iff_literal_squares": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseAnchorChoice.tangentData": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseOddSymbol.rationalSign_eq_oddSign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseDyadicSymbol.rationalSign_eq_dyadicSign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseWR.global_wsupport": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseConstantCorrection.correctedSign_parameter_finite_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseCorrectedOddProduct.correctedOdd_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseDyadicUnitOneRow.tangentSign_unitOne": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseUnitFifteenRow.tangentSign_unitFifteen": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseFinalDyadic.correctedDyadic_T_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseUniformNoPoint.obstruction_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseUniformNoPoint.hp_uniform": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseUniformNoPoint.hp_uniform_literal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.HasseUniformNoPoint.hp_uniform_four_squares": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -2633,11 +2703,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T11:22:10.820151+00:00",
-  "project_count": 15,
+  "verified_at_utc": "2026-10-26T12:09:54.254763+00:00",
+  "project_count": 16,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/original_cover"
+    "projects/hasse_uniform"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -2653,7 +2723,8 @@
     "projects/common_source_matrix",
     "projects/common_finite_places",
     "projects/critical_elliptic",
-    "projects/critical_prime"
+    "projects/critical_prime",
+    "projects/original_cover"
   ],
-  "cold_kernel_checks": "Every declared endpoint was cold-checked with lean -t0 and debug.skipKernelTC=false. All18 new owned modules also passed individual cold checks with native Lake provider maps. After the coverage index refresh, all48 statement endpoint lists were matched again against the complete15-project cold outputs."
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The Hasse-uniform package was freshly built, and all68 owned modules were individually cold-checked with native Lake setup maps and empty options."
 }

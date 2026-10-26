@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 48,
-  "not_fully_formalized_numbered_statements": 21,
+  "fully_formalized_numbered_statements": 49,
+  "not_fully_formalized_numbered_statements": 20,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -892,10 +892,19 @@
       "title": null,
       "statement_tex": "\\label{thm:hp-uniform}\nSuppose \\eqref{eq:hp-domain} holds.  If $\\operatorname{Loc}(p)$ holds\nand $\\mathcal T(p)=1$, then $C_p(\\Q)=\\varnothing$.",
       "statement_sha256": "20fd8d3c25dab8aba827b26ea2b1d7690ef9bcf1c0b325a6e048032b762904d2",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.HasseUniformNoPoint.hp_uniform",
+        "FourCorner.HasseUniformNoPoint.hp_uniform_literal",
+        "FourCorner.HasseUniformNoPoint.hp_uniform_four_squares",
+        "FourCorner.HasseUniformNoPoint.obstruction_zero"
+      ],
+      "source": "projects/hasse_uniform/Source/HasseUniformNoPoint.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "lem:hp-norms",

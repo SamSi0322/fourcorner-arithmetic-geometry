@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 48 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 49 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -101,3 +101,8 @@ The original-cover package proves the complete function-field relation for
 every nonzero rational parameter. Its coordinate-preserving embedding retains
 both position coordinates and all four radii; independence, dominance,
 injectivity, quadratic generation, and degree two are proved.
+
+The uniform Hasse-family package proves the original no-rational-point theorem
+with its complete parameter domain, local condition and obstruction bit. Its
+direct arithmetic proof retains all projective boundary points and every
+valuation depth, with no geometric reciprocity or local-evaluation premise.

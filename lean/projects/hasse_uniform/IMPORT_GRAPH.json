@@ -1,0 +1,240 @@
+{
+  "HasseUniformCompleteAudit": [
+    "HasseUniformNoPoint"
+  ],
+  "HasseUniformNoPoint": [
+    "HasseFinalDyadic",
+    "HasseCorrectedOddProduct"
+  ],
+  "HasseFinalDyadic": [
+    "HasseUnitFifteenRow",
+    "HasseDyadicUnitOneRow",
+    "HasseFiniteAssembly"
+  ],
+  "HasseUnitFifteenRow": [
+    "HasseUnitFifteenSign",
+    "HasseWR"
+  ],
+  "HasseUnitFifteenSign": [
+    "HasseUnitFifteenFactor",
+    "HasseDyadicUnitFifteenModel"
+  ],
+  "HasseUnitFifteenFactor": [
+    "HasseUnitFifteenNormalization"
+  ],
+  "HasseUnitFifteenNormalization": [
+    "HasseDyadicUnitOneNormalization",
+    "HasseConstantDyadic"
+  ],
+  "HasseDyadicUnitOneNormalization": [
+    "HasseDyadicDepthFive"
+  ],
+  "HasseDyadicDepthFive": [
+    "HasseDyadicAlgebra"
+  ],
+  "HasseDyadicAlgebra": [
+    "HasseDyadicNonunit"
+  ],
+  "HasseDyadicNonunit": [
+    "HasseDyadicSymbol"
+  ],
+  "HasseDyadicSymbol": [
+    "HasseOddSymbol",
+    "HasseTangentGlobal"
+  ],
+  "HasseOddSymbol": [
+    "HasseLocalUnits"
+  ],
+  "HasseLocalUnits": [
+    "HasseHilbertArithmetic"
+  ],
+  "HasseHilbertArithmetic": [
+    "HasseObstructionArithmetic",
+    "HilbertWellDefinedHigh11"
+  ],
+  "HasseObstructionArithmetic": [
+    "HasseAnchorChoice"
+  ],
+  "HasseAnchorChoice": [
+    "HasseProjectivePoint"
+  ],
+  "HasseProjectivePoint": [
+    "HasseRationalSource",
+    "Mathlib.LinearAlgebra.Projectivization.Basic"
+  ],
+  "HasseRationalSource": [
+    "FourCorner.HasseNormsInterface",
+    "CompleteSource11"
+  ],
+  "CompleteSource11": [
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.Ring"
+  ],
+  "HilbertWellDefinedHigh11": [
+    "HilbertDyadicFormulaHigh11"
+  ],
+  "HilbertDyadicFormulaHigh11": [
+    "HilbertOddFormulaHigh11"
+  ],
+  "HilbertOddFormulaHigh11": [
+    "HilbertArithmeticHigh11",
+    "Mathlib.NumberTheory.Padics.PadicVal.Basic"
+  ],
+  "HilbertArithmeticHigh11": [
+    "Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity",
+    "Mathlib.Data.Nat.Factors",
+    "FourCorner.RationalSquarefree",
+    "Mathlib.Tactic"
+  ],
+  "HasseTangentGlobal": [
+    "HasseHilbertArithmetic"
+  ],
+  "HasseConstantDyadic": [
+    "HasseConstantOdd",
+    "HasseDyadicNonunit"
+  ],
+  "HasseConstantOdd": [
+    "HasseConstantCorrection"
+  ],
+  "HasseConstantCorrection": [
+    "HasseTwoSymbol"
+  ],
+  "HasseTwoSymbol": [
+    "HasseSignAlgebra",
+    "HasseInertSupport"
+  ],
+  "HasseSignAlgebra": [
+    "HasseParameterSupport"
+  ],
+  "HasseParameterSupport": [
+    "HasseGoodUnitRow"
+  ],
+  "HasseGoodUnitRow": [
+    "HasseRationalNormalization",
+    "HasseTangentGlobal"
+  ],
+  "HasseRationalNormalization": [
+    "HasseConicTangentParity"
+  ],
+  "HasseConicTangentParity": [
+    "HasseOddSymbol",
+    "FourCorner.CommonRootPadicResidue"
+  ],
+  "HasseInertSupport": [
+    "HasseInertNormMin",
+    "HasseTangentGlobal"
+  ],
+  "HasseInertNormMin": [
+    "HasseOddSymbol"
+  ],
+  "HasseDyadicUnitFifteenModel": [
+    "HasseDyadicIntegralTwo"
+  ],
+  "HasseDyadicIntegralTwo": [
+    "HasseDyadicUnitFifteenFinite"
+  ],
+  "HasseDyadicUnitFifteenFinite": [
+    "HasseDyadicUnitOneRow"
+  ],
+  "HasseDyadicUnitOneRow": [
+    "HasseDyadicUnitOneModel"
+  ],
+  "HasseDyadicUnitOneModel": [
+    "HasseDyadicUnitOneFlip"
+  ],
+  "HasseDyadicUnitOneFlip": [
+    "HasseDyadicIntegralSign"
+  ],
+  "HasseDyadicIntegralSign": [
+    "HasseDyadicUnitOneResidue"
+  ],
+  "HasseDyadicUnitOneResidue": [
+    "HasseDyadicUnitFinite",
+    "HasseDyadicUnitOneNormalization"
+  ],
+  "HasseDyadicUnitFinite": [
+    "HasseDyadicDepthFive"
+  ],
+  "HasseWR": [
+    "HasseInertParity"
+  ],
+  "HasseInertParity": [
+    "HasseTwoSymbol"
+  ],
+  "HasseFiniteAssembly": [
+    "HasseWR",
+    "HasseConstantOdd"
+  ],
+  "HasseCorrectedOddProduct": [
+    "HasseKnownCorrectedRows",
+    "HassePositiveAOdd",
+    "HasseOddPole"
+  ],
+  "HasseKnownCorrectedRows": [
+    "HasseParameterValuations",
+    "HasseOddSourceRows",
+    "HassePositiveBInert",
+    "HassePositiveAEven",
+    "HasseEvenPole",
+    "HasseConstantOdd"
+  ],
+  "HasseParameterValuations": [
+    "HasseFiniteAssembly"
+  ],
+  "HasseOddSourceRows": [
+    "HasseOddSymbol",
+    "HasseTangentGlobal"
+  ],
+  "HassePositiveBInert": [
+    "HasseOddBadModels"
+  ],
+  "HasseOddBadModels": [
+    "HasseGoodUnitRow"
+  ],
+  "HassePositiveAEven": [
+    "HassePositiveBInert"
+  ],
+  "HasseEvenPole": [
+    "HasseEvenPoleModel"
+  ],
+  "HasseEvenPoleModel": [
+    "HasseInertPole"
+  ],
+  "HasseInertPole": [
+    "HassePositiveAEven",
+    "HasseInertSupport"
+  ],
+  "HassePositiveAOdd": [
+    "HassePositiveAOddCoordinates"
+  ],
+  "HassePositiveAOddCoordinates": [
+    "HasseOddPole"
+  ],
+  "HasseOddPole": [
+    "HasseOddPoleResidues"
+  ],
+  "HasseOddPoleResidues": [
+    "HasseOddPoleCoordinates"
+  ],
+  "HasseOddPoleCoordinates": [
+    "HassePoleParameters"
+  ],
+  "HassePoleParameters": [
+    "HasseTangentScaling"
+  ],
+  "HasseTangentScaling": [
+    "HasseTangentUTransfer",
+    "HasseSignAlgebra"
+  ],
+  "HasseTangentUTransfer": [
+    "HasseOddSymbolAlgebra",
+    "HasseAntiDiagonal"
+  ],
+  "HasseOddSymbolAlgebra": [
+    "HasseEvenPole"
+  ],
+  "HasseAntiDiagonal": [
+    "HasseSignAlgebra"
+  ]
+}

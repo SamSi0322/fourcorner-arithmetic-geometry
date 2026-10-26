@@ -1,0 +1,171 @@
+{
+  "direct_parents": [
+    "fourcorner_paper"
+  ],
+  "modules": {
+    "FourCorner.ThetaLocalHensel": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/ThetaLocalHensel.lean",
+      "sha256": "e150644bf56f18a1e9a77352d44cb56dbb812519815a1fc5e5e5d2247761e844",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.RadiusModel": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/RadiusModel.lean",
+      "sha256": "3ec6916bcfb0eadfe9e8cb1e0f718dec967e147a916f31ee7841099632e79cc2",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootSource": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootSource.lean",
+      "sha256": "c9a49f54fd11b25c2b32e54e65e32636c05e7966c648c2fc089de54be141c0d9",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootPadicVal": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootPadicVal.lean",
+      "sha256": "0154e46fbb3cda336772d4a8b52aecec50278e72bf30376ba8d8f0be2bfdf84f",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootRamifiedNecessity": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootRamifiedNecessity.lean",
+      "sha256": "d9dabf9677559de382f0393a9b1ef888b08b7e1752e6bccad332c937c67a8d88",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseNormWitness": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseNormWitness.lean",
+      "sha256": "654013ffb509406dbdd6d1858a48fe67a19dad78a10832bba23f079c8ef65550",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseInertNorm": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseInertNorm.lean",
+      "sha256": "778a78ebeba6c081886a5153e88dfb3b0520d1cc5324ca29a0ad94acfc83aaed",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootDyadicFinite": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootDyadicFinite.lean",
+      "sha256": "f1cbb95100712d8a8583cddbb231fb75553c0c7f1801ae994d102216743c9f67",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootDyadicResidues": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootDyadicResidues.lean",
+      "sha256": "20d1c3dd99bee294fe81c2b5a44198ac6ea73ae1a5c194e3a425810780a2732b",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.PadicResidueSquareBasic": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/PadicResidueSquareBasic.lean",
+      "sha256": "0b3ea1c1df38883002aa0ebeb6009688c76b171867d0e459e3f5d5deb12ee159",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseDyadicNorm": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseDyadicNorm.lean",
+      "sha256": "ace199794d42552c3fc586391cd4ef5f768556a63fca05176d3833b4c1e132d5",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootDyadicUnitPair": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootDyadicUnitPair.lean",
+      "sha256": "866dab846c10acfee165bb2f9b181035d9020ba93acc0f3f0c978e4bfb0120be",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseDyadicSource": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseDyadicSource.lean",
+      "sha256": "206413b22cd00d3f3f1007d7425a62c7a49561cf3ec4f111c9bd813de589efe6",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootDyadicScale": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootDyadicScale.lean",
+      "sha256": "419108c6e67bd6a02d98b5b60290982cb9aa91fa2c6ae5d43f76989e0d2a1ab2",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootDyadicFrame": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootDyadicFrame.lean",
+      "sha256": "d41ed587e0706bd11fda410490ca986ff1402146bf03578ff8ce6f191c4c9242",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootDyadicNormalize": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootDyadicNormalize.lean",
+      "sha256": "a324d4578fdf073938c82efe78ace58cfda546a45e12e4dd9be550ac3ed3f947",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseDyadicBranches": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseDyadicBranches.lean",
+      "sha256": "aeb2ea1d094be767336cd96d1d64887359910bfcb58778db2a2832e299d77bfc",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseUnitBranches": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseUnitBranches.lean",
+      "sha256": "7c4620950f5257dbaee7dd8d06767a0a1ba878a52171b01f066d7dfb05abf7ed",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.SqrtTwoEuclidean": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/SqrtTwoEuclidean.lean",
+      "sha256": "d748eab5a29e11aad48c4024b53b12c6d8f67a5585763848550d140a8dc16489",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.SquarefreePart": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/SquarefreePart.lean",
+      "sha256": "3eb1d4f5e5415bf3e31c4d838731f1c865a4e6274f68a053a173f570be290b9b",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.RationalSquarefree": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/RationalSquarefree.lean",
+      "sha256": "c4df49889a2c6362e256ac975a9d5c0f858161c5d638642e74610f94a505750a",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.SqrtTwoGlobalNorm": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/SqrtTwoGlobalNorm.lean",
+      "sha256": "434bc4e428bc7dadfb588d8067bd2b964a08d82a4cc7abdd12e4201ea467fa22",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.SqrtTwoFieldNorm": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/SqrtTwoFieldNorm.lean",
+      "sha256": "d4d4f2b4ffc18aff4386925e164385e37ff07b8751db153c226d9f8f49fd3ef7",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseNorms": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseNorms.lean",
+      "sha256": "d316220c33681e7873f7ee47c2db1466c2f19539e73124c5239673cf7782e810",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.HasseNormsInterface": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/HasseNormsInterface.lean",
+      "sha256": "e5b022b87358c35cd5cf3e58ad9b792a9a9a759e847a33e3481dcd5cda56c31a",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootTwoLift": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootTwoLift.lean",
+      "sha256": "e07c22a4e700c6a9ae2a6ae9647f178ae0ee2bc9d8e08d28f24e87ed871608dd",
+      "canonical_source_body_unchanged": true
+    },
+    "FourCorner.CommonRootPadicResidue": {
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootPadicResidue.lean",
+      "sha256": "fcd8b627227ba0b716ff03deae7f49d65ed6fce5328f8bdff9ea93227e74a721",
+      "canonical_source_body_unchanged": true
+    }
+  },
+  "parent_sources_copied": 0,
+  "unaccepted_prototypes_used_as_public_parents": []
+}

@@ -1,0 +1,16 @@
+[
+  "FourCorner.HasseProjectivePoint.rationalPoint_nonempty_iff_literal_squares",
+  "FourCorner.HasseAnchorChoice.tangentData",
+  "FourCorner.HasseOddSymbol.rationalSign_eq_oddSign",
+  "FourCorner.HasseDyadicSymbol.rationalSign_eq_dyadicSign",
+  "FourCorner.HasseWR.global_wsupport",
+  "FourCorner.HasseConstantCorrection.correctedSign_parameter_finite_product",
+  "FourCorner.HasseCorrectedOddProduct.correctedOdd_product",
+  "FourCorner.HasseDyadicUnitOneRow.tangentSign_unitOne",
+  "FourCorner.HasseUnitFifteenRow.tangentSign_unitFifteen",
+  "FourCorner.HasseFinalDyadic.correctedDyadic_T_product",
+  "FourCorner.HasseUniformNoPoint.obstruction_zero",
+  "FourCorner.HasseUniformNoPoint.hp_uniform",
+  "FourCorner.HasseUniformNoPoint.hp_uniform_literal",
+  "FourCorner.HasseUniformNoPoint.hp_uniform_four_squares"
+]
