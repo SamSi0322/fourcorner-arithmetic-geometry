@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 47,
+  "verified_numbered_statements": 48,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -2567,6 +2567,56 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.prop_ell_original_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.originalCoordinateMap_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.originalFieldEmbedding": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.sourceQ_literal_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.returnedRootField_eq_top": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.returnedXY_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.source_adjoin_q_eq_top": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.source_finrank_over_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.OrderedSource.source_finrank": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.OriginalCoverCompletion.original_radicand_nonsquare": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -2583,11 +2633,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T10:17:40.001630+00:00",
-  "project_count": 14,
+  "verified_at_utc": "2026-10-26T11:22:10.820151+00:00",
+  "project_count": 15,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/critical_prime"
+    "projects/original_cover"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -2602,7 +2652,8 @@
     "projects/common_source",
     "projects/common_source_matrix",
     "projects/common_finite_places",
-    "projects/critical_elliptic"
+    "projects/critical_elliptic",
+    "projects/critical_prime"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The critical-prime package was freshly built, and all 37 owned modules were individually cold-checked with native Lake setup maps and empty options."
+  "cold_kernel_checks": "Every declared endpoint was cold-checked with lean -t0 and debug.skipKernelTC=false. All18 new owned modules also passed individual cold checks with native Lake provider maps. After the coverage index refresh, all48 statement endpoint lists were matched again against the complete15-project cold outputs."
 }

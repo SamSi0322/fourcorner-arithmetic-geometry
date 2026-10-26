@@ -107,5 +107,15 @@
         "setup": ".lake/build/ir/CriticalPrimeFullAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/original_cover",
+    "target": "OriginalCoverProject",
+    "audit": [
+      {
+        "source": "Source/OriginalCoverAudit.lean",
+        "setup": ".lake/build/ir/OriginalCoverAudit.setup.json"
+      }
+    ]
   }
 ]

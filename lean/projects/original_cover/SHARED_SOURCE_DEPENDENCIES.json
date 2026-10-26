@@ -1,0 +1,52 @@
+{
+  "direct_parents": [
+    "critical_prime",
+    "fourcorner_paper"
+  ],
+  "modules": {
+    "geometry.MultiquadraticField": {
+      "package": "opposite_genus",
+      "source_path": "Source/geometry/MultiquadraticField.lean",
+      "sha256": "0259eb39d30fa4cce0a82b2ba335b626a6bc2d9b666f8967527c59b05441ca9b",
+      "canonical_source_body_unchanged": true
+    },
+    "geometry.MultiquadraticTower": {
+      "package": "opposite_genus",
+      "source_path": "Source/geometry/MultiquadraticTower.lean",
+      "sha256": "e8b10dc40b3d69b56f9d361508d98bff60aa1b98d1594f57c140bbc016e9d296",
+      "canonical_source_body_unchanged": true
+    },
+    "geometry.AdjoinRootInjective": {
+      "package": "opposite_genus",
+      "source_path": "Source/geometry/AdjoinRootInjective.lean",
+      "sha256": "8e82209f4fd96ecde8fcf33ff8218ace815dbc8c0525e720369ed572005a13ef",
+      "canonical_source_body_unchanged": true
+    },
+    "geometry.MultiquadraticCoordinateAlgebra": {
+      "package": "opposite_genus",
+      "source_path": "Source/geometry/MultiquadraticCoordinateAlgebra.lean",
+      "sha256": "30ad6af20b813f4fda107e92a944332ff4ca717ea6a336cb30e48222c61af912",
+      "canonical_source_body_unchanged": true
+    },
+    "geometry.MultiquadraticCoordinateUniversal": {
+      "package": "opposite_genus",
+      "source_path": "Source/geometry/MultiquadraticCoordinateUniversal.lean",
+      "sha256": "1da4820a8a4a2fbb4956b1a031a6a901cff1a6f8b4872d1242159fd7a709095b",
+      "canonical_source_body_unchanged": true
+    },
+    "geometry.SquarefreeRatFunc": {
+      "package": "opposite_genus",
+      "source_path": "Source/geometry/SquarefreeRatFunc.lean",
+      "sha256": "0cc8210f26ed23a9d75a6f864d1af9ad676d971270460a0e11a4eb948f09f28d",
+      "canonical_source_body_unchanged": true
+    },
+    "IntegralEvaluationInjection": {
+      "package": "critical_elliptic",
+      "source_path": "Source/IntegralEvaluationInjection.lean",
+      "sha256": "815f93e0e859e3f10d08c7d4af51911a11d3e9d5a02dd3848ac8412b716f57c0",
+      "canonical_source_body_unchanged": true
+    }
+  },
+  "parent_sources_copied": 0,
+  "unaccepted_prototypes_used_as_public_parents": []
+}

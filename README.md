@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 47 of the 69 numbered statements. Further
+The current Lean development fully verifies 48 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -49,3 +49,7 @@ boundary classification after every extension of constants.
 The critical-prime companion proves the exact exceptional-prime classification
 and infinitely many simultaneous local realizations, for arbitrary finite prime
 sets and prescribed depths, using the original ordered distance equations.
+
+The original-cover companion identifies the independently constructed ordered
+source function field with the original four-distance surface field adjoined
+with the specified square root, and proves that the extension has degree two.

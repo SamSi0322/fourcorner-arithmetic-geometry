@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 47,
-  "not_fully_formalized_numbered_statements": 22,
+  "fully_formalized_numbered_statements": 48,
+  "not_fully_formalized_numbered_statements": 21,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -287,10 +287,18 @@
       "title": null,
       "statement_tex": "\\label{prop:ell-original-cover}\nThere is an equality of function fields\n\\[\n \\Q(X_n)=\\Q(S)(q),\\qquad q^2=\\frac{t^2-1}{n},\n \\qquad t=r_0r_3+r_1r_2.\n\\]\nThe extension has degree two.",
       "statement_sha256": "86d2dbbf88ef256139e44a9743f1a842652c00c1a83fe51ccf19d1bdd31ec79e",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.OriginalCoverCompletion.OrderedSource.prop_ell_original_cover",
+        "FourCorner.OriginalCoverCompletion.OrderedSource.source_adjoin_q_eq_top",
+        "FourCorner.OriginalCoverCompletion.OrderedSource.source_finrank_over_original"
+      ],
+      "source": "projects/original_cover/Source/OriginalCoverExact.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "prop:ell-opposite-genus",

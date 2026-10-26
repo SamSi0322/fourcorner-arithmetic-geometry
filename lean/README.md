@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 47 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 48 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -96,3 +96,8 @@ The critical-prime package proves the complete prime classification and
 simultaneous local-realization theorem. It retains actual finite-field places,
 all positive p-adic depths, primitive strict integer triples, the same ordered
 four-root tuple at each triple, and infinitely many distinct rational pairs.
+
+The original-cover package proves the complete function-field relation for
+every nonzero rational parameter. Its coordinate-preserving embedding retains
+both position coordinates and all four radii; independence, dominance,
+injectivity, quadratic generation, and degree two are proved.
