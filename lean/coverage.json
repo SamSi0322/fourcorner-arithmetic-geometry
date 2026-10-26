@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 53,
-  "not_fully_formalized_numbered_statements": 16,
+  "fully_formalized_numbered_statements": 54,
+  "not_fully_formalized_numbered_statements": 15,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1350,10 +1350,17 @@
       "title": null,
       "statement_tex": "\\label{prop:crit-double}\nThe map \\(\\widetilde{\\mathcal C}_\\iota\\to\\mathcal C_\\iota\\) is a\ngeometrically connected unramified double cover of genus-one curves\nwith rational points. For \\(p\\equiv1\\pmod4\\), its number of\nrational points above \\(b=0\\) is\n\\[\n B_p=\\begin{cases}16,&p\\equiv1\\pmod8,\\\\8,&p\\equiv5\\pmod8.\n \\end{cases}\n\\]\nMoreover,\n\\begin{equation}\\label{crit:double-count}\n \\#\\{V\\in\\mathcal C_\\iota(\\F_p):b(V)\\ne0,\\ \\chi_p(2f(V))=1\\}\n =\\frac{\\#E(\\F_p)-B_p}{2}.\n\\end{equation}\nThe character is unchanged by rescaling projective coordinates.",
       "statement_sha256": "e4dddd8ca46d1ce324b8fe14efb454f17a23c70b33f5074911c5b2d327cc14ca",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CriticalDoubleFull.prop_crit_double",
+        "FourCorner.CriticalDoubleFull.finite_statement"
+      ],
+      "source": "projects/critical_double/Source/CriticalDoubleFull.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "thm:crit-refined",

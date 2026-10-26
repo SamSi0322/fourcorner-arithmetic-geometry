@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 53,
+  "verified_numbered_statements": 54,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -2972,6 +2972,116 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.CriticalDoubleFull.prop_crit_double": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDoubleFull.native_normalization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDoubleFull.finite_statement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDoubleFullGeometry.geometry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDoubleGeometry.normalized_root_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNormalizationDiagram.normalized_root_generates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNormalizationDiagram.field_diagram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDoubleOriginalMap.map_generic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDoubleOriginalMap.baseFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalDoubleModel.fieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPointNaturality.native_comap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalPointNaturality.image_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeBoundaryCount.boundaryEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeBoundaryCount.boundary_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeBoundaryCount.boundary_count_mod_eight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalSchemeBoundaryCount.count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalLiteralSchemeCharacter.literal_character": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalLiteralSchemeCharacter.same_point_homogeneous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNativeGeometricGenus.cover_genus_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalNativeGeometricGenus.base_genus_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalGlobalFibreCount.total_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalProjectiveCharacter.rescale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -2988,12 +3098,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T15:49:27.057953+00:00",
-  "project_count": 19,
+  "verified_at_utc": "2026-10-26T17:14:31.305277+00:00",
+  "project_count": 20,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/theta_quotient",
-    "projects/critical_refined"
+    "projects/critical_double"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -3012,7 +3121,9 @@
     "projects/critical_prime",
     "projects/original_cover",
     "projects/hasse_uniform",
-    "projects/cs15569"
+    "projects/cs15569",
+    "projects/theta_quotient",
+    "projects/critical_refined"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The48 Theta and51 refined-critical owned source modules were freshly built and individually cold-checked with native Lake provider maps and empty options."
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All55 critical-double owned source modules were freshly built and individually cold-checked with actual native Lake provider maps, empty options and standard transitive axioms."
 }

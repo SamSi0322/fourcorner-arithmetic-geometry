@@ -54,7 +54,7 @@ prop:crit-elliptic,sections/08_critical_content.tex,verified,projects/critical_e
 thm:crit-basic,sections/08_critical_content.tex,verified,projects/critical_prime/Source/CriticalBasicFull.lean,FourCorner.critical_basic; FourCorner.critical_basic_original_source; FourCorner.critical_allowed_iff_unit_pattern; FourCorner.critical_infinite_local_triples; FourCorner.critical_unit_iff_infinite_local; FourCorner.CriticalCRTCompletion.allowed_unit_pattern
 cor:crit-crt,sections/08_critical_content.tex,verified,projects/critical_prime/Source/CriticalCRTCompletion.lean,FourCorner.critical_crt; FourCorner.critical_crt_infinite_from_unit_patterns
 thm:crit-17,sections/08_critical_content.tex,verified,FourCorner/CriticalSeventeen.lean,FourCorner.IntegralModel.critical_seventeen; FourCorner.IntegralModel.rational_product_square_seventeen_noncritical
-prop:crit-double,sections/08_critical_content.tex,not_fully_formalized,,
+prop:crit-double,sections/08_critical_content.tex,verified,projects/critical_double/Source/CriticalDoubleFull.lean,FourCorner.CriticalDoubleFull.prop_crit_double; FourCorner.CriticalDoubleFull.finite_statement
 thm:crit-refined,sections/08_critical_content.tex,verified,projects/critical_refined/Source/CriticalRefinedFull.lean,FourCorner.CriticalRefinedFull.thm_crit_refined; FourCorner.CriticalRefinedFull.exclusions_iff_infinite_pairs; FourCorner.CriticalRefinedFull.exclusions_iff_literal_pattern
 cor:crit-excess,sections/08_critical_content.tex,verified,FourCorner/CriticalExcess.lean,FourCorner.IntegralModel.critical_excess
 thm:nine-isogeny,sections/09_jacobians.tex,not_fully_formalized,,

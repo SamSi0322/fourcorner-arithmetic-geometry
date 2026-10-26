@@ -1,0 +1,269 @@
+{
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "lean": "4.33.1",
+  "source_patches": 0,
+  "records": [
+    {
+      "module": "Mathlib.AlgebraicGeometry.Morphisms.LocalClosure",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Morphisms/LocalClosure.lean",
+      "source_sha256": "10e161e26e49eada5dc638e8aa20a0177356034887672487c1d1b52f9d5881d5",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Morphisms.LocalIso",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Morphisms/LocalIso.lean",
+      "source_sha256": "2bd1f4d29fe611c30f78258dfc397819e1152c8b135b692261b368cd5169a596",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.CategoryTheory.MorphismProperty.Descent",
+      "source_relative_to_mathlib": "Mathlib/CategoryTheory/MorphismProperty/Descent.lean",
+      "source_sha256": "2df9e2db723ed09dd5ecb47d5188389b87913ec36a7eb554cf2896d385ae4d48",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Morphisms.Descent",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Morphisms/Descent.lean",
+      "source_sha256": "cf177dc5f22c73aa6b8dbe13f6f6631034feeecd3ebd13b21422a1a59e3ce945",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.RingHom.PurelyInseparable",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/RingHom/PurelyInseparable.lean",
+      "source_sha256": "f38b21c6655ecbc4c8c38d06efb71e390200e1f8b7ca8d60b4f1d4dadf8ea7ce",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Morphisms.UniversallyInjective",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Morphisms/UniversallyInjective.lean",
+      "source_sha256": "6eb38ee9c75ba2ced97e90b9e83e2b3c6d1fa6d1f530408496b2f3908cdd7638",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Flat.FaithfullyFlat.Descent",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Flat/FaithfullyFlat/Descent.lean",
+      "source_sha256": "1043d957ec97210cb4f53c31647ef5d2b1b8f412bfd59ee83e3cb65fd1f5b275",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Morphisms.FlatDescent",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Morphisms/FlatDescent.lean",
+      "source_sha256": "39ef21ba8d91dd1a7845d284d193937f747ff74d40fc9e4ad8ac509b1009e0af",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.RingHom.OpenImmersion",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/RingHom/OpenImmersion.lean",
+      "source_sha256": "31641a7b42c9b3b932971b9e2cde121116150d7632a858181df601f2a6636336",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.RingHom.QuasiFinite",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/RingHom/QuasiFinite.lean",
+      "source_sha256": "94f2094924b6fc4e6823ed4f19df20f99b47171979a7e611dbd80aab868ecff2",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Algebraic.StronglyTranscendental",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Algebraic/StronglyTranscendental.lean",
+      "source_sha256": "e4eaa6a2d2d9df46795f2bf5e1d9d7d751fce47b0455e5de686ce89aee5823fd",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.IntegralClosure.Algebra.Ideal",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/IntegralClosure/Algebra/Ideal.lean",
+      "source_sha256": "9fddd845c809092ffd9d71dd7a5c8176d0668b4c40828f4295678af3ea0df70c",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.IntegralClosure.GoingDown",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/IntegralClosure/GoingDown.lean",
+      "source_sha256": "906958977dfd39a61416945f59bc18cd817252640e691aaed27b3cf09cd84999",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.LocalRing.ResidueField.Polynomial",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/LocalRing/ResidueField/Polynomial.lean",
+      "source_sha256": "bb6d43a55ec6cf422d480c388b45cf337234d1efbfccad6b28ed2cebb89d805a",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.QuasiFinite.Weakly",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/QuasiFinite/Weakly.lean",
+      "source_sha256": "7341192060c859afccbf0389b639c85203d00af71aaec12616ea70df36905f0e",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.QuasiFinite.Polynomial",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/QuasiFinite/Polynomial.lean",
+      "source_sha256": "194efdde09e0daad333d6ad678718c5c6e6b140fe272b5ca98451b8ed7f5bba2",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.ZariskisMainTheorem",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/ZariskisMainTheorem.lean",
+      "source_sha256": "eb0d71c2d39b5882310972a1806967952ef100942e21d8a0e2028b67491662da",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Morphisms/QuasiFinite.lean",
+      "source_sha256": "2e0d7404a96f2b70f8a2db7a16e74ca1e91892a5f052586a82ef19218c2415d8",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Cover.Directed",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Cover/Directed.lean",
+      "source_sha256": "cba34c26b76d3594d25c48d13fec550eee7250ab4efe89ccca7f706a81347691",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.RelativeGluing",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/RelativeGluing.lean",
+      "source_sha256": "4931fa3df0aef248ee711004b2268b272b011d2302f414ef83fa7783a85d1b41",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Sites.SmallAffineZariski",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Sites/SmallAffineZariski.lean",
+      "source_sha256": "731be24457f0a980ec6b36f6b5f7f3df46d2fcb1875dd7d93894f8a60e9856e4",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Etale.StandardEtale",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Etale/StandardEtale.lean",
+      "source_sha256": "7e6712c9a32ae43bc8f5128bf883d7b9b9c8b20d0076b02763d9ae81688be4f3",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Unramified.LocalStructure",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Unramified/LocalStructure.lean",
+      "source_sha256": "60127614696f76f13520589acb762ea5f91dc5527277ae31f7a1874a9c638592",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Smooth.IntegralClosure",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Smooth/IntegralClosure.lean",
+      "source_sha256": "3e15ad4bd2192e1150bc87805c8949c091ba9c0c9fe511efcf45c3618143cca7",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.Normalization",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/Normalization.lean",
+      "source_sha256": "8c616136948c8df6157ce2e21a0b9486508ac42315659e1a45b3b7ac301f3d84",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Polynomial.UniversalFactorizationRing",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Polynomial/UniversalFactorizationRing.lean",
+      "source_sha256": "d58f18b0330d69fec1833ed5db9af255b73170aed5f4aa0691eb0d6df5a5b393",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Ideal.Quotient.Over",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Ideal/Quotient/Over.lean",
+      "source_sha256": "34cfdf031b844d9d9e66bd8b8632857fab2e1d5b9fd78010313ffa1a56aa1130",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.RingTheory.Etale.QuasiFinite",
+      "source_relative_to_mathlib": "Mathlib/RingTheory/Etale/QuasiFinite.lean",
+      "source_sha256": "7f268d5654e19901098e1e9429c1dd804128869d50c691108f8dc84d041d2ff9",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    },
+    {
+      "module": "Mathlib.AlgebraicGeometry.ZariskisMainTheorem",
+      "source_relative_to_mathlib": "Mathlib/AlgebraicGeometry/ZariskisMainTheorem.lean",
+      "source_sha256": "0d02d8308a969e56796c1a16c8a919768670531a4b1a90f862b181a05a7d39da",
+      "compile_options": [
+        "-Ddebug.skipKernelTC=false",
+        "-DautoImplicit=false",
+        "-DmaxSynthPendingDepth=3"
+      ]
+    }
+  ]
+}

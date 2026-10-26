@@ -157,5 +157,15 @@
         "setup": ".lake/build/ir/RefinedFiniteAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/critical_double",
+    "target": "CriticalDoubleProject",
+    "audit": [
+      {
+        "source": "Source/CriticalDoubleFullAudit.lean",
+        "setup": ".lake/build/ir/CriticalDoubleFullAudit.setup.json"
+      }
+    ]
   }
 ]

@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 53 of the 69 numbered statements. Further
+The current Lean development fully verifies 54 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -66,3 +66,7 @@ The theta companion proves the original genus-five curve, complete rational
 boundary, marked points and finite etale double quotient on the actual schemes.
 The refined critical-prime companion proves all three original equivalences,
 including uniform finite existence and every positive-depth local family.
+
+The critical double-cover proposition is now formalized on the actual projective
+curves and covering morphism. The proof includes geometric genus one, finite
+etale degree two, all boundary fibres, and the exact finite-field character count.

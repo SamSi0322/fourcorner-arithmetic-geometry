@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 53 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 54 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -119,3 +119,8 @@ etale rank-two quotient with all invariant algebras and kernel-pair graphs.
 The refined critical package proves the complete prime classification with
 exceptions 5,13,17 and the signed same-point local-family equivalences, using
 actual cover places and proven uniform bounds.
+
+The critical double-cover package proves the normalized original cover as an
+actual finite etale morphism of geometric genus-one curves. It counts all
+boundary fibres and establishes the same-point character formula on every chart,
+including invariance under projective rescaling.
