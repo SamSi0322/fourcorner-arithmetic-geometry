@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 51,
+  "verified_numbered_statements": 53,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -2817,6 +2817,161 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.ThetaQuotient.prop_theta_quotient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaQuotient.quotient_certificate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaSourceGenus.genus_five": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaSourceGenus.source_connected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaBoundary.rational_boundary_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaDeckInvolution.sigma_projection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaDeckInvolution.no_fixed_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaProjectionFiniteEtale.projection_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaProjectionFiniteEtale.projection_etale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaProjectionDegree.projection_degree_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaProjectionDegree.projection_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaOriginImage.origin_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaActualQuotient.invariant_universal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaActualQuotient.kernelPairSchemeIso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaActualQuotient.identity_graph_fst": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaActualQuotient.identity_graph_snd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaActualQuotient.involution_graph_fst": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ThetaActualQuotient.involution_graph_snd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedFiniteSource.from_good_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedFiniteSource.refinedPattern_of_good_cover": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedCoverHasse.hasse_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedBadCover.badCover_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedBadCover.exists_good_cover_large": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedBadCover.bad_base_le_eight_of_units": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedBadCover.exists_good_cover_small_of_units": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedFiniteExistence.pattern_large": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedFiniteExistence.pattern_five_mod_eight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RefinedFiniteExistence.allowed_refined_pattern": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRefinedFull.thm_crit_refined": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRefinedFull.exclusions_iff_infinite_pairs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CriticalRefinedFull.exclusions_iff_literal_pattern": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -2833,11 +2988,12 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T14:26:41.206496+00:00",
-  "project_count": 17,
+  "verified_at_utc": "2026-10-26T15:49:27.057953+00:00",
+  "project_count": 19,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/cs15569"
+    "projects/theta_quotient",
+    "projects/critical_refined"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -2855,7 +3011,8 @@
     "projects/critical_elliptic",
     "projects/critical_prime",
     "projects/original_cover",
-    "projects/hasse_uniform"
+    "projects/hasse_uniform",
+    "projects/cs15569"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All64 CS15569 source modules were freshly built and individually cold-checked with native Lake provider maps; two import-only aliases and38 unchanged accepted-source copies isolate package ownership without mathematical changes."
+  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. The48 Theta and51 refined-critical owned source modules were freshly built and individually cold-checked with native Lake provider maps and empty options."
 }

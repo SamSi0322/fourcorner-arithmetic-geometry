@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 51,
-  "not_fully_formalized_numbered_statements": 18,
+  "fully_formalized_numbered_statements": 53,
+  "not_fully_formalized_numbered_statements": 16,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1081,10 +1081,17 @@
       "title": null,
       "statement_tex": "\\label{prop:theta-quotient}\nThe curve $C$ is smooth of genus five and has eight rational points at\n$T=0$.  The fixed-point-free involution\n\\[\n \\sigma[P:Q:R:z:T]=[-P:-Q:-R:z:T]\n\\]\nhas quotient the smooth plane quartic $D\\subset\\PP^2_{[X:Y:Z]}$ defined by\n\\begin{equation}\n F=9801(X^4+Y^4)+19598X^2Y^2\n       -39592(X^2+Y^2)Z^2+39984Z^4=0.\n \\label{eq:theta-quartic}\n\\end{equation}\nThe quotient map is\n\\[\n \\pi:C\\longrightarrow D,\\qquad [P:Q:R:z:T]\\longmapsto[Q:R:P].\n\\]\nIn particular, $\\pi$ is a connected \\emph{\\'etale} double cover.  The points\n\\[\n O_C=[1:1:1:1:0],\\qquad O_D=[1:1:1]\n\\]\nare rational and satisfy $\\pi(O_C)=O_D$.",
       "statement_sha256": "9cf4239db653c013d0f073df37861775d13722b0ac39e4cb0351df6d05c573dc",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.ThetaQuotient.prop_theta_quotient",
+        "FourCorner.ThetaQuotient.quotient_certificate"
+      ],
+      "source": "projects/theta_quotient/Source/ThetaQuotient.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "prop:theta-strict-lift",
@@ -1355,10 +1362,18 @@
       "title": null,
       "statement_tex": "\\label{thm:crit-refined}\nFor a prime \\(p\\equiv1\\pmod4\\), the following are equivalent:\n\\begin{enumerate}\n\\item \\(p\\notin\\{5,13,17\\}\\).\n\\item There is a signed critical pattern with every \\(V_j\\ne0\\)\n      and \\(2(V_0V_3+V_1V_2)\\in\\F_p^{\\times2}\\).\n\\item For every \\(s\\ge1\\), there are infinitely many primitive\n      strictly interior rational coordinate pairs \\((X/L,Y/L)\\),\n      with \\(v_p(L)=2s\\), and roots \\(A_j\\in\\Q_p\\) of\n      \\eqref{crit:integral}, each of valuation \\(s\\), such that\n      \\(t=(A_0A_3+A_1A_2)/L^2\\) satisfies\n      \\(2t,2(t+1)\\in\\Q_p^{\\times2}\\).\n\\end{enumerate}",
       "statement_sha256": "572baf4401df94dfdd4b3584c725b6a69cc84fdb160ede051b4b243d30542332",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.CriticalRefinedFull.thm_crit_refined",
+        "FourCorner.CriticalRefinedFull.exclusions_iff_infinite_pairs",
+        "FourCorner.CriticalRefinedFull.exclusions_iff_literal_pattern"
+      ],
+      "source": "projects/critical_refined/Source/CriticalRefinedFull.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "cor:crit-excess",

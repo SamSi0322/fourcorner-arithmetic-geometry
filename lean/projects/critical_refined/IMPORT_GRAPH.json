@@ -1,0 +1,212 @@
+{
+  "RefinedFiniteAudit": [
+    "CriticalRefinedFull"
+  ],
+  "CriticalRefinedFull": [
+    "RefinedFiniteExistence",
+    "RefinedPaperInterfaces"
+  ],
+  "RefinedFiniteExistence": [
+    "RefinedBadCover",
+    "CriticalNonsquareIUnits",
+    "CriticalBoundaryCharacter"
+  ],
+  "RefinedBadCover": [
+    "RefinedFiniteSource",
+    "RefinedCoverHasse",
+    "CriticalFiberBounds",
+    "CriticalBadPlaces"
+  ],
+  "RefinedFiniteSource": [
+    "CriticalRationalFibres",
+    "CriticalBoundaryEight",
+    "RefinedSupport.CriticalRefinedWave27"
+  ],
+  "CriticalRationalFibres": [
+    "RationalPlaceFibreHom"
+  ],
+  "RationalPlaceFibreHom": [
+    "RationalPlaceEvaluationUnique"
+  ],
+  "RationalPlaceEvaluationUnique": [
+    "ResiduePlaceEvaluation",
+    "Definitions.Def_AlgebraicCurve_PlacesOverDVR"
+  ],
+  "CriticalBoundaryEight": [
+    "CriticalBoundaryPlaceClassification",
+    "CriticalBoundaryCardinality"
+  ],
+  "CriticalBoundaryPlaceClassification": [
+    "CriticalBoundaryFibres",
+    "RationalLinePlaceImage"
+  ],
+  "CriticalBoundaryFibres": [
+    "CriticalBoundaryTower"
+  ],
+  "CriticalBoundaryTower": [
+    "RationalLineEvaluation",
+    "CriticalBoundaryResidues",
+    "CriticalActualRamification"
+  ],
+  "RationalLineEvaluation": [
+    "RationalPlaceTower",
+    "geometry.OppositePlaceOrders",
+    "ResidueValuationFacts",
+    "Theorems.Thm_AlgebraicCurve_Place_isRational_iff_deg_eq_one"
+  ],
+  "RationalPlaceTower": [
+    "QuadraticRationalPlaceFibre"
+  ],
+  "QuadraticRationalPlaceFibre": [
+    "RationalPlaceFibreHom",
+    "QuadraticUnitRootHom"
+  ],
+  "QuadraticUnitRootHom": [
+    "QuadraticUnitResidueAlgebra"
+  ],
+  "QuadraticUnitResidueAlgebra": [
+    "QuadraticUnitIntegralClosure",
+    "Mathlib.FieldTheory.Minpoly.IsIntegrallyClosed",
+    "Mathlib.RingTheory.AdjoinRoot"
+  ],
+  "QuadraticUnitIntegralClosure": [
+    "Mathlib.RingTheory.Trace.Basic",
+    "Mathlib.RingTheory.Adjoin.PowerBasis",
+    "Mathlib.RingTheory.IntegralClosure.IntegrallyClosed",
+    "Mathlib.Tactic"
+  ],
+  "CriticalBoundaryResidues": [
+    "CriticalLiteralDouble",
+    "ResidueValuationFacts",
+    "CriticalSignPoints"
+  ],
+  "CriticalLiteralDouble": [
+    "CriticalProductNonsquare",
+    "CriticalProductOrders",
+    "CriticalGeometricGenus",
+    "CriticalFieldConstants"
+  ],
+  "CriticalProductNonsquare": [
+    "TwoRootProductObstruction"
+  ],
+  "TwoRootProductObstruction": [
+    "QuadraticLinearNorm"
+  ],
+  "QuadraticLinearNorm": [
+    "CriticalRadicalField"
+  ],
+  "CriticalProductOrders": [
+    "CriticalProductValuation"
+  ],
+  "CriticalProductValuation": [
+    "CriticalBadUnits",
+    "OddFifthUnramified"
+  ],
+  "RefinedSupport.CriticalRefinedWave27": [
+    "FourCorner.CriticalSeventeenFinite"
+  ],
+  "RefinedCoverHasse": [
+    "CriticalDoublePointCount",
+    "CriticalRefinedNumerics"
+  ],
+  "CriticalDoublePointCount": [
+    "CriticalDoubleFieldIso",
+    "CriticalFiniteGenus",
+    "Definitions.Def_AlgebraicCurve_RatFuncPlaces",
+    "Theorems.Thm_AlgebraicCurve_genusFF_eq_of_algEquiv"
+  ],
+  "CriticalDoubleFieldIso": [
+    "CriticalDoubleProductBridge",
+    "CriticalDoubleNonsquare",
+    "CriticalCMGeneration",
+    "CriticalQuadraticLift"
+  ],
+  "CriticalDoubleProductBridge": [
+    "CriticalOriginalFieldEquiv",
+    "CriticalDoubleFieldMap",
+    "CriticalLiteralDouble"
+  ],
+  "CriticalOriginalFieldEquiv": [
+    "CriticalRadicalField",
+    "CriticalFieldCoordinates",
+    "CriticalProductSquareclass"
+  ],
+  "CriticalProductSquareclass": [
+    "CriticalDoubleCM",
+    "CriticalDirectMap"
+  ],
+  "CriticalDoubleCM": [
+    "CriticalEllipticField",
+    "CriticalDirectMap",
+    "CriticalEllipticEvaluation",
+    "Mathlib.RingTheory.Algebraic.Integral",
+    "Mathlib.Tactic"
+  ],
+  "CriticalDoubleFieldMap": [
+    "CriticalDoubleCM",
+    "CriticalEllipticEvaluation",
+    "CriticalFieldEquivalence"
+  ],
+  "CriticalDoubleNonsquare": [
+    "CriticalOriginalFieldEquiv",
+    "CriticalEllipticBaseChange",
+    "CriticalLiteralDouble"
+  ],
+  "CriticalEllipticBaseChange": [
+    "CriticalEllipticEvaluation"
+  ],
+  "CriticalCMGeneration": [
+    "CriticalDoubleFieldMap",
+    "CriticalEllipticGenerators"
+  ],
+  "CriticalEllipticGenerators": [
+    "CriticalEllipticField",
+    "Mathlib.FieldTheory.IntermediateField.Adjoin.Basic"
+  ],
+  "CriticalQuadraticLift": [
+    "geometry.MultiquadraticTower",
+    "Mathlib.RingTheory.PowerBasis"
+  ],
+  "CriticalRefinedNumerics": [
+    "CriticalHasseNumerics"
+  ],
+  "CriticalNonsquareIUnits": [
+    "CriticalProjectiveBoundary"
+  ],
+  "CriticalProjectiveBoundary": [
+    "CriticalProjectiveResidues"
+  ],
+  "CriticalProjectiveResidues": [
+    "CriticalBoundaryResidues",
+    "CriticalProjectiveCharacter"
+  ],
+  "CriticalProjectiveCharacter": [
+    "Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "CriticalBoundaryCharacter": [
+    "CriticalProjectiveCharacter",
+    "CriticalElliptic23",
+    "Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity"
+  ],
+  "RefinedPaperInterfaces": [
+    "RefinedSignedFamily",
+    "RefinedPadicConverse"
+  ],
+  "RefinedSignedFamily": [
+    "RefinedSignedLocalData"
+  ],
+  "RefinedSignedLocalData": [
+    "RefinedProductSquares"
+  ],
+  "RefinedProductSquares": [
+    "RefinedPadicSquares"
+  ],
+  "RefinedPadicSquares": [
+    "CriticalBasicFull",
+    "RefinedSupport.CriticalRefinedWave27"
+  ],
+  "RefinedPadicConverse": [
+    "RefinedProductSquares"
+  ]
+}

@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 51 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 53 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -112,3 +112,10 @@ original strict-point layer corollary. Full rational subgroup decomposition,
 all compensation classes, the exact dyadic character, and actual reductions
 at three and 113 are established inside the proof, without a rank, basis,
 saturation, residue-image or height-bound premise.
+
+The theta-quotient package proves native smoothness, properness, geometric
+connectedness and genus, the complete rational boundary, and the actual finite
+etale rank-two quotient with all invariant algebras and kernel-pair graphs.
+The refined critical package proves the complete prime classification with
+exceptions 5,13,17 and the signed same-point local-family equivalences, using
+actual cover places and proven uniform bounds.

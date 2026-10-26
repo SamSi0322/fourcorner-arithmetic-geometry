@@ -1,0 +1,668 @@
+{
+  "ThetaAmbientChart": {
+    "path": "Source/ThetaAmbientChart.lean",
+    "sha256": "ed9785729381ea7f6b1022ac5bb708698557194105db0028739d2f8b269ac3e7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaQuotientChart": {
+    "path": "Source/ThetaQuotientChart.lean",
+    "sha256": "2265cee5402f5a8c31d834e3c8f56645da856e901709b4986989fb236321e112",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjectiveModel": {
+    "path": "Source/ThetaProjectiveModel.lean",
+    "sha256": "ec2abd9f3d36424baeedd4e696ab3dd78072d6f0bced31925f52eeb6260268bd",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjectiveCoordinates": {
+    "path": "Source/ThetaProjectiveCoordinates.lean",
+    "sha256": "6b48e723fd1c2f92cb6e75f14189613e2c94ab90d586b98f1f7ffaa1070212eb",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaLiteralModels": {
+    "path": "Source/ThetaLiteralModels.lean",
+    "sha256": "8db7f9c531c0031299c010432a2fb4612ddb2b72eaed667a91194504844a8725",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaMvPolynomialPolynomial": {
+    "path": "Source/ThetaMvPolynomialPolynomial.lean",
+    "sha256": "43330a5e928a56af89b209101f98be347937384d2d435f875e2eaff698ccd650",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted or replayed pinned Mathlib source; original source notices retained",
+      "upstream": {
+        "project": "Mathlib",
+        "source_path": "Mathlib/Algebra/MvPolynomial/Polynomial.lean",
+        "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+        "upstream_source_sha256": "43330a5e928a56af89b209101f98be347937384d2d435f875e2eaff698ccd650",
+        "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+        "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+      }
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPolynomialFunext": {
+    "path": "Source/ThetaPolynomialFunext.lean",
+    "sha256": "23bf306dabdcf771385b7973d62ae60529a1449ccde64e5a1035b1b6a6cdbbed",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted or replayed pinned Mathlib source; original source notices retained",
+      "upstream": {
+        "project": "Mathlib",
+        "source_path": "Mathlib/Algebra/MvPolynomial/Funext.lean",
+        "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+        "upstream_source_sha256": "cb1821884a139917b692103a0b267115179cd4e7084da5487857ec49abb0cc7e",
+        "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+        "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+      }
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaOppositeComparison": {
+    "path": "Source/ThetaOppositeComparison.lean",
+    "sha256": "c8c0383e84a0ac2f358b1d192ce89f9327e66061b133a41242c73d3c48fa4a29",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaModelBase": {
+    "path": "Source/ThetaModelBase.lean",
+    "sha256": "d64b42777a5d1abb3e56f8710275e84bbe902c3e08a43a43d5f9e2c9dfbb9265",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaSourceSmooth": {
+    "path": "Source/ThetaSourceSmooth.lean",
+    "sha256": "b585c13eb6c027772bff6e1a1fc4d0b92b7c3bcf17715a58f6ec3d6bdf357bf7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjEquality": {
+    "path": "Source/ThetaProjEquality.lean",
+    "sha256": "0d62ad6f6d0cfa2a43a60e0055e7c2b986090d465920b7ba9249abc0a894e8bb",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaSourceComparison": {
+    "path": "Source/ThetaSourceComparison.lean",
+    "sha256": "ad5b179a4452e5bad00be0341c354bab2cef5b5461a754cf0ac89a5a475e58e4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjMap": {
+    "path": "Source/ThetaProjMap.lean",
+    "sha256": "95c7d8939cd248767ce28c7eeb6e7e2046e15c975924d560defcd5262d392a1f",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted or replayed pinned Mathlib source; original source notices retained",
+      "upstream": {
+        "project": "Mathlib",
+        "source_path": "Mathlib/AlgebraicGeometry/ProjectiveSpectrum/Functor.lean",
+        "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+        "upstream_source_sha256": "7cecd45c1912d832d627f77b190f9ee57fe4cdb8d6e8da6049c0545fefaea086",
+        "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+        "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+      }
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjection": {
+    "path": "Source/ThetaProjection.lean",
+    "sha256": "4052eebd4511bac719d527a09b2f8dfdfed87eb8d6a962e1eb80de7c4449ff54",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaInvolution": {
+    "path": "Source/ThetaInvolution.lean",
+    "sha256": "53c811975488fb0153f01d7bb64956c7795a88b4c4e956be83f88bad20440438",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaHomogeneousSign": {
+    "path": "Source/ThetaHomogeneousSign.lean",
+    "sha256": "19085592ceb60d947cff427cd56e4643c8cbbbfea6d8bcc34c3a02a6ed1c9c45",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaQuadraticKernel": {
+    "path": "Source/ThetaQuadraticKernel.lean",
+    "sha256": "ccfad9e5569073e602e8246c5738320a93f465d87221e8cd51373fb323a36533",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPairPresentation": {
+    "path": "Source/ThetaPairPresentation.lean",
+    "sha256": "879f31250ef40b7eb43ec817ef69b3cf078da46b907990a06b410e05bbbb832b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPairInvariants": {
+    "path": "Source/ThetaPairInvariants.lean",
+    "sha256": "9957681e5b33747e766a96b348ca1088d9fe23f7f2daf69e783274deb931d54e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaActualPoints": {
+    "path": "Source/ThetaActualPoints.lean",
+    "sha256": "62dbe640be97840c737ef8e90843211b6c9d872c9327688dc1f4190272c76764",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPointAPI": {
+    "path": "Source/ThetaPointAPI.lean",
+    "sha256": "dabb66eb2a036ee98b82813ec949a4f8599b0fcb4bfc5d7498efad2e212d91d1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaHomogeneousEvaluation": {
+    "path": "Source/ThetaHomogeneousEvaluation.lean",
+    "sha256": "29d082517af845e34fe313a46f7ad6117944213ca619d786f71076e9b10d07c7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaBoundary": {
+    "path": "Source/ThetaBoundary.lean",
+    "sha256": "f4f33abb95ba2d114e59a56f51723c316640c2b9d074c3977b117c458031d9be",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaOriginImage": {
+    "path": "Source/ThetaOriginImage.lean",
+    "sha256": "c39494eb2782e1d436b47d9e0092bb61440220e38a3194672891a8554eb180bf",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaQuotientCharts": {
+    "path": "Source/ThetaQuotientCharts.lean",
+    "sha256": "aaaa176c9a84a286d3fddf572317de6319dfba7dc78e62dc2223aa2f0ad96c3e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaChartAlgebras": {
+    "path": "Source/ThetaChartAlgebras.lean",
+    "sha256": "350c09a304550afa129d2c7a18fb5ce22416d393d0783ac75e96e827d4b3af69",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaSourcePresentation": {
+    "path": "Source/ThetaSourcePresentation.lean",
+    "sha256": "9ab7bbcca9ddcb06d4524941b1213ef437f37034e2deed82745e39e0d1318a67",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaSourcePairData": {
+    "path": "Source/ThetaSourcePairData.lean",
+    "sha256": "1d83b25ca4b77ec904e2118439c5389f6547f535f601dbd222d5c04ff8ae72fe",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjectionChartMap": {
+    "path": "Source/ThetaProjectionChartMap.lean",
+    "sha256": "7fd286aae942cee82dceac1a6e7cfe825e2a0e2af1c6f0c2622dd3c01dad6284",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaInvolutionChart": {
+    "path": "Source/ThetaInvolutionChart.lean",
+    "sha256": "05f6dd3055432a234607bad6b62bef62a842e0e4572e633d66f1e2eb47ba627f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPairBaseChange": {
+    "path": "Source/ThetaPairBaseChange.lean",
+    "sha256": "82904497bed1342e56eafb1096731fbc25f2dfc837c32c5b58ddbb24f6058e9f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPairDescent": {
+    "path": "Source/ThetaPairDescent.lean",
+    "sha256": "aac37f06b185d41d67b8b7b9c8016631f1de6aab678de096eefb056f6cd5964c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaChartFiniteEtale": {
+    "path": "Source/ThetaChartFiniteEtale.lean",
+    "sha256": "b5368560ff83099f3062c297818ff08c4d93cb45ef8d55652f0fe0b26ec31868",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjectionFiniteEtale": {
+    "path": "Source/ThetaProjectionFiniteEtale.lean",
+    "sha256": "88cfa56e50d06e5f38244f6d10a4c37d51b06af2853e867c2bd97190e1a2b095",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaStdRingFlatRank": {
+    "path": "Source/ThetaStdRingFlatRank.lean",
+    "sha256": "228536992011d3f77aa2ac3bf7fb8b8a36124498bc05b2b9909927046747e2c5",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted or replayed pinned Mathlib source; original source notices retained",
+      "upstream": {
+        "project": "Mathlib",
+        "source_path": "Mathlib/RingTheory/Flat/Rank.lean",
+        "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+        "upstream_source_sha256": "228536992011d3f77aa2ac3bf7fb8b8a36124498bc05b2b9909927046747e2c5",
+        "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+        "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+      }
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPairRank": {
+    "path": "Source/ThetaPairRank.lean",
+    "sha256": "744b85bc5e85802a3f3c834e03e71a437a679ea673f533b6ff340308780913b4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaStdModuleFinitePresentation": {
+    "path": "Source/ThetaStdModuleFinitePresentation.lean",
+    "sha256": "53ec4b69c8869638a7ba0e0dbfa637e94f39d1b8454b02d9c63482cc00361db8",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted or replayed pinned Mathlib source; original source notices retained",
+      "upstream": {
+        "project": "Mathlib",
+        "source_path": "Mathlib/RingTheory/Finiteness/ModuleFinitePresentation.lean",
+        "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+        "upstream_source_sha256": "53ec4b69c8869638a7ba0e0dbfa637e94f39d1b8454b02d9c63482cc00361db8",
+        "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+        "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+      }
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaStdSchemeFlatRank": {
+    "path": "Source/ThetaStdSchemeFlatRank.lean",
+    "sha256": "c8a9adc2b78aa7043d9a5cb9ef80a9ae1fa32d15f85d9f6a892cdf64dd76ab76",
+    "license": "Apache-2.0",
+    "origin": {
+      "kind": "Adapted or replayed pinned Mathlib source; original source notices retained",
+      "upstream": {
+        "project": "Mathlib",
+        "source_path": "Mathlib/AlgebraicGeometry/Morphisms/FlatRank.lean",
+        "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+        "upstream_source_sha256": "abdbf477169736bfdaec5a4e2aa9e2911e361d3245d5dbd332bab494bcef8c28",
+        "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+        "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+      }
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaProjectionDegree": {
+    "path": "Source/ThetaProjectionDegree.lean",
+    "sha256": "4c02e17d0e96763dddb0be8c2a4ef9fbedc3db59a237e17ce526db64a35635bf",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaDeckInvolution": {
+    "path": "Source/ThetaDeckInvolution.lean",
+    "sha256": "c447d5d40f8bd022050904a546a282a16086f7333098871b4aa9ece3688327c6",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPairInvariantEquiv": {
+    "path": "Source/ThetaPairInvariantEquiv.lean",
+    "sha256": "c1e04911529da28c9029b6bc41216936859a8e63ae02547147b675e13749402f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaPairGalois": {
+    "path": "Source/ThetaPairGalois.lean",
+    "sha256": "865daf11dcd8f54db703fd5fe8ae809a3b7568f8d439ca3965c20039ee2e793b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaActualQuotient": {
+    "path": "Source/ThetaActualQuotient.lean",
+    "sha256": "b2fe61a16e175293de9df1a2f9809925da56b3c233acf3b8673ae2c520b44d16",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaIsoFunctionField": {
+    "path": "Source/ThetaIsoFunctionField.lean",
+    "sha256": "e182586fef63a51f3659c615bbc0bc401e95f5013ea6474a23180a394ab7259f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaSourceGenus": {
+    "path": "Source/ThetaSourceGenus.lean",
+    "sha256": "8d6c6b71db108954e80d6a72e419bbb08e8912e6d707e5ee0077a043054cbc60",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaTargetSmooth": {
+    "path": "Source/ThetaTargetSmooth.lean",
+    "sha256": "2bedb6a066021a7ae72c3c1a9de1bc2c46ff1a1bb4acd1bad9876ce3c380781b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaQuotient": {
+    "path": "Source/ThetaQuotient.lean",
+    "sha256": "72ab8104042288396b9bd86066368d98a30d7bf079dd47002e2fe01ec5b778d7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ThetaQuotientAudit": {
+    "path": "Source/ThetaQuotientAudit.lean",
+    "sha256": "a642bc64232499bb2d47bb21f30cb3aeb532564186c42cb2610a1f2e9a8adbb7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact reviewed prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  }
+}

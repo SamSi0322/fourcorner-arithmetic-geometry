@@ -137,5 +137,25 @@
         "setup": ".lake/build/ir/Cs15569Audit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/theta_quotient",
+    "target": "ThetaQuotientProject",
+    "audit": [
+      {
+        "source": "Source/ThetaQuotientAudit.lean",
+        "setup": ".lake/build/ir/ThetaQuotientAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/critical_refined",
+    "target": "CriticalRefinedProject",
+    "audit": [
+      {
+        "source": "Source/RefinedFiniteAudit.lean",
+        "setup": ".lake/build/ir/RefinedFiniteAudit.setup.json"
+      }
+    ]
   }
 ]
