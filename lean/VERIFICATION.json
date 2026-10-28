@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 56,
+  "verified_numbered_statements": 57,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -3236,6 +3236,11 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.ThetaLocalSurvival.StrongTopology.theta_local_survival": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -3252,11 +3257,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-28T10:24:32.920993+00:00",
-  "project_count": 23,
+  "verified_at_utc": "2026-10-28T23:36:58.923918+00:00",
+  "project_count": 24,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/theta_lines"
+    "projects/theta_local_survival"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -3280,7 +3285,9 @@
     "projects/critical_refined",
     "projects/critical_double",
     "projects/hasse_infinite",
-    "projects/descent_algebra"
+    "projects/descent_algebra",
+    "projects/theta_lines"
   ],
-  "cold_kernel_checks": "All registered endpoints passed cold kernel checking with -t0 and debug.skipKernelTC=false. All132 theta mathematical/compatibility sources were freshly built and individually cold-checked. The output-only audit revision was rebuilt and cold-checked separately, giving successful checks for all133 final source versions. All2338 introduced declarations use only the standard three axioms; endpoint dependency closure excludes the legacy arbitrary global map and placeholders."
+  "cold_kernel_checks": "Prior accepted cold checks are retained for the unchanged 23 projects. All 64 new sources (62 mathematical, audit and wrapper) passed ordinary and trust-zero replay with bytes identical to Lake outputs; the new actual-checkout audit passed again. All 668 owned declarations have standard-only axiom and unsafe-free full type/value closure.",
+  "verification_mode": "Incremental exact-source acceptance: prior 23 projects unchanged; new project source-built and checked in this checkout."
 }

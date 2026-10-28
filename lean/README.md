@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 56 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 57 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -140,3 +140,9 @@ quartic: all 28 native bitangents are classified, each has two distinct actual
 contacts, and the genuine odd-theta finite etale algebra and its full absolute
 Galois action are identified. Natural global differential maps, all projective
 charts and repeated-half-divisor cases are retained.
+
+The local-survival theorem is now fully formalized for every positive multiplication
+level. The distinguished geometric component is defined over QQ, has nonboundary
+points over every Q_p, and contains a real point above the prescribed path-reachable
+subset. The proof uses actual scheme points, finite etale multiplication and the
+canonical strong topology.

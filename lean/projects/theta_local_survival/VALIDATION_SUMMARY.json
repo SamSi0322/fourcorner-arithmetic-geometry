@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "paper_label": "thm:theta-local-survival",
+  "endpoint": "FourCorner.ThetaLocalSurvival.StrongTopology.theta_local_survival",
+  "accepted_at_utc": "2026-10-28T23:36:58.923918+00:00",
+  "compiler": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "mathematical_sources": 62,
+  "audit_sources": 1,
+  "import_wrappers": 1,
+  "ordinary_cold_pairs": 64,
+  "all_pairs_equal_lake_objects": true,
+  "owned_standard_axiom_declarations": 668,
+  "raw_type_value_dependency_closure": 69845,
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "native_modules": 4982,
+  "native_import_edges": 24552,
+  "implicit_stdlib_artifact_parts": 12417,
+  "no_private_source_or_binary_dependency": true,
+  "independent_semantic_review_sha256": "57100ec98885dc25d3f510836e4ecaf96fd8e06ac21859885f74889085f784a2",
+  "independent_execution_review_sha256": "0055efc4d69a5fb14f3cf8a4b77ffc03185217d50f5155ef3179609fc6fbbb10",
+  "independent_source_port_review_sha256": "a394d3686a80de86e19d310f72ea87ba979d5b2493f92cf4f6ff696bd9286890",
+  "independent_portable_byte_review_sha256": "32ad4b291b28c97ac8578b412753615d8bb7ceaf442ca098b97b85500742ec06",
+  "actual_checkout_gate_sha256": "c6e659bf1f9af81071744b18d09203555d710a65ed4dcfff81ed41236b826795",
+  "public_source_sha256": "a92625b51dc9b49c7da61375f60bf49083ceb2bee36fbc58c12a22c1103c917f",
+  "scope": "Actual multiplication pullbacks for every positive m, their QQ-defined distinguished geometric component, nonboundary points over every Q_p, and a real point over the specified subset. The stronger proper smooth curve theorem includes the original projective curve case."
+}

@@ -1,0 +1,4 @@
+.lake/
+verification/
+stage_attempts/
+*.log

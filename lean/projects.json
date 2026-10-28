@@ -205,5 +205,16 @@
         "setup": ".lake/build/ir/ThetaLinesPortableAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/theta_local_survival",
+    "target": "ThetaLocalSurvivalPortable.Audit",
+    "audit": [
+      {
+        "source": "Source/ThetaLocalSurvivalPortable/Audit.lean",
+        "setup": ".lake/build/ir/ThetaLocalSurvivalPortable/Audit.setup.json"
+      }
+    ],
+    "expected_setup_options": {}
   }
 ]

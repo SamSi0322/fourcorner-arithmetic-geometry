@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 56 of the 69 numbered statements. Further
+The current Lean development fully verifies 57 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -85,3 +85,9 @@ quartic: all 28 native bitangents are classified, each has two distinct actual
 contacts, and the genuine odd-theta finite etale algebra and its full absolute
 Galois action are identified. Natural global differential maps, all projective
 charts and repeated-half-divisor cases are retained.
+
+The local-survival theorem is now fully formalized for every positive multiplication
+level. The distinguished geometric component is defined over QQ, has nonboundary
+points over every Q_p, and contains a real point above the prescribed path-reachable
+subset. The proof uses actual scheme points, finite etale multiplication and the
+canonical strong topology.

@@ -1,0 +1,498 @@
+[
+  {
+    "old_module": "EtaleLocallyQuasiFinite",
+    "new_module": "ThetaLocalSurvivalPortable.EtaleLocallyQuasiFinite",
+    "original_source_sha256": "8cc388fb7b760f60680c6134d70cb84f223430c30a43be9a460984c82ef1feb1",
+    "source": "Source/ThetaLocalSurvivalPortable/EtaleLocallyQuasiFinite.lean",
+    "source_sha256": "8cc388fb7b760f60680c6134d70cb84f223430c30a43be9a460984c82ef1feb1",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ActualAbelianMultiplication",
+    "new_module": "ThetaLocalSurvivalPortable.ActualAbelianMultiplication",
+    "original_source_sha256": "781d7bfc0b8f01c0cd02ad375b80a5e1fc34d6f79ed2a2926a0c33e7c7bdbc98",
+    "source": "Source/ThetaLocalSurvivalPortable/ActualAbelianMultiplication.lean",
+    "source_sha256": "28e875c36d05c2300113baf3809396b4a28f161943bcdbf62549efac20d3565a",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SquareZeroScalars",
+    "new_module": "ThetaLocalSurvivalPortable.SquareZeroScalars",
+    "original_source_sha256": "468927d6cafaecaec7f22fcf4c1b9704d7cce0df32ccb68b8df62232e17bf342",
+    "source": "Source/ThetaLocalSurvivalPortable/SquareZeroScalars.lean",
+    "source_sha256": "468927d6cafaecaec7f22fcf4c1b9704d7cce0df32ccb68b8df62232e17bf342",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ActualInfinitesimalPoints",
+    "new_module": "ThetaLocalSurvivalPortable.ActualInfinitesimalPoints",
+    "original_source_sha256": "e23579412c4fc132fa96f32fa1a2855512d9b56f44636b8ae5d4c27db4f574e2",
+    "source": "Source/ThetaLocalSurvivalPortable/ActualInfinitesimalPoints.lean",
+    "source_sha256": "599fe845a3a0673b50ac0459f2f322d49157c43596feea3fa94a1f11b795b0a9",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "AffinePointAlgebra",
+    "new_module": "ThetaLocalSurvivalPortable.AffinePointAlgebra",
+    "original_source_sha256": "54ffe6672380f29d4578a722e76438ea6bf658c029606fe8a0ab481b65669a51",
+    "source": "Source/ThetaLocalSurvivalPortable/AffinePointAlgebra.lean",
+    "source_sha256": "3b60918a588db785690f27aeb9763833d4e48313880160ab951913019b894e72",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "AffinePointTopology",
+    "new_module": "ThetaLocalSurvivalPortable.AffinePointTopology",
+    "original_source_sha256": "2270c66584d8e44355ddbf802c274139fde8af9cc662f0c2bf7d5c4f961f4a00",
+    "source": "Source/ThetaLocalSurvivalPortable/AffinePointTopology.lean",
+    "source_sha256": "b9cb9cf1a8d549901cb5ab8f4cb5973a05eb98bdaedee40f0509473534855410",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "LocalizationPointHomeomorph",
+    "new_module": "ThetaLocalSurvivalPortable.LocalizationPointHomeomorph",
+    "original_source_sha256": "509a1d4379bae87ae3cc6e460f5e5e94a506bce7e80d44373d19d01fa495ba1b",
+    "source": "Source/ThetaLocalSurvivalPortable/LocalizationPointHomeomorph.lean",
+    "source_sha256": "70c5981c8ce1998094dcf2c84fd657321a659855c185553d1e5fe58abcb06277",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SchemePointTopology",
+    "new_module": "ThetaLocalSurvivalPortable.SchemePointTopology",
+    "original_source_sha256": "b98590b59be6b61113e677485ada6bcb232d8290ee8cb3737b14f026fb0d3e6e",
+    "source": "Source/ThetaLocalSurvivalPortable/SchemePointTopology.lean",
+    "source_sha256": "6dd20755a667cba832efb216e1f0ae3516c180cf50ebc0f803cc5ec75b6e37b8",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "PointSupportContinuity",
+    "new_module": "ThetaLocalSurvivalPortable.PointSupportContinuity",
+    "original_source_sha256": "22169861cbb204f1e10cb9458b44032db0f98cd43903f44e7a0e2e8fa4a08d7d",
+    "source": "Source/ThetaLocalSurvivalPortable/PointSupportContinuity.lean",
+    "source_sha256": "eb0923448938e4feaf88d9c0772e7306e9b03e2fb269594e9daa5695b397f09f",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "OpenImmersionPoints",
+    "new_module": "ThetaLocalSurvivalPortable.OpenImmersionPoints",
+    "original_source_sha256": "65763e73f410c85f35ef1a1dc1345e5ce3562f11a5c2e1394f7262982071d090",
+    "source": "Source/ThetaLocalSurvivalPortable/OpenImmersionPoints.lean",
+    "source_sha256": "d529519c60bfa90eca9556cd42d69479fc4172f3ec7c0b8538cedde063b101a4",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "PolynomialPointTopology",
+    "new_module": "ThetaLocalSurvivalPortable.PolynomialPointTopology",
+    "original_source_sha256": "38dac1607ec0d56c6764aa6bc64c8918e68884edabe966211780b92a3d38d685",
+    "source": "Source/ThetaLocalSurvivalPortable/PolynomialPointTopology.lean",
+    "source_sha256": "cee4d50fe137d4d51d1154b749063a6d122e2b8754a9c2ccf72322380723b462",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "GeneratorPointEmbedding",
+    "new_module": "ThetaLocalSurvivalPortable.GeneratorPointEmbedding",
+    "original_source_sha256": "f072ff586c2fd4adbc4bc539793a154ff33bdcd830660d7d98493217f2f83fd9",
+    "source": "Source/ThetaLocalSurvivalPortable/GeneratorPointEmbedding.lean",
+    "source_sha256": "d777cc25a2b6342330d649689809b7d1b1c549a7dd66dce70d57cd99bc8bff39",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ParametricPolynomialLift",
+    "new_module": "ThetaLocalSurvivalPortable.ParametricPolynomialLift",
+    "original_source_sha256": "5b2d0e01a1401c1f8f0d9011bb5290fa31de2dbcd43c02ea5625772265921f08",
+    "source": "Source/ThetaLocalSurvivalPortable/ParametricPolynomialLift.lean",
+    "source_sha256": "40638526f774a45e49c92643de11483ed9cd92603022a90e9940df583d2afc74",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "EtaleSquarePresentation",
+    "new_module": "ThetaLocalSurvivalPortable.EtaleSquarePresentation",
+    "original_source_sha256": "37504ee994d1c0d626195adf165230d85d1ce1943e2636b8f801d4195f4a5a62",
+    "source": "Source/ThetaLocalSurvivalPortable/EtaleSquarePresentation.lean",
+    "source_sha256": "fa8a4e0eaa4d9da9ffb24f2c09201a1208c3d5d7a732f78313c763c9c666a43e",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "PolynomialStrictDerivative",
+    "new_module": "ThetaLocalSurvivalPortable.PolynomialStrictDerivative",
+    "original_source_sha256": "c1a1db974ce1aa7e467b66ef0c28c4881c9f3ddec43df88593bb1fe4a98d9f0b",
+    "source": "Source/ThetaLocalSurvivalPortable/PolynomialStrictDerivative.lean",
+    "source_sha256": "c1a1db974ce1aa7e467b66ef0c28c4881c9f3ddec43df88593bb1fe4a98d9f0b",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "PolynomialImplicitNeighborhood",
+    "new_module": "ThetaLocalSurvivalPortable.PolynomialImplicitNeighborhood",
+    "original_source_sha256": "3f76ee566cc71ebba7234c9da01567d8e10af9bfa3911f9bd7ee2e51e17ebfaf",
+    "source": "Source/ThetaLocalSurvivalPortable/PolynomialImplicitNeighborhood.lean",
+    "source_sha256": "25f6ea8fee27c414d0a62e4568b07e5d1f148767282f1280f1826a1eca972951",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ImplicitGraphChart",
+    "new_module": "ThetaLocalSurvivalPortable.ImplicitGraphChart",
+    "original_source_sha256": "cb64d6ffad23d3871d184fdb641b6d0cf3769cccb4da8f33c202b23e7d5506ba",
+    "source": "Source/ThetaLocalSurvivalPortable/ImplicitGraphChart.lean",
+    "source_sha256": "599c53a4248e6b88888a9410216efc8b75bac2b8df1a9147cd73c4dc83f240a9",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "PresentationImplicitSystem",
+    "new_module": "ThetaLocalSurvivalPortable.PresentationImplicitSystem",
+    "original_source_sha256": "0a00937a36adf26dedc391c4e2518def75bd5589eeaf5c1f8e230d8b7e611348",
+    "source": "Source/ThetaLocalSurvivalPortable/PresentationImplicitSystem.lean",
+    "source_sha256": "a94a35fa83bfb81f6bdb212ee04fd29a8a8970177183010f9887dc8b2038f7a2",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "EtaleAffinePointLocalHomeomorph",
+    "new_module": "ThetaLocalSurvivalPortable.EtaleAffinePointLocalHomeomorph",
+    "original_source_sha256": "f4d3b6460ba0e99bd2a529c72c15b3ae728a143d53749698ea5c6ffbdd0cb4f4",
+    "source": "Source/ThetaLocalSurvivalPortable/EtaleAffinePointLocalHomeomorph.lean",
+    "source_sha256": "f85dc5ff2adbcbfcf4e7d8a06056921f716b4ef4acef8cd4e402dbb518eb5d37",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "StrongAffineAtlas",
+    "new_module": "ThetaLocalSurvivalPortable.StrongAffineAtlas",
+    "original_source_sha256": "abf5fb110d328bc077fbffabfc3a12aa39f729cbf3feca7a5a18b2b4186da4aa",
+    "source": "Source/ThetaLocalSurvivalPortable/StrongAffineAtlas.lean",
+    "source_sha256": "51ded259cd30dc252d56519bc7f9c786e2ac5e0f6c674cb68d670d0d7c3a406a",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "EtaleSchemePointLocalHomeomorph",
+    "new_module": "ThetaLocalSurvivalPortable.EtaleSchemePointLocalHomeomorph",
+    "original_source_sha256": "af903250e4fab77078ce97e693e90aa3c52fcce527e93b10736549c2e24b51dc",
+    "source": "Source/ThetaLocalSurvivalPortable/EtaleSchemePointLocalHomeomorph.lean",
+    "source_sha256": "2af549aebbb14831326b75a67bbc861a8ff1e6472ac223a1f90959a567237dd2",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "MonicRootBound",
+    "new_module": "ThetaLocalSurvivalPortable.MonicRootBound",
+    "original_source_sha256": "e7984beeb2867aa0990e2d519aaf91e4ada4213ee53b8d364ea246c06e7fea09",
+    "source": "Source/ThetaLocalSurvivalPortable/MonicRootBound.lean",
+    "source_sha256": "0a99e4666c4483d9966e04b99a98a8e27b5e6b8cc6da221f9eb7e48007f7761b",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "CompactGraphProjection",
+    "new_module": "ThetaLocalSurvivalPortable.CompactGraphProjection",
+    "original_source_sha256": "aba703feea7fe825179f7d87878e0488f040125d901f1e433c046e7d10472b3c",
+    "source": "Source/ThetaLocalSurvivalPortable/CompactGraphProjection.lean",
+    "source_sha256": "ac954eb301ec6c168278bd30f12d5149ba182b2befca673c0da4779f3f28190c",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FiniteAlgebraPointBounds",
+    "new_module": "ThetaLocalSurvivalPortable.FiniteAlgebraPointBounds",
+    "original_source_sha256": "cd694c1112efd159aa82d81a4cbe84fb7b3378a2ca8ebea3b7a9277bb8e199ce",
+    "source": "Source/ThetaLocalSurvivalPortable/FiniteAlgebraPointBounds.lean",
+    "source_sha256": "c5052429e860b8918fe9ae5bf8f6f175109de49ffa5b312ff863e150f843f373",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FiniteAlgebraPointFibres",
+    "new_module": "ThetaLocalSurvivalPortable.FiniteAlgebraPointFibres",
+    "original_source_sha256": "06684a703889344d83e7940bee900064412c57f4d38cdc219d0cc602cabccb0e",
+    "source": "Source/ThetaLocalSurvivalPortable/FiniteAlgebraPointFibres.lean",
+    "source_sha256": "0e517776ce36140be96a0cd4e2e657e26a381c8ab194591900da355f4538b043",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FiniteEtaleAffineCovering",
+    "new_module": "ThetaLocalSurvivalPortable.FiniteEtaleAffineCovering",
+    "original_source_sha256": "23078f6299258a47b6e19418d98c21f721fb1a9b278ad2ee8d0dfcb5377252cc",
+    "source": "Source/ThetaLocalSurvivalPortable/FiniteEtaleAffineCovering.lean",
+    "source_sha256": "7ee32baa56a76a78077c9d7ea8605c6b0146cd5fa3b51970e09bbb3e452545d9",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FiniteEtaleAffineSchemeCovering",
+    "new_module": "ThetaLocalSurvivalPortable.FiniteEtaleAffineSchemeCovering",
+    "original_source_sha256": "95be0ac9d4febf6994cbba476b532db78f5113c58cd160b0e3b9be540a9cdc69",
+    "source": "Source/ThetaLocalSurvivalPortable/FiniteEtaleAffineSchemeCovering.lean",
+    "source_sha256": "ee2217e08a39de00d1439a1bc27d1bb4caa2a40b6016ffda1fc27fdfe8b3e8fe",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FiniteEtaleFullAffinePreimage",
+    "new_module": "ThetaLocalSurvivalPortable.FiniteEtaleFullAffinePreimage",
+    "original_source_sha256": "a636947ecc594e7ca959bc4e8a1ea413815913aa6e952ff747374a32977b710b",
+    "source": "Source/ThetaLocalSurvivalPortable/FiniteEtaleFullAffinePreimage.lean",
+    "source_sha256": "746e31cc0ead9abcd7c9525b7cbb8df82e049f570a1980ebd824277da863f9fa",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "CoveringOpenCharts",
+    "new_module": "ThetaLocalSurvivalPortable.CoveringOpenCharts",
+    "original_source_sha256": "5855fc6fa28fcb571d0229eb22397f53cf2789ec7f6b4623750906b4be4645fd",
+    "source": "Source/ThetaLocalSurvivalPortable/CoveringOpenCharts.lean",
+    "source_sha256": "eafa4b0f076442753f480b253bb0dad0fe9a1038d81a2deddb7e97090b1cad09",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FiniteEtaleSchemeCovering",
+    "new_module": "ThetaLocalSurvivalPortable.FiniteEtaleSchemeCovering",
+    "original_source_sha256": "55bca6c2709569bf35b5c77ce4941449e9d264d3a1678b7c96f0cd3a43e68122",
+    "source": "Source/ThetaLocalSurvivalPortable/FiniteEtaleSchemeCovering.lean",
+    "source_sha256": "8f19b9aba918216319a41c98dcbec069788e3715340125db56fa5da57afd7e36",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FreePolynomialPoints",
+    "new_module": "ThetaLocalSurvivalPortable.FreePolynomialPoints",
+    "original_source_sha256": "286c146f4ae81571e47dc583e7ae5cdbd8025c96e64f83ad0dd6b34830201d22",
+    "source": "Source/ThetaLocalSurvivalPortable/FreePolynomialPoints.lean",
+    "source_sha256": "8f5a55c459b48f573329b7ae5b856b62987e5fe58e56a847c7491a18fd5fe85d",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SmoothAffineEtaleCoordinate",
+    "new_module": "ThetaLocalSurvivalPortable.SmoothAffineEtaleCoordinate",
+    "original_source_sha256": "bf0da1c3e693874714f61ae7ca458748167364d33078898505feb897cd70356a",
+    "source": "Source/ThetaLocalSurvivalPortable/SmoothAffineEtaleCoordinate.lean",
+    "source_sha256": "f0a118ac15e65018d26f796f5e4c885555845d83be3fbfab5b99014e94355a6b",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SmoothCurveNeighborhoods",
+    "new_module": "ThetaLocalSurvivalPortable.SmoothCurveNeighborhoods",
+    "original_source_sha256": "6ddba4c2a6ae95571e3e96a5a36cb8c976110ea328787463a889de8b1908adbc",
+    "source": "Source/ThetaLocalSurvivalPortable/SmoothCurveNeighborhoods.lean",
+    "source_sha256": "e5c7d62b8ddb59096ecbb45d1c615cb6170897657fca077a1f265622c7fd64cc",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "FiniteClosedBoundaryPoints",
+    "new_module": "ThetaLocalSurvivalPortable.FiniteClosedBoundaryPoints",
+    "original_source_sha256": "f01bb248918cb4010b6a41a6a1ba40392672bfbc4136de3594b49ea1c20f968a",
+    "source": "Source/ThetaLocalSurvivalPortable/FiniteClosedBoundaryPoints.lean",
+    "source_sha256": "9abfbee949b30ee67eab504e41497a25b152b28d5af3e8b3137301292a0d62fc",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "GaloisTensorInvariant",
+    "new_module": "ThetaLocalSurvivalPortable.GaloisTensorInvariant",
+    "original_source_sha256": "6c95ef0fb8b9211626f2b35e2c1258ff3bc095f0278ac9eb107976307408d9e1",
+    "source": "Source/ThetaLocalSurvivalPortable/GaloisTensorInvariant.lean",
+    "source_sha256": "6c95ef0fb8b9211626f2b35e2c1258ff3bc095f0278ac9eb107976307408d9e1",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "GaloisTensorProfinite",
+    "new_module": "ThetaLocalSurvivalPortable.GaloisTensorProfinite",
+    "original_source_sha256": "770e9cbb8080db844464a75c6e328a32d2de925c41836a09b94657609d1f7fdb",
+    "source": "Source/ThetaLocalSurvivalPortable/GaloisTensorProfinite.lean",
+    "source_sha256": "4ae51a54a46849380fad219a61270f9865be3c24039b83a59e8eea3ad33ed9a3",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "GeometricSchemeAction",
+    "new_module": "ThetaLocalSurvivalPortable.GeometricSchemeAction",
+    "original_source_sha256": "a0212f2f4335197424710ffb76527911ac5cfc6a83d77bca711bc4dda5ef1e7d",
+    "source": "Source/ThetaLocalSurvivalPortable/GeometricSchemeAction.lean",
+    "source_sha256": "f52207224604abf382a8e70bebd96e6424ad220f1fd3a930a080f6327921223a",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "GeometricAffineCharts",
+    "new_module": "ThetaLocalSurvivalPortable.GeometricAffineCharts",
+    "original_source_sha256": "8b01f14e4a02a5d48a347ff4a187bc63965c8a0c48cf68dc75a9f757ea4c85bf",
+    "source": "Source/ThetaLocalSurvivalPortable/GeometricAffineCharts.lean",
+    "source_sha256": "7032473e38f4e7b55a99133a20d54f356db55fef2dd9f37d6fea3371ad4b288f",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "GaloisAffineCompatibility",
+    "new_module": "ThetaLocalSurvivalPortable.GaloisAffineCompatibility",
+    "original_source_sha256": "27dd3bf85985af55f4e87e4b12c3aace741e5e9ccdea56aca652880b883eeb1f",
+    "source": "Source/ThetaLocalSurvivalPortable/GaloisAffineCompatibility.lean",
+    "source_sha256": "f58dd63eb3e8ea1c530919dc25bd7bf86543330a9aa2cf3111abeb083ac3ca0f",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "GeometricGaloisFibres",
+    "new_module": "ThetaLocalSurvivalPortable.GeometricGaloisFibres",
+    "original_source_sha256": "a8c68ba08fc21c97158a614dd044cbe053c755f4d2e2a55d2dff626ba82e554b",
+    "source": "Source/ThetaLocalSurvivalPortable/GeometricGaloisFibres.lean",
+    "source_sha256": "efe8c4c6504ce7ccee0e69499b7933120f2b97807fcd9ad0a60b97e00a06bae4",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "NoetherianConnectedComponents",
+    "new_module": "ThetaLocalSurvivalPortable.NoetherianConnectedComponents",
+    "original_source_sha256": "fd2e032de83d70030038ab5c56f51af359feeed515ed1d2fa8099aaa3b240ee6",
+    "source": "Source/ThetaLocalSurvivalPortable/NoetherianConnectedComponents.lean",
+    "source_sha256": "fd2e032de83d70030038ab5c56f51af359feeed515ed1d2fa8099aaa3b240ee6",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ClosedOrbitComponentDescent",
+    "new_module": "ThetaLocalSurvivalPortable.ClosedOrbitComponentDescent",
+    "original_source_sha256": "68ba2f27b1563922789010fe03378d6468d9851d71543e7e7635f85c5399699f",
+    "source": "Source/ThetaLocalSurvivalPortable/ClosedOrbitComponentDescent.lean",
+    "source_sha256": "11b0397eb4569e0ac2029a69c16e67b47d89c650fac70e708d7a2a7ce2efb545",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "RationalComponentDescent",
+    "new_module": "ThetaLocalSurvivalPortable.RationalComponentDescent",
+    "original_source_sha256": "df9092985f65feee23568d867f3b051187c2ffe4b075a1ad7c26b011a8dd6c7c",
+    "source": "Source/ThetaLocalSurvivalPortable/RationalComponentDescent.lean",
+    "source_sha256": "c5439d18baffd8097e29a0307524d3254e13273eea4fc9f6619a494ef4e1a343",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "DescendedComponentScheme",
+    "new_module": "ThetaLocalSurvivalPortable.DescendedComponentScheme",
+    "original_source_sha256": "dc570b7cafc1dd3520f85d857e280fde0bb081afccdf0a8dc99878fb4830c976",
+    "source": "Source/ThetaLocalSurvivalPortable/DescendedComponentScheme.lean",
+    "source_sha256": "5e7a343387b263a38bc92b9f7dea181d984491a9ccff0d1ea6a78fc8a64dc227",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "AugmentedDerivations",
+    "new_module": "ThetaLocalSurvivalPortable.AugmentedDerivations",
+    "original_source_sha256": "4ee9f1a187240cb43757ad32c43d105100236a82753d686ecb8269c6357eaa43",
+    "source": "Source/ThetaLocalSurvivalPortable/AugmentedDerivations.lean",
+    "source_sha256": "3a93e3c606d1a069d1a87dbf4226a06d1c3dce83f0acc09059655cf674609fab",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "InfinitesimalAffineChart",
+    "new_module": "ThetaLocalSurvivalPortable.InfinitesimalAffineChart",
+    "original_source_sha256": "250b2d61a97913c7b628e7d6450407863f09082fc72232c824e6dcab41eb4e94",
+    "source": "Source/ThetaLocalSurvivalPortable/InfinitesimalAffineChart.lean",
+    "source_sha256": "5328856b690e47bb8523e6cbcc78bd57e5c5d4cbad7297a88c1362c01c406263",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "NaturalDerivationAddition",
+    "new_module": "ThetaLocalSurvivalPortable.NaturalDerivationAddition",
+    "original_source_sha256": "1d2f3569a2d1b00086bc3d9843a1860e3614617ec677666c6a8604844143447f",
+    "source": "Source/ThetaLocalSurvivalPortable/NaturalDerivationAddition.lean",
+    "source_sha256": "0f283ffb18f536946a910ce1ed7ff6fde94e1c33df11f02dfd779c50c0a0cfc2",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "InfinitesimalGroupLinearization",
+    "new_module": "ThetaLocalSurvivalPortable.InfinitesimalGroupLinearization",
+    "original_source_sha256": "91dd7a80464144e6b8bcd1e39f2159379be3bf72f88e54ca4eb02b7a7b16226b",
+    "source": "Source/ThetaLocalSurvivalPortable/InfinitesimalGroupLinearization.lean",
+    "source_sha256": "16c770f811c0911339286a6a44fae3c5380d8a1bb15939dfe43bc804db0a9680",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "AffineIdentityChart",
+    "new_module": "ThetaLocalSurvivalPortable.AffineIdentityChart",
+    "original_source_sha256": "bb2fb192d45357163b55e7462bd686d68596c91e735bd6529a54dfa4f0daee8b",
+    "source": "Source/ThetaLocalSurvivalPortable/AffineIdentityChart.lean",
+    "source_sha256": "26a875001e14a0644d28517f7635c64d42b9b585eb9f9680d052dfeda01bdd0c",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SquareZeroIdealDerivations",
+    "new_module": "ThetaLocalSurvivalPortable.SquareZeroIdealDerivations",
+    "original_source_sha256": "598324f88b323a489965e4e499504f3f52d55736edbbd2b7d46f9ff36c066e6a",
+    "source": "Source/ThetaLocalSurvivalPortable/SquareZeroIdealDerivations.lean",
+    "source_sha256": "505b1288a4bec67c10fcb0bd50d53743b8da0415120f037e3d06bc7a8e7b475e",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ActualSquareZeroKernels",
+    "new_module": "ThetaLocalSurvivalPortable.ActualSquareZeroKernels",
+    "original_source_sha256": "01c4ac98fb06b4bc2ffbd6eb66e0cbb368cfaa3af74aab3812cbda5aee582bac",
+    "source": "Source/ThetaLocalSurvivalPortable/ActualSquareZeroKernels.lean",
+    "source_sha256": "3dbb4dc4ead70bb54426781f04bcaf2f83d016385e12db5970cde85722630f80",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SquareZeroKernelDivision",
+    "new_module": "ThetaLocalSurvivalPortable.SquareZeroKernelDivision",
+    "original_source_sha256": "08839bf131fbbc398bdcd8b7206636a9c59b7b0d9a0d0cce8420852f03bdc231",
+    "source": "Source/ThetaLocalSurvivalPortable/SquareZeroKernelDivision.lean",
+    "source_sha256": "2bd4fd480b328ff8661760b85cbb324c8390a62c04281638e1642c5e42a606c7",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SquareZeroGroupCorrection",
+    "new_module": "ThetaLocalSurvivalPortable.SquareZeroGroupCorrection",
+    "original_source_sha256": "9b8e447a70187308d06a77d9d5e3d067ba76d6676b791624bc1c9091540dd1ab",
+    "source": "Source/ThetaLocalSurvivalPortable/SquareZeroGroupCorrection.lean",
+    "source_sha256": "72b9658aaa2974dd3bb93d659c5df910a7c9aa68d5f5ed1ec792c2b748378e19",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "SquareZeroOpenLifting",
+    "new_module": "ThetaLocalSurvivalPortable.SquareZeroOpenLifting",
+    "original_source_sha256": "426129e25956a60468a7f0ab51affd5356b711f91059814e6b3e3c6b0010308a",
+    "source": "Source/ThetaLocalSurvivalPortable/SquareZeroOpenLifting.lean",
+    "source_sha256": "fd046bb160adb80d9a05bb92023114794cbb852a1abfb6636ad376df19ff83ac",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "MultiplicationChartFormalEtale",
+    "new_module": "ThetaLocalSurvivalPortable.MultiplicationChartFormalEtale",
+    "original_source_sha256": "c83c8aa01ca4702eff08f7f92323bd4a348af806aaff91e5301b52af8813ccd3",
+    "source": "Source/ThetaLocalSurvivalPortable/MultiplicationChartFormalEtale.lean",
+    "source_sha256": "4971157cde7e8339cffab454119e114dab106eed998e005d39fa59fae29d6dab",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ActualMultiplicationFiniteEtale",
+    "new_module": "ThetaLocalSurvivalPortable.ActualMultiplicationFiniteEtale",
+    "original_source_sha256": "134f8de0bcfcf261b3fa24c320c5010597d56135d2487a9378ceb23c9a3c2be1",
+    "source": "Source/ThetaLocalSurvivalPortable/ActualMultiplicationFiniteEtale.lean",
+    "source_sha256": "f4d81d654846c8c071b93dfd59ff14c5bc5906be359937e0ecdb7b9a7ebfbd0a",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "AbelianMultiplicationEndpoint",
+    "new_module": "ThetaLocalSurvivalPortable.AbelianMultiplicationEndpoint",
+    "original_source_sha256": "2c73b3dd4202cbd1f524c6d1817347e2ab642c9ec0567429ec562336283b79c3",
+    "source": "Source/ThetaLocalSurvivalPortable/AbelianMultiplicationEndpoint.lean",
+    "source_sha256": "59046066f296476ccf88b9b4b84228647f06c4a8e59810aff50358ce9d970add",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "MultiplicationComponentEndpoint",
+    "new_module": "ThetaLocalSurvivalPortable.MultiplicationComponentEndpoint",
+    "original_source_sha256": "620bdd2008372c713a98b6faf43261efbfcaf9a49cb44265f5049c8043cff9cf",
+    "source": "Source/ThetaLocalSurvivalPortable/MultiplicationComponentEndpoint.lean",
+    "source_sha256": "691dedfa1d50474966a5d585ba28b736dbb844b5f1f8fdc3a68c3a649be60c4b",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "MultiplicationComponentLocalCharts",
+    "new_module": "ThetaLocalSurvivalPortable.MultiplicationComponentLocalCharts",
+    "original_source_sha256": "2e5864a793a6941821685e52b5f9466816c7026b4c1e439d66f8ec8169c8f75c",
+    "source": "Source/ThetaLocalSurvivalPortable/MultiplicationComponentLocalCharts.lean",
+    "source_sha256": "265811404257007bc42f6e4cc822e5c27570f317aceee255ae6fbb4d7587e6f3",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "MultiplicationComponentFinitePlaces",
+    "new_module": "ThetaLocalSurvivalPortable.MultiplicationComponentFinitePlaces",
+    "original_source_sha256": "7a0049768d33b3fa344285128c4f997931478ef4ba49cf9bf8e753c2430b75c3",
+    "source": "Source/ThetaLocalSurvivalPortable/MultiplicationComponentFinitePlaces.lean",
+    "source_sha256": "428a2bfd8568f06bdf659ad8e3663561e90afd0446de07f82e5ee23b19b78291",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "MultiplicationComponentRealPath",
+    "new_module": "ThetaLocalSurvivalPortable.MultiplicationComponentRealPath",
+    "original_source_sha256": "da88e9e1a3babfeb7db21e9177a86ab2deb795daf34926a512c72f5536d40703",
+    "source": "Source/ThetaLocalSurvivalPortable/MultiplicationComponentRealPath.lean",
+    "source_sha256": "70c489ec0e048de2ef3f0c573676d4a1ca0dc30638e3feb949f792802be24460",
+    "only_import_module_names_changed": true
+  },
+  {
+    "old_module": "ThetaLocalSurvival",
+    "new_module": "ThetaLocalSurvivalPortable.ThetaLocalSurvival",
+    "original_source_sha256": "e799e8c0f2962873f5d415319fa258f876cca2d11240711e78943a8f7d916d5e",
+    "source": "Source/ThetaLocalSurvivalPortable/ThetaLocalSurvival.lean",
+    "source_sha256": "a92625b51dc9b49c7da61375f60bf49083ceb2bee36fbc58c12a22c1103c917f",
+    "only_import_module_names_changed": true
+  }
+]

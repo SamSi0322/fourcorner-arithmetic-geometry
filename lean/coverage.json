@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 56,
-  "not_fully_formalized_numbered_statements": 13,
+  "fully_formalized_numbered_statements": 57,
+  "not_fully_formalized_numbered_statements": 12,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1158,10 +1158,16 @@
       "title": null,
       "statement_tex": "\\label{thm:theta-local-survival}\nLet $X/\\Q$ be a smooth projective geometrically integral curve, let\n$B\\subset X$ be a finite closed subset, and suppose $O\\in B(\\Q)$.\nLet $A/\\Q$ be an abelian variety and $a:X\\to A$ a morphism with $a(O)=0$.\nLet $\\mathcal V\\subset (X\\setminus B)(\\R)$ contain a point joined to $O$\nby a continuous path in $X(\\R)$.\nFor every integer $m\\ge1$, form\n\\[\n X_m=X\\times_{a,A,[m]}A.\n\\]\nThe geometrically connected component $X_m^0$ containing $(O,0)$ is\ndefined over $\\Q$.  It has a point above $X\\setminus B$ over every\n$\\Q_p$, and a real point above $\\mathcal V$.",
       "statement_sha256": "33b525311bcdbc9176fb48aca5d0a8b355112b4791f0128b0925562985e3a090",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.ThetaLocalSurvival.StrongTopology.theta_local_survival"
+      ],
+      "source": "projects/theta_local_survival/Source/ThetaLocalSurvivalPortable/ThetaLocalSurvival.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "cor:theta-surviving-covers",
