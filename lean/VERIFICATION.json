@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "verified_numbered_statements": 55,
+  "verified_numbered_statements": 56,
   "total_numbered_statements": 69,
   "audited_declarations": {
     "FourCorner.ChamberMotion.act_involutive": [
@@ -3231,6 +3231,11 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FourCorner.ThetaLinesFullAssembly.theta_lines_full": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "permitted_axioms": [
@@ -3247,11 +3252,11 @@
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
   },
-  "verified_at_utc": "2026-10-26T23:35:28.272386+00:00",
-  "project_count": 22,
+  "verified_at_utc": "2026-10-28T10:24:32.920993+00:00",
+  "project_count": 23,
   "project_sources_built_in_this_checkout": true,
   "new_projects_freshly_built": [
-    "projects/descent_algebra"
+    "projects/theta_lines"
   ],
   "unchanged_earlier_projects_reused_verified_builds": [
     ".",
@@ -3274,7 +3279,8 @@
     "projects/theta_quotient",
     "projects/critical_refined",
     "projects/critical_double",
-    "projects/hasse_infinite"
+    "projects/hasse_infinite",
+    "projects/descent_algebra"
   ],
-  "cold_kernel_checks": "Every declared endpoint cold-checked with lean -t0 and debug.skipKernelTC=false. All15 descent-algebra owned files were freshly built and individually cold-checked using actual native Lake provider maps and only the declared autoImplicit=false/maxSynthPendingDepth=3 elaboration options. All60 introduced declarations use standard transitive axioms; supporting project adds no numbered credit."
+  "cold_kernel_checks": "All registered endpoints passed cold kernel checking with -t0 and debug.skipKernelTC=false. All132 theta mathematical/compatibility sources were freshly built and individually cold-checked. The output-only audit revision was rebuilt and cold-checked separately, giving successful checks for all133 final source versions. All2338 introduced declarations use only the standard three axioms; endpoint dependency closure excludes the legacy arbitrary global map and placeholders."
 }

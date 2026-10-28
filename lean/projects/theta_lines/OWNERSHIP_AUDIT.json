@@ -1,0 +1,678 @@
+{
+  "status": "PASS_EXACT_LAKE_BUILDABLE_OWNERSHIP",
+  "rule": "Glob match or root-prefix ownership is tested even when a source file is absent; every own source has one explicit .one glob and no accepted-library collision.",
+  "owned_count": 133,
+  "shared_count": 503,
+  "roots": [],
+  "own": [
+    {
+      "module": "BinaryDehomogenization",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "DivisorPicPrincipal",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "DoubleRootPolynomial",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "DoubleZeroDifferential",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentAxes",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentAxisIdentities",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentCases",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentContacts",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentCore",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentCountWave36",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentExhaustionWave36",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentGaloisWave36",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentGeneric",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentProjectiveChartsWave36",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaBitangentQuadraticIndependence",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "HalfCanonicalDifferential",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaStdTotallySplit",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "NativeBinaryP1",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "NativeCurveModelExistence",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "NativeFunctionFieldFunctor",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "NativeStalkFieldNaturality",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "OddThetaDivisorClassification",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "PicEffectiveRepresentatives",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "PicEllOneOfConstants",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "QuarticSingletonZero",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "QuarticTwoDoublePoints",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "RiemannRochWithGenusFF",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "SemilinearDifferentialOrder",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "SemilinearPicAndEll",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "SmallSquareSpaceBound",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaActualHalfCanonicalContacts",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaActualLineDifferentials",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaActualOddThetaClasses",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaAffineContactConstants",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaAffineContactOrder",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaAssociatedLineAlgebra",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaCanonicalLinePointValues",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaChartCanonicalFrames",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaChartTangentVanishing",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaContactDifferentialDivisors",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaContactLSpaceGeometry",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaContactOddness",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaContactPairFrames",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaContactTangencyCertificates",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDActualDifferential",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDActualFieldCover",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDCanonicalInfinityDivisor",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDCanonicalPlaneBasis",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDChartNaturality",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDChartPlaceRegularity",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDCoordinateBasicOpens",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDExactChartTransitions",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDExactModel",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDFieldCoordinates",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDFiniteDifferential",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDFourInfinityPlaces",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDGenusThree",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDGeometricChartPoints",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDGeometricModel",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDGlobalCanonicalCandidate",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDGlobalSheafBasis",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDHyperplaneLocalOrders",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDInfinityLocalParameter",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDInfinityPoints",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDNativeProjRatios",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDNativeProjSections",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDNativeSections",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDNaturalGlobalDifferentials",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDOriginalChartOpens",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDOriginalCoordinateSections",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDPlaneChartSections",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDPlaneRegularForms",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDProjectiveInfinityCover",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDSectionComparison",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaDifferentialChartIdentity",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaEtaleAllPlaces",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaFiniteGenericDegree",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaFlatIntegralDescent",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGaloisCanonicalCorrespondence",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGaloisCanonicalPlane",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGaloisFieldAction",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGaloisPointPlace",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGaloisSchemeField",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGenericRankFraction",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGeometricChartEvaluation",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGeometricContactPoints",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGeometricPointCoordinateEvaluation",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaGeometricResidueCoordinates",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaHalfCanonicalRootSupport",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaHalfCanonicalSquareContact",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLineAlgebraDecomposition",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLineFixedFields",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLineGeometricPoints",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLineOrbits",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLineRootPointCharts",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLineSplittingField",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLineStabilizers",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesAbsoluteGalois",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesContactPoints",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesDualLines",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesFullAssembly",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesGaloisAction",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesPolynomialContacts",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesProjectiveClassification",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesProjectiveLines",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesSchemePoints",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLiteralBinaryRestrictions",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLiteralRootJets",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLocalLineDerivatives",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaNativeDualCanonicalLines",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaNativeFunctionFieldMap",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaNativeLineGaloisSet",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaOddGaloisActionHom",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaOddNativeGaloisEquiv",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaOddNativeLineEquiv",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaOddNativeSquareContact",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaOddThetaCanonicalLines",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaOrbitEvaluation",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaOrderTwoDerivativeEvaluation",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaProjectiveRootPlaceEmbedding",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaRegularFunctionDifferential",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaRestrictionHasTwoRoots",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaRootCanonicalSections",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaRootOrderDoubleJets",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaUnramifiedPlaceIndex",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaValuationTangencyOrder",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaVanishingDifferentialOrder",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaVerticalContactConstants",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaVerticalContactOrder",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    },
+    {
+      "module": "ThetaLinesPortableAudit",
+      "owner": "theta_lines/ThetaLinesProject",
+      "canonical_buildable_collisions": []
+    }
+  ],
+  "shared_modules_copied": 0,
+  "root_prefix_renames": 11,
+  "totally_split_unique_owner_rename": 1,
+  "all_constant_namespaces_unchanged": true
+}

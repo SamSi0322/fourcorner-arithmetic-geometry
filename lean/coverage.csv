@@ -45,7 +45,7 @@ thm:cs-15569,sections/06_common_source_descent.tex,verified,projects/cs15569/Sou
 cor:cs-15569-layer,sections/06_common_source_descent.tex,verified,projects/cs15569/Source/Cs15569Complete.lean,FourCorner.Cs15569Completion.cs15569_layer
 prop:theta-quotient,sections/07_theta_geometry.tex,verified,projects/theta_quotient/Source/ThetaQuotient.lean,FourCorner.ThetaQuotient.prop_theta_quotient; FourCorner.ThetaQuotient.quotient_certificate
 prop:theta-strict-lift,sections/07_theta_geometry.tex,verified,FourCorner/ThetaStrictLift.lean,FourCorner.theta_strict_lift_iff_unique; FourCorner.theta_lift_inverse_unique; FourCorner.theta_criterion_original; FourCorner.theta_positive_source_iff_strict_point; FourCorner.strict_point_difference_to_theta_positive_source
-thm:theta-lines,sections/07_theta_geometry.tex,not_fully_formalized,,
+thm:theta-lines,sections/07_theta_geometry.tex,verified,projects/theta_lines/Source/ThetaLinesFullAssembly.lean,FourCorner.ThetaLinesFullAssembly.theta_lines_full
 prop:theta-cover-class,sections/07_theta_geometry.tex,not_fully_formalized,,
 thm:theta-local-survival,sections/07_theta_geometry.tex,not_fully_formalized,,
 cor:theta-surviving-covers,sections/07_theta_geometry.tex,not_fully_formalized,,

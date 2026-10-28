@@ -2,7 +2,7 @@
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 55 of the paper's 69 numbered
+This snapshot contains complete formal proofs of 56 of the paper's 69 numbered
 statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
@@ -133,4 +133,10 @@ proved for unmarked geometric isomorphism classes.
 The descent-algebra support project adds finite wide-pullback stability,
 flat ideal descent, constant-rank finite presentation and coaction invariant
 lemmas. These shared foundations are included in the build and axiom audit;
-they add no complete numbered statement to the 55/69 coverage.
+they add no separate numbered statement to the coverage.
+
+The theta-lines theorem is now fully formalized on the original smooth plane
+quartic: all 28 native bitangents are classified, each has two distinct actual
+contacts, and the genuine odd-theta finite etale algebra and its full absolute
+Galois action are identified. Natural global differential maps, all projective
+charts and repeated-half-divisor cases are retained.

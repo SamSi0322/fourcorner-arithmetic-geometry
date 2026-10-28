@@ -1,0 +1,808 @@
+{
+  "format": "source-only",
+  "author": "Yuan Si",
+  "license": "Apache-2.0",
+  "excludes_this_manifest_itself": true,
+  "files": [
+    {
+      "path": "ACCEPTED_SOURCE_SNAPSHOT_BINDINGS.json",
+      "sha256": "f4ff75acc9dcda9df6ccdacb85e6a02ec9a1c37f354d2e07f0dac8dcc0df56ea",
+      "bytes": 198927
+    },
+    {
+      "path": "ADAPTATION_SCOPE.json",
+      "sha256": "883d33a824138b096905f9960b2952a6cb55fba6e45fb6307b90b43332965f5f",
+      "bytes": 1273
+    },
+    {
+      "path": "CANONICAL_NATIVE_OWNER_REDIRECTS.json",
+      "sha256": "8c3f299211d6d6a80e6d000d7dc3706b9ee8266fe42df5a5832267d7be0a5f9a",
+      "bytes": 1838
+    },
+    {
+      "path": "CANONICAL_VERIFICATION.json",
+      "sha256": "92d4206ae41432f559c37a0b0e6b74f581dda911ebe44485e1602f2b3b0123ad",
+      "bytes": 24625
+    },
+    {
+      "path": "CONFIGURATION_ALIGNMENT.json",
+      "sha256": "1f99e0557a096d2bb65e965afaf963b783d19d28751d231a3b68f55b85d4f4f8",
+      "bytes": 799
+    },
+    {
+      "path": "ENDPOINT_AND_DEFINITIONS_COMPARISON.json",
+      "sha256": "f9525dc069485f9537482fc0dbdf3ed2d892cea1d06dd331e01174a81ac82714",
+      "bytes": 54786
+    },
+    {
+      "path": "IMPORT_GRAPH.json",
+      "sha256": "caf82c1f7abac1610964179292ac91936fdab3772c0b48f7276fdbb5177ab02f",
+      "bytes": 14986
+    },
+    {
+      "path": "IMPORT_ONLY_ADAPTATIONS.json",
+      "sha256": "8ed6fba6a2126d6cf36e882afb0e25b4cf9351f4175069e9a201ebb82a28f58d",
+      "bytes": 13825
+    },
+    {
+      "path": "IMPORT_ONLY_RENAMES.json",
+      "sha256": "74984da279a7f672f64116a7e82ccc6658154efed8b3fb5ec0e7289ecbdb163b",
+      "bytes": 8720
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "ac636b9ffef15622d331f34f335bd018adf6e1b522b593dba4d752de8efb596a",
+      "bytes": 371
+    },
+    {
+      "path": "OMITTED_PROTOTYPE_AUDIT.json",
+      "sha256": "c21cf614fe5b9984e0da97d52f154ff70a67d9bbda852ccb874618132badaf90",
+      "bytes": 252
+    },
+    {
+      "path": "OWNERSHIP_AUDIT.json",
+      "sha256": "0995788e036b30e569850d7c4fb2b54c826d7ccca9457b4a0761944dc25d8f73",
+      "bytes": 20396
+    },
+    {
+      "path": "PARENT_NATIVE_API_ALIGNMENT.json",
+      "sha256": "a1b594bfe18400e6c89be3b2865a33c529194ab1a85a14c6745ff90477e4179c",
+      "bytes": 259411
+    },
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "735507e6d50b38b0ef4753350ff33ed4acfd8052516d2616ddb473573bee8e13",
+      "bytes": 48018
+    },
+    {
+      "path": "PUBLIC_ADAPTATIONS.json",
+      "sha256": "7822624848e9975227f33687c3bdcd3708145d82dd9cd4fef8b8633dae5010a7",
+      "bytes": 2931
+    },
+    {
+      "path": "README.md",
+      "sha256": "0463814f771d580e83f9fb16713bd7a88be3b70113bf08fdd6abf87c014d55fc",
+      "bytes": 7583
+    },
+    {
+      "path": "SHARED_SOURCE_DEPENDENCIES.json",
+      "sha256": "4e0f3a656dcd957ac247ad650c2a943b106b2a742ba613061c3ae7e79a7a5f44",
+      "bytes": 163088
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "sha256": "86076c5ab9905270a66d4f4d9166e2523af7334cf7c8361370ffc68d7066b0c4",
+      "bytes": 64962
+    },
+    {
+      "path": "Source/BinaryDehomogenization.lean",
+      "sha256": "f355847f2ecba24a75f2135af6f8e4e49592869d5713bbdb1f767ba729b7e85b",
+      "bytes": 4053
+    },
+    {
+      "path": "Source/DivisorPicPrincipal.lean",
+      "sha256": "95605d8e31830ff25431ed2923221ee80c875595bae176db5ce70818a3dd8123",
+      "bytes": 4018
+    },
+    {
+      "path": "Source/DoubleRootPolynomial.lean",
+      "sha256": "3c2e91c897b2ce32089ad1ef07bb9ddecd5c55a0e06a5998dfa8ca8ec0ff69fc",
+      "bytes": 3481
+    },
+    {
+      "path": "Source/DoubleZeroDifferential.lean",
+      "sha256": "4d3c80cd4c8236fd8cf8fc8c4e5db2bd1ebe41b4e351b918c185a3b673869e18",
+      "bytes": 3057
+    },
+    {
+      "path": "Source/HalfCanonicalDifferential.lean",
+      "sha256": "bff92d0d0b5e15f874687b2b02969b8c8a9d10b3eb4a760abe88df9b9f2f8fbb",
+      "bytes": 4126
+    },
+    {
+      "path": "Source/NativeBinaryP1.lean",
+      "sha256": "9fc8c8ed23e5ab4d5f358f7d93bb603f9feb902f6bdc1041c7e87af522955cd4",
+      "bytes": 5700
+    },
+    {
+      "path": "Source/NativeCurveModelExistence.lean",
+      "sha256": "4dc2e0ba9866934768297ccbb0f9cd8019cb10e0b75b687725bd077cb7645cf7",
+      "bytes": 2535
+    },
+    {
+      "path": "Source/NativeFunctionFieldFunctor.lean",
+      "sha256": "ff28a29bdd3de6ae8a0ce2163801c5b0f06eee2505b616d39376bdb9a4f6defa",
+      "bytes": 3343
+    },
+    {
+      "path": "Source/NativeStalkFieldNaturality.lean",
+      "sha256": "72c8cfd8c992e3c0d5dd465b87d3dadfe50c027d6e7e4cfd36586c6bf8c1d113",
+      "bytes": 2715
+    },
+    {
+      "path": "Source/OddThetaDivisorClassification.lean",
+      "sha256": "9b57cbe3f801261cf83b49219a012121e55ca95dcd783138dc6c94eef2414e38",
+      "bytes": 4099
+    },
+    {
+      "path": "Source/P2M/Sol/S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq.lean",
+      "sha256": "18d374e641d3047b97f368c8a739f31ddceec8df7a2b809b4deaee2cfe0bc1f4",
+      "bytes": 1009
+    },
+    {
+      "path": "Source/P2M/Sol/S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch.lean",
+      "sha256": "7f587c73190f93ea00ad2146a6b72f1095674ea475e9397471b0a20b3e6c532d",
+      "bytes": 9806
+    },
+    {
+      "path": "Source/PicEffectiveRepresentatives.lean",
+      "sha256": "0706659abd3e866d9a1915103d2deea52538b3ef2805df743fb0ed6a240509dc",
+      "bytes": 3865
+    },
+    {
+      "path": "Source/PicEllOneOfConstants.lean",
+      "sha256": "2bd4a67c25787e3a5b72c89db3004f917251ce4e5808da445d6ded048e150425",
+      "bytes": 2755
+    },
+    {
+      "path": "Source/QuarticSingletonZero.lean",
+      "sha256": "42fcdc79e40c0a5a36aa1cf0631e1886040bd55d1d8023bdcc9e6a70e0012dc4",
+      "bytes": 6551
+    },
+    {
+      "path": "Source/QuarticTwoDoublePoints.lean",
+      "sha256": "8099cd8d48fb8c35b9c742a27e15717e97476abb6fe84fd1e51062331456db9d",
+      "bytes": 6181
+    },
+    {
+      "path": "Source/RiemannRochWithGenusFF.lean",
+      "sha256": "ebcb62ff740986a2a05c690e8c7bd6a84c28577e457ab859474f053a2133e3ec",
+      "bytes": 1313
+    },
+    {
+      "path": "Source/SemilinearDifferentialOrder.lean",
+      "sha256": "26904f18ea8deb7cc3a05ce6723e19f0d32be64bfce393175eb0fef931c35ee7",
+      "bytes": 5528
+    },
+    {
+      "path": "Source/SemilinearPicAndEll.lean",
+      "sha256": "a992db40a645dc0aa482f2842bdc037c6cdb033953efd1dafecfef6ca9415eb4",
+      "bytes": 4162
+    },
+    {
+      "path": "Source/SmallSquareSpaceBound.lean",
+      "sha256": "01f1aea117f210b09297f2979f95ce66ca65cc69c27858e3709eb2fcb6520700",
+      "bytes": 5458
+    },
+    {
+      "path": "Source/Theorems/Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq.lean",
+      "sha256": "dea5493b070b8bf262c9b36889a795d0519820f2783d2760ca4497a4dd4f1696",
+      "bytes": 226
+    },
+    {
+      "path": "Source/ThetaActualHalfCanonicalContacts.lean",
+      "sha256": "5c3cf2c0a7ad37f1efdd3de04c761b8e654860b03495b7e57f11e14d343c8078",
+      "bytes": 4178
+    },
+    {
+      "path": "Source/ThetaActualLineDifferentials.lean",
+      "sha256": "98afdba73bad72de22e5cf84dc8337f0a0cb5a7e55b52b3d2a6002f3371a8a2d",
+      "bytes": 6473
+    },
+    {
+      "path": "Source/ThetaActualOddThetaClasses.lean",
+      "sha256": "067ca2cfb532f8b330355baa4e52ef5c9036a85554883604694f4dfc23429fe7",
+      "bytes": 2239
+    },
+    {
+      "path": "Source/ThetaAffineContactConstants.lean",
+      "sha256": "33a9830b4785d3f63b5fa699e17ee8a5c9afe0519356a7003765d429de5afdb4",
+      "bytes": 4248
+    },
+    {
+      "path": "Source/ThetaAffineContactOrder.lean",
+      "sha256": "32ec507a41f55ae79d9e1aa83dd71345f7c1f4848a8455dbc1ff69a0a9f1911c",
+      "bytes": 4588
+    },
+    {
+      "path": "Source/ThetaAssociatedLineAlgebra.lean",
+      "sha256": "3426c6bcc57c4760f2d9201331e103e919b352f4654273441304217e5293baed",
+      "bytes": 3784
+    },
+    {
+      "path": "Source/ThetaBitangentAxes.lean",
+      "sha256": "2c63f769d356007b4a22d82d3c6cdd22c703ee755bb53088d8a9f11b2e7b7f5c",
+      "bytes": 7054
+    },
+    {
+      "path": "Source/ThetaBitangentAxisIdentities.lean",
+      "sha256": "d06c9d1aaa1b66e86ec1ed1fa5ccad951d1aaa2368be7f6a609067b623f84089",
+      "bytes": 3614
+    },
+    {
+      "path": "Source/ThetaBitangentCases.lean",
+      "sha256": "bfd18c33b47b979f33c9d877ed23cad2acb9af43cf934b507a5c7cadeb47ac65",
+      "bytes": 4775
+    },
+    {
+      "path": "Source/ThetaBitangentContacts.lean",
+      "sha256": "79eec63623518f1d6086bd991c52d98ce76d63406ec7d37a9a922fccbc96633b",
+      "bytes": 8371
+    },
+    {
+      "path": "Source/ThetaBitangentCore.lean",
+      "sha256": "0970187af2a9b69d125fb16981d810a37e8e4103fb55ab0d68b65d0bfe28a5e1",
+      "bytes": 4824
+    },
+    {
+      "path": "Source/ThetaBitangentCountWave36.lean",
+      "sha256": "f804d14e1b982bb691fde3605c180d5d1fab072146c1d7d77cc43f555963c02d",
+      "bytes": 6894
+    },
+    {
+      "path": "Source/ThetaBitangentExhaustionWave36.lean",
+      "sha256": "53252be896c53842d862746978cbebc7519b3f42b99fd9d5da27d7a3cdab7d9e",
+      "bytes": 19312
+    },
+    {
+      "path": "Source/ThetaBitangentGaloisWave36.lean",
+      "sha256": "f2635b8d895fcb569d5082b0ba5e039e453eb7f7ca986165b909a6af3ab662fc",
+      "bytes": 5191
+    },
+    {
+      "path": "Source/ThetaBitangentGeneric.lean",
+      "sha256": "aba552a755b158c0cdfdf022239d9d34d07d30e4753eee13750e3aa3507f8ac5",
+      "bytes": 4206
+    },
+    {
+      "path": "Source/ThetaBitangentProjectiveChartsWave36.lean",
+      "sha256": "c992e1e15d3fbee3c67238ad3edb489d5346496725a4ceeaad42f44c52587ae5",
+      "bytes": 3061
+    },
+    {
+      "path": "Source/ThetaBitangentQuadraticIndependence.lean",
+      "sha256": "a9b7e707a71a90c83ef0c7a3635c2c931b6d6394a9f8343b3079768ef84c1fd7",
+      "bytes": 2914
+    },
+    {
+      "path": "Source/ThetaCanonicalLinePointValues.lean",
+      "sha256": "8cd908ddc871a6a03f6b029d791f919112e45c36854f8e7505285877f0caa62b",
+      "bytes": 7980
+    },
+    {
+      "path": "Source/ThetaChartCanonicalFrames.lean",
+      "sha256": "79787f9b206800b365a2f09885a25cc0cc870fdad095ffd1def498e91f1faf0a",
+      "bytes": 4956
+    },
+    {
+      "path": "Source/ThetaChartTangentVanishing.lean",
+      "sha256": "37e0df8c931f37f127b2eceb168e2021489dfc09e355a8b06cb3787bd09d8381",
+      "bytes": 7148
+    },
+    {
+      "path": "Source/ThetaContactDifferentialDivisors.lean",
+      "sha256": "bac4c9c88f11cd9db54a35ef320973904d7f32259bc6f85b039482c213103bf8",
+      "bytes": 9013
+    },
+    {
+      "path": "Source/ThetaContactLSpaceGeometry.lean",
+      "sha256": "87e6acfe92840b5195a6e7e8e2c50bd6bc25f9ff5f2e6bf399ae5bd4c90638e5",
+      "bytes": 4666
+    },
+    {
+      "path": "Source/ThetaContactOddness.lean",
+      "sha256": "5485b8e4059b4c6bd2f4ad2a1f80213f8b04936ee4cbef8e685025da34d53ca7",
+      "bytes": 2723
+    },
+    {
+      "path": "Source/ThetaContactPairFrames.lean",
+      "sha256": "241a61277b74c875e8d9ae8584affd8a7ae452d878babbdc04b680646e4d3428",
+      "bytes": 6248
+    },
+    {
+      "path": "Source/ThetaContactTangencyCertificates.lean",
+      "sha256": "966f0136035a14c905d8e091c62acfe86ef07ab71c4c6c0d5317bf570916ee05",
+      "bytes": 3936
+    },
+    {
+      "path": "Source/ThetaDActualDifferential.lean",
+      "sha256": "d43515fd09e45b575172fffe070e9477fca8d5982476829939468a2a7982ec25",
+      "bytes": 5134
+    },
+    {
+      "path": "Source/ThetaDActualFieldCover.lean",
+      "sha256": "3a69e746fb55e9785a158da59771d5695b308442ff584848950c17f5e2fc761a",
+      "bytes": 4721
+    },
+    {
+      "path": "Source/ThetaDCanonicalInfinityDivisor.lean",
+      "sha256": "e068ac4056a9a3e1f525f3ad4fb633aefebb9d74ce82f74050d5a9d331a86f52",
+      "bytes": 4104
+    },
+    {
+      "path": "Source/ThetaDCanonicalPlaneBasis.lean",
+      "sha256": "0dd0358f3e9029f5574fa99582d78ec7c4d4f725b364c7573b3322957fa113c2",
+      "bytes": 5900
+    },
+    {
+      "path": "Source/ThetaDChartNaturality.lean",
+      "sha256": "79aea10895fb063952322ab550c28a4df77cb8f3aef75be7f77295e6c71dd45c",
+      "bytes": 3884
+    },
+    {
+      "path": "Source/ThetaDChartPlaceRegularity.lean",
+      "sha256": "fe5d036b865e57090d4b7d5bc73614a9237eafcc85ea797d42da1d41ded255a5",
+      "bytes": 3216
+    },
+    {
+      "path": "Source/ThetaDCoordinateBasicOpens.lean",
+      "sha256": "5a43356d78cf67812c63d5e1858f285fda8fecd855418fa2fc0c7f08e1f80371",
+      "bytes": 4308
+    },
+    {
+      "path": "Source/ThetaDExactChartTransitions.lean",
+      "sha256": "a5a77ff629a57572d172d20f7bd709fcc5219f2d4f218fb55c3542f7a9f857a6",
+      "bytes": 4544
+    },
+    {
+      "path": "Source/ThetaDExactModel.lean",
+      "sha256": "57e85555c09ab66ead9f6e912ffb7f83e625dd14c6e6779442c5e26a39f4a5a4",
+      "bytes": 1081
+    },
+    {
+      "path": "Source/ThetaDFieldCoordinates.lean",
+      "sha256": "ce3e7d524cfc710763aec6aa95fd7abdc2b3ba7ca0ab61d6ec4534302774cbf7",
+      "bytes": 5562
+    },
+    {
+      "path": "Source/ThetaDFiniteDifferential.lean",
+      "sha256": "ef63241f786eb7e69c57ba7dd3732803cff6f4cba972e897222b4504b2b5ecb7",
+      "bytes": 6282
+    },
+    {
+      "path": "Source/ThetaDFourInfinityPlaces.lean",
+      "sha256": "afaf7735e4bf9a05d9525d20e46e35e844f61c83a71dd33bd36914c2b4fb9c4e",
+      "bytes": 4389
+    },
+    {
+      "path": "Source/ThetaDGenusThree.lean",
+      "sha256": "55c4f3eacb659e76c18234194ab995bc8a70f84607bb7263f2ef8d335cb979e6",
+      "bytes": 2730
+    },
+    {
+      "path": "Source/ThetaDGeometricChartPoints.lean",
+      "sha256": "b441c5ed1e58edfeaaaf4150dd49c37a88b082753cb05ce3b427a8fce6d95479",
+      "bytes": 3807
+    },
+    {
+      "path": "Source/ThetaDGeometricModel.lean",
+      "sha256": "990253911c14a755d01dc5c84dc8798bf92e09c8422c1b05a5390f7518863127",
+      "bytes": 3879
+    },
+    {
+      "path": "Source/ThetaDGlobalCanonicalCandidate.lean",
+      "sha256": "7856cb6b403ac56a711a226778e8a2851b1fcf4a76a01d8c47d0d7cdf3f5505e",
+      "bytes": 6484
+    },
+    {
+      "path": "Source/ThetaDGlobalSheafBasis.lean",
+      "sha256": "56ef3b611611036b6356ee857592dc7c6be3bc1e0ac090f9c0dd804737da5d07",
+      "bytes": 2763
+    },
+    {
+      "path": "Source/ThetaDHyperplaneLocalOrders.lean",
+      "sha256": "635fdbba81c07d766f10b05a967b5e67c467e72e53e7774691e919b5fb58782e",
+      "bytes": 4896
+    },
+    {
+      "path": "Source/ThetaDInfinityLocalParameter.lean",
+      "sha256": "0c774f7c2505b82bd1eaf5aad2d3a215152938b468077a3fcb7b1d7d4d71e46c",
+      "bytes": 2354
+    },
+    {
+      "path": "Source/ThetaDInfinityPoints.lean",
+      "sha256": "488b810a16405a6baa8b75adc7b9fc98f442a5a2a1b9a5705f7561e4d1b22a77",
+      "bytes": 4149
+    },
+    {
+      "path": "Source/ThetaDNativeProjRatios.lean",
+      "sha256": "2eb6012063f84ae09639a35266c5779b160520cf79ca0a2dec1bc77b2ce2458d",
+      "bytes": 3792
+    },
+    {
+      "path": "Source/ThetaDNativeProjSections.lean",
+      "sha256": "df2d18341126933969ec9ac4a1fddb855884a8cd1daa406059d4b62d09708d2c",
+      "bytes": 2954
+    },
+    {
+      "path": "Source/ThetaDNativeSections.lean",
+      "sha256": "9fe8333ad5e494d1d17e17063cc3ca18452f2f2fc0c3cedc6177beb30d827020",
+      "bytes": 5482
+    },
+    {
+      "path": "Source/ThetaDNaturalGlobalDifferentials.lean",
+      "sha256": "98c10cce3fde76f9bf82cf7fea470aaa00ccf6c67517211bbf29e4e05a822c67",
+      "bytes": 8476
+    },
+    {
+      "path": "Source/ThetaDOriginalChartOpens.lean",
+      "sha256": "874ce437ebb26f75243aa88eac26e4822fbe8009068e76c4bf5704ad7eda992a",
+      "bytes": 2445
+    },
+    {
+      "path": "Source/ThetaDOriginalCoordinateSections.lean",
+      "sha256": "79a61f90229d1999e7dbc2600fbcc244309d214a75b598b1d0d6742189dd328d",
+      "bytes": 3605
+    },
+    {
+      "path": "Source/ThetaDPlaneChartSections.lean",
+      "sha256": "b4f1dece0828fdc723d5f6f2d761e3d17b58907923516899d5ff558d5442cb40",
+      "bytes": 3865
+    },
+    {
+      "path": "Source/ThetaDPlaneRegularForms.lean",
+      "sha256": "3c982729b5ffe11e397dbd7b43ec1453b01417893254e89fb68f9f817cd75d09",
+      "bytes": 3802
+    },
+    {
+      "path": "Source/ThetaDProjectiveInfinityCover.lean",
+      "sha256": "da5f862165a9bb081d9851f82bfa143c14f500a51d322b3edc3811bd764af333",
+      "bytes": 3397
+    },
+    {
+      "path": "Source/ThetaDSectionComparison.lean",
+      "sha256": "e617883b75b1a45cdc01bbdc458abef1691cc7763769853a41d5068317c15a5d",
+      "bytes": 2715
+    },
+    {
+      "path": "Source/ThetaDifferentialChartIdentity.lean",
+      "sha256": "362166118a01f43d08c4757a5c9bdfca0b3e47aee87bb328e341e6761de52286",
+      "bytes": 1692
+    },
+    {
+      "path": "Source/ThetaEtaleAllPlaces.lean",
+      "sha256": "1d88c57a29b024915219c34f0592ae63dfb50cf85fcf563e6b2dbaae995bbc6f",
+      "bytes": 6890
+    },
+    {
+      "path": "Source/ThetaFiniteGenericDegree.lean",
+      "sha256": "4fedef3f7db40b5d35db6ae397e480d7b563662c7d328dffa89e32b03c8f8687",
+      "bytes": 5070
+    },
+    {
+      "path": "Source/ThetaFlatIntegralDescent.lean",
+      "sha256": "a5d06d789a8dcdda398f892a90d2b482e3450447a8a81c1e1b55b975a113e9c8",
+      "bytes": 1458
+    },
+    {
+      "path": "Source/ThetaGaloisCanonicalCorrespondence.lean",
+      "sha256": "6eb6100cfe362e72e2fd2b4f2553d65ecf315e1c4d47d10199b3df0b52dde4d7",
+      "bytes": 4693
+    },
+    {
+      "path": "Source/ThetaGaloisCanonicalPlane.lean",
+      "sha256": "b6a16a35c8873f2ab224af274527f034e1a7459eda19dfc433cc891b4be54f06",
+      "bytes": 5747
+    },
+    {
+      "path": "Source/ThetaGaloisFieldAction.lean",
+      "sha256": "26eae82023007692124cc6aa57847329304aadb5e8a255a5ce5bd196804bd7c1",
+      "bytes": 4118
+    },
+    {
+      "path": "Source/ThetaGaloisPointPlace.lean",
+      "sha256": "606da7e0448bcf6201ca192e8361c88a7243c1449e2d81670a281bc1d37899a6",
+      "bytes": 3289
+    },
+    {
+      "path": "Source/ThetaGaloisSchemeField.lean",
+      "sha256": "7675a98561b7a581fb765fdee2af0f9e036dff27b44b5806faaf4cde72e69ad6",
+      "bytes": 3591
+    },
+    {
+      "path": "Source/ThetaGenericRankFraction.lean",
+      "sha256": "7a4bcf659ff20a7f2ebd2066dc5c32266d1f6cffc9eab6f035639c9079db55e3",
+      "bytes": 1658
+    },
+    {
+      "path": "Source/ThetaGeometricChartEvaluation.lean",
+      "sha256": "0cac9bf6075bfaf38b47b38a3fb771ff14a347d8b6f720173ca71ac621eb0481",
+      "bytes": 3757
+    },
+    {
+      "path": "Source/ThetaGeometricContactPoints.lean",
+      "sha256": "c0377c8ef30395740276dd7bde4c483a2578e35bbd3f3ba02261ee52947b2a5a",
+      "bytes": 6709
+    },
+    {
+      "path": "Source/ThetaGeometricPointCoordinateEvaluation.lean",
+      "sha256": "1613b9d0c10cddce777ea8e3103db89491ad0e1abd65447a1da3626a30453dae",
+      "bytes": 4520
+    },
+    {
+      "path": "Source/ThetaGeometricResidueCoordinates.lean",
+      "sha256": "5422fb898de9569fcfd4cca715fc5ad7efcba377486184cfb51c75d342f34c1d",
+      "bytes": 3262
+    },
+    {
+      "path": "Source/ThetaHalfCanonicalRootSupport.lean",
+      "sha256": "cc954a8985d1bf636c1db8df12ebc8d563eb69ea77d9d3e661769034c8f8ea38",
+      "bytes": 3731
+    },
+    {
+      "path": "Source/ThetaHalfCanonicalSquareContact.lean",
+      "sha256": "8381db861c3f179f10e4b552b1e6a86999167647e0024714446304de19a7f377",
+      "bytes": 2399
+    },
+    {
+      "path": "Source/ThetaLineAlgebraDecomposition.lean",
+      "sha256": "38c0f360c99796fd2b9ec738d96e11182f2d83d4b75541fe0214b029a5e9a290",
+      "bytes": 4601
+    },
+    {
+      "path": "Source/ThetaLineFixedFields.lean",
+      "sha256": "b583b4150e01162bc034e8482f016b3a66bc43d4f3de3c50c9f47a325ea58da3",
+      "bytes": 5532
+    },
+    {
+      "path": "Source/ThetaLineGeometricPoints.lean",
+      "sha256": "20032a5958de29e9320ebec9c4238ce9ce6f19ec24bccd491037bd6c29667ff1",
+      "bytes": 3574
+    },
+    {
+      "path": "Source/ThetaLineOrbits.lean",
+      "sha256": "29f009d2232ec83c7bb57807d4323a545ede1c18099f63d65d1f6815d5cbc03e",
+      "bytes": 4800
+    },
+    {
+      "path": "Source/ThetaLineRootPointCharts.lean",
+      "sha256": "433d15cd2537bd4e3705e113642e86f647a571a78020aad7a62b5425ae4a8967",
+      "bytes": 6309
+    },
+    {
+      "path": "Source/ThetaLineSplittingField.lean",
+      "sha256": "1b4668456e5acedcb9d653ade1941e53b99972abe1e608754d2044c9e5de22ad",
+      "bytes": 3989
+    },
+    {
+      "path": "Source/ThetaLineStabilizers.lean",
+      "sha256": "29ec0563220958fb43d5a8a8939d787cbe53a3280ddcb5c5d9e2218cab3857a6",
+      "bytes": 3088
+    },
+    {
+      "path": "Source/ThetaLinesAbsoluteGalois.lean",
+      "sha256": "9bcd6912d02a9f305e86cfc22ed540a1f6369abb86b67ffb76c01b53c8bc9d6a",
+      "bytes": 4128
+    },
+    {
+      "path": "Source/ThetaLinesContactPoints.lean",
+      "sha256": "02f4abe1101ce184e7d8ec8bdda547191e0abf3091ebe034b520d3080f5db557",
+      "bytes": 4268
+    },
+    {
+      "path": "Source/ThetaLinesDualLines.lean",
+      "sha256": "c65b35485a21f581b24696081a8b3ff6ae0fcd88cc053afa0314fbe283ca888e",
+      "bytes": 4280
+    },
+    {
+      "path": "Source/ThetaLinesFullAssembly.lean",
+      "sha256": "503dd52944675f649e9e9b1840b2389f8ece93b74628005731f10b8e7d88c298",
+      "bytes": 7511
+    },
+    {
+      "path": "Source/ThetaLinesGaloisAction.lean",
+      "sha256": "9b8cd560081161c89799a3688f6f4e6158c01525cf9b7b944f75c578ceef2983",
+      "bytes": 3383
+    },
+    {
+      "path": "Source/ThetaLinesPolynomialContacts.lean",
+      "sha256": "2efee4446e6c685f91cff897f4db7173392d13274a9f8f5e6fe85914547a7d2c",
+      "bytes": 3167
+    },
+    {
+      "path": "Source/ThetaLinesPortableAudit.lean",
+      "sha256": "460fc6ee46890e57109bad942428d12577a42e9bf1c3590c50051c757a02d569",
+      "bytes": 7017
+    },
+    {
+      "path": "Source/ThetaLinesProjectiveClassification.lean",
+      "sha256": "93102b5f1bbe2a4a2ad06ab0b9d027d667ace79f06ececbb42979dab6a049f71",
+      "bytes": 7569
+    },
+    {
+      "path": "Source/ThetaLinesProjectiveLines.lean",
+      "sha256": "c593ae325b01734dbe64e23f69dc1e273bf1b8c55dda7c14efd06b18bce04608",
+      "bytes": 3484
+    },
+    {
+      "path": "Source/ThetaLinesSchemePoints.lean",
+      "sha256": "318def26bdf5becd645fa5f5ba3ed314f3bb03a6b722693e23e860ef82cb9065",
+      "bytes": 4606
+    },
+    {
+      "path": "Source/ThetaLiteralBinaryRestrictions.lean",
+      "sha256": "d8a7f891e24b7e8481fcab57e4bfab10e7e1038e05900ae354ad15e819684aa9",
+      "bytes": 4915
+    },
+    {
+      "path": "Source/ThetaLiteralRootJets.lean",
+      "sha256": "aeb5b66d2cfb92cf14d531e120384a356fed7e0640383126cca59528c93f90f7",
+      "bytes": 3764
+    },
+    {
+      "path": "Source/ThetaLocalLineDerivatives.lean",
+      "sha256": "0c33dba4930358e7e66848453d497f8abe6bb0945ee342a7343f0045350fbca2",
+      "bytes": 3143
+    },
+    {
+      "path": "Source/ThetaNativeDualCanonicalLines.lean",
+      "sha256": "a6308dc1ee336dacf1198cd2c9eb3cd883505f455b849aefaf865455df8360b7",
+      "bytes": 3501
+    },
+    {
+      "path": "Source/ThetaNativeFunctionFieldMap.lean",
+      "sha256": "27d6b649252c546f1cfd3db635c37902910bf8ba0721935e7115021e59c7b801",
+      "bytes": 2593
+    },
+    {
+      "path": "Source/ThetaNativeLineGaloisSet.lean",
+      "sha256": "efaa5f6f0eba2d19338f0dd3a08bc493a800c2cfb1d311a4569f210e3e506f30",
+      "bytes": 5034
+    },
+    {
+      "path": "Source/ThetaOddGaloisActionHom.lean",
+      "sha256": "e23e662834f04f01dccd9f7b827a47cf575fdf3af2bcbd80d86794d750094ff3",
+      "bytes": 1454
+    },
+    {
+      "path": "Source/ThetaOddNativeGaloisEquiv.lean",
+      "sha256": "7441447039ddc39edfd32be2076764527cac7372023ed1af9e99256e918d4daa",
+      "bytes": 4181
+    },
+    {
+      "path": "Source/ThetaOddNativeLineEquiv.lean",
+      "sha256": "2960ee9e6e3cb679f2f0e520e34d0f712b807d525d0ab0370144c7d85a62309f",
+      "bytes": 5179
+    },
+    {
+      "path": "Source/ThetaOddNativeSquareContact.lean",
+      "sha256": "b4446fada34de23e0dcaa3b09bccdc91fbee7fdd51fac8d3ebd27f5d983abf06",
+      "bytes": 3661
+    },
+    {
+      "path": "Source/ThetaOddThetaCanonicalLines.lean",
+      "sha256": "fbb7532148dd7d345408b12ea2aaa3e79980bde28d031b2a999ab5359fe3a2af",
+      "bytes": 4560
+    },
+    {
+      "path": "Source/ThetaOrbitEvaluation.lean",
+      "sha256": "bd6313ac262676a95c40c33377385686cc5f48552dc2a9a0ab78363331f3b70f",
+      "bytes": 3340
+    },
+    {
+      "path": "Source/ThetaOrderTwoDerivativeEvaluation.lean",
+      "sha256": "991e8644de9e193ec263560b08d721a5ce996c7c8bcb36028d38f062ef3fa3e9",
+      "bytes": 2810
+    },
+    {
+      "path": "Source/ThetaProjectiveRootPlaceEmbedding.lean",
+      "sha256": "56340081fcf2ae6cfbcf2fff4a973df81e297b155b967946c99b4d61bccc2c0c",
+      "bytes": 4050
+    },
+    {
+      "path": "Source/ThetaRegularFunctionDifferential.lean",
+      "sha256": "6801e7a39cbea230adab38838e500314141e332d065202b065d32db324c0de37",
+      "bytes": 3098
+    },
+    {
+      "path": "Source/ThetaRestrictionHasTwoRoots.lean",
+      "sha256": "01bf93d2f4dc9451cb388cbb585e36dd55a1e2728a334416b249d4fd67d7bcf9",
+      "bytes": 2761
+    },
+    {
+      "path": "Source/ThetaRootCanonicalSections.lean",
+      "sha256": "02fa478004424ccbe78dd9719319f52b025bd808a1890f80b5c56072a9f92eff",
+      "bytes": 9428
+    },
+    {
+      "path": "Source/ThetaRootOrderDoubleJets.lean",
+      "sha256": "16a7cce4846c9a6e2e0d619a25d5ebbe7672b351e564fab10019bb9dc1d57a4b",
+      "bytes": 6015
+    },
+    {
+      "path": "Source/ThetaStdTotallySplit.lean",
+      "sha256": "e9e0e2f297b460cb4276cfcba75575b24020a68a6c8f2e583925551a65600819",
+      "bytes": 9330
+    },
+    {
+      "path": "Source/ThetaUnramifiedPlaceIndex.lean",
+      "sha256": "562ed358d803a989819c095959f2e92cb9f64f0a095492dc9be05bf2e072e0ff",
+      "bytes": 2985
+    },
+    {
+      "path": "Source/ThetaValuationTangencyOrder.lean",
+      "sha256": "07d0670ed974dffd72902d2a75c19990e675848f8547072e4cd2e806b738633d",
+      "bytes": 2695
+    },
+    {
+      "path": "Source/ThetaVanishingDifferentialOrder.lean",
+      "sha256": "5b1af3858a800c95cbeb2f0b7568123659fe1f1d9fc5e2f7bf6530156680d5ab",
+      "bytes": 3563
+    },
+    {
+      "path": "Source/ThetaVerticalContactConstants.lean",
+      "sha256": "df836e2f6cb57e71244b78dd7bcc08aef4c67a6ea2e924fb7c580ed8d2fcf7d1",
+      "bytes": 3603
+    },
+    {
+      "path": "Source/ThetaVerticalContactOrder.lean",
+      "sha256": "6c8bd3641fb19da6bd36282e3dd66d1445fc5a0112c39d988b146a7e1aeb5108",
+      "bytes": 4284
+    },
+    {
+      "path": "UPSTREAM_LICENSES/mathlib-Apache-2.0.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "VALIDATION_SUMMARY.json",
+      "sha256": "d13274e84a992cd786c316bc432552d71da1a615eeaec2f22f5cb87cfa85e6c3",
+      "bytes": 2448
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c71aab02c6edc8ee42794d532ed2cce000cdac8650125fdddb3b5eec8880cc89",
+      "bytes": 6259
+    },
+    {
+      "path": "lakefile.lean",
+      "sha256": "09c784b6ea4f13c1434c748f99884c1b39678d14250f740d2c2a77d6e3c6d4d8",
+      "bytes": 5470
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    },
+    {
+      "path": "tools/CheckCompatibility.lean",
+      "sha256": "b4c286d6511b4a74c4c77f1a9a8075339212f21c2df3a25d9029e0b3a2236cdd",
+      "bytes": 8501
+    },
+    {
+      "path": "tools/ExportInterfaces.lean",
+      "sha256": "23e6ca61dd39a17deb07773243bb4f8f02e4ed8c5b1159f7f5f2e78ab2de51ba",
+      "bytes": 8643
+    },
+    {
+      "path": "tools/summarize_interfaces.py",
+      "sha256": "38991764d66c6eb777044942dcebe61eb394e323e18efc27b9b376e5bc28eba8",
+      "bytes": 1055
+    }
+  ]
+}

@@ -191,5 +191,19 @@
         "setup": ".lake/build/ir/DescentAlgebraAudit.setup.json"
       }
     ]
+  },
+  {
+    "directory": "projects/theta_lines",
+    "target": "ThetaLinesProject",
+    "expected_setup_options": {
+      "autoImplicit": false,
+      "maxSynthPendingDepth": 3
+    },
+    "audit": [
+      {
+        "source": "Source/ThetaLinesPortableAudit.lean",
+        "setup": ".lake/build/ir/ThetaLinesPortableAudit.setup.json"
+      }
+    ]
   }
 ]

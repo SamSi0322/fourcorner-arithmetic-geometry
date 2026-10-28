@@ -1,0 +1,1196 @@
+{
+  "BinaryDehomogenization": {
+    "path": "Source/BinaryDehomogenization.lean",
+    "sha256": "f355847f2ecba24a75f2135af6f8e4e49592869d5713bbdb1f767ba729b7e85b",
+    "license": "Apache-2.0",
+    "origin_module": "BinaryDehomogenization",
+    "original_source_sha256": "f355847f2ecba24a75f2135af6f8e4e49592869d5713bbdb1f767ba729b7e85b",
+    "non_import_body_sha256": "db5193efbe5967e1ea0487adeb651ed0ab051801947e2c050e0c85edd2f773a0",
+    "non_import_body_unchanged": true
+  },
+  "DivisorPicPrincipal": {
+    "path": "Source/DivisorPicPrincipal.lean",
+    "sha256": "95605d8e31830ff25431ed2923221ee80c875595bae176db5ce70818a3dd8123",
+    "license": "Apache-2.0",
+    "origin_module": "DivisorPicPrincipal",
+    "original_source_sha256": "95605d8e31830ff25431ed2923221ee80c875595bae176db5ce70818a3dd8123",
+    "non_import_body_sha256": "5ea5c6c7cee9d4d2fa888cfe47788a43faaa8c37fd8f8d1cef124f8d051a0a7c",
+    "non_import_body_unchanged": true
+  },
+  "DoubleRootPolynomial": {
+    "path": "Source/DoubleRootPolynomial.lean",
+    "sha256": "3c2e91c897b2ce32089ad1ef07bb9ddecd5c55a0e06a5998dfa8ca8ec0ff69fc",
+    "license": "Apache-2.0",
+    "origin_module": "DoubleRootPolynomial",
+    "original_source_sha256": "3c2e91c897b2ce32089ad1ef07bb9ddecd5c55a0e06a5998dfa8ca8ec0ff69fc",
+    "non_import_body_sha256": "5e67d685f6b5d35fe9143cd38778f5bbd12b56a094273aa4d52479c214bc5cea",
+    "non_import_body_unchanged": true
+  },
+  "DoubleZeroDifferential": {
+    "path": "Source/DoubleZeroDifferential.lean",
+    "sha256": "4d3c80cd4c8236fd8cf8fc8c4e5db2bd1ebe41b4e351b918c185a3b673869e18",
+    "license": "Apache-2.0",
+    "origin_module": "DoubleZeroDifferential",
+    "original_source_sha256": "4d3c80cd4c8236fd8cf8fc8c4e5db2bd1ebe41b4e351b918c185a3b673869e18",
+    "non_import_body_sha256": "ffce16b86a79674a9083453d2e0cab851e999ddcb666bb37e7c06a404c9c602e",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentAxes": {
+    "path": "Source/ThetaBitangentAxes.lean",
+    "sha256": "2c63f769d356007b4a22d82d3c6cdd22c703ee755bb53088d8a9f11b2e7b7f5c",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentAxes",
+    "original_source_sha256": "806acd59f888358dab735fb2c452a8cc8b1684264644c688aeb8acad5c43080f",
+    "non_import_body_sha256": "ccb71d049dd6decb1dc686c86a2b02bdc3b140b0bfa83aca2c8c7de08fd959f0",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentAxisIdentities": {
+    "path": "Source/ThetaBitangentAxisIdentities.lean",
+    "sha256": "d06c9d1aaa1b66e86ec1ed1fa5ccad951d1aaa2368be7f6a609067b623f84089",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentAxisIdentities",
+    "original_source_sha256": "d06c9d1aaa1b66e86ec1ed1fa5ccad951d1aaa2368be7f6a609067b623f84089",
+    "non_import_body_sha256": "ac86cfdabd518a5bad6e0319bf48e86b51e7c461d81a9cc5a9e248855711971c",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentCases": {
+    "path": "Source/ThetaBitangentCases.lean",
+    "sha256": "bfd18c33b47b979f33c9d877ed23cad2acb9af43cf934b507a5c7cadeb47ac65",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentCases",
+    "original_source_sha256": "bfd18c33b47b979f33c9d877ed23cad2acb9af43cf934b507a5c7cadeb47ac65",
+    "non_import_body_sha256": "9bd967d822233a4c4b698bd6eb128655512cb8eab209d2d67bfb5e487c045a40",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentContacts": {
+    "path": "Source/ThetaBitangentContacts.lean",
+    "sha256": "79eec63623518f1d6086bd991c52d98ce76d63406ec7d37a9a922fccbc96633b",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentContacts",
+    "original_source_sha256": "321baf20a11296df1b68532e5adfd1afae203eccd896d943b2ea5a1acdf655d8",
+    "non_import_body_sha256": "dee839d6409b775d04b67bb91e2980f77fdc9413318ddf4eca443b6b5a5a6743",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentCore": {
+    "path": "Source/ThetaBitangentCore.lean",
+    "sha256": "0970187af2a9b69d125fb16981d810a37e8e4103fb55ab0d68b65d0bfe28a5e1",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentCore",
+    "original_source_sha256": "0970187af2a9b69d125fb16981d810a37e8e4103fb55ab0d68b65d0bfe28a5e1",
+    "non_import_body_sha256": "b342039afb9c5564f2d254b93782b322280dd904c3ca48265c816f96aa5bbfd9",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentCountWave36": {
+    "path": "Source/ThetaBitangentCountWave36.lean",
+    "sha256": "f804d14e1b982bb691fde3605c180d5d1fab072146c1d7d77cc43f555963c02d",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentCountWave36",
+    "original_source_sha256": "ee614f9f9163758fe7e8dc8e8ae8ca7d085fffb76b786468f83709e9aa40eb24",
+    "non_import_body_sha256": "dc89584cb4d14274a026da40f954fb14965b6d21c928ac765973d07f7f8e8bf3",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentExhaustionWave36": {
+    "path": "Source/ThetaBitangentExhaustionWave36.lean",
+    "sha256": "53252be896c53842d862746978cbebc7519b3f42b99fd9d5da27d7a3cdab7d9e",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentExhaustionWave36",
+    "original_source_sha256": "a14090f371a6f5166bd7b37b08609646262777ac776463128c11918aa7b7be61",
+    "non_import_body_sha256": "d50906c840960d326100a55aa0a077afd4e378a67e7d0ed8579181d552425b35",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentGaloisWave36": {
+    "path": "Source/ThetaBitangentGaloisWave36.lean",
+    "sha256": "f2635b8d895fcb569d5082b0ba5e039e453eb7f7ca986165b909a6af3ab662fc",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentGaloisWave36",
+    "original_source_sha256": "6a09d96a411b54d267591fa8c6871cf692578eadae1504ee9df48affc71a1a3a",
+    "non_import_body_sha256": "e1f5e0015ceb6d5812a706551a5b53f43b517131345a4eff286bdddbd0578252",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentGeneric": {
+    "path": "Source/ThetaBitangentGeneric.lean",
+    "sha256": "aba552a755b158c0cdfdf022239d9d34d07d30e4753eee13750e3aa3507f8ac5",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentGeneric",
+    "original_source_sha256": "167b2d84f58843b667aec19a6b92649ea193179f4d49cce6fc48f69a62cbad4d",
+    "non_import_body_sha256": "9d41e562b28bf49098bbd66a714706e34d6627718c643c9c31ae7afa7698fb70",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentProjectiveChartsWave36": {
+    "path": "Source/ThetaBitangentProjectiveChartsWave36.lean",
+    "sha256": "c992e1e15d3fbee3c67238ad3edb489d5346496725a4ceeaad42f44c52587ae5",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentProjectiveChartsWave36",
+    "original_source_sha256": "4e622d08d511045a1b1496598154fb6bfa0fbba44a60286b377ebed1b6ae67c8",
+    "non_import_body_sha256": "b72ff9dd1aae3d25d33f84559589aa4f5569ef62fa953fd0e52c00295dfa22cd",
+    "non_import_body_unchanged": true
+  },
+  "ThetaBitangentQuadraticIndependence": {
+    "path": "Source/ThetaBitangentQuadraticIndependence.lean",
+    "sha256": "a9b7e707a71a90c83ef0c7a3635c2c931b6d6394a9f8343b3079768ef84c1fd7",
+    "license": "Apache-2.0",
+    "origin_module": "FourCorner.ThetaBitangentQuadraticIndependence",
+    "original_source_sha256": "a9b7e707a71a90c83ef0c7a3635c2c931b6d6394a9f8343b3079768ef84c1fd7",
+    "non_import_body_sha256": "3932804bd1765f77967019b22edb667daba7389264e3c6a7694cc365e6b83b8c",
+    "non_import_body_unchanged": true
+  },
+  "HalfCanonicalDifferential": {
+    "path": "Source/HalfCanonicalDifferential.lean",
+    "sha256": "bff92d0d0b5e15f874687b2b02969b8c8a9d10b3eb4a760abe88df9b9f2f8fbb",
+    "license": "Apache-2.0",
+    "origin_module": "HalfCanonicalDifferential",
+    "original_source_sha256": "bff92d0d0b5e15f874687b2b02969b8c8a9d10b3eb4a760abe88df9b9f2f8fbb",
+    "non_import_body_sha256": "e07ae19dc8a2933763d97725cac2bd4fb87b156063653f6e0ad41d6ad1f65b4a",
+    "non_import_body_unchanged": true
+  },
+  "ThetaStdTotallySplit": {
+    "path": "Source/ThetaStdTotallySplit.lean",
+    "sha256": "e9e0e2f297b460cb4276cfcba75575b24020a68a6c8f2e583925551a65600819",
+    "license": "Apache-2.0",
+    "origin_module": "Mathlib.RingTheory.TotallySplit",
+    "original_source_sha256": "e9e0e2f297b460cb4276cfcba75575b24020a68a6c8f2e583925551a65600819",
+    "non_import_body_sha256": "08177c69e9cda0655aa02caa282f61d05809448b55f3f15d1803212d1540f836",
+    "non_import_body_unchanged": true
+  },
+  "NativeBinaryP1": {
+    "path": "Source/NativeBinaryP1.lean",
+    "sha256": "9fc8c8ed23e5ab4d5f358f7d93bb603f9feb902f6bdc1041c7e87af522955cd4",
+    "license": "Apache-2.0",
+    "origin_module": "NativeBinaryP1",
+    "original_source_sha256": "9fc8c8ed23e5ab4d5f358f7d93bb603f9feb902f6bdc1041c7e87af522955cd4",
+    "non_import_body_sha256": "528022efa6c39172bbde08dea4e1353bff3dbecf7f9210b5f4c7a659332aa31a",
+    "non_import_body_unchanged": true
+  },
+  "NativeCurveModelExistence": {
+    "path": "Source/NativeCurveModelExistence.lean",
+    "sha256": "4dc2e0ba9866934768297ccbb0f9cd8019cb10e0b75b687725bd077cb7645cf7",
+    "license": "Apache-2.0",
+    "origin_module": "NativeCurveModelExistence",
+    "original_source_sha256": "4dc2e0ba9866934768297ccbb0f9cd8019cb10e0b75b687725bd077cb7645cf7",
+    "non_import_body_sha256": "8673b994cb66221cb2f2afd9cbb207e066e089d6ad7e63037f76feb282ab81f2",
+    "non_import_body_unchanged": true
+  },
+  "NativeFunctionFieldFunctor": {
+    "path": "Source/NativeFunctionFieldFunctor.lean",
+    "sha256": "ff28a29bdd3de6ae8a0ce2163801c5b0f06eee2505b616d39376bdb9a4f6defa",
+    "license": "Apache-2.0",
+    "origin_module": "NativeFunctionFieldFunctor",
+    "original_source_sha256": "ff28a29bdd3de6ae8a0ce2163801c5b0f06eee2505b616d39376bdb9a4f6defa",
+    "non_import_body_sha256": "53b8d783a45c63b1a97cab7808f1f0146b6f1fcc39bc8eb3537593e4b51d2126",
+    "non_import_body_unchanged": true
+  },
+  "NativeStalkFieldNaturality": {
+    "path": "Source/NativeStalkFieldNaturality.lean",
+    "sha256": "72c8cfd8c992e3c0d5dd465b87d3dadfe50c027d6e7e4cfd36586c6bf8c1d113",
+    "license": "Apache-2.0",
+    "origin_module": "NativeStalkFieldNaturality",
+    "original_source_sha256": "72c8cfd8c992e3c0d5dd465b87d3dadfe50c027d6e7e4cfd36586c6bf8c1d113",
+    "non_import_body_sha256": "26c5b4e0c130365029bbbf5212dcebeac69de18f73d798e94081e3d6ad6a87fc",
+    "non_import_body_unchanged": true
+  },
+  "OddThetaDivisorClassification": {
+    "path": "Source/OddThetaDivisorClassification.lean",
+    "sha256": "9b57cbe3f801261cf83b49219a012121e55ca95dcd783138dc6c94eef2414e38",
+    "license": "Apache-2.0",
+    "origin_module": "OddThetaDivisorClassification",
+    "original_source_sha256": "9b57cbe3f801261cf83b49219a012121e55ca95dcd783138dc6c94eef2414e38",
+    "non_import_body_sha256": "59c3e04206eae5f148b35a02fde77b3fd1f0d9a318f3c4050049f7be0f658c80",
+    "non_import_body_unchanged": true
+  },
+  "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq": {
+    "path": "Source/P2M/Sol/S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq.lean",
+    "sha256": "18d374e641d3047b97f368c8a739f31ddceec8df7a2b809b4deaee2cfe0bc1f4",
+    "license": "Apache-2.0",
+    "origin_module": "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+    "original_source_sha256": "18d374e641d3047b97f368c8a739f31ddceec8df7a2b809b4deaee2cfe0bc1f4",
+    "non_import_body_sha256": "8e2ce3c0eae8f8d5f5a2d7a1b8b59e6631fad35fb22d30d50d3bd8c0f11069be",
+    "non_import_body_unchanged": true
+  },
+  "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch": {
+    "path": "Source/P2M/Sol/S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch.lean",
+    "sha256": "7f587c73190f93ea00ad2146a6b72f1095674ea475e9397471b0a20b3e6c532d",
+    "license": "Apache-2.0",
+    "origin_module": "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch",
+    "original_source_sha256": "7f587c73190f93ea00ad2146a6b72f1095674ea475e9397471b0a20b3e6c532d",
+    "non_import_body_sha256": "bdb3e636650f091572d18e4d4080453c69fec1e3d3aaa37e927157e3aed9bf49",
+    "non_import_body_unchanged": true
+  },
+  "PicEffectiveRepresentatives": {
+    "path": "Source/PicEffectiveRepresentatives.lean",
+    "sha256": "0706659abd3e866d9a1915103d2deea52538b3ef2805df743fb0ed6a240509dc",
+    "license": "Apache-2.0",
+    "origin_module": "PicEffectiveRepresentatives",
+    "original_source_sha256": "0706659abd3e866d9a1915103d2deea52538b3ef2805df743fb0ed6a240509dc",
+    "non_import_body_sha256": "c6c5d22a20df107fd0c19c888a228ab8b93568d0ef62a3457425579ef55fffc3",
+    "non_import_body_unchanged": true
+  },
+  "PicEllOneOfConstants": {
+    "path": "Source/PicEllOneOfConstants.lean",
+    "sha256": "2bd4a67c25787e3a5b72c89db3004f917251ce4e5808da445d6ded048e150425",
+    "license": "Apache-2.0",
+    "origin_module": "PicEllOneOfConstants",
+    "original_source_sha256": "2bd4a67c25787e3a5b72c89db3004f917251ce4e5808da445d6ded048e150425",
+    "non_import_body_sha256": "f8a5b186c3278e656ed3126a33fcc22de8ab93e972cbfa70f26adb2790090e64",
+    "non_import_body_unchanged": true
+  },
+  "QuarticSingletonZero": {
+    "path": "Source/QuarticSingletonZero.lean",
+    "sha256": "42fcdc79e40c0a5a36aa1cf0631e1886040bd55d1d8023bdcc9e6a70e0012dc4",
+    "license": "Apache-2.0",
+    "origin_module": "QuarticSingletonZero",
+    "original_source_sha256": "42fcdc79e40c0a5a36aa1cf0631e1886040bd55d1d8023bdcc9e6a70e0012dc4",
+    "non_import_body_sha256": "6a217596447ee187cd925db3a49cf5b47b79687fbc6e48a0204aedffe85fbe09",
+    "non_import_body_unchanged": true
+  },
+  "QuarticTwoDoublePoints": {
+    "path": "Source/QuarticTwoDoublePoints.lean",
+    "sha256": "8099cd8d48fb8c35b9c742a27e15717e97476abb6fe84fd1e51062331456db9d",
+    "license": "Apache-2.0",
+    "origin_module": "QuarticTwoDoublePoints",
+    "original_source_sha256": "8099cd8d48fb8c35b9c742a27e15717e97476abb6fe84fd1e51062331456db9d",
+    "non_import_body_sha256": "a233ecbfb17f989288aa129d0fc19ccfc310424e69a492dc755b7e13cd1b87de",
+    "non_import_body_unchanged": true
+  },
+  "RiemannRochWithGenusFF": {
+    "path": "Source/RiemannRochWithGenusFF.lean",
+    "sha256": "ebcb62ff740986a2a05c690e8c7bd6a84c28577e457ab859474f053a2133e3ec",
+    "license": "Apache-2.0",
+    "origin_module": "RiemannRochWithGenusFF",
+    "original_source_sha256": "ebcb62ff740986a2a05c690e8c7bd6a84c28577e457ab859474f053a2133e3ec",
+    "non_import_body_sha256": "f188fa9938d5eea21bff42e61154a8b2bfe0e729e80a08235268dc26380f51a1",
+    "non_import_body_unchanged": true
+  },
+  "SemilinearDifferentialOrder": {
+    "path": "Source/SemilinearDifferentialOrder.lean",
+    "sha256": "26904f18ea8deb7cc3a05ce6723e19f0d32be64bfce393175eb0fef931c35ee7",
+    "license": "Apache-2.0",
+    "origin_module": "SemilinearDifferentialOrder",
+    "original_source_sha256": "26904f18ea8deb7cc3a05ce6723e19f0d32be64bfce393175eb0fef931c35ee7",
+    "non_import_body_sha256": "5ea21ccaa98a659c0f65b9bd4c921054a49d0b47fba2eb7969456cb153d5575c",
+    "non_import_body_unchanged": true
+  },
+  "SemilinearPicAndEll": {
+    "path": "Source/SemilinearPicAndEll.lean",
+    "sha256": "a992db40a645dc0aa482f2842bdc037c6cdb033953efd1dafecfef6ca9415eb4",
+    "license": "Apache-2.0",
+    "origin_module": "SemilinearPicAndEll",
+    "original_source_sha256": "a992db40a645dc0aa482f2842bdc037c6cdb033953efd1dafecfef6ca9415eb4",
+    "non_import_body_sha256": "e887127bcb618dad2a2f77b05aedad99c22bbabf2dec8f8d527fc47df2ac5ecd",
+    "non_import_body_unchanged": true
+  },
+  "SmallSquareSpaceBound": {
+    "path": "Source/SmallSquareSpaceBound.lean",
+    "sha256": "01f1aea117f210b09297f2979f95ce66ca65cc69c27858e3709eb2fcb6520700",
+    "license": "Apache-2.0",
+    "origin_module": "SmallSquareSpaceBound",
+    "original_source_sha256": "01f1aea117f210b09297f2979f95ce66ca65cc69c27858e3709eb2fcb6520700",
+    "non_import_body_sha256": "ca574197e1eac1102244c587973179eedd75164a3c29ba73322c36108ed0373e",
+    "non_import_body_unchanged": true
+  },
+  "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq": {
+    "path": "Source/Theorems/Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq.lean",
+    "sha256": "dea5493b070b8bf262c9b36889a795d0519820f2783d2760ca4497a4dd4f1696",
+    "license": "Apache-2.0",
+    "origin_module": "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+    "original_source_sha256": "dea5493b070b8bf262c9b36889a795d0519820f2783d2760ca4497a4dd4f1696",
+    "non_import_body_sha256": "d8959e6eff505899a380cb00503e9fb67e41a0ce50d4d555cb8e2550cdde1c1c",
+    "non_import_body_unchanged": true
+  },
+  "ThetaActualHalfCanonicalContacts": {
+    "path": "Source/ThetaActualHalfCanonicalContacts.lean",
+    "sha256": "5c3cf2c0a7ad37f1efdd3de04c761b8e654860b03495b7e57f11e14d343c8078",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaActualHalfCanonicalContacts",
+    "original_source_sha256": "5c3cf2c0a7ad37f1efdd3de04c761b8e654860b03495b7e57f11e14d343c8078",
+    "non_import_body_sha256": "439d8c163448a073916c73edb62006ea3bebf1e237464eb41788c3028db3c358",
+    "non_import_body_unchanged": true
+  },
+  "ThetaActualLineDifferentials": {
+    "path": "Source/ThetaActualLineDifferentials.lean",
+    "sha256": "98afdba73bad72de22e5cf84dc8337f0a0cb5a7e55b52b3d2a6002f3371a8a2d",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaActualLineDifferentials",
+    "original_source_sha256": "98afdba73bad72de22e5cf84dc8337f0a0cb5a7e55b52b3d2a6002f3371a8a2d",
+    "non_import_body_sha256": "7a74d51efbdeec3783fa2f8eeb184084d3eab4e045a9a14a8cdec8cf1fa3c43c",
+    "non_import_body_unchanged": true
+  },
+  "ThetaActualOddThetaClasses": {
+    "path": "Source/ThetaActualOddThetaClasses.lean",
+    "sha256": "067ca2cfb532f8b330355baa4e52ef5c9036a85554883604694f4dfc23429fe7",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaActualOddThetaClasses",
+    "original_source_sha256": "067ca2cfb532f8b330355baa4e52ef5c9036a85554883604694f4dfc23429fe7",
+    "non_import_body_sha256": "bf1765a35280c01a8bfb39cd865a53a3eae445d13d2bef8d8f8f563a3b3c40af",
+    "non_import_body_unchanged": true
+  },
+  "ThetaAffineContactConstants": {
+    "path": "Source/ThetaAffineContactConstants.lean",
+    "sha256": "33a9830b4785d3f63b5fa699e17ee8a5c9afe0519356a7003765d429de5afdb4",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaAffineContactConstants",
+    "original_source_sha256": "33a9830b4785d3f63b5fa699e17ee8a5c9afe0519356a7003765d429de5afdb4",
+    "non_import_body_sha256": "d4db5304f7057e1ec8b9334225f45de58d214ed7b870be9c6c9ac840b5d5d182",
+    "non_import_body_unchanged": true
+  },
+  "ThetaAffineContactOrder": {
+    "path": "Source/ThetaAffineContactOrder.lean",
+    "sha256": "32ec507a41f55ae79d9e1aa83dd71345f7c1f4848a8455dbc1ff69a0a9f1911c",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaAffineContactOrder",
+    "original_source_sha256": "32ec507a41f55ae79d9e1aa83dd71345f7c1f4848a8455dbc1ff69a0a9f1911c",
+    "non_import_body_sha256": "4cbd4a5fa78b9de0ec474410b79280bf2441f35119db49308c79de091b890ee9",
+    "non_import_body_unchanged": true
+  },
+  "ThetaAssociatedLineAlgebra": {
+    "path": "Source/ThetaAssociatedLineAlgebra.lean",
+    "sha256": "3426c6bcc57c4760f2d9201331e103e919b352f4654273441304217e5293baed",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaAssociatedLineAlgebra",
+    "original_source_sha256": "3426c6bcc57c4760f2d9201331e103e919b352f4654273441304217e5293baed",
+    "non_import_body_sha256": "d9b672ccb787119d4b160a015c167dcf930d7191e33632e2bff3f904a3c94a8b",
+    "non_import_body_unchanged": true
+  },
+  "ThetaCanonicalLinePointValues": {
+    "path": "Source/ThetaCanonicalLinePointValues.lean",
+    "sha256": "8cd908ddc871a6a03f6b029d791f919112e45c36854f8e7505285877f0caa62b",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaCanonicalLinePointValues",
+    "original_source_sha256": "8cd908ddc871a6a03f6b029d791f919112e45c36854f8e7505285877f0caa62b",
+    "non_import_body_sha256": "c6541b4ce87a68e392864d0394145871dc08b87059be2063c65f5b7d00f7bb7e",
+    "non_import_body_unchanged": true
+  },
+  "ThetaChartCanonicalFrames": {
+    "path": "Source/ThetaChartCanonicalFrames.lean",
+    "sha256": "79787f9b206800b365a2f09885a25cc0cc870fdad095ffd1def498e91f1faf0a",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaChartCanonicalFrames",
+    "original_source_sha256": "79787f9b206800b365a2f09885a25cc0cc870fdad095ffd1def498e91f1faf0a",
+    "non_import_body_sha256": "4ad1de3306f4bde4fe9e0dadc2e87593d7792e2bdb3a4da7121d9c246eda09f7",
+    "non_import_body_unchanged": true
+  },
+  "ThetaChartTangentVanishing": {
+    "path": "Source/ThetaChartTangentVanishing.lean",
+    "sha256": "37e0df8c931f37f127b2eceb168e2021489dfc09e355a8b06cb3787bd09d8381",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaChartTangentVanishing",
+    "original_source_sha256": "37e0df8c931f37f127b2eceb168e2021489dfc09e355a8b06cb3787bd09d8381",
+    "non_import_body_sha256": "a1c2d50d5399a4766a9dfd645e31da03c3e46ce17e956a03cda6e1d094ed6f22",
+    "non_import_body_unchanged": true
+  },
+  "ThetaContactDifferentialDivisors": {
+    "path": "Source/ThetaContactDifferentialDivisors.lean",
+    "sha256": "bac4c9c88f11cd9db54a35ef320973904d7f32259bc6f85b039482c213103bf8",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaContactDifferentialDivisors",
+    "original_source_sha256": "bac4c9c88f11cd9db54a35ef320973904d7f32259bc6f85b039482c213103bf8",
+    "non_import_body_sha256": "4570a2018809067d325dd0d752f81020b009cff571a8ddc432590e7a710e0275",
+    "non_import_body_unchanged": true
+  },
+  "ThetaContactLSpaceGeometry": {
+    "path": "Source/ThetaContactLSpaceGeometry.lean",
+    "sha256": "87e6acfe92840b5195a6e7e8e2c50bd6bc25f9ff5f2e6bf399ae5bd4c90638e5",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaContactLSpaceGeometry",
+    "original_source_sha256": "87e6acfe92840b5195a6e7e8e2c50bd6bc25f9ff5f2e6bf399ae5bd4c90638e5",
+    "non_import_body_sha256": "8febbbda369c694da8dba36d66769870cebfdf4db7be3dce976a5824b8d7a53f",
+    "non_import_body_unchanged": true
+  },
+  "ThetaContactOddness": {
+    "path": "Source/ThetaContactOddness.lean",
+    "sha256": "5485b8e4059b4c6bd2f4ad2a1f80213f8b04936ee4cbef8e685025da34d53ca7",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaContactOddness",
+    "original_source_sha256": "5485b8e4059b4c6bd2f4ad2a1f80213f8b04936ee4cbef8e685025da34d53ca7",
+    "non_import_body_sha256": "60de7d1382aa93908b61ff3d0ebbdc9e808749b095b406fbc11286dfc988e0fb",
+    "non_import_body_unchanged": true
+  },
+  "ThetaContactPairFrames": {
+    "path": "Source/ThetaContactPairFrames.lean",
+    "sha256": "241a61277b74c875e8d9ae8584affd8a7ae452d878babbdc04b680646e4d3428",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaContactPairFrames",
+    "original_source_sha256": "241a61277b74c875e8d9ae8584affd8a7ae452d878babbdc04b680646e4d3428",
+    "non_import_body_sha256": "48e1ca903107bec10bf5db81912104a01109c4cfc5ab92b890d5f59e39de01ce",
+    "non_import_body_unchanged": true
+  },
+  "ThetaContactTangencyCertificates": {
+    "path": "Source/ThetaContactTangencyCertificates.lean",
+    "sha256": "966f0136035a14c905d8e091c62acfe86ef07ab71c4c6c0d5317bf570916ee05",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaContactTangencyCertificates",
+    "original_source_sha256": "966f0136035a14c905d8e091c62acfe86ef07ab71c4c6c0d5317bf570916ee05",
+    "non_import_body_sha256": "846ccb8499fa8e657a53153804a0a8c6be4f2d843a11acd578b2eafa3d9d334f",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDActualDifferential": {
+    "path": "Source/ThetaDActualDifferential.lean",
+    "sha256": "d43515fd09e45b575172fffe070e9477fca8d5982476829939468a2a7982ec25",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDActualDifferential",
+    "original_source_sha256": "d43515fd09e45b575172fffe070e9477fca8d5982476829939468a2a7982ec25",
+    "non_import_body_sha256": "0fbb212d6c6988e8c1d0b6694aefb8e8b7be690f8c372ab216af12a6b016abc5",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDActualFieldCover": {
+    "path": "Source/ThetaDActualFieldCover.lean",
+    "sha256": "3a69e746fb55e9785a158da59771d5695b308442ff584848950c17f5e2fc761a",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDActualFieldCover",
+    "original_source_sha256": "3a69e746fb55e9785a158da59771d5695b308442ff584848950c17f5e2fc761a",
+    "non_import_body_sha256": "ebff6e4cf5d7e6a2065087c602158c097c0645876221e45615815ddb02d74b58",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDCanonicalInfinityDivisor": {
+    "path": "Source/ThetaDCanonicalInfinityDivisor.lean",
+    "sha256": "e068ac4056a9a3e1f525f3ad4fb633aefebb9d74ce82f74050d5a9d331a86f52",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDCanonicalInfinityDivisor",
+    "original_source_sha256": "e068ac4056a9a3e1f525f3ad4fb633aefebb9d74ce82f74050d5a9d331a86f52",
+    "non_import_body_sha256": "b285f7c76ae1ee07a76e5928005580c3fe2d51f92c45e195431e954c106b2c80",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDCanonicalPlaneBasis": {
+    "path": "Source/ThetaDCanonicalPlaneBasis.lean",
+    "sha256": "0dd0358f3e9029f5574fa99582d78ec7c4d4f725b364c7573b3322957fa113c2",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDCanonicalPlaneBasis",
+    "original_source_sha256": "0dd0358f3e9029f5574fa99582d78ec7c4d4f725b364c7573b3322957fa113c2",
+    "non_import_body_sha256": "07d5088239d94735acf1f4bbe59c16e422f336496cdfdca1808061d33a3f0467",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDChartNaturality": {
+    "path": "Source/ThetaDChartNaturality.lean",
+    "sha256": "79aea10895fb063952322ab550c28a4df77cb8f3aef75be7f77295e6c71dd45c",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDChartNaturality",
+    "original_source_sha256": "79aea10895fb063952322ab550c28a4df77cb8f3aef75be7f77295e6c71dd45c",
+    "non_import_body_sha256": "e2a190ab2223681243f3ad727fa738b1114b8de64fdb7bae417590d54fcb119e",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDChartPlaceRegularity": {
+    "path": "Source/ThetaDChartPlaceRegularity.lean",
+    "sha256": "fe5d036b865e57090d4b7d5bc73614a9237eafcc85ea797d42da1d41ded255a5",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDChartPlaceRegularity",
+    "original_source_sha256": "fe5d036b865e57090d4b7d5bc73614a9237eafcc85ea797d42da1d41ded255a5",
+    "non_import_body_sha256": "ed3cd356d9f6341436486bf97067125acb88ebb4daa52aa345d8c1a351db7ce7",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDCoordinateBasicOpens": {
+    "path": "Source/ThetaDCoordinateBasicOpens.lean",
+    "sha256": "5a43356d78cf67812c63d5e1858f285fda8fecd855418fa2fc0c7f08e1f80371",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDCoordinateBasicOpens",
+    "original_source_sha256": "5a43356d78cf67812c63d5e1858f285fda8fecd855418fa2fc0c7f08e1f80371",
+    "non_import_body_sha256": "f52a61fb73ca2a6db57c4ecdf2f073d86eb3e24714c2dd9cf809d28831957931",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDExactChartTransitions": {
+    "path": "Source/ThetaDExactChartTransitions.lean",
+    "sha256": "a5a77ff629a57572d172d20f7bd709fcc5219f2d4f218fb55c3542f7a9f857a6",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDExactChartTransitions",
+    "original_source_sha256": "a5a77ff629a57572d172d20f7bd709fcc5219f2d4f218fb55c3542f7a9f857a6",
+    "non_import_body_sha256": "af4700005dc441b58f5a7e1b9b049971d9eb4aa7d9fc2d8f839246fc6356f63c",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDExactModel": {
+    "path": "Source/ThetaDExactModel.lean",
+    "sha256": "57e85555c09ab66ead9f6e912ffb7f83e625dd14c6e6779442c5e26a39f4a5a4",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDExactModel",
+    "original_source_sha256": "57e85555c09ab66ead9f6e912ffb7f83e625dd14c6e6779442c5e26a39f4a5a4",
+    "non_import_body_sha256": "b8085f650383a7601bd810a818ae73f24f5c034449fb3cc00b9d2ebbabf3d815",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDFieldCoordinates": {
+    "path": "Source/ThetaDFieldCoordinates.lean",
+    "sha256": "ce3e7d524cfc710763aec6aa95fd7abdc2b3ba7ca0ab61d6ec4534302774cbf7",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDFieldCoordinates",
+    "original_source_sha256": "ce3e7d524cfc710763aec6aa95fd7abdc2b3ba7ca0ab61d6ec4534302774cbf7",
+    "non_import_body_sha256": "1e1697f96e1a9e77a0a43aa94a7cfbcb384e67f097bf6a6a1d9db2f8da7ad7e4",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDFiniteDifferential": {
+    "path": "Source/ThetaDFiniteDifferential.lean",
+    "sha256": "ef63241f786eb7e69c57ba7dd3732803cff6f4cba972e897222b4504b2b5ecb7",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDFiniteDifferential",
+    "original_source_sha256": "ef63241f786eb7e69c57ba7dd3732803cff6f4cba972e897222b4504b2b5ecb7",
+    "non_import_body_sha256": "c4db886eeb9dcc2951c926cb919eab79ebecaea72b8ab53df2bbadeac872572a",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDFourInfinityPlaces": {
+    "path": "Source/ThetaDFourInfinityPlaces.lean",
+    "sha256": "afaf7735e4bf9a05d9525d20e46e35e844f61c83a71dd33bd36914c2b4fb9c4e",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDFourInfinityPlaces",
+    "original_source_sha256": "afaf7735e4bf9a05d9525d20e46e35e844f61c83a71dd33bd36914c2b4fb9c4e",
+    "non_import_body_sha256": "02bdc91be0ea0d83fbc85c91cb0b1a46a8fee817364d57ed9be212a7f2fb80fa",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDGenusThree": {
+    "path": "Source/ThetaDGenusThree.lean",
+    "sha256": "55c4f3eacb659e76c18234194ab995bc8a70f84607bb7263f2ef8d335cb979e6",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDGenusThree",
+    "original_source_sha256": "55c4f3eacb659e76c18234194ab995bc8a70f84607bb7263f2ef8d335cb979e6",
+    "non_import_body_sha256": "5e7b15e0b9eefe89bc35e439723440b6b9b8bc3823dd17ea5f14d87593bcc870",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDGeometricChartPoints": {
+    "path": "Source/ThetaDGeometricChartPoints.lean",
+    "sha256": "b441c5ed1e58edfeaaaf4150dd49c37a88b082753cb05ce3b427a8fce6d95479",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDGeometricChartPoints",
+    "original_source_sha256": "b441c5ed1e58edfeaaaf4150dd49c37a88b082753cb05ce3b427a8fce6d95479",
+    "non_import_body_sha256": "9fb4df75a5c381c7e2dd50f9bdbd248c8029326dd19d1e0b1faaa050a15e1b9b",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDGeometricModel": {
+    "path": "Source/ThetaDGeometricModel.lean",
+    "sha256": "990253911c14a755d01dc5c84dc8798bf92e09c8422c1b05a5390f7518863127",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDGeometricModel",
+    "original_source_sha256": "990253911c14a755d01dc5c84dc8798bf92e09c8422c1b05a5390f7518863127",
+    "non_import_body_sha256": "4724b9daf520b7852a6009733a24630427ed3809f8539cb54ce63eddd89bc61d",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDGlobalCanonicalCandidate": {
+    "path": "Source/ThetaDGlobalCanonicalCandidate.lean",
+    "sha256": "7856cb6b403ac56a711a226778e8a2851b1fcf4a76a01d8c47d0d7cdf3f5505e",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDGlobalCanonicalCandidate",
+    "original_source_sha256": "7856cb6b403ac56a711a226778e8a2851b1fcf4a76a01d8c47d0d7cdf3f5505e",
+    "non_import_body_sha256": "dac96e37aef703527df9f402aaf73462fa41f230d3364929cb61d1c568db0c81",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDGlobalSheafBasis": {
+    "path": "Source/ThetaDGlobalSheafBasis.lean",
+    "sha256": "56ef3b611611036b6356ee857592dc7c6be3bc1e0ac090f9c0dd804737da5d07",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDGlobalSheafBasis",
+    "original_source_sha256": "56ef3b611611036b6356ee857592dc7c6be3bc1e0ac090f9c0dd804737da5d07",
+    "non_import_body_sha256": "47714b7e9be04bc40b2b34f3886d51454cecfd94e3f743eb27fc836f91438942",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDHyperplaneLocalOrders": {
+    "path": "Source/ThetaDHyperplaneLocalOrders.lean",
+    "sha256": "635fdbba81c07d766f10b05a967b5e67c467e72e53e7774691e919b5fb58782e",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDHyperplaneLocalOrders",
+    "original_source_sha256": "635fdbba81c07d766f10b05a967b5e67c467e72e53e7774691e919b5fb58782e",
+    "non_import_body_sha256": "5192868e230eef0f027bf8c606e2f351fc0a2a767a99f45408326d14c3876aa4",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDInfinityLocalParameter": {
+    "path": "Source/ThetaDInfinityLocalParameter.lean",
+    "sha256": "0c774f7c2505b82bd1eaf5aad2d3a215152938b468077a3fcb7b1d7d4d71e46c",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDInfinityLocalParameter",
+    "original_source_sha256": "0c774f7c2505b82bd1eaf5aad2d3a215152938b468077a3fcb7b1d7d4d71e46c",
+    "non_import_body_sha256": "a79e68bfc71543c5d30140f33cb42dc02b3dc49aefc347afd5317b78df449a7d",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDInfinityPoints": {
+    "path": "Source/ThetaDInfinityPoints.lean",
+    "sha256": "488b810a16405a6baa8b75adc7b9fc98f442a5a2a1b9a5705f7561e4d1b22a77",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDInfinityPoints",
+    "original_source_sha256": "488b810a16405a6baa8b75adc7b9fc98f442a5a2a1b9a5705f7561e4d1b22a77",
+    "non_import_body_sha256": "fecf346c7f34bfd2870b49c724db289b50576f2eb28169a0c4072c6fef61be5c",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDNativeProjRatios": {
+    "path": "Source/ThetaDNativeProjRatios.lean",
+    "sha256": "2eb6012063f84ae09639a35266c5779b160520cf79ca0a2dec1bc77b2ce2458d",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDNativeProjRatios",
+    "original_source_sha256": "2eb6012063f84ae09639a35266c5779b160520cf79ca0a2dec1bc77b2ce2458d",
+    "non_import_body_sha256": "a1da6d74c08fc91564c7e7b39fd62e39d3a237955c098d82e0f9c3c807d23f39",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDNativeProjSections": {
+    "path": "Source/ThetaDNativeProjSections.lean",
+    "sha256": "df2d18341126933969ec9ac4a1fddb855884a8cd1daa406059d4b62d09708d2c",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDNativeProjSections",
+    "original_source_sha256": "df2d18341126933969ec9ac4a1fddb855884a8cd1daa406059d4b62d09708d2c",
+    "non_import_body_sha256": "dd1160c39c63b860b8013ed1dfcf9eec87142991790c98eefde23c93fb707836",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDNativeSections": {
+    "path": "Source/ThetaDNativeSections.lean",
+    "sha256": "9fe8333ad5e494d1d17e17063cc3ca18452f2f2fc0c3cedc6177beb30d827020",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDNativeSections",
+    "original_source_sha256": "9fe8333ad5e494d1d17e17063cc3ca18452f2f2fc0c3cedc6177beb30d827020",
+    "non_import_body_sha256": "ba014a8bc5d27599f2d10d18a1aa8a18a12df320414a262cdc0f30a15959f894",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDNaturalGlobalDifferentials": {
+    "path": "Source/ThetaDNaturalGlobalDifferentials.lean",
+    "sha256": "98c10cce3fde76f9bf82cf7fea470aaa00ccf6c67517211bbf29e4e05a822c67",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDNaturalGlobalDifferentials",
+    "original_source_sha256": "98c10cce3fde76f9bf82cf7fea470aaa00ccf6c67517211bbf29e4e05a822c67",
+    "non_import_body_sha256": "c2d04cb73af085c6f7dac212c5d7e870313395cc219cef7cc1b6c0a2673437aa",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDOriginalChartOpens": {
+    "path": "Source/ThetaDOriginalChartOpens.lean",
+    "sha256": "874ce437ebb26f75243aa88eac26e4822fbe8009068e76c4bf5704ad7eda992a",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDOriginalChartOpens",
+    "original_source_sha256": "874ce437ebb26f75243aa88eac26e4822fbe8009068e76c4bf5704ad7eda992a",
+    "non_import_body_sha256": "887eb24989fa963f690925f306c1b4f5af3cec5ce610b38c0677c735514ff7ed",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDOriginalCoordinateSections": {
+    "path": "Source/ThetaDOriginalCoordinateSections.lean",
+    "sha256": "79a61f90229d1999e7dbc2600fbcc244309d214a75b598b1d0d6742189dd328d",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDOriginalCoordinateSections",
+    "original_source_sha256": "79a61f90229d1999e7dbc2600fbcc244309d214a75b598b1d0d6742189dd328d",
+    "non_import_body_sha256": "d413e8db319f9b15b34d493c2fb825cc7bcf6ef1505e667b90c3476cedffd450",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDPlaneChartSections": {
+    "path": "Source/ThetaDPlaneChartSections.lean",
+    "sha256": "b4f1dece0828fdc723d5f6f2d761e3d17b58907923516899d5ff558d5442cb40",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDPlaneChartSections",
+    "original_source_sha256": "b4f1dece0828fdc723d5f6f2d761e3d17b58907923516899d5ff558d5442cb40",
+    "non_import_body_sha256": "813aec925d3145b3a91dc1ce4296675614b586a746b26aca70aa2d2e0ca8699d",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDPlaneRegularForms": {
+    "path": "Source/ThetaDPlaneRegularForms.lean",
+    "sha256": "3c982729b5ffe11e397dbd7b43ec1453b01417893254e89fb68f9f817cd75d09",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDPlaneRegularForms",
+    "original_source_sha256": "3c982729b5ffe11e397dbd7b43ec1453b01417893254e89fb68f9f817cd75d09",
+    "non_import_body_sha256": "f24b8825ad3fbd82b5ad8f7b31abcef6c59841dc7a8109bd0c5b483eb45976cd",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDProjectiveInfinityCover": {
+    "path": "Source/ThetaDProjectiveInfinityCover.lean",
+    "sha256": "da5f862165a9bb081d9851f82bfa143c14f500a51d322b3edc3811bd764af333",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDProjectiveInfinityCover",
+    "original_source_sha256": "da5f862165a9bb081d9851f82bfa143c14f500a51d322b3edc3811bd764af333",
+    "non_import_body_sha256": "ef021559e994f33f6ad2486b56cb0e0df889f5eed24d448aca54215f8df435eb",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDSectionComparison": {
+    "path": "Source/ThetaDSectionComparison.lean",
+    "sha256": "e617883b75b1a45cdc01bbdc458abef1691cc7763769853a41d5068317c15a5d",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDSectionComparison",
+    "original_source_sha256": "e617883b75b1a45cdc01bbdc458abef1691cc7763769853a41d5068317c15a5d",
+    "non_import_body_sha256": "032db171fc9cc5ee4645dc1ba1498909600f6d55f26f173f70a0c18fc7fe03c4",
+    "non_import_body_unchanged": true
+  },
+  "ThetaDifferentialChartIdentity": {
+    "path": "Source/ThetaDifferentialChartIdentity.lean",
+    "sha256": "362166118a01f43d08c4757a5c9bdfca0b3e47aee87bb328e341e6761de52286",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaDifferentialChartIdentity",
+    "original_source_sha256": "362166118a01f43d08c4757a5c9bdfca0b3e47aee87bb328e341e6761de52286",
+    "non_import_body_sha256": "b95476a32f9bd726de005d67d3516aa0d28fc88508e113aea2d574efb374be50",
+    "non_import_body_unchanged": true
+  },
+  "ThetaEtaleAllPlaces": {
+    "path": "Source/ThetaEtaleAllPlaces.lean",
+    "sha256": "1d88c57a29b024915219c34f0592ae63dfb50cf85fcf563e6b2dbaae995bbc6f",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaEtaleAllPlaces",
+    "original_source_sha256": "1d88c57a29b024915219c34f0592ae63dfb50cf85fcf563e6b2dbaae995bbc6f",
+    "non_import_body_sha256": "208a2a7fd04f47f27a8a1c7465e4dfe34f172c1126e7f6c22203d3e15aabac30",
+    "non_import_body_unchanged": true
+  },
+  "ThetaFiniteGenericDegree": {
+    "path": "Source/ThetaFiniteGenericDegree.lean",
+    "sha256": "4fedef3f7db40b5d35db6ae397e480d7b563662c7d328dffa89e32b03c8f8687",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaFiniteGenericDegree",
+    "original_source_sha256": "4fedef3f7db40b5d35db6ae397e480d7b563662c7d328dffa89e32b03c8f8687",
+    "non_import_body_sha256": "069672ceb5f94474504540d87b002d81c6ac28482c3b0f8ab8c619e54e4edb1f",
+    "non_import_body_unchanged": true
+  },
+  "ThetaFlatIntegralDescent": {
+    "path": "Source/ThetaFlatIntegralDescent.lean",
+    "sha256": "a5d06d789a8dcdda398f892a90d2b482e3450447a8a81c1e1b55b975a113e9c8",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaFlatIntegralDescent",
+    "original_source_sha256": "a5d06d789a8dcdda398f892a90d2b482e3450447a8a81c1e1b55b975a113e9c8",
+    "non_import_body_sha256": "577046ca3a55b8c6ca3e6f47d50e0ae29110f8614138606cf1ffa6daf2f1aff6",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGaloisCanonicalCorrespondence": {
+    "path": "Source/ThetaGaloisCanonicalCorrespondence.lean",
+    "sha256": "6eb6100cfe362e72e2fd2b4f2553d65ecf315e1c4d47d10199b3df0b52dde4d7",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGaloisCanonicalCorrespondence",
+    "original_source_sha256": "6eb6100cfe362e72e2fd2b4f2553d65ecf315e1c4d47d10199b3df0b52dde4d7",
+    "non_import_body_sha256": "b8ff9d6be3e694aa2b13ebd08e7f188935c6269222a1ed673471038cc14b4d2b",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGaloisCanonicalPlane": {
+    "path": "Source/ThetaGaloisCanonicalPlane.lean",
+    "sha256": "b6a16a35c8873f2ab224af274527f034e1a7459eda19dfc433cc891b4be54f06",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGaloisCanonicalPlane",
+    "original_source_sha256": "b6a16a35c8873f2ab224af274527f034e1a7459eda19dfc433cc891b4be54f06",
+    "non_import_body_sha256": "f7a011eee72b31cebf95b0d88641e7184d4796a9f682a9c550f3ecf596a34fc5",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGaloisFieldAction": {
+    "path": "Source/ThetaGaloisFieldAction.lean",
+    "sha256": "26eae82023007692124cc6aa57847329304aadb5e8a255a5ce5bd196804bd7c1",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGaloisFieldAction",
+    "original_source_sha256": "26eae82023007692124cc6aa57847329304aadb5e8a255a5ce5bd196804bd7c1",
+    "non_import_body_sha256": "4b649fe18dfb362fec1da4bb04215671eb28ac19c1d9b32ac99eef4b69b312e0",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGaloisPointPlace": {
+    "path": "Source/ThetaGaloisPointPlace.lean",
+    "sha256": "606da7e0448bcf6201ca192e8361c88a7243c1449e2d81670a281bc1d37899a6",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGaloisPointPlace",
+    "original_source_sha256": "606da7e0448bcf6201ca192e8361c88a7243c1449e2d81670a281bc1d37899a6",
+    "non_import_body_sha256": "6097574ebb07dabcb05b99148511b2e0f80d18e2967b9a5974652aaaadbc1b73",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGaloisSchemeField": {
+    "path": "Source/ThetaGaloisSchemeField.lean",
+    "sha256": "7675a98561b7a581fb765fdee2af0f9e036dff27b44b5806faaf4cde72e69ad6",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGaloisSchemeField",
+    "original_source_sha256": "7675a98561b7a581fb765fdee2af0f9e036dff27b44b5806faaf4cde72e69ad6",
+    "non_import_body_sha256": "20bcba467f8943ca3bbb8e9fe225c92d52ead26f369cc96f59a6c6ef08b7ddd2",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGenericRankFraction": {
+    "path": "Source/ThetaGenericRankFraction.lean",
+    "sha256": "7a4bcf659ff20a7f2ebd2066dc5c32266d1f6cffc9eab6f035639c9079db55e3",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGenericRankFraction",
+    "original_source_sha256": "7a4bcf659ff20a7f2ebd2066dc5c32266d1f6cffc9eab6f035639c9079db55e3",
+    "non_import_body_sha256": "8a347047e6312c6a48782602d9b33835ae1be7e281816eac7413b1f13ce3a130",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGeometricChartEvaluation": {
+    "path": "Source/ThetaGeometricChartEvaluation.lean",
+    "sha256": "0cac9bf6075bfaf38b47b38a3fb771ff14a347d8b6f720173ca71ac621eb0481",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGeometricChartEvaluation",
+    "original_source_sha256": "0cac9bf6075bfaf38b47b38a3fb771ff14a347d8b6f720173ca71ac621eb0481",
+    "non_import_body_sha256": "e20931c5d486c8dc8a0ed49f8b295aee04a33ba546cf6815b33a5d1435fd126e",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGeometricContactPoints": {
+    "path": "Source/ThetaGeometricContactPoints.lean",
+    "sha256": "c0377c8ef30395740276dd7bde4c483a2578e35bbd3f3ba02261ee52947b2a5a",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGeometricContactPoints",
+    "original_source_sha256": "c0377c8ef30395740276dd7bde4c483a2578e35bbd3f3ba02261ee52947b2a5a",
+    "non_import_body_sha256": "955fbc43cfb4bff231840a4d9012f2398256722d094e4b92bc203a3b62e2271d",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGeometricPointCoordinateEvaluation": {
+    "path": "Source/ThetaGeometricPointCoordinateEvaluation.lean",
+    "sha256": "1613b9d0c10cddce777ea8e3103db89491ad0e1abd65447a1da3626a30453dae",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGeometricPointCoordinateEvaluation",
+    "original_source_sha256": "1613b9d0c10cddce777ea8e3103db89491ad0e1abd65447a1da3626a30453dae",
+    "non_import_body_sha256": "fb97691eb18f504780509a8e8589702aca9c4a2515e450f9c1353ac58b2b6eb3",
+    "non_import_body_unchanged": true
+  },
+  "ThetaGeometricResidueCoordinates": {
+    "path": "Source/ThetaGeometricResidueCoordinates.lean",
+    "sha256": "5422fb898de9569fcfd4cca715fc5ad7efcba377486184cfb51c75d342f34c1d",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaGeometricResidueCoordinates",
+    "original_source_sha256": "5422fb898de9569fcfd4cca715fc5ad7efcba377486184cfb51c75d342f34c1d",
+    "non_import_body_sha256": "4ae0294220664e2d69dea86e2406e35e1a06c0776b4e9f434f9d74c7c96260be",
+    "non_import_body_unchanged": true
+  },
+  "ThetaHalfCanonicalRootSupport": {
+    "path": "Source/ThetaHalfCanonicalRootSupport.lean",
+    "sha256": "cc954a8985d1bf636c1db8df12ebc8d563eb69ea77d9d3e661769034c8f8ea38",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaHalfCanonicalRootSupport",
+    "original_source_sha256": "cc954a8985d1bf636c1db8df12ebc8d563eb69ea77d9d3e661769034c8f8ea38",
+    "non_import_body_sha256": "aedefc99ccb37055c07a354be1950b8956dce255215c590ec80eaa36a0ee7777",
+    "non_import_body_unchanged": true
+  },
+  "ThetaHalfCanonicalSquareContact": {
+    "path": "Source/ThetaHalfCanonicalSquareContact.lean",
+    "sha256": "8381db861c3f179f10e4b552b1e6a86999167647e0024714446304de19a7f377",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaHalfCanonicalSquareContact",
+    "original_source_sha256": "8381db861c3f179f10e4b552b1e6a86999167647e0024714446304de19a7f377",
+    "non_import_body_sha256": "b9b055bef14674cd6905117d337519fbb211470f22c43a535364635ec5668a61",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLineAlgebraDecomposition": {
+    "path": "Source/ThetaLineAlgebraDecomposition.lean",
+    "sha256": "38c0f360c99796fd2b9ec738d96e11182f2d83d4b75541fe0214b029a5e9a290",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLineAlgebraDecomposition",
+    "original_source_sha256": "38c0f360c99796fd2b9ec738d96e11182f2d83d4b75541fe0214b029a5e9a290",
+    "non_import_body_sha256": "a04104da2eac9d01b8baf98537566c6e30890d628b99a2f324074aa089f53314",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLineFixedFields": {
+    "path": "Source/ThetaLineFixedFields.lean",
+    "sha256": "b583b4150e01162bc034e8482f016b3a66bc43d4f3de3c50c9f47a325ea58da3",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLineFixedFields",
+    "original_source_sha256": "b583b4150e01162bc034e8482f016b3a66bc43d4f3de3c50c9f47a325ea58da3",
+    "non_import_body_sha256": "12c1adc838249726801e650cdde6ae698e222b26048bf1121dec4832ff813b32",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLineGeometricPoints": {
+    "path": "Source/ThetaLineGeometricPoints.lean",
+    "sha256": "20032a5958de29e9320ebec9c4238ce9ce6f19ec24bccd491037bd6c29667ff1",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLineGeometricPoints",
+    "original_source_sha256": "722301b094b30747c70ef1ebe9e84db0637ed59b1d1d8579e9515925770f210c",
+    "non_import_body_sha256": "a0be48aae2f71c2b9b6187166e015e29901853573f9d9c8093ee8c84dcca3a32",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLineOrbits": {
+    "path": "Source/ThetaLineOrbits.lean",
+    "sha256": "29f009d2232ec83c7bb57807d4323a545ede1c18099f63d65d1f6815d5cbc03e",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLineOrbits",
+    "original_source_sha256": "29f009d2232ec83c7bb57807d4323a545ede1c18099f63d65d1f6815d5cbc03e",
+    "non_import_body_sha256": "b4f9271a58caa184c525e9d6372c4488295ae52b781e626ba8828cb3fedb6534",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLineRootPointCharts": {
+    "path": "Source/ThetaLineRootPointCharts.lean",
+    "sha256": "433d15cd2537bd4e3705e113642e86f647a571a78020aad7a62b5425ae4a8967",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLineRootPointCharts",
+    "original_source_sha256": "433d15cd2537bd4e3705e113642e86f647a571a78020aad7a62b5425ae4a8967",
+    "non_import_body_sha256": "5ed8bad67d641e3e0965bc8cfdf7e0e5e27c2d0b7f2cd12ae35e47cae08d7033",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLineSplittingField": {
+    "path": "Source/ThetaLineSplittingField.lean",
+    "sha256": "1b4668456e5acedcb9d653ade1941e53b99972abe1e608754d2044c9e5de22ad",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLineSplittingField",
+    "original_source_sha256": "1b4668456e5acedcb9d653ade1941e53b99972abe1e608754d2044c9e5de22ad",
+    "non_import_body_sha256": "956a927157e8e1d6237a94c83db1a2983c7459b92e4ee8be119139169852588e",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLineStabilizers": {
+    "path": "Source/ThetaLineStabilizers.lean",
+    "sha256": "29ec0563220958fb43d5a8a8939d787cbe53a3280ddcb5c5d9e2218cab3857a6",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLineStabilizers",
+    "original_source_sha256": "29ec0563220958fb43d5a8a8939d787cbe53a3280ddcb5c5d9e2218cab3857a6",
+    "non_import_body_sha256": "c13469db2a16433ade095946a64ecf64af5eea0434fd6fa41e7f7c54823d048b",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesAbsoluteGalois": {
+    "path": "Source/ThetaLinesAbsoluteGalois.lean",
+    "sha256": "9bcd6912d02a9f305e86cfc22ed540a1f6369abb86b67ffb76c01b53c8bc9d6a",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesAbsoluteGalois",
+    "original_source_sha256": "8aa6c84199b6e19899c0ed54f2608c4f374c222af66f6ba0cfb4954545d70a79",
+    "non_import_body_sha256": "92f0796965b4f68e7ca535401cc9adf4cc43895938bbe74546b1e84aa11d208b",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesContactPoints": {
+    "path": "Source/ThetaLinesContactPoints.lean",
+    "sha256": "02f4abe1101ce184e7d8ec8bdda547191e0abf3091ebe034b520d3080f5db557",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesContactPoints",
+    "original_source_sha256": "31ad86a0dbd42d71fc38e2dfe2fd9d48bf608b81fcb468e3093da29a286ebea7",
+    "non_import_body_sha256": "366c68ffc60998f5352ccf79a475ddc3b462d4cd922931d8142efc76eb3d6a03",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesDualLines": {
+    "path": "Source/ThetaLinesDualLines.lean",
+    "sha256": "c65b35485a21f581b24696081a8b3ff6ae0fcd88cc053afa0314fbe283ca888e",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesDualLines",
+    "original_source_sha256": "c65b35485a21f581b24696081a8b3ff6ae0fcd88cc053afa0314fbe283ca888e",
+    "non_import_body_sha256": "24e2c8ac126ec71e07763e7b28949c65102f0954e1fe09b855a268d31eac50d4",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesFullAssembly": {
+    "path": "Source/ThetaLinesFullAssembly.lean",
+    "sha256": "503dd52944675f649e9e9b1840b2389f8ece93b74628005731f10b8e7d88c298",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesFullAssembly",
+    "original_source_sha256": "503dd52944675f649e9e9b1840b2389f8ece93b74628005731f10b8e7d88c298",
+    "non_import_body_sha256": "1e5fcb59d03829a6b72bd01c0f9a970a31a018ee91fe746622848683cfd49e96",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesGaloisAction": {
+    "path": "Source/ThetaLinesGaloisAction.lean",
+    "sha256": "9b8cd560081161c89799a3688f6f4e6158c01525cf9b7b944f75c578ceef2983",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesGaloisAction",
+    "original_source_sha256": "9b8cd560081161c89799a3688f6f4e6158c01525cf9b7b944f75c578ceef2983",
+    "non_import_body_sha256": "f468a737479739fec8a90aa9d3f16cde016a657c100a78cf1fecad82f9cca142",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesPolynomialContacts": {
+    "path": "Source/ThetaLinesPolynomialContacts.lean",
+    "sha256": "2efee4446e6c685f91cff897f4db7173392d13274a9f8f5e6fe85914547a7d2c",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesPolynomialContacts",
+    "original_source_sha256": "2efee4446e6c685f91cff897f4db7173392d13274a9f8f5e6fe85914547a7d2c",
+    "non_import_body_sha256": "1cd87e018dce2b9077e23c340511ac5d9c6db3d12e1136b5daa9ed6b1045ba1e",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesProjectiveClassification": {
+    "path": "Source/ThetaLinesProjectiveClassification.lean",
+    "sha256": "93102b5f1bbe2a4a2ad06ab0b9d027d667ace79f06ececbb42979dab6a049f71",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesProjectiveClassification",
+    "original_source_sha256": "c5e269f7cb4a08a32a10f8806386235422f3432533ba5a2f42831cdefcb48a2f",
+    "non_import_body_sha256": "33669ab805e0051482031fe4bef0b68dece90eefb890f8e2733e9188f83c2bd6",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesProjectiveLines": {
+    "path": "Source/ThetaLinesProjectiveLines.lean",
+    "sha256": "c593ae325b01734dbe64e23f69dc1e273bf1b8c55dda7c14efd06b18bce04608",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesProjectiveLines",
+    "original_source_sha256": "0df30ff4aafcc2a8cb69396bb7dbaa85235976270e7911e502d2bd0b583d30cd",
+    "non_import_body_sha256": "39a7505292e2fce4079611a3bbc6e9a9319706d4661d75459e1d16a688073da2",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesSchemePoints": {
+    "path": "Source/ThetaLinesSchemePoints.lean",
+    "sha256": "318def26bdf5becd645fa5f5ba3ed314f3bb03a6b722693e23e860ef82cb9065",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLinesSchemePoints",
+    "original_source_sha256": "9b4f4c3ab36d5ae5d6459f5506677f9544149b2c8c601e31e757e42dd3292fa6",
+    "non_import_body_sha256": "ab2b9c29f813daac139c8309343b8dc31226adeb45143296e3e37bd3a5615ed9",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLiteralBinaryRestrictions": {
+    "path": "Source/ThetaLiteralBinaryRestrictions.lean",
+    "sha256": "d8a7f891e24b7e8481fcab57e4bfab10e7e1038e05900ae354ad15e819684aa9",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLiteralBinaryRestrictions",
+    "original_source_sha256": "d8a7f891e24b7e8481fcab57e4bfab10e7e1038e05900ae354ad15e819684aa9",
+    "non_import_body_sha256": "f8cc8135c6c4f4faf06a601d432140cdcdd635536e10d0163367b93665b670fb",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLiteralRootJets": {
+    "path": "Source/ThetaLiteralRootJets.lean",
+    "sha256": "aeb5b66d2cfb92cf14d531e120384a356fed7e0640383126cca59528c93f90f7",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLiteralRootJets",
+    "original_source_sha256": "aeb5b66d2cfb92cf14d531e120384a356fed7e0640383126cca59528c93f90f7",
+    "non_import_body_sha256": "f1049ea4ff9273f48ca71aeb0fac0786fb9033779e780ef7af2a25b0b8469893",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLocalLineDerivatives": {
+    "path": "Source/ThetaLocalLineDerivatives.lean",
+    "sha256": "0c33dba4930358e7e66848453d497f8abe6bb0945ee342a7343f0045350fbca2",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaLocalLineDerivatives",
+    "original_source_sha256": "0c33dba4930358e7e66848453d497f8abe6bb0945ee342a7343f0045350fbca2",
+    "non_import_body_sha256": "f581296c1cfb2cf1179f600450ae906e628856db80167caa21ab152c07122b79",
+    "non_import_body_unchanged": true
+  },
+  "ThetaNativeDualCanonicalLines": {
+    "path": "Source/ThetaNativeDualCanonicalLines.lean",
+    "sha256": "a6308dc1ee336dacf1198cd2c9eb3cd883505f455b849aefaf865455df8360b7",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaNativeDualCanonicalLines",
+    "original_source_sha256": "a6308dc1ee336dacf1198cd2c9eb3cd883505f455b849aefaf865455df8360b7",
+    "non_import_body_sha256": "3a0e33f63933fb0ad680381cfbd255010da997049295c35674b801945a28bd3b",
+    "non_import_body_unchanged": true
+  },
+  "ThetaNativeFunctionFieldMap": {
+    "path": "Source/ThetaNativeFunctionFieldMap.lean",
+    "sha256": "27d6b649252c546f1cfd3db635c37902910bf8ba0721935e7115021e59c7b801",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaNativeFunctionFieldMap",
+    "original_source_sha256": "27d6b649252c546f1cfd3db635c37902910bf8ba0721935e7115021e59c7b801",
+    "non_import_body_sha256": "e19e5489fcbc3e6a519b7e1fd0b84392f1a76b57bcdab93e553d351188dd5b34",
+    "non_import_body_unchanged": true
+  },
+  "ThetaNativeLineGaloisSet": {
+    "path": "Source/ThetaNativeLineGaloisSet.lean",
+    "sha256": "efaa5f6f0eba2d19338f0dd3a08bc493a800c2cfb1d311a4569f210e3e506f30",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaNativeLineGaloisSet",
+    "original_source_sha256": "efaa5f6f0eba2d19338f0dd3a08bc493a800c2cfb1d311a4569f210e3e506f30",
+    "non_import_body_sha256": "c996b09577ab427d52c0444cf0a7f33cb6e2d22843610047cefee0d8dd853a92",
+    "non_import_body_unchanged": true
+  },
+  "ThetaOddGaloisActionHom": {
+    "path": "Source/ThetaOddGaloisActionHom.lean",
+    "sha256": "e23e662834f04f01dccd9f7b827a47cf575fdf3af2bcbd80d86794d750094ff3",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaOddGaloisActionHom",
+    "original_source_sha256": "e23e662834f04f01dccd9f7b827a47cf575fdf3af2bcbd80d86794d750094ff3",
+    "non_import_body_sha256": "295ae3d462bd0a6787e6bf3419a2ef9b6be37f75dfb3fd7773668a414aa913a9",
+    "non_import_body_unchanged": true
+  },
+  "ThetaOddNativeGaloisEquiv": {
+    "path": "Source/ThetaOddNativeGaloisEquiv.lean",
+    "sha256": "7441447039ddc39edfd32be2076764527cac7372023ed1af9e99256e918d4daa",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaOddNativeGaloisEquiv",
+    "original_source_sha256": "7441447039ddc39edfd32be2076764527cac7372023ed1af9e99256e918d4daa",
+    "non_import_body_sha256": "ac4fb0820006e819d554f2dcba59eedcd28746f51eb7aeec1fb03fe1551b9b46",
+    "non_import_body_unchanged": true
+  },
+  "ThetaOddNativeLineEquiv": {
+    "path": "Source/ThetaOddNativeLineEquiv.lean",
+    "sha256": "2960ee9e6e3cb679f2f0e520e34d0f712b807d525d0ab0370144c7d85a62309f",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaOddNativeLineEquiv",
+    "original_source_sha256": "2960ee9e6e3cb679f2f0e520e34d0f712b807d525d0ab0370144c7d85a62309f",
+    "non_import_body_sha256": "08b86fd7e189b9849b832b7093cc552471d7c399b9df005137cbd291787948b8",
+    "non_import_body_unchanged": true
+  },
+  "ThetaOddNativeSquareContact": {
+    "path": "Source/ThetaOddNativeSquareContact.lean",
+    "sha256": "b4446fada34de23e0dcaa3b09bccdc91fbee7fdd51fac8d3ebd27f5d983abf06",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaOddNativeSquareContact",
+    "original_source_sha256": "b4446fada34de23e0dcaa3b09bccdc91fbee7fdd51fac8d3ebd27f5d983abf06",
+    "non_import_body_sha256": "0b98c0915f210041590088e69eb29a2db356adbcfc3675428f8b7f813e661e96",
+    "non_import_body_unchanged": true
+  },
+  "ThetaOddThetaCanonicalLines": {
+    "path": "Source/ThetaOddThetaCanonicalLines.lean",
+    "sha256": "fbb7532148dd7d345408b12ea2aaa3e79980bde28d031b2a999ab5359fe3a2af",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaOddThetaCanonicalLines",
+    "original_source_sha256": "fbb7532148dd7d345408b12ea2aaa3e79980bde28d031b2a999ab5359fe3a2af",
+    "non_import_body_sha256": "6eb571b9cdc0915276c853c800f234144238a85e7af6399b7403d1ed88fb24ea",
+    "non_import_body_unchanged": true
+  },
+  "ThetaOrbitEvaluation": {
+    "path": "Source/ThetaOrbitEvaluation.lean",
+    "sha256": "bd6313ac262676a95c40c33377385686cc5f48552dc2a9a0ab78363331f3b70f",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaOrbitEvaluation",
+    "original_source_sha256": "bd6313ac262676a95c40c33377385686cc5f48552dc2a9a0ab78363331f3b70f",
+    "non_import_body_sha256": "b0357642c6adc7dacb3543acb67089b9a43e5ae6ed090906ca2ffaca7daf2751",
+    "non_import_body_unchanged": true
+  },
+  "ThetaOrderTwoDerivativeEvaluation": {
+    "path": "Source/ThetaOrderTwoDerivativeEvaluation.lean",
+    "sha256": "991e8644de9e193ec263560b08d721a5ce996c7c8bcb36028d38f062ef3fa3e9",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaOrderTwoDerivativeEvaluation",
+    "original_source_sha256": "991e8644de9e193ec263560b08d721a5ce996c7c8bcb36028d38f062ef3fa3e9",
+    "non_import_body_sha256": "42da70e44a7a31d17c6cd95b1bef5978c43731780f62db92bc65a811bd8d27a7",
+    "non_import_body_unchanged": true
+  },
+  "ThetaProjectiveRootPlaceEmbedding": {
+    "path": "Source/ThetaProjectiveRootPlaceEmbedding.lean",
+    "sha256": "56340081fcf2ae6cfbcf2fff4a973df81e297b155b967946c99b4d61bccc2c0c",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaProjectiveRootPlaceEmbedding",
+    "original_source_sha256": "56340081fcf2ae6cfbcf2fff4a973df81e297b155b967946c99b4d61bccc2c0c",
+    "non_import_body_sha256": "09f1c64aaed72a1db0b6dd427aa4731986703f583a23d5298addc930f9818745",
+    "non_import_body_unchanged": true
+  },
+  "ThetaRegularFunctionDifferential": {
+    "path": "Source/ThetaRegularFunctionDifferential.lean",
+    "sha256": "6801e7a39cbea230adab38838e500314141e332d065202b065d32db324c0de37",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaRegularFunctionDifferential",
+    "original_source_sha256": "6801e7a39cbea230adab38838e500314141e332d065202b065d32db324c0de37",
+    "non_import_body_sha256": "9badbd3f4860a992d1e4ee6c82205faf938f707e0dfd26f6db94ae9e4cbe59fd",
+    "non_import_body_unchanged": true
+  },
+  "ThetaRestrictionHasTwoRoots": {
+    "path": "Source/ThetaRestrictionHasTwoRoots.lean",
+    "sha256": "01bf93d2f4dc9451cb388cbb585e36dd55a1e2728a334416b249d4fd67d7bcf9",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaRestrictionHasTwoRoots",
+    "original_source_sha256": "01bf93d2f4dc9451cb388cbb585e36dd55a1e2728a334416b249d4fd67d7bcf9",
+    "non_import_body_sha256": "97ec097f12f3cd661d0d1e9a4027211edc69a0499a2b72080509e8ec99036d1a",
+    "non_import_body_unchanged": true
+  },
+  "ThetaRootCanonicalSections": {
+    "path": "Source/ThetaRootCanonicalSections.lean",
+    "sha256": "02fa478004424ccbe78dd9719319f52b025bd808a1890f80b5c56072a9f92eff",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaRootCanonicalSections",
+    "original_source_sha256": "02fa478004424ccbe78dd9719319f52b025bd808a1890f80b5c56072a9f92eff",
+    "non_import_body_sha256": "058193710bc3801fc58369e2772f3629cacd57d587f16a6e413f110e5e87d492",
+    "non_import_body_unchanged": true
+  },
+  "ThetaRootOrderDoubleJets": {
+    "path": "Source/ThetaRootOrderDoubleJets.lean",
+    "sha256": "16a7cce4846c9a6e2e0d619a25d5ebbe7672b351e564fab10019bb9dc1d57a4b",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaRootOrderDoubleJets",
+    "original_source_sha256": "16a7cce4846c9a6e2e0d619a25d5ebbe7672b351e564fab10019bb9dc1d57a4b",
+    "non_import_body_sha256": "eca9dd0ec068dd4156faf09ac6e05c6f870ab1ff09f813bf037bf8ed6dceeadb",
+    "non_import_body_unchanged": true
+  },
+  "ThetaUnramifiedPlaceIndex": {
+    "path": "Source/ThetaUnramifiedPlaceIndex.lean",
+    "sha256": "562ed358d803a989819c095959f2e92cb9f64f0a095492dc9be05bf2e072e0ff",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaUnramifiedPlaceIndex",
+    "original_source_sha256": "562ed358d803a989819c095959f2e92cb9f64f0a095492dc9be05bf2e072e0ff",
+    "non_import_body_sha256": "93ab2f221edcb3a9cf3559dfdeb6171e2452a02eac50cd33b8b6712e905e70c4",
+    "non_import_body_unchanged": true
+  },
+  "ThetaValuationTangencyOrder": {
+    "path": "Source/ThetaValuationTangencyOrder.lean",
+    "sha256": "07d0670ed974dffd72902d2a75c19990e675848f8547072e4cd2e806b738633d",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaValuationTangencyOrder",
+    "original_source_sha256": "07d0670ed974dffd72902d2a75c19990e675848f8547072e4cd2e806b738633d",
+    "non_import_body_sha256": "e8bcee7e97703259658364b7256b4b0a7e704ac0b93efbe7c07ec374005d4611",
+    "non_import_body_unchanged": true
+  },
+  "ThetaVanishingDifferentialOrder": {
+    "path": "Source/ThetaVanishingDifferentialOrder.lean",
+    "sha256": "5b1af3858a800c95cbeb2f0b7568123659fe1f1d9fc5e2f7bf6530156680d5ab",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaVanishingDifferentialOrder",
+    "original_source_sha256": "5b1af3858a800c95cbeb2f0b7568123659fe1f1d9fc5e2f7bf6530156680d5ab",
+    "non_import_body_sha256": "4d467129ba2210920f9e702419a171a9d7755718603e9d27e485214daefdc546",
+    "non_import_body_unchanged": true
+  },
+  "ThetaVerticalContactConstants": {
+    "path": "Source/ThetaVerticalContactConstants.lean",
+    "sha256": "df836e2f6cb57e71244b78dd7bcc08aef4c67a6ea2e924fb7c580ed8d2fcf7d1",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaVerticalContactConstants",
+    "original_source_sha256": "df836e2f6cb57e71244b78dd7bcc08aef4c67a6ea2e924fb7c580ed8d2fcf7d1",
+    "non_import_body_sha256": "7bd6485bca6574c1ee13025bb88c6401560c3152aaa75a771562d6942f433a09",
+    "non_import_body_unchanged": true
+  },
+  "ThetaVerticalContactOrder": {
+    "path": "Source/ThetaVerticalContactOrder.lean",
+    "sha256": "6c8bd3641fb19da6bd36282e3dd66d1445fc5a0112c39d988b146a7e1aeb5108",
+    "license": "Apache-2.0",
+    "origin_module": "ThetaVerticalContactOrder",
+    "original_source_sha256": "6c8bd3641fb19da6bd36282e3dd66d1445fc5a0112c39d988b146a7e1aeb5108",
+    "non_import_body_sha256": "cf46667e7dce01b27ec42a5971a1c9fb9dd9e63c5488a925dc407e321d7fe3fe",
+    "non_import_body_unchanged": true
+  },
+  "ThetaLinesPortableAudit": {
+    "path": "Source/ThetaLinesPortableAudit.lean",
+    "sha256": "460fc6ee46890e57109bad942428d12577a42e9bf1c3590c50051c757a02d569",
+    "license": "Apache-2.0",
+    "origin": "New all-owned standard-axiom, endpoint-closure and type audit"
+  }
+}

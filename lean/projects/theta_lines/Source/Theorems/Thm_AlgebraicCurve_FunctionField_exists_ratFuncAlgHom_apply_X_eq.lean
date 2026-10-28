@@ -1,0 +1,3 @@
+import P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq
+
+alias AlgebraicCurve.FunctionField.exists_ratFuncAlgHom_apply_X_eq := P2MW.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq.solution

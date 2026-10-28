@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 55,
-  "not_fully_formalized_numbered_statements": 14,
+  "fully_formalized_numbered_statements": 56,
+  "not_fully_formalized_numbered_statements": 13,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1128,10 +1128,16 @@
       "title": null,
       "statement_tex": "\\label{thm:theta-lines}\nThe twenty-eight bitangents of $D$ are precisely the following lines:\n\\begin{enumerate}\n\\item $Z=uX$ and $Z=uY$, where $u=\\epsilon r/2$ or $u=5\\epsilon r$;\n\\item $Z=(\\epsilon hX+\\eta hY)/14$, where $h=9$ or $h=11$;\n\\item $Z=s(\\epsilon hX+\\eta jY)/102$, where\n      $(h,j)=(9,11)$ or $(11,9)$;\n\\item $X=tY$, where $t=\\epsilon r(s+7\\eta)/2$.\n\\end{enumerate}\nEach has two distinct contact points.  The associated odd-theta\n\\emph{\\'etale} algebra is\n\\begin{equation}\n L_{\\mathrm{odd}}\n =\\Q^8\\times\\Q(\\sqrt2)^4\\times\\Q(\\sqrt{51})^4\n          \\times\\Q(\\sqrt2,\\sqrt{51}).\n \\label{eq:theta-algebra}\n\\end{equation}\nThe full Galois action is induced by the independent sign changes of $r$\nand $s$ in the displayed lines.",
       "statement_sha256": "67f58b2a9074cba08f19041f0816b7dc706e949cf5f1c452a93c249496e5cb0c",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.ThetaLinesFullAssembly.theta_lines_full"
+      ],
+      "source": "projects/theta_lines/Source/ThetaLinesFullAssembly.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "prop:theta-cover-class",
