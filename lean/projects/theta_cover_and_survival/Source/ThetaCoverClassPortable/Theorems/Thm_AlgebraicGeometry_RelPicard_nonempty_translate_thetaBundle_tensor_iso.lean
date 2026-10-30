@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_nonempty_translate_thetaBundle_tensor_iso
+
+alias AlgebraicGeometry.RelPicard.nonempty_translate_thetaBundle_tensor_iso := P2MW.S_AlgebraicGeometry_RelPicard_nonempty_translate_thetaBundle_tensor_iso.solution

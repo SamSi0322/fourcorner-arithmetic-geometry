@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_RROpens_exists_finset_subset_ell_sub_sum_single_eq_zero
+
+alias AlgebraicCurve.RROpens.exists_finset_subset_ell_sub_sum_single_eq_zero := P2MW.S_AlgebraicCurve_RROpens_exists_finset_subset_ell_sub_sum_single_eq_zero.solution

@@ -1,0 +1,9 @@
+Descent Algebra foundations
+Copyright 2026 Yuan Si.
+Own Lean source code is licensed under the Apache License, Version 2.0.
+
+This project depends on Mathlib and its standard dependencies under their
+respective upstream licenses. Mathlib is developed by the Mathlib community
+and distributed under Apache-2.0. Its license is reproduced in
+UPSTREAM_LICENSES/mathlib-Apache-2.0.txt. Mathlib source code and binaries are
+not bundled here. Original notices inside own source files are preserved.

@@ -1,0 +1,708 @@
+{
+  "direct_source_dependency": "../common_source",
+  "inherited_parents": "Canonical root/small_curves/EllipticFoundations, inherited through common_source. No parent source/artifact copied.",
+  "modules": {
+    "ReductionImports": {
+      "module": "ReductionImports",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/ReductionImports.lean",
+      "sha256": "0a85e106cbbd72f28c3116224d831b81683889e84c23586dc2c66807c24766d6",
+      "original_source_sha256": "0a85e106cbbd72f28c3116224d831b81683889e84c23586dc2c66807c24766d6",
+      "body_excluding_import_lines_sha256": "c9f60c6f754cceb40686ea0b6fcdd23c100e9737310b76e1626deca2d698188a",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.MvPowerSeriesPDeriv": {
+      "module": "EllipticCurves.Mathlib.Chabauty.MvPowerSeriesPDeriv",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/MvPowerSeriesPDeriv.lean",
+      "sha256": "483c03ef95fd81e9e391b33ee3b651763b383f57cbcb9a3e0822b512e1837573",
+      "original_source_sha256": "483c03ef95fd81e9e391b33ee3b651763b383f57cbcb9a3e0822b512e1837573",
+      "body_excluding_import_lines_sha256": "58af9159d1fab59b2aa8c1f531aaf94a7cb2c6b0e26cd2f27ec21eff43e3b76e",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.AdicTopology": {
+      "module": "EllipticCurves.Mathlib.Chabauty.AdicTopology",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/AdicTopology.lean",
+      "sha256": "9fac103a507d5f5df6e1c626f277a897fb9e38dfa0f6f0ad8b7e4e6f22e32859",
+      "original_source_sha256": "9fac103a507d5f5df6e1c626f277a897fb9e38dfa0f6f0ad8b7e4e6f22e32859",
+      "body_excluding_import_lines_sha256": "5ff838597d6bbb00fb53c9d47c731e39d90a40e720f4f9388fa5b75a5675a559",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.PadicInt": {
+      "module": "EllipticCurves.Mathlib.Chabauty.PadicInt",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/PadicInt.lean",
+      "sha256": "24518fe1c41e00c3f7acbf390635b907820045293ea7874b26a3c2efce118449",
+      "original_source_sha256": "24518fe1c41e00c3f7acbf390635b907820045293ea7874b26a3c2efce118449",
+      "body_excluding_import_lines_sha256": "531ea2940e0e2d14d6ed0812033dd2a0b8fe192a14b9c30e3a8622dd456b70c1",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.PSeries": {
+      "module": "EllipticCurves.Mathlib.Chabauty.PSeries",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/PSeries.lean",
+      "sha256": "3b6581daddbfd399eab18c3dd6584bab2e1298e1415da8e81da797300a6214c6",
+      "original_source_sha256": "3b6581daddbfd399eab18c3dd6584bab2e1298e1415da8e81da797300a6214c6",
+      "body_excluding_import_lines_sha256": "4ba76ab49c257ed0790772234134fdcd5f22ec5b20bfe276696b1e0c8a51d8e4",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.MvPSeries": {
+      "module": "EllipticCurves.Mathlib.Chabauty.MvPSeries",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/MvPSeries.lean",
+      "sha256": "99864ed5431451cee1f2a31c45476aaf6e526712e0e8c8b31c866559ea0c1ea2",
+      "original_source_sha256": "99864ed5431451cee1f2a31c45476aaf6e526712e0e8c8b31c866559ea0c1ea2",
+      "body_excluding_import_lines_sha256": "261a845b658bf9ad31eb50c3710569512af4937a65945a0d3ffd3475b22e05a9",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.MvPowerSeriesComp": {
+      "module": "EllipticCurves.Mathlib.Chabauty.MvPowerSeriesComp",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/MvPowerSeriesComp.lean",
+      "sha256": "51f1f39995e5dc02ceb84cbdc9585d405c05321632a2e138e5a5062cb87717de",
+      "original_source_sha256": "51f1f39995e5dc02ceb84cbdc9585d405c05321632a2e138e5a5062cb87717de",
+      "body_excluding_import_lines_sha256": "77486c4f21095106d7ca671d8c3a8334ecdc42b6d239dd8b512a0fb69bc186c7",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Basic": {
+      "module": "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Basic",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/FormalGroupLaw/Basic.lean",
+      "sha256": "e0f9abcea324988523c9b86c86100225d9bb7c37eb9412660f13bb2bf1a3cf5d",
+      "original_source_sha256": "e0f9abcea324988523c9b86c86100225d9bb7c37eb9412660f13bb2bf1a3cf5d",
+      "body_excluding_import_lines_sha256": "5f8a0b89ee96a2fc080193c605461360609e878cd9379010caa29f9eee190ec4",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Invariance": {
+      "module": "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Invariance",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/FormalGroupLaw/Invariance.lean",
+      "sha256": "c5e8b957b939f7ad0ece73345ee8d96e001b6f6924802dd4e767b80d45ee088f",
+      "original_source_sha256": "c5e8b957b939f7ad0ece73345ee8d96e001b6f6924802dd4e767b80d45ee088f",
+      "body_excluding_import_lines_sha256": "bbb1586d864888d68035abc025a7b41bbba020c7408bdcb0e94dbe0d3959e00c",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Points": {
+      "module": "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Points",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/FormalGroupLaw/Points.lean",
+      "sha256": "643c32370f4437caf37ec9ae3061bfd96fc940d34326bc9480863be5bb420b84",
+      "original_source_sha256": "643c32370f4437caf37ec9ae3061bfd96fc940d34326bc9480863be5bb420b84",
+      "body_excluding_import_lines_sha256": "38b9f9b14d71dc1c8cb852c8bf00724d4aab2366c0fd718d88b71fecbd346cf8",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.PadicValNat": {
+      "module": "EllipticCurves.Mathlib.Chabauty.PadicValNat",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/PadicValNat.lean",
+      "sha256": "e382dc9c27c71ac583c590063261cfa0147333af2d55a4b5001cd9033c5cfb00",
+      "original_source_sha256": "e382dc9c27c71ac583c590063261cfa0147333af2d55a4b5001cd9033c5cfb00",
+      "body_excluding_import_lines_sha256": "5b1ab0d9bf7456bf31021bad8712fd7c6d5809b620aecc70d51786aea38dbe88",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.LocalRing": {
+      "module": "EllipticCurves.Mathlib.Chabauty.LocalRing",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/LocalRing.lean",
+      "sha256": "5737ddf4115dbfad292d78019c1f4d788d3add85a3580a85429d19b7cc3061cf",
+      "original_source_sha256": "5737ddf4115dbfad292d78019c1f4d788d3add85a3580a85429d19b7cc3061cf",
+      "body_excluding_import_lines_sha256": "3362487d4f2612bc0ca5c22399d95ed54222e6231960a17f84c1f41fe6dabef0",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Log": {
+      "module": "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw.Log",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/FormalGroupLaw/Log.lean",
+      "sha256": "2848250b6fb450fd8135dbffce13c71c71246acd3c91cac8ab705e4de8530531",
+      "original_source_sha256": "2848250b6fb450fd8135dbffce13c71c71246acd3c91cac8ab705e4de8530531",
+      "body_excluding_import_lines_sha256": "138d4ae3f2676044b50014da5dd5b58e82e214de5c250b3b310fec1298234fd1",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw": {
+      "module": "EllipticCurves.Mathlib.Chabauty.FormalGroupLaw",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/FormalGroupLaw.lean",
+      "sha256": "5abddd045898196b55d8d6bb58619150328c914f4fc1e429f40e495d94874f77",
+      "original_source_sha256": "5abddd045898196b55d8d6bb58619150328c914f4fc1e429f40e495d94874f77",
+      "body_excluding_import_lines_sha256": "5207b744cc379256eea6ed63f971da6cf0ecf2aedab895bcc40e4c0016a701b8",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.ExpConverge": {
+      "module": "EllipticCurves.Mathlib.Chabauty.ExpConverge",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/ExpConverge.lean",
+      "sha256": "789d42608ef03cebdd28b0239c16d6c513cd52bd1d4585192bbd4bbd9924f103",
+      "original_source_sha256": "789d42608ef03cebdd28b0239c16d6c513cd52bd1d4585192bbd4bbd9924f103",
+      "body_excluding_import_lines_sha256": "7d746715d410e0b0e6d3504a058770a5b63ba0ab9cc9ea8f12f8b426d2eb424c",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Chabauty.LogIso": {
+      "module": "EllipticCurves.Mathlib.Chabauty.LogIso",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Chabauty/LogIso.lean",
+      "sha256": "32966ae9065130a78b3c6baa1e9547eb08860dde9ed0bab90e257fdf97e24f73",
+      "original_source_sha256": "32966ae9065130a78b3c6baa1e9547eb08860dde9ed0bab90e257fdf97e24f73",
+      "body_excluding_import_lines_sha256": "8ac2e5fac2b93dac767bf6aab579ae48aa635bdc10b14ed66c7e42d95e8e686d",
+      "declaration_bodies_byte_identical": true
+    },
+    "ReplayImports": {
+      "module": "ReplayImports",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/ReplayImports.lean",
+      "sha256": "1dc64f9122c79693013893d8f0fadb01de08e0a755f9194acaf20331f227a258",
+      "original_source_sha256": "1dc64f9122c79693013893d8f0fadb01de08e0a755f9194acaf20331f227a258",
+      "body_excluding_import_lines_sha256": "c9f60c6f754cceb40686ea0b6fcdd23c100e9737310b76e1626deca2d698188a",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.Basic": {
+      "module": "EllipticCurves.Mathlib.Basic",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/Basic.lean",
+      "sha256": "f6b42341cd34dd8f184e7c983694e0cc614ad569360074a9119a198be4afbd6d",
+      "original_source_sha256": "f6b42341cd34dd8f184e7c983694e0cc614ad569360074a9119a198be4afbd6d",
+      "body_excluding_import_lines_sha256": "db327a5d2c7216f0cfee3c4e7e0c288e2a3f980265b437da020a9efd73c90048",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.AdicCompletionExtension": {
+      "module": "EllipticCurves.Mathlib.AdicCompletionExtension",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/AdicCompletionExtension.lean",
+      "sha256": "7c87208213dc69753569259c56058459e16751a04bdfbef524e3431bc8eb5ad6",
+      "original_source_sha256": "7c87208213dc69753569259c56058459e16751a04bdfbef524e3431bc8eb5ad6",
+      "body_excluding_import_lines_sha256": "0ee053a310d9eb6373b7ff5767abe19750404173d9c59b3a34528da9d6074f9d",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.AdicFormalGroupLog": {
+      "module": "EllipticCurves.Mathlib.AdicFormalGroupLog",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/AdicFormalGroupLog.lean",
+      "sha256": "c594eff06459026fc5d27ff5a281573c263238a2f536879d3a1553f7af99ad94",
+      "original_source_sha256": "c594eff06459026fc5d27ff5a281573c263238a2f536879d3a1553f7af99ad94",
+      "body_excluding_import_lines_sha256": "89422f26e3277ba9cfbdfd661517ff5da5047c9b96b6f86d11fbdadc58866820",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeierstrassFormalGroup.Chord": {
+      "module": "EllipticCurves.WeierstrassFormalGroup.Chord",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeierstrassFormalGroup/Chord.lean",
+      "sha256": "a6771a22e3eb08effd92d1e17ec6e4882775321e26bfe9864091609073feb5e7",
+      "original_source_sha256": "a6771a22e3eb08effd92d1e17ec6e4882775321e26bfe9864091609073feb5e7",
+      "body_excluding_import_lines_sha256": "adb2fedf303794420b147f0a6578f9fdb96d3a3fee5eec494e2ac25b6b393d8d",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeierstrassFormalGroup.ThirdPoint": {
+      "module": "EllipticCurves.WeierstrassFormalGroup.ThirdPoint",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeierstrassFormalGroup/ThirdPoint.lean",
+      "sha256": "a348e931b29f60829c664b88c7db5d9bee533b7822856d21bdbc2b323af821bf",
+      "original_source_sha256": "a348e931b29f60829c664b88c7db5d9bee533b7822856d21bdbc2b323af821bf",
+      "body_excluding_import_lines_sha256": "f5fea0ed5de2ab16eef516662e84cd6056aaa8182d1502f8e780474c12c19934",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeierstrassFormalGroup.GroupLaw": {
+      "module": "EllipticCurves.WeierstrassFormalGroup.GroupLaw",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeierstrassFormalGroup/GroupLaw.lean",
+      "sha256": "8b6a74d7a1b3bb8bcd9e3ffbd9f0a8f5bbc6c20104dab2494c294433cd67555c",
+      "original_source_sha256": "8b6a74d7a1b3bb8bcd9e3ffbd9f0a8f5bbc6c20104dab2494c294433cd67555c",
+      "body_excluding_import_lines_sha256": "e206b3b54e80e25e5dfc1ab57e55b0d929219117ece46e9572d4ae42047f5716",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.RadiusModel": {
+      "module": "FourCorner.RadiusModel",
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/RadiusModel.lean",
+      "sha256": "3ec6916bcfb0eadfe9e8cb1e0f718dec967e147a916f31ee7841099632e79cc2",
+      "original_source_sha256": "3ec6916bcfb0eadfe9e8cb1e0f718dec967e147a916f31ee7841099632e79cc2",
+      "body_excluding_import_lines_sha256": "2d4cd3289c3683269008b4613d27b07c8a596c2060a85294ce773a19198dd2b9",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.OrderedSourceAlgebra": {
+      "module": "FourCorner.OrderedSourceAlgebra",
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/OrderedSourceAlgebra.lean",
+      "sha256": "d09e02cbdbc4e228126fda67a02c31f890bfe294784ae30b1787642aef7d60f8",
+      "original_source_sha256": "d09e02cbdbc4e228126fda67a02c31f890bfe294784ae30b1787642aef7d60f8",
+      "body_excluding_import_lines_sha256": "e7119853792c151e9ba6642b929d5215cf352b2f759bd370d265feac7702ef09",
+      "declaration_bodies_byte_identical": true
+    },
+    "GroupInterface": {
+      "module": "GroupInterface",
+      "package": "common_source",
+      "source_path": "Source/GroupInterface.lean",
+      "sha256": "b7fbac302c7fc2e08d8fc7af5b5d7d2c29f2690d3d6564c98b30398ab0d16a68",
+      "original_source_sha256": "b7fbac302c7fc2e08d8fc7af5b5d7d2c29f2690d3d6564c98b30398ab0d16a68",
+      "body_excluding_import_lines_sha256": "c33cff28fddad14c9a9c933d2f051eb88660f8df64352cf051b0aae2cabed71a",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.FractionalIdeal": {
+      "module": "EllipticCurves.Mathlib.FractionalIdeal",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/FractionalIdeal.lean",
+      "sha256": "a202073f3a035dbb6877c92ead71cefa5019a4c86313869f29598aeb732480b0",
+      "original_source_sha256": "a202073f3a035dbb6877c92ead71cefa5019a4c86313869f29598aeb732480b0",
+      "body_excluding_import_lines_sha256": "4cbf35d54c62f0bb8532d45958895b7f1812690e350ca74be6a61a142eede8d2",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.SIntegers": {
+      "module": "EllipticCurves.Mathlib.SIntegers",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/SIntegers.lean",
+      "sha256": "1c5e9860e3d07268c4ba2d35bcbc6455a4a4a14293a528c648a2425b30fb58da",
+      "original_source_sha256": "1c5e9860e3d07268c4ba2d35bcbc6455a4a4a14293a528c648a2425b30fb58da",
+      "body_excluding_import_lines_sha256": "500cf358b488afa7749af6b71b3cab1d3c74aa3303913283a693154f58be524a",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.SelmerGroup": {
+      "module": "EllipticCurves.Mathlib.SelmerGroup",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/SelmerGroup.lean",
+      "sha256": "60dfdbc6bc5f3a539413c3c50ff4b33ba35fe8efc929dc42d85b9102e670f1ac",
+      "original_source_sha256": "60dfdbc6bc5f3a539413c3c50ff4b33ba35fe8efc929dc42d85b9102e670f1ac",
+      "body_excluding_import_lines_sha256": "f084ba5ba7aab8fcff2135c573f212be3f6e4139090995ae4af1f372f80cc494",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeakMordellWeil": {
+      "module": "EllipticCurves.WeakMordellWeil",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeakMordellWeil.lean",
+      "sha256": "dec8d4e4ea1ec301091328077278fbf28795cfb7ab4b89e959d2f5b50601e4ef",
+      "original_source_sha256": "dec8d4e4ea1ec301091328077278fbf28795cfb7ab4b89e959d2f5b50601e4ef",
+      "body_excluding_import_lines_sha256": "b6629f25e069e7932ec663a08e2d14ecba9b94798e47238a993ff3bf23d86580",
+      "declaration_bodies_byte_identical": true
+    },
+    "OrderedEval": {
+      "module": "OrderedEval",
+      "package": "fourcorner_small_curves",
+      "source_path": "Source/OrderedEval.lean",
+      "sha256": "561191fd69e1c7b5d57a41d64bbe91905e117d061412f9c988518014ada70a4a",
+      "original_source_sha256": "561191fd69e1c7b5d57a41d64bbe91905e117d061412f9c988518014ada70a4a",
+      "body_excluding_import_lines_sha256": "9df35e180d09a5491f30e7269e28e5e2980a83e25aca0f8de26aab97d659b282",
+      "declaration_bodies_byte_identical": true
+    },
+    "SignedSquareClasses": {
+      "module": "SignedSquareClasses",
+      "package": "fourcorner_small_curves",
+      "source_path": "Source/SignedSquareClasses.lean",
+      "sha256": "a47bc2980f246367482c75d932a4c7d953c53d52249aaaf2ef4414e6a3fa1f75",
+      "original_source_sha256": "a47bc2980f246367482c75d932a4c7d953c53d52249aaaf2ef4414e6a3fa1f75",
+      "body_excluding_import_lines_sha256": "b9c468304698cac487d9cc27ae57cf6a024559ad9ac43d46134a5212f1d86acf",
+      "declaration_bodies_byte_identical": true
+    },
+    "OrderedKummer": {
+      "module": "OrderedKummer",
+      "package": "fourcorner_small_curves",
+      "source_path": "Source/OrderedKummer.lean",
+      "sha256": "2db453ec8dcfb819f15de9afa32eaaaa5c3cce9be1b3875c943159f1e27f1728",
+      "original_source_sha256": "2db453ec8dcfb819f15de9afa32eaaaa5c3cce9be1b3875c943159f1e27f1728",
+      "body_excluding_import_lines_sha256": "28092057e777e4da10e18b0d327a89d70fd3a8bdfad47a0b2ca61271aadd0ef3",
+      "declaration_bodies_byte_identical": true
+    },
+    "KummerBridge": {
+      "module": "KummerBridge",
+      "package": "common_source",
+      "source_path": "Source/KummerBridge.lean",
+      "sha256": "5c3f9f0475a38f5a2cafb88f9409575697e55d955c30e8408ce0572e6c0b597b",
+      "original_source_sha256": "5c3f9f0475a38f5a2cafb88f9409575697e55d955c30e8408ce0572e6c0b597b",
+      "body_excluding_import_lines_sha256": "607d0346ff2544ffe9a5a15477a4013a1ef2cceb5ddffc8b75895bd193c2e4e4",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeierstrassFormalGroup.Eval": {
+      "module": "EllipticCurves.WeierstrassFormalGroup.Eval",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeierstrassFormalGroup/Eval.lean",
+      "sha256": "3fc269f205077368c57eb22a59aebb49562e1e5518c9d9d201bb976055652b8a",
+      "original_source_sha256": "3fc269f205077368c57eb22a59aebb49562e1e5518c9d9d201bb976055652b8a",
+      "body_excluding_import_lines_sha256": "9af8fb9931862344ec3d68b0434f3fc5cd21ee8bf0f276f42f71eb85646eb9ba",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeierstrassFormalGroup.Foundations": {
+      "module": "EllipticCurves.WeierstrassFormalGroup.Foundations",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeierstrassFormalGroup/Foundations.lean",
+      "sha256": "ee3dd1731f2143f50ad043652eddfcebc113bf7c021d26669a565f250e3edb29",
+      "original_source_sha256": "ee3dd1731f2143f50ad043652eddfcebc113bf7c021d26669a565f250e3edb29",
+      "body_excluding_import_lines_sha256": "6e969353d95b5a2e1671a4c3a660e7ee8ba9faf2fc7d97cc3c6a5627509a908e",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.IntegralModel": {
+      "module": "EllipticCurves.IntegralModel",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/IntegralModel.lean",
+      "sha256": "3b67ef8d4ae8dabdc6aba2d4f4cf6df1cf63418309444f20a039959401fe008a",
+      "original_source_sha256": "3b67ef8d4ae8dabdc6aba2d4f4cf6df1cf63418309444f20a039959401fe008a",
+      "body_excluding_import_lines_sha256": "a800d6f4858fd558f061d0117941446d17437f6a06b7d425f7e910c56c55709f",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.VariableChange": {
+      "module": "EllipticCurves.VariableChange",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/VariableChange.lean",
+      "sha256": "35afb00deac63afb9e7e15ba78449782bb8f2cce213b26c13325e490e55cdd81",
+      "original_source_sha256": "35afb00deac63afb9e7e15ba78449782bb8f2cce213b26c13325e490e55cdd81",
+      "body_excluding_import_lines_sha256": "48d15978660df6113459fda4c1d24a04b75274b7437e5409b7fcd4fe31269882",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeierstrassFormalGroup.Filtration": {
+      "module": "EllipticCurves.WeierstrassFormalGroup.Filtration",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeierstrassFormalGroup/Filtration.lean",
+      "sha256": "b858be312978dd5ee06072eb63d6b66d440621139ec347c9c5e86fa00f721ea1",
+      "original_source_sha256": "b858be312978dd5ee06072eb63d6b66d440621139ec347c9c5e86fa00f721ea1",
+      "body_excluding_import_lines_sha256": "cf30a8719c36c1b30e0cf42671d829422113a907f8de84a1adb65f0342478a0d",
+      "declaration_bodies_byte_identical": true
+    },
+    "DyadicBridge": {
+      "module": "DyadicBridge",
+      "package": "common_source",
+      "source_path": "Source/DyadicBridge.lean",
+      "sha256": "731e45abcdb31e2a595c22474f88018eb031edb6924ddf4bb113daeb2f5b9a7c",
+      "original_source_sha256": "731e45abcdb31e2a595c22474f88018eb031edb6924ddf4bb113daeb2f5b9a7c",
+      "body_excluding_import_lines_sha256": "aabe2eb675842c0d70693aecba726e4774b49626c2a1cfd11037a39e63f7823d",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonRootPadicVal": {
+      "module": "FourCorner.CommonRootPadicVal",
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootPadicVal.lean",
+      "sha256": "0154e46fbb3cda336772d4a8b52aecec50278e72bf30376ba8d8f0be2bfdf84f",
+      "original_source_sha256": "0154e46fbb3cda336772d4a8b52aecec50278e72bf30376ba8d8f0be2bfdf84f",
+      "body_excluding_import_lines_sha256": "dab0e66985a349161c453ec17d64cfa2645bee3841d1b6dcc1d82dfc98c2fca5",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.ThetaLocalHensel": {
+      "module": "FourCorner.ThetaLocalHensel",
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/ThetaLocalHensel.lean",
+      "sha256": "e150644bf56f18a1e9a77352d44cb56dbb812519815a1fc5e5e5d2247761e844",
+      "original_source_sha256": "e150644bf56f18a1e9a77352d44cb56dbb812519815a1fc5e5e5d2247761e844",
+      "body_excluding_import_lines_sha256": "40619e2b7e4199d7b87c39aa84cd67bb83a445ec2e7b32e15a0bb01e604b31ed",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceDyadicChart": {
+      "module": "CSFoundation.CommonSourceDyadicChart",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceDyadicChart.lean",
+      "sha256": "978f1753a9e54940ba4b7d610e501cb85e964d781154049046f0029669d48a9e",
+      "original_source_sha256": "978f1753a9e54940ba4b7d610e501cb85e964d781154049046f0029669d48a9e",
+      "body_excluding_import_lines_sha256": "6c19ad8707d40d1f4470ba3d4d266c98366de6277f0fc9bad82d9189ba68a2f6",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.PadicResidueSquareBasic": {
+      "module": "FourCorner.PadicResidueSquareBasic",
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/PadicResidueSquareBasic.lean",
+      "sha256": "0b3ea1c1df38883002aa0ebeb6009688c76b171867d0e459e3f5d5deb12ee159",
+      "original_source_sha256": "0b3ea1c1df38883002aa0ebeb6009688c76b171867d0e459e3f5d5deb12ee159",
+      "body_excluding_import_lines_sha256": "9fb981ef3a82d8081c8c2e4cd93df2f95739ad829ff17d836075e7599fb8d7b7",
+      "declaration_bodies_byte_identical": true
+    },
+    "LocalKummerSelection": {
+      "module": "LocalKummerSelection",
+      "package": "common_source",
+      "source_path": "Source/LocalKummerSelection.lean",
+      "sha256": "a2e0ed237a4e88dbae8a90bcda805d239e811e2141ed861763207ba226761d58",
+      "original_source_sha256": "f9092994561be860f2c111f17859e78be9f2404ed324d66f0a29947c5d0dca0b",
+      "body_excluding_import_lines_sha256": "957054578c8a9f0599d22e263e9fefb5f4b693ec9bd5e124bc3e881111f50539",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceDyadicReturn": {
+      "module": "CSFoundation.CommonSourceDyadicReturn",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceDyadicReturn.lean",
+      "sha256": "74f97af826a1ccaebb7646714374100167b4b099431a1b7c74b2128510a538c6",
+      "original_source_sha256": "74f97af826a1ccaebb7646714374100167b4b099431a1b7c74b2128510a538c6",
+      "body_excluding_import_lines_sha256": "5b71b5bf6cd7ed226b29a19e46426745156cd535b26e735c91a93243d7e22a24",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceDyadicExcluded": {
+      "module": "CSFoundation.CommonSourceDyadicExcluded",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceDyadicExcluded.lean",
+      "sha256": "aa80a7bf41d414ec662541576a9ff2cbb50fbbce41ec36bcf977884e6065bc72",
+      "original_source_sha256": "2d750433cb3b3585feec65c458f6c054a4bda0b6f7386752a65dd57b58f96f26",
+      "body_excluding_import_lines_sha256": "e7eed5727c5157fc473b198dd7b1db7d49b2fcd7defb9f74fcb97d7b79a78662",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceDyadicOrders": {
+      "module": "CSFoundation.CommonSourceDyadicOrders",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceDyadicOrders.lean",
+      "sha256": "41748a3c97cdd5955fe03af5bb2a54b1856c6bf2fcb8c7d7fc8b574482b1428d",
+      "original_source_sha256": "165024b85e7363178a8a53da5687247ec6a407ce21c5c773bcde13f38357796f",
+      "body_excluding_import_lines_sha256": "dd82873726107b73b05f87c81c87048472560da3bb5a35018c41c54b47b39398",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualTorsionOrders": {
+      "module": "ActualTorsionOrders",
+      "package": "common_source",
+      "source_path": "Source/ActualTorsionOrders.lean",
+      "sha256": "82cab3d747abac236685070ec75c8fce1a8a1ae25628dcea44cfe9857166b1d2",
+      "original_source_sha256": "44e70c0167e44772595a00e9bff645e7983bf649756d3a95b3fe758d96c61f6a",
+      "body_excluding_import_lines_sha256": "886c64fcb9d2283b7edbc6a632d63c90b30d4d8ba55850a6730baab1dbdb7852",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualSourceDepth": {
+      "module": "ActualSourceDepth",
+      "package": "common_source",
+      "source_path": "Source/ActualSourceDepth.lean",
+      "sha256": "a815cb2ce6ee73940b209665a27d4960176db5c0a910064813dbd2db1e383169",
+      "original_source_sha256": "a815cb2ce6ee73940b209665a27d4960176db5c0a910064813dbd2db1e383169",
+      "body_excluding_import_lines_sha256": "54bedd78bb8fa5dcb964216b901cc17d0d5e68fe8a3caaffeabb4026a738b5af",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceBeta": {
+      "module": "CSFoundation.CommonSourceBeta",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceBeta.lean",
+      "sha256": "89cc6582daf0c70890993c3193f0b1269be4435ca75eea99c09c7d328992f537",
+      "original_source_sha256": "89cc6582daf0c70890993c3193f0b1269be4435ca75eea99c09c7d328992f537",
+      "body_excluding_import_lines_sha256": "526afd1467006d36725e1987f30f298ee676a24a96b3e25b2c38445f46c67044",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualSourceCoset": {
+      "module": "ActualSourceCoset",
+      "package": "common_source",
+      "source_path": "Source/ActualSourceCoset.lean",
+      "sha256": "36cc89899840f8b084fddf456eaff3f85c9373c76ebcf5a2c1ac080f05750f07",
+      "original_source_sha256": "36cc89899840f8b084fddf456eaff3f85c9373c76ebcf5a2c1ac080f05750f07",
+      "body_excluding_import_lines_sha256": "cb330ac3effc6db6b2aec6b9d407fe3171e85c785efe6fd5da070149f7c21b98",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualSurvivingOrders": {
+      "module": "ActualSurvivingOrders",
+      "package": "common_source",
+      "source_path": "Source/ActualSurvivingOrders.lean",
+      "sha256": "4c8bf4d1709ff9676134e9e0f4a4ba01efcdf284085710c0f446678805a61b89",
+      "original_source_sha256": "4c8bf4d1709ff9676134e9e0f4a4ba01efcdf284085710c0f446678805a61b89",
+      "body_excluding_import_lines_sha256": "04373ce8b4efb823160b01f7e584250e1d12e3c43e7ad4eef13fb232358a010b",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualPairData": {
+      "module": "ActualPairData",
+      "package": "common_source",
+      "source_path": "Source/ActualPairData.lean",
+      "sha256": "bf5c07d2b97dd4b4dcc0b3eacb58cbaf4607f29fae2f4b87d00c2bef40ed4c8c",
+      "original_source_sha256": "b8eb5aa576424929286f777e122076dd95aeb1507adf5e260bf9709c5d1553af",
+      "body_excluding_import_lines_sha256": "271d46bfd40d0b95924788b6a7d486b7fb9e9eabae07683fed36bfbd3e985bb7",
+      "declaration_bodies_byte_identical": true
+    },
+    "FieldGroup": {
+      "module": "FieldGroup",
+      "package": "common_source",
+      "source_path": "Source/FieldGroup.lean",
+      "sha256": "be7c8235210aa9525809102803f4bade7c04fc438a0e6271fe1f141087a5e009",
+      "original_source_sha256": "be7c8235210aa9525809102803f4bade7c04fc438a0e6271fe1f141087a5e009",
+      "body_excluding_import_lines_sha256": "c99a09270a3497e0144246450149d8d151e0c870881717f621d1f59640f91b93",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.AdicValuation": {
+      "module": "EllipticCurves.Mathlib.AdicValuation",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/AdicValuation.lean",
+      "sha256": "6ec45208164e45b3500d6b60caa5452f72ea7f6eec75fda9691edb41cdbf243f",
+      "original_source_sha256": "6ec45208164e45b3500d6b60caa5452f72ea7f6eec75fda9691edb41cdbf243f",
+      "body_excluding_import_lines_sha256": "7ddb117aee59d0b404fdb978f61c7ef13c02ca47574b7e872a9f9a7d53de85f1",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.Mathlib.EllipticCurvePoint": {
+      "module": "EllipticCurves.Mathlib.EllipticCurvePoint",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/Mathlib/EllipticCurvePoint.lean",
+      "sha256": "1cca5d3a6e83506f8cabc73ed868085af4633262892454bcf0bbd2b21b7d9d13",
+      "original_source_sha256": "1cca5d3a6e83506f8cabc73ed868085af4633262892454bcf0bbd2b21b7d9d13",
+      "body_excluding_import_lines_sha256": "ea5107f3c188b4cb82991788e64db723b02f06a34718efad4749bb1a5a6910cb",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.WeierstrassFormalGroup.Reduction": {
+      "module": "EllipticCurves.WeierstrassFormalGroup.Reduction",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/WeierstrassFormalGroup/Reduction.lean",
+      "sha256": "a57bf57f789cdc3e7d3e974c333fc5ed3729f82b0b945bfa10db388802c0a57b",
+      "original_source_sha256": "a57bf57f789cdc3e7d3e974c333fc5ed3729f82b0b945bfa10db388802c0a57b",
+      "body_excluding_import_lines_sha256": "30d8a10b82ea965e85c6a1bfb95ed022b5aa714caa146e92e60f3280f8344996",
+      "declaration_bodies_byte_identical": true
+    },
+    "EllipticCurves.ReductionAtPrime": {
+      "module": "EllipticCurves.ReductionAtPrime",
+      "package": "fourcorner_elliptic_foundations",
+      "source_path": "source/EllipticCurves/ReductionAtPrime.lean",
+      "sha256": "b746d2a3afb336c7e1e54fdec16531dc9fafbc2fcf129bbe9b6bf0342b9ef377",
+      "original_source_sha256": "b746d2a3afb336c7e1e54fdec16531dc9fafbc2fcf129bbe9b6bf0342b9ef377",
+      "body_excluding_import_lines_sha256": "16b6582bc8d9e533370772390a72b9883dfe451c12445afa0b85fdddc5531d7b",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonRootTwoLift": {
+      "module": "FourCorner.CommonRootTwoLift",
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootTwoLift.lean",
+      "sha256": "e07c22a4e700c6a9ae2a6ae9647f178ae0ee2bc9d8e08d28f24e87ed871608dd",
+      "original_source_sha256": "e07c22a4e700c6a9ae2a6ae9647f178ae0ee2bc9d8e08d28f24e87ed871608dd",
+      "body_excluding_import_lines_sha256": "429c516fa2bd2c19437c157ab5e4a9396db51af8c50fa97e7c63fca1cdfb768a",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonRootPadicResidue": {
+      "module": "FourCorner.CommonRootPadicResidue",
+      "package": "fourcorner_paper",
+      "source_path": "FourCorner/CommonRootPadicResidue.lean",
+      "sha256": "fcd8b627227ba0b716ff03deae7f49d65ed6fce5328f8bdff9ea93227e74a721",
+      "original_source_sha256": "fcd8b627227ba0b716ff03deae7f49d65ed6fce5328f8bdff9ea93227e74a721",
+      "body_excluding_import_lines_sha256": "3bb39746719caf8b9656cd2ed5547f9af64ae9c99a937e0693454bd2f83a8efc",
+      "declaration_bodies_byte_identical": true
+    },
+    "RationalPrimeValuation": {
+      "module": "RationalPrimeValuation",
+      "package": "common_source",
+      "source_path": "Source/RationalPrimeValuation.lean",
+      "sha256": "0072dca040431bc4b100de59c97f41339f69ff999a2f066868d317c89967ed18",
+      "original_source_sha256": "0072dca040431bc4b100de59c97f41339f69ff999a2f066868d317c89967ed18",
+      "body_excluding_import_lines_sha256": "5bcbcb6019c00f715a45283a2529bfaefc3f1718a699275bec868d7d1d9a4146",
+      "declaration_bodies_byte_identical": true
+    },
+    "ReductionBridge": {
+      "module": "ReductionBridge",
+      "package": "common_source",
+      "source_path": "Source/ReductionBridge.lean",
+      "sha256": "42164b05488c1bf37ca79f7c6640c066b5985feaebecc2b62b7bd76023bf378b",
+      "original_source_sha256": "42164b05488c1bf37ca79f7c6640c066b5985feaebecc2b62b7bd76023bf378b",
+      "body_excluding_import_lines_sha256": "9cdc99f382b415f8f329e7ce3a1cc2de8a37b8f5847f989d320178c859450b0b",
+      "declaration_bodies_byte_identical": true
+    },
+    "Slot14.OddProbe": {
+      "module": "Slot14.OddProbe",
+      "package": "common_source",
+      "source_path": "Source/Slot14/OddProbe.lean",
+      "sha256": "0dc7eeafc3c107ceb0a95aafe024d38c7408996f9ba6d3bbb44de24d2a829372",
+      "original_source_sha256": "0dc7eeafc3c107ceb0a95aafe024d38c7408996f9ba6d3bbb44de24d2a829372",
+      "body_excluding_import_lines_sha256": "27a8b75a4dcc595c2dc3d7276219275dc2905988478e08d11dce23d6f69ed597",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceOddLocal": {
+      "module": "CSFoundation.CommonSourceOddLocal",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceOddLocal.lean",
+      "sha256": "5050767d01f2bcf8a3d96f1e765208d60929e14c7ee9fba865fa7c7b6d5d661b",
+      "original_source_sha256": "5050767d01f2bcf8a3d96f1e765208d60929e14c7ee9fba865fa7c7b6d5d661b",
+      "body_excluding_import_lines_sha256": "d4470cdce6922da09d36795da96075e5eb8093bf8c997a911af10c95b1dbf105",
+      "declaration_bodies_byte_identical": true
+    },
+    "OddKummerSpecialization": {
+      "module": "OddKummerSpecialization",
+      "package": "common_source",
+      "source_path": "Source/OddKummerSpecialization.lean",
+      "sha256": "bf37c064afd209693b9928dd850fe4f1a72552e31fb6aae8f0cb793a79d6acaf",
+      "original_source_sha256": "7fb90f2d9d441baf5b5939612141f0868936e88b34cddfe60464bb4b8b7b35cb",
+      "body_excluding_import_lines_sha256": "104c263791c706b62e8b4f86096f65da44eb9903da0cd7d2fa30ab03f9efbe79",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualCyclicLabels": {
+      "module": "ActualCyclicLabels",
+      "package": "common_source",
+      "source_path": "Source/ActualCyclicLabels.lean",
+      "sha256": "f35ec7a545ced3d60ea35c8124d905724515750e68c712daf127e9afb5a8bdc5",
+      "original_source_sha256": "f35ec7a545ced3d60ea35c8124d905724515750e68c712daf127e9afb5a8bdc5",
+      "body_excluding_import_lines_sha256": "a93e37c79271fb9f2959a309a84480f98cb90f98c7301659970193bb3a97ee8e",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceOddLocalResidue": {
+      "module": "CSFoundation.CommonSourceOddLocalResidue",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceOddLocalResidue.lean",
+      "sha256": "d67991d8ae1aee0e2838825f0226fd87efcec48a1154fe4a651ad4fa0039e9f4",
+      "original_source_sha256": "d67991d8ae1aee0e2838825f0226fd87efcec48a1154fe4a651ad4fa0039e9f4",
+      "body_excluding_import_lines_sha256": "cb820b36a8d6d7d262e8cdb270ff70055ebe91f4166db1a61bf3dcaca4302533",
+      "declaration_bodies_byte_identical": true
+    },
+    "OddTranslationsReplay": {
+      "module": "OddTranslationsReplay",
+      "package": "common_source",
+      "source_path": "Source/OddTranslationsReplay.lean",
+      "sha256": "e72322ff70f02e9378b294509ef584bc783b6ec25ef7c8c5a1ba9f39a642444a",
+      "original_source_sha256": "7c56f319ce668ab3b18ba36a1d6af8971f049508bfc0f9a97234e1d18f762f6c",
+      "body_excluding_import_lines_sha256": "a59de69e8c8d431834f9464d6f769f64ab1d24fa1501f366a56a731742e10391",
+      "declaration_bodies_byte_identical": true
+    },
+    "OddWrongReturn": {
+      "module": "OddWrongReturn",
+      "package": "common_source",
+      "source_path": "Source/OddWrongReturn.lean",
+      "sha256": "f45e503a07f592b0c73daa6713d025181f7dae1a0f1cebf3ac0eaf8ff62a293b",
+      "original_source_sha256": "f45e503a07f592b0c73daa6713d025181f7dae1a0f1cebf3ac0eaf8ff62a293b",
+      "body_excluding_import_lines_sha256": "3ae5059f0db4ce30202e5054fbb071464b5787de2003054d832338eeeae0ce53",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceOddLocalDisks": {
+      "module": "CSFoundation.CommonSourceOddLocalDisks",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceOddLocalDisks.lean",
+      "sha256": "95b98a9bb48f9b6207f05d829e7c3227a681ed0c9c955e4da568fd924fd09b04",
+      "original_source_sha256": "4a4b5cf5973823b67b631d2c4b51586d1e67ee4554e730f8105ca27794f3767e",
+      "body_excluding_import_lines_sha256": "47ef53080a752d3218f118413b79b28c63472a683e2b53d3328a7fe03d890bde",
+      "declaration_bodies_byte_identical": true
+    },
+    "FourCorner.CommonSourceOddLocalAssembly": {
+      "module": "CSFoundation.CommonSourceOddLocalAssembly",
+      "package": "common_source",
+      "source_path": "Source/CSFoundation/CommonSourceOddLocalAssembly.lean",
+      "sha256": "289a3022ab97b48e683cbbdebf7669a88c76759f144b5d5c258e8b6a72bd8363",
+      "original_source_sha256": "90a8cd7f6b6a29de62dfb8e50ca70a8958f6b7d059143ad370333c409e741880",
+      "body_excluding_import_lines_sha256": "3184e4a9e80cd2b387d301b049cc1f6db21f3f541baace8c31f08e59580877ba",
+      "declaration_bodies_byte_identical": true
+    },
+    "OddEvenMismatch": {
+      "module": "OddEvenMismatch",
+      "package": "common_source",
+      "source_path": "Source/OddEvenMismatch.lean",
+      "sha256": "e8719da7811f63a6101ce4d246a1c98fd175db94583fc65ebb0ed30976c3944d",
+      "original_source_sha256": "07aa7ce3a1dabcaee97e6323d806f26c9e1abc1b16c73e75f1620fd0a11d4300",
+      "body_excluding_import_lines_sha256": "8ca885452ffd63cb8a6fa5aac6a1a09f390836b5aaf56ab9c388e85ebb6cd423",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualOddReturnBridge": {
+      "module": "ActualOddReturnBridge",
+      "package": "common_source",
+      "source_path": "Source/ActualOddReturnBridge.lean",
+      "sha256": "666cdabd999f63e11105302a3b0820fb46e9048e683e62d9f26101a9c55ac277",
+      "original_source_sha256": "666cdabd999f63e11105302a3b0820fb46e9048e683e62d9f26101a9c55ac277",
+      "body_excluding_import_lines_sha256": "fc27670b8ca5ee16cb51afeadab87aadfd451f581136655490298d5f5e3b6ac8",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualCyclicOddRow": {
+      "module": "ActualCyclicOddRow",
+      "package": "common_source",
+      "source_path": "Source/ActualCyclicOddRow.lean",
+      "sha256": "701cb73bedb2c690e32b180990194907a889e8f129d135558397d7db787b0a6f",
+      "original_source_sha256": "701cb73bedb2c690e32b180990194907a889e8f129d135558397d7db787b0a6f",
+      "body_excluding_import_lines_sha256": "8e5287d536cf19a8740ece2db7941ed02ce18d08c1ea0e63ddd647afa099c037",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualNeutralOddRow": {
+      "module": "ActualNeutralOddRow",
+      "package": "common_source",
+      "source_path": "Source/ActualNeutralOddRow.lean",
+      "sha256": "4d82fb17f95a01facdef497d64ac58ebc46d2aa6b42d484dfa66ebae1cb9e8d0",
+      "original_source_sha256": "4d82fb17f95a01facdef497d64ac58ebc46d2aa6b42d484dfa66ebae1cb9e8d0",
+      "body_excluding_import_lines_sha256": "697abb98d71341301ddcbc776333882c1493116d1cfb02c0181382983cfae625",
+      "declaration_bodies_byte_identical": true
+    },
+    "ActualPairPaperAdapter": {
+      "module": "ActualPairPaperAdapter",
+      "package": "common_source",
+      "source_path": "Source/ActualPairPaperAdapter.lean",
+      "sha256": "fcb460e42dcd78194bd654e5927908301c2d0a0b5d607c57608196d36529b5d3",
+      "original_source_sha256": "fcb460e42dcd78194bd654e5927908301c2d0a0b5d607c57608196d36529b5d3",
+      "body_excluding_import_lines_sha256": "7b4bade217dd361bf06607029cd8b0827db19545076ddae54772595713d9ec4a",
+      "declaration_bodies_byte_identical": true
+    },
+    "OddRowFull": {
+      "module": "OddRowFull",
+      "package": "common_source",
+      "source_path": "Source/OddRowFull.lean",
+      "sha256": "96a703144a3a1c9245d59301752f3bfdbacc8cb6e93bc01bf7f197e273dc10ff",
+      "original_source_sha256": "96a703144a3a1c9245d59301752f3bfdbacc8cb6e93bc01bf7f197e273dc10ff",
+      "body_excluding_import_lines_sha256": "163aee68a7c4575bdc127dce47305cf2d922a42ebe159595f9253cad559ca65c",
+      "declaration_bodies_byte_identical": true
+    }
+  }
+}

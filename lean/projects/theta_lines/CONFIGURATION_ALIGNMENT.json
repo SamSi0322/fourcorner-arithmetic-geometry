@@ -1,0 +1,15 @@
+{
+  "status": "EXACT_PRIVATE_ELABORATION_FLAGS_EXPLICIT_IN_LAKE",
+  "before_sha256": "d6e43eabeac4453b21ca32b4425f0d68520e5f81de4e265f24ae40e983ab0395",
+  "after_sha256": "09c784b6ea4f13c1434c748f99884c1b39678d14250f740d2c2a77d6e3c6d4d8",
+  "expected_setup_options": {
+    "autoImplicit": false,
+    "maxSynthPendingDepth": 3
+  },
+  "moreLeanArgs": [
+    "-Ddebug.skipKernelTC=false"
+  ],
+  "mathematical_sources_changed": 0,
+  "private_133_checks_already_used_these_flags": true,
+  "exact_diff": "--- lakefile.before\n+++ lakefile.after\n@@ -146,4 +146,5 @@\n     .one `ThetaVerticalContactOrder,\n     .one `ThetaLinesPortableAudit\n   ]\n+  leanOptions := #[\u27e8`autoImplicit, false\u27e9, \u27e8`maxSynthPendingDepth, .ofNat 3\u27e9]\n   moreLeanArgs := #[\"-Ddebug.skipKernelTC=false\"]\n"
+}

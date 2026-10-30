@@ -1,0 +1,178 @@
+{
+  "status": "FRESH_LAKE_AND_ROOT_COLD_VERIFIED",
+  "coverage_labels": [
+    "thm:common-exclusion",
+    "cor:common-infinite"
+  ],
+  "source_manifest_sha256": "835df01a1300ef849b03dabb1028a1776cb144c4d3f24c6dd7b08e853df7af8a",
+  "audited_declarations": {
+    "FourCorner.CommonExclusion.common_exclusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonExclusion.model_no_rational_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPointSource.sourceForAlgebra": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPointSource.actual_point_coordinates_forAlgebra": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostPointResidue.valuation_eval_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonLiteralField.rationalPlaceSource07": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonLiteralField.ell_regular_at_rational_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonLiteralField.rational_place_avoids_finite_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostModelBoundary.actual_model_point_avoids_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostFiniteP1.generic_ellMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostFiniteP1.ellMap_isFinite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostGeometricGenus.geometric_globalDifferentials_nine": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.common_root_exclusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.residue_matrix_proposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonRootSource.ell_isSquare_37_field": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonInfinite.common_infinite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonInfinite.family_no_rational_points": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonInfinite.family_strict_real_point": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonInfinite.familyPointOfEmbedding_over": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonInfinite.familyPointOfEmbedding_regular_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonFamilyRank.prime_matrix_rank": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.commonSixPrimes_matrix_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.family_parameter_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.family_padic_parameter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.family_discriminant_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.family_t_add_one_not_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.family_t_add_one_not_twice_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RealFieldEmbedding08.embedding_ell": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.RealFieldEmbedding08.embedding_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.real_transcendental_source08": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonExclusionPaper.prime_tuple_injective_of_squarefree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonExclusionPaper.common_exclusion_squarefree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "compiler": "leanprover/lean4:v4.33.1",
+  "shared_sources_reused": true,
+  "source_only_distribution": true
+}

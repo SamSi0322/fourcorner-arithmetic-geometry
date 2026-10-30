@@ -1,0 +1,278 @@
+{
+  "RationalSupport15569": [
+    "CS15569Support.NineSmallASignedSupport",
+    "FourCorner.OrderedSourceAlgebra",
+    "Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point"
+  ],
+  "HSupport15569": [
+    "RationalSupport15569",
+    "LocalKummerSelection"
+  ],
+  "Cs15569DyadicResidues": [
+    "HSupport15569",
+    "FourCorner.CommonRootDyadicResidues",
+    "FourCorner.CommonRootDyadicUnitPair"
+  ],
+  "Cs15569DyadicUnit": [
+    "Cs15569DyadicResidues"
+  ],
+  "Cs15569Finite": [
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.Tactic"
+  ],
+  "RationalCosets15569": [
+    "HSupport15569",
+    "Cs15569Finite"
+  ],
+  "Cs15569DyadicSplitting": [
+    "Cs15569DyadicUnit",
+    "RationalCosets15569"
+  ],
+  "Cs15569DyadicGeneration": [
+    "Cs15569DyadicSplitting",
+    "ActualPairData"
+  ],
+  "Cs15569RationalReduction": [
+    "Cs15569DyadicGeneration",
+    "ReductionBridge",
+    "CSFoundation.CommonSourceOddLocalResidue"
+  ],
+  "Cs15569SourceParity": [
+    "Cs15569DyadicGeneration"
+  ],
+  "Cs15569Group": [
+    "Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point",
+    "Mathlib.Tactic"
+  ],
+  "Cs15569Reduction113": [
+    "Cs15569RationalReduction",
+    "Cs15569SourceParity",
+    "Cs15569Group"
+  ],
+  "ActualBranch15569": [
+    "HSupport15569",
+    "ActualPairData"
+  ],
+  "Cs15569SourceTorsion": [
+    "Cs15569DyadicGeneration",
+    "ActualBranch15569"
+  ],
+  "Cs15569FiniteSource113": [
+    "Cs15569Reduction113",
+    "Cs15569SourceTorsion",
+    "Mathlib.GroupTheory.SpecificGroups.Cyclic"
+  ],
+  "Cs15569DyadicDepth": [
+    "Cs15569DyadicGeneration"
+  ],
+  "Cs15569DyadicCharacterEight": [
+    "Cs15569DyadicDepth",
+    "ActualLogParameter"
+  ],
+  "Cs15569DyadicSquareEight": [
+    "Cs15569DyadicCharacterEight",
+    "ActualBranch15569"
+  ],
+  "ThreeRootDisks15569": [
+    "CSFoundation.CommonSourceOddLocalAssembly"
+  ],
+  "Cs15569ThreeReduction": [
+    "Cs15569RationalReduction",
+    "Cs15569SourceParity",
+    "ActualBranch15569",
+    "ThreeRootDisks15569",
+    "OddEvenMismatch"
+  ],
+  "Cs15569DyadicOddDepth": [
+    "Cs15569DyadicSquareEight",
+    "Cs15569ThreeReduction"
+  ],
+  "Cs15569ActualSourceImage113": [
+    "Cs15569FiniteSource113",
+    "Cs15569DyadicOddDepth"
+  ],
+  "Cs15569ReturnExclusion113": [
+    "Cs15569ActualSourceImage113"
+  ],
+  "SourceLayer17": [
+    "FourCorner.OrderedSourceNormalization",
+    "FourCorner.RationalSquarefreeKernel",
+    "FourCorner.KernelStrict",
+    "Mathlib.NumberTheory.Padics.RingHoms",
+    "Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point"
+  ],
+  "Cs15569Complete": [
+    "Cs15569ReturnExclusion113",
+    "ActualPairPaperAdapter",
+    "SourceLayer17"
+  ],
+  "Cs15569Audit": [
+    "Cs15569Complete"
+  ],
+  "CS15569Support.NineCubicValuation": [
+    "Mathlib.NumberTheory.Padics.PadicVal.Basic",
+    "Mathlib.Tactic"
+  ],
+  "CS15569Support.NineSmallASignedSupport": [
+    "FourCorner.CommonRootSupportDecomposition",
+    "CS15569Support.NineCubicValuation"
+  ],
+  "GroupInterface": [
+    "FourCorner.OrderedSourceAlgebra",
+    "Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point",
+    "Mathlib.Tactic"
+  ],
+  "OrderedEval": [
+    "EllipticCurves.WeakMordellWeil",
+    "Mathlib.RingTheory.Polynomial.Quotient"
+  ],
+  "SignedSquareClasses": [
+    "EllipticCurves.Mathlib.Basic"
+  ],
+  "OrderedKummer": [
+    "OrderedEval",
+    "SignedSquareClasses"
+  ],
+  "KummerBridge": [
+    "GroupInterface",
+    "OrderedKummer"
+  ],
+  "DyadicBridge": [
+    "GroupInterface",
+    "EllipticCurves.WeierstrassFormalGroup.Filtration",
+    "Mathlib.NumberTheory.Padics.HeightOneSpectrum",
+    "Mathlib.Tactic"
+  ],
+  "CSFoundation.CommonSourceDyadicChart": [
+    "FourCorner.CommonRootPadicVal",
+    "FourCorner.ThetaLocalHensel"
+  ],
+  "LocalKummerSelection": [
+    "KummerBridge",
+    "DyadicBridge",
+    "CSFoundation.CommonSourceDyadicChart",
+    "FourCorner.PadicResidueSquareBasic"
+  ],
+  "ActualSourceCoset": [
+    "LocalKummerSelection"
+  ],
+  "CSFoundation.CommonSourceDyadicReturn": [
+    "FourCorner.CommonRootPadicVal",
+    "Mathlib.Tactic"
+  ],
+  "CSFoundation.CommonSourceDyadicExcluded": [
+    "CSFoundation.CommonSourceDyadicReturn"
+  ],
+  "CSFoundation.CommonSourceDyadicOrders": [
+    "CSFoundation.CommonSourceDyadicExcluded"
+  ],
+  "ActualTorsionOrders": [
+    "LocalKummerSelection",
+    "CSFoundation.CommonSourceDyadicOrders"
+  ],
+  "ActualSourceDepth": [
+    "ActualTorsionOrders"
+  ],
+  "ActualSurvivingOrders": [
+    "ActualSourceDepth"
+  ],
+  "CSFoundation.CommonSourceBeta": [
+    "Mathlib.Algebra.Module.ZMod",
+    "Mathlib.LinearAlgebra.Dual.Lemmas",
+    "Mathlib.LinearAlgebra.Pi",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.Tactic"
+  ],
+  "ActualPairData": [
+    "ActualSourceCoset",
+    "ActualSurvivingOrders",
+    "CSFoundation.CommonSourceBeta"
+  ],
+  "FieldGroup": [
+    "Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point",
+    "Mathlib.Tactic"
+  ],
+  "RationalPrimeValuation": [
+    "EllipticCurves.ReductionAtPrime",
+    "Mathlib.Data.ZMod.QuotientRing",
+    "FourCorner.CommonRootPadicResidue",
+    "Mathlib.Tactic"
+  ],
+  "ReductionBridge": [
+    "GroupInterface",
+    "FieldGroup",
+    "RationalPrimeValuation",
+    "EllipticCurves.ReductionAtPrime",
+    "FourCorner.CommonRootPadicResidue",
+    "Mathlib.Data.ZMod.QuotientRing",
+    "Mathlib.Tactic"
+  ],
+  "CSFoundation.CommonSourceOddLocalResidue": [
+    "FourCorner.CommonRootPadicResidue",
+    "Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity"
+  ],
+  "FormalLogOdd": [
+    "EllipticCurves.WeierstrassFormalGroup.GroupLaw",
+    "Mathlib.Tactic"
+  ],
+  "IntegralScaledLog": [
+    "FormalLogOdd",
+    "Mathlib.NumberTheory.Padics.RingHoms"
+  ],
+  "FormalLogEvaluation": [
+    "IntegralScaledLog"
+  ],
+  "LogModFourPrecision": [
+    "FormalLogEvaluation"
+  ],
+  "CSLogSupport.CommonSourceDyadicResidue": [
+    "Mathlib.NumberTheory.Padics.RingHoms",
+    "Mathlib.Tactic"
+  ],
+  "RationalFormalDepth": [
+    "ActualSourceDepth",
+    "CSLogSupport.CommonSourceDyadicResidue"
+  ],
+  "DyadicCharacter": [
+    "EllipticCurves.WeierstrassFormalGroup.Filtration",
+    "Mathlib.NumberTheory.Padics.HeightOneSpectrum",
+    "Mathlib.NumberTheory.Padics.RingHoms",
+    "Mathlib.Tactic"
+  ],
+  "ActualDyadicCharacter15": [
+    "DyadicBridge",
+    "DyadicCharacter",
+    "CSFoundation.CommonSourceBeta"
+  ],
+  "ActualCharacterSign": [
+    "RationalFormalDepth",
+    "ActualDyadicCharacter15",
+    "CSLogSupport.CommonSourceDyadicResidue"
+  ],
+  "ActualLogParameter": [
+    "LogModFourPrecision",
+    "ActualCharacterSign"
+  ],
+  "CSFoundation.CommonSourceOddLocal": [
+    "FourCorner.CommonRootPadicResidue",
+    "FourCorner.ThetaLocalHensel",
+    "Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity",
+    "Mathlib.Tactic"
+  ],
+  "CSFoundation.CommonSourceOddLocalDisks": [
+    "CSFoundation.CommonSourceOddLocal"
+  ],
+  "CSFoundation.CommonSourceOddLocalAssembly": [
+    "CSFoundation.CommonSourceOddLocal",
+    "CSFoundation.CommonSourceOddLocalResidue",
+    "CSFoundation.CommonSourceOddLocalDisks"
+  ],
+  "OddEvenMismatch": [
+    "ActualSurvivingOrders",
+    "CSFoundation.CommonSourceOddLocalAssembly",
+    "ReductionBridge"
+  ],
+  "ActualPairPaperAdapter": [
+    "ActualPairData"
+  ]
+}

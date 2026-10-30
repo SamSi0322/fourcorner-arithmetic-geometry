@@ -1,0 +1,7 @@
+Common-coordinate residue-matrix exclusion and explicit infinite family.
+Original project proofs and integration support: Yuan Si, Apache-2.0.
+The source dependencies fourcorner_paper, adjacent_genus, and opposite_genus retain
+their source provenance, attribution, and licenses. In particular, the adapted
+valuative proof used by ProperCurveExtension is supplied by adjacent_genus with
+its existing upstream attribution. Lean, Mathlib, and other standard dependencies
+are not vendored here and retain their original licenses.

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_exists_snd_apply_eq_and_notMem_support
+
+namespace AlgebraicGeometry.RelEffCartierDiv
+alias exists_snd_apply_eq_and_notMem_support := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_exists_snd_apply_eq_and_notMem_support.solution
+end AlgebraicGeometry.RelEffCartierDiv

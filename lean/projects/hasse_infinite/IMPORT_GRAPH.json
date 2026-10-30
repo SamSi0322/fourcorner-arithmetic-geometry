@@ -1,0 +1,333 @@
+{
+  "HpLiteralField": [
+    "CommonFourDegree",
+    "FiniteFiveIndependence"
+  ],
+  "HpFieldGeometry": [
+    "HpLiteralField",
+    "OddFourTower",
+    "geometry.RatFuncFiniteExtension"
+  ],
+  "HpBranchPlaces": [
+    "HpFieldGeometry",
+    "OddFourPlaces"
+  ],
+  "HpGeometricGenus": [
+    "HpBranchPlaces",
+    "CommonRamificationSum"
+  ],
+  "HpTensorComparison": [
+    "HpGeometricGenus",
+    "FiniteTensorGenerators",
+    "CommonRootFieldComparison",
+    "CommonConstantTensorInjection",
+    "CommonTensorFlat"
+  ],
+  "HpConstantFieldComparison": [
+    "HpTensorComparison",
+    "CommonConstantTensorFraction",
+    "CommonTensorCancelLeft",
+    "Slot03HighTensorFraction",
+    "TensorAlgebraicConstants",
+    "FunctionFieldIntegralConstants"
+  ],
+  "HpFiniteBaseGenus": [
+    "HpConstantFieldComparison",
+    "GeometricFrobeniusTransport",
+    "Theorems.Thm_AlgebraicCurve_genusFF_eq_of_constantFieldExtension_of_finite_of_isAlgClosed",
+    "SharpPointBound",
+    "Theorems.Thm_AlgebraicCurve_Place_isRational_iff_deg_eq_one"
+  ],
+  "HpResidueCharts": [
+    "HpFiniteBaseGenus",
+    "ResiduePlaceEvaluation"
+  ],
+  "HpHenselOrdinary": [
+    "HpResidueCharts",
+    "FourCorner.HasseNorms",
+    "PadicUnitNeighbourhood",
+    "TranscendentalParameters"
+  ],
+  "HpHenselBranch": [
+    "HpHenselOrdinary"
+  ],
+  "HpBranchAlgebra": [
+    "HpHenselBranch"
+  ],
+  "HpHenselInfinity": [
+    "HpHenselOrdinary"
+  ],
+  "HpGoodFiniteLift": [
+    "HpBranchAlgebra",
+    "HpHenselInfinity"
+  ],
+  "HpGoodLocal": [
+    "HpGoodFiniteLift"
+  ],
+  "HpSmallResidue": [
+    "HpGoodLocal"
+  ],
+  "HpInfiniteArithmetic": [
+    "Mathlib.Data.Set.Finite.Basic",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Linarith"
+  ],
+  "HpDomainArithmetic": [
+    "HasseUniformNoPoint",
+    "FourCorner.SquareArea"
+  ],
+  "HpFamilyDyadicValuation": [
+    "HpInfiniteArithmetic",
+    "HpDomainArithmetic"
+  ],
+  "HpConicObstruction": [
+    "HpFamilyDyadicValuation"
+  ],
+  "HpDyadicFamilyPoint": [
+    "HpDomainArithmetic"
+  ],
+  "HpOddBadLocal": [
+    "HpConicObstruction",
+    "HpDyadicFamilyPoint"
+  ],
+  "HpOddMoreLocal": [
+    "HpOddBadLocal"
+  ],
+  "HpOddPoleLocal": [
+    "HpOddMoreLocal"
+  ],
+  "HpOddSourceOpen": [
+    "HpGoodLocal",
+    "HpOddPoleLocal"
+  ],
+  "HpFamilyResidue": [
+    "HpOddSourceOpen"
+  ],
+  "HpSmallLocal": [
+    "HpSmallResidue",
+    "HpFamilyResidue"
+  ],
+  "HpFamilyNoPoint": [
+    "HpConicObstruction"
+  ],
+  "HpStrictRealPoint": [
+    "HpFamilyNoPoint",
+    "Mathlib.Analysis.Real.Sqrt"
+  ],
+  "HpSchemeModel": [
+    "HpConstantFieldComparison",
+    "geometry.SchemeModelGeometricIntegral",
+    "Slot03HighPullbackField",
+    "ModelGenusBridge.KaehlerSheafGenus",
+    "Mathlib.AlgebraicGeometry.Geometrically.Connected"
+  ],
+  "HpModelFieldPoint": [
+    "HpSchemeModel",
+    "HpResidueCharts",
+    "FourRootLift08",
+    "FiveRadicalEmbedding"
+  ],
+  "HpStrictRealGeneric": [
+    "HpStrictRealPoint",
+    "HpModelFieldPoint",
+    "Mathlib.Algebra.AlgebraicCard",
+    "Mathlib.Analysis.Real.Cardinality"
+  ],
+  "HpDyadicSourceOpen": [
+    "HpStrictRealGeneric",
+    "HpOddSourceOpen"
+  ],
+  "HpEverywhereLocal": [
+    "HpSmallLocal",
+    "HpStrictRealGeneric",
+    "HpDyadicSourceOpen"
+  ],
+  "HpModelNoPoint": [
+    "HpSchemeModel",
+    "HpFamilyNoPoint",
+    "HpResidueCharts",
+    "CurveRationalPlace07"
+  ],
+  "HpFamilyConstituents": [
+    "HpEverywhereLocal",
+    "HpModelNoPoint"
+  ],
+  "HpLiteralProjective": [
+    "HpFamilyConstituents",
+    "ThetaProjectiveModel",
+    "ThetaModelBase"
+  ],
+  "HpNoTwoCoordinatesZero": [
+    "HpLiteralProjective"
+  ],
+  "HpLiteralSmooth": [
+    "HpNoTwoCoordinatesZero",
+    "ThetaModelBase"
+  ],
+  "HpPolynomialRootAlgebra": [
+    "HpModelFieldPoint",
+    "Mathlib.RingTheory.Flat.Basic"
+  ],
+  "HpFourRootUniversal": [
+    "HpPolynomialRootAlgebra"
+  ],
+  "HpAffineUniversal": [
+    "HpLiteralSmooth",
+    "HpFourRootUniversal"
+  ],
+  "HpAffineInverse": [
+    "HpAffineUniversal"
+  ],
+  "HpPolynomialFractionField": [
+    "HpFourRootUniversal"
+  ],
+  "HpAffineEquiv": [
+    "HpAffineInverse",
+    "HpPolynomialFractionField"
+  ],
+  "HpAffineFractionField": [
+    "HpAffineEquiv"
+  ],
+  "HpUChartTower": [
+    "HpAffineFractionField",
+    "MonicBoundaryRegular"
+  ],
+  "HpUChartEquiv": [
+    "HpUChartTower"
+  ],
+  "HpTwoChartCover": [
+    "HpUChartTower",
+    "Definitions.Def_AlgebraicGeometry_TwoAffineOpenCover"
+  ],
+  "HpLiteralIntegral": [
+    "HpUChartEquiv",
+    "HpTwoChartCover",
+    "IntegralTwoOpen"
+  ],
+  "HpLiteralFieldIdentification": [
+    "HpLiteralIntegral",
+    "SmoothCurveFieldIso",
+    "SchemeFieldBaseChange"
+  ],
+  "HpLiteralGeometric": [
+    "HpLiteralFieldIdentification",
+    "ThetaIsoFunctionField"
+  ],
+  "HpLiteralPoints": [
+    "HpLiteralSmooth",
+    "ThetaPointAPI"
+  ],
+  "HpLiteralFamilyConstituents": [
+    "HpLiteralGeometric",
+    "HpLiteralPoints"
+  ],
+  "HpRootOrders": [
+    "HpGeometricGenus"
+  ],
+  "HpCanonicalForms": [
+    "HpRootOrders",
+    "Theorems.Thm_AlgebraicCurve_finite_and_finrank_regularDiffs_eq_genusFF_of_isAlgClosed",
+    "Theorems.Thm_AlgebraicCurve_localUnitDerivativeRegular_of_isCurveOver"
+  ],
+  "HpRootProductBasis": [
+    "HpCanonicalForms"
+  ],
+  "HpCanonicalBasis": [
+    "HpRootProductBasis"
+  ],
+  "HpDifferentialTransport": [
+    "HpCanonicalBasis"
+  ],
+  "HpQuadraticRelations": [
+    "HpCanonicalBasis"
+  ],
+  "HpCanonicalIsomorphism": [
+    "HpDifferentialTransport",
+    "HpQuadraticRelations"
+  ],
+  "HpCanonicalActionFormula": [
+    "HpCanonicalIsomorphism",
+    "Mathlib.LinearAlgebra.Matrix.Dual"
+  ],
+  "HpDiagonalNet": [
+    "HpQuadraticRelations"
+  ],
+  "HpAxisQuadrics": [
+    "HpDiagonalNet"
+  ],
+  "HpDiagonalKernelRigidity": [
+    "HpAxisQuadrics",
+    "HpCanonicalIsomorphism"
+  ],
+  "HpQuadraticExpansion": [
+    "HpDiagonalKernelRigidity"
+  ],
+  "HpCanonicalNetPreservation": [
+    "HpCanonicalActionFormula",
+    "HpQuadraticExpansion"
+  ],
+  "HpMonomialRigidity": [
+    "HpDiagonalKernelRigidity"
+  ],
+  "HpActualMonomial": [
+    "HpCanonicalNetPreservation",
+    "HpMonomialRigidity"
+  ],
+  "HpBranchLinearDescent": [
+    "HpActualMonomial"
+  ],
+  "ProjectiveThreePoint": [
+    "Mathlib.LinearAlgebra.Projectivization.Basic",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Module"
+  ],
+  "HasseBranchConfiguration": [
+    "ProjectiveThreePoint",
+    "Mathlib.Tactic.LinearCombination"
+  ],
+  "ProjectiveActionFinite": [
+    "ProjectiveThreePoint"
+  ],
+  "HasseRationalBranchFiniteness": [
+    "HasseBranchConfiguration",
+    "ProjectiveActionFinite"
+  ],
+  "HasseMatrixBranchFiniteness": [
+    "HasseRationalBranchFiniteness",
+    "Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs"
+  ],
+  "HasseOrderedBranchBridge": [
+    "HasseMatrixBranchFiniteness"
+  ],
+  "HpNativeBranchEquivalence": [
+    "HpBranchLinearDescent",
+    "HasseOrderedBranchBridge",
+    "Mathlib.LinearAlgebra.Matrix.ToLinearEquiv"
+  ],
+  "HpGeometricIsoFibres": [
+    "HpNativeBranchEquivalence",
+    "HpFamilyConstituents",
+    "ThetaIsoFunctionField",
+    "Mathlib.Data.Fintype.Pigeonhole"
+  ],
+  "HpGeometricNonisoAudit": [
+    "HpGeometricIsoFibres"
+  ],
+  "HpLiteralGeometricNoniso": [
+    "HpGeometricNonisoAudit",
+    "HpLiteralGeometric"
+  ],
+  "HpLiteralGeometricNonisoAudit": [
+    "HpLiteralGeometricNoniso"
+  ],
+  "HpInfiniteComplete": [
+    "HpLiteralFamilyConstituents",
+    "HpLiteralGeometricNonisoAudit"
+  ],
+  "HpInfiniteCompleteAudit": [
+    "HpInfiniteComplete"
+  ]
+}

@@ -1,0 +1,2 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_pullbackAlong_ofPoint
+alias AlgebraicGeometry.RelEffCartierDiv.pullbackAlong_ofPoint := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_pullbackAlong_ofPoint.solution

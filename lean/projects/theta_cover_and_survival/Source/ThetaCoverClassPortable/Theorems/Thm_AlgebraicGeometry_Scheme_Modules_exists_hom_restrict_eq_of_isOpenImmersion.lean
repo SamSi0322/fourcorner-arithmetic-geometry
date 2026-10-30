@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_hom_restrict_eq_of_isOpenImmersion
+
+alias AlgebraicGeometry.Scheme.Modules.exists_hom_restrict_eq_of_isOpenImmersion := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_hom_restrict_eq_of_isOpenImmersion.solution

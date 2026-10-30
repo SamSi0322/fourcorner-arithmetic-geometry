@@ -1,0 +1,944 @@
+{
+  "author": "Yuan Si",
+  "own_license": "Apache-2.0",
+  "source_only": true,
+  "manuscript_target": "thm:theta-lines",
+  "manuscript_or_publication_files_changed": false,
+  "coverage_count_claim": "55/69 unchanged; root independent acceptance and fresh canonical build pending",
+  "original_frozen_full_endpoint_sha256": "05bbf759799b891c26d6e69fbcad3e6c17ed029eb7b9ca6dd30b6e79fa57bb0b",
+  "public_canonical_parent_head_at_inventory": "5fb8e14a9351812c767c5cd4aeb7ac44722cde4d",
+  "proof_registry_sha256": "d29a20d33c3604423f82de60bf41fb480a8f69251d6c532d52a4327757ffebfe",
+  "mathematical_sources": [
+    {
+      "module": "BinaryDehomogenization",
+      "original_module": "BinaryDehomogenization",
+      "original_source_sha256": "f355847f2ecba24a75f2135af6f8e4e49592869d5713bbdb1f767ba729b7e85b",
+      "staged_source_sha256": "f355847f2ecba24a75f2135af6f8e4e49592869d5713bbdb1f767ba729b7e85b",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "DivisorPicPrincipal",
+      "original_module": "DivisorPicPrincipal",
+      "original_source_sha256": "95605d8e31830ff25431ed2923221ee80c875595bae176db5ce70818a3dd8123",
+      "staged_source_sha256": "95605d8e31830ff25431ed2923221ee80c875595bae176db5ce70818a3dd8123",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "DoubleRootPolynomial",
+      "original_module": "DoubleRootPolynomial",
+      "original_source_sha256": "3c2e91c897b2ce32089ad1ef07bb9ddecd5c55a0e06a5998dfa8ca8ec0ff69fc",
+      "staged_source_sha256": "3c2e91c897b2ce32089ad1ef07bb9ddecd5c55a0e06a5998dfa8ca8ec0ff69fc",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "DoubleZeroDifferential",
+      "original_module": "DoubleZeroDifferential",
+      "original_source_sha256": "4d3c80cd4c8236fd8cf8fc8c4e5db2bd1ebe41b4e351b918c185a3b673869e18",
+      "staged_source_sha256": "4d3c80cd4c8236fd8cf8fc8c4e5db2bd1ebe41b4e351b918c185a3b673869e18",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentAxes",
+      "original_module": "FourCorner.ThetaBitangentAxes",
+      "original_source_sha256": "806acd59f888358dab735fb2c452a8cc8b1684264644c688aeb8acad5c43080f",
+      "staged_source_sha256": "2c63f769d356007b4a22d82d3c6cdd22c703ee755bb53088d8a9f11b2e7b7f5c",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentAxisIdentities",
+      "original_module": "FourCorner.ThetaBitangentAxisIdentities",
+      "original_source_sha256": "d06c9d1aaa1b66e86ec1ed1fa5ccad951d1aaa2368be7f6a609067b623f84089",
+      "staged_source_sha256": "d06c9d1aaa1b66e86ec1ed1fa5ccad951d1aaa2368be7f6a609067b623f84089",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentCases",
+      "original_module": "FourCorner.ThetaBitangentCases",
+      "original_source_sha256": "bfd18c33b47b979f33c9d877ed23cad2acb9af43cf934b507a5c7cadeb47ac65",
+      "staged_source_sha256": "bfd18c33b47b979f33c9d877ed23cad2acb9af43cf934b507a5c7cadeb47ac65",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentContacts",
+      "original_module": "FourCorner.ThetaBitangentContacts",
+      "original_source_sha256": "321baf20a11296df1b68532e5adfd1afae203eccd896d943b2ea5a1acdf655d8",
+      "staged_source_sha256": "79eec63623518f1d6086bd991c52d98ce76d63406ec7d37a9a922fccbc96633b",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentCore",
+      "original_module": "FourCorner.ThetaBitangentCore",
+      "original_source_sha256": "0970187af2a9b69d125fb16981d810a37e8e4103fb55ab0d68b65d0bfe28a5e1",
+      "staged_source_sha256": "0970187af2a9b69d125fb16981d810a37e8e4103fb55ab0d68b65d0bfe28a5e1",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentCountWave36",
+      "original_module": "FourCorner.ThetaBitangentCountWave36",
+      "original_source_sha256": "ee614f9f9163758fe7e8dc8e8ae8ca7d085fffb76b786468f83709e9aa40eb24",
+      "staged_source_sha256": "f804d14e1b982bb691fde3605c180d5d1fab072146c1d7d77cc43f555963c02d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentExhaustionWave36",
+      "original_module": "FourCorner.ThetaBitangentExhaustionWave36",
+      "original_source_sha256": "a14090f371a6f5166bd7b37b08609646262777ac776463128c11918aa7b7be61",
+      "staged_source_sha256": "53252be896c53842d862746978cbebc7519b3f42b99fd9d5da27d7a3cdab7d9e",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentGaloisWave36",
+      "original_module": "FourCorner.ThetaBitangentGaloisWave36",
+      "original_source_sha256": "6a09d96a411b54d267591fa8c6871cf692578eadae1504ee9df48affc71a1a3a",
+      "staged_source_sha256": "f2635b8d895fcb569d5082b0ba5e039e453eb7f7ca986165b909a6af3ab662fc",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentGeneric",
+      "original_module": "FourCorner.ThetaBitangentGeneric",
+      "original_source_sha256": "167b2d84f58843b667aec19a6b92649ea193179f4d49cce6fc48f69a62cbad4d",
+      "staged_source_sha256": "aba552a755b158c0cdfdf022239d9d34d07d30e4753eee13750e3aa3507f8ac5",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentProjectiveChartsWave36",
+      "original_module": "FourCorner.ThetaBitangentProjectiveChartsWave36",
+      "original_source_sha256": "4e622d08d511045a1b1496598154fb6bfa0fbba44a60286b377ebed1b6ae67c8",
+      "staged_source_sha256": "c992e1e15d3fbee3c67238ad3edb489d5346496725a4ceeaad42f44c52587ae5",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaBitangentQuadraticIndependence",
+      "original_module": "FourCorner.ThetaBitangentQuadraticIndependence",
+      "original_source_sha256": "a9b7e707a71a90c83ef0c7a3635c2c931b6d6394a9f8343b3079768ef84c1fd7",
+      "staged_source_sha256": "a9b7e707a71a90c83ef0c7a3635c2c931b6d6394a9f8343b3079768ef84c1fd7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "HalfCanonicalDifferential",
+      "original_module": "HalfCanonicalDifferential",
+      "original_source_sha256": "bff92d0d0b5e15f874687b2b02969b8c8a9d10b3eb4a760abe88df9b9f2f8fbb",
+      "staged_source_sha256": "bff92d0d0b5e15f874687b2b02969b8c8a9d10b3eb4a760abe88df9b9f2f8fbb",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaStdTotallySplit",
+      "original_module": "Mathlib.RingTheory.TotallySplit",
+      "original_source_sha256": "e9e0e2f297b460cb4276cfcba75575b24020a68a6c8f2e583925551a65600819",
+      "staged_source_sha256": "e9e0e2f297b460cb4276cfcba75575b24020a68a6c8f2e583925551a65600819",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "NativeBinaryP1",
+      "original_module": "NativeBinaryP1",
+      "original_source_sha256": "9fc8c8ed23e5ab4d5f358f7d93bb603f9feb902f6bdc1041c7e87af522955cd4",
+      "staged_source_sha256": "9fc8c8ed23e5ab4d5f358f7d93bb603f9feb902f6bdc1041c7e87af522955cd4",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "NativeCurveModelExistence",
+      "original_module": "NativeCurveModelExistence",
+      "original_source_sha256": "4dc2e0ba9866934768297ccbb0f9cd8019cb10e0b75b687725bd077cb7645cf7",
+      "staged_source_sha256": "4dc2e0ba9866934768297ccbb0f9cd8019cb10e0b75b687725bd077cb7645cf7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "NativeFunctionFieldFunctor",
+      "original_module": "NativeFunctionFieldFunctor",
+      "original_source_sha256": "ff28a29bdd3de6ae8a0ce2163801c5b0f06eee2505b616d39376bdb9a4f6defa",
+      "staged_source_sha256": "ff28a29bdd3de6ae8a0ce2163801c5b0f06eee2505b616d39376bdb9a4f6defa",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "NativeStalkFieldNaturality",
+      "original_module": "NativeStalkFieldNaturality",
+      "original_source_sha256": "72c8cfd8c992e3c0d5dd465b87d3dadfe50c027d6e7e4cfd36586c6bf8c1d113",
+      "staged_source_sha256": "72c8cfd8c992e3c0d5dd465b87d3dadfe50c027d6e7e4cfd36586c6bf8c1d113",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "OddThetaDivisorClassification",
+      "original_module": "OddThetaDivisorClassification",
+      "original_source_sha256": "9b57cbe3f801261cf83b49219a012121e55ca95dcd783138dc6c94eef2414e38",
+      "staged_source_sha256": "9b57cbe3f801261cf83b49219a012121e55ca95dcd783138dc6c94eef2414e38",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "original_module": "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "original_source_sha256": "18d374e641d3047b97f368c8a739f31ddceec8df7a2b809b4deaee2cfe0bc1f4",
+      "staged_source_sha256": "18d374e641d3047b97f368c8a739f31ddceec8df7a2b809b4deaee2cfe0bc1f4",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch",
+      "original_module": "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch",
+      "original_source_sha256": "7f587c73190f93ea00ad2146a6b72f1095674ea475e9397471b0a20b3e6c532d",
+      "staged_source_sha256": "7f587c73190f93ea00ad2146a6b72f1095674ea475e9397471b0a20b3e6c532d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "PicEffectiveRepresentatives",
+      "original_module": "PicEffectiveRepresentatives",
+      "original_source_sha256": "0706659abd3e866d9a1915103d2deea52538b3ef2805df743fb0ed6a240509dc",
+      "staged_source_sha256": "0706659abd3e866d9a1915103d2deea52538b3ef2805df743fb0ed6a240509dc",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "PicEllOneOfConstants",
+      "original_module": "PicEllOneOfConstants",
+      "original_source_sha256": "2bd4a67c25787e3a5b72c89db3004f917251ce4e5808da445d6ded048e150425",
+      "staged_source_sha256": "2bd4a67c25787e3a5b72c89db3004f917251ce4e5808da445d6ded048e150425",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "QuarticSingletonZero",
+      "original_module": "QuarticSingletonZero",
+      "original_source_sha256": "42fcdc79e40c0a5a36aa1cf0631e1886040bd55d1d8023bdcc9e6a70e0012dc4",
+      "staged_source_sha256": "42fcdc79e40c0a5a36aa1cf0631e1886040bd55d1d8023bdcc9e6a70e0012dc4",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "QuarticTwoDoublePoints",
+      "original_module": "QuarticTwoDoublePoints",
+      "original_source_sha256": "8099cd8d48fb8c35b9c742a27e15717e97476abb6fe84fd1e51062331456db9d",
+      "staged_source_sha256": "8099cd8d48fb8c35b9c742a27e15717e97476abb6fe84fd1e51062331456db9d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "RiemannRochWithGenusFF",
+      "original_module": "RiemannRochWithGenusFF",
+      "original_source_sha256": "ebcb62ff740986a2a05c690e8c7bd6a84c28577e457ab859474f053a2133e3ec",
+      "staged_source_sha256": "ebcb62ff740986a2a05c690e8c7bd6a84c28577e457ab859474f053a2133e3ec",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "SemilinearDifferentialOrder",
+      "original_module": "SemilinearDifferentialOrder",
+      "original_source_sha256": "26904f18ea8deb7cc3a05ce6723e19f0d32be64bfce393175eb0fef931c35ee7",
+      "staged_source_sha256": "26904f18ea8deb7cc3a05ce6723e19f0d32be64bfce393175eb0fef931c35ee7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "SemilinearPicAndEll",
+      "original_module": "SemilinearPicAndEll",
+      "original_source_sha256": "a992db40a645dc0aa482f2842bdc037c6cdb033953efd1dafecfef6ca9415eb4",
+      "staged_source_sha256": "a992db40a645dc0aa482f2842bdc037c6cdb033953efd1dafecfef6ca9415eb4",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "SmallSquareSpaceBound",
+      "original_module": "SmallSquareSpaceBound",
+      "original_source_sha256": "01f1aea117f210b09297f2979f95ce66ca65cc69c27858e3709eb2fcb6520700",
+      "staged_source_sha256": "01f1aea117f210b09297f2979f95ce66ca65cc69c27858e3709eb2fcb6520700",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "original_module": "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "original_source_sha256": "dea5493b070b8bf262c9b36889a795d0519820f2783d2760ca4497a4dd4f1696",
+      "staged_source_sha256": "dea5493b070b8bf262c9b36889a795d0519820f2783d2760ca4497a4dd4f1696",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaActualHalfCanonicalContacts",
+      "original_module": "ThetaActualHalfCanonicalContacts",
+      "original_source_sha256": "5c3cf2c0a7ad37f1efdd3de04c761b8e654860b03495b7e57f11e14d343c8078",
+      "staged_source_sha256": "5c3cf2c0a7ad37f1efdd3de04c761b8e654860b03495b7e57f11e14d343c8078",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaActualLineDifferentials",
+      "original_module": "ThetaActualLineDifferentials",
+      "original_source_sha256": "98afdba73bad72de22e5cf84dc8337f0a0cb5a7e55b52b3d2a6002f3371a8a2d",
+      "staged_source_sha256": "98afdba73bad72de22e5cf84dc8337f0a0cb5a7e55b52b3d2a6002f3371a8a2d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaActualOddThetaClasses",
+      "original_module": "ThetaActualOddThetaClasses",
+      "original_source_sha256": "067ca2cfb532f8b330355baa4e52ef5c9036a85554883604694f4dfc23429fe7",
+      "staged_source_sha256": "067ca2cfb532f8b330355baa4e52ef5c9036a85554883604694f4dfc23429fe7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaAffineContactConstants",
+      "original_module": "ThetaAffineContactConstants",
+      "original_source_sha256": "33a9830b4785d3f63b5fa699e17ee8a5c9afe0519356a7003765d429de5afdb4",
+      "staged_source_sha256": "33a9830b4785d3f63b5fa699e17ee8a5c9afe0519356a7003765d429de5afdb4",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaAffineContactOrder",
+      "original_module": "ThetaAffineContactOrder",
+      "original_source_sha256": "32ec507a41f55ae79d9e1aa83dd71345f7c1f4848a8455dbc1ff69a0a9f1911c",
+      "staged_source_sha256": "32ec507a41f55ae79d9e1aa83dd71345f7c1f4848a8455dbc1ff69a0a9f1911c",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaAssociatedLineAlgebra",
+      "original_module": "ThetaAssociatedLineAlgebra",
+      "original_source_sha256": "3426c6bcc57c4760f2d9201331e103e919b352f4654273441304217e5293baed",
+      "staged_source_sha256": "3426c6bcc57c4760f2d9201331e103e919b352f4654273441304217e5293baed",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaCanonicalLinePointValues",
+      "original_module": "ThetaCanonicalLinePointValues",
+      "original_source_sha256": "8cd908ddc871a6a03f6b029d791f919112e45c36854f8e7505285877f0caa62b",
+      "staged_source_sha256": "8cd908ddc871a6a03f6b029d791f919112e45c36854f8e7505285877f0caa62b",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaChartCanonicalFrames",
+      "original_module": "ThetaChartCanonicalFrames",
+      "original_source_sha256": "79787f9b206800b365a2f09885a25cc0cc870fdad095ffd1def498e91f1faf0a",
+      "staged_source_sha256": "79787f9b206800b365a2f09885a25cc0cc870fdad095ffd1def498e91f1faf0a",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaChartTangentVanishing",
+      "original_module": "ThetaChartTangentVanishing",
+      "original_source_sha256": "37e0df8c931f37f127b2eceb168e2021489dfc09e355a8b06cb3787bd09d8381",
+      "staged_source_sha256": "37e0df8c931f37f127b2eceb168e2021489dfc09e355a8b06cb3787bd09d8381",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaContactDifferentialDivisors",
+      "original_module": "ThetaContactDifferentialDivisors",
+      "original_source_sha256": "bac4c9c88f11cd9db54a35ef320973904d7f32259bc6f85b039482c213103bf8",
+      "staged_source_sha256": "bac4c9c88f11cd9db54a35ef320973904d7f32259bc6f85b039482c213103bf8",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaContactLSpaceGeometry",
+      "original_module": "ThetaContactLSpaceGeometry",
+      "original_source_sha256": "87e6acfe92840b5195a6e7e8e2c50bd6bc25f9ff5f2e6bf399ae5bd4c90638e5",
+      "staged_source_sha256": "87e6acfe92840b5195a6e7e8e2c50bd6bc25f9ff5f2e6bf399ae5bd4c90638e5",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaContactOddness",
+      "original_module": "ThetaContactOddness",
+      "original_source_sha256": "5485b8e4059b4c6bd2f4ad2a1f80213f8b04936ee4cbef8e685025da34d53ca7",
+      "staged_source_sha256": "5485b8e4059b4c6bd2f4ad2a1f80213f8b04936ee4cbef8e685025da34d53ca7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaContactPairFrames",
+      "original_module": "ThetaContactPairFrames",
+      "original_source_sha256": "241a61277b74c875e8d9ae8584affd8a7ae452d878babbdc04b680646e4d3428",
+      "staged_source_sha256": "241a61277b74c875e8d9ae8584affd8a7ae452d878babbdc04b680646e4d3428",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaContactTangencyCertificates",
+      "original_module": "ThetaContactTangencyCertificates",
+      "original_source_sha256": "966f0136035a14c905d8e091c62acfe86ef07ab71c4c6c0d5317bf570916ee05",
+      "staged_source_sha256": "966f0136035a14c905d8e091c62acfe86ef07ab71c4c6c0d5317bf570916ee05",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDActualDifferential",
+      "original_module": "ThetaDActualDifferential",
+      "original_source_sha256": "d43515fd09e45b575172fffe070e9477fca8d5982476829939468a2a7982ec25",
+      "staged_source_sha256": "d43515fd09e45b575172fffe070e9477fca8d5982476829939468a2a7982ec25",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDActualFieldCover",
+      "original_module": "ThetaDActualFieldCover",
+      "original_source_sha256": "3a69e746fb55e9785a158da59771d5695b308442ff584848950c17f5e2fc761a",
+      "staged_source_sha256": "3a69e746fb55e9785a158da59771d5695b308442ff584848950c17f5e2fc761a",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDCanonicalInfinityDivisor",
+      "original_module": "ThetaDCanonicalInfinityDivisor",
+      "original_source_sha256": "e068ac4056a9a3e1f525f3ad4fb633aefebb9d74ce82f74050d5a9d331a86f52",
+      "staged_source_sha256": "e068ac4056a9a3e1f525f3ad4fb633aefebb9d74ce82f74050d5a9d331a86f52",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDCanonicalPlaneBasis",
+      "original_module": "ThetaDCanonicalPlaneBasis",
+      "original_source_sha256": "0dd0358f3e9029f5574fa99582d78ec7c4d4f725b364c7573b3322957fa113c2",
+      "staged_source_sha256": "0dd0358f3e9029f5574fa99582d78ec7c4d4f725b364c7573b3322957fa113c2",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDChartNaturality",
+      "original_module": "ThetaDChartNaturality",
+      "original_source_sha256": "79aea10895fb063952322ab550c28a4df77cb8f3aef75be7f77295e6c71dd45c",
+      "staged_source_sha256": "79aea10895fb063952322ab550c28a4df77cb8f3aef75be7f77295e6c71dd45c",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDChartPlaceRegularity",
+      "original_module": "ThetaDChartPlaceRegularity",
+      "original_source_sha256": "fe5d036b865e57090d4b7d5bc73614a9237eafcc85ea797d42da1d41ded255a5",
+      "staged_source_sha256": "fe5d036b865e57090d4b7d5bc73614a9237eafcc85ea797d42da1d41ded255a5",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDCoordinateBasicOpens",
+      "original_module": "ThetaDCoordinateBasicOpens",
+      "original_source_sha256": "5a43356d78cf67812c63d5e1858f285fda8fecd855418fa2fc0c7f08e1f80371",
+      "staged_source_sha256": "5a43356d78cf67812c63d5e1858f285fda8fecd855418fa2fc0c7f08e1f80371",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDExactChartTransitions",
+      "original_module": "ThetaDExactChartTransitions",
+      "original_source_sha256": "a5a77ff629a57572d172d20f7bd709fcc5219f2d4f218fb55c3542f7a9f857a6",
+      "staged_source_sha256": "a5a77ff629a57572d172d20f7bd709fcc5219f2d4f218fb55c3542f7a9f857a6",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDExactModel",
+      "original_module": "ThetaDExactModel",
+      "original_source_sha256": "57e85555c09ab66ead9f6e912ffb7f83e625dd14c6e6779442c5e26a39f4a5a4",
+      "staged_source_sha256": "57e85555c09ab66ead9f6e912ffb7f83e625dd14c6e6779442c5e26a39f4a5a4",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDFieldCoordinates",
+      "original_module": "ThetaDFieldCoordinates",
+      "original_source_sha256": "ce3e7d524cfc710763aec6aa95fd7abdc2b3ba7ca0ab61d6ec4534302774cbf7",
+      "staged_source_sha256": "ce3e7d524cfc710763aec6aa95fd7abdc2b3ba7ca0ab61d6ec4534302774cbf7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDFiniteDifferential",
+      "original_module": "ThetaDFiniteDifferential",
+      "original_source_sha256": "ef63241f786eb7e69c57ba7dd3732803cff6f4cba972e897222b4504b2b5ecb7",
+      "staged_source_sha256": "ef63241f786eb7e69c57ba7dd3732803cff6f4cba972e897222b4504b2b5ecb7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDFourInfinityPlaces",
+      "original_module": "ThetaDFourInfinityPlaces",
+      "original_source_sha256": "afaf7735e4bf9a05d9525d20e46e35e844f61c83a71dd33bd36914c2b4fb9c4e",
+      "staged_source_sha256": "afaf7735e4bf9a05d9525d20e46e35e844f61c83a71dd33bd36914c2b4fb9c4e",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDGenusThree",
+      "original_module": "ThetaDGenusThree",
+      "original_source_sha256": "55c4f3eacb659e76c18234194ab995bc8a70f84607bb7263f2ef8d335cb979e6",
+      "staged_source_sha256": "55c4f3eacb659e76c18234194ab995bc8a70f84607bb7263f2ef8d335cb979e6",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDGeometricChartPoints",
+      "original_module": "ThetaDGeometricChartPoints",
+      "original_source_sha256": "b441c5ed1e58edfeaaaf4150dd49c37a88b082753cb05ce3b427a8fce6d95479",
+      "staged_source_sha256": "b441c5ed1e58edfeaaaf4150dd49c37a88b082753cb05ce3b427a8fce6d95479",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDGeometricModel",
+      "original_module": "ThetaDGeometricModel",
+      "original_source_sha256": "990253911c14a755d01dc5c84dc8798bf92e09c8422c1b05a5390f7518863127",
+      "staged_source_sha256": "990253911c14a755d01dc5c84dc8798bf92e09c8422c1b05a5390f7518863127",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDGlobalCanonicalCandidate",
+      "original_module": "ThetaDGlobalCanonicalCandidate",
+      "original_source_sha256": "7856cb6b403ac56a711a226778e8a2851b1fcf4a76a01d8c47d0d7cdf3f5505e",
+      "staged_source_sha256": "7856cb6b403ac56a711a226778e8a2851b1fcf4a76a01d8c47d0d7cdf3f5505e",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDGlobalSheafBasis",
+      "original_module": "ThetaDGlobalSheafBasis",
+      "original_source_sha256": "56ef3b611611036b6356ee857592dc7c6be3bc1e0ac090f9c0dd804737da5d07",
+      "staged_source_sha256": "56ef3b611611036b6356ee857592dc7c6be3bc1e0ac090f9c0dd804737da5d07",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDHyperplaneLocalOrders",
+      "original_module": "ThetaDHyperplaneLocalOrders",
+      "original_source_sha256": "635fdbba81c07d766f10b05a967b5e67c467e72e53e7774691e919b5fb58782e",
+      "staged_source_sha256": "635fdbba81c07d766f10b05a967b5e67c467e72e53e7774691e919b5fb58782e",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDInfinityLocalParameter",
+      "original_module": "ThetaDInfinityLocalParameter",
+      "original_source_sha256": "0c774f7c2505b82bd1eaf5aad2d3a215152938b468077a3fcb7b1d7d4d71e46c",
+      "staged_source_sha256": "0c774f7c2505b82bd1eaf5aad2d3a215152938b468077a3fcb7b1d7d4d71e46c",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDInfinityPoints",
+      "original_module": "ThetaDInfinityPoints",
+      "original_source_sha256": "488b810a16405a6baa8b75adc7b9fc98f442a5a2a1b9a5705f7561e4d1b22a77",
+      "staged_source_sha256": "488b810a16405a6baa8b75adc7b9fc98f442a5a2a1b9a5705f7561e4d1b22a77",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDNativeProjRatios",
+      "original_module": "ThetaDNativeProjRatios",
+      "original_source_sha256": "2eb6012063f84ae09639a35266c5779b160520cf79ca0a2dec1bc77b2ce2458d",
+      "staged_source_sha256": "2eb6012063f84ae09639a35266c5779b160520cf79ca0a2dec1bc77b2ce2458d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDNativeProjSections",
+      "original_module": "ThetaDNativeProjSections",
+      "original_source_sha256": "df2d18341126933969ec9ac4a1fddb855884a8cd1daa406059d4b62d09708d2c",
+      "staged_source_sha256": "df2d18341126933969ec9ac4a1fddb855884a8cd1daa406059d4b62d09708d2c",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDNativeSections",
+      "original_module": "ThetaDNativeSections",
+      "original_source_sha256": "9fe8333ad5e494d1d17e17063cc3ca18452f2f2fc0c3cedc6177beb30d827020",
+      "staged_source_sha256": "9fe8333ad5e494d1d17e17063cc3ca18452f2f2fc0c3cedc6177beb30d827020",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDNaturalGlobalDifferentials",
+      "original_module": "ThetaDNaturalGlobalDifferentials",
+      "original_source_sha256": "98c10cce3fde76f9bf82cf7fea470aaa00ccf6c67517211bbf29e4e05a822c67",
+      "staged_source_sha256": "98c10cce3fde76f9bf82cf7fea470aaa00ccf6c67517211bbf29e4e05a822c67",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDOriginalChartOpens",
+      "original_module": "ThetaDOriginalChartOpens",
+      "original_source_sha256": "874ce437ebb26f75243aa88eac26e4822fbe8009068e76c4bf5704ad7eda992a",
+      "staged_source_sha256": "874ce437ebb26f75243aa88eac26e4822fbe8009068e76c4bf5704ad7eda992a",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDOriginalCoordinateSections",
+      "original_module": "ThetaDOriginalCoordinateSections",
+      "original_source_sha256": "79a61f90229d1999e7dbc2600fbcc244309d214a75b598b1d0d6742189dd328d",
+      "staged_source_sha256": "79a61f90229d1999e7dbc2600fbcc244309d214a75b598b1d0d6742189dd328d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDPlaneChartSections",
+      "original_module": "ThetaDPlaneChartSections",
+      "original_source_sha256": "b4f1dece0828fdc723d5f6f2d761e3d17b58907923516899d5ff558d5442cb40",
+      "staged_source_sha256": "b4f1dece0828fdc723d5f6f2d761e3d17b58907923516899d5ff558d5442cb40",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDPlaneRegularForms",
+      "original_module": "ThetaDPlaneRegularForms",
+      "original_source_sha256": "3c982729b5ffe11e397dbd7b43ec1453b01417893254e89fb68f9f817cd75d09",
+      "staged_source_sha256": "3c982729b5ffe11e397dbd7b43ec1453b01417893254e89fb68f9f817cd75d09",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDProjectiveInfinityCover",
+      "original_module": "ThetaDProjectiveInfinityCover",
+      "original_source_sha256": "da5f862165a9bb081d9851f82bfa143c14f500a51d322b3edc3811bd764af333",
+      "staged_source_sha256": "da5f862165a9bb081d9851f82bfa143c14f500a51d322b3edc3811bd764af333",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDSectionComparison",
+      "original_module": "ThetaDSectionComparison",
+      "original_source_sha256": "e617883b75b1a45cdc01bbdc458abef1691cc7763769853a41d5068317c15a5d",
+      "staged_source_sha256": "e617883b75b1a45cdc01bbdc458abef1691cc7763769853a41d5068317c15a5d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaDifferentialChartIdentity",
+      "original_module": "ThetaDifferentialChartIdentity",
+      "original_source_sha256": "362166118a01f43d08c4757a5c9bdfca0b3e47aee87bb328e341e6761de52286",
+      "staged_source_sha256": "362166118a01f43d08c4757a5c9bdfca0b3e47aee87bb328e341e6761de52286",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaEtaleAllPlaces",
+      "original_module": "ThetaEtaleAllPlaces",
+      "original_source_sha256": "1d88c57a29b024915219c34f0592ae63dfb50cf85fcf563e6b2dbaae995bbc6f",
+      "staged_source_sha256": "1d88c57a29b024915219c34f0592ae63dfb50cf85fcf563e6b2dbaae995bbc6f",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaFiniteGenericDegree",
+      "original_module": "ThetaFiniteGenericDegree",
+      "original_source_sha256": "4fedef3f7db40b5d35db6ae397e480d7b563662c7d328dffa89e32b03c8f8687",
+      "staged_source_sha256": "4fedef3f7db40b5d35db6ae397e480d7b563662c7d328dffa89e32b03c8f8687",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaFlatIntegralDescent",
+      "original_module": "ThetaFlatIntegralDescent",
+      "original_source_sha256": "a5d06d789a8dcdda398f892a90d2b482e3450447a8a81c1e1b55b975a113e9c8",
+      "staged_source_sha256": "a5d06d789a8dcdda398f892a90d2b482e3450447a8a81c1e1b55b975a113e9c8",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGaloisCanonicalCorrespondence",
+      "original_module": "ThetaGaloisCanonicalCorrespondence",
+      "original_source_sha256": "6eb6100cfe362e72e2fd2b4f2553d65ecf315e1c4d47d10199b3df0b52dde4d7",
+      "staged_source_sha256": "6eb6100cfe362e72e2fd2b4f2553d65ecf315e1c4d47d10199b3df0b52dde4d7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGaloisCanonicalPlane",
+      "original_module": "ThetaGaloisCanonicalPlane",
+      "original_source_sha256": "b6a16a35c8873f2ab224af274527f034e1a7459eda19dfc433cc891b4be54f06",
+      "staged_source_sha256": "b6a16a35c8873f2ab224af274527f034e1a7459eda19dfc433cc891b4be54f06",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGaloisFieldAction",
+      "original_module": "ThetaGaloisFieldAction",
+      "original_source_sha256": "26eae82023007692124cc6aa57847329304aadb5e8a255a5ce5bd196804bd7c1",
+      "staged_source_sha256": "26eae82023007692124cc6aa57847329304aadb5e8a255a5ce5bd196804bd7c1",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGaloisPointPlace",
+      "original_module": "ThetaGaloisPointPlace",
+      "original_source_sha256": "606da7e0448bcf6201ca192e8361c88a7243c1449e2d81670a281bc1d37899a6",
+      "staged_source_sha256": "606da7e0448bcf6201ca192e8361c88a7243c1449e2d81670a281bc1d37899a6",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGaloisSchemeField",
+      "original_module": "ThetaGaloisSchemeField",
+      "original_source_sha256": "7675a98561b7a581fb765fdee2af0f9e036dff27b44b5806faaf4cde72e69ad6",
+      "staged_source_sha256": "7675a98561b7a581fb765fdee2af0f9e036dff27b44b5806faaf4cde72e69ad6",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGenericRankFraction",
+      "original_module": "ThetaGenericRankFraction",
+      "original_source_sha256": "7a4bcf659ff20a7f2ebd2066dc5c32266d1f6cffc9eab6f035639c9079db55e3",
+      "staged_source_sha256": "7a4bcf659ff20a7f2ebd2066dc5c32266d1f6cffc9eab6f035639c9079db55e3",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGeometricChartEvaluation",
+      "original_module": "ThetaGeometricChartEvaluation",
+      "original_source_sha256": "0cac9bf6075bfaf38b47b38a3fb771ff14a347d8b6f720173ca71ac621eb0481",
+      "staged_source_sha256": "0cac9bf6075bfaf38b47b38a3fb771ff14a347d8b6f720173ca71ac621eb0481",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGeometricContactPoints",
+      "original_module": "ThetaGeometricContactPoints",
+      "original_source_sha256": "c0377c8ef30395740276dd7bde4c483a2578e35bbd3f3ba02261ee52947b2a5a",
+      "staged_source_sha256": "c0377c8ef30395740276dd7bde4c483a2578e35bbd3f3ba02261ee52947b2a5a",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGeometricPointCoordinateEvaluation",
+      "original_module": "ThetaGeometricPointCoordinateEvaluation",
+      "original_source_sha256": "1613b9d0c10cddce777ea8e3103db89491ad0e1abd65447a1da3626a30453dae",
+      "staged_source_sha256": "1613b9d0c10cddce777ea8e3103db89491ad0e1abd65447a1da3626a30453dae",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaGeometricResidueCoordinates",
+      "original_module": "ThetaGeometricResidueCoordinates",
+      "original_source_sha256": "5422fb898de9569fcfd4cca715fc5ad7efcba377486184cfb51c75d342f34c1d",
+      "staged_source_sha256": "5422fb898de9569fcfd4cca715fc5ad7efcba377486184cfb51c75d342f34c1d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaHalfCanonicalRootSupport",
+      "original_module": "ThetaHalfCanonicalRootSupport",
+      "original_source_sha256": "cc954a8985d1bf636c1db8df12ebc8d563eb69ea77d9d3e661769034c8f8ea38",
+      "staged_source_sha256": "cc954a8985d1bf636c1db8df12ebc8d563eb69ea77d9d3e661769034c8f8ea38",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaHalfCanonicalSquareContact",
+      "original_module": "ThetaHalfCanonicalSquareContact",
+      "original_source_sha256": "8381db861c3f179f10e4b552b1e6a86999167647e0024714446304de19a7f377",
+      "staged_source_sha256": "8381db861c3f179f10e4b552b1e6a86999167647e0024714446304de19a7f377",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLineAlgebraDecomposition",
+      "original_module": "ThetaLineAlgebraDecomposition",
+      "original_source_sha256": "38c0f360c99796fd2b9ec738d96e11182f2d83d4b75541fe0214b029a5e9a290",
+      "staged_source_sha256": "38c0f360c99796fd2b9ec738d96e11182f2d83d4b75541fe0214b029a5e9a290",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLineFixedFields",
+      "original_module": "ThetaLineFixedFields",
+      "original_source_sha256": "b583b4150e01162bc034e8482f016b3a66bc43d4f3de3c50c9f47a325ea58da3",
+      "staged_source_sha256": "b583b4150e01162bc034e8482f016b3a66bc43d4f3de3c50c9f47a325ea58da3",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLineGeometricPoints",
+      "original_module": "ThetaLineGeometricPoints",
+      "original_source_sha256": "722301b094b30747c70ef1ebe9e84db0637ed59b1d1d8579e9515925770f210c",
+      "staged_source_sha256": "20032a5958de29e9320ebec9c4238ce9ce6f19ec24bccd491037bd6c29667ff1",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLineOrbits",
+      "original_module": "ThetaLineOrbits",
+      "original_source_sha256": "29f009d2232ec83c7bb57807d4323a545ede1c18099f63d65d1f6815d5cbc03e",
+      "staged_source_sha256": "29f009d2232ec83c7bb57807d4323a545ede1c18099f63d65d1f6815d5cbc03e",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLineRootPointCharts",
+      "original_module": "ThetaLineRootPointCharts",
+      "original_source_sha256": "433d15cd2537bd4e3705e113642e86f647a571a78020aad7a62b5425ae4a8967",
+      "staged_source_sha256": "433d15cd2537bd4e3705e113642e86f647a571a78020aad7a62b5425ae4a8967",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLineSplittingField",
+      "original_module": "ThetaLineSplittingField",
+      "original_source_sha256": "1b4668456e5acedcb9d653ade1941e53b99972abe1e608754d2044c9e5de22ad",
+      "staged_source_sha256": "1b4668456e5acedcb9d653ade1941e53b99972abe1e608754d2044c9e5de22ad",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLineStabilizers",
+      "original_module": "ThetaLineStabilizers",
+      "original_source_sha256": "29ec0563220958fb43d5a8a8939d787cbe53a3280ddcb5c5d9e2218cab3857a6",
+      "staged_source_sha256": "29ec0563220958fb43d5a8a8939d787cbe53a3280ddcb5c5d9e2218cab3857a6",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesAbsoluteGalois",
+      "original_module": "ThetaLinesAbsoluteGalois",
+      "original_source_sha256": "8aa6c84199b6e19899c0ed54f2608c4f374c222af66f6ba0cfb4954545d70a79",
+      "staged_source_sha256": "9bcd6912d02a9f305e86cfc22ed540a1f6369abb86b67ffb76c01b53c8bc9d6a",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesContactPoints",
+      "original_module": "ThetaLinesContactPoints",
+      "original_source_sha256": "31ad86a0dbd42d71fc38e2dfe2fd9d48bf608b81fcb468e3093da29a286ebea7",
+      "staged_source_sha256": "02f4abe1101ce184e7d8ec8bdda547191e0abf3091ebe034b520d3080f5db557",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesDualLines",
+      "original_module": "ThetaLinesDualLines",
+      "original_source_sha256": "c65b35485a21f581b24696081a8b3ff6ae0fcd88cc053afa0314fbe283ca888e",
+      "staged_source_sha256": "c65b35485a21f581b24696081a8b3ff6ae0fcd88cc053afa0314fbe283ca888e",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesFullAssembly",
+      "original_module": "ThetaLinesFullAssembly",
+      "original_source_sha256": "503dd52944675f649e9e9b1840b2389f8ece93b74628005731f10b8e7d88c298",
+      "staged_source_sha256": "503dd52944675f649e9e9b1840b2389f8ece93b74628005731f10b8e7d88c298",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesGaloisAction",
+      "original_module": "ThetaLinesGaloisAction",
+      "original_source_sha256": "9b8cd560081161c89799a3688f6f4e6158c01525cf9b7b944f75c578ceef2983",
+      "staged_source_sha256": "9b8cd560081161c89799a3688f6f4e6158c01525cf9b7b944f75c578ceef2983",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesPolynomialContacts",
+      "original_module": "ThetaLinesPolynomialContacts",
+      "original_source_sha256": "2efee4446e6c685f91cff897f4db7173392d13274a9f8f5e6fe85914547a7d2c",
+      "staged_source_sha256": "2efee4446e6c685f91cff897f4db7173392d13274a9f8f5e6fe85914547a7d2c",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesProjectiveClassification",
+      "original_module": "ThetaLinesProjectiveClassification",
+      "original_source_sha256": "c5e269f7cb4a08a32a10f8806386235422f3432533ba5a2f42831cdefcb48a2f",
+      "staged_source_sha256": "93102b5f1bbe2a4a2ad06ab0b9d027d667ace79f06ececbb42979dab6a049f71",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesProjectiveLines",
+      "original_module": "ThetaLinesProjectiveLines",
+      "original_source_sha256": "0df30ff4aafcc2a8cb69396bb7dbaa85235976270e7911e502d2bd0b583d30cd",
+      "staged_source_sha256": "c593ae325b01734dbe64e23f69dc1e273bf1b8c55dda7c14efd06b18bce04608",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLinesSchemePoints",
+      "original_module": "ThetaLinesSchemePoints",
+      "original_source_sha256": "9b4f4c3ab36d5ae5d6459f5506677f9544149b2c8c601e31e757e42dd3292fa6",
+      "staged_source_sha256": "318def26bdf5becd645fa5f5ba3ed314f3bb03a6b722693e23e860ef82cb9065",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLiteralBinaryRestrictions",
+      "original_module": "ThetaLiteralBinaryRestrictions",
+      "original_source_sha256": "d8a7f891e24b7e8481fcab57e4bfab10e7e1038e05900ae354ad15e819684aa9",
+      "staged_source_sha256": "d8a7f891e24b7e8481fcab57e4bfab10e7e1038e05900ae354ad15e819684aa9",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLiteralRootJets",
+      "original_module": "ThetaLiteralRootJets",
+      "original_source_sha256": "aeb5b66d2cfb92cf14d531e120384a356fed7e0640383126cca59528c93f90f7",
+      "staged_source_sha256": "aeb5b66d2cfb92cf14d531e120384a356fed7e0640383126cca59528c93f90f7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaLocalLineDerivatives",
+      "original_module": "ThetaLocalLineDerivatives",
+      "original_source_sha256": "0c33dba4930358e7e66848453d497f8abe6bb0945ee342a7343f0045350fbca2",
+      "staged_source_sha256": "0c33dba4930358e7e66848453d497f8abe6bb0945ee342a7343f0045350fbca2",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaNativeDualCanonicalLines",
+      "original_module": "ThetaNativeDualCanonicalLines",
+      "original_source_sha256": "a6308dc1ee336dacf1198cd2c9eb3cd883505f455b849aefaf865455df8360b7",
+      "staged_source_sha256": "a6308dc1ee336dacf1198cd2c9eb3cd883505f455b849aefaf865455df8360b7",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaNativeFunctionFieldMap",
+      "original_module": "ThetaNativeFunctionFieldMap",
+      "original_source_sha256": "27d6b649252c546f1cfd3db635c37902910bf8ba0721935e7115021e59c7b801",
+      "staged_source_sha256": "27d6b649252c546f1cfd3db635c37902910bf8ba0721935e7115021e59c7b801",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaNativeLineGaloisSet",
+      "original_module": "ThetaNativeLineGaloisSet",
+      "original_source_sha256": "efaa5f6f0eba2d19338f0dd3a08bc493a800c2cfb1d311a4569f210e3e506f30",
+      "staged_source_sha256": "efaa5f6f0eba2d19338f0dd3a08bc493a800c2cfb1d311a4569f210e3e506f30",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaOddGaloisActionHom",
+      "original_module": "ThetaOddGaloisActionHom",
+      "original_source_sha256": "e23e662834f04f01dccd9f7b827a47cf575fdf3af2bcbd80d86794d750094ff3",
+      "staged_source_sha256": "e23e662834f04f01dccd9f7b827a47cf575fdf3af2bcbd80d86794d750094ff3",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaOddNativeGaloisEquiv",
+      "original_module": "ThetaOddNativeGaloisEquiv",
+      "original_source_sha256": "7441447039ddc39edfd32be2076764527cac7372023ed1af9e99256e918d4daa",
+      "staged_source_sha256": "7441447039ddc39edfd32be2076764527cac7372023ed1af9e99256e918d4daa",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaOddNativeLineEquiv",
+      "original_module": "ThetaOddNativeLineEquiv",
+      "original_source_sha256": "2960ee9e6e3cb679f2f0e520e34d0f712b807d525d0ab0370144c7d85a62309f",
+      "staged_source_sha256": "2960ee9e6e3cb679f2f0e520e34d0f712b807d525d0ab0370144c7d85a62309f",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaOddNativeSquareContact",
+      "original_module": "ThetaOddNativeSquareContact",
+      "original_source_sha256": "b4446fada34de23e0dcaa3b09bccdc91fbee7fdd51fac8d3ebd27f5d983abf06",
+      "staged_source_sha256": "b4446fada34de23e0dcaa3b09bccdc91fbee7fdd51fac8d3ebd27f5d983abf06",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaOddThetaCanonicalLines",
+      "original_module": "ThetaOddThetaCanonicalLines",
+      "original_source_sha256": "fbb7532148dd7d345408b12ea2aaa3e79980bde28d031b2a999ab5359fe3a2af",
+      "staged_source_sha256": "fbb7532148dd7d345408b12ea2aaa3e79980bde28d031b2a999ab5359fe3a2af",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaOrbitEvaluation",
+      "original_module": "ThetaOrbitEvaluation",
+      "original_source_sha256": "bd6313ac262676a95c40c33377385686cc5f48552dc2a9a0ab78363331f3b70f",
+      "staged_source_sha256": "bd6313ac262676a95c40c33377385686cc5f48552dc2a9a0ab78363331f3b70f",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaOrderTwoDerivativeEvaluation",
+      "original_module": "ThetaOrderTwoDerivativeEvaluation",
+      "original_source_sha256": "991e8644de9e193ec263560b08d721a5ce996c7c8bcb36028d38f062ef3fa3e9",
+      "staged_source_sha256": "991e8644de9e193ec263560b08d721a5ce996c7c8bcb36028d38f062ef3fa3e9",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaProjectiveRootPlaceEmbedding",
+      "original_module": "ThetaProjectiveRootPlaceEmbedding",
+      "original_source_sha256": "56340081fcf2ae6cfbcf2fff4a973df81e297b155b967946c99b4d61bccc2c0c",
+      "staged_source_sha256": "56340081fcf2ae6cfbcf2fff4a973df81e297b155b967946c99b4d61bccc2c0c",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaRegularFunctionDifferential",
+      "original_module": "ThetaRegularFunctionDifferential",
+      "original_source_sha256": "6801e7a39cbea230adab38838e500314141e332d065202b065d32db324c0de37",
+      "staged_source_sha256": "6801e7a39cbea230adab38838e500314141e332d065202b065d32db324c0de37",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaRestrictionHasTwoRoots",
+      "original_module": "ThetaRestrictionHasTwoRoots",
+      "original_source_sha256": "01bf93d2f4dc9451cb388cbb585e36dd55a1e2728a334416b249d4fd67d7bcf9",
+      "staged_source_sha256": "01bf93d2f4dc9451cb388cbb585e36dd55a1e2728a334416b249d4fd67d7bcf9",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaRootCanonicalSections",
+      "original_module": "ThetaRootCanonicalSections",
+      "original_source_sha256": "02fa478004424ccbe78dd9719319f52b025bd808a1890f80b5c56072a9f92eff",
+      "staged_source_sha256": "02fa478004424ccbe78dd9719319f52b025bd808a1890f80b5c56072a9f92eff",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaRootOrderDoubleJets",
+      "original_module": "ThetaRootOrderDoubleJets",
+      "original_source_sha256": "16a7cce4846c9a6e2e0d619a25d5ebbe7672b351e564fab10019bb9dc1d57a4b",
+      "staged_source_sha256": "16a7cce4846c9a6e2e0d619a25d5ebbe7672b351e564fab10019bb9dc1d57a4b",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaUnramifiedPlaceIndex",
+      "original_module": "ThetaUnramifiedPlaceIndex",
+      "original_source_sha256": "562ed358d803a989819c095959f2e92cb9f64f0a095492dc9be05bf2e072e0ff",
+      "staged_source_sha256": "562ed358d803a989819c095959f2e92cb9f64f0a095492dc9be05bf2e072e0ff",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaValuationTangencyOrder",
+      "original_module": "ThetaValuationTangencyOrder",
+      "original_source_sha256": "07d0670ed974dffd72902d2a75c19990e675848f8547072e4cd2e806b738633d",
+      "staged_source_sha256": "07d0670ed974dffd72902d2a75c19990e675848f8547072e4cd2e806b738633d",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaVanishingDifferentialOrder",
+      "original_module": "ThetaVanishingDifferentialOrder",
+      "original_source_sha256": "5b1af3858a800c95cbeb2f0b7568123659fe1f1d9fc5e2f7bf6530156680d5ab",
+      "staged_source_sha256": "5b1af3858a800c95cbeb2f0b7568123659fe1f1d9fc5e2f7bf6530156680d5ab",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaVerticalContactConstants",
+      "original_module": "ThetaVerticalContactConstants",
+      "original_source_sha256": "df836e2f6cb57e71244b78dd7bcc08aef4c67a6ea2e924fb7c580ed8d2fcf7d1",
+      "staged_source_sha256": "df836e2f6cb57e71244b78dd7bcc08aef4c67a6ea2e924fb7c580ed8d2fcf7d1",
+      "non_import_body_unchanged": true
+    },
+    {
+      "module": "ThetaVerticalContactOrder",
+      "original_module": "ThetaVerticalContactOrder",
+      "original_source_sha256": "6c8bd3641fb19da6bd36282e3dd66d1445fc5a0112c39d988b146a7e1aeb5108",
+      "staged_source_sha256": "6c8bd3641fb19da6bd36282e3dd66d1445fc5a0112c39d988b146a7e1aeb5108",
+      "non_import_body_unchanged": true
+    }
+  ],
+  "new_generated_audit": "ThetaLinesPortableAudit",
+  "all_mathematical_constant_namespaces_unchanged": true,
+  "all_original_non_import_proof_bytes_unchanged": true,
+  "canonical_parent_sources_copied": 0,
+  "prototype_compiled_objects_shipped_or_used_as_canonical_parents": false,
+  "licensing": "Original source notices are retained; Mathlib Apache-2.0 license is reproduced. Shared accepted parents retain upstream notices.",
+  "G1_scope_boundary": "Legacy abstract equivalence is correctly defined but not proved natural. All owned declarations are audited for Std3 and resolved full type/value dependencies. Only the separate actual paper endpoint closure strictly forbids the old abstract global/plane bridges and fake Jacobian placeholders; the endpoint uses the new natural genericGerm restriction."
+}

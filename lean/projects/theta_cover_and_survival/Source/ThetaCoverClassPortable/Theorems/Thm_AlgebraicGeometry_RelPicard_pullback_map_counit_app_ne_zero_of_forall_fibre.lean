@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_pullback_map_counit_app_ne_zero_of_forall_fibre
+
+namespace AlgebraicGeometry.RelPicard
+alias pullback_map_counit_app_ne_zero_of_forall_fibre := P2MW.S_AlgebraicGeometry_RelPicard_pullback_map_counit_app_ne_zero_of_forall_fibre.solution
+end AlgebraicGeometry.RelPicard

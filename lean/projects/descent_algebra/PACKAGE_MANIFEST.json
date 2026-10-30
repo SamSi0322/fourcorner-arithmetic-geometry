@@ -1,0 +1,149 @@
+{
+  "format": "source-only",
+  "author": "Yuan Si",
+  "license": "Apache-2.0",
+  "hash": "SHA-256",
+  "excludes_this_manifest_itself": true,
+  "files": [
+    {
+      "path": "API_TYPE_COMPARISON.json",
+      "sha256": "f2180d994f20b69ff48f15e2d0f6ebac852039e60211095a6d7f3e9e9c8c4ae4",
+      "bytes": 9865
+    },
+    {
+      "path": "IMPORT_GRAPH.json",
+      "sha256": "0e09e6cc086f5eb94f83863e52cb9327616b364d4cc0c4eeac60005769e6b7ec",
+      "bytes": 9136
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "ce3feaee74006bc6c3a15d5b5da0f65afa304a45930b3287f320fb2480deeaa8",
+      "bytes": 491
+    },
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "991c3a1fbd0b2f77ce44ca28e98957c308a46be9f400cc6e2fdedec2f40576a7",
+      "bytes": 12796
+    },
+    {
+      "path": "PUBLIC_DECLARATIONS.json",
+      "sha256": "09de7de29884fe8ec8ef3fc540a61f4b824dfa4c1ad2d1bc1c31e0df5db7654b",
+      "bytes": 1708
+    },
+    {
+      "path": "README.md",
+      "sha256": "afce445b770a7aeebd565698b99ce176f0a0851a50053566d06781060abe11d9",
+      "bytes": 4496
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "sha256": "c7a45a22fde7a26e8700805e84ba34a096f811ad18bce9778e54ec34eba95959",
+      "bytes": 3191
+    },
+    {
+      "path": "Source/AffineIdealDescent.lean",
+      "sha256": "8a604e4cecb3d518c42113c0cd1bb528fbec73d4616bac8e9c6db7e921b3fbdc",
+      "bytes": 2089
+    },
+    {
+      "path": "Source/DescentAlgebra.lean",
+      "sha256": "c2df71d96a8cb90fbf98af31d57e7d7e505b9696b180271af1c4d029e6c67d2f",
+      "bytes": 550
+    },
+    {
+      "path": "Source/DescentAlgebraAudit.lean",
+      "sha256": "55d6a3d4851357a2f3f14ea397432dded1ce41d054c3cdbd98820dcd700c36fc",
+      "bytes": 6572
+    },
+    {
+      "path": "Source/FiniteWidePullback.lean",
+      "sha256": "96406d68cee1ce02025842a3a1baf237da6cfe1f0f7f7eed638367dd4ab76b3f",
+      "bytes": 5463
+    },
+    {
+      "path": "Source/FlatTensorKernel.lean",
+      "sha256": "b031cc2860a07cd9b99afe54f9163849dda119e55301575a049f47759d47a2e3",
+      "bytes": 1386
+    },
+    {
+      "path": "Source/IdealFlatDescent.lean",
+      "sha256": "ca4060f5533cd0185e95b5a7f69bd90dfc5b8d54183cdf93aeab1f6d1c8cdded",
+      "bytes": 2975
+    },
+    {
+      "path": "Source/IdealTensorDescent.lean",
+      "sha256": "af1a599c15c098b57d48040c26b1a5736c1eca4f150b0b6f8f649d756368566a",
+      "bytes": 937
+    },
+    {
+      "path": "Source/ModuleConstantRankPresentation.lean",
+      "sha256": "34db249f06872d7050cc6015fb623e915b4f1657ba8c0c4be3de2be7c119e0bd",
+      "bytes": 1284
+    },
+    {
+      "path": "Source/ModuleLocalizedRank.lean",
+      "sha256": "c177cbf1b1bd63281c816b2bf9d416a117386ff59f317b1950ca5a72a7be4e12",
+      "bytes": 7554
+    },
+    {
+      "path": "Source/PairCoactionInvariants.lean",
+      "sha256": "5088c29425c37faa2554969e24356b31c942ba87db5f7978c9af131943f04be2",
+      "bytes": 3700
+    },
+    {
+      "path": "Source/Theorems/Thm_CategoryTheory_MorphismProperty_widePullback_base.lean",
+      "sha256": "80c926b1a47fd2d2d66b473a793a01b18427a94efbb95cbd1efbcafc33f5b0a9",
+      "bytes": 149
+    },
+    {
+      "path": "Source/Theorems/Thm_Ideal_map_comap_eq_self_of_map_includeLeft_eq_map_includeRight.lean",
+      "sha256": "53a13674eefe529e4da77d1a8c8fff0d5749ee23ab6403bbb619ec4a62141acf",
+      "bytes": 245
+    },
+    {
+      "path": "Source/Theorems/Thm_Module_finitePresentation_of_rankAtStalk_eq.lean",
+      "sha256": "46b141c9b8b5013378a252a51678b296668d5910f53500ed0deb805b3d2cd294",
+      "bytes": 38
+    },
+    {
+      "path": "Source/Theorems/Thm_Module_rankAtStalk_eq_of_forall_localizedModule_equiv.lean",
+      "sha256": "f828e85229b9ae70ac0c495c962951127e94562e771caec2e90a2aa20dbcb583",
+      "bytes": 27
+    },
+    {
+      "path": "Source/WidePullbackSchemeApplications.lean",
+      "sha256": "ff57cf50e0bf5fd5390a2a874761f3d28627fece14a3e3080b90584442cebb9a",
+      "bytes": 1290
+    },
+    {
+      "path": "UPSTREAM_LICENSES/mathlib-Apache-2.0.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "VALIDATION_SUMMARY.json",
+      "sha256": "d2ef34a3ecf358fb6896a91898c9898ff48794566b929a8dbcc05e90df89824a",
+      "bytes": 1428
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "f1c892b2114e402ff9021d411b9f5bdd376630ad601f6158bea2a087081cd8c7",
+      "bytes": 3568
+    },
+    {
+      "path": "lakefile.lean",
+      "sha256": "d976c587a17c428fd852b351ed01371123a0c3de70c8cb8baa18456b65921054",
+      "bytes": 1105
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    }
+  ]
+}

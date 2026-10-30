@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_pullbackComp_pullbackCongr_pasteSquares_app
+
+alias AlgebraicGeometry.Scheme.Modules.pullbackComp_pullbackCongr_pasteSquares_app :=
+ P2MW.S_AlgebraicGeometry_Scheme_Modules_pullbackComp_pullbackCongr_pasteSquares_app.solution

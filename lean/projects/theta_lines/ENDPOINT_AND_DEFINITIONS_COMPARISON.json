@@ -1,0 +1,1074 @@
+{
+  "status": "ALL_TYPES_AND_NON_THEOREM_VALUES_PRESERVED_WITH_54_KERNEL_RFL_CERTIFICATES",
+  "declarations": 2414,
+  "non_theorem_definitions": 435,
+  "structurally_different_declarations": 47,
+  "structurally_different_types": 42,
+  "structurally_different_values": 12,
+  "kernel_rfl_certificates": 54,
+  "rule": "Full structural shared Expr DAG hashes. Only binder names/metadata and fifteen explicit module-private prefixes are normalized. The 54 remaining type/value differences are independently kernel-checked literal rfl Eq certificates; no projection/typeclass normalization or proposition weakening.",
+  "module_private_prefix_bijections": {
+    "Mathlib.RingTheory.Flat.Rank": "ThetaStdRingFlatRank",
+    "Mathlib.AlgebraicGeometry.Morphisms.FlatRank": "ThetaStdSchemeFlatRank",
+    "Mathlib.RingTheory.Finiteness.ModuleFinitePresentation": "ThetaStdModuleFinitePresentation",
+    "FourCorner.ThetaBitangentAxes": "ThetaBitangentAxes",
+    "FourCorner.ThetaBitangentAxisIdentities": "ThetaBitangentAxisIdentities",
+    "FourCorner.ThetaBitangentCases": "ThetaBitangentCases",
+    "FourCorner.ThetaBitangentContacts": "ThetaBitangentContacts",
+    "FourCorner.ThetaBitangentCore": "ThetaBitangentCore",
+    "FourCorner.ThetaBitangentCountWave36": "ThetaBitangentCountWave36",
+    "FourCorner.ThetaBitangentExhaustionWave36": "ThetaBitangentExhaustionWave36",
+    "FourCorner.ThetaBitangentGaloisWave36": "ThetaBitangentGaloisWave36",
+    "FourCorner.ThetaBitangentGeneric": "ThetaBitangentGeneric",
+    "FourCorner.ThetaBitangentProjectiveChartsWave36": "ThetaBitangentProjectiveChartsWave36",
+    "FourCorner.ThetaBitangentQuadraticIndependence": "ThetaBitangentQuadraticIndependence",
+    "Mathlib.RingTheory.TotallySplit": "ThetaStdTotallySplit"
+  },
+  "critical_actual_definitions": {
+    "FourCorner.ThetaDGeometricModel.geometricD": {
+      "declaration": "FourCorner.ThetaDGeometricModel.geometricD",
+      "level_parameters": [],
+      "type_sha256": "fb8919ec1d676ff1fe5f541e5f7606dc0a93beeeef368df454da2557ab57c958",
+      "definition_value_sha256": "7adf06569072f3b07bafb3fb8d93f4b00b263132ca144ebd9cab6f816b67223e"
+    },
+    "FourCorner.ThetaDGeometricModel.toBase": {
+      "declaration": "FourCorner.ThetaDGeometricModel.toBase",
+      "level_parameters": [],
+      "type_sha256": "e49c3657af174ea90d0215ac168e1712e7a0a01cda5cac26deba040263ba0184",
+      "definition_value_sha256": "ffbc8f38511401b623e7bb2ba7ff8b3719cdeadc3759dff8991378fa57315e75"
+    },
+    "FourCorner.ThetaDNaturalGlobalDifferentials.genericGerm": {
+      "declaration": "FourCorner.ThetaDNaturalGlobalDifferentials.genericGerm",
+      "level_parameters": [],
+      "type_sha256": "80382ce29edf76b4ec347c74da0dd76b7dc0666a0f5616aae7c173cd6dd59201",
+      "definition_value_sha256": "55d14b05924daf7b6869383c3cf390632a12d1a0b3265a64250cbe6653fe276a"
+    },
+    "FourCorner.ThetaDNaturalGlobalDifferentials.planeGlobalSectionEquiv": {
+      "declaration": "FourCorner.ThetaDNaturalGlobalDifferentials.planeGlobalSectionEquiv",
+      "level_parameters": [],
+      "type_sha256": "949bece3d695262f49f3df6cb638dd54dde642b2c98d70e13fb72290e8d61b63",
+      "definition_value_sha256": "942cf6ce015e0697477de1a38b81052e30ccdea90d641fe4328234eb0e6ee64b"
+    },
+    "FourCorner.ThetaOddNativeLineEquiv.IsOddCanonicalLine": {
+      "declaration": "FourCorner.ThetaOddNativeLineEquiv.IsOddCanonicalLine",
+      "level_parameters": [],
+      "type_sha256": "9ce7bcd1fc1ec52f27fba25f6ad8f0a09956c6bc3df28b4d0c522497ae85eac3",
+      "definition_value_sha256": "f49e50426ab156b74cb678ee653dea807744d80575d06bb750862a96153c17f9"
+    },
+    "FourCorner.ThetaOddNativeLineEquiv.oddPicLineEquiv": {
+      "declaration": "FourCorner.ThetaOddNativeLineEquiv.oddPicLineEquiv",
+      "level_parameters": [],
+      "type_sha256": "1830f92abf021beed11c528e9cc9f109e7f87442bc11a24ad9076cfcf712c4c1",
+      "definition_value_sha256": "a279b50564f3abcbba0984859e31110e8fe127d26e4db4df7f54d2f35e10de63"
+    },
+    "FourCorner.ThetaLineGaloisAlgebra.associatedSubalgebra": {
+      "declaration": "FourCorner.ThetaLineGaloisAlgebra.associatedSubalgebra",
+      "level_parameters": [],
+      "type_sha256": "464dd6a8af70b3eae4641d6f1607ecb2dc04ee6d901a7818d639e1aea4d9f89d",
+      "definition_value_sha256": "24813558131294ddaf3f31e2213307f85a27e19d22f0ef2e90dcfe5ae650a763"
+    },
+    "FourCorner.ThetaLinesFullAssembly.theta_lines_full": {
+      "declaration": "FourCorner.ThetaLinesFullAssembly.theta_lines_full",
+      "level_parameters": [],
+      "type_sha256": "b82d5bdf904b5ea2bbeae768b8a168fd91f1cfcf033cd88df691862cd5514ef3",
+      "definition_value_sha256": null
+    }
+  },
+  "endpoint": {
+    "declaration": "FourCorner.ThetaLinesFullAssembly.theta_lines_full",
+    "level_parameters": [],
+    "type_sha256": "b82d5bdf904b5ea2bbeae768b8a168fd91f1cfcf033cd88df691862cd5514ef3",
+    "definition_value_sha256": null
+  },
+  "certificates": [
+    {
+      "declaration": "FourCorner.ThetaDActualDifferential.minusEvaluation",
+      "kind": "type",
+      "root": 26306,
+      "original_sha256": "d97d2dc7adc1ffb9402dea4b13989ac172fcdf0129c6a87c688d542d4412f38a",
+      "staged_sha256": "629beb0edaffe4524bdb7a336284bbd95a55fb500de3622a4bcf76541e6e659e",
+      "certificate": "ThetaPortableKernelCompatibility.type_0",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "68eb5aa7ec075c202f5db9cd08ead248172d7a88560f0ca89afa0bc22c1f6548",
+      "actual_rfl_value_sha256": "6f2769e9503ee9259d605e9bc351574bc9d9d817789d606ade7068f6db2ea5ed",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDActualDifferential.minusEvaluation",
+      "kind": "value",
+      "root": 63454,
+      "original_sha256": "111c028dc08e1f3f155d850f3b7c1fa1c0705036047cec31a6f2c288b2a1b7d6",
+      "staged_sha256": "d3cacb670f3bfed860d8a529e85c91d1ffe8589f45a072ca6ff2101d90a4ce9c",
+      "certificate": "ThetaPortableKernelCompatibility.value_1",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "90706acf903b604d1ceb8aef3e712a276e9be765f8e29741279f97f7a9e0c17e",
+      "actual_rfl_value_sha256": "7d386ea633889984f9d258ed08cba7f24b69868187eec31700f251582acc2ef6",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDActualDifferential.minusEvaluation._proof_7",
+      "kind": "type",
+      "root": 44528,
+      "original_sha256": "6f6babf7e744c0ed2f021712003cd38e8df857c237a8443b6277845b0c7c44b6",
+      "staged_sha256": "0083a434677504a838205866dd204ee34c90bd7c991d6666aa9010fd7ff6b705",
+      "certificate": "ThetaPortableKernelCompatibility.type_2",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "1925007b3789f2cef23b9de4ab8d6a3c803adf9743966dbba3819a41d58516f4",
+      "actual_rfl_value_sha256": "2c3e30ddbb4e741426129c2d702b6197e533fe3b6b18e8fb08d3d835cd22186d",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDActualDifferential.minusEvaluation.eq_1",
+      "kind": "type",
+      "root": 40231,
+      "original_sha256": "8c1c4c1e672d21a8bd33d26d090df930e702af1e54f6ec60984e7835c49e39ef",
+      "staged_sha256": "592915854fe3c01face46d23b34502701186480945e9d9fadca5058ce337ae1a",
+      "certificate": "ThetaPortableKernelCompatibility.type_3",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "478337f946ae05280b32950e512bfd2a5cb28aba6893d02f0f6bd74ffcdee37c",
+      "actual_rfl_value_sha256": "89aa9ace07f4079559de4ef5f057e3e1a9d2962e490098d3c89fe2a93e3c312f",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCanonicalPlaneBasis.evaluation_scalar",
+      "kind": "type",
+      "root": 26344,
+      "original_sha256": "36ce91598fb392c62fe27cb0cd2eabcf3e515ab5b0850a14525c4f1722a96a10",
+      "staged_sha256": "24caa0c692b1ce8b7d75d4966ca26ea591a96955b4dc794ba8d3692b12aa65e1",
+      "certificate": "ThetaPortableKernelCompatibility.type_4",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "389448d391841895df90f6f8c0b99e196c142c4af2f71024912c9a757dfb3d49",
+      "actual_rfl_value_sha256": "267e6980a6a2f3389d9685b8b785c4a7c21f4021b04f7a2a7d6fc4e372950945",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCanonicalPlaneBasis.scalar_tmul",
+      "kind": "type",
+      "root": 72157,
+      "original_sha256": "86b7ef5efe16ac7b78af1f0aaded4b4db00030315325ba9686d8f80ae0aaf784",
+      "staged_sha256": "463ee05908f0621cfb5383fce06be02ca401f80e5fbfb9f345396f600faf4234",
+      "certificate": "ThetaPortableKernelCompatibility.type_5",
+      "level_parameters": [
+        "u_1"
+      ],
+      "exact_Eq_type_sha256": "13791f7ac21aa62c11ea14a4acd4b6ccfc4c50fd0b3a3ca975346e4d74d16470",
+      "actual_rfl_value_sha256": "99896c38b3fba72599d52b08be6c34c46e99bea61b7ceb394ddb45abc49675c7",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCanonicalPlaneBasis.yminusEvaluation",
+      "kind": "type",
+      "root": 26306,
+      "original_sha256": "d97d2dc7adc1ffb9402dea4b13989ac172fcdf0129c6a87c688d542d4412f38a",
+      "staged_sha256": "629beb0edaffe4524bdb7a336284bbd95a55fb500de3622a4bcf76541e6e659e",
+      "certificate": "ThetaPortableKernelCompatibility.type_6",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "68eb5aa7ec075c202f5db9cd08ead248172d7a88560f0ca89afa0bc22c1f6548",
+      "actual_rfl_value_sha256": "6f2769e9503ee9259d605e9bc351574bc9d9d817789d606ade7068f6db2ea5ed",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCanonicalPlaneBasis.yminusEvaluation",
+      "kind": "value",
+      "root": 71992,
+      "original_sha256": "7ba56c7f5054f0efdad29f027bf793e725b58db5aa74d2ad9175d6dd0e43ef4c",
+      "staged_sha256": "0006569bd2504974ff727800ba54bc8481ef0808620709976dc7f049587f8441",
+      "certificate": "ThetaPortableKernelCompatibility.value_7",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "b0fb0fa31ac2f3000aac52b6654c2da7a74ffaa78921ab73a09a5cc051c3cb0b",
+      "actual_rfl_value_sha256": "dafba272ec8c0b5a95f38ce154d526b305ec3bb38f1e91989032357f9808fb20",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCanonicalPlaneBasis.yminusEvaluation._proof_7",
+      "kind": "type",
+      "root": 60730,
+      "original_sha256": "a13913888ce56a1210b46e106b554ec4b6e038ea560348353cb8f31449676e66",
+      "staged_sha256": "8859b5e1d5bb376e4eb5c382a2e32dd36874f4f03a659ddb1780d237ab16adad",
+      "certificate": "ThetaPortableKernelCompatibility.type_8",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "c8a42538ec246b5fcb4650074482855ec80d4948d75a20778f1c8fc440ec0e7b",
+      "actual_rfl_value_sha256": "c9b754777e4be8ee6f89441d3e357b9f84ae0baae7f556242a396ff2bd949148",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCanonicalPlaneBasis.yminusEvaluation.eq_1",
+      "kind": "type",
+      "root": 44469,
+      "original_sha256": "b59b13202392918ffc3775c6018d21cb2c01991aca5c5f5d6a6cd1bfcba57336",
+      "staged_sha256": "f00253e09b75a72d5cc2e3b67fd06c978bae1f784e0bdc25325421f48fada262",
+      "certificate": "ThetaPortableKernelCompatibility.type_9",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "c01caec3b3fa04f5c34c60a14456fed71da187481465cfc1ab10d25bb42a1650",
+      "actual_rfl_value_sha256": "0eb3be3f1c4d35ae60cee623b8ad564efd42e71e19c5245146e483716685daec",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDChartNaturality.actualChartEquiv_one_tmul",
+      "kind": "type",
+      "root": 69874,
+      "original_sha256": "0ac30bd253ba0c0fbc3e166036d6e223810018cf0e4dd6d29c8d30eb4ed96a21",
+      "staged_sha256": "05a48c38dd0899ac2e99f847b6ee5e8712c39bf35da78e53ca5b048bccfd0a23",
+      "certificate": "ThetaPortableKernelCompatibility.type_10",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "3b8a2ac5e5012cbdfd370642f78719ca35c7234245ddb1bdfbd0acb882108227",
+      "actual_rfl_value_sha256": "43243301eef810acfdf142239ce1bfb803d8774ee0b624f5df48befd7a37dc88",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDChartNaturality.chartToField_one_tmul",
+      "kind": "type",
+      "root": 59976,
+      "original_sha256": "971dbbe8a1838d9892c1a48dc39876f4999619bf1d8299f827c94dde79fd5c7c",
+      "staged_sha256": "bc293e07b0f4808fd6230cf3b25e4fceb5abcf5efa60cae5b83b4369c3a84229",
+      "certificate": "ThetaPortableKernelCompatibility.type_11",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "ab39d0712dfcc627dc01e8a90c05e63f62f954dbd4a48ecac925ebdfafb7417b",
+      "actual_rfl_value_sha256": "3fb7ac09db296f4e9b733e19151d69a8e13f8d085ba863dac2a234c75194d0a0",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCoordinateBasicOpens.coordinateSection",
+      "kind": "value",
+      "root": 68748,
+      "original_sha256": "808c5dc6d7e983abd02e8aaaadd99bdf50032fcc33af492a502ab316a61b3d19",
+      "staged_sha256": "ce343c5e21a1817c3cbc0502c2baa3460751c529c2c82c82dfe73b94be9bbc1b",
+      "certificate": "ThetaPortableKernelCompatibility.value_12",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "a952db7827416bca86232c05f563f5f6c21db4a870d0c39b2df5197f7d8be1d1",
+      "actual_rfl_value_sha256": "f2839a78cc1e85839e26dce7d112d43e9222ab1ee9fc9ed1dcf9821d078c62c9",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCoordinateBasicOpens.coordinateSection.eq_1",
+      "kind": "type",
+      "root": 65708,
+      "original_sha256": "38802650e2c628d4849f482084ba322715d80b14eace2f78600f2dba2a641960",
+      "staged_sha256": "60b5d109fe94d8df5ac663684fa4909d4211e1459988e26f368245df21b50a4a",
+      "certificate": "ThetaPortableKernelCompatibility.type_13",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "eb769f60ae42442ca7b5296679b10d55839e57ebd4b1cff539834e5fdccf9839",
+      "actual_rfl_value_sha256": "47cab7c3bc5c8dc3b1ef910f247a89cfde3ce2b2689cfc9dff1393f24776ca41",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCoordinateBasicOpens.native_coordinate_basicOpen",
+      "kind": "type",
+      "root": 62471,
+      "original_sha256": "65259dd70c10817c3f6ca041f00a89cfaebf8e3ad580074b302ed7aebe5f23de",
+      "staged_sha256": "e1deaafe7b3f79e7d680812fc88dfca87b5fc384333f482bc85a272d4bcda6bf",
+      "certificate": "ThetaPortableKernelCompatibility.type_14",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "ad3d285c7e633276e847615df45e0e8af32dc125d233fbd9e27c6f7e191d946e",
+      "actual_rfl_value_sha256": "9fdb5376b87459f695d74ba85858131966002ac6506cf615a7252e5bf8a0923a",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDCoordinateBasicOpens.section_coordinate_stalk",
+      "kind": "type",
+      "root": 27915,
+      "original_sha256": "86c599386f2cbc3161b593be1205016c24d7044fa1d168f8d193e2d5bc8fd1f9",
+      "staged_sha256": "cb88b78e1cedf7dbf5de1ce85ecea72ddaa10260c14cb9aadef6a319e05e0dad",
+      "certificate": "ThetaPortableKernelCompatibility.type_15",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "e2321f9f4c328b18e276557e2d0c633aa131e9fbeab273fe603bf1ea855757a7",
+      "actual_rfl_value_sha256": "3f4387c8411d23433354e62afbbf7553dd4ffb3877fa1a048e7ac186ef15854a",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDExactChartTransitions.instNonemptyCarrierCarrierCommRingCatToSchemeB_thetaDExactChartTransitions",
+      "kind": "type",
+      "root": 7479,
+      "original_sha256": "86094732f8456374e7772728d8a0a6513c910f6b46bd6ddb3a0e998233d6c9af",
+      "staged_sha256": "9de85472c3c615c01a83383c9ccf5a3030ef1796de4741c522c45066e9ed41c6",
+      "certificate": "ThetaPortableKernelCompatibility.type_16",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "1952d075a2dc48971d0e01de246994c39e9131925206215f3e76ff2e702016fa",
+      "actual_rfl_value_sha256": "c49136837ee528b862bac511065f0eb3dbf28e9d27feba3fd79ee8e9876e34db",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.chartToField",
+      "kind": "type",
+      "root": 22833,
+      "original_sha256": "a7b74c1a07b5ed515d470798c6f36f3392190c1177549511a33a448ea1b90617",
+      "staged_sha256": "de4d9dcfbf7d5f035bc6d49748f13371037ce57717b51ddab496b6b3040bd9a0",
+      "certificate": "ThetaPortableKernelCompatibility.type_17",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "52660b7f64a21c3a04113a4faccafe6064968aa8b8f24a0aed7c0f1cadb1dee2",
+      "actual_rfl_value_sha256": "e14e6827d0e6e9f39f97d6d5ac7327f14972ead94961816c3b04ac7e44a925b5",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.chartToField",
+      "kind": "value",
+      "root": 22856,
+      "original_sha256": "14a0c4fd386181911f01a5cbf54f7550300f6667c6cd89156552fde930a3f7b3",
+      "staged_sha256": "fb10fe5f704daf192bb5650346f9a7a487d5dbd357249376e3d160c7339f8ca2",
+      "certificate": "ThetaPortableKernelCompatibility.value_18",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "dec9808beb5d0fcbe9d052aadb0cdf278b48cd33a59fc1adb3c30dcba7b5c8a7",
+      "actual_rfl_value_sha256": "e7dcf8136b9e5bc3b9a54c4d9754595571a2aa7ff287591158adbb29fc0f6414",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.chartToField_injective",
+      "kind": "type",
+      "root": 61981,
+      "original_sha256": "1729e301814f25f54a5546d29200a1ddf224c1cda710c1a70fa447461b17d4c5",
+      "staged_sha256": "10ca6224015be91c3448179659867e0628f62697656e52a04b2d16734191c9fe",
+      "certificate": "ThetaPortableKernelCompatibility.type_19",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "2ffe7ca0be3d0c59791d599a7ab86093ac5ffe76cc6fce13fba88d6d3ca35246",
+      "actual_rfl_value_sha256": "2cb431c5b1519d6b56935f900f4adc7d8b2168f579f453c903c35721d99e3e8f",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.coordinate",
+      "kind": "value",
+      "root": 37018,
+      "original_sha256": "79dc552eacfbc95745f11182f9560772db3d3a5d7746b19f087252f26687f7b3",
+      "staged_sha256": "ad1cf0c8ab77c35c7334f249cb0c34b0eb9f1b22f1fbb674bd79f299a5fd03ba",
+      "certificate": "ThetaPortableKernelCompatibility.value_20",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "b659b86d3d01aa0182fed324b2559e4a3fe79597f1a80b28c44e613c5bb2af9d",
+      "actual_rfl_value_sha256": "8bb6d49fb04ebefb247d2c5b7e1b7b54cdcd18c5ba44e28c2b826536379b1a20",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.coordinate.eq_1",
+      "kind": "type",
+      "root": 44472,
+      "original_sha256": "77138f462fbeff8f8628358eb7b4ba74ea4ceb9afedc2165bfa92c131be22b3d",
+      "staged_sha256": "c334ec01a2ec19a8bc02c87b5f72dc2cc0f8c7d31033fb074a62da015a5daa57",
+      "certificate": "ThetaPortableKernelCompatibility.type_21",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "4f0f46b45fcaef4e69c7ac6b586eabdece616b1508bd3372f241b27c8a856c3e",
+      "actual_rfl_value_sha256": "6f60ad6e07fff067a2fe53b4b469ee22afa2ea8064f0493c38f56394e46a1bf8",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.evaluate_coordinate",
+      "kind": "type",
+      "root": 32246,
+      "original_sha256": "d6c2220ffdef28cf3b6c3b87355061971d163d7ee41d118befeb2d411bb90c43",
+      "staged_sha256": "83568ea03296b84a710e92733ec7865ad89012dbf91ffc19ed4a3b7a9171b7ed",
+      "certificate": "ThetaPortableKernelCompatibility.type_22",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "32499ba143ec95909fc0d31301256500046d8a4ad99da665cdde4551a1d632b1",
+      "actual_rfl_value_sha256": "88c71f96d1a11e412c5772c9326c5de7193b405ab81299d7e02859f90916aeb8",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.evaluation",
+      "kind": "value",
+      "root": 901,
+      "original_sha256": "922e64ab370c712953dba53b2d1dd6eab0bf36720b83ed7914958b2375cac424",
+      "staged_sha256": "0cc9ae0fbcb83e80aebea028f3285b8a2b4f62b01ef235c1fe39deb8d1dc8430",
+      "certificate": "ThetaPortableKernelCompatibility.value_23",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "54df5c8b23919e36827803bc96beab4a6507f2c6af50e1aadab7eb1fd5ca3385",
+      "actual_rfl_value_sha256": "77c59e6d348ffb69db31bb3362d26e043179fb5b357cf939fa4de4cc0170d890",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.rationalChartMap",
+      "kind": "value",
+      "root": 19669,
+      "original_sha256": "8c19da6947e222dc7acdb15fb58330f90f0dcb921ffb97ba918a8aef02f92a7d",
+      "staged_sha256": "4049cea717955ba49eb006c34aca5fc36748ffe9938d64e45b0eb5f937262d13",
+      "certificate": "ThetaPortableKernelCompatibility.value_24",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "02f82c316bb0e279e6e592109927a87ded2afd6972172e05dc81d3c960e615dd",
+      "actual_rfl_value_sha256": "2243b67de163902fad7bcc31d2d1c03a0beb4e6a19a329cfa2f2f97afc9c6665",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.rationalChartMap._proof_1",
+      "kind": "type",
+      "root": 11975,
+      "original_sha256": "3880d5468d43040f1f1d81ff9030c719d1de01f88aa57942fb8d823097db7bc6",
+      "staged_sha256": "8fa8e3892dbc0322e9749a8f4b1a2dae6a82b9980f220fe335f4b1409690437c",
+      "certificate": "ThetaPortableKernelCompatibility.type_25",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "212874c530aa03e0a689e7165ef8de672369fa41e7c16cf1d1c31423d5650f45",
+      "actual_rfl_value_sha256": "4faad41e3005b33385e9ef5b757bf3b3e617a8525394732d77cc751a52ae5bd6",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.tensorEvaluation",
+      "kind": "type",
+      "root": 70028,
+      "original_sha256": "72b58241443fa0089f460674d29bcb34be8fc8dbcb7849d3d57704e2f34944c3",
+      "staged_sha256": "792dd22662b34e361b00772a2726f2f7969c32d63fd6b3d5b9a896965eeceb77",
+      "certificate": "ThetaPortableKernelCompatibility.type_26",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "ec5b9975910107367ee43a5a8ec6310948b24bce9e44942c1e163dc0cce0fb27",
+      "actual_rfl_value_sha256": "1e9a5ebdc962a97080823477890622995dd68e1ca09f9c4af93fe34d9cd583db",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.tensorEvaluation",
+      "kind": "value",
+      "root": 70046,
+      "original_sha256": "d2c57f17c1f7681394c1dda79cd35c6fbda7c466510fa33ae988efb67396fe41",
+      "staged_sha256": "3c1da9abd5aca4323030ac552d2cf3bcb24f2a67b8d434670f5d68c12e7c1b22",
+      "certificate": "ThetaPortableKernelCompatibility.value_27",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "f7bd3c12438b19e34ef7c3161bcadb67c62f424ba353b060ac29aec4d25ce8de",
+      "actual_rfl_value_sha256": "2cd42656095e3f7ee7dbfeb458e539881cc7527556937159930736f2ddc49cf4",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.tensorEvaluation._proof_6",
+      "kind": "type",
+      "root": 39526,
+      "original_sha256": "7c0877de0ac8bbfb8dd39cd938cac57160d28606f560685c7afdfcf1a04c5d3c",
+      "staged_sha256": "655934e8b5632b93f1bbf4225d80cd18a47c1c264d3b17abf09c0081416801db",
+      "certificate": "ThetaPortableKernelCompatibility.type_28",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "10f5be5105fb809fe53c3c171351b200fb80c0ce677f22e31f657c6af75d0dd7",
+      "actual_rfl_value_sha256": "cf872c3eeb41c85097b72845b19d18cdfc418b363ac5225957d9d08356f70592",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDFieldCoordinates.tensorEvaluation.eq_1",
+      "kind": "type",
+      "root": 63687,
+      "original_sha256": "b8b9f07a2acb3089e0da4354fa7a4e9668d0bfbea18b43c49e5d2752aafed08f",
+      "staged_sha256": "9da0708f552f7a1c9bfde75b693480afc7c9e71b658328a9be8d5c74c75074f5",
+      "certificate": "ThetaPortableKernelCompatibility.type_29",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "a66c84173080b337e5800fd85188d8ab504d9673a1270e9e439442ab26623972",
+      "actual_rfl_value_sha256": "044cd454e435c434f02065f59a1ecdf979ce19d87ad976b69d08d8a250589e8d",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDGeometricChartPoints.toOriginal",
+      "kind": "value",
+      "root": 13267,
+      "original_sha256": "b0851a7a4c1253ada54825705a93688ca62ee0cc02781a187d8df23cedd13ca4",
+      "staged_sha256": "b3bc8c7df68a1d59f7433a772e7d71628d297be4627b39971842902d48c99624",
+      "certificate": "ThetaPortableKernelCompatibility.value_30",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "39c21c846f35eb15db69d276ac49be77fde6442d3d2c058ae2bd14f9ce22cbc6",
+      "actual_rfl_value_sha256": "c628d56dd6e6adb41dc57a59ef75968191b8dd2efcb71f54574f23d97fb566d3",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDGeometricChartPoints.toOriginal.eq_1",
+      "kind": "type",
+      "root": 55376,
+      "original_sha256": "8eb2adf14453b9c2dd6a6a7765a4b66f6dd8d8d88c989ae7c79b1d2673c6006c",
+      "staged_sha256": "44b5bff683c56c3f22efca17dd78340105f87f5165d8d8fbf87572de35255e90",
+      "certificate": "ThetaPortableKernelCompatibility.type_31",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "f9aea600250a7215263a229187bedb9ee80d7e00f3b366828bd16e6acd79ef9c",
+      "actual_rfl_value_sha256": "a67f9173d33beb99296626a0756d54e77c523338e19cd14707e6ee52b9cd29f4",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDNativeProjRatios.B",
+      "kind": "type",
+      "root": 59214,
+      "original_sha256": "36b7ae8727c8acb8e60a008256c5804f8adc6838f4913625d2e73f7e4d91a88b",
+      "staged_sha256": "316f06f3a7af197ae481fcc8f2786de9ed920ce42858e76ef4188cf93d5f6ba4",
+      "certificate": "ThetaPortableKernelCompatibility.type_32",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "930053fbd9f78413c382a5bdd4e9679db94168f908414b92f8efed0cb9fbe7f4",
+      "actual_rfl_value_sha256": "af9fd2e7d908763552a061bfbea0a2ed7bbb904f3257159dcae08fdcee63d04d",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDNativeProjRatios.B",
+      "kind": "value",
+      "root": 59223,
+      "original_sha256": "04277a9ee31c6961e162bebb8ad83acbdf7e49e0dda9103273e41f9b0f1a0446",
+      "staged_sha256": "f40dad3d4c66590ac24e8c1964a020810c147f537a8a5b584b53b27a839f311d",
+      "certificate": "ThetaPortableKernelCompatibility.value_33",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "a9d48116995c61c5653d9e7d1be146f80f8c348d520e79139f1e9d8128fe55bd",
+      "actual_rfl_value_sha256": "86d0c221856ae0da137e36b912130d3bb0e7465adf314373512d1942d4481be1",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDNativeProjRatios.basic_nonempty",
+      "kind": "type",
+      "root": 7479,
+      "original_sha256": "86094732f8456374e7772728d8a0a6513c910f6b46bd6ddb3a0e998233d6c9af",
+      "staged_sha256": "9de85472c3c615c01a83383c9ccf5a3030ef1796de4741c522c45066e9ed41c6",
+      "certificate": "ThetaPortableKernelCompatibility.type_34",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "1952d075a2dc48971d0e01de246994c39e9131925206215f3e76ff2e702016fa",
+      "actual_rfl_value_sha256": "c49136837ee528b862bac511065f0eb3dbf28e9d27feba3fd79ee8e9876e34db",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDNativeProjRatios.ratio._proof_2",
+      "kind": "type",
+      "root": 71027,
+      "original_sha256": "271fa2bfab00a322b0b420bcdbc5d6053a967b93d38f252e07256c04e60b7f01",
+      "staged_sha256": "6a9e09fd8e33aaa10cecb4c9ba8223b8073131620b6cc1090bf78d2ef6ddf669",
+      "certificate": "ThetaPortableKernelCompatibility.type_35",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "f377e32c6272963c1ef8547ecc20cc47905e2cbe54831a1441f88742b39d01a1",
+      "actual_rfl_value_sha256": "28c95ffb830ec31b0039307901fcdd4a50568992a985b10ee2a607365ae1d679",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDNativeProjRatios.stalkEquiv",
+      "kind": "type",
+      "root": 47593,
+      "original_sha256": "d4b7409d897a7cf4655625ea12513a11f561460e85be19f034b493b644a87438",
+      "staged_sha256": "ba50679d4c8c5c53039eed756c7e05efdb9bbd54671fddeae10fce1ae37a1b32",
+      "certificate": "ThetaPortableKernelCompatibility.type_36",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "ee0f4aab1cde3925cbf99b82ee8948c273a83d17b157c9fe5b2d70b384ea11ad",
+      "actual_rfl_value_sha256": "2fd8a9d4af6c216cb47cdc07618ce39f955a4f134291792f9069c0d0080269b5",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDNativeProjSections.instNonemptyCarrierCarrierCommRingCatToSchemeB_thetaDNativeProjSections",
+      "kind": "type",
+      "root": 7479,
+      "original_sha256": "86094732f8456374e7772728d8a0a6513c910f6b46bd6ddb3a0e998233d6c9af",
+      "staged_sha256": "9de85472c3c615c01a83383c9ccf5a3030ef1796de4741c522c45066e9ed41c6",
+      "certificate": "ThetaPortableKernelCompatibility.type_37",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "1952d075a2dc48971d0e01de246994c39e9131925206215f3e76ff2e702016fa",
+      "actual_rfl_value_sha256": "c49136837ee528b862bac511065f0eb3dbf28e9d27feba3fd79ee8e9876e34db",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDNativeProjSections.sections_as_chart_app",
+      "kind": "type",
+      "root": 29828,
+      "original_sha256": "d14f12a2843f84fd79b38b676ab44d1410e210c20c94bcaf6ee7f08a483044a9",
+      "staged_sha256": "e886fa849b3a5a7670d31f2a9ddb2e618b9a5000f3ae9683200c9914de3c6d36",
+      "certificate": "ThetaPortableKernelCompatibility.type_38",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "4c8762106f7576471c89023a41336d739b8a78941b0a90f015770008929ba864",
+      "actual_rfl_value_sha256": "2aabaa17e03443967598b0093fc5563f8e8e1c1099ab18e2c01a95076474c823",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDOriginalChartOpens.chart_section_appLE",
+      "kind": "type",
+      "root": 31780,
+      "original_sha256": "0f5b560a55a9b2112a9cb87b059ae68d1505037cfeee0cba5ce3aa3af0e67eb0",
+      "staged_sha256": "55ee1c4040c7a58132ec8e561302448a269bf42b5631a8c409aac13a85778a76",
+      "certificate": "ThetaPortableKernelCompatibility.type_39",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "e9d1065d3cb3dbc8ba8ae94a5cb25572af5e6fc6c73755708c6232070de4c076",
+      "actual_rfl_value_sha256": "b10df3641d340a5f009810e0d9375bb20fd8abba300c80111b780a287c13110c",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDOriginalCoordinateSections.planeForm_formula._abel_1_2",
+      "kind": "type",
+      "root": 53961,
+      "original_sha256": "9a549e46cefa39fb37b97245cb71ea9e05515800145d19bc47a7192329198dd8",
+      "staged_sha256": "e2b0c00e29709062c246cfd789e27325efe77215adadf194105fc887225f2cd0",
+      "certificate": "ThetaPortableKernelCompatibility.type_40",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "05df8988df76261b5c5afc13e80dd7de73c89ead07800bb4c31f92c1ed779779",
+      "actual_rfl_value_sha256": "8bb762d9bdcaeb269c827933a81f4e9bbb1b39ebb799f317774613d5b4c81140",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDPlaneChartSections.actualChartEquiv",
+      "kind": "type",
+      "root": 62337,
+      "original_sha256": "cd01759f4bc70ea75016c00dab6d2919841144ae444525252a1a60c0851dce35",
+      "staged_sha256": "80ef437d78a354b06e0e937ef9cd1d7d80c84b5e6d543041417c07e35bcd322f",
+      "certificate": "ThetaPortableKernelCompatibility.type_41",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "421f73e64e46ba91146cbbb65a26975dddcde0148f3f6a0761f7136262c1031e",
+      "actual_rfl_value_sha256": "6a44790d58e8409cf67642d10ef8c3127843b71529520943caa83a24c17812df",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDPlaneChartSections.actualChartEquiv",
+      "kind": "value",
+      "root": 62369,
+      "original_sha256": "3454f06dd81d344d361419bf2afa70236d9a0995b2a7370da580ab32b51eb2dd",
+      "staged_sha256": "8dd072180fb8b0d81df62b952134de589833ae6a521f2e03fb538bdc569a0dcd",
+      "certificate": "ThetaPortableKernelCompatibility.value_42",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "2a72db6bdd9b3607b13d596ff8caf094f43d1350f0fcf25fe10463b94e64f93e",
+      "actual_rfl_value_sha256": "9477ff5d56e639d3fa515a553a76908052b14b1ed51554a9c37c3671c975c294",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDPlaneChartSections.sectionsAlgEquiv._proof_1",
+      "kind": "type",
+      "root": 14589,
+      "original_sha256": "207e3c930afdbc48447d692c5f3170c6e344480aa21d511d815d5b83ae90ea41",
+      "staged_sha256": "d313e4ce3d39c90305aa951789a116fcb0de40a98d4844793e9df39c06140f4e",
+      "certificate": "ThetaPortableKernelCompatibility.type_43",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "2fb4a66c6c757ddb705e3abca91a2ac75cf0bb20c3fa595b30fe8e2af4ee3ce9",
+      "actual_rfl_value_sha256": "a7fffd0bd0a57e07b8e1e902bcc8421ac31d014ad72e565f415332af155b0b5e",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDPlaneChartSections.tensorSectionsEquiv",
+      "kind": "type",
+      "root": 56624,
+      "original_sha256": "bfd0f00c285069633054fc1ccf5e4aa2017ac1f0ad5f932241d9b545b6cc3ffd",
+      "staged_sha256": "ca38efab242336fb39cd22a8d7303c204ebd1a113c31c0324d3cc5c63dc19cb2",
+      "certificate": "ThetaPortableKernelCompatibility.type_44",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "92295a0226adf0a50516bfff482c1b1728a21ec1771a0d013f2781b00b74d080",
+      "actual_rfl_value_sha256": "ac6bc3502ac3b4bdb4c2a030f0b636b2b111d72d5b039bdb885a240bc892525c",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDPlaneChartSections.tensorSectionsEquiv",
+      "kind": "value",
+      "root": 56772,
+      "original_sha256": "6e24a119bfd9ad6fdb915f07d13e13fd82b4485b3480196c81579810b1e5160b",
+      "staged_sha256": "42ba2fbd0867a81ad85439f1d40960de27d851424c11df768495bcc0d3752d67",
+      "certificate": "ThetaPortableKernelCompatibility.value_45",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "143477b0a7fc78482297a50adc9a548348dfc5f85c47b7143c773694eb3dbf70",
+      "actual_rfl_value_sha256": "8d5f51b66c65e33f4f08162a42d4de5407abcb418bc476fc320c2f4c8e82b8e5",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDPlaneChartSections.tensorSectionsEquiv._proof_7",
+      "kind": "type",
+      "root": 70595,
+      "original_sha256": "0716b85c885d9904a1ceb6b88048e179986ef74aa0d421208ff379ee31f81f3a",
+      "staged_sha256": "e866898c9c7f1b2f33b666799bc6e540416753d5a81371aa387db96af1d9c48b",
+      "certificate": "ThetaPortableKernelCompatibility.type_46",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "2a35787679895ab804a1ec0dfddd43568009d6ce67c4a42e6bcddc2a4c589b95",
+      "actual_rfl_value_sha256": "b3ce941002576d9257b0f8009dc69e1f9177930f1d8dc0c13d1fa5e1b30dadd8",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDProjectiveInfinityCover.X_or_Z",
+      "kind": "type",
+      "root": 46398,
+      "original_sha256": "41f0c3f11a39be238581f39a6a8fca8b2ad717be1d24674f1c463370594189e4",
+      "staged_sha256": "1475cf4b9db32ee1895e306f06e25fa9e385ccbb5e15e79c34afda149242da78",
+      "certificate": "ThetaPortableKernelCompatibility.type_47",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "4439a4e5eff23a44098405103a115161df50eac5933a31340ba6e101ad226022",
+      "actual_rfl_value_sha256": "531ea7c6eb24fd7aa5011bf40eb854bb472f7b5a640c5470ed199b769d820e0a",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDProjectiveInfinityCover.original_XZ_cover",
+      "kind": "type",
+      "root": 67097,
+      "original_sha256": "99217d85305b1ab186787882f8ba347f7f4216f779ef3a60759d07cfb5b3d5ec",
+      "staged_sha256": "8f9848580796a8f69694034f3b420743bc9e242b865c0955356071c71e9d22e5",
+      "certificate": "ThetaPortableKernelCompatibility.type_48",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "df2f4f1efe1b20015c8c31412ca35a656cf7e6099475cf2ce415b7d76a92f127",
+      "actual_rfl_value_sha256": "f9b75d3b1760010a06165005fb4653bb111c71303d33605c3eb8ba27134ca1f5",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDSectionComparison.instNonemptyCarrierCarrierCommRingCatToSchemeB_thetaDSectionComparison",
+      "kind": "type",
+      "root": 7479,
+      "original_sha256": "86094732f8456374e7772728d8a0a6513c910f6b46bd6ddb3a0e998233d6c9af",
+      "staged_sha256": "9de85472c3c615c01a83383c9ccf5a3030ef1796de4741c522c45066e9ed41c6",
+      "certificate": "ThetaPortableKernelCompatibility.type_49",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "1952d075a2dc48971d0e01de246994c39e9131925206215f3e76ff2e702016fa",
+      "actual_rfl_value_sha256": "c49136837ee528b862bac511065f0eb3dbf28e9d27feba3fd79ee8e9876e34db",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaDSectionComparison.sections_comparison_hom",
+      "kind": "type",
+      "root": 35604,
+      "original_sha256": "5807deda26685fde55626facc47ab7d2cda1a18319a2ea58a8d49b35461e18ff",
+      "staged_sha256": "dd22b044e8b8fb9b6e854c3f60fb5c688537a477683a5388482df9706ed9a8f4",
+      "certificate": "ThetaPortableKernelCompatibility.type_50",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "7703a71237ccfa0564629e3a67aac783823361a25a861b37dfad7cf9bb86aa07",
+      "actual_rfl_value_sha256": "8bcb76b56c5a77a8e9051f0b265dd357d698d900136841a35a1974bf3b7cd55b",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "FourCorner.ThetaGeometricChartEvaluation.chart_section_evaluation",
+      "kind": "type",
+      "root": 32934,
+      "original_sha256": "1b0daa1028e72d3c242f914e83fe319115193713bd5f1bd96a6f686d98aa59db",
+      "staged_sha256": "30621d3e7ebb45b1e3b2abbeb17600fde0c95b08c020f67828e2312824c6bd88",
+      "certificate": "ThetaPortableKernelCompatibility.type_51",
+      "level_parameters": [],
+      "exact_Eq_type_sha256": "f7707f480efb4cbd7ef5b662eb46d7146c67e184b37ac880c9a4eba0c5475aaa",
+      "actual_rfl_value_sha256": "0f794d535ac6402b429fe837b23820154848f01f0067afd7e37a8d1711d49074",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "_private.ThetaStdRingFlatRank.0.Module.algebraMap_surjective_of_rankAtStalk_le_one._proof_1_4",
+      "kind": "type",
+      "root": 56808,
+      "original_sha256": "0be60503330d9846c2880aa4edd101fcf50346d5d5484b81af5f2869b8f4bbc4",
+      "staged_sha256": "e2102774dcb1df0327a7594bd5c85c2ad48ea1c224e5a0f54fef274afe7c7140",
+      "certificate": "ThetaPortableKernelCompatibility.type_52",
+      "level_parameters": [
+        "u_1"
+      ],
+      "exact_Eq_type_sha256": "75a4389bd48120850e9a45db9e8e4287d485f4fd520eecfc66fbdb3c465d2062",
+      "actual_rfl_value_sha256": "113522f6c1464b216d40c750dbe4b8e1819b4a1710b739525cb8deb25a29c075",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    },
+    {
+      "declaration": "_private.ThetaStdRingFlatRank.0.Module.algebraMap_surjective_of_rankAtStalk_le_one._proof_1_7",
+      "kind": "type",
+      "root": 35135,
+      "original_sha256": "91794e90067423491311bfa653e584f01e516054e0db3e67f3fa4eefe1100b65",
+      "staged_sha256": "6eb39d849d3964c0c36cdc347fc333916d70f76a767299cac6f2d9fcb19c0554",
+      "certificate": "ThetaPortableKernelCompatibility.type_53",
+      "level_parameters": [
+        "u_1",
+        "u_2"
+      ],
+      "exact_Eq_type_sha256": "7b819e6edeff1b1015cfba59b669083707dcf71307975a2693716c728efc11ea",
+      "actual_rfl_value_sha256": "c626d83cfbe8234cf1b0c182772356b3aca5244d8614d8464f7bf6a1b40ee747",
+      "kernel_exit_code": 0,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "classification": "Reducible typeclass-instance/projection spelling difference; full closed Eq checked by kernel rfl, with no typeclass-diamond normalization."
+    }
+  ],
+  "private_closed_Expr_pair_evidence": {
+    "original_structural_stdout_sha256": "969d0625100ea82e83269e42015b7838fa1b95cad62fcc0c1ae8af01fe8b33a9",
+    "staged_structural_stdout_sha256": "5d36d0c22bbed443efe3c243e25e832a22c6a2245215ddfdecb2cec0d72cc968",
+    "pair_summary_sha256": "9501f78905ba2c8bde0f9cb5147460d4bbe3b1daa1de1d04c549b3b03eee8266",
+    "exact_Eq_and_rfl_DAG_sha256": "096c87a1c221c4a3aa66e4b63a91271cebf145442c2711c206e7e48923db601d",
+    "kernel_receipt_sha256": "2b36fa10b02e563e07ccc370bbeb66b2ef95eae4e2e04749e0da26debc833ac6",
+    "replay_payload_sha256": "f3fafca8e1ad1f22cac81429dc198e186556a6cf2b03b16706544c5b27bb2f07",
+    "original_before_owner_map_sha256": "7af0ed71c73644294e9dbf8a6f2696171270fd01e0d96f9c05934a4e030ee3c7"
+  },
+  "raw_expression_payload_shipped": false
+}

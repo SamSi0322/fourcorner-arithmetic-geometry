@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_IsUniversal_exists_sumMap
+
+alias AlgebraicGeometry.RelEffCartierDiv.IsUniversal.exists_sumMap := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_IsUniversal_exists_sumMap.solution

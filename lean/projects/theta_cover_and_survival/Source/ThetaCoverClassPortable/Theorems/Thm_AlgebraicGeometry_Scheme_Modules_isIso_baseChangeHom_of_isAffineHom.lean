@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isIso_baseChangeHom_of_isAffineHom
+
+alias AlgebraicGeometry.Scheme.Modules.isIso_baseChangeHom_of_isAffineHom := P2MW.S_AlgebraicGeometry_Scheme_Modules_isIso_baseChangeHom_of_isAffineHom.solution

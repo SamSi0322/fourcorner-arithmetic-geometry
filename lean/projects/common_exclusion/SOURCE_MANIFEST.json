@@ -1,0 +1,798 @@
+{
+  "CommonLiteralField": {
+    "path": "Source/CommonLiteralField.lean",
+    "sha256": "ab9f89cb3b6b9f4ad8b7094eb18b762d4bc0cc4b01cd3c2f9c755ffa77c69ef7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFieldCoordinates": {
+    "path": "Source/CommonFieldCoordinates.lean",
+    "sha256": "fd832f7bbfc0d4f5e4a7aacaeb522addf2f3c5a775a1653dbf03178c3f4da09c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonBoundaryCharts": {
+    "path": "Source/CommonBoundaryCharts.lean",
+    "sha256": "23063caa57a7699f8093d9dc9ca98c589be481be7020f7d9427c911ffed3de28",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonRationalPlace": {
+    "path": "Source/CommonRationalPlace.lean",
+    "sha256": "f41b760e59a820a40b565612055af0ef74674d1158ad65aac72ddbdf4673fcc2",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonActualBoundary": {
+    "path": "Source/CommonActualBoundary.lean",
+    "sha256": "a65109812d39311054a06d1137f03eeecb987ff8669d96501f567a7a01915965",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonRoot37Discriminant": {
+    "path": "Source/CommonRoot37Discriminant.lean",
+    "sha256": "edddfea6049386ef8df2d93cb6f1ba5f577fc897d38b5fb2c6c6718984457b99",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted.",
+    "packaging_adaptation": {
+      "original_module": "FourCorner.CommonRoot37Discriminant",
+      "original_source_sha256": "edddfea6049386ef8df2d93cb6f1ba5f577fc897d38b5fb2c6c6718984457b99",
+      "import_only_replacements": [],
+      "proof_body_unchanged": true,
+      "reason": "Avoid ownership by the root FourCorner library glob without changing parent sources/configuration."
+    }
+  },
+  "CommonRootExclusion": {
+    "path": "Source/CommonRootExclusion.lean",
+    "sha256": "028533a3000d900f6a3c7ea8c13c6f1666750df51388b9af6754d7b448ab3472",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted.",
+    "packaging_adaptation": {
+      "original_module": "FourCorner.CommonRootExclusion",
+      "original_source_sha256": "9be32f51b4ef4c6e2046c725224178963e40938fafb15ba34fe74dd86752ac0c",
+      "import_only_replacements": [
+        {
+          "from": "FourCorner.CommonRoot37Discriminant",
+          "to": "CommonRoot37Discriminant"
+        }
+      ],
+      "proof_body_unchanged": true,
+      "reason": "Avoid ownership by the root FourCorner library glob without changing parent sources/configuration."
+    }
+  },
+  "RationalPlaceSource07": {
+    "path": "Source/RationalPlaceSource07.lean",
+    "sha256": "ca7f5fc70a0af25ec232569b9a7cb74a3df6e4cd655cb9050a29f6ba2dcc0bdc",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted.",
+    "packaging_adaptation": {
+      "original_module": "RationalPlaceSource07",
+      "original_source_sha256": "7fa948b7104302fee408e9a27e9db38992fae8096a63298b3564526697d087be",
+      "import_only_replacements": [
+        {
+          "from": "FourCorner.CommonRootExclusion",
+          "to": "CommonRootExclusion"
+        }
+      ],
+      "proof_body_unchanged": true,
+      "reason": "Avoid ownership by the root FourCorner library glob without changing parent sources/configuration."
+    }
+  },
+  "CurveRationalPlace07": {
+    "path": "Source/CurveRationalPlace07.lean",
+    "sha256": "ac3cd15ac468a37a8a496aff5a6a1a9b81c264868e43d2ed253bb6a309de1fbc",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFourDegree": {
+    "path": "Source/CommonFourDegree.lean",
+    "sha256": "f96bf9ca2abb7c44e7a4df6745deb5ab71658aac5f63fc90b87932ce84faf0f9",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFiveIndependence": {
+    "path": "Source/CommonFiveIndependence.lean",
+    "sha256": "57fb33fa255a76d1e01e91388ee7b48f09d271b70036fe459dbe7f623483d4e4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonActualDegree": {
+    "path": "Source/CommonActualDegree.lean",
+    "sha256": "f4cfe2032d764b0fb5501d16edb5516e574b2806e8dbbf35f1425db547bee0d9",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonTower": {
+    "path": "Source/CommonTower.lean",
+    "sha256": "7a9d7785771e7a00b61aaff013df81be868687bac845653a62fe31c7f23a6000",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFifthDegree": {
+    "path": "Source/CommonFifthDegree.lean",
+    "sha256": "0bbeb0cc3c841aee3adc67d2f4ed7226ca2556921276da26b292e2d1786c0de1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonGenus17Field": {
+    "path": "Source/CommonGenus17Field.lean",
+    "sha256": "ef81392e058f78ef6793c72e86e905ecee77eb9fc0700d400e4c6dcedb44b65f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonGenus17Unramified": {
+    "path": "Source/CommonGenus17Unramified.lean",
+    "sha256": "54eec8fbea110a51ca00689ee8bab97e034f00f63b1dc69ed090b5786d446e20",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonQuadraticParity": {
+    "path": "Source/CommonQuadraticParity.lean",
+    "sha256": "eba9a9543a928ce6c4ee1a41a78df13689f8bffaae692030e4294ef96d34b29e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFourRamification": {
+    "path": "Source/CommonFourRamification.lean",
+    "sha256": "fc65ee6678cc8a2d251d9d71a822b828f74d5e1cfe6c6077e131601e5eb20f8e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFourPlaceOrders": {
+    "path": "Source/CommonFourPlaceOrders.lean",
+    "sha256": "171f7c865e0669dddd3b5fff76e4606eb2013d74321f083cbb978c41bb974da2",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonRamificationSum": {
+    "path": "Source/CommonRamificationSum.lean",
+    "sha256": "3eaef7143087bd13500cf273bf44cbc77055c59f75b801b759ef50f195e126a2",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonActualGenus": {
+    "path": "Source/CommonActualGenus.lean",
+    "sha256": "f939dc137f3c0d1f03aa793385c5c4cfc7f16e23691c4672a1a4aafc70dd1e9e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonSchemeModel": {
+    "path": "Source/CommonSchemeModel.lean",
+    "sha256": "1f7812a626786bf8cc1aa6450dacb41c45b7231cd76cb754743664508c5b75eb",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonPostPointResidue": {
+    "path": "Source/CommonPostPointResidue.lean",
+    "sha256": "69f0f34faf1c5bddc512334dc2a88857293417f9893f45868a7c5d27f4962c3c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonPointSource": {
+    "path": "Source/CommonPointSource.lean",
+    "sha256": "616f603c58d6adf91ebb928096117f75954e20259129f08dda86d27760fba743",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonConstantMap": {
+    "path": "Source/CommonConstantMap.lean",
+    "sha256": "60911dcdf2aa8659eddf10bc4556cf5230077ebeeeef491f84d8b208aac8afaa",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonTensorRank": {
+    "path": "Source/CommonTensorRank.lean",
+    "sha256": "0d26adff9fb30c0e7d05cef7972850f2e5edbc31660846c8166070233dc60976",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFieldTensorDomain": {
+    "path": "Source/CommonFieldTensorDomain.lean",
+    "sha256": "9a5ce26d40df09d906d3ad74540d150e18a8fd9cd1e398974db04252e023058d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonTensorLocalization": {
+    "path": "Source/CommonTensorLocalization.lean",
+    "sha256": "1eae78a4e063619161853de50c15352f3928491028404d4d68aeb9ba804557bd",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonConstantTensorInjection": {
+    "path": "Source/CommonConstantTensorInjection.lean",
+    "sha256": "6e068614219774152ca41683209e739b19ce48cbd0acdfc09572ca57eaf7d243",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonTensorFlat": {
+    "path": "Source/CommonTensorFlat.lean",
+    "sha256": "43d09baedc7aed37ed6989b5555cf1c35812e19b823212b285c6ded963324890",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonGeometricField": {
+    "path": "Source/CommonGeometricField.lean",
+    "sha256": "411198c86f323091d4acc98ac3c3fd479d5d65b50020192d423b5a5c87cd522f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonSchemeGeometricIntegral": {
+    "path": "Source/CommonSchemeGeometricIntegral.lean",
+    "sha256": "579b9885ea2d7e43fa90a36384c0c1e564c4057737dd2b41cca1ca9744ef8036",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonSchemeDifferentials": {
+    "path": "Source/CommonSchemeDifferentials.lean",
+    "sha256": "be592ef98f35a4a2acacc8ec11d7fbb811515e83a60dd5c9e3adee603526d09f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonRootFieldComparison": {
+    "path": "Source/CommonRootFieldComparison.lean",
+    "sha256": "aec9b93607ffd4e6f91f00c0b09ea222c13dbd6a4bc54d5e5a245ec4453b51bf",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonConstantTensorFraction": {
+    "path": "Source/CommonConstantTensorFraction.lean",
+    "sha256": "21dd84e960ec888cda3704cc8ac59290d53668ace290a87fae27c108667abd27",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonTensorCancelLeft": {
+    "path": "Source/CommonTensorCancelLeft.lean",
+    "sha256": "74f3f6fe7d6583ba0d104772a114e3152723d63d72da2c7f1b7a75aa92229a83",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonConstantFieldComparison": {
+    "path": "Source/CommonConstantFieldComparison.lean",
+    "sha256": "779592eae34c2007d2ceaaae06b433f566b7869bee5df75e4bbb6af64666add1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonPostGeometricGenus": {
+    "path": "Source/CommonPostGeometricGenus.lean",
+    "sha256": "ee201db4c1d732f4a328e4c28e7133f88aad41e3278db1d97fcf2b6bb8a4c5f0",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonPostBoundaryPlaces": {
+    "path": "Source/CommonPostBoundaryPlaces.lean",
+    "sha256": "2cc6613778a18635a74d8776f684ed491c6a5cab07e5f51a7180a19d05ca12cd",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "ProperCurveFieldIsoQ": {
+    "path": "Source/ProperCurveFieldIsoQ.lean",
+    "sha256": "deea53ebc481bea9ca2d413c35a233884f513e9b56d15b826f9603d2ff540721",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "ProjectiveLineCharts": {
+    "path": "Source/ProjectiveLineCharts.lean",
+    "sha256": "a66215307a24b6af1cfee9d2f2342ef977b08f1a00109d1e890d82de048e725b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "ProjectiveLineGeometry": {
+    "path": "Source/ProjectiveLineGeometry.lean",
+    "sha256": "3b3c42b06eedea3afde5bf71078bda28af5f21e8d904c642fdfc32ee9bd5bbae",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "ProjectiveLineField": {
+    "path": "Source/ProjectiveLineField.lean",
+    "sha256": "e8569c7a3023112c876f80bf91d47046353f46448ff2cce4304db545c9b5371c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "NormalizedBaseP1": {
+    "path": "Source/NormalizedBaseP1.lean",
+    "sha256": "5d1a40fc551a9fabb21757db7c4011b96ac3cb293454d802e500c631a947628b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonPostFiniteP1": {
+    "path": "Source/CommonPostFiniteP1.lean",
+    "sha256": "f0f6e6afc126ce79cb7f9a08d62a1f76e221a291d799c678cf1d86323f43c07d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonPostModelBoundary": {
+    "path": "Source/CommonPostModelBoundary.lean",
+    "sha256": "1e65746d0d94fe9266842622e92d51f8386be1bd88b635daeedc0650002234c5",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonExclusion": {
+    "path": "Source/CommonExclusion.lean",
+    "sha256": "18675caad79c855bc1f4be38a071c08b28155eea7b9bd52a446e704e8af3215a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "FamilySixMatrix08": {
+    "path": "Source/FamilySixMatrix08.lean",
+    "sha256": "d1342816c1660b7f9569e21f1ec38e2fb3dd4d9c76f0c9b362ae5334e361ce44",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "FamilySixKernel08": {
+    "path": "Source/FamilySixKernel08.lean",
+    "sha256": "580212415875718596c7784ef07526bb8814e040b982e404f749a58d81e4f5cf",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonFamilyRank": {
+    "path": "Source/CommonFamilyRank.lean",
+    "sha256": "e2d41ff1c5744e88b3a34408bc7ee11aa59717fdc61f9f6b83d82308e2004a03",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "FamilyConstituents": {
+    "path": "Source/FamilyConstituents.lean",
+    "sha256": "a40b88948c4ff547c6757f94ace1bdddecac910f40ad2a33c6b53691f34cf380",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "FourRootLift08": {
+    "path": "Source/FourRootLift08.lean",
+    "sha256": "5fec70d5e4f5ca8daa0af77cb92768e9ead7daf828cba471a134f5e5dce6fd58",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "RealTranscendentalSource08": {
+    "path": "Source/RealTranscendentalSource08.lean",
+    "sha256": "4b2dc8b5031df678db1a8dbe02ae1cf0d4f1342080f6c32c7bb7c60964048e4f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "RealFieldEmbedding08": {
+    "path": "Source/RealFieldEmbedding08.lean",
+    "sha256": "d08dabc4880eec5c0ad642e54f725ad70eb605daba355a4f009a2c2eafe8fac0",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "ProperCommonExclusion07": {
+    "path": "Source/ProperCommonExclusion07.lean",
+    "sha256": "a621c12ca58ece005d663a4660c6da28e2906db06656c6332bce18a48babe764",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "ActualRealPoint08": {
+    "path": "Source/ActualRealPoint08.lean",
+    "sha256": "4376fb906290f602703159dfda7beec94bd2933db62b42babf0ed69da022b91f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonInfinite": {
+    "path": "Source/CommonInfinite.lean",
+    "sha256": "d742b9fa9ebd3930e30281d63e6db80d2bda8e6defd9309fb0a7fe08f37faeb5",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ],
+    "source_reconciliation": "Exact imported source hash matched a recorded successful source verification receipt; no historical source variant substituted."
+  },
+  "CommonExclusionPackage": {
+    "path": "Source/CommonExclusionPackage.lean",
+    "sha256": "f164ee3b52511343a3780c44909954da84e3172daff050a1ad496a044542a84b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Verification entry point"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "CommonExclusionPaper": {
+    "path": "Source/CommonExclusionPaper.lean",
+    "sha256": "068e149a47dd0f266f2233962e16fe52ac0ef5401573428de0018bbc260b6899",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original exact squarefree-kernel hypothesis interface"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  }
+}

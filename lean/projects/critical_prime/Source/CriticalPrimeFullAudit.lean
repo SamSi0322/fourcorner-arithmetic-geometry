@@ -1,0 +1,58 @@
+import CriticalBasicFull
+
+#check @FourCorner.critical_basic
+#check @FourCorner.critical_basic_original_source
+#check @FourCorner.critical_crt
+
+#print axioms FourCorner.critical_allowed_iff_unit_pattern
+#print axioms FourCorner.critical_infinite_local_triples
+#print axioms FourCorner.critical_unit_iff_infinite_local
+#print axioms FourCorner.critical_basic
+#print axioms FourCorner.critical_basic_original_source
+#print axioms FourCorner.CriticalFiniteGenus.genus_one
+#print axioms FourCorner.CriticalFiniteGenus.hasse_bound
+#print axioms FourCorner.CriticalGoodPlacePattern.from_good_place
+#print axioms FourCorner.CriticalGoodPlacePattern.exists_good_place
+#print axioms FourCorner.CriticalGoodPlacePattern.exists_unit_pattern
+#print axioms FourCorner.critical_crt
+#print axioms FourCorner.critical_crt_infinite_from_unit_patterns
+#print axioms FourCorner.CriticalCRTCompletion.allowed_unit_pattern
+#print axioms FourCorner.CriticalPadicConverse.paper_local_reverse
+#print axioms FourCorner.CriticalPadicConverse.paper_local_nonzero
+#print axioms FourCorner.CriticalPadicConverse.paper_infinite_local_reverse
+#print axioms FourCorner.CriticalPadicConverse.original_padic_roots_to_unit_pattern
+#print axioms FourCorner.CriticalPadicConverse.nat_padic_roots_to_unit_pattern
+#print axioms FourCorner.CriticalPadicConverse.strict_nat_local_reverse
+#print axioms FourCorner.CriticalPadicConverse.all_depths_local_reverse
+#print axioms FourCorner.CriticalPadicConverse.unit_pattern_of_padic_roots
+#print axioms FourCorner.CriticalPadicConverse.padic_roots_exclude_exceptional
+#print axioms FourCorner.FractionTensorDomain.tensor_isDomain
+#print axioms FourCorner.CriticalRadicalField.degree_four
+#print axioms FourCorner.CriticalRadicalField.actual_critical_equations
+#print axioms FourCorner.CriticalRadicalField.a_transcendental
+#print axioms FourCorner.CriticalRadicalField.isCurveOver
+#print axioms FourCorner.CriticalRadicalField.essFiniteType
+#print axioms FourCorner.CriticalFieldConstants.constant_embedding
+#print axioms FourCorner.CriticalFieldConstants.constant_smul
+#print axioms FourCorner.CriticalFieldConstants.tower_fraction
+#print axioms FourCorner.CriticalFieldConstants.field_tensor_domain
+#print axioms FourCorner.CriticalFieldConstants.constantsAreBase
+#print axioms FourCorner.CriticalConstantFieldComparison.mapped_hypotheses
+#print axioms FourCorner.CriticalConstantFieldComparison.fractionFieldEquiv
+#print axioms FourCorner.CriticalGeometricGenus.infinity_unramified
+#print axioms FourCorner.CriticalGeometricGenus.genus_one
+#print axioms FourCorner.CriticalBadPlaces.rational_bad_mem_cover
+#print axioms FourCorner.CriticalBadPlaces.finite_and_card_le_twentyFour
+#print axioms FourCorner.CriticalBadPlaces.actual_bad_places
+#print axioms FourCorner.CriticalFiberBounds.card_le_finrank
+#print axioms FourCorner.CriticalFiberBounds.card_le_two
+#print axioms FourCorner.RationalLinePlaceImage.finite_image
+#print axioms FourCorner.RationalLinePlaceImage.infinity_image
+#print axioms FourCorner.CriticalHasseNumerics.count_gt_twentyFour
+#print axioms FourCorner.CriticalHasseNumerics.exists_outside
+
+open Lean Elab Command in
+run_cmd do
+  let env ← getEnv
+  for m in env.header.moduleNames do
+    logInfo m!"AUDIT_IMPORT {m}"

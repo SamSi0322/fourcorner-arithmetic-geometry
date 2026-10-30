@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_RROpens_exists_degree_eq_sub_one_and_ell_eq_zero
+
+alias AlgebraicCurve.RROpens.exists_degree_eq_sub_one_and_ell_eq_zero := P2MW.S_AlgebraicCurve_RROpens_exists_degree_eq_sub_one_and_ell_eq_zero.solution

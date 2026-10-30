@@ -1,0 +1,48 @@
+import CommonGenusBoundaryFull
+
+-- Full statement and the actual generic-stalk, point, fibre and coordinate bridges.
+#check @FourCorner.CommonGenusBoundaryFull.prop_common_genus_boundary
+#check @FourCorner.CommonPostStalkFields.source_factor
+#check @FourCorner.CommonPostStalkFields.base_factor
+#check @FourCorner.CommonPostEllDegree.generic_stalk_square
+#check @FourCorner.CommonPostEllDegree.degree_sixteen
+#check @FourCorner.CommonPostBranchFibres.ellClosed_place
+#check @FourCorner.CommonPostBranchFibres.branch_locus_exact
+#check @FourCorner.CommonPostBranchFibres.rational_point_avoids_branch_fibres
+#check @FourCorner.CommonPostBranchValues.finiteValue_order
+#check @FourCorner.CommonPostBranchValues.infinityValue_order
+
+#print axioms FourCorner.CommonGenusBoundaryFull.prop_common_genus_boundary
+#print axioms FourCorner.CommonPostStalkFields.sourceEquiv
+#print axioms FourCorner.CommonPostStalkFields.baseEquiv
+#print axioms FourCorner.CommonPostStalkFields.source_stalk_bijective
+#print axioms FourCorner.CommonPostStalkFields.base_stalk_bijective
+#print axioms FourCorner.CommonPostStalkFields.source_factor
+#print axioms FourCorner.CommonPostStalkFields.base_factor
+#print axioms FourCorner.GenericStalkField.factor
+#print axioms FourCorner.FractionGenericStalk.open_stalk_eval_bijective
+#print axioms FourCorner.CommonPostEllDegree.fieldPullback
+#print axioms FourCorner.CommonPostEllDegree.generic_stalk_square
+#print axioms FourCorner.CommonPostEllDegree.degree_sixteen
+#print axioms FourCorner.NormalizationPlaceRestriction.heightOne_restrict
+#print axioms FourCorner.NormalizationPointRestriction.point_restrict
+#print axioms FourCorner.NormalizedModelPointRestriction.point_restrict
+#print axioms FourCorner.CommonPostBranchFibres.ellClosed_place
+#print axioms FourCorner.CommonPostBranchFibres.branchPoints_card
+#print axioms FourCorner.CommonPostBranchFibres.branch_locus_exact
+#print axioms FourCorner.CommonPostBranchFibres.ramification_formula
+#print axioms FourCorner.CommonPostBranchFibres.rational_point_avoids_branch_fibres
+#print axioms FourCorner.CommonPostBranchValues.branchPoints_eq
+#print axioms FourCorner.CommonPostBranchValues.finiteValue_place
+#print axioms FourCorner.CommonPostBranchValues.infinityValue_place
+#print axioms FourCorner.CommonPostBranchValues.finiteValue_order
+#print axioms FourCorner.CommonPostBranchValues.infinityValue_order
+#print axioms FourCorner.NormalizedBaseP1.generic_iso
+#print axioms FourCorner.ProjectiveLineCharts.fieldEquiv
+#print axioms FourCorner.ProjectiveLineCharts.chartEquiv
+#print axioms FourCorner.CommonPostGeometricGenus.geometricFieldEquiv
+#print axioms FourCorner.CommonPostGeometricGenus.geometric_globalDifferentials_nine
+#print axioms FourCorner.CommonPostFiniteP1.generic_ellMap
+#print axioms FourCorner.CommonPostFiniteP1.ellMap_isFinite
+#print axioms FourCorner.CommonPostPointResidue.valuation_eval_eq
+#print axioms FourCorner.CommonPostModelBoundary.actual_model_point_avoids_boundary

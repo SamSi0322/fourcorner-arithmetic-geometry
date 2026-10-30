@@ -1,0 +1,51 @@
+[
+  {
+    "original_module": "FourCorner.CriticalBasicWave24",
+    "published_module": "CrtSupport.CriticalBasicWave24",
+    "original_source_sha256": "c9d3c675042a3935d5ce6aed38c58edd511aa99a4342e9726981626c7c8249e3",
+    "published_source_sha256": "c9d3c675042a3935d5ce6aed38c58edd511aa99a4342e9726981626c7c8249e3",
+    "transformation": "only mutual import FourCorner.Wave24/25 paths become CrtSupport.Wave24/25; namespaces and all mathematical bodies unchanged"
+  },
+  {
+    "original_module": "FourCorner.CriticalBasicLiftWave24",
+    "published_module": "CrtSupport.CriticalBasicLiftWave24",
+    "original_source_sha256": "8a532111e4ecd2cf5cad0bb3e1068f0735e51b08d09ddcaa169d417de48d029b",
+    "published_source_sha256": "8a532111e4ecd2cf5cad0bb3e1068f0735e51b08d09ddcaa169d417de48d029b",
+    "transformation": "only mutual import FourCorner.Wave24/25 paths become CrtSupport.Wave24/25; namespaces and all mathematical bodies unchanged"
+  },
+  {
+    "original_module": "FourCorner.CriticalCRTWave25",
+    "published_module": "CrtSupport.CriticalCRTWave25",
+    "original_source_sha256": "19b7836e305284874a91dc69d538aeeec44a1d8692d435f6ec4aaebdecd1a293",
+    "published_source_sha256": "19b7836e305284874a91dc69d538aeeec44a1d8692d435f6ec4aaebdecd1a293",
+    "transformation": "only mutual import FourCorner.Wave24/25 paths become CrtSupport.Wave24/25; namespaces and all mathematical bodies unchanged"
+  },
+  {
+    "original_module": "FourCorner.CriticalCRTPersistenceWave25",
+    "published_module": "CrtSupport.CriticalCRTPersistenceWave25",
+    "original_source_sha256": "7c3418de7c27a298526dc4de21e312c553a22d511018e4f323213dc331c6238b",
+    "published_source_sha256": "c9d095c5dc2ab46c8f820704a1f45e2d3e35fa5aa1020ee19ec95de68f450c44",
+    "transformation": "only mutual import FourCorner.Wave24/25 paths become CrtSupport.Wave24/25; namespaces and all mathematical bodies unchanged"
+  },
+  {
+    "original_module": "FourCorner.CriticalCongruenceWave24",
+    "published_module": "CrtSupport.CriticalCongruenceWave24",
+    "original_source_sha256": "432d83e6ffdf50e23d3ba49755b26b013a48cce75d7bfa5a6c72dba94dfdae72",
+    "published_source_sha256": "3a974db61549c199c1b1522eab721e6685a76fa0ff348e2faae8eee639bd0eb1",
+    "transformation": "only mutual import FourCorner.Wave24/25 paths become CrtSupport.Wave24/25; namespaces and all mathematical bodies unchanged"
+  },
+  {
+    "original_module": "FourCorner.CriticalCRTAssemblyWave25",
+    "published_module": "CrtSupport.CriticalCRTAssemblyWave25",
+    "original_source_sha256": "82c67843979aa847e5ca9ff49533738eb91dcfbee5a9474ddcd6935517da08ee",
+    "published_source_sha256": "98e70ac112e507e22b9b65e33473b4ebad21a535eaba5c213f8f8fd018849d16",
+    "transformation": "only mutual import FourCorner.Wave24/25 paths become CrtSupport.Wave24/25; namespaces and all mathematical bodies unchanged"
+  },
+  {
+    "original_module": "FourCorner.CriticalBasicFamilyWave24",
+    "published_module": "CrtSupport.CriticalBasicFamilyWave24",
+    "original_source_sha256": "b9178ce3c04200fda6b92ceab1ca20ee6ed8bc4c8dd3b63964deab417926ef4b",
+    "published_source_sha256": "e771eb429a0fbc509c4540435997acb01e18725671640a55b41b3518bbfb2a35",
+    "transformation": "only mutual import FourCorner.Wave24/25 paths become CrtSupport.Wave24/25; namespaces and all mathematical bodies unchanged"
+  }
+]

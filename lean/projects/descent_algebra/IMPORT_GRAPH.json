@@ -1,0 +1,286 @@
+{
+  "root": "DescentAlgebraAudit",
+  "own_sources": 15,
+  "mathematical_and_compatibility_sources": 13,
+  "private_mathematical_parents": [],
+  "standard_dependency": "Mathlib db584cd6d46c92f209a44c0f1c829460d327499d plus locked transitive dependencies; Lean 4.33.1",
+  "nodes": [
+    {
+      "module": "AffineIdealDescent",
+      "path": "Source/AffineIdealDescent.lean",
+      "sha256": "8a604e4cecb3d518c42113c0cd1bb528fbec73d4616bac8e9c6db7e921b3fbdc",
+      "direct_imports": [
+        {
+          "module": "IdealTensorDescent",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Mathlib.AlgebraicGeometry.Morphisms.Flat",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.AlgebraicGeometry.Morphisms.UnderlyingMap",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "DescentAlgebra",
+      "path": "Source/DescentAlgebra.lean",
+      "sha256": "c2df71d96a8cb90fbf98af31d57e7d7e505b9696b180271af1c4d029e6c67d2f",
+      "direct_imports": [
+        {
+          "module": "FiniteWidePullback",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Theorems.Thm_CategoryTheory_MorphismProperty_widePullback_base",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "WidePullbackSchemeApplications",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "PairCoactionInvariants",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "FlatTensorKernel",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "IdealFlatDescent",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "IdealTensorDescent",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "AffineIdealDescent",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Theorems.Thm_Ideal_map_comap_eq_self_of_map_includeLeft_eq_map_includeRight",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "ModuleConstantRankPresentation",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "ModuleLocalizedRank",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Theorems.Thm_Module_rankAtStalk_eq_of_forall_localizedModule_equiv",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Theorems.Thm_Module_finitePresentation_of_rankAtStalk_eq",
+          "owner": "descent_algebra"
+        }
+      ]
+    },
+    {
+      "module": "DescentAlgebraAudit",
+      "path": "Source/DescentAlgebraAudit.lean",
+      "sha256": "55d6a3d4851357a2f3f14ea397432dded1ce41d054c3cdbd98820dcd700c36fc",
+      "direct_imports": [
+        {
+          "module": "DescentAlgebra",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Lean.Util.CollectAxioms",
+          "owner": "Lean toolchain"
+        }
+      ]
+    },
+    {
+      "module": "FiniteWidePullback",
+      "path": "Source/FiniteWidePullback.lean",
+      "sha256": "96406d68cee1ce02025842a3a1baf237da6cfe1f0f7f7eed638367dd4ab76b3f",
+      "direct_imports": [
+        {
+          "module": "Mathlib.CategoryTheory.MorphismProperty.Limits",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.CategoryTheory.Limits.Shapes.FiniteLimits",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.CategoryTheory.Limits.Shapes.WidePullbacks",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.Data.Fintype.EquivFin",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "FlatTensorKernel",
+      "path": "Source/FlatTensorKernel.lean",
+      "sha256": "b031cc2860a07cd9b99afe54f9163849dda119e55301575a049f47759d47a2e3",
+      "direct_imports": [
+        {
+          "module": "Mathlib.RingTheory.Flat.Basic",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.LinearAlgebra.TensorProduct.RightExactness",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "IdealFlatDescent",
+      "path": "Source/IdealFlatDescent.lean",
+      "sha256": "ca4060f5533cd0185e95b5a7f69bd90dfc5b8d54183cdf93aeab1f6d1c8cdded",
+      "direct_imports": [
+        {
+          "module": "FlatTensorKernel",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Mathlib.RingTheory.Ideal.Quotient.Operations",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "IdealTensorDescent",
+      "path": "Source/IdealTensorDescent.lean",
+      "sha256": "af1a599c15c098b57d48040c26b1a5736c1eca4f150b0b6f8f649d756368566a",
+      "direct_imports": [
+        {
+          "module": "IdealFlatDescent",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Mathlib.RingTheory.Flat.FaithfullyFlat.Algebra",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "ModuleConstantRankPresentation",
+      "path": "Source/ModuleConstantRankPresentation.lean",
+      "sha256": "34db249f06872d7050cc6015fb623e915b4f1657ba8c0c4be3de2be7c119e0bd",
+      "direct_imports": [
+        {
+          "module": "Mathlib.RingTheory.Flat.LocallyFree",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.RingTheory.LocalProperties.FinitePresentation",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "ModuleLocalizedRank",
+      "path": "Source/ModuleLocalizedRank.lean",
+      "sha256": "c177cbf1b1bd63281c816b2bf9d416a117386ff59f317b1950ca5a72a7be4e12",
+      "direct_imports": [
+        {
+          "module": "ModuleConstantRankPresentation",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Mathlib.RingTheory.Spectrum.Prime.Noetherian",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.LinearAlgebra.TensorProduct.Pi",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "PairCoactionInvariants",
+      "path": "Source/PairCoactionInvariants.lean",
+      "sha256": "5088c29425c37faa2554969e24356b31c942ba87db5f7978c9af131943f04be2",
+      "direct_imports": [
+        {
+          "module": "Mathlib.LinearAlgebra.TensorProduct.Basis",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.LinearAlgebra.TensorProduct.Map",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.LinearAlgebra.Basis.VectorSpace",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    },
+    {
+      "module": "Theorems.Thm_CategoryTheory_MorphismProperty_widePullback_base",
+      "path": "Source/Theorems/Thm_CategoryTheory_MorphismProperty_widePullback_base.lean",
+      "sha256": "80c926b1a47fd2d2d66b473a793a01b18427a94efbb95cbd1efbcafc33f5b0a9",
+      "direct_imports": [
+        {
+          "module": "FiniteWidePullback",
+          "owner": "descent_algebra"
+        }
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Ideal_map_comap_eq_self_of_map_includeLeft_eq_map_includeRight",
+      "path": "Source/Theorems/Thm_Ideal_map_comap_eq_self_of_map_includeLeft_eq_map_includeRight.lean",
+      "sha256": "53a13674eefe529e4da77d1a8c8fff0d5749ee23ab6403bbb619ec4a62141acf",
+      "direct_imports": [
+        {
+          "module": "IdealTensorDescent",
+          "owner": "descent_algebra"
+        }
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Module_finitePresentation_of_rankAtStalk_eq",
+      "path": "Source/Theorems/Thm_Module_finitePresentation_of_rankAtStalk_eq.lean",
+      "sha256": "46b141c9b8b5013378a252a51678b296668d5910f53500ed0deb805b3d2cd294",
+      "direct_imports": [
+        {
+          "module": "ModuleConstantRankPresentation",
+          "owner": "descent_algebra"
+        }
+      ]
+    },
+    {
+      "module": "Theorems.Thm_Module_rankAtStalk_eq_of_forall_localizedModule_equiv",
+      "path": "Source/Theorems/Thm_Module_rankAtStalk_eq_of_forall_localizedModule_equiv.lean",
+      "sha256": "f828e85229b9ae70ac0c495c962951127e94562e771caec2e90a2aa20dbcb583",
+      "direct_imports": [
+        {
+          "module": "ModuleLocalizedRank",
+          "owner": "descent_algebra"
+        }
+      ]
+    },
+    {
+      "module": "WidePullbackSchemeApplications",
+      "path": "Source/WidePullbackSchemeApplications.lean",
+      "sha256": "ff57cf50e0bf5fd5390a2a874761f3d28627fece14a3e3080b90584442cebb9a",
+      "direct_imports": [
+        {
+          "module": "Theorems.Thm_CategoryTheory_MorphismProperty_widePullback_base",
+          "owner": "descent_algebra"
+        },
+        {
+          "module": "Mathlib.AlgebraicGeometry.Morphisms.Proper",
+          "owner": "pinned official Mathlib"
+        },
+        {
+          "module": "Mathlib.AlgebraicGeometry.Morphisms.Affine",
+          "owner": "pinned official Mathlib"
+        }
+      ]
+    }
+  ]
+}

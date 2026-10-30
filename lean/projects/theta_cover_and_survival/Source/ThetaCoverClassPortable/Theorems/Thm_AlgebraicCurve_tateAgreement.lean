@@ -1,0 +1,24 @@
+import ThetaCoverClassPortable.ReplayImports
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_DivisorClassGroup
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_RatFuncPlaces
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_IsCurveOver
+import ThetaCoverClassPortable.Definitions.Def_ModularCurve_CanonicalDivisor
+import ThetaCoverClassPortable.Definitions.Def_ModularCurve_CanonicalDivisorUniformizer
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_Repartitions
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_AdelicIndex
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_CanonicalDivisor
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_LocalResidue
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_DivisorPushPull
+import ThetaCoverClassPortable.Definitions.Def_DedekindDomain_AdicValuation_InlineSpecific
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_PlaceCompletion
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_TateResidueCurrency
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_CanonicalLocalResidueInstance
+import ThetaCoverClassPortable.P2M.Util
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_tateAgreement
+
+theorem AlgebraicCurve.tateAgreement
+    {K L : Type*} [Field K] [Field L] [Algebra K L]
+    [AlgebraicCurve.IsCurveOver K L] [PerfectField K]
+    [∀ u : AlgebraicCurve.Place K L, u.FiniteResidue]
+    (hfin : ModularCurve.KwF4gRRTate.KwF4gRRTateCommFinite K L) :
+    ModularCurve.KwF4gRRTate.KwF4gRRTateAgreement K L hfin := by p2m_exact_reverting @_root_.P2MW.S_AlgebraicCurve_tateAgreement.solution

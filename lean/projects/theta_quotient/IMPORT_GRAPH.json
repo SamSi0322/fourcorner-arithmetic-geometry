@@ -1,0 +1,203 @@
+{
+  "ThetaQuotientAudit": [
+    "ThetaQuotient"
+  ],
+  "ThetaQuotient": [
+    "ThetaActualQuotient",
+    "ThetaSourceGenus",
+    "ThetaTargetSmooth"
+  ],
+  "ThetaActualQuotient": [
+    "ThetaDeckInvolution",
+    "ThetaPairInvariantEquiv",
+    "ThetaPairGalois"
+  ],
+  "ThetaDeckInvolution": [
+    "ThetaInvolutionChart",
+    "ThetaProjectionDegree"
+  ],
+  "ThetaInvolutionChart": [
+    "ThetaHomogeneousSign",
+    "ThetaPairInvariants",
+    "ThetaSourcePairData",
+    "ThetaProjectionChartMap"
+  ],
+  "ThetaHomogeneousSign": [
+    "ThetaInvolution"
+  ],
+  "ThetaInvolution": [
+    "ThetaSourceComparison",
+    "ThetaProjection"
+  ],
+  "ThetaSourceComparison": [
+    "ThetaOppositeComparison",
+    "ThetaSourceSmooth",
+    "ThetaProjEquality"
+  ],
+  "ThetaOppositeComparison": [
+    "ThetaLiteralModels",
+    "ThetaPolynomialFunext",
+    "OppositeProjectiveGenusFive"
+  ],
+  "ThetaLiteralModels": [
+    "ThetaProjectiveModel",
+    "ThetaProjectiveCoordinates",
+    "Mathlib.Tactic"
+  ],
+  "ThetaProjectiveModel": [
+    "ThetaQuotientChart",
+    "Slot02ProjectiveQuotient",
+    "Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper"
+  ],
+  "ThetaQuotientChart": [
+    "ThetaAmbientChart"
+  ],
+  "ThetaAmbientChart": [
+    "Slot02HighRatios",
+    "Mathlib.Logic.Equiv.Fin.Basic",
+    "geometry.ProjectiveLocalization"
+  ],
+  "ThetaProjectiveCoordinates": [
+    "Mathlib.Tactic"
+  ],
+  "ThetaPolynomialFunext": [
+    "Mathlib.Algebra.Polynomial.RingDivision",
+    "Mathlib.Algebra.Polynomial.Roots",
+    "Mathlib.Algebra.MvPolynomial.CommRing",
+    "ThetaMvPolynomialPolynomial",
+    "Mathlib.Algebra.MvPolynomial.Rename"
+  ],
+  "ThetaMvPolynomialPolynomial": [
+    "Mathlib.Algebra.MvPolynomial.Equiv"
+  ],
+  "ThetaSourceSmooth": [
+    "ThetaLiteralModels",
+    "ThetaModelBase"
+  ],
+  "ThetaModelBase": [
+    "ThetaProjectiveModel",
+    "FiniteJacobianSmooth"
+  ],
+  "ThetaProjEquality": [
+    "Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor"
+  ],
+  "ThetaProjection": [
+    "ThetaLiteralModels",
+    "ThetaProjMap"
+  ],
+  "ThetaProjMap": [
+    "Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic",
+    "Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps"
+  ],
+  "ThetaPairInvariants": [
+    "ThetaPairPresentation"
+  ],
+  "ThetaPairPresentation": [
+    "ThetaQuadraticKernel",
+    "Mathlib.RingTheory.RingHom.Etale"
+  ],
+  "ThetaQuadraticKernel": [
+    "FiniteJacobianSmooth",
+    "Mathlib.RingTheory.AdjoinRoot",
+    "Mathlib.AlgebraicGeometry.Morphisms.Etale"
+  ],
+  "ThetaSourcePairData": [
+    "ThetaSourcePresentation",
+    "ThetaPairPresentation"
+  ],
+  "ThetaSourcePresentation": [
+    "ThetaChartAlgebras"
+  ],
+  "ThetaChartAlgebras": [
+    "ThetaQuotientCharts"
+  ],
+  "ThetaQuotientCharts": [
+    "ThetaOriginImage",
+    "ThetaPolynomialFunext"
+  ],
+  "ThetaOriginImage": [
+    "ThetaBoundary",
+    "ThetaSourceComparison"
+  ],
+  "ThetaBoundary": [
+    "ThetaActualPoints",
+    "ThetaPointAPI",
+    "ThetaHomogeneousEvaluation",
+    "ThetaProjection"
+  ],
+  "ThetaActualPoints": [
+    "ThetaLiteralModels",
+    "ThetaModelBase"
+  ],
+  "ThetaPointAPI": [
+    "ThetaModelBase"
+  ],
+  "ThetaHomogeneousEvaluation": [
+    "ThetaModelBase"
+  ],
+  "ThetaProjectionChartMap": [
+    "ThetaChartAlgebras"
+  ],
+  "ThetaProjectionDegree": [
+    "ThetaProjectionFiniteEtale",
+    "ThetaPairRank",
+    "ThetaStdSchemeFlatRank"
+  ],
+  "ThetaProjectionFiniteEtale": [
+    "ThetaProjectionChartMap",
+    "ThetaChartFiniteEtale"
+  ],
+  "ThetaChartFiniteEtale": [
+    "ThetaSourcePairData",
+    "ThetaPairDescent",
+    "Mathlib.AlgebraicGeometry.Morphisms.Finite"
+  ],
+  "ThetaPairDescent": [
+    "ThetaPairBaseChange",
+    "Mathlib.RingTheory.Localization.BaseChange",
+    "Mathlib.RingTheory.RingHom.Finite"
+  ],
+  "ThetaPairBaseChange": [
+    "ThetaPairPresentation",
+    "Mathlib.RingTheory.TensorProduct.Basic"
+  ],
+  "ThetaPairRank": [
+    "ThetaPairDescent",
+    "ThetaStdRingFlatRank"
+  ],
+  "ThetaStdRingFlatRank": [
+    "Mathlib.LinearAlgebra.Trace",
+    "Mathlib.RingTheory.Spectrum.Prime.FreeLocus",
+    "Mathlib.RingTheory.RingHom.Flat"
+  ],
+  "ThetaStdSchemeFlatRank": [
+    "Mathlib.CategoryTheory.Limits.Shapes.Countable",
+    "ThetaStdModuleFinitePresentation",
+    "Mathlib.AlgebraicGeometry.Morphisms.Flat",
+    "Mathlib.AlgebraicGeometry.Morphisms.Finite",
+    "Mathlib.AlgebraicGeometry.Morphisms.FinitePresentation",
+    "ThetaStdRingFlatRank"
+  ],
+  "ThetaStdModuleFinitePresentation": [
+    "Mathlib.Algebra.Module.FinitePresentation",
+    "Mathlib.RingTheory.AdjoinRoot"
+  ],
+  "ThetaPairInvariantEquiv": [
+    "ThetaPairInvariants",
+    "ThetaPairRank"
+  ],
+  "ThetaPairGalois": [
+    "ThetaPairInvariants"
+  ],
+  "ThetaSourceGenus": [
+    "ThetaSourceComparison",
+    "ThetaIsoFunctionField"
+  ],
+  "ThetaIsoFunctionField": [
+    "SmoothCurveFieldIso"
+  ],
+  "ThetaTargetSmooth": [
+    "ThetaLiteralModels",
+    "ThetaModelBase"
+  ]
+}

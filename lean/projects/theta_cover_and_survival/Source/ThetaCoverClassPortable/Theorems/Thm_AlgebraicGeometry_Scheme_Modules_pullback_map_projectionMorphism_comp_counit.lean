@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_pullback_map_projectionMorphism_comp_counit
+namespace AlgebraicGeometry.Scheme.Modules
+alias pullback_map_projectionMorphism_comp_counit := P2MW.S_AlgebraicGeometry_Scheme_Modules_pullback_map_projectionMorphism_comp_counit.solution
+end AlgebraicGeometry.Scheme.Modules

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Hom_ord_eq_of_ker_pow_ideal_eq_span
+
+alias AlgebraicGeometry.Scheme.Hom.ord_eq_of_ker_pow_ideal_eq_span := P2MW.S_AlgebraicGeometry_Scheme_Hom_ord_eq_of_ker_pow_ideal_eq_span.solution

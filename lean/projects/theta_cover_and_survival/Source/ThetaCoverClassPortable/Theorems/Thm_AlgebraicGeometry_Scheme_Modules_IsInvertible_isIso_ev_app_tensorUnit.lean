@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_isIso_ev_app_tensorUnit
+
+namespace AlgebraicGeometry.Scheme.Modules.IsInvertible
+alias isIso_ev_app_tensorUnit := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_isIso_ev_app_tensorUnit.solution
+end AlgebraicGeometry.Scheme.Modules.IsInvertible

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_IdealSheafData_ideal_comap_of_le
+
+namespace AlgebraicGeometry.Scheme.IdealSheafData
+alias ideal_comap_of_le := P2MW.S_AlgebraicGeometry_Scheme_IdealSheafData_ideal_comap_of_le.solution
+end AlgebraicGeometry.Scheme.IdealSheafData

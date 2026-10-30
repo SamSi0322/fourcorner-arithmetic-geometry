@@ -1,0 +1,7 @@
+Unramified genus-seventeen covers and same-point ordered rational lifting.
+Original project proofs and integration support: Yuan Si, Apache-2.0.
+The common_genus source dependency and its common_exclusion, adjacent_genus,
+opposite_genus and fourcorner_paper parents retain their original source provenance
+and licenses, including existing upstream Apache-2.0 attributions for adapted
+normalization, valuative and Riemann--Hurwitz infrastructure. Lean, Mathlib and
+other standard dependencies are not vendored and retain their original licenses.

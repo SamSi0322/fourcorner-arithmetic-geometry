@@ -1,0 +1,35 @@
+{
+  "jacobian_finite_wide_pullback": [
+    "FourCorner.FiniteWidePullback.exists_good_limit",
+    "FourCorner.FiniteWidePullback.fin_base",
+    "CategoryTheory.MorphismProperty.widePullback_base",
+    "FourCorner.FiniteWidePullback.scheme_fibre_power",
+    "FourCorner.FiniteWidePullback.proper_scheme_fibre_power",
+    "FourCorner.FiniteWidePullback.affine_scheme_fibre_power"
+  ],
+  "jacobian_pair_coaction_invariants": [
+    "FourCorner.PairCoactionInvariants.coefficient",
+    "FourCorner.PairCoactionInvariants.coefficient_tmul",
+    "FourCorner.PairCoactionInvariants.coefficient_natural",
+    "FourCorner.PairCoactionInvariants.exists_nonzero_coefficient",
+    "FourCorner.PairCoactionInvariants.unitVector",
+    "FourCorner.PairCoactionInvariants.coefficient_invariant",
+    "FourCorner.PairCoactionInvariants.exists_nonzero_invariant_of_injective",
+    "FourCorner.PairCoactionInvariants.exists_nonzero_invariant_of_counit"
+  ],
+  "jacobian_ideal_descent": [
+    "FourCorner.IdealFlatDescent.tensor_kernel_of_flat",
+    "FourCorner.IdealFlatDescent.map_comap_of_tensor_invariance",
+    "Ideal.map_comap_eq_self_of_map_includeLeft_eq_map_includeRight",
+    "FourCorner.IdealFlatDescent.affine_global_sections_faithfully_flat",
+    "FourCorner.IdealFlatDescent.affine_ideal_descends"
+  ],
+  "jacobian_module_rank_presentation": [
+    "Module.finitePresentation_of_rankAtStalk_eq",
+    "FourCorner.ModuleLocalizedRank.tensorEquivOfLocalizedEquiv",
+    "FourCorner.ModuleLocalizedRank.tensorPiLocalization",
+    "FourCorner.ModuleLocalizedRank.scalarTensorEquiv",
+    "FourCorner.ModuleLocalizedRank.rankAtMaximal_eq_of_localizedEquiv",
+    "Module.rankAtStalk_eq_of_forall_localizedModule_equiv"
+  ]
+}

@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_tensorHom_app_tensorSections
+namespace AlgebraicGeometry.Scheme.Modules
+alias tensorHom_app_tensorSections := P2MW.S_AlgebraicGeometry_Scheme_Modules_tensorHom_app_tensorSections.solution
+end AlgebraicGeometry.Scheme.Modules

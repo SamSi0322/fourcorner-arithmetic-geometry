@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_baseChange_points_mul_poincare_compat
+
+alias AlgebraicGeometry.RelPicard.baseChange_points_mul_poincare_compat := P2MW.S_AlgebraicGeometry_RelPicard_baseChange_points_mul_poincare_compat.solution

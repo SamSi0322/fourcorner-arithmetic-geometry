@@ -1,0 +1,50 @@
+{
+  "ThetaMvPolynomialPolynomial": {
+    "project": "Mathlib",
+    "source_path": "Mathlib/Algebra/MvPolynomial/Polynomial.lean",
+    "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+    "upstream_source_sha256": "43330a5e928a56af89b209101f98be347937384d2d435f875e2eaff698ccd650",
+    "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+    "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+  },
+  "ThetaPolynomialFunext": {
+    "project": "Mathlib",
+    "source_path": "Mathlib/Algebra/MvPolynomial/Funext.lean",
+    "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+    "upstream_source_sha256": "cb1821884a139917b692103a0b267115179cd4e7084da5487857ec49abb0cc7e",
+    "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+    "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+  },
+  "ThetaProjMap": {
+    "project": "Mathlib",
+    "source_path": "Mathlib/AlgebraicGeometry/ProjectiveSpectrum/Functor.lean",
+    "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+    "upstream_source_sha256": "7cecd45c1912d832d627f77b190f9ee57fe4cdb8d6e8da6049c0545fefaea086",
+    "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+    "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+  },
+  "ThetaStdRingFlatRank": {
+    "project": "Mathlib",
+    "source_path": "Mathlib/RingTheory/Flat/Rank.lean",
+    "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+    "upstream_source_sha256": "228536992011d3f77aa2ac3bf7fb8b8a36124498bc05b2b9909927046747e2c5",
+    "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+    "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+  },
+  "ThetaStdModuleFinitePresentation": {
+    "project": "Mathlib",
+    "source_path": "Mathlib/RingTheory/Finiteness/ModuleFinitePresentation.lean",
+    "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+    "upstream_source_sha256": "53ec4b69c8869638a7ba0e0dbfa637e94f39d1b8454b02d9c63482cc00361db8",
+    "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+    "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+  },
+  "ThetaStdSchemeFlatRank": {
+    "project": "Mathlib",
+    "source_path": "Mathlib/AlgebraicGeometry/Morphisms/FlatRank.lean",
+    "revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+    "upstream_source_sha256": "abdbf477169736bfdaec5a4e2aa9e2911e361d3245d5dbd332bab494bcef8c28",
+    "copyright_and_license": "Original copyright and Apache-2.0 headers retained in the copied source",
+    "project_adaptation": "Yuan Si; exact reviewed prototype bytes"
+  }
+}

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_Place_exists_forall_adicValuation_sub_eq
+
+alias AlgebraicCurve.Place.exists_forall_adicValuation_sub_eq := P2MW.S_AlgebraicCurve_Place_exists_forall_adicValuation_sub_eq.solution

@@ -1,0 +1,95 @@
+import CriticalEllipticFull
+
+#check @FourCorner.CriticalEllipticFull.critical_elliptic
+#check @FourCorner.CriticalBoundaryClassification.geometric_boundary
+
+#print axioms FourCorner.CriticalEllipticFull.unique_geometric_boundary
+#print axioms FourCorner.CriticalEllipticFull.critical_elliptic
+#print axioms FourCorner.CriticalSchemeIso.iso
+#print axioms FourCorner.CriticalSchemeIso.iso_over_base
+#print axioms FourCorner.CriticalSchemeIso.exists_iso
+#print axioms FourCorner.CriticalSchemeIso.genericFieldEquiv
+#print axioms FourCorner.CriticalProjectiveField.nativeChart_over_base
+#print axioms FourCorner.CriticalProjectiveField.fieldEquiv
+#print axioms FourCorner.CriticalProjectiveField.generic_diagram
+#print axioms FourCorner.CriticalNativeFieldIso.fieldEquiv
+#print axioms FourCorner.CriticalNativeFieldIso.original_coordinates
+#print axioms FourCorner.CriticalNativeFieldIso.fieldEquiv_x
+#print axioms FourCorner.CriticalNativeFieldIso.fieldEquiv_y
+#print axioms FourCorner.CriticalNativeFieldIso.source_denominators
+#print axioms FourCorner.CriticalFieldEquivalence.inverse_coordinates
+#print axioms FourCorner.CriticalEllipticField.x_transcendental
+#print axioms FourCorner.CriticalEllipticField.equation
+#print axioms FourCorner.CriticalEllipticEvaluation.evaluate_injective
+#print axioms FourCorner.CriticalDirectMap.elliptic_equation
+#print axioms FourCorner.CriticalDirectMap.inverse_denominator
+#print axioms FourCorner.CriticalDirectMap.inverseA_forward
+#print axioms FourCorner.CriticalDirectMap.inverseB_forward
+#print axioms FourCorner.CriticalDirectMap.inverseC_forward
+#print axioms FourCorner.CriticalConicParameter.first_inverse
+#print axioms FourCorner.CriticalConicParameter.second_inverse
+#print axioms FourCorner.CriticalAffineDomain.coordinate_transcendental
+#print axioms FourCorner.CriticalAffineDomain.ring_isDomain
+#print axioms FourCorner.CriticalProjectiveSmooth.projective_smooth
+#print axioms FourCorner.CriticalProjectiveIntegral.projective_integral
+#print axioms FourCorner.EllipticQuarticModel.proper
+#print axioms FourCorner.EllipticQuarticModel.smooth
+#print axioms FourCorner.EllipticQuarticModel.integral
+#print axioms FourCorner.EllipticQuarticModel.nativeFieldEquiv
+#print axioms FourCorner.SmoothCurveExtension.iso_of_functionField_algEquiv
+#print axioms FourCorner.AffineGenericStalk.fieldEquiv
+#print axioms FourCorner.CriticalAffineGeometry.coordinate_equations
+#print axioms FourCorner.CriticalAffineGeometry.coordinate_generates
+#print axioms FourCorner.CriticalAffineGeometry.ofCoordinates
+#print axioms FourCorner.CriticalAmbientChart.ambientEquiv
+#print axioms FourCorner.CriticalQuotientChart.chartEquiv
+#print axioms FourCorner.CriticalQuotientChart.chartSchemeIso
+#print axioms FourCorner.CriticalStandardCharts.chartIso
+#print axioms FourCorner.CriticalStandardCharts.zeroChartIso
+#print axioms FourCorner.CriticalScalarGeometry.zero_unique
+#print axioms FourCorner.CriticalScalarGeometry.minor_nonzero
+#print axioms FourCorner.CriticalChartJacobian.jacobian_formula
+#print axioms FourCorner.CriticalChartSmooth.field_point_coordinates
+#print axioms FourCorner.CriticalChartSmooth.pair_nonzero
+#print axioms FourCorner.CriticalChartSmooth.field_point_jacobian
+#print axioms FourCorner.CriticalChartSmooth.affine_smooth
+#print axioms FourCorner.CriticalChartBase.chart_over_base
+#print axioms FourCorner.CriticalProjectiveSmooth.actual_chart_smooth
+#print axioms FourCorner.CriticalSquareclasses.independent
+#print axioms FourCorner.CriticalAffineTower.equiv
+#print axioms FourCorner.CriticalAffineDomain.tower_coeff_injective
+#print axioms FourCorner.CriticalSecondChart.equiv
+#print axioms FourCorner.CriticalSecondChart.isDomain
+#print axioms FourCorner.CriticalTwoChartCover.two_charts_cover
+#print axioms FourCorner.CriticalTwoChartCover.cover
+#print axioms FourCorner.CriticalTwoChartCover.overlap_nonempty
+#print axioms FourCorner.CriticalAffineBaseChange.affineEquiv
+#print axioms FourCorner.CriticalAffineBaseChange.isDomain_tensor
+#print axioms FourCorner.CriticalGeometricIntegral.pullback_integral
+#print axioms FourCorner.CriticalGeometricIntegral.geometricallyIntegral
+#print axioms FourCorner.CriticalProj23.inclusion_isClosedImmersion
+#print axioms FourCorner.CriticalProj23.criticalToSpec_isProper
+#print axioms FourCorner.CriticalProj23.coordinate_opens_cover
+#print axioms FourCorner.AffineChartSections.sectionAlgEquiv
+#print axioms FourCorner.AffineChartSections.isDomain_tensor_sections
+#print axioms FourCorner.CriticalGeometricConnected.geometricallyConnected
+#print axioms FourCorner.CriticalExtensionPoints.point_affine_algebra
+#print axioms FourCorner.CriticalExtensionPoints.point_coordinates
+#print axioms FourCorner.CriticalHomogeneousEvaluation.chart_preimage
+#print axioms FourCorner.CriticalHomogeneousEvaluation.point_preimage
+#print axioms FourCorner.CriticalHomogeneousEvaluation.shift_value
+#print axioms FourCorner.CriticalBoundaryChart.factors_zero_chart
+#print axioms FourCorner.CriticalSignPoints.point_over
+#print axioms FourCorner.CriticalSignPoints.evaluation_ax
+#print axioms FourCorner.CriticalBoundaryClassification.geometric_boundary
+#print axioms FourCorner.CriticalBoundaryClassification.point_boundary
+#print axioms FourCorner.CriticalBoundaryCardinality.pointOver_injective
+#print axioms FourCorner.CriticalBoundaryCardinality.point_injective
+#print axioms FourCorner.CriticalBoundaryCardinality.pointOver_card
+#print axioms FourCorner.CriticalBoundaryCardinality.point_card
+
+open Lean Elab Command in
+run_cmd do
+  let env ← getEnv
+  for m in env.header.moduleNames do
+    logInfo m!"AUDIT_IMPORT {m}"

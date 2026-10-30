@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_nonempty_pullback_rigidify_iso
+
+namespace AlgebraicGeometry.Scheme.Modules.IsInvertible
+alias nonempty_pullback_rigidify_iso := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_nonempty_pullback_rigidify_iso.solution
+end AlgebraicGeometry.Scheme.Modules.IsInvertible

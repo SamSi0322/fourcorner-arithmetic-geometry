@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_OrderedAffineCover_nonempty_of_compactSpace
+
+alias AlgebraicGeometry.Scheme.OrderedAffineCover.nonempty_of_compactSpace := P2MW.S_AlgebraicGeometry_Scheme_OrderedAffineCover_nonempty_of_compactSpace.solution

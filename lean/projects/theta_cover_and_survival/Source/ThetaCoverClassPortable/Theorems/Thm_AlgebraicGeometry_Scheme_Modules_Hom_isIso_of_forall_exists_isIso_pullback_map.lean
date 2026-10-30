@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_Hom_isIso_of_forall_exists_isIso_pullback_map
+namespace AlgebraicGeometry.Scheme.Modules.Hom
+alias isIso_of_forall_exists_isIso_pullback_map := P2MW.S_AlgebraicGeometry_Scheme_Modules_Hom_isIso_of_forall_exists_isIso_pullback_map.solution
+end AlgebraicGeometry.Scheme.Modules.Hom

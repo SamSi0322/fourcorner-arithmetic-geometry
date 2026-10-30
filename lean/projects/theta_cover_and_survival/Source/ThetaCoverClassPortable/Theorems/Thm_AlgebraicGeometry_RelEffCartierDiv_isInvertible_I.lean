@@ -1,0 +1,2 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_isInvertible_I
+alias AlgebraicGeometry.RelEffCartierDiv.isInvertible_I := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_isInvertible_I.solution

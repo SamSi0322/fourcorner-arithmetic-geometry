@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_nonempty_ajFamily_fibre_iso
+
+namespace AlgebraicGeometry.RelPicard
+alias nonempty_ajFamily_fibre_iso := P2MW.S_AlgebraicGeometry_RelPicard_nonempty_ajFamily_fibre_iso.solution
+end AlgebraicGeometry.RelPicard

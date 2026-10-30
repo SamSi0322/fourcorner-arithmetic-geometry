@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_exists_isAffineOpen_sup_eq_top
+
+alias AlgebraicCurve.exists_isAffineOpen_sup_eq_top := P2MW.S_AlgebraicCurve_exists_isAffineOpen_sup_eq_top.solution

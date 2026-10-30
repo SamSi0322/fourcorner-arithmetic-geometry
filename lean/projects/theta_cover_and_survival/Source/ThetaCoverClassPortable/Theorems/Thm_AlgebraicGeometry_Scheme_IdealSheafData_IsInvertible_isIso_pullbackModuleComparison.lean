@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_IdealSheafData_IsInvertible_isIso_pullbackModuleComparison
+
+namespace AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible
+alias isIso_pullbackModuleComparison := P2MW.S_AlgebraicGeometry_Scheme_IdealSheafData_IsInvertible_isIso_pullbackModuleComparison.solution
+end AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible

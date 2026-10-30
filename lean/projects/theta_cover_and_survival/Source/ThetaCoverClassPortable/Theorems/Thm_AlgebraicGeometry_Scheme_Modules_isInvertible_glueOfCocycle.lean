@@ -1,0 +1,7 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isInvertible_glueOfCocycle
+
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+
+alias AlgebraicGeometry.Scheme.Modules.isInvertible_glueOfCocycle :=
+  P2MW.S_AlgebraicGeometry_Scheme_Modules_isInvertible_glueOfCocycle.solution

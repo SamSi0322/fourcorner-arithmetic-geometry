@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_Place_min_ord_le_ord_add
+
+alias AlgebraicCurve.Place.min_ord_le_ord_add := P2MW.S_AlgebraicCurve_Place_min_ord_le_ord_add.solution

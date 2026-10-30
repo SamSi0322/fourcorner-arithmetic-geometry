@@ -1,0 +1,69 @@
+{
+  "purpose": "Reuse canonical common_source parent mappings; relocate new CommonSourceDyadicResidue outside root broad FourCorner glob. ONLY module paths and import lines change. Every declaration body is byte-identical.",
+  "module_path_renames": {
+    "FourCorner.CommonSourceDyadicChart": "CSFoundation.CommonSourceDyadicChart",
+    "FourCorner.CommonSourceDyadicReturn": "CSFoundation.CommonSourceDyadicReturn",
+    "FourCorner.CommonSourceDyadicExcluded": "CSFoundation.CommonSourceDyadicExcluded",
+    "FourCorner.CommonSourceDyadicOrders": "CSFoundation.CommonSourceDyadicOrders",
+    "FourCorner.CommonSourceBeta": "CSFoundation.CommonSourceBeta",
+    "FourCorner.CommonSourceOddLocal": "CSFoundation.CommonSourceOddLocal",
+    "FourCorner.CommonSourceOddLocalResidue": "CSFoundation.CommonSourceOddLocalResidue",
+    "FourCorner.CommonSourceOddLocalDisks": "CSFoundation.CommonSourceOddLocalDisks",
+    "FourCorner.CommonSourceOddLocalAssembly": "CSFoundation.CommonSourceOddLocalAssembly",
+    "FourCorner.CommonSourceDyadicResidue": "CSLogSupport.CommonSourceDyadicResidue"
+  },
+  "new_source_adaptations": [
+    {
+      "original_module": "FourCorner.CommonSourceDyadicResidue",
+      "packaged_module": "CSLogSupport.CommonSourceDyadicResidue",
+      "original_sha256": "6df782fedad85a2e540a92f8a491f7979f9fe89d9180e9988021682ff14d8049",
+      "payload_sha256": "6df782fedad85a2e540a92f8a491f7979f9fe89d9180e9988021682ff14d8049",
+      "body_excluding_import_lines_sha256": "1183238c6f27980da2e61a3e5a9d84d8686e9adfcbbbfc7aaf28711754efb055",
+      "all_declaration_bodies_byte_identical": true,
+      "changed_import_lines": []
+    },
+    {
+      "original_module": "RationalFormalDepth",
+      "packaged_module": "RationalFormalDepth",
+      "original_sha256": "d15a67939c1b7f3e68588a3a9d4f142c881623c7d5492fc48a5b17f16a8ca0d9",
+      "payload_sha256": "d24e2215da703ecbf4f247720ed11571d0cedff7d04835f19e68f56847ea0616",
+      "body_excluding_import_lines_sha256": "8785f449a5ea6da1d55265b0240c5ee1b024066524d1adf7e3fc7130cf08cd25",
+      "all_declaration_bodies_byte_identical": true,
+      "changed_import_lines": [
+        {
+          "before": "import FourCorner.CommonSourceDyadicResidue",
+          "after": "import CSLogSupport.CommonSourceDyadicResidue"
+        }
+      ]
+    },
+    {
+      "original_module": "ActualDyadicCharacter15",
+      "packaged_module": "ActualDyadicCharacter15",
+      "original_sha256": "e78f3e2ea6aa799febc7a0cb4dde0f8afb455fc79e5ce2256c57f19b28672301",
+      "payload_sha256": "d409d6a33a19ded6df1df82ee18d1d859cbd5f3831433537d187f42e7dcff82d",
+      "body_excluding_import_lines_sha256": "3cb5ab90d7862caef2557b17f2ac350e63f0cb2bd2cc8a2bc34e7db56cb588e1",
+      "all_declaration_bodies_byte_identical": true,
+      "changed_import_lines": [
+        {
+          "before": "import FourCorner.CommonSourceBeta",
+          "after": "import CSFoundation.CommonSourceBeta"
+        }
+      ]
+    },
+    {
+      "original_module": "ActualCharacterSign",
+      "packaged_module": "ActualCharacterSign",
+      "original_sha256": "e5bd5fc6a4c9059ddcf9e974da3796bb6dc60ec82e063c288b6a385f7f51df8b",
+      "payload_sha256": "b998cfd89e1a4b36c66adb426a5f8610434a8695f18b18750ea264a536c133fb",
+      "body_excluding_import_lines_sha256": "f93fac777182f9337b0533a4d8784f9e99df630480ba18804b0988225e540377",
+      "all_declaration_bodies_byte_identical": true,
+      "changed_import_lines": [
+        {
+          "before": "import FourCorner.CommonSourceDyadicResidue",
+          "after": "import CSLogSupport.CommonSourceDyadicResidue"
+        }
+      ]
+    }
+  ],
+  "all_declaration_bodies_byte_identical": true
+}

@@ -1,0 +1,525 @@
+{
+  "BinaryDehomogenization": [
+    "DoubleRootPolynomial",
+    "Mathlib.Algebra.Polynomial.Homogenize",
+    "Mathlib.RingTheory.MvPolynomial.EulerIdentity"
+  ],
+  "DivisorPicPrincipal": [
+    "Definitions.Def_AlgebraicCurve_AdelicIndex",
+    "Mathlib.GroupTheory.QuotientGroup.Basic",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Basic"
+  ],
+  "DoubleRootPolynomial": [
+    "Mathlib.Algebra.Polynomial.FieldDivision",
+    "Mathlib.Algebra.Polynomial.RingDivision",
+    "Mathlib.RingTheory.Coprime.Lemmas",
+    "Mathlib.Tactic"
+  ],
+  "DoubleZeroDifferential": [
+    "ThetaRegularFunctionDifferential"
+  ],
+  "ThetaBitangentAxes": [
+    "ThetaBitangentCore",
+    "ThetaBitangentAxisIdentities",
+    "Mathlib.Tactic"
+  ],
+  "ThetaBitangentAxisIdentities": [
+    "Mathlib.Tactic"
+  ],
+  "ThetaBitangentCases": [
+    "Mathlib.Tactic"
+  ],
+  "ThetaBitangentContacts": [
+    "ThetaBitangentCore"
+  ],
+  "ThetaBitangentCore": [
+    "Mathlib.Tactic"
+  ],
+  "ThetaBitangentCountWave36": [
+    "ThetaBitangentExhaustionWave36",
+    "ThetaBitangentGaloisWave36"
+  ],
+  "ThetaBitangentExhaustionWave36": [
+    "ThetaBitangentCore",
+    "ThetaBitangentGeneric",
+    "ThetaBitangentCases",
+    "ThetaBitangentAxes",
+    "ThetaBitangentContacts",
+    "Mathlib.FieldTheory.IsAlgClosed.Basic"
+  ],
+  "ThetaBitangentGaloisWave36": [
+    "ThetaBitangentQuadraticIndependence",
+    "Mathlib.FieldTheory.Galois.Basic",
+    "Mathlib.Algebra.Star.Rat",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Ring"
+  ],
+  "ThetaBitangentGeneric": [
+    "ThetaBitangentCore",
+    "ThetaBitangentCases"
+  ],
+  "ThetaBitangentProjectiveChartsWave36": [
+    "ThetaBitangentCore"
+  ],
+  "ThetaBitangentQuadraticIndependence": [
+    "Mathlib.Algebra.QuadraticAlgebra.Basic",
+    "Mathlib.Tactic.NormNum.IsSquare",
+    "Mathlib.Tactic.Linarith"
+  ],
+  "HalfCanonicalDifferential": [
+    "PicEffectiveRepresentatives",
+    "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+    "Definitions.Def_AlgebraicCurve_RegularDifferentials",
+    "Definitions.Def_AlgebraicCurve_IsCurveOver",
+    "Definitions.Def_AlgebraicCurve_RatFuncPlaces"
+  ],
+  "ThetaStdTotallySplit": [
+    "Mathlib.RingTheory.Etale.Field",
+    "ThetaStdRingFlatRank",
+    "Mathlib.RingTheory.Smooth.Flat",
+    "Mathlib.RingTheory.TensorProduct.Pi"
+  ],
+  "NativeBinaryP1": [
+    "BinaryDehomogenization",
+    "Mathlib.LinearAlgebra.Projectivization.Basic"
+  ],
+  "NativeCurveModelExistence": [
+    "geometry.SchemeModelFiniteExtension",
+    "SmoothCurveFieldIso",
+    "Theorems.Thm_AlgebraicCurve_isCurveOver_of_isIntegral_of_smoothOfRelativeDimension_one",
+    "Theorems.Thm_AlgebraicCurve_essFiniteType_functionField",
+    "Theorems.Thm_AlgebraicCurve_IsCurveOver_exists_separating_transcendental"
+  ],
+  "NativeFunctionFieldFunctor": [
+    "ThetaNativeFunctionFieldMap"
+  ],
+  "NativeStalkFieldNaturality": [
+    "NativeFunctionFieldFunctor"
+  ],
+  "OddThetaDivisorClassification": [
+    "HalfCanonicalDifferential",
+    "SmallSquareSpaceBound"
+  ],
+  "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq": [
+    "ReplayImports",
+    "P2M.Util"
+  ],
+  "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch": [
+    "ReplayImports",
+    "Definitions.Def_AlgebraicCurve_Repartitions",
+    "Definitions.Def_AlgebraicCurve_AdelicIndex",
+    "Definitions.Def_AlgebraicCurve_IsCurveOver",
+    "Definitions.Def_AlgebraicCurve_DivisorClassGroup",
+    "Definitions.Def_ModularCurve_CanonicalDivisor",
+    "Definitions.Def_AlgebraicCurve_CanonicalDivisor",
+    "Definitions.Def_AlgebraicCurve_RiemannRochRows",
+    "Theorems.Thm_AlgebraicCurve_functionFieldRiemannRoch_of_isAlgClosed_of_isCurveOver",
+    "Theorems.Thm_AlgebraicCurve_IsCurveOver_exists_separating_transcendental",
+    "Theorems.Thm_AlgebraicCurve_hasCanonicalDivisor_of_isCurveOver",
+    "Theorems.Thm_AlgebraicCurve_dCoordGenerates_of_isCurveOver",
+    "Theorems.Thm_AlgebraicCurve_instIsCurveOverRatFunc",
+    "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+    "P2M.Util"
+  ],
+  "PicEffectiveRepresentatives": [
+    "DivisorPicPrincipal"
+  ],
+  "PicEllOneOfConstants": [
+    "HalfCanonicalDifferential"
+  ],
+  "QuarticSingletonZero": [
+    "QuarticTwoDoublePoints",
+    "Mathlib.FieldTheory.IsAlgClosed.Basic"
+  ],
+  "QuarticTwoDoublePoints": [
+    "NativeBinaryP1"
+  ],
+  "RiemannRochWithGenusFF": [
+    "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch",
+    "Theorems.Thm_AlgebraicCurve_constantsAreBase_of_isAlgClosed_of_transcendental",
+    "Theorems.Thm_AlgebraicCurve_eq_genusFF_of_forall_ell_sub_ell_eq"
+  ],
+  "SemilinearDifferentialOrder": [
+    "SemilinearPicAndEll",
+    "HalfCanonicalDifferential",
+    "ThetaVanishingDifferentialOrder"
+  ],
+  "SemilinearPicAndEll": [
+    "Definitions.Def_AlgebraicCurve_BaseChangeGalois",
+    "DivisorPicPrincipal"
+  ],
+  "SmallSquareSpaceBound": [
+    "Mathlib.FieldTheory.IsAlgClosed.Basic",
+    "Mathlib.RingTheory.Algebraic.Basic",
+    "Mathlib.Algebra.Polynomial.Basis",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Lemmas"
+  ],
+  "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq": [
+    "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq"
+  ],
+  "ThetaActualHalfCanonicalContacts": [
+    "ThetaContactDifferentialDivisors"
+  ],
+  "ThetaActualLineDifferentials": [
+    "ThetaContactTangencyCertificates",
+    "ThetaDNaturalGlobalDifferentials"
+  ],
+  "ThetaActualOddThetaClasses": [
+    "OddThetaDivisorClassification",
+    "ThetaDNaturalGlobalDifferentials"
+  ],
+  "ThetaAffineContactConstants": [
+    "ThetaContactLSpaceGeometry"
+  ],
+  "ThetaAffineContactOrder": [
+    "ThetaValuationTangencyOrder"
+  ],
+  "ThetaAssociatedLineAlgebra": [
+    "ThetaNativeLineGaloisSet",
+    "Mathlib.RingTheory.Etale.Field",
+    "Mathlib.RingTheory.Artinian.Module"
+  ],
+  "ThetaCanonicalLinePointValues": [
+    "ThetaActualHalfCanonicalContacts"
+  ],
+  "ThetaChartCanonicalFrames": [
+    "ThetaHalfCanonicalRootSupport"
+  ],
+  "ThetaChartTangentVanishing": [
+    "ThetaLocalLineDerivatives"
+  ],
+  "ThetaContactDifferentialDivisors": [
+    "ThetaVerticalContactOrder"
+  ],
+  "ThetaContactLSpaceGeometry": [
+    "ThetaContactPairFrames"
+  ],
+  "ThetaContactOddness": [
+    "ThetaVerticalContactConstants",
+    "PicEllOneOfConstants"
+  ],
+  "ThetaContactPairFrames": [
+    "ThetaCanonicalLinePointValues"
+  ],
+  "ThetaContactTangencyCertificates": [
+    "ThetaGeometricResidueCoordinates"
+  ],
+  "ThetaDActualDifferential": [
+    "ThetaDFieldCoordinates",
+    "Theorems.Thm_KaehlerDifferential_D_ne_zero_of_transcendental"
+  ],
+  "ThetaDActualFieldCover": [
+    "ThetaFiniteGenericDegree"
+  ],
+  "ThetaDCanonicalInfinityDivisor": [
+    "ThetaDFourInfinityPlaces"
+  ],
+  "ThetaDCanonicalPlaneBasis": [
+    "ThetaDPlaneRegularForms"
+  ],
+  "ThetaDChartNaturality": [
+    "ThetaDChartPlaceRegularity"
+  ],
+  "ThetaDChartPlaceRegularity": [
+    "ThetaDFiniteDifferential",
+    "SmoothProperClosedPointPlaces"
+  ],
+  "ThetaDCoordinateBasicOpens": [
+    "ThetaDExactChartTransitions"
+  ],
+  "ThetaDExactChartTransitions": [
+    "ThetaDSectionComparison",
+    "ThetaDProjectiveInfinityCover"
+  ],
+  "ThetaDExactModel": [
+    "ThetaDNativeSections"
+  ],
+  "ThetaDFieldCoordinates": [
+    "ThetaDPlaneChartSections",
+    "ThetaDifferentialChartIdentity"
+  ],
+  "ThetaDFiniteDifferential": [
+    "ThetaDActualDifferential",
+    "ThetaRegularFunctionDifferential"
+  ],
+  "ThetaDFourInfinityPlaces": [
+    "ThetaDOriginalChartOpens",
+    "ThetaDGlobalSheafBasis",
+    "ThetaDInfinityPoints",
+    "SmoothProperRationalPointPlaces"
+  ],
+  "ThetaDGenusThree": [
+    "ThetaEtaleAllPlaces",
+    "Theorems.Thm_AlgebraicCurve_two_mul_genusFF_sub_two_eq_of_isSeparable_of_tame"
+  ],
+  "ThetaDGeometricChartPoints": [
+    "ThetaDExactModel",
+    "ThetaActualPoints"
+  ],
+  "ThetaDGeometricModel": [
+    "ThetaFlatIntegralDescent",
+    "ThetaProjectionDegree",
+    "ThetaSourceGenus",
+    "ThetaTargetSmooth"
+  ],
+  "ThetaDGlobalCanonicalCandidate": [
+    "ThetaDInfinityLocalParameter"
+  ],
+  "ThetaDGlobalSheafBasis": [
+    "ThetaDCanonicalPlaneBasis"
+  ],
+  "ThetaDHyperplaneLocalOrders": [
+    "ThetaDCanonicalInfinityDivisor"
+  ],
+  "ThetaDInfinityLocalParameter": [
+    "ThetaDCoordinateBasicOpens"
+  ],
+  "ThetaDInfinityPoints": [
+    "ThetaDGeometricChartPoints",
+    "Mathlib.FieldTheory.Separable"
+  ],
+  "ThetaDNativeProjRatios": [
+    "ThetaDChartNaturality"
+  ],
+  "ThetaDNativeProjSections": [
+    "ThetaDNativeProjRatios"
+  ],
+  "ThetaDNativeSections": [
+    "ThetaDGenusThree",
+    "geometry.SchemeModelTwoAffineCover",
+    "ModelGenusBridge.KaehlerSheafGenus",
+    "RiemannRochWithGenusFF",
+    "Theorems.Thm_AlgebraicCurve_degree_canonicalDivisor_eq_of_riemannRoch",
+    "Theorems.Thm_AlgebraicCurve_functionFieldRiemannRoch_of_isAlgClosed_of_transcendental"
+  ],
+  "ThetaDNaturalGlobalDifferentials": [
+    "ThetaDOriginalCoordinateSections"
+  ],
+  "ThetaDOriginalChartOpens": [
+    "ThetaDCoordinateBasicOpens"
+  ],
+  "ThetaDOriginalCoordinateSections": [
+    "ThetaDGlobalSheafBasis",
+    "Mathlib.LinearAlgebra.Matrix.Dual"
+  ],
+  "ThetaDPlaneChartSections": [
+    "ThetaDGeometricChartPoints",
+    "P2M.Sol.S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_exists_baseChangeIsos_structureSheaf"
+  ],
+  "ThetaDPlaneRegularForms": [
+    "ThetaDGlobalCanonicalCandidate"
+  ],
+  "ThetaDProjectiveInfinityCover": [
+    "ThetaDNativeProjRatios"
+  ],
+  "ThetaDSectionComparison": [
+    "ThetaDNativeProjSections"
+  ],
+  "ThetaDifferentialChartIdentity": [
+    "ThetaDNativeSections"
+  ],
+  "ThetaEtaleAllPlaces": [
+    "ThetaUnramifiedPlaceIndex",
+    "ThetaDActualFieldCover",
+    "SmoothProperClosedPointPlaces",
+    "Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified"
+  ],
+  "ThetaFiniteGenericDegree": [
+    "ThetaNativeFunctionFieldMap",
+    "ThetaGenericRankFraction"
+  ],
+  "ThetaFlatIntegralDescent": [
+    "NativeCurveModelExistence",
+    "Mathlib.AlgebraicGeometry.Morphisms.Flat"
+  ],
+  "ThetaGaloisCanonicalCorrespondence": [
+    "ThetaGaloisCanonicalPlane"
+  ],
+  "ThetaGaloisCanonicalPlane": [
+    "ThetaGaloisPointPlace",
+    "SemilinearDifferentialOrder",
+    "ThetaOddThetaCanonicalLines"
+  ],
+  "ThetaGaloisFieldAction": [
+    "ThetaGaloisSchemeField",
+    "SmoothProperRationalPointPlaces"
+  ],
+  "ThetaGaloisPointPlace": [
+    "ThetaGaloisFieldAction",
+    "NativeStalkFieldNaturality"
+  ],
+  "ThetaGaloisSchemeField": [
+    "NativeFunctionFieldFunctor",
+    "ThetaDExactChartTransitions",
+    "Definitions.Def_AlgebraicCurve_BaseChangeGalois"
+  ],
+  "ThetaGenericRankFraction": [
+    "ThetaDGeometricModel",
+    "Mathlib.LinearAlgebra.Dimension.Localization",
+    "Mathlib.RingTheory.Spectrum.Prime.FreeLocus"
+  ],
+  "ThetaGeometricChartEvaluation": [
+    "ThetaGeometricContactPoints"
+  ],
+  "ThetaGeometricContactPoints": [
+    "ThetaVanishingDifferentialOrder",
+    "ThetaLinesPolynomialContacts",
+    "SmoothProperRationalPointPlaces"
+  ],
+  "ThetaGeometricPointCoordinateEvaluation": [
+    "ThetaGeometricChartEvaluation"
+  ],
+  "ThetaGeometricResidueCoordinates": [
+    "ThetaGeometricPointCoordinateEvaluation"
+  ],
+  "ThetaHalfCanonicalRootSupport": [
+    "ThetaRootCanonicalSections"
+  ],
+  "ThetaHalfCanonicalSquareContact": [
+    "ThetaRootOrderDoubleJets"
+  ],
+  "ThetaLineAlgebraDecomposition": [
+    "ThetaLineStabilizers",
+    "Mathlib.LinearAlgebra.Dimension.Constructions"
+  ],
+  "ThetaLineFixedFields": [
+    "ThetaOrbitEvaluation"
+  ],
+  "ThetaLineGeometricPoints": [
+    "ThetaLineAlgebraDecomposition",
+    "ThetaStdTotallySplit"
+  ],
+  "ThetaLineOrbits": [
+    "ThetaAssociatedLineAlgebra"
+  ],
+  "ThetaLineRootPointCharts": [
+    "ThetaRestrictionHasTwoRoots"
+  ],
+  "ThetaLineSplittingField": [
+    "ThetaLinesDualLines",
+    "Mathlib.FieldTheory.Galois.Basic",
+    "Mathlib.FieldTheory.Normal.Basic"
+  ],
+  "ThetaLineStabilizers": [
+    "ThetaLineFixedFields"
+  ],
+  "ThetaLinesAbsoluteGalois": [
+    "ThetaLinesProjectiveLines",
+    "ThetaBitangentGaloisWave36",
+    "Mathlib.FieldTheory.Normal.Basic",
+    "Mathlib.FieldTheory.IsAlgClosed.Basic"
+  ],
+  "ThetaLinesContactPoints": [
+    "ThetaLinesSchemePoints",
+    "ThetaBitangentExhaustionWave36"
+  ],
+  "ThetaLinesDualLines": [
+    "ThetaLinesGaloisAction"
+  ],
+  "ThetaLinesFullAssembly": [
+    "ThetaOddNativeSquareContact",
+    "ThetaLineGeometricPoints"
+  ],
+  "ThetaLinesGaloisAction": [
+    "ThetaLinesProjectiveClassification"
+  ],
+  "ThetaLinesPolynomialContacts": [
+    "ThetaLinesContactPoints",
+    "Mathlib.Algebra.Polynomial.RingDivision"
+  ],
+  "ThetaLinesProjectiveClassification": [
+    "ThetaLinesAbsoluteGalois",
+    "ThetaLinesContactPoints",
+    "ThetaBitangentCountWave36"
+  ],
+  "ThetaLinesProjectiveLines": [
+    "ThetaBitangentProjectiveChartsWave36",
+    "Mathlib.LinearAlgebra.Projectivization.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Dual"
+  ],
+  "ThetaLinesSchemePoints": [
+    "ThetaActualPoints",
+    "ThetaBitangentCore"
+  ],
+  "ThetaLiteralBinaryRestrictions": [
+    "ThetaContactOddness",
+    "QuarticSingletonZero"
+  ],
+  "ThetaLiteralRootJets": [
+    "ThetaLiteralBinaryRestrictions"
+  ],
+  "ThetaLocalLineDerivatives": [
+    "ThetaOrderTwoDerivativeEvaluation"
+  ],
+  "ThetaNativeDualCanonicalLines": [
+    "ThetaGaloisCanonicalCorrespondence",
+    "ThetaLinesDualLines"
+  ],
+  "ThetaNativeFunctionFieldMap": [
+    "ThetaDGeometricModel"
+  ],
+  "ThetaNativeLineGaloisSet": [
+    "ThetaLineSplittingField"
+  ],
+  "ThetaOddGaloisActionHom": [
+    "ThetaOddNativeGaloisEquiv",
+    "Mathlib.GroupTheory.GroupAction.Hom"
+  ],
+  "ThetaOddNativeGaloisEquiv": [
+    "ThetaOddNativeLineEquiv"
+  ],
+  "ThetaOddNativeLineEquiv": [
+    "ThetaNativeDualCanonicalLines"
+  ],
+  "ThetaOddNativeSquareContact": [
+    "ThetaHalfCanonicalSquareContact",
+    "ThetaOddGaloisActionHom"
+  ],
+  "ThetaOddThetaCanonicalLines": [
+    "ThetaActualOddThetaClasses"
+  ],
+  "ThetaOrbitEvaluation": [
+    "ThetaLineOrbits"
+  ],
+  "ThetaOrderTwoDerivativeEvaluation": [
+    "ThetaChartCanonicalFrames",
+    "DoubleZeroDifferential"
+  ],
+  "ThetaProjectiveRootPlaceEmbedding": [
+    "ThetaLineRootPointCharts"
+  ],
+  "ThetaRegularFunctionDifferential": [
+    "ThetaDNativeSections",
+    "Theorems.Thm_AlgebraicCurve_localUnitDerivativeRegular_of_isCurveOver"
+  ],
+  "ThetaRestrictionHasTwoRoots": [
+    "ThetaLiteralBinaryRestrictions"
+  ],
+  "ThetaRootCanonicalSections": [
+    "ThetaProjectiveRootPlaceEmbedding"
+  ],
+  "ThetaRootOrderDoubleJets": [
+    "ThetaChartTangentVanishing",
+    "ThetaLiteralRootJets"
+  ],
+  "ThetaUnramifiedPlaceIndex": [
+    "ThetaFiniteGenericDegree",
+    "Mathlib.RingTheory.Unramified.LocalRing"
+  ],
+  "ThetaValuationTangencyOrder": [
+    "ThetaActualLineDifferentials"
+  ],
+  "ThetaVanishingDifferentialOrder": [
+    "ThetaDHyperplaneLocalOrders"
+  ],
+  "ThetaVerticalContactConstants": [
+    "ThetaAffineContactConstants"
+  ],
+  "ThetaVerticalContactOrder": [
+    "ThetaAffineContactOrder"
+  ],
+  "ThetaLinesPortableAudit": [
+    "ThetaLinesFullAssembly",
+    "Lean.Util.CollectAxioms"
+  ]
+}

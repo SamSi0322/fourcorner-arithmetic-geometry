@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_ProjPresentation_mem_preimage_basicOpen_iff
+
+alias AlgebraicGeometry.Scheme.Modules.ProjPresentation.mem_preimage_basicOpen_iff := P2MW.S_AlgebraicGeometry_Scheme_Modules_ProjPresentation_mem_preimage_basicOpen_iff.solution

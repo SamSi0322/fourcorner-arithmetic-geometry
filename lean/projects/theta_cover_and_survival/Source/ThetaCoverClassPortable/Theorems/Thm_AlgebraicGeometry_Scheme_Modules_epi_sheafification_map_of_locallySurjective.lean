@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_epi_sheafification_map_of_locallySurjective
+
+alias AlgebraicGeometry.Scheme.Modules.epi_sheafification_map_of_locallySurjective := P2MW.S_AlgebraicGeometry_Scheme_Modules_epi_sheafification_map_of_locallySurjective.solution

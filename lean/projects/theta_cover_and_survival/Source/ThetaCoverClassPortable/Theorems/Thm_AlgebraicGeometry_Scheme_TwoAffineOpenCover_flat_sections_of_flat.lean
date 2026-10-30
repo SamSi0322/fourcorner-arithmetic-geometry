@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.CanonicalFiniteMapKernelBaseChange
+
+namespace AlgebraicGeometry.Scheme.TwoAffineOpenCover
+alias flat_sections_of_flat := FourCorner.ActualCohomologyChartInputs.BCH0.flat_sections
+end AlgebraicGeometry.Scheme.TwoAffineOpenCover

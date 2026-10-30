@@ -1,0 +1,7 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_glueOfCocycle_trivial_iso_tensorUnit
+
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+
+alias AlgebraicGeometry.Scheme.Modules.exists_glueOfCocycle_trivial_iso_tensorUnit :=
+  P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_glueOfCocycle_trivial_iso_tensorUnit.solution

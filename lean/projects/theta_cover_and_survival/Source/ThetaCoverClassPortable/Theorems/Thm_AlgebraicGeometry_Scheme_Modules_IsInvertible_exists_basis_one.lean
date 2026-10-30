@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_basis_one
+
+alias AlgebraicGeometry.Scheme.Modules.IsInvertible.exists_basis_one := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_basis_one.solution

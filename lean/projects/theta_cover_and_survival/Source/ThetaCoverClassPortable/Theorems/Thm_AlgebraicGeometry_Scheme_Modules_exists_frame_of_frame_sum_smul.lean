@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_frame_of_frame_sum_smul
+
+alias AlgebraicGeometry.Scheme.Modules.exists_frame_of_frame_sum_smul := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_frame_of_frame_sum_smul.solution

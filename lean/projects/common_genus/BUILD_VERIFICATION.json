@@ -1,0 +1,187 @@
+{
+  "status": "FRESH_LAKE_AND_ROOT_COLD_VERIFIED",
+  "coverage_labels": [
+    "prop:common-genus-boundary"
+  ],
+  "source_manifest_sha256": "7e89d5739e1bdf1f6893136d19f69264fd68c37b8088ea97fc4e9a396acbc3bf",
+  "audited_declarations": {
+    "FourCorner.CommonGenusBoundaryFull.prop_common_genus_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostStalkFields.sourceEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostStalkFields.baseEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostStalkFields.source_stalk_bijective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostStalkFields.base_stalk_bijective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostStalkFields.source_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostStalkFields.base_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.GenericStalkField.factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.FractionGenericStalk.open_stalk_eval_bijective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostEllDegree.fieldPullback": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostEllDegree.generic_stalk_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostEllDegree.degree_sixteen": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.NormalizationPlaceRestriction.heightOne_restrict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.NormalizationPointRestriction.point_restrict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.NormalizedModelPointRestriction.point_restrict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchFibres.ellClosed_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchFibres.branchPoints_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchFibres.branch_locus_exact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchFibres.ramification_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchFibres.rational_point_avoids_branch_fibres": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchValues.branchPoints_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchValues.finiteValue_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchValues.infinityValue_place": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchValues.finiteValue_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostBranchValues.infinityValue_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.NormalizedBaseP1.generic_iso": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ProjectiveLineCharts.fieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.ProjectiveLineCharts.chartEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostGeometricGenus.geometricFieldEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostGeometricGenus.geometric_globalDifferentials_nine": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostFiniteP1.generic_ellMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostFiniteP1.ellMap_isFinite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostPointResidue.valuation_eval_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FourCorner.CommonPostModelBoundary.actual_model_point_avoids_boundary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "compiler": "leanprover/lean4:v4.33.1",
+  "shared_sources_reused": true,
+  "source_only_distribution": true
+}

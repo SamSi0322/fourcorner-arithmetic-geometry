@@ -1,0 +1,4 @@
+Source-only theta-cover and surviving-cover formalization. Lean 4.33.1 and mathlib db584cd6d46c92f209a44c0f1c829460d327499d. Original source copyright/license notices retained. All custom module names are isolated under ThetaCoverClassPortable. Mathematical declaration namespaces and bodies are retained; import module names and exact recorded attribute/frontend configuration change; mathematical declaration and proof bodies are retained. The validation module also updates its two owned-module identity selectors.
+
+Original companion proofs and integration support: Yuan Si, Apache-2.0.
+Includes inherited adaptations from anthropics/fermats-last-theorem, commit 6e837e75355538c7f80bab5b956861e86c4eacc2, under Apache-2.0, as recorded in the earlier companion provenance. Individual original copyright and author notices are preserved. Pinned Mathlib and standard dependencies retain their original licenses.

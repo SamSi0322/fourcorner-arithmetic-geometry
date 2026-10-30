@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_forall_eq_mul_of_presentations
+
+alias AlgebraicGeometry.Scheme.Modules.exists_forall_eq_mul_of_presentations := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_forall_eq_mul_of_presentations.solution

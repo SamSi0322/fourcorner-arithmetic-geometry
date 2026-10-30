@@ -1,0 +1,208 @@
+{
+  "NormalizationCoefficientMap": {
+    "path": "Source/NormalizationCoefficientMap.lean",
+    "sha256": "04c7a0a8ef297d49a74c8b57ed6a6421b2cd288a542f23c01bca25c647e6c761",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "GenericNormalizedGluing": {
+    "path": "Source/GenericNormalizedGluing.lean",
+    "sha256": "5d7f894976627271ecab9d00a9b12a7114c101b1fff4d501e55e691c7dfadf59",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "NormalizationCoverMap": {
+    "path": "Source/NormalizationCoverMap.lean",
+    "sha256": "7bb0539db4eb28a799a7b5eec65309e0a6b11482a2312f7db27474fd5334a6a1",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "FiniteNormalizationChartMaps": {
+    "path": "Source/FiniteNormalizationChartMaps.lean",
+    "sha256": "172a8f9e0c7899560483caaa84b506240f213d24ed74355b0110be56db9ffc9a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "FiniteNormalizationCover": {
+    "path": "Source/FiniteNormalizationCover.lean",
+    "sha256": "c2628c49d1a7738e622f482cbf9dca6c7be7c70f28afe218f05a231d6d173e56",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "NormalizationCoverField": {
+    "path": "Source/NormalizationCoverField.lean",
+    "sha256": "1ee69c7bf4fe4dc7e290ae8833af2d80163aeb88f4ba428ba28844a78e03f055",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "ProperCurveExtension": {
+    "path": "Source/ProperCurveExtension.lean",
+    "sha256": "bb73d731d943b7a0e1aeeea18216dc353ef75de6e54e2c18180196ed65a69e19",
+    "license": "Apache-2.0",
+    "origin": {
+      "repository": "https://github.com/anthropics/fermats-last-theorem",
+      "commit": "6e837e75355538c7f80bab5b956861e86c4eacc2",
+      "path": "P2M/Sol/S_AlgebraicCurve_exists_isFinite_hom_proj_of_isProper.lean",
+      "adaptation": "Generic proper-target extension adapted from the local valuative argument, with original proof source acknowledged in the file."
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentPostTwoChartCover": {
+    "path": "Source/AdjacentPostTwoChartCover.lean",
+    "sha256": "cb415abe33ce5bed5356496c2614f7fbe035cd1b8620a20141e658691d02d365",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentPostScalarSmooth": {
+    "path": "Source/AdjacentPostScalarSmooth.lean",
+    "sha256": "1a6d79987d23e11df55f8ae9906cb7c62dbf105dcc757a60716d37e6b7982165",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentPostAffineSmooth": {
+    "path": "Source/AdjacentPostAffineSmooth.lean",
+    "sha256": "f610ab677d6841ef49f471ba77cc0f968c97e7817942b479a014980ed1f6b460",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentPostModelSource": {
+    "path": "Source/AdjacentPostModelSource.lean",
+    "sha256": "81c80e1cd5b5505fa6375cc08c3e605c305a237ad6fa71d43572f49b17b791ce",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentPostSourceMap": {
+    "path": "Source/AdjacentPostSourceMap.lean",
+    "sha256": "1c26cfe9324f97f9b35cfa419b3d5a3406dad65964509efa57e8dcc3418f10fa",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentPostNormalizedCharts": {
+    "path": "Source/AdjacentPostNormalizedCharts.lean",
+    "sha256": "149509fcbbf35995b9ac29f09cf3e4c697fc84ea5e04477b777ace135bc5a4d6",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "NormalizedModelCover": {
+    "path": "Source/NormalizedModelCover.lean",
+    "sha256": "0b1c43ecd4b62734a57387fdf0c62f582cd7c26a2a980c3e9c2ecd2030f7a818",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentPostEndpoint": {
+    "path": "Source/AdjacentPostEndpoint.lean",
+    "sha256": "63587e37076520d5afdc8e9aa65dfbb11375da2a8a41f95987deadebc092af82",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentNormalizationCover": {
+    "path": "Source/AdjacentNormalizationCover.lean",
+    "sha256": "89b2835a9cdfe9737837bcd26d48b535a0e53733ebe3146cdb6ab02f3d3aeaea",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original normalization/source proof or integration support"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "AdjacentGenus": {
+    "path": "Source/AdjacentGenus.lean",
+    "sha256": "e568bb13cf88d1d56d466543cda2e8c5d927e923865156270c5f2816726c4a93",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Verification entry point"
+    },
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  }
+}

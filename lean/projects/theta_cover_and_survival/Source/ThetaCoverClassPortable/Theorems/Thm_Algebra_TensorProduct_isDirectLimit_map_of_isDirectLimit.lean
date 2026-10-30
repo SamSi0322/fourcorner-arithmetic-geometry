@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_Algebra_TensorProduct_isDirectLimit_map_of_isDirectLimit
+
+alias Algebra.TensorProduct.isDirectLimit_map_of_isDirectLimit := P2MW.S_Algebra_TensorProduct_isDirectLimit_map_of_isDirectLimit.solution

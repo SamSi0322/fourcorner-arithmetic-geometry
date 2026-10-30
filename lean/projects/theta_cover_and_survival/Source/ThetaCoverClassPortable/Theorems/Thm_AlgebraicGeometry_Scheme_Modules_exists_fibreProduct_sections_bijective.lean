@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_fibreProduct_sections_bijective
+
+alias AlgebraicGeometry.Scheme.Modules.exists_fibreProduct_sections_bijective := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_fibreProduct_sections_bijective.solution

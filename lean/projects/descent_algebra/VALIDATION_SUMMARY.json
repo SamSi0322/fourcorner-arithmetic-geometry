@@ -1,0 +1,32 @@
+{
+  "toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "own_source_count": 13,
+  "generated_entry_sources": 2,
+  "ordinary_staged_source_checks": 15,
+  "cold_staged_source_checks": 15,
+  "all_introduced_declarations_std3": 60,
+  "public_type_comparisons": 25,
+  "unchanged_non_import_bodies": 13,
+  "unchanged_full_original_sources": 12,
+  "only_source_adaptation": "Removed import ReplayImports from ModuleConstantRankPresentation.lean",
+  "official_mathlib_sources_checked_separately": [
+    "Mathlib.RingTheory.Flat.LocallyFree",
+    "Mathlib.RingTheory.LocalProperties.FinitePresentation"
+  ],
+  "configuration_elaboration": "PASS with real Lake plugin; no workspace fetch or Lake build",
+  "manuscript_count": "55/69 unchanged",
+  "private_preparatory_status": "PRIVATE_TARGETED_MAPPING_PASS_NOT_PUBLIC_FRESHBUILD",
+  "status": "PASS_FRESH_CANONICAL_LAKE_BUILD_AND_ALL_OWN_COLD_CHECKS",
+  "canonical_owned_source_files": 15,
+  "canonical_cold_checks": 15,
+  "canonical_own_declarations_std3": 60,
+  "canonical_public_apis": 25,
+  "canonical_proof_source_changes": 0,
+  "canonical_build_record_sha256": "2a2b731a016b9f66a70734c1171151bbdf4b3721d7ddc194f846296a4bd2f4b7",
+  "canonical_verification_record_sha256": "7f8e8e4011804a9ce0576da6f2270c214e2db1c06076f5c4497016014eeeaeb7",
+  "canonical_setup_options": {
+    "autoImplicit": false,
+    "maxSynthPendingDepth": 3
+  }
+}

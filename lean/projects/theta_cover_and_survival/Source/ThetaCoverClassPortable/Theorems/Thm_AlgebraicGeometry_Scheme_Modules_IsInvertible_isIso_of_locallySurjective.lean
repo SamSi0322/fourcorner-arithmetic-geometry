@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_isIso_of_locallySurjective
+
+namespace AlgebraicGeometry.Scheme.Modules.IsInvertible
+alias isIso_of_locallySurjective := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_isIso_of_locallySurjective.solution
+end AlgebraicGeometry.Scheme.Modules.IsInvertible

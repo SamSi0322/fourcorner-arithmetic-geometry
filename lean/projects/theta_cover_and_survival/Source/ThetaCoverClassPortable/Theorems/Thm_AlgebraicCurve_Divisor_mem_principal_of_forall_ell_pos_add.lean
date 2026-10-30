@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_Divisor_mem_principal_of_forall_ell_pos_add
+
+alias AlgebraicCurve.Divisor.mem_principal_of_forall_ell_pos_add := P2MW.S_AlgebraicCurve_Divisor_mem_principal_of_forall_ell_pos_add.solution

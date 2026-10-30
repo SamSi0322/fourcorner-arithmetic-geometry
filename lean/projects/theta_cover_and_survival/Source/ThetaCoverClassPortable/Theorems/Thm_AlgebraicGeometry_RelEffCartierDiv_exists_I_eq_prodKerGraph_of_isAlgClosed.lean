@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_exists_I_eq_prodKerGraph_of_isAlgClosed
+
+namespace AlgebraicGeometry.RelEffCartierDiv
+alias exists_I_eq_prodKerGraph_of_isAlgClosed := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_exists_I_eq_prodKerGraph_of_isAlgClosed.solution
+end AlgebraicGeometry.RelEffCartierDiv

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_unit_app_comp_pullbackComp_inv
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias unit_app_comp_pullbackComp_inv := P2MW.S_AlgebraicGeometry_Scheme_Modules_unit_app_comp_pullbackComp_inv.solution
+end AlgebraicGeometry.Scheme.Modules

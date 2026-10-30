@@ -1,0 +1,7 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorSections
+
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+
+alias AlgebraicGeometry.Scheme.Modules.IsFrameOn.tensorSections :=
+  P2MW.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_tensorSections.solution

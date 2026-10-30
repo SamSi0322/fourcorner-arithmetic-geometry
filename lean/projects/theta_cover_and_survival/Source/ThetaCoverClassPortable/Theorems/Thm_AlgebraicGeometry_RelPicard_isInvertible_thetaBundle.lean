@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_isInvertible_thetaBundle
+
+alias AlgebraicGeometry.RelPicard.isInvertible_thetaBundle := P2MW.S_AlgebraicGeometry_RelPicard_isInvertible_thetaBundle.solution

@@ -1,0 +1,4 @@
+import OppositeProjectiveGenusFive
+
+#check FourCorner.OppositeProjective.ExactGenus.prop_ell_opposite_genus
+#print axioms FourCorner.OppositeProjective.ExactGenus.prop_ell_opposite_genus

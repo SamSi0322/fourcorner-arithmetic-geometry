@@ -1,0 +1,238 @@
+{
+  "CriticalDoubleFullAudit": [
+    "CriticalDoubleFull"
+  ],
+  "CriticalDoubleFull": [
+    "CriticalDoubleFullGeometry",
+    "CriticalNormalizationDiagram",
+    "CriticalSchemeBoundaryCount"
+  ],
+  "CriticalDoubleFullGeometry": [
+    "CriticalDoubleGeometry"
+  ],
+  "CriticalDoubleGeometry": [
+    "CriticalNativeGeometricGenus",
+    "CriticalCoverNativeEtale",
+    "CriticalSchemePointPlaces",
+    "CriticalSignPoints"
+  ],
+  "CriticalNativeGeometricGenus": [
+    "CriticalDoubleGeometricGenus",
+    "CriticalDoubleOriginalMap"
+  ],
+  "CriticalDoubleGeometricGenus": [
+    "CriticalDoubleFieldIso",
+    "CriticalConstantFieldComparison",
+    "CriticalGeometricGenus",
+    "Theorems.Thm_AlgebraicCurve_genusFF_eq_of_algEquiv"
+  ],
+  "CriticalDoubleOriginalMap": [
+    "CriticalDoubleModel",
+    "CriticalOriginalFieldCoordinates",
+    "CriticalProjectiveField"
+  ],
+  "CriticalDoubleModel": [
+    "CriticalDoubleFieldIso",
+    "CriticalDoubleSchemeMap",
+    "CriticalGeometricConnected"
+  ],
+  "CriticalDoubleSchemeMap": [
+    "CriticalDoubleFieldMap",
+    "CriticalSchemeIso"
+  ],
+  "CriticalOriginalFieldCoordinates": [
+    "CriticalOriginalFieldEquiv",
+    "CriticalNativeFieldIso"
+  ],
+  "CriticalCoverNativeEtale": [
+    "CriticalCoverNativeProperties",
+    "AllPointFlat",
+    "Mathlib.AlgebraicGeometry.Morphisms.Etale",
+    "Mathlib.AlgebraicGeometry.Noetherian"
+  ],
+  "CriticalCoverNativeProperties": [
+    "CriticalCoverGenericSeparable",
+    "RestrictionUnramifiedTransport",
+    "CriticalProjectiveSmooth"
+  ],
+  "CriticalCoverGenericSeparable": [
+    "CriticalCoverGenericField"
+  ],
+  "CriticalCoverGenericField": [
+    "CriticalDoubleOriginalMap",
+    "CriticalDoublePointCount",
+    "Mathlib.LinearAlgebra.Basis.Defs",
+    "Mathlib.LinearAlgebra.FiniteDimensional.Defs"
+  ],
+  "RestrictionUnramifiedTransport": [
+    "AllPointSchemeProperties",
+    "AffineChartPlaceEvaluation"
+  ],
+  "AllPointSchemeProperties": [
+    "AllPointStalkUnramified"
+  ],
+  "AllPointStalkUnramified": [
+    "NativeUnramifiedFinite",
+    "SmoothProperPlaceNaturality",
+    "PlaceDifferentUnramified",
+    "Theorems.Thm_AlgebraicCurve_isClosed_singleton_of_ne_genericPoint",
+    "Mathlib.RingTheory.Unramified.Field"
+  ],
+  "NativeUnramifiedFinite": [
+    "Mathlib.AlgebraicGeometry.ZariskisMainTheorem",
+    "Mathlib.AlgebraicGeometry.Morphisms.FormallyUnramified",
+    "Mathlib.RingTheory.Unramified.Field"
+  ],
+  "SmoothProperPlaceNaturality": [
+    "AffineChartStalkFunctions"
+  ],
+  "AffineChartStalkFunctions": [
+    "SmoothProperPointPlaceTransport",
+    "AffineGenericStalk"
+  ],
+  "SmoothProperPointPlaceTransport": [
+    "SmoothProperRationalPointPlaces",
+    "Definitions.Def_AlgebraicCurve_RatFuncPlaces"
+  ],
+  "SmoothProperRationalPointPlaces": [
+    "SchemePointStalkEvaluation",
+    "RationalPlaceEvaluationUnique"
+  ],
+  "SchemePointStalkEvaluation": [
+    "SmoothProperClosedPointPlaces"
+  ],
+  "SmoothProperClosedPointPlaces": [
+    "Theorems.Thm_AlgebraicCurve_exists_place_range_stalk_eq",
+    "Theorems.Thm_AlgebraicCurve_exists_closedPoint_range_stalk_eq",
+    "Theorems.Thm_AlgebraicCurve_eq_of_range_stalk_eq",
+    "ResiduePlaceEvaluation",
+    "Mathlib.AlgebraicGeometry.ResidueField"
+  ],
+  "PlaceDifferentUnramified": [
+    "CriticalLiteralDouble",
+    "Mathlib.RingTheory.Unramified.LocalRing"
+  ],
+  "AffineChartPlaceEvaluation": [
+    "AffineChartStalkFunctions"
+  ],
+  "AllPointFlat": [
+    "AllPointSchemeProperties",
+    "Mathlib.RingTheory.Flat.TorsionFree",
+    "Mathlib.AlgebraicGeometry.Morphisms.Flat",
+    "Theorems.Thm_AlgebraicGeometry_valuationRing_stalk_of_smoothOfRelativeDimension_one"
+  ],
+  "CriticalSchemePointPlaces": [
+    "CriticalDoubleOriginalMap",
+    "SmoothProperPointPlaceTransport"
+  ],
+  "CriticalNormalizationDiagram": [
+    "CriticalDoubleGeometry"
+  ],
+  "CriticalSchemeBoundaryCount": [
+    "CriticalPointNaturality",
+    "CriticalLiteralCount"
+  ],
+  "CriticalPointNaturality": [
+    "CriticalSchemePointPlaces",
+    "CriticalPointTransportValuation",
+    "CriticalNormalizationDiagram",
+    "AbstractPresentationPlaceTransport",
+    "CriticalCoverGenericField",
+    "BundledPointPlaceNaturality"
+  ],
+  "CriticalPointTransportValuation": [
+    "SmoothProperPointPlaceTransport"
+  ],
+  "AbstractPresentationPlaceTransport": [
+    "BundledPointPlaceNaturality"
+  ],
+  "BundledPointPlaceNaturality": [
+    "SmoothProperPlaceNaturality"
+  ],
+  "CriticalLiteralCount": [
+    "CriticalSchemeCount",
+    "CriticalSchemeBoundary",
+    "CriticalLiteralSchemeCharacter"
+  ],
+  "CriticalSchemeCount": [
+    "CriticalGlobalFibreCount",
+    "CriticalSchemePointPlaces"
+  ],
+  "CriticalGlobalFibreCount": [
+    "CriticalActualBoundaryCount",
+    "CriticalOffBoundaryFibre",
+    "CriticalFiniteRationalPlaces",
+    "FiniteFibreCounting"
+  ],
+  "CriticalActualBoundaryCount": [
+    "CriticalBoundaryFibre",
+    "CriticalBoundaryEight",
+    "CriticalRationalFibres"
+  ],
+  "CriticalBoundaryFibre": [
+    "CriticalBoundaryUnits",
+    "CriticalDoublePointCount",
+    "QuadraticRationalPlaceFibre"
+  ],
+  "CriticalBoundaryUnits": [
+    "CriticalBoundaryResidues",
+    "CriticalBoundaryRootCounts"
+  ],
+  "CriticalBoundaryRootCounts": [
+    "CriticalBoundaryCharacter",
+    "CriticalSignPoints",
+    "Mathlib.Data.Set.Card"
+  ],
+  "CriticalOffBoundaryFibre": [
+    "CriticalOffBoundaryUnit",
+    "CriticalBoundaryFibre",
+    "CriticalProjectiveBoundary"
+  ],
+  "CriticalOffBoundaryUnit": [
+    "CriticalProjectiveResidues"
+  ],
+  "CriticalFiniteRationalPlaces": [
+    "CriticalRationalFibres",
+    "CriticalDoublePointCount",
+    "Theorems.Thm_AlgebraicCurve_Place_isRational_iff_deg_eq_one"
+  ],
+  "FiniteFibreCounting": [
+    "Mathlib.SetTheory.Cardinal.Finite",
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Data.Fintype.Card"
+  ],
+  "CriticalSchemeBoundary": [
+    "CriticalFixedPlaceEvaluation",
+    "CriticalBoundaryClassification"
+  ],
+  "CriticalFixedPlaceEvaluation": [
+    "FixedAffinePointEvaluation",
+    "CriticalSchemePointPlaces",
+    "CriticalBoundaryEight"
+  ],
+  "FixedAffinePointEvaluation": [
+    "AffineChartPlaceEvaluation"
+  ],
+  "CriticalLiteralSchemeCharacter": [
+    "CriticalAllPointResiduePresentation"
+  ],
+  "CriticalAllPointResiduePresentation": [
+    "CriticalNormalizedChartPoint"
+  ],
+  "CriticalNormalizedChartPoint": [
+    "CriticalChartResidueEvaluation"
+  ],
+  "CriticalChartResidueEvaluation": [
+    "CriticalFixedChartCoordinates"
+  ],
+  "CriticalFixedChartCoordinates": [
+    "CriticalChartGenericFunctions"
+  ],
+  "CriticalChartGenericFunctions": [
+    "ChartSectionGeneric",
+    "CriticalSchemeCount"
+  ],
+  "ChartSectionGeneric": [
+    "CriticalSchemeBoundary"
+  ]
+}

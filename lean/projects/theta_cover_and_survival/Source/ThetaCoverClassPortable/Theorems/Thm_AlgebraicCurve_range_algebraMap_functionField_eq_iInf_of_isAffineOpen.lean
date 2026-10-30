@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_range_algebraMap_functionField_eq_iInf_of_isAffineOpen
+
+alias AlgebraicCurve.range_algebraMap_functionField_eq_iInf_of_isAffineOpen := P2MW.S_AlgebraicCurve_range_algebraMap_functionField_eq_iInf_of_isAffineOpen.solution

@@ -1,0 +1,74 @@
+{
+  "OriginalCoverAudit": [
+    "OriginalCoverExact"
+  ],
+  "OriginalCoverExact": [
+    "OrderedSourceFieldEmbedding",
+    "RationalFieldGeneration"
+  ],
+  "OrderedSourceFieldEmbedding": [
+    "OrderedSourceDominance",
+    "IntegralEvaluationInjection"
+  ],
+  "OrderedSourceDominance": [
+    "OrderedSourceGeneration",
+    "Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis",
+    "Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra",
+    "Mathlib.RingTheory.IntegralClosure.IsIntegralClosure.Basic"
+  ],
+  "OrderedSourceGeneration": [
+    "OrderedSourceInverse"
+  ],
+  "OrderedSourceInverse": [
+    "OrderedSourceCoordinates"
+  ],
+  "OrderedSourceCoordinates": [
+    "OrderedSourceRationalAlgebra"
+  ],
+  "OrderedSourceRationalAlgebra": [
+    "OrderedSourceFunctionField"
+  ],
+  "OrderedSourceFunctionField": [
+    "OrderedSourceRadicands"
+  ],
+  "OrderedSourceRadicands": [
+    "OriginalQuadraticDegree"
+  ],
+  "OriginalQuadraticDegree": [
+    "OriginalIntegralDomain",
+    "OriginalDeckObstruction"
+  ],
+  "OriginalIntegralDomain": [
+    "OriginalTowerPresentation",
+    "FourRadicalGenericField"
+  ],
+  "OriginalTowerPresentation": [
+    "OriginalDiagonalPresentation",
+    "geometry.MultiquadraticCoordinateUniversal"
+  ],
+  "OriginalDiagonalPresentation": [
+    "Mathlib.Algebra.MvPolynomial.CommRing",
+    "Mathlib.RingTheory.Ideal.Quotient.Operations",
+    "Mathlib.Tactic"
+  ],
+  "FourRadicalGenericField": [
+    "OriginalRadicandIndependence",
+    "geometry.MultiquadraticCoordinateAlgebra"
+  ],
+  "OriginalRadicandIndependence": [
+    "geometry.SquarefreeRatFunc",
+    "Mathlib.FieldTheory.RatFunc.AsPolynomial",
+    "Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure",
+    "Mathlib.FieldTheory.Separable",
+    "Mathlib.Tactic"
+  ],
+  "OriginalDeckObstruction": [
+    "OriginalDiagonalPresentation",
+    "Mathlib.RingTheory.Localization.FractionRing",
+    "Mathlib.Analysis.Real.Sqrt"
+  ],
+  "RationalFieldGeneration": [
+    "Mathlib.FieldTheory.IntermediateField.Adjoin.Basic",
+    "Mathlib.Algebra.Module.Rat"
+  ]
+}

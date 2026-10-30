@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_nonempty_exteriorPower_free_iso_unit
+
+alias AlgebraicGeometry.Scheme.Modules.nonempty_exteriorPower_free_iso_unit := P2MW.S_AlgebraicGeometry_Scheme_Modules_nonempty_exteriorPower_free_iso_unit.solution

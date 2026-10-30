@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_Place_deg_eq_one_iff_surjective_algebraMap_residueField
+
+alias AlgebraicCurve.Place.deg_eq_one_iff_surjective_algebraMap_residueField := P2MW.S_AlgebraicCurve_Place_deg_eq_one_iff_surjective_algebraMap_residueField.solution

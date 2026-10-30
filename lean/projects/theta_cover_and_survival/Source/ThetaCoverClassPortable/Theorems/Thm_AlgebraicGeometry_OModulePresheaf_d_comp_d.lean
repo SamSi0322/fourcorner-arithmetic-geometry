@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_OModulePresheaf_d_comp_d
+
+alias AlgebraicGeometry.OModulePresheaf.d_comp_d :=
+  P2MW.S_AlgebraicGeometry_OModulePresheaf_d_comp_d.solution

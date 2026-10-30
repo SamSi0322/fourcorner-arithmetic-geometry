@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_exists_placeEquiv_ord_eq_and_ell_mapDomain_eq
+
+alias AlgebraicCurve.exists_placeEquiv_ord_eq_and_ell_mapDomain_eq := P2MW.S_AlgebraicCurve_exists_placeEquiv_ord_eq_and_ell_mapDomain_eq.solution

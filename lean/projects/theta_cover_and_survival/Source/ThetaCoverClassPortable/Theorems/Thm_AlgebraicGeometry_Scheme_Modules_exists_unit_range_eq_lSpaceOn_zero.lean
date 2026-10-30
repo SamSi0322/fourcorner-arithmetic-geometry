@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_unit_range_eq_lSpaceOn_zero
+
+alias AlgebraicGeometry.Scheme.Modules.exists_unit_range_eq_lSpaceOn_zero := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_unit_range_eq_lSpaceOn_zero.solution

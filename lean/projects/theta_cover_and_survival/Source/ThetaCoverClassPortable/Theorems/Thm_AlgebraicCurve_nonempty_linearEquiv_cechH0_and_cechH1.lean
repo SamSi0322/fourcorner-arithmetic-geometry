@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_nonempty_linearEquiv_cechH0_and_cechH1
+
+alias AlgebraicCurve.nonempty_linearEquiv_cechH0_and_cechH1 := P2MW.S_AlgebraicCurve_nonempty_linearEquiv_cechH0_and_cechH1.solution

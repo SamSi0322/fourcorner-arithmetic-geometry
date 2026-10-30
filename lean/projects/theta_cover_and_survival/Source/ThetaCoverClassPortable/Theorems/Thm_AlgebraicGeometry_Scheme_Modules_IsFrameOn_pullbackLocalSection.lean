@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_pullbackLocalSection
+
+alias AlgebraicGeometry.Scheme.Modules.IsFrameOn.pullbackLocalSection :=
+  P2MW.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_pullbackLocalSection.solution

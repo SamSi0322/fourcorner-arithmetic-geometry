@@ -1,0 +1,691 @@
+{
+  "status": "PASS_CANONICAL_132_MATH_FRESH_PLUS_REVISED_AUDIT_AND_ALL133_COLD",
+  "toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "owned_sources": 133,
+  "canonical_shared_sources": 503,
+  "all_owned_standard_axiom_declarations": 2338,
+  "all_owned_type_value_closure": 82685,
+  "full_paper_endpoint_type_value_closure": 81049,
+  "source_manifest_sha256": "86076c5ab9905270a66d4f4d9166e2523af7334cf7c8361370ffc68d7066b0c4",
+  "build_record_sha256": "a475c6dd2eda57371a118a7aa292e9f76f43c68df18cf05c60b4e37c919f98ec",
+  "canonical_verification_sha256": "96bbdbdd06ad5eae5b2b06f1408b690df7b3949c26417331167fb2a1d0388050",
+  "scope": "Original thm:theta-lines; source/ownership adaptation only, full original statement retained. Numbered acceptance and aggregate verification are recorded in the companion coverage and top-level verification records.",
+  "cold_checks": [
+    {
+      "module": "DoubleRootPolynomial",
+      "receipt_sha256": "d440e103b266ed1341c71cf1325066084445315035a0fd09312c2edd1516b8f4",
+      "exit_code": 0
+    },
+    {
+      "module": "BinaryDehomogenization",
+      "receipt_sha256": "73c17e187c9d49831e4100c4f3e45561bc70db0e604a73d71ae35b9761715935",
+      "exit_code": 0
+    },
+    {
+      "module": "DivisorPicPrincipal",
+      "receipt_sha256": "f7d9930ee9cb8449841849922624406137b91e439d8dfca96c220e3ec3b9ea39",
+      "exit_code": 0
+    },
+    {
+      "module": "NativeCurveModelExistence",
+      "receipt_sha256": "31989f2bf8601e45015c0be8fec82972deb775b09a0b2a2536e1434c9a4e1bb7",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaFlatIntegralDescent",
+      "receipt_sha256": "004aece7131473476312d6c5f6c7af0e137f2e10228ad91fb1d9cb15ecf20752",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDGeometricModel",
+      "receipt_sha256": "26df922784f92456b8dd94983a6a545cbcbeec77c5bc63a6d3cac6bb32c86f7f",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaNativeFunctionFieldMap",
+      "receipt_sha256": "7e879157e45727339439215b80aaa1427055a00752b5699a017f607a8cdffcd0",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGenericRankFraction",
+      "receipt_sha256": "b6794c46660023ba694b28ddd2de9657f225723aa7d20682100a2f5dec8d49db",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaFiniteGenericDegree",
+      "receipt_sha256": "cc349e19e16d046f32100b9d5b4c6aa031c439aa59473b31e28a21a39f9e391e",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaUnramifiedPlaceIndex",
+      "receipt_sha256": "4edbb8417c4e45a86c5847b68759ca71be349167c87bbe214b600590de62d648",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDActualFieldCover",
+      "receipt_sha256": "eba5404951ccf2260ff09a0f470ce95478335dd1b2973078ab435c63e4d5c62a",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaEtaleAllPlaces",
+      "receipt_sha256": "86edf6123d30d1e429394a0d6a7f382c3876fec429aed18510128d586138fe34",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDGenusThree",
+      "receipt_sha256": "af52c890fc677f2c3393cedb72f31096a72e2acc574f972e5d406ea2e488469a",
+      "exit_code": 0
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "receipt_sha256": "dfb607971ac827b6af1f501faed8494412d091ed37b5667d9e3d75b0bf96d0dc",
+      "exit_code": 0
+    },
+    {
+      "module": "Theorems.Thm_AlgebraicCurve_FunctionField_exists_ratFuncAlgHom_apply_X_eq",
+      "receipt_sha256": "cce6235282288e43cf576e1453e5341d41689898303c6695cf5eb1cc5c325e19",
+      "exit_code": 0
+    },
+    {
+      "module": "P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch",
+      "receipt_sha256": "0427ea355633edcd8bfeae77659b0e2bca1be2383f69eea2d82d70d550ead3d6",
+      "exit_code": 0
+    },
+    {
+      "module": "RiemannRochWithGenusFF",
+      "receipt_sha256": "e34bc57f7c74e5a00ce475c1861f66d6ae1c0ec449efa6156cea1a458ccf0fa4",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDNativeSections",
+      "receipt_sha256": "eb784164f840918d69f56dcc4040ff5f75cab66d542901bfcc660f4bc8ad9260",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaRegularFunctionDifferential",
+      "receipt_sha256": "095adf8ca85b03c268c389a8efd3f7ef71e05400a2b978796801596716e0286b",
+      "exit_code": 0
+    },
+    {
+      "module": "DoubleZeroDifferential",
+      "receipt_sha256": "94340b5b55dbe25700945e7798aa593273bc839d7263b67861d11cf70b46731e",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentCore",
+      "receipt_sha256": "bd3f5a496e209310251c0a7b51a3538a336c48eb636251c9e9b78cdb3f127b46",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentAxisIdentities",
+      "receipt_sha256": "364f42d39c6e85de9282e610ccceae849e9fda70fcbb82490d380d44418a2ed8",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentAxes",
+      "receipt_sha256": "c7458c1dd6f7f14043f7009d415f88a7b77237382431651b4328f6e67b149128",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentCases",
+      "receipt_sha256": "edc46d4f2b678baa4fb74e2ccde5c67f504930f2ef4386715e48311ffdcc25d6",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentContacts",
+      "receipt_sha256": "f660654d26b06f8335dc62ef133e87313a8152a9d330051f806b72afba1820f9",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentGeneric",
+      "receipt_sha256": "3f6c0cf9bd0a0f2c7238b9f0db61fc31480cbb9baf1eaac9755df37d52d128cc",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentExhaustionWave36",
+      "receipt_sha256": "394d3951f34484393e659caa6e00997ffc980af615b47b261f1a0cc6168a84b0",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentQuadraticIndependence",
+      "receipt_sha256": "ecb0911e106a4de296e59c20aa68eeac9504493f292489bc5a45408c715685c8",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentGaloisWave36",
+      "receipt_sha256": "9dfcd446401996793cdcd3ac1b5f97e2c30680f428fcd67b9ffea4e63ea02e0a",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentCountWave36",
+      "receipt_sha256": "e5fa81dbf1964a76281c0b6ae5767974ea704854ba36ccb634d1834322ce4cb7",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaBitangentProjectiveChartsWave36",
+      "receipt_sha256": "385ac0764a0f979a720f74afd7cde26b172fa8f90f9cb0b9f5d62fca4bd712d9",
+      "exit_code": 0
+    },
+    {
+      "module": "PicEffectiveRepresentatives",
+      "receipt_sha256": "4e271641a8ac4cfacdbbe33dd92c81eadb339762ac206d723cd3c176a2ef823d",
+      "exit_code": 0
+    },
+    {
+      "module": "HalfCanonicalDifferential",
+      "receipt_sha256": "d0df2cddb3cbd815d1d371ba5e738769e0d162f2b5357d24464b1983c56a9b81",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaStdTotallySplit",
+      "receipt_sha256": "e732222f6ea6a5ea18b9e7ffbc817b79a4862486db836b33dd22e59cde0761d2",
+      "exit_code": 0
+    },
+    {
+      "module": "NativeBinaryP1",
+      "receipt_sha256": "1c468ee49b25b2194713b988e853f8a2bd7a062490c3999c76aaf22be7d19bd7",
+      "exit_code": 0
+    },
+    {
+      "module": "NativeFunctionFieldFunctor",
+      "receipt_sha256": "9db8d0f04a4a108564763a4b44837fc719dce18495f978a15502bc9342127686",
+      "exit_code": 0
+    },
+    {
+      "module": "NativeStalkFieldNaturality",
+      "receipt_sha256": "66e7bb4221a1cb7749b6c39b35e48ceef4745fb24ada64e90ee98d744ff0dba0",
+      "exit_code": 0
+    },
+    {
+      "module": "SmallSquareSpaceBound",
+      "receipt_sha256": "83455671715cb1a21d22911a4b620c3dbc8ba8da74a0cc97e64664ddfeff16e4",
+      "exit_code": 0
+    },
+    {
+      "module": "OddThetaDivisorClassification",
+      "receipt_sha256": "a210c0c0ff47ceb1773aaa8e8c7b37e5e620addb38ed688032d98b7f2abd2f05",
+      "exit_code": 0
+    },
+    {
+      "module": "PicEllOneOfConstants",
+      "receipt_sha256": "2d5fb1e343feca8dc9ac76286375bbc3b51dd96dbc4b6915742dd35038bf4999",
+      "exit_code": 0
+    },
+    {
+      "module": "QuarticTwoDoublePoints",
+      "receipt_sha256": "29c0be0e45d58a9a294e88761258c3dd978d302d08378ce286fb9d7887e59098",
+      "exit_code": 0
+    },
+    {
+      "module": "QuarticSingletonZero",
+      "receipt_sha256": "b6002bbde1e2fedb04ad07966c8134cea19600c439296eedd7039efc667b935e",
+      "exit_code": 0
+    },
+    {
+      "module": "SemilinearPicAndEll",
+      "receipt_sha256": "276028b91accfda0481b6087fd753135b428f23731d0fc9531af7f081be7228a",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDExactModel",
+      "receipt_sha256": "a4d7bf3eb3d56c7d701aaeecbe7baf45837606cfa5499ccf6b49c3098405428a",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDGeometricChartPoints",
+      "receipt_sha256": "693e52dbd95bbcc9a2f9b5e24c36ad1b60f68a0e7dcad56c6b372e3e994a9b9f",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDPlaneChartSections",
+      "receipt_sha256": "184d2ae6da0c7a10019ef71be2e843390601d6502db5ae7d2520a0b449067666",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDifferentialChartIdentity",
+      "receipt_sha256": "6019f608195333bb720c8129ba590b46ced74f0963b2228f102db1b44bb9aaf3",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDFieldCoordinates",
+      "receipt_sha256": "d5c0b5e5cd0ba1578a9be113a9d1ebf80602fb65771f7e8e8fe32c45e5fcee66",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDActualDifferential",
+      "receipt_sha256": "a692c75ea856fb3f7194fa825b801332d491447cf0f0ed767fabece6740b01f2",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDFiniteDifferential",
+      "receipt_sha256": "d7831c2f0cf33cbb50e0f2becc5aa0a0faffb48e6f9f221ee0ffa9a63f6483d9",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDChartPlaceRegularity",
+      "receipt_sha256": "71c3fec2668d2f649c68c40efeead6055484b6c35fa95240e25347a82ef617ae",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDChartNaturality",
+      "receipt_sha256": "787d4d2cc40d43ca3d7321969296dc15c9ff11ef68f478c6383d39c2c053f205",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDNativeProjRatios",
+      "receipt_sha256": "3538eb86a9f4138f85894fbb6797f0e45f634619139d30e3c2bfd208ee25435c",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDNativeProjSections",
+      "receipt_sha256": "ffeece6b5dd96bb2472efc76c37773448a6fa4d807444b2e16ede55f795dd84d",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDSectionComparison",
+      "receipt_sha256": "9754bad47d5b08baa60e40a272719ddf68ef1139722c0b921702046a5a991431",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDProjectiveInfinityCover",
+      "receipt_sha256": "989e3a9f1d0782e0a2416a6a106a054d643df9fae141ef28012f96392854ef45",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDExactChartTransitions",
+      "receipt_sha256": "727c99020d88a1dac625eaea0cd3a8a41d8c86af045edfdc47fe91c582ceba2d",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDCoordinateBasicOpens",
+      "receipt_sha256": "cbcc141ec27fd320720db4ec777027a508efa1e6d99859d89bdc880e9a221b3b",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDOriginalChartOpens",
+      "receipt_sha256": "a714b4e04125a8879946373861f9ddea6434968a1ed75022a7b0b592a07eec44",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDInfinityLocalParameter",
+      "receipt_sha256": "1c218b28e8f7a46abd150bb8d435cfe7f05e7bbd5f7d49a9845d450cb3f6fcab",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDGlobalCanonicalCandidate",
+      "receipt_sha256": "1bd95b318bf8c738f223b54fa31906341be784357c78b936de2ea0a72fcc3c75",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDPlaneRegularForms",
+      "receipt_sha256": "549f4d6e75c45b193b3b024ce3f1b5160ec75405a544ff905ff4d8e754cec5cf",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDCanonicalPlaneBasis",
+      "receipt_sha256": "2b376b20feae971292df2f7b66ff28e1dc23cc244d3c8f77db3fbb7c373ef6c9",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDGlobalSheafBasis",
+      "receipt_sha256": "d81be800535ad623b87e48eea4b74a12fb133d6898bd41eed436a5cdf15376dc",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDInfinityPoints",
+      "receipt_sha256": "210d0882e49574f03a546059d19e6df2d53aa04a50a3bfeb8511a149c1f7c478",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDFourInfinityPlaces",
+      "receipt_sha256": "fd2a3a47de254a6e3500cab5daff144def661898b059d43d905cb41d2b94cee2",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDCanonicalInfinityDivisor",
+      "receipt_sha256": "b114394461a44730b3f7e0af39492d91a079ecc2c8882c429ba19d0ba72ef6cd",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDHyperplaneLocalOrders",
+      "receipt_sha256": "5bc9bb317964a5dfbd9edb41988e406399c2303157e91b59f3b8d451bf2c15f2",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaVanishingDifferentialOrder",
+      "receipt_sha256": "496bf1d954df840c1ba6424fa7fdf36a299f2f0d79d650e5765dcf386fa2915c",
+      "exit_code": 0
+    },
+    {
+      "module": "SemilinearDifferentialOrder",
+      "receipt_sha256": "f4ce9abec7319a77f1f63d13e9d2e8c604d1db44cdab5043a4df2bb5463a8407",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesSchemePoints",
+      "receipt_sha256": "8c7665799807623346d503b9fc098b5ae928305f36819157784ce44d7a0c95d5",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesContactPoints",
+      "receipt_sha256": "88d61c790a057c5c3530c156f1545943d5ac6b756a383eb20d8fa2c88c6bee8b",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesPolynomialContacts",
+      "receipt_sha256": "63e33f79cb586dd06a90ff66a39ae5bf0919e21bbf30cb8533ce51126cb30113",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGeometricContactPoints",
+      "receipt_sha256": "791e94fe98d4d3eaf4f8f87202a951e59530106ca92f289063891e6e3fe55296",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGeometricChartEvaluation",
+      "receipt_sha256": "3e88ab9409a512cdb2e73fe0928bdbd2b0a5ab046837737eda0190e9abfb7638",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGeometricPointCoordinateEvaluation",
+      "receipt_sha256": "d5eb9e5b6f8af6cb7870ca3ad6bb6aab222cedf81db2a4bae2f112c3ea8c6f44",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGeometricResidueCoordinates",
+      "receipt_sha256": "29803dc848b6773b0f3ab36774946b50db7ba05740cd0b34ecee8f8a1fc6146c",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaContactTangencyCertificates",
+      "receipt_sha256": "ddf4e59f7c34723beaf5af5aa90c3f4035a1e36d16aeaaf11414e1ce9e47a2aa",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDOriginalCoordinateSections",
+      "receipt_sha256": "e671a68e195e69e34b1121ecec3c98993f2b737c41f956d9012d568c22a70846",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaDNaturalGlobalDifferentials",
+      "receipt_sha256": "802140da2cdb30559d60e9d4e39a3a7a3dbc88326457edf458a492d269e0cfc4",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaActualLineDifferentials",
+      "receipt_sha256": "456886b6527ce44507060e1681dc4d0d43fb693bd0b416364b39f688dfa7f557",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaValuationTangencyOrder",
+      "receipt_sha256": "4690040f35744d82ae35192cee42b28bcaa8ef6f67023d29de06f4a8946d28fa",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaAffineContactOrder",
+      "receipt_sha256": "0607f95970a9947df699c968cc136816ec56d5051a9ed88fcf3b61c54c7d007d",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaVerticalContactOrder",
+      "receipt_sha256": "ae3fe5e2fa6ee8b59d21e9ab1e3b00978ad1ef3d8d53794496e3bd939f194fbb",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaContactDifferentialDivisors",
+      "receipt_sha256": "f18054ff4a0a6962bfbcc47bd41709b92f2eb8517978f7ae74dabd2eaa68be5d",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaActualHalfCanonicalContacts",
+      "receipt_sha256": "19135edae9cee570207f840710de8ff33b2e7d78937aa5d6469490ddef821fb9",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaActualOddThetaClasses",
+      "receipt_sha256": "7e8a4c376f54b5fa62282a42e2b40223b9217279101694c15333da197d086782",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaCanonicalLinePointValues",
+      "receipt_sha256": "495540f54ab84f846c02a63d7e213ab359d527908b8f35bae9d1e2c8a13e48ca",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaContactPairFrames",
+      "receipt_sha256": "dc73947a5b6934c524b83ce534b406ed7374471582b2dfb6238039a663d1f373",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaContactLSpaceGeometry",
+      "receipt_sha256": "962089ae9271b906651dd923404d3628d055cb6bc37545d06f816af5f452054c",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaAffineContactConstants",
+      "receipt_sha256": "ca29655b337c9ffd793a5132bbaf7548268e5e21ff46912a5bff7b9918a3103d",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesProjectiveLines",
+      "receipt_sha256": "44bd81b87b95b9c75ea4581fd52206c0b01f733ddabdc463671fedd35159f49e",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesAbsoluteGalois",
+      "receipt_sha256": "75bfea2eb075ee35936df9a685370cbc5d45378e9af2a2ce98e180bd5dbedc9b",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesProjectiveClassification",
+      "receipt_sha256": "d68c2415d221b5deed9b558aa2717f432bfa835c6737ad3a6e1a861eeea09ed5",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesGaloisAction",
+      "receipt_sha256": "441bb08797fb11f0dfc7a93741a336a6a417630a0b174f20f19bf905708e446f",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesDualLines",
+      "receipt_sha256": "6b75da8ca966326d9cbba2abc0ab7cd52e1609ec1f098e764c81507ae67fffbf",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLineSplittingField",
+      "receipt_sha256": "e43e7277979e557fdf80ab06ba56f4c1eec1b41f896ac2fb2db06556a5be2478",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaNativeLineGaloisSet",
+      "receipt_sha256": "2388e7f3d2101e2c0dccdb68e3a23ce6cbfd01ab426404839eed1193e77314a4",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaAssociatedLineAlgebra",
+      "receipt_sha256": "61d7810fe27e08bd4b7d0eb27f3215f8b575ae4b70c721a431ac1e3af346ff4d",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaVerticalContactConstants",
+      "receipt_sha256": "4121cffe1f2699ca52261ff6ad920f23773c260c9fb65151e39764af20e08612",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaContactOddness",
+      "receipt_sha256": "890cbcf5ed84d9ca4aaa5084c68add760a646371213c36dcb5b322e381612bd9",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLiteralBinaryRestrictions",
+      "receipt_sha256": "526cf1c714730dee65f4e28b223147f3d13f2124d4cbb6e211a786395417996e",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaRestrictionHasTwoRoots",
+      "receipt_sha256": "60afd76ef381123110c6fc66623c7a0d44e66f7af4c21699bc392b0937b061f6",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLineRootPointCharts",
+      "receipt_sha256": "cdb3c8558e4cab94ae6c283b064fce86be338bd346ed04676c10e2bf9a5c09b7",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaProjectiveRootPlaceEmbedding",
+      "receipt_sha256": "b04b1b7f3f0244852f25b929a9d236dd404be4b37fc2e66a6001b3f9d188344f",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaRootCanonicalSections",
+      "receipt_sha256": "2c4638886a44d3c15933f30e27c055acfa968895ad4efb02c8bbb69e628bc6a7",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaHalfCanonicalRootSupport",
+      "receipt_sha256": "810193dd7162a081f69d45ae1309a128e892c2e1ed3fda4d747523c2823fc898",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaChartCanonicalFrames",
+      "receipt_sha256": "fd74d8fc978e1f0ac7aa24234acc01bf330462c35b03b447426823cb08935e09",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaOrderTwoDerivativeEvaluation",
+      "receipt_sha256": "71b21a221d1950ab31a3261745ed5ed5ecde63480aa6b8fa2262cdec2372d066",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLocalLineDerivatives",
+      "receipt_sha256": "482b7d9980e838313a180117391a306ca15bede2b92502ee91861338d5746a2a",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaChartTangentVanishing",
+      "receipt_sha256": "a6a3999cafd66b89dfa6f19f47a43265fa09a615ee864b5f7d8b45019e382cd0",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGaloisSchemeField",
+      "receipt_sha256": "01ae4a08d201c5869dabd139351eacef4d4e3e8234914c6b35a74a210d33827a",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGaloisFieldAction",
+      "receipt_sha256": "690d8432915230d6df3e8c47dc273045e9489eb7fc999a706fc0260f28d5076b",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGaloisPointPlace",
+      "receipt_sha256": "a5b25d275cfa78268ee40bea75958ce940278be633b91df6180c483523788e6a",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaOddThetaCanonicalLines",
+      "receipt_sha256": "682717af6ba98396d58125877d34e2a02fdeadbb254b1fa97aabf764aef125de",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGaloisCanonicalPlane",
+      "receipt_sha256": "ca7bcc2ed9809b4a878d5bfd4944fca853dde4603f51e0c294f739cd983fc0fb",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaGaloisCanonicalCorrespondence",
+      "receipt_sha256": "5c312e6deea4ba1e10c6577da6faf72400c00531ef48cb6f6d7e692774f0985e",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLiteralRootJets",
+      "receipt_sha256": "b4c392ba5a827c36634791528552430c206867f95c8251e56a7c7d630b51188b",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaRootOrderDoubleJets",
+      "receipt_sha256": "b5d43fbb4af8a12b051ac459f8f0c5993a977f85c48e83c94d0a2cd8d19e45bd",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaHalfCanonicalSquareContact",
+      "receipt_sha256": "1b17f46a1f60f4b272a586ef8cb18407080a392e1bd575a04f37f923c89409bf",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLineOrbits",
+      "receipt_sha256": "aa6fa460c257765eb7bdb03c7dbbfa88c332d484d739d95a68b5224a4522e3b3",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaOrbitEvaluation",
+      "receipt_sha256": "153ed54d18c2d7a2c7a167a4769deed7e929a29b862b0c93378732badf049bf6",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLineFixedFields",
+      "receipt_sha256": "7c15aca3c9ad00e84f032792f32f36e80c8009506662024c81ab2815abd88aba",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLineStabilizers",
+      "receipt_sha256": "cdee217be8a517bcc8e47bae8b4b59ee999ae65a8f7803530e218c0684ee27bb",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLineAlgebraDecomposition",
+      "receipt_sha256": "584daae2872395fa31172b69c7077349942179b3a56bf3b60c2c923f55d6a4cf",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLineGeometricPoints",
+      "receipt_sha256": "e49c491a92030252287e1577a193264dc14d9ca94c90244250d4c411a8541499",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaNativeDualCanonicalLines",
+      "receipt_sha256": "de95b49082ab0beed911d89946f540babc31ff9c000f3f03bc9af0a4abc3689b",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaOddNativeLineEquiv",
+      "receipt_sha256": "3697ea4ae074c7c8a06b8ca5cc56e1f8eb9974890c17c7ab880ce8695db5eaea",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaOddNativeGaloisEquiv",
+      "receipt_sha256": "2723f0c2a53e779a45992960a7ebc3df9c7cd29c2baba61d6d29bb47fa9829c3",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaOddGaloisActionHom",
+      "receipt_sha256": "ed3e82d3e408a1ab900656b42e976b8e50d8c3eb9c9e74232199c2e60cac6c5f",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaOddNativeSquareContact",
+      "receipt_sha256": "67b6c69ca0adc94dbfeb9235b46b4ad3c78d1d85315514b0c42aba29a8d15b2b",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesFullAssembly",
+      "receipt_sha256": "5c284ad2fedc127531999c1dfbdacfcc325acf9538a22e051dceda78ad665e98",
+      "exit_code": 0
+    },
+    {
+      "module": "ThetaLinesPortableAudit",
+      "receipt_sha256": "4b68745033f82023e725020d0d0b37bd490b908b1aaf7d399f3682155d13e29b",
+      "exit_code": 0
+    }
+  ],
+  "expected_setup_options": {
+    "autoImplicit": false,
+    "maxSynthPendingDepth": 3
+  },
+  "kernel_checking": "debug.skipKernelTC=false; individual cold checks additionally -t0",
+  "no_private_prototype_parent": true,
+  "initial_fresh_build_sha256": "a475c6dd2eda57371a118a7aa292e9f76f43c68df18cf05c60b4e37c919f98ec",
+  "revised_audit_rebuild_sha256": "ba1bff97e79dc696075b834eb3ce5c5d8ea6e855d7005fd3fbf4afdf0eb78d06",
+  "revised_audit_cold_sha256": "4b68745033f82023e725020d0d0b37bd490b908b1aaf7d399f3682155d13e29b",
+  "effective_scope": "132 mathematical/compatibility sources unchanged since initial empty-owned canonical build; output-only audit was rebuilt and cold checked after adding explicit final-theorem axiom output. All final133 source versions have successful canonical ordinary/cold evidence."
+}

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_projPresentation_of_iSup_eq_top
+
+alias AlgebraicGeometry.Scheme.Modules.exists_projPresentation_of_iSup_eq_top := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_projPresentation_of_iSup_eq_top.solution

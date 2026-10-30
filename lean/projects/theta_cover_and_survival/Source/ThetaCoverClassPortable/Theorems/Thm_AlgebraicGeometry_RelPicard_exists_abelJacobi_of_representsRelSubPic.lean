@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_exists_abelJacobi_of_representsRelSubPic
+
+alias AlgebraicGeometry.RelPicard.exists_abelJacobi_of_representsRelSubPic := P2MW.S_AlgebraicGeometry_RelPicard_exists_abelJacobi_of_representsRelSubPic.solution

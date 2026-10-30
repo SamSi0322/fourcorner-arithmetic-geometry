@@ -1,0 +1,7 @@
+Actual common-source odd-row lemma.
+Original new project proofs and integration support: Yuan Si, Apache-2.0.
+The fourcorner_paper and fourcorner_small_curves source dependencies retain their
+original licenses and provenance. The inherited EllipticFoundations vendor package
+retains its Apache-2.0 headers, licenses and UPSTREAM_PROVENANCE.json, including the
+MichaelStollBayreuth/EllipticCurves and Vilin97/MazurTheorem source attributions.
+Lean, Mathlib and other standard dependencies are not vendored here.

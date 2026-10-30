@@ -1,0 +1,10 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_isSheaf_relSubPicPresheaf_algEquivZeroCut_zariski_of_bijective_sections
+
+/-- Zariski sheaf property of the ACTUAL rigidified-line-bundle isomorphism
+class quotient and ACTUAL fibrewise algebraic-equivalence-to-zero cut. The
+only input is actual structural universal H0 for all base algebras. -/
+alias AlgebraicGeometry.RelPicard.isSheaf_relSubPicPresheaf_algEquivZeroCut_zariski_of_bijective_sections :=
+ P2MW.S_AlgebraicGeometry_RelPicard_isSheaf_relSubPicPresheaf_algEquivZeroCut_zariski_of_bijective_sections.solution
+
+#check @AlgebraicGeometry.RelPicard.isSheaf_relSubPicPresheaf_algEquivZeroCut_zariski_of_bijective_sections
+#print axioms AlgebraicGeometry.RelPicard.isSheaf_relSubPicPresheaf_algEquivZeroCut_zariski_of_bijective_sections

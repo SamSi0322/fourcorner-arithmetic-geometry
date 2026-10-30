@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_tensorPow
+
+alias AlgebraicGeometry.Scheme.Modules.FiniteBySections.tensorPow := P2MW.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_tensorPow.solution

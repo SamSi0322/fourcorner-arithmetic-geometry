@@ -28,5 +28,218 @@
       "source/NineThreeTorsion.lean",
       "source/NineThreeScopeAudit.lean"
     ]
+  },
+  {
+    "directory": "projects/opposite_genus",
+    "target": "OppositeGenus",
+    "audit": [
+      "Source/OppositeGenus.lean"
+    ]
+  },
+  {
+    "directory": "projects/adjacent_genus",
+    "target": "AdjacentGenus",
+    "audit": [
+      "Source/AdjacentGenus.lean"
+    ]
+  },
+  {
+    "directory": "projects/common_exclusion",
+    "target": "CommonExclusionProject",
+    "audit": [
+      "Source/CommonExclusionPackage.lean"
+    ]
+  },
+  {
+    "directory": "projects/common_genus",
+    "target": "CommonGenusProject",
+    "audit": [
+      "Source/CommonGenusPackage.lean"
+    ]
+  },
+  {
+    "directory": "projects/common_genus17",
+    "target": "CommonGenus17Project",
+    "audit": [
+      "Source/Genus17Package.lean"
+    ]
+  },
+  {
+    "directory": "projects/common_source",
+    "target": "CommonSourceProject",
+    "audit": [
+      "Source/CommonSourcePackage.lean"
+    ]
+  },
+  {
+    "directory": "projects/common_source_matrix",
+    "target": "CommonSourceMatrixProject",
+    "audit": [
+      "Source/CommonSourceMatrixPackage.lean"
+    ]
+  },
+  {
+    "directory": "projects/common_finite_places",
+    "target": "CommonFinitePlacesProject",
+    "audit": [
+      {
+        "source": "Source/FiniteLocalPackage.lean",
+        "setup": ".lake/build/ir/FiniteLocalPackage.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/critical_elliptic",
+    "target": "CriticalEllipticProject",
+    "audit": [
+      {
+        "source": "Source/CriticalEllipticPackage.lean",
+        "setup": ".lake/build/ir/CriticalEllipticPackage.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/critical_prime",
+    "target": "CriticalPrimeProject",
+    "audit": [
+      {
+        "source": "Source/CriticalPrimeFullAudit.lean",
+        "setup": ".lake/build/ir/CriticalPrimeFullAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/original_cover",
+    "target": "OriginalCoverProject",
+    "audit": [
+      {
+        "source": "Source/OriginalCoverAudit.lean",
+        "setup": ".lake/build/ir/OriginalCoverAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/hasse_uniform",
+    "target": "HasseUniformProject",
+    "audit": [
+      {
+        "source": "Source/HasseUniformCompleteAudit.lean",
+        "setup": ".lake/build/ir/HasseUniformCompleteAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/cs15569",
+    "target": "Cs15569Project",
+    "audit": [
+      {
+        "source": "Source/Cs15569Audit.lean",
+        "setup": ".lake/build/ir/Cs15569Audit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/theta_quotient",
+    "target": "ThetaQuotientProject",
+    "audit": [
+      {
+        "source": "Source/ThetaQuotientAudit.lean",
+        "setup": ".lake/build/ir/ThetaQuotientAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/critical_refined",
+    "target": "CriticalRefinedProject",
+    "audit": [
+      {
+        "source": "Source/RefinedFiniteAudit.lean",
+        "setup": ".lake/build/ir/RefinedFiniteAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/critical_double",
+    "target": "CriticalDoubleProject",
+    "audit": [
+      {
+        "source": "Source/CriticalDoubleFullAudit.lean",
+        "setup": ".lake/build/ir/CriticalDoubleFullAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/hasse_infinite",
+    "target": "HasseInfiniteProject",
+    "audit": [
+      {
+        "source": "Source/HpInfiniteCompleteAudit.lean",
+        "setup": ".lake/build/ir/HpInfiniteCompleteAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/descent_algebra",
+    "target": "DescentAlgebra",
+    "expected_setup_options": {
+      "autoImplicit": false,
+      "maxSynthPendingDepth": 3
+    },
+    "audit": [
+      {
+        "source": "Source/DescentAlgebraAudit.lean",
+        "setup": ".lake/build/ir/DescentAlgebraAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/theta_lines",
+    "target": "ThetaLinesProject",
+    "expected_setup_options": {
+      "autoImplicit": false,
+      "maxSynthPendingDepth": 3
+    },
+    "audit": [
+      {
+        "source": "Source/ThetaLinesPortableAudit.lean",
+        "setup": ".lake/build/ir/ThetaLinesPortableAudit.setup.json"
+      }
+    ]
+  },
+  {
+    "directory": "projects/theta_local_survival",
+    "target": "ThetaLocalSurvivalPortable.Audit",
+    "audit": [
+      {
+        "source": "Source/ThetaLocalSurvivalPortable/Audit.lean",
+        "setup": ".lake/build/ir/ThetaLocalSurvivalPortable/Audit.setup.json"
+      }
+    ],
+    "expected_setup_options": {}
+  },
+  {
+    "directory": "projects/theta_cover_and_survival",
+    "target": "ThetaCoverClassPortable",
+    "audit": [
+      {
+        "source": "Source/ThetaCoverClassPortable/ActualThetaCoverFullAudit.lean",
+        "setup": ".lake/build/ir/ThetaCoverClassPortable/ActualThetaCoverFullAudit.setup.json"
+      },
+      {
+        "source": "Source/ThetaCoverClassPortable/ActualTwoJacobianSurvivalAudit.lean",
+        "setup": ".lake/build/ir/ThetaCoverClassPortable/ActualTwoJacobianSurvivalAudit.setup.json"
+      }
+    ],
+    "expected_setup_options": {},
+    "audit_lean_args": [
+      "-DautoImplicit=false",
+      "-DmaxSynthPendingDepth=3",
+      "-Dbackward.isDefEq.respectTransparency.types=false",
+      "-DsynthInstance.maxHeartbeats=400000",
+      "-DmaxHeartbeats=16000000",
+      "-DmaxRecDepth=10000",
+      "-R",
+      "Source"
+    ]
   }
 ]

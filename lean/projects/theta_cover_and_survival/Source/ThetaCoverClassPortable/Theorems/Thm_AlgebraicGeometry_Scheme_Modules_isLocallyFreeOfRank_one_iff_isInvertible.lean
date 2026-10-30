@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isLocallyFreeOfRank_one_iff_isInvertible
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias isLocallyFreeOfRank_one_iff_isInvertible := P2MW.S_AlgebraicGeometry_Scheme_Modules_isLocallyFreeOfRank_one_iff_isInvertible.solution
+end AlgebraicGeometry.Scheme.Modules

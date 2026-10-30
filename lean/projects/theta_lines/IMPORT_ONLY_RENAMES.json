@@ -1,0 +1,134 @@
+[
+  {
+    "original_module": "FourCorner.ThetaBitangentAxes",
+    "staged_module": "ThetaBitangentAxes",
+    "source_sha256": "806acd59f888358dab735fb2c452a8cc8b1684264644c688aeb8acad5c43080f",
+    "staged_sha256": "2c63f769d356007b4a22d82d3c6cdd22c703ee755bb53088d8a9f11b2e7b7f5c",
+    "non_import_body_sha256": "ccb71d049dd6decb1dc686c86a2b02bdc3b140b0bfa83aca2c8c7de08fd959f0",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "--- FourCorner.ThetaBitangentAxes\n+++ ThetaBitangentAxes\n@@ -1,5 +1,5 @@\n-import FourCorner.ThetaBitangentCore\n-import FourCorner.ThetaBitangentAxisIdentities\n+import ThetaBitangentCore\n+import ThetaBitangentAxisIdentities\n import Mathlib.Tactic\n \n set_option autoImplicit false\n",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentAxisIdentities",
+    "staged_module": "ThetaBitangentAxisIdentities",
+    "source_sha256": "d06c9d1aaa1b66e86ec1ed1fa5ccad951d1aaa2368be7f6a609067b623f84089",
+    "staged_sha256": "d06c9d1aaa1b66e86ec1ed1fa5ccad951d1aaa2368be7f6a609067b623f84089",
+    "non_import_body_sha256": "ac86cfdabd518a5bad6e0319bf48e86b51e7c461d81a9cc5a9e248855711971c",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentCases",
+    "staged_module": "ThetaBitangentCases",
+    "source_sha256": "bfd18c33b47b979f33c9d877ed23cad2acb9af43cf934b507a5c7cadeb47ac65",
+    "staged_sha256": "bfd18c33b47b979f33c9d877ed23cad2acb9af43cf934b507a5c7cadeb47ac65",
+    "non_import_body_sha256": "9bd967d822233a4c4b698bd6eb128655512cb8eab209d2d67bfb5e487c045a40",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentContacts",
+    "staged_module": "ThetaBitangentContacts",
+    "source_sha256": "321baf20a11296df1b68532e5adfd1afae203eccd896d943b2ea5a1acdf655d8",
+    "staged_sha256": "79eec63623518f1d6086bd991c52d98ce76d63406ec7d37a9a922fccbc96633b",
+    "non_import_body_sha256": "dee839d6409b775d04b67bb91e2980f77fdc9413318ddf4eca443b6b5a5a6743",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "--- FourCorner.ThetaBitangentContacts\n+++ ThetaBitangentContacts\n@@ -1,4 +1,4 @@\n-import FourCorner.ThetaBitangentCore\n+import ThetaBitangentCore\n \n namespace FourCorner\n \n",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentCore",
+    "staged_module": "ThetaBitangentCore",
+    "source_sha256": "0970187af2a9b69d125fb16981d810a37e8e4103fb55ab0d68b65d0bfe28a5e1",
+    "staged_sha256": "0970187af2a9b69d125fb16981d810a37e8e4103fb55ab0d68b65d0bfe28a5e1",
+    "non_import_body_sha256": "b342039afb9c5564f2d254b93782b322280dd904c3ca48265c816f96aa5bbfd9",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentCountWave36",
+    "staged_module": "ThetaBitangentCountWave36",
+    "source_sha256": "ee614f9f9163758fe7e8dc8e8ae8ca7d085fffb76b786468f83709e9aa40eb24",
+    "staged_sha256": "f804d14e1b982bb691fde3605c180d5d1fab072146c1d7d77cc43f555963c02d",
+    "non_import_body_sha256": "dc89584cb4d14274a026da40f954fb14965b6d21c928ac765973d07f7f8e8bf3",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "--- FourCorner.ThetaBitangentCountWave36\n+++ ThetaBitangentCountWave36\n@@ -1,5 +1,5 @@\n-import FourCorner.ThetaBitangentExhaustionWave36\n-import FourCorner.ThetaBitangentGaloisWave36\n+import ThetaBitangentExhaustionWave36\n+import ThetaBitangentGaloisWave36\n set_option maxHeartbeats 2000000\n namespace FourCorner\n open scoped QuadraticAlgebra\n",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentExhaustionWave36",
+    "staged_module": "ThetaBitangentExhaustionWave36",
+    "source_sha256": "a14090f371a6f5166bd7b37b08609646262777ac776463128c11918aa7b7be61",
+    "staged_sha256": "53252be896c53842d862746978cbebc7519b3f42b99fd9d5da27d7a3cdab7d9e",
+    "non_import_body_sha256": "d50906c840960d326100a55aa0a077afd4e378a67e7d0ed8579181d552425b35",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "--- FourCorner.ThetaBitangentExhaustionWave36\n+++ ThetaBitangentExhaustionWave36\n@@ -1,8 +1,8 @@\n-import FourCorner.ThetaBitangentCore\n-import FourCorner.ThetaBitangentGeneric\n-import FourCorner.ThetaBitangentCases\n-import FourCorner.ThetaBitangentAxes\n-import FourCorner.ThetaBitangentContacts\n+import ThetaBitangentCore\n+import ThetaBitangentGeneric\n+import ThetaBitangentCases\n+import ThetaBitangentAxes\n+import ThetaBitangentContacts\n import Mathlib.FieldTheory.IsAlgClosed.Basic\n \n namespace FourCorner\n",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentGaloisWave36",
+    "staged_module": "ThetaBitangentGaloisWave36",
+    "source_sha256": "6a09d96a411b54d267591fa8c6871cf692578eadae1504ee9df48affc71a1a3a",
+    "staged_sha256": "f2635b8d895fcb569d5082b0ba5e039e453eb7f7ca986165b909a6af3ab662fc",
+    "non_import_body_sha256": "e1f5e0015ceb6d5812a706551a5b53f43b517131345a4eff286bdddbd0578252",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "--- FourCorner.ThetaBitangentGaloisWave36\n+++ ThetaBitangentGaloisWave36\n@@ -1,4 +1,4 @@\n-import FourCorner.ThetaBitangentQuadraticIndependence\n+import ThetaBitangentQuadraticIndependence\n import Mathlib.FieldTheory.Galois.Basic\n import Mathlib.Algebra.Star.Rat\n import Mathlib.Tactic.FinCases\n",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentGeneric",
+    "staged_module": "ThetaBitangentGeneric",
+    "source_sha256": "167b2d84f58843b667aec19a6b92649ea193179f4d49cce6fc48f69a62cbad4d",
+    "staged_sha256": "aba552a755b158c0cdfdf022239d9d34d07d30e4753eee13750e3aa3507f8ac5",
+    "non_import_body_sha256": "9d41e562b28bf49098bbd66a714706e34d6627718c643c9c31ae7afa7698fb70",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "--- FourCorner.ThetaBitangentGeneric\n+++ ThetaBitangentGeneric\n@@ -1,5 +1,5 @@\n-import FourCorner.ThetaBitangentCore\n-import FourCorner.ThetaBitangentCases\n+import ThetaBitangentCore\n+import ThetaBitangentCases\n \n namespace FourCorner\n \n",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentProjectiveChartsWave36",
+    "staged_module": "ThetaBitangentProjectiveChartsWave36",
+    "source_sha256": "4e622d08d511045a1b1496598154fb6bfa0fbba44a60286b377ebed1b6ae67c8",
+    "staged_sha256": "c992e1e15d3fbee3c67238ad3edb489d5346496725a4ceeaad42f44c52587ae5",
+    "non_import_body_sha256": "b72ff9dd1aae3d25d33f84559589aa4f5569ef62fa953fd0e52c00295dfa22cd",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "--- FourCorner.ThetaBitangentProjectiveChartsWave36\n+++ ThetaBitangentProjectiveChartsWave36\n@@ -1,4 +1,4 @@\n-import FourCorner.ThetaBitangentCore\n+import ThetaBitangentCore\n namespace FourCorner\n variable {K : Type*} [Field K]\n /-- The actual linear equation attached to each normalized projective line chart. -/\n",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "FourCorner.ThetaBitangentQuadraticIndependence",
+    "staged_module": "ThetaBitangentQuadraticIndependence",
+    "source_sha256": "a9b7e707a71a90c83ef0c7a3635c2c931b6d6394a9f8343b3079768ef84c1fd7",
+    "staged_sha256": "a9b7e707a71a90c83ef0c7a3635c2c931b6d6394a9f8343b3079768ef84c1fd7",
+    "non_import_body_sha256": "3932804bd1765f77967019b22edb667daba7389264e3c6a7694cc365e6b83b8c",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  },
+  {
+    "original_module": "Mathlib.RingTheory.TotallySplit",
+    "staged_module": "ThetaStdTotallySplit",
+    "source_sha256": "e9e0e2f297b460cb4276cfcba75575b24020a68a6c8f2e583925551a65600819",
+    "staged_sha256": "e9e0e2f297b460cb4276cfcba75575b24020a68a6c8f2e583925551a65600819",
+    "non_import_body_sha256": "08177c69e9cda0655aa02caa282f61d05809448b55f3f15d1803212d1540f836",
+    "all_non_import_bytes_identical": true,
+    "exact_import_diff": "",
+    "module_name_change": true,
+    "constant_namespace_change": false
+  }
+]

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_isOpen_setOf_forall_fibre_subsingleton_H1
+
+namespace AlgebraicGeometry.RelPicard
+alias isOpen_setOf_forall_fibre_subsingleton_H1 := P2MW.S_AlgebraicGeometry_RelPicard_isOpen_setOf_forall_fibre_subsingleton_H1.solution
+end AlgebraicGeometry.RelPicard

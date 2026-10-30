@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_bijective_unit_app_of_le_opensRange
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias bijective_unit_app_of_le_opensRange := P2MW.S_AlgebraicGeometry_Scheme_Modules_bijective_unit_app_of_le_opensRange.solution
+end AlgebraicGeometry.Scheme.Modules

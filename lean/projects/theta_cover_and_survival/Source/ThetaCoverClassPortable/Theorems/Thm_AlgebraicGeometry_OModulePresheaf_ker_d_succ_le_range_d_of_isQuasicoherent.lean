@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_OModulePresheaf_ker_d_succ_le_range_d_of_isQuasicoherent
+
+namespace AlgebraicGeometry.OModulePresheaf
+alias ker_d_succ_le_range_d_of_isQuasicoherent := P2MW.S_AlgebraicGeometry_OModulePresheaf_ker_d_succ_le_range_d_of_isQuasicoherent.solution
+end AlgebraicGeometry.OModulePresheaf

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_IsUniversal_isProper
+
+alias AlgebraicGeometry.RelEffCartierDiv.IsUniversal.isProper := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_IsUniversal_isProper.solution

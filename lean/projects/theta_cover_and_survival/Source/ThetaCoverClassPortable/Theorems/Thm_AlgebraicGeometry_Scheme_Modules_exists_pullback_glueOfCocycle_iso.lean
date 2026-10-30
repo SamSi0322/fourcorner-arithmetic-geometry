@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_pullback_glueOfCocycle_iso
+
+alias AlgebraicGeometry.Scheme.Modules.exists_pullback_glueOfCocycle_iso :=
+  P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_pullback_glueOfCocycle_iso.solution

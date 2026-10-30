@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_exists_isFrameOn_dual
+
+alias AlgebraicGeometry.Scheme.Modules.IsFrameOn.exists_isFrameOn_dual := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_exists_isFrameOn_dual.solution

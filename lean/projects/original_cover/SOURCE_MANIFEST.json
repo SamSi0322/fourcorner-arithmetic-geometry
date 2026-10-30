@@ -1,0 +1,236 @@
+{
+  "OriginalDiagonalPresentation": {
+    "path": "Source/OriginalDiagonalPresentation.lean",
+    "sha256": "831fb1633c3fa1d4d7a1fc9780389568c09f0768646feb55db6f193dc21a3efb",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OriginalTowerPresentation": {
+    "path": "Source/OriginalTowerPresentation.lean",
+    "sha256": "380241e8744fa616cd239630dd19afb4477c8c14a738d96382d9d901654f515c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OriginalRadicandIndependence": {
+    "path": "Source/OriginalRadicandIndependence.lean",
+    "sha256": "853e33ce6f14c76cea6c1daaee5ba75a87b104478b6346fd1978d7469f217552",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "FourRadicalGenericField": {
+    "path": "Source/FourRadicalGenericField.lean",
+    "sha256": "d232a9ec41b36400ff1e819e6821cf008b79c018eb4cdeb538966295f406fcff",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OriginalIntegralDomain": {
+    "path": "Source/OriginalIntegralDomain.lean",
+    "sha256": "f8277d0bf77d2ea2f5ef78defca49f23d756580567ff499c1d9052ab9663acda",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OriginalDeckObstruction": {
+    "path": "Source/OriginalDeckObstruction.lean",
+    "sha256": "6b44671dd316e08d33562e91c97a13cf5c8fb115ef145696e65adff1c354d56c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OriginalQuadraticDegree": {
+    "path": "Source/OriginalQuadraticDegree.lean",
+    "sha256": "6e53305df564be36cfffbd46565703d5f0ca10f1613bfe2f30d0283ad9a3b61e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceRadicands": {
+    "path": "Source/OrderedSourceRadicands.lean",
+    "sha256": "24bafb824b4ff7f206b8cad45959ee244c1daadb841c9306063537cecfcc947a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceFunctionField": {
+    "path": "Source/OrderedSourceFunctionField.lean",
+    "sha256": "c5ae0d716d12c5c934004790f8a1045757ca25a4bdeb35ed546ebe6f0bf098a7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceRationalAlgebra": {
+    "path": "Source/OrderedSourceRationalAlgebra.lean",
+    "sha256": "56dbfe793e9645d9640bab944c710976881791292db3d0062819f3ffd4b32f51",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceCoordinates": {
+    "path": "Source/OrderedSourceCoordinates.lean",
+    "sha256": "73bc8949173f36187195bf85421aca1c04b351926422f8888a1a986a555e80be",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceInverse": {
+    "path": "Source/OrderedSourceInverse.lean",
+    "sha256": "6223fcabf4f433887767e2689045f9e2714d472aad9d491bd941529b2ab9be63",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceGeneration": {
+    "path": "Source/OrderedSourceGeneration.lean",
+    "sha256": "2d0e2ccc51b7f0c8ff1ad1a017b2ec94c50f955d2bed9b64d6441fb7bc0bb9a9",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceDominance": {
+    "path": "Source/OrderedSourceDominance.lean",
+    "sha256": "7e7d8bd9885ad674b8bc5314271265c9f704eca6ab03183c2655712f17f829b5",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OrderedSourceFieldEmbedding": {
+    "path": "Source/OrderedSourceFieldEmbedding.lean",
+    "sha256": "da96ab1e40b33dd3cc4ecff5ae22c6f6a3040a6be6d8e7b2ef8c58a8b3ff42e2",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "RationalFieldGeneration": {
+    "path": "Source/RationalFieldGeneration.lean",
+    "sha256": "a37d5e4d2dfc547774aa59c7e73088a78b336158d27fed57945891ae7f06a72e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OriginalCoverExact": {
+    "path": "Source/OriginalCoverExact.lean",
+    "sha256": "fe31c55d268d126fe7b76388313deadc25149aa056c60f9bcf51b756eb6b9627",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  },
+  "OriginalCoverAudit": {
+    "path": "Source/OriginalCoverAudit.lean",
+    "sha256": "5fa01bddce390114fc61e8e0e5ce668b37cae90731b91def0c67362478002e03",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Original project proof or integration support; exact prototype source copy"
+    },
+    "source_and_all_proof_bodies_byte_identical": true,
+    "compile_options": [
+      "-Ddebug.skipKernelTC=false"
+    ]
+  }
+}

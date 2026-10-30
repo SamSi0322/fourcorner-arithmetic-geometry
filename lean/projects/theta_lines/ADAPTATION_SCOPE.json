@@ -1,0 +1,32 @@
+{
+  "original_actual_header": 6741,
+  "original_custom_sources_including_narrow_audit": 635,
+  "original_accepted": 500,
+  "original_prototype_only": 135,
+  "initial_setup_provider_entries": 7902,
+  "setup_entries_not_treated_as_dependency_cone": true,
+  "final_owned_mathematical_sources": 132,
+  "final_new_all_owned_audits": 1,
+  "final_shared_canonical_sources": 503,
+  "canonical_sources_copied": 0,
+  "rank_redirect_affected_owned": 87,
+  "all_owner_changes_affected_owned": 114,
+  "minimal_owner_change_roots": [
+    "FourCorner.ThetaBitangentAxes",
+    "FourCorner.ThetaBitangentAxisIdentities",
+    "FourCorner.ThetaBitangentCases",
+    "FourCorner.ThetaBitangentContacts",
+    "FourCorner.ThetaBitangentCore",
+    "FourCorner.ThetaBitangentCountWave36",
+    "FourCorner.ThetaBitangentExhaustionWave36",
+    "FourCorner.ThetaBitangentGaloisWave36",
+    "FourCorner.ThetaBitangentGeneric",
+    "FourCorner.ThetaBitangentProjectiveChartsWave36",
+    "FourCorner.ThetaBitangentQuadraticIndependence",
+    "Mathlib.RingTheory.TotallySplit",
+    "ThetaStdRingFlatRank",
+    "ThetaStdSchemeFlatRank"
+  ],
+  "all_owned_replayed_in_final_unique_owner_mapping": 133,
+  "affected_reverse_closure_sha256": "3bec6ef7553220cf4291adbea25acc925ea5e977df87dadefcb104579bd7384d"
+}

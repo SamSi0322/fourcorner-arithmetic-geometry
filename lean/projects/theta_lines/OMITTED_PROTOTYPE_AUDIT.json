@@ -1,0 +1,5 @@
+{
+  "module": "ThetaReverseSupportAudit",
+  "source_sha256": "a55367b8d410bde9bc6da3fe0e972246b4ad4cea9faa654055266341f33b67d7",
+  "reason": "Generated narrow prototype audit replaced by all-owned portable audit; no mathematical declaration omitted"
+}

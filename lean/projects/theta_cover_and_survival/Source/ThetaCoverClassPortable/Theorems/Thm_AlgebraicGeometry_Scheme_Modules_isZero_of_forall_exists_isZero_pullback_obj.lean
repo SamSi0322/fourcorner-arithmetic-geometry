@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isZero_of_forall_exists_isZero_pullback_obj
+
+alias AlgebraicGeometry.Scheme.Modules.isZero_of_forall_exists_isZero_pullback_obj := P2MW.S_AlgebraicGeometry_Scheme_Modules_isZero_of_forall_exists_isZero_pullback_obj.solution

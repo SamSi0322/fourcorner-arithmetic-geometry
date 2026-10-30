@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_hom_ext_of_isIso_fromTildeGamma
+
+alias AlgebraicGeometry.Scheme.Modules.hom_ext_of_isIso_fromTildeGamma := P2MW.S_AlgebraicGeometry_Scheme_Modules_hom_ext_of_isIso_fromTildeGamma.solution

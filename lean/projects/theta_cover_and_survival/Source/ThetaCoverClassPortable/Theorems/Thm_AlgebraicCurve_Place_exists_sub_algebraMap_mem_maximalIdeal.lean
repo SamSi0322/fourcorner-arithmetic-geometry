@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_Place_exists_sub_algebraMap_mem_maximalIdeal
+
+alias AlgebraicCurve.Place.exists_sub_algebraMap_mem_maximalIdeal := P2MW.S_AlgebraicCurve_Place_exists_sub_algebraMap_mem_maximalIdeal.solution

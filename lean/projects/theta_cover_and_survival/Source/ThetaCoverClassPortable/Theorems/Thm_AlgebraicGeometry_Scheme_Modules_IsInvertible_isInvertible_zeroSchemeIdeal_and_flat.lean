@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_isInvertible_zeroSchemeIdeal_and_flat
+
+namespace AlgebraicGeometry.Scheme.Modules.IsInvertible
+alias isInvertible_zeroSchemeIdeal_and_flat := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_isInvertible_zeroSchemeIdeal_and_flat.solution
+end AlgebraicGeometry.Scheme.Modules.IsInvertible

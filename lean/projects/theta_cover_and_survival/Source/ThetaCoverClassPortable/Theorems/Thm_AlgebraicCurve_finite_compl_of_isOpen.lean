@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_finite_compl_of_isOpen
+namespace AlgebraicCurve
+alias finite_compl_of_isOpen := P2MW.S_AlgebraicCurve_finite_compl_of_isOpen.solution
+end AlgebraicCurve

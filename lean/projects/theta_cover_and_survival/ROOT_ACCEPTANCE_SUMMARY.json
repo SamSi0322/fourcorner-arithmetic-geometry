@@ -1,0 +1,51 @@
+{
+  "status": "ACCEPTED_TWO_COMPLETE_NUMBERED_STATEMENTS",
+  "at_utc": "2026-10-30T01:41:09.911715+00:00",
+  "paper_labels": [
+    "prop:theta-cover-class",
+    "cor:theta-surviving-covers"
+  ],
+  "endpoints": [
+    "FourCorner.ThetaCoverClassFullStatement.prop_theta_cover_class",
+    "FourCorner.ThetaSurvivingActualJacobians.cor_theta_surviving_covers"
+  ],
+  "lean_sources": 2052,
+  "strict_compiler_runs": 4104,
+  "main_ordinary_cold_lake_triples": 2052,
+  "split_modules": 6,
+  "extra_server_private_triples": 12,
+  "batch_posthash_files": 47309,
+  "logical_scopes": {
+    "cover": {
+      "owned": 51,
+      "closure": 109937
+    },
+    "surviving": {
+      "owned": 246,
+      "closure": 112640
+    }
+  },
+  "used_unsafe_partial_nonstandard_axioms": 0,
+  "raw_inherited_compiler_partial_auxiliaries_outside_these_logical_closures": 10,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_built_native_modules": 8744,
+  "IR_generated_output_equality_claimed": false,
+  "root_delivery_check_sha256": "612a35c0d14eb04b41d097be89ae8b5701492b211685092db43f97be70ca4173",
+  "public_checkout_verdict_sha256": "a52063c2fb7ecf8b6a99e9487b61d36d7f05fb5920579f2d887b4448ba461e75",
+  "independent_protocol_review_sha256": "bb469b000e78c2f9d810ae7ebfc6eaf5bdce71f8977004ebb9eb72b1ed86bb35",
+  "semantic_review_sha256": {
+    "prop:theta-cover-class": "c267d8eb30ed9ccb6cec4c9493f173fd2ed57f74434b1cc25cfa8e7a516c6861",
+    "cor:theta-surviving-covers": "47857ba9997677c56d3cd8c1e9c20a59a0ee40f05ee06a63c06755ad0b11fad8"
+  },
+  "executed_batch_verifier_sha256": "be073db76a4d58d939c836088979b53a1b9e9d94836a499f2b166d2e771d43d1",
+  "publishing_verifier_sha256": "2859f0eb2054695fbba6940f094f55f61671f47716598d36f8834f1899a969d5",
+  "enhanced_verifier_full_reexecution_claimed": false,
+  "scope": {
+    "prop:theta-cover-class": "Complete original proposition on the literal original C, D and pi over QQ. The normalization is the actual v^2=h extension with integral closure on every nonempty affine. An unconditionally constructed genuine Pic0 representer supplies the same nonzero QQ point killed by two, with the actual group origin and Poincare classification. Its geometric class is the actual [E0-H]; the QQ(sqrt2) comparison retains the same scalar point, native Cartier/Weil/contact classes, every closed-point coefficient and the original function identity including its scalar. Representation, base-change, FMD, GI and Poincare inputs are constructed, not assumed.",
+    "cor:theta-surviving-covers": "Complete original corollary for the same literal C, OC, D, OD and quotient pi. Both genuine QQ Jacobians and their own Abel-Jacobi maps are constructed, including the literal iD composed with pi. Every positive m has the actual distinguished geometric component, defined over QQ with its original projection, nonboundary points over every Q_p, and a real point above the same exact strict off-diagonal endpoint. The complete underlying scheme boundary, canonical strong topology, actual T-open, marked origins and x/y metric maps are retained. No representation, boundary-finiteness, curve-geometry, path or other target premise is left as input."
+  }
+}

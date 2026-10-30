@@ -1,0 +1,822 @@
+{
+  "HpLiteralField": {
+    "path": "Source/HpLiteralField.lean",
+    "sha256": "71e47c0516fa15c32e07cac0eeae40bbe2ba0fdab0699a0710b4defb2be83422",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpFieldGeometry": {
+    "path": "Source/HpFieldGeometry.lean",
+    "sha256": "850ac3ae69c4d6666603de80d8307ea45fd4b145f75dc765a6d67e1bf1c13548",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpBranchPlaces": {
+    "path": "Source/HpBranchPlaces.lean",
+    "sha256": "c8af9f262fe423b568cc2050296f0bf2475aec86b6d195a25a5a6f99b59e09a8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpGeometricGenus": {
+    "path": "Source/HpGeometricGenus.lean",
+    "sha256": "c2a83b58f4a89e1b86ccbec7d847834848224fc149b76da865148ed4aa06b6e6",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpTensorComparison": {
+    "path": "Source/HpTensorComparison.lean",
+    "sha256": "11aa59d212a6e3ec55f3f30308413ecc86055e646dc4035ab843458beb5efa49",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpConstantFieldComparison": {
+    "path": "Source/HpConstantFieldComparison.lean",
+    "sha256": "dc85ee7faa7f6f5fe183352d1a065da746b17bfc363e540e01b6c1d86e9e9800",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpFiniteBaseGenus": {
+    "path": "Source/HpFiniteBaseGenus.lean",
+    "sha256": "fc4748ee7ffdbd7ae2b7f30aec20f61d2fc69c2a12a8e044b4073620435166fa",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpResidueCharts": {
+    "path": "Source/HpResidueCharts.lean",
+    "sha256": "79f6acb718c01ee9df4115b0e472e3bb8030a4ebc4e21c40dd0f24e8b80740f0",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpHenselOrdinary": {
+    "path": "Source/HpHenselOrdinary.lean",
+    "sha256": "488d2b7094b9c26a785360d77df6b1f4a049b729bd7083a1cd0afba2c7bbc93e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpHenselBranch": {
+    "path": "Source/HpHenselBranch.lean",
+    "sha256": "18eeaddf7132212ca381f9dd76919309f6946326283c5ae2478d7ed9688cc618",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpBranchAlgebra": {
+    "path": "Source/HpBranchAlgebra.lean",
+    "sha256": "c2d3e61ef3eb29ec93db1f73a9564bd310c6d3c0556b09065e27c21c68ccdc61",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpHenselInfinity": {
+    "path": "Source/HpHenselInfinity.lean",
+    "sha256": "11a4290345eef679ca5575f48c14fd6b4bf52c2471e2cd89f810049687e9af07",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpGoodFiniteLift": {
+    "path": "Source/HpGoodFiniteLift.lean",
+    "sha256": "66bbc6d7995ecd0626a10f1e5672100d6ce04029a51ae53f61b87784efcfc3ec",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpGoodLocal": {
+    "path": "Source/HpGoodLocal.lean",
+    "sha256": "718583a8bd44b0a240b4743f8f9a2bc43d16a1f75675f82f6f0b19355424b3d8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpSmallResidue": {
+    "path": "Source/HpSmallResidue.lean",
+    "sha256": "957c349dea98ed616253ec05ea8e7f27a80c37e6ec5ba23624512fc6473fcfcd",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpInfiniteArithmetic": {
+    "path": "Source/HpInfiniteArithmetic.lean",
+    "sha256": "ca36f5b50272f5824cc522ec9c8d35f81164e4d3e113da8917eb5a2bc24946f5",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpDomainArithmetic": {
+    "path": "Source/HpDomainArithmetic.lean",
+    "sha256": "7050c2ed358afc4af55991377bed45f7240e9da5a4ee2988ca852bed64b88f8a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpFamilyDyadicValuation": {
+    "path": "Source/HpFamilyDyadicValuation.lean",
+    "sha256": "6a0f5c040a1d3ea9a0014c7dd02d722a673c8b2c5ad6e9a641fa5f3dbf3e217a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpConicObstruction": {
+    "path": "Source/HpConicObstruction.lean",
+    "sha256": "aae0ca4bc6ea1aed285e3541e61f567f1ae5ddcf404898bfd3e5526002be1d62",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpDyadicFamilyPoint": {
+    "path": "Source/HpDyadicFamilyPoint.lean",
+    "sha256": "0fd4fb4b4f828bebf856f3744843d91c03503a29061aaa052d0dc64d6e0df936",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpOddBadLocal": {
+    "path": "Source/HpOddBadLocal.lean",
+    "sha256": "f0ae0f5b2c44b447e6b805fbd64d6fa304fb06f1959adc30cb55c7b0ec745dd8",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpOddMoreLocal": {
+    "path": "Source/HpOddMoreLocal.lean",
+    "sha256": "b43fbd10598d34b7e253a126b1e72fc39175ea79720be68061243a5520faffbd",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpOddPoleLocal": {
+    "path": "Source/HpOddPoleLocal.lean",
+    "sha256": "17329f124501f7f8241f22129f406a941814d8955a019a42e34a206b985781d4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpOddSourceOpen": {
+    "path": "Source/HpOddSourceOpen.lean",
+    "sha256": "1916ea5820fd7f7bac75940f2f4418aeff5fbab76a207012076eda9d95f535c5",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpFamilyResidue": {
+    "path": "Source/HpFamilyResidue.lean",
+    "sha256": "2095ba874e2ab60956d4d1ba75a09943a2eff0764b223e617ad1ad2348ea9154",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpSmallLocal": {
+    "path": "Source/HpSmallLocal.lean",
+    "sha256": "d6d8a18685e249b9c1f80c6f51813547bb189c52089ba4b8e5f56e8b7b1dad84",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpFamilyNoPoint": {
+    "path": "Source/HpFamilyNoPoint.lean",
+    "sha256": "a1cf9cb3f58939a021156740e7e4677f20b77f19b9cfd28c3a8d414d53b4317b",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpStrictRealPoint": {
+    "path": "Source/HpStrictRealPoint.lean",
+    "sha256": "1d7ed2153ae08ab1718d2b3e1ae135d6d9840383f5a23785b41c83a4cd132546",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpSchemeModel": {
+    "path": "Source/HpSchemeModel.lean",
+    "sha256": "ee35479491bb19dea1150084492994a9fcd8767f60cd634d9bda309581a2b00d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpModelFieldPoint": {
+    "path": "Source/HpModelFieldPoint.lean",
+    "sha256": "32b46643c10c6d241e85a3dd6a2c329a936dcf63b19d3156d19c4a0cd559762c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpStrictRealGeneric": {
+    "path": "Source/HpStrictRealGeneric.lean",
+    "sha256": "ea1a56879487ffb3c1206209418277a57fb9f418f40471302545d01a66ba6c31",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpDyadicSourceOpen": {
+    "path": "Source/HpDyadicSourceOpen.lean",
+    "sha256": "12fc56337e7637ea6827ecad0f1209636173a26f59ded376486bdb202061d2fc",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpEverywhereLocal": {
+    "path": "Source/HpEverywhereLocal.lean",
+    "sha256": "95bc6feb810bb7de67c7b87cddc3f0796062816828f10b3fbae9a4c2baea68f6",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpModelNoPoint": {
+    "path": "Source/HpModelNoPoint.lean",
+    "sha256": "182dcce53a626dc7d18fef16711ac9897ae62143b50a1c043f72f295b3d53d89",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpFamilyConstituents": {
+    "path": "Source/HpFamilyConstituents.lean",
+    "sha256": "6d04ec131963bf9430b22c5f4063d47baa7bdc2311df18b66e529ac2913cba77",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralProjective": {
+    "path": "Source/HpLiteralProjective.lean",
+    "sha256": "b230d14e95a012c65cfc707cf6942440adfc3e6c860ab495f81529312afa3b9e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpNoTwoCoordinatesZero": {
+    "path": "Source/HpNoTwoCoordinatesZero.lean",
+    "sha256": "95eeb8ce1e46882abe38551d9e37e43a093efafaa4b5de8a85bfe4d69d9ea87c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralSmooth": {
+    "path": "Source/HpLiteralSmooth.lean",
+    "sha256": "021172a545ec3935e4867f109046fa5e24400f28e2c619e011ce0ce1775aaf4f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpPolynomialRootAlgebra": {
+    "path": "Source/HpPolynomialRootAlgebra.lean",
+    "sha256": "498f53385ab03d1854e0c7e5c2a07fde2250e88a6badb25bcac5a7cae3c9575f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpFourRootUniversal": {
+    "path": "Source/HpFourRootUniversal.lean",
+    "sha256": "bdbff3deaf6ce611458b3e60d2a965befa05d49fff4fa60b157f9f639e519d31",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpAffineUniversal": {
+    "path": "Source/HpAffineUniversal.lean",
+    "sha256": "364ca649bc6237e925c3a4a6051b97082297e5bda8e219a45b2514d25c2ae55d",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpAffineInverse": {
+    "path": "Source/HpAffineInverse.lean",
+    "sha256": "481f8f85d6d969b4e4baa0b61b1fc84eb5202887c550c9ec90beb680a5adfa7c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpPolynomialFractionField": {
+    "path": "Source/HpPolynomialFractionField.lean",
+    "sha256": "9ac5cff438d1b27ea03940cba5b8978904570fecc94631522a126560d6bf0b15",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpAffineEquiv": {
+    "path": "Source/HpAffineEquiv.lean",
+    "sha256": "2dc864503e2d71b4a7bf71dbfd398620a006ed86a1f18c7aa0a89a124c30343c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpAffineFractionField": {
+    "path": "Source/HpAffineFractionField.lean",
+    "sha256": "ea62aca131f9bbe277354d11c767a90437f721e5af7b1060fab6556fd561cfc7",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpUChartTower": {
+    "path": "Source/HpUChartTower.lean",
+    "sha256": "6fa50866f5ca4d61ebb3a8dd421d88c456c7ff3ae2e2c0b29d8ed582f2bcd04e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpUChartEquiv": {
+    "path": "Source/HpUChartEquiv.lean",
+    "sha256": "712f8a241bedec7016b757058fb6b0e44e5eae45c730d1bf06495a47160196fc",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpTwoChartCover": {
+    "path": "Source/HpTwoChartCover.lean",
+    "sha256": "4e29c7297a59772fee1eae5c1bcf11158ad717821d8a672dd20b0548e6505608",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralIntegral": {
+    "path": "Source/HpLiteralIntegral.lean",
+    "sha256": "5631c58e725d929fdeb6e0a26dc897a43ec0041d31e455d16cdb83f3273be3b4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralFieldIdentification": {
+    "path": "Source/HpLiteralFieldIdentification.lean",
+    "sha256": "71fb32e4fcf0385d18dc35dbc78cb14c3a3e31d1f714b648de79e4854056f2db",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralGeometric": {
+    "path": "Source/HpLiteralGeometric.lean",
+    "sha256": "61b70d8d5c1f9163601aa0783d4c71efd7f6efa78747798bb0427a5d96d3ef30",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralPoints": {
+    "path": "Source/HpLiteralPoints.lean",
+    "sha256": "52fca8cfc496e7100a92c4b167e2537bd697d64887472ccee59ef23497ece0fa",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralFamilyConstituents": {
+    "path": "Source/HpLiteralFamilyConstituents.lean",
+    "sha256": "9c91690642b8005b2b79a99888e79cdb0f7ef80fc11d91f6c2dbd4431e2a2121",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpRootOrders": {
+    "path": "Source/HpRootOrders.lean",
+    "sha256": "811ab0bc64efda10c93eeb5457ac99a439a49267cfe0c3f0def0328b129c2d13",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpCanonicalForms": {
+    "path": "Source/HpCanonicalForms.lean",
+    "sha256": "4e6c689c4a02ef0bf6b7fd02315ca5f68c49c6f4afb80d39fc9315d8f7cbdbcc",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpRootProductBasis": {
+    "path": "Source/HpRootProductBasis.lean",
+    "sha256": "adf4629da16b24ab5b9fc3f94b4bd16aa6636920b22fdeea718bca563574d2d6",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpCanonicalBasis": {
+    "path": "Source/HpCanonicalBasis.lean",
+    "sha256": "3e618e054e1d00b6f7c18638801906b95ffe5feb1dea5aed1c59fc748885fa85",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpDifferentialTransport": {
+    "path": "Source/HpDifferentialTransport.lean",
+    "sha256": "6ce515d0ce717a1be0d56eab342110c3dc586607cee94b713162a5767c868a0a",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpQuadraticRelations": {
+    "path": "Source/HpQuadraticRelations.lean",
+    "sha256": "4e8633e2cf3c40cf11fa82abc830010da9ca1f066cb0fe31381e7878b2be3397",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpCanonicalIsomorphism": {
+    "path": "Source/HpCanonicalIsomorphism.lean",
+    "sha256": "11cd76af34444fded300354f424568e2babb3d86a4d082a0e24d5165222ae372",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpCanonicalActionFormula": {
+    "path": "Source/HpCanonicalActionFormula.lean",
+    "sha256": "d4b79f5456e3ba347bcaf00ce9b0313d3101c631ed5fc67ed56689d8debc8b22",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpDiagonalNet": {
+    "path": "Source/HpDiagonalNet.lean",
+    "sha256": "7d0c53309ce835e04902837c970fafe9ef80e66cb0db48eb526c9ce1b469e896",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpAxisQuadrics": {
+    "path": "Source/HpAxisQuadrics.lean",
+    "sha256": "96139186ff8f642a3d573e7ccfa31674a072d4e82d2287614e56d1d0af14cb84",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpDiagonalKernelRigidity": {
+    "path": "Source/HpDiagonalKernelRigidity.lean",
+    "sha256": "31d1df5cf909e9b58144ed6d373814de5c6f9a701407b36320e45cdbf2668fc2",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpQuadraticExpansion": {
+    "path": "Source/HpQuadraticExpansion.lean",
+    "sha256": "d90f705772676d9e2f6760f53243c9369b041394243fcfcc586eddd9499008fd",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpCanonicalNetPreservation": {
+    "path": "Source/HpCanonicalNetPreservation.lean",
+    "sha256": "e78efbc2caf7e1b7ff6927d3678f3dfb35aa672bc6d7eb9bf6372afe959fba99",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpMonomialRigidity": {
+    "path": "Source/HpMonomialRigidity.lean",
+    "sha256": "80fb497d408a0ed85ab3b6e48f83f26ce78dd64499554fae7a7b72a53b8d48d3",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpActualMonomial": {
+    "path": "Source/HpActualMonomial.lean",
+    "sha256": "d4dcb30672cf4cf3a9c953ad6244595c90280ac5fd8b652edf740b69b7975d8c",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpBranchLinearDescent": {
+    "path": "Source/HpBranchLinearDescent.lean",
+    "sha256": "4192b42338fe7366f0dcf029dc33b2016641cc1fbbc7902970cfee828e8dc205",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "ProjectiveThreePoint": {
+    "path": "Source/ProjectiveThreePoint.lean",
+    "sha256": "2d7f22a3084b427179822886d0265d5e1d89c97e974a2d4412f133245ac0ce09",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HasseBranchConfiguration": {
+    "path": "Source/HasseBranchConfiguration.lean",
+    "sha256": "5426d994215f6cecc3ea4826e45b5d71dc158eaf779df68066a253e331a80c90",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "ProjectiveActionFinite": {
+    "path": "Source/ProjectiveActionFinite.lean",
+    "sha256": "4f867e1112b481e90975b0fb1b3e584d2b01177c68eef95f604dc6fb4c1047ec",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HasseRationalBranchFiniteness": {
+    "path": "Source/HasseRationalBranchFiniteness.lean",
+    "sha256": "c174d40f144d86721f538380836b8696c76edb8df663fabeaa441df69bcaa09f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HasseMatrixBranchFiniteness": {
+    "path": "Source/HasseMatrixBranchFiniteness.lean",
+    "sha256": "31d3f71ed6b4924d578fe084b04e78925cb8f6d2159fae6ade8794d62d0cfeb0",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HasseOrderedBranchBridge": {
+    "path": "Source/HasseOrderedBranchBridge.lean",
+    "sha256": "06430c35a03cc4d2a77a0e26265e22d731f99a81d0164cadea1f6a36876b0006",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpNativeBranchEquivalence": {
+    "path": "Source/HpNativeBranchEquivalence.lean",
+    "sha256": "8375db08c1148e236e46387f6f347f5b84ba6c70f22fe0700aaffb8b37336721",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpGeometricIsoFibres": {
+    "path": "Source/HpGeometricIsoFibres.lean",
+    "sha256": "9f6657441d5269cb19420c308e25bc967846c9023b3742e66cd806c0ab64ca1f",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpGeometricNonisoAudit": {
+    "path": "Source/HpGeometricNonisoAudit.lean",
+    "sha256": "15ef84e9dd5a0a43a873ccbc94bfb7bc9c128db8b792c44ed0ed89d9e22505ea",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralGeometricNoniso": {
+    "path": "Source/HpLiteralGeometricNoniso.lean",
+    "sha256": "fba2d9aef44eb480e518cc32581d4a14c2eb30960b16815748050b7e823a5170",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpLiteralGeometricNonisoAudit": {
+    "path": "Source/HpLiteralGeometricNonisoAudit.lean",
+    "sha256": "23d39709dc9c486b7acbf9a3c7f7fdb3f0e98ab010ade056a07ec5e6be9bf6e4",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpInfiniteComplete": {
+    "path": "Source/HpInfiniteComplete.lean",
+    "sha256": "a7db959df0c1c172d3dae6bd03aeee2af715d5f9d8df65097b099657be2a587e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  },
+  "HpInfiniteCompleteAudit": {
+    "path": "Source/HpInfiniteCompleteAudit.lean",
+    "sha256": "c8545aa152ae3bd1b2caf45211bbffe5b0a3f39b3f038c1eccaf26286458fe2e",
+    "license": "Apache-2.0",
+    "origin": {
+      "author": "Yuan Si",
+      "kind": "Exact original private proof source; owned by this package"
+    },
+    "source_import_and_proof_bytes_unchanged": true
+  }
+}

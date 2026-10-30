@@ -1,12 +1,12 @@
 # Arithmetic constraints and covering curves for rational distances in a square
 
-Yuan Si — release 1.0.0
+Yuan Si — postpublication Lean development
 
 This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The Lean snapshot fully verifies 34 of the 69 numbered statements. Further
+The current Lean development fully verifies 59 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -18,3 +18,84 @@ manuscript; the original global square rational-distance problem remains open.
 
 Development will continue on GitHub, with verified source snapshots archived
 as subsequent Zenodo versions. Cite the DOI of the specific version used.
+
+The published [v1.0.0 Zenodo archive](https://doi.org/10.5281/zenodo.23638745)
+remains at 34 of 69 statements. This development branch adds the complete
+Hasse-family norm lemma and the two complete fixed-distance genus-five
+propositions. The paper itself is unchanged.
+
+Development also includes the complete common-curve genus/boundary theorem,
+residue-matrix exclusion and explicit infinite family, with full source-point
+and regular-section identities.
+
+The genus-seventeen companion proves the complete finite twist construction,
+unramified double covers of the same genus-nine curve, and rational-point
+lifting that preserves the original point and all five ordered coordinates.
+
+The common-source companion also proves the odd-prime row lemma for both
+permitted whole-subgroup reduction probes, retaining every source compensator.
+
+The complete common-source character criterion is also formalized, including
+the original logarithmic character and the equivalent finite certificate.
+
+The finite-local companion proves that the stated finite tests give exactly the
+everywhere-local twist set, including the real place, and proves the resulting
+rational-point exclusion implication.
+
+The critical-elliptic companion proves the original curve's smoothness, geometric
+connectedness, elliptic isomorphism over its base field, and complete eight-point
+boundary classification after every extension of constants.
+
+The critical-prime companion proves the exact exceptional-prime classification
+and infinitely many simultaneous local realizations, for arbitrary finite prime
+sets and prescribed depths, using the original ordered distance equations.
+
+The original-cover companion identifies the independently constructed ordered
+source function field with the original four-distance surface field adjoined
+with the specified square root, and proves that the extension has degree two.
+
+The uniform Hasse-family companion proves the complete arithmetic obstruction
+theorem on the original projective curve, using quadratic reciprocity and
+complete local calculations on one source coefficient.
+
+The 15569 companion proves the complete elliptic-source exclusion at the
+three specified completions and its consequence for the canonical squarefree
+kernel of every original strict rational-distance point.
+
+The theta companion proves the original genus-five curve, complete rational
+boundary, marked points and finite etale double quotient on the actual schemes.
+The refined critical-prime companion proves all three original equivalences,
+including uniform finite existence and every positive-depth local family.
+
+The critical double-cover proposition is now formalized on the actual projective
+curves and covering morphism. The proof includes geometric genus one, finite
+etale degree two, all boundary fibres, and the exact finite-field character count.
+
+The explicit infinite Hasse-failure family is fully formalized on its original
+genus-five projective curves. Every member has points at all completions and in
+the strict real distance region, but no rational point; the family contains
+infinitely many unmarked geometric isomorphism classes.
+
+Verified descent-algebra foundations are also included as a standalone source
+project. They support the remaining geometric formalization; statement-level
+their supporting lemmas add no separate numbered statement.
+
+The theta-lines theorem is now fully formalized on the original smooth plane
+quartic: all 28 native bitangents are classified, each has two distinct actual
+contacts, and the genuine odd-theta finite etale algebra and its full absolute
+Galois action are identified. Natural global differential maps, all projective
+charts and repeated-half-divisor cases are retained.
+
+The local-survival theorem is now fully formalized for every positive multiplication
+level. The distinguished geometric component is defined over QQ, has nonboundary
+points over every Q_p, and contains a real point above the prescribed path-reachable
+subset. The proof uses actual scheme points, finite etale multiplication and the
+canonical strong topology.
+
+The theta-cover class and its surviving-cover corollary are fully formalized.
+The original double cover is identified with its actual nonzero rational
+two-torsion class on the genuine Jacobian. Both original Jacobians, their
+Abel--Jacobi maps and the quotient map retain the marked component at every
+positive multiplication level, all finite-place points and a strict off-diagonal
+real endpoint. The shared source-only project includes its complete dependency
+cone and exact compatibility and verification records.

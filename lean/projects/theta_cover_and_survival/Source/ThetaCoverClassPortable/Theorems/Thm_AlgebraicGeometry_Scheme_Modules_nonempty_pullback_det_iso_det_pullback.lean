@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_nonempty_pullback_det_iso_det_pullback
+
+alias AlgebraicGeometry.Scheme.Modules.nonempty_pullback_det_iso_det_pullback := P2MW.S_AlgebraicGeometry_Scheme_Modules_nonempty_pullback_det_iso_det_pullback.solution

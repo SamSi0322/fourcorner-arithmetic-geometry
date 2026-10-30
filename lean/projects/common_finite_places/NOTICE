@@ -1,0 +1,10 @@
+Common finite-place compatibility and actual local points.
+Original project proofs and verification entry: Yuan Si, Apache-2.0.
+The 141 upstream Hasse--Weil sources retain the Apache-2.0 license and attribution
+of anthropics/fermats-last-theorem at revision 6e837e75355538c7f80bab5b956861e86c4eacc2.
+Their original/adapted hashes and import-only changes are itemized in
+HASSE_SOURCE_PROVENANCE.json. Three additional Hasse replay helper modules are
+original project support. All 144 replay sources are byte-identical to the
+previously kernel-checked replay. Existing common_genus17 and its canonical
+parents retain all original source attributions and licenses. Standard Lean,
+Mathlib and other git dependencies are not vendored and retain their licenses.

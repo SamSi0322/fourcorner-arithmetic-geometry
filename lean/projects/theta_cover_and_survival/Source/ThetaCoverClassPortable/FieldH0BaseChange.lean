@@ -1,0 +1,10 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_bijective_algebraMap_sections_baseChange_of_bijective_of_field
+
+/-- Actual separated quasi-compact FIELD-base universal H0 base change.
+The hX premise is the actual structural algebra map on global sections.
+The conclusion is about the actual scheme pullback and EVERY base algebra. -/
+alias AlgebraicGeometry.Scheme.bijective_algebraMap_sections_baseChange_of_bijective_of_field :=
+ P2MW.S_AlgebraicGeometry_Scheme_bijective_algebraMap_sections_baseChange_of_bijective_of_field.solution
+
+#check @AlgebraicGeometry.Scheme.bijective_algebraMap_sections_baseChange_of_bijective_of_field
+#print axioms AlgebraicGeometry.Scheme.bijective_algebraMap_sections_baseChange_of_bijective_of_field

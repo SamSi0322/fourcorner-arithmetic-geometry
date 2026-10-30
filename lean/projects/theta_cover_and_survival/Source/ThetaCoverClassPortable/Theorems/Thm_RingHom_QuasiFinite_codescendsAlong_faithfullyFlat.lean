@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_RingHom_QuasiFinite_codescendsAlong_faithfullyFlat
+
+alias RingHom.QuasiFinite.codescendsAlong_faithfullyFlat := P2MW.S_RingHom_QuasiFinite_codescendsAlong_faithfullyFlat.solution

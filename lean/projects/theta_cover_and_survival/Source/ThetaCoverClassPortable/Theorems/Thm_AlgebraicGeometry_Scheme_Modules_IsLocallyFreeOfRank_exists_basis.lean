@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsLocallyFreeOfRank_exists_basis
+
+alias AlgebraicGeometry.Scheme.Modules.IsLocallyFreeOfRank.exists_basis := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsLocallyFreeOfRank_exists_basis.solution

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_Place_ord_add_eq_of_lt
+
+alias AlgebraicCurve.Place.ord_add_eq_of_lt := P2MW.S_AlgebraicCurve_Place_ord_add_eq_of_lt.solution

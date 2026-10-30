@@ -1,0 +1,15 @@
+[
+  "FourCorner.RefinedFiniteSource.from_good_cover",
+  "FourCorner.RefinedFiniteSource.refinedPattern_of_good_cover",
+  "FourCorner.RefinedCoverHasse.hasse_bound",
+  "FourCorner.RefinedBadCover.badCover_card",
+  "FourCorner.RefinedBadCover.exists_good_cover_large",
+  "FourCorner.RefinedBadCover.bad_base_le_eight_of_units",
+  "FourCorner.RefinedBadCover.exists_good_cover_small_of_units",
+  "FourCorner.RefinedFiniteExistence.pattern_large",
+  "FourCorner.RefinedFiniteExistence.pattern_five_mod_eight",
+  "FourCorner.RefinedFiniteExistence.allowed_refined_pattern",
+  "FourCorner.CriticalRefinedFull.thm_crit_refined",
+  "FourCorner.CriticalRefinedFull.exclusions_iff_infinite_pairs",
+  "FourCorner.CriticalRefinedFull.exclusions_iff_literal_pattern"
+]

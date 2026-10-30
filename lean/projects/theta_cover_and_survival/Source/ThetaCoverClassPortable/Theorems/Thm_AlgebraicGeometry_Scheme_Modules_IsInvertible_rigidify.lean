@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_rigidify
+
+alias AlgebraicGeometry.Scheme.Modules.IsInvertible.rigidify := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_rigidify.solution

@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_whiskerRight_app_tensorSections
+namespace AlgebraicGeometry.Scheme.Modules
+alias whiskerRight_app_tensorSections := P2MW.S_AlgebraicGeometry_Scheme_Modules_whiskerRight_app_tensorSections.solution
+end AlgebraicGeometry.Scheme.Modules

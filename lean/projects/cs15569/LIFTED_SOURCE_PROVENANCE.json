@@ -1,0 +1,352 @@
+[
+  {
+    "module": "CS15569Support.NineCubicValuation",
+    "previous_accepted_package": "fourcorner_small_curves",
+    "previous_source_path": "source/FourCorner/NineCubicValuation.lean",
+    "source_sha256": "9a1491fddfd6418cb4757817b8b6356b3378784327fc34efd7094c055de73f87",
+    "new_owned_path": "Source/CS15569Support/NineCubicValuation.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation.",
+    "stage02_module": "FourCorner.NineCubicValuation",
+    "new_source_sha256": "9a1491fddfd6418cb4757817b8b6356b3378784327fc34efd7094c055de73f87",
+    "namespace_and_body_unchanged": true,
+    "module_import_only_alias": true
+  },
+  {
+    "module": "CS15569Support.NineSmallASignedSupport",
+    "previous_accepted_package": "fourcorner_small_curves",
+    "previous_source_path": "source/FourCorner/NineSmallASignedSupport.lean",
+    "source_sha256": "ceb52e5e2cfd5df030def32eaa75e9d849cd11d3360d4bde5f45487c9dd03fb6",
+    "new_owned_path": "Source/CS15569Support/NineSmallASignedSupport.lean",
+    "all_bytes_unchanged": false,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation.",
+    "stage02_module": "FourCorner.NineSmallASignedSupport",
+    "new_source_sha256": "a0eef231b763b2bfbcda0ed34f5b01ce4cd1e02d99afdeb101bfdfd7f36934c8",
+    "namespace_and_body_unchanged": true,
+    "module_import_only_alias": true
+  },
+  {
+    "module": "GroupInterface",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/GroupInterface.lean",
+    "source_sha256": "b7fbac302c7fc2e08d8fc7af5b5d7d2c29f2690d3d6564c98b30398ab0d16a68",
+    "new_owned_path": "Source/GroupInterface.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "OrderedEval",
+    "previous_accepted_package": "fourcorner_small_curves",
+    "previous_source_path": "source/OrderedEval.lean",
+    "source_sha256": "561191fd69e1c7b5d57a41d64bbe91905e117d061412f9c988518014ada70a4a",
+    "new_owned_path": "Source/OrderedEval.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "SignedSquareClasses",
+    "previous_accepted_package": "fourcorner_small_curves",
+    "previous_source_path": "source/SignedSquareClasses.lean",
+    "source_sha256": "a47bc2980f246367482c75d932a4c7d953c53d52249aaaf2ef4414e6a3fa1f75",
+    "new_owned_path": "Source/SignedSquareClasses.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "OrderedKummer",
+    "previous_accepted_package": "fourcorner_small_curves",
+    "previous_source_path": "source/OrderedKummer.lean",
+    "source_sha256": "2db453ec8dcfb819f15de9afa32eaaaa5c3cce9be1b3875c943159f1e27f1728",
+    "new_owned_path": "Source/OrderedKummer.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "KummerBridge",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/KummerBridge.lean",
+    "source_sha256": "5c3f9f0475a38f5a2cafb88f9409575697e55d955c30e8408ce0572e6c0b597b",
+    "new_owned_path": "Source/KummerBridge.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "DyadicBridge",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/DyadicBridge.lean",
+    "source_sha256": "731e45abcdb31e2a595c22474f88018eb031edb6924ddf4bb113daeb2f5b9a7c",
+    "new_owned_path": "Source/DyadicBridge.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceDyadicChart",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceDyadicChart.lean",
+    "source_sha256": "978f1753a9e54940ba4b7d610e501cb85e964d781154049046f0029669d48a9e",
+    "new_owned_path": "Source/CSFoundation/CommonSourceDyadicChart.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "LocalKummerSelection",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/LocalKummerSelection.lean",
+    "source_sha256": "a2e0ed237a4e88dbae8a90bcda805d239e811e2141ed861763207ba226761d58",
+    "new_owned_path": "Source/LocalKummerSelection.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualSourceCoset",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/ActualSourceCoset.lean",
+    "source_sha256": "36cc89899840f8b084fddf456eaff3f85c9373c76ebcf5a2c1ac080f05750f07",
+    "new_owned_path": "Source/ActualSourceCoset.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceDyadicReturn",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceDyadicReturn.lean",
+    "source_sha256": "74f97af826a1ccaebb7646714374100167b4b099431a1b7c74b2128510a538c6",
+    "new_owned_path": "Source/CSFoundation/CommonSourceDyadicReturn.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceDyadicExcluded",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceDyadicExcluded.lean",
+    "source_sha256": "aa80a7bf41d414ec662541576a9ff2cbb50fbbce41ec36bcf977884e6065bc72",
+    "new_owned_path": "Source/CSFoundation/CommonSourceDyadicExcluded.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceDyadicOrders",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceDyadicOrders.lean",
+    "source_sha256": "41748a3c97cdd5955fe03af5bb2a54b1856c6bf2fcb8c7d7fc8b574482b1428d",
+    "new_owned_path": "Source/CSFoundation/CommonSourceDyadicOrders.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualTorsionOrders",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/ActualTorsionOrders.lean",
+    "source_sha256": "82cab3d747abac236685070ec75c8fce1a8a1ae25628dcea44cfe9857166b1d2",
+    "new_owned_path": "Source/ActualTorsionOrders.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualSourceDepth",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/ActualSourceDepth.lean",
+    "source_sha256": "a815cb2ce6ee73940b209665a27d4960176db5c0a910064813dbd2db1e383169",
+    "new_owned_path": "Source/ActualSourceDepth.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualSurvivingOrders",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/ActualSurvivingOrders.lean",
+    "source_sha256": "4c8bf4d1709ff9676134e9e0f4a4ba01efcdf284085710c0f446678805a61b89",
+    "new_owned_path": "Source/ActualSurvivingOrders.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceBeta",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceBeta.lean",
+    "source_sha256": "89cc6582daf0c70890993c3193f0b1269be4435ca75eea99c09c7d328992f537",
+    "new_owned_path": "Source/CSFoundation/CommonSourceBeta.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualPairData",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/ActualPairData.lean",
+    "source_sha256": "bf5c07d2b97dd4b4dcc0b3eacb58cbaf4607f29fae2f4b87d00c2bef40ed4c8c",
+    "new_owned_path": "Source/ActualPairData.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "FieldGroup",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/FieldGroup.lean",
+    "source_sha256": "be7c8235210aa9525809102803f4bade7c04fc438a0e6271fe1f141087a5e009",
+    "new_owned_path": "Source/FieldGroup.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "RationalPrimeValuation",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/RationalPrimeValuation.lean",
+    "source_sha256": "0072dca040431bc4b100de59c97f41339f69ff999a2f066868d317c89967ed18",
+    "new_owned_path": "Source/RationalPrimeValuation.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ReductionBridge",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/ReductionBridge.lean",
+    "source_sha256": "42164b05488c1bf37ca79f7c6640c066b5985feaebecc2b62b7bd76023bf378b",
+    "new_owned_path": "Source/ReductionBridge.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceOddLocalResidue",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceOddLocalResidue.lean",
+    "source_sha256": "d67991d8ae1aee0e2838825f0226fd87efcec48a1154fe4a651ad4fa0039e9f4",
+    "new_owned_path": "Source/CSFoundation/CommonSourceOddLocalResidue.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "FormalLogOdd",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/FormalLogOdd.lean",
+    "source_sha256": "1e82931cb63e90e6e8ccdf96949f96ead41c7d63e0d0c8f93b198d10f07e31cc",
+    "new_owned_path": "Source/FormalLogOdd.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "IntegralScaledLog",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/IntegralScaledLog.lean",
+    "source_sha256": "e4eb9185cf72e5cc69807eaa176c99ceb7bff231dfcc350c2b023b64f952990d",
+    "new_owned_path": "Source/IntegralScaledLog.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "FormalLogEvaluation",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/FormalLogEvaluation.lean",
+    "source_sha256": "6140da48014691e6ce93caee32f1ffcdd833f4b6317f4eda400c30131a8b29e1",
+    "new_owned_path": "Source/FormalLogEvaluation.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "LogModFourPrecision",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/LogModFourPrecision.lean",
+    "source_sha256": "fccb928f6d9006b23f34b88592995eac6559893546472b683d759a095be37ab1",
+    "new_owned_path": "Source/LogModFourPrecision.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSLogSupport.CommonSourceDyadicResidue",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/CSLogSupport/CommonSourceDyadicResidue.lean",
+    "source_sha256": "6df782fedad85a2e540a92f8a491f7979f9fe89d9180e9988021682ff14d8049",
+    "new_owned_path": "Source/CSLogSupport/CommonSourceDyadicResidue.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "RationalFormalDepth",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/RationalFormalDepth.lean",
+    "source_sha256": "d24e2215da703ecbf4f247720ed11571d0cedff7d04835f19e68f56847ea0616",
+    "new_owned_path": "Source/RationalFormalDepth.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "DyadicCharacter",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/DyadicCharacter.lean",
+    "source_sha256": "6df7864944ad323704297242e4d9a6f1951ec6b73a25c76aec71e7f99ecc8cb0",
+    "new_owned_path": "Source/DyadicCharacter.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualDyadicCharacter15",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/ActualDyadicCharacter15.lean",
+    "source_sha256": "d409d6a33a19ded6df1df82ee18d1d859cbd5f3831433537d187f42e7dcff82d",
+    "new_owned_path": "Source/ActualDyadicCharacter15.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualCharacterSign",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/ActualCharacterSign.lean",
+    "source_sha256": "b998cfd89e1a4b36c66adb426a5f8610434a8695f18b18750ea264a536c133fb",
+    "new_owned_path": "Source/ActualCharacterSign.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualLogParameter",
+    "previous_accepted_package": "common_source_matrix",
+    "previous_source_path": "Source/ActualLogParameter.lean",
+    "source_sha256": "55e649a7f0e6f159569cafc71ed76049fd928132ca26f0f67616b5dfdc8bc00a",
+    "new_owned_path": "Source/ActualLogParameter.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceOddLocal",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceOddLocal.lean",
+    "source_sha256": "5050767d01f2bcf8a3d96f1e765208d60929e14c7ee9fba865fa7c7b6d5d661b",
+    "new_owned_path": "Source/CSFoundation/CommonSourceOddLocal.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceOddLocalDisks",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceOddLocalDisks.lean",
+    "source_sha256": "95b98a9bb48f9b6207f05d829e7c3227a681ed0c9c955e4da568fd924fd09b04",
+    "new_owned_path": "Source/CSFoundation/CommonSourceOddLocalDisks.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "CSFoundation.CommonSourceOddLocalAssembly",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/CSFoundation/CommonSourceOddLocalAssembly.lean",
+    "source_sha256": "289a3022ab97b48e683cbbdebf7669a88c76759f144b5d5c258e8b6a72bd8363",
+    "new_owned_path": "Source/CSFoundation/CommonSourceOddLocalAssembly.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "OddEvenMismatch",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/OddEvenMismatch.lean",
+    "source_sha256": "e8719da7811f63a6101ce4d246a1c98fd175db94583fc65ebb0ed30976c3944d",
+    "new_owned_path": "Source/OddEvenMismatch.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  },
+  {
+    "module": "ActualPairPaperAdapter",
+    "previous_accepted_package": "common_source",
+    "previous_source_path": "Source/ActualPairPaperAdapter.lean",
+    "source_sha256": "fcb460e42dcd78194bd654e5927908301c2d0a0b5d607c57608196d36529b5d3",
+    "new_owned_path": "Source/ActualPairPaperAdapter.lean",
+    "all_bytes_unchanged": true,
+    "reason": "Exclude old parent packages whose overlapping namespace providers cause genuine Lake ambiguity; no mathematical adaptation."
+  }
+]

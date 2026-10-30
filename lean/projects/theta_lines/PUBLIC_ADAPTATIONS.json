@@ -1,0 +1,42 @@
+{
+  "at_utc": "2026-10-28T09:39:36.805005+00:00",
+  "kind": "DOCUMENTATION_AND_PROVENANCE_ROLE_CLARIFICATION_ONLY",
+  "original_frozen_handoff_sha256": "12d62e37cb13d35af009cf98ecaa2595a71224e33f975230cdb6146c1f45368b",
+  "original_delivery_freeze_sha256": "9db844af1a5aa26140a11b7061521f2fdd27d463a8350cd5b2c8c0da8e8c9889",
+  "private_originals_preserved": true,
+  "mathematical_sources_and_configuration_changed": false,
+  "source_manifest_sha256": "86076c5ab9905270a66d4f4d9166e2523af7334cf7c8361370ffc68d7066b0c4",
+  "changes": [
+    {
+      "file": "PARENT_NATIVE_API_ALIGNMENT.json",
+      "before_sha256": "76263bf680597d9885e13b37e0db3e5e31b619f09d78a1fd5670f86deee8efb3",
+      "after_sha256": "a1b594bfe18400e6c89be3b2865a33c529194ab1a85a14c6745ff90477e4179c",
+      "intermediate_role_fix_sha256": "a1b594bfe18400e6c89be3b2865a33c529194ab1a85a14c6745ff90477e4179c"
+    },
+    {
+      "file": "README.md",
+      "before_sha256": "e0fad7b79cc02e0f9de3835239313b0fc92492aced35744d65302587760c78f0",
+      "after_sha256": "0463814f771d580e83f9fb16713bd7a88be3b70113bf08fdd6abf87c014d55fc",
+      "intermediate_role_fix_sha256": "9f9ec0af075fe4b27df52b652ea0fe236dcffe806d2c94569130c65254d23af7"
+    },
+    {
+      "file": "VALIDATION_SUMMARY.json",
+      "before_sha256": "c84dce51ae15282d1f7187c0fe0f549db6c7708c266deb52708e94faf90416ff",
+      "after_sha256": "d13274e84a992cd786c316bc432552d71da1a615eeaec2f22f5cb87cfa85e6c3",
+      "intermediate_role_fix_sha256": "9602df3c32888e4d4238a1ceb2d8e8fc9410bbc351a0c4692f72ac7737273a35"
+    }
+  ],
+  "supersedes_role_wording_only": "Private frozen same-name adapter hashes/null remain preserved. Real native declaration owners are identified separately; no original comparison result or rfl proof changes.",
+  "later_documentation_update": "Following the successful canonical fresh build and133 cold checks, README and validation summary were refreshed to state those actual results. Both intermediate and final hashes are retained; no mathematical/configuration file changed. The final audit received one explicit #print axioms command for the coverage verifier, then was rebuilt/cold-checked; all132 mathematical sources and configurations remained unchanged.",
+  "added_canonical_verification_summary_sha256": "92d4206ae41432f559c37a0b0e6b74f581dda911ebe44485e1602f2b3b0123ad",
+  "output_only_audit_change": {
+    "scope": "OUTPUT_ONLY_AUDIT_COMMAND_ADDITION",
+    "file": "Source/ThetaLinesPortableAudit.lean",
+    "old_sha256": "c6004392fa32a9f6d835ba0a3c27df75b5b9f37adf177813a551810a2f01b13a",
+    "new_sha256": "460fc6ee46890e57109bad942428d12577a42e9bf1c3590c50051c757a02d569",
+    "added_command": "#print axioms FourCorner.ThetaLinesFullAssembly.theta_lines_full",
+    "mathematical_sources_unchanged": 132,
+    "configuration_unchanged": true,
+    "purpose": "Expose the already-checked full theorem axiom closure to the public statement-coverage verifier."
+  }
+}

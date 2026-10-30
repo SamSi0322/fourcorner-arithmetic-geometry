@@ -1,0 +1,31 @@
+[
+  {
+    "module": "ThetaStdRingFlatRank",
+    "prototype_source_sha256": "4ab35e8c4942ea4d42690e0cd17e898988106c4166c18c100bf70954e7b4aec8",
+    "prototype_role": "declaration-free native import adapter",
+    "native_original_module": "Mathlib.RingTheory.Flat.Rank",
+    "native_source_sha256": "228536992011d3f77aa2ac3bf7fb8b8a36124498bc05b2b9909927046747e2c5",
+    "canonical_source_sha256": "228536992011d3f77aa2ac3bf7fb8b8a36124498bc05b2b9909927046747e2c5",
+    "non_import_body_sha256": "326d278d95bcf9492b983db189266f9c0bd475f3329cef9afdf3154983d7fa75",
+    "canonical_and_native_non_import_body_identical": true
+  },
+  {
+    "module": "ThetaStdSchemeFlatRank",
+    "prototype_source_sha256": "7049eabc72c790bc94899576baa549d36f23791813d480c0f193b76cf355b578",
+    "prototype_role": "declaration-free native import adapter",
+    "native_original_module": "Mathlib.AlgebraicGeometry.Morphisms.FlatRank",
+    "native_source_sha256": "abdbf477169736bfdaec5a4e2aa9e2911e361d3245d5dbd332bab494bcef8c28",
+    "canonical_source_sha256": "c8a9adc2b78aa7043d9a5cb9ef80a9ae1fa32d15f85d9f6a892cdf64dd76ab76",
+    "non_import_body_sha256": "3e9f628974f030e15bc220803d03baaea5c1068d2dce5c1d93eb58190fccdca1",
+    "canonical_and_native_non_import_body_identical": true
+  },
+  {
+    "module": "ThetaStdModuleFinitePresentation",
+    "role": "Canonical dependency of the accepted scheme rank owner",
+    "native_original_module": "Mathlib.RingTheory.Finiteness.ModuleFinitePresentation",
+    "native_source_sha256": "53ec4b69c8869638a7ba0e0dbfa637e94f39d1b8454b02d9c63482cc00361db8",
+    "canonical_source_sha256": "53ec4b69c8869638a7ba0e0dbfa637e94f39d1b8454b02d9c63482cc00361db8",
+    "non_import_body_sha256": "92da64b47ccebbe5e3c15af65849676dbb6b9289a14f2357675e9d4652f230f5",
+    "canonical_and_native_non_import_body_identical": true
+  }
+]

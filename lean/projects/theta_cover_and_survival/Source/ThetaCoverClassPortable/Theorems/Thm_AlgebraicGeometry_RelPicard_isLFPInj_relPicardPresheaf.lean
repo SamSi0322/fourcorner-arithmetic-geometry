@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_isLFPInj_relPicardPresheaf
+
+alias AlgebraicGeometry.RelPicard.isLFPInj_relPicardPresheaf := P2MW.S_AlgebraicGeometry_RelPicard_isLFPInj_relPicardPresheaf.solution

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_projective_sections_of_locallyTrivial
+
+alias AlgebraicGeometry.Scheme.Modules.projective_sections_of_locallyTrivial := P2MW.S_AlgebraicGeometry_Scheme_Modules_projective_sections_of_locallyTrivial.solution
