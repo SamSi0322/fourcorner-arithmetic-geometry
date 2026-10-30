@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_GeometricallyConnected_of_comp_of_surjective
+
+alias AlgebraicGeometry.GeometricallyConnected.of_comp_of_surjective := P2MW.S_AlgebraicGeometry_GeometricallyConnected_of_comp_of_surjective.solution

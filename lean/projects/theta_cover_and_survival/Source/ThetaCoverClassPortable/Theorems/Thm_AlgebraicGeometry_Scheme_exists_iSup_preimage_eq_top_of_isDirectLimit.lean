@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_exists_iSup_preimage_eq_top_of_isDirectLimit
+
+alias AlgebraicGeometry.Scheme.exists_iSup_preimage_eq_top_of_isDirectLimit := P2MW.S_AlgebraicGeometry_Scheme_exists_iSup_preimage_eq_top_of_isDirectLimit.solution

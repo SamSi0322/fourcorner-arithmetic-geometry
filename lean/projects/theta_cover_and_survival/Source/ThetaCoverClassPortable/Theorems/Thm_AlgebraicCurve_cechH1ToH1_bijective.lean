@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_cechH1ToH1_bijective
+
+alias AlgebraicCurve.cechH1ToH1_bijective := P2MW.S_AlgebraicCurve_cechH1ToH1_bijective.solution

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_finite_H0_H1_structureSheaf_of_smoothProperCurve
+
+alias AlgebraicCurve.finite_H0_H1_structureSheaf_of_smoothProperCurve := P2MW.S_AlgebraicCurve_finite_H0_H1_structureSheaf_of_smoothProperCurve.solution

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_AffineLimit_locallyOfFiniteType_of_forall_exists_fg_factor
+
+namespace AlgebraicGeometry.AffineLimit
+alias locallyOfFiniteType_of_forall_exists_fg_factor := P2MW.S_AlgebraicGeometry_AffineLimit_locallyOfFiniteType_of_forall_exists_fg_factor.solution
+end AlgebraicGeometry.AffineLimit

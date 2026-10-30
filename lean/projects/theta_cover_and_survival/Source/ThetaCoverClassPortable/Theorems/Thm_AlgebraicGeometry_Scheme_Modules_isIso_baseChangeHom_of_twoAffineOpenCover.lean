@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isIso_baseChangeHom_of_twoAffineOpenCover
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias isIso_baseChangeHom_of_twoAffineOpenCover := P2MW.S_AlgebraicGeometry_Scheme_Modules_isIso_baseChangeHom_of_twoAffineOpenCover.solution
+end AlgebraicGeometry.Scheme.Modules

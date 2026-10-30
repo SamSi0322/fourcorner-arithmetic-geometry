@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_basicOpen_forall_exists_frame
+
+alias AlgebraicGeometry.Scheme.Modules.exists_basicOpen_forall_exists_frame := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_basicOpen_forall_exists_frame.solution

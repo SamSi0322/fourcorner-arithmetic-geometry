@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange
+
+alias AlgebraicGeometry.RelPicard.exists_representsRelSubPic_baseChange := P2MW.S_AlgebraicGeometry_RelPicard_exists_representsRelSubPic_baseChange.solution

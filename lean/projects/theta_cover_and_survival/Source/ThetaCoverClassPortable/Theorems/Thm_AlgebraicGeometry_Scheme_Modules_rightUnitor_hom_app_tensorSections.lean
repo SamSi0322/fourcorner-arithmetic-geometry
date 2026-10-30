@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_rightUnitor_hom_app_tensorSections
+
+alias AlgebraicGeometry.Scheme.Modules.rightUnitor_hom_app_tensorSections := P2MW.S_AlgebraicGeometry_Scheme_Modules_rightUnitor_hom_app_tensorSections.solution

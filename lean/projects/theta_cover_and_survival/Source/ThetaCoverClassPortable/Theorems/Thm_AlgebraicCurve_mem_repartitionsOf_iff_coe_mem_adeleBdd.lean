@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_mem_repartitionsOf_iff_coe_mem_adeleBdd
+
+alias AlgebraicCurve.mem_repartitionsOf_iff_coe_mem_adeleBdd := P2MW.S_AlgebraicCurve_mem_repartitionsOf_iff_coe_mem_adeleBdd.solution

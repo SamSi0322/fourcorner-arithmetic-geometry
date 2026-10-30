@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_RROpens_exists_effective_sub_add_smul_single_mem_principal
+
+alias AlgebraicCurve.RROpens.exists_effective_sub_add_smul_single_mem_principal := P2MW.S_AlgebraicCurve_RROpens_exists_effective_sub_add_smul_single_mem_principal.solution

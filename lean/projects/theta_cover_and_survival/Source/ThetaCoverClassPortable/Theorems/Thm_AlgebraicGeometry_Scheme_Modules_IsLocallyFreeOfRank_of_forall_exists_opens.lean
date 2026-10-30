@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsLocallyFreeOfRank_of_forall_exists_opens
+
+namespace AlgebraicGeometry.Scheme.Modules.IsLocallyFreeOfRank
+alias of_forall_exists_opens := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsLocallyFreeOfRank_of_forall_exists_opens.solution
+end AlgebraicGeometry.Scheme.Modules.IsLocallyFreeOfRank

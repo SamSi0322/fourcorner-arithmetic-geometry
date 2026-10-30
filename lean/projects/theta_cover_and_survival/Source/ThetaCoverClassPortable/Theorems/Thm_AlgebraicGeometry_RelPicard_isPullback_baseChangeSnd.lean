@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_isPullback_baseChangeSnd
+
+alias AlgebraicGeometry.RelPicard.isPullback_baseChangeSnd := P2MW.S_AlgebraicGeometry_RelPicard_isPullback_baseChangeSnd.solution

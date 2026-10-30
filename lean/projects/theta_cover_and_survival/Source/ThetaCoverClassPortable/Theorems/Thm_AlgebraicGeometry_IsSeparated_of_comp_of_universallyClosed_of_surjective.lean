@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_IsSeparated_of_comp_of_universallyClosed_of_surjective
+
+alias AlgebraicGeometry.IsSeparated.of_comp_of_universallyClosed_of_surjective := P2MW.S_AlgebraicGeometry_IsSeparated_of_comp_of_universallyClosed_of_surjective.solution

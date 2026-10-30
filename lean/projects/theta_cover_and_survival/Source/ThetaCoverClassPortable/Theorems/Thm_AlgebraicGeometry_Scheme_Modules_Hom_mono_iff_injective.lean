@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_Hom_mono_iff_injective
+namespace AlgebraicGeometry.Scheme.Modules.Hom
+alias mono_iff_injective := P2MW.S_AlgebraicGeometry_Scheme_Modules_Hom_mono_iff_injective.solution
+end AlgebraicGeometry.Scheme.Modules.Hom

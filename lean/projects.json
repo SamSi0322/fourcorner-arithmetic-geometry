@@ -216,5 +216,30 @@
       }
     ],
     "expected_setup_options": {}
+  },
+  {
+    "directory": "projects/theta_cover_and_survival",
+    "target": "ThetaCoverClassPortable",
+    "audit": [
+      {
+        "source": "Source/ThetaCoverClassPortable/ActualThetaCoverFullAudit.lean",
+        "setup": ".lake/build/ir/ThetaCoverClassPortable/ActualThetaCoverFullAudit.setup.json"
+      },
+      {
+        "source": "Source/ThetaCoverClassPortable/ActualTwoJacobianSurvivalAudit.lean",
+        "setup": ".lake/build/ir/ThetaCoverClassPortable/ActualTwoJacobianSurvivalAudit.setup.json"
+      }
+    ],
+    "expected_setup_options": {},
+    "audit_lean_args": [
+      "-DautoImplicit=false",
+      "-DmaxSynthPendingDepth=3",
+      "-Dbackward.isDefEq.respectTransparency.types=false",
+      "-DsynthInstance.maxHeartbeats=400000",
+      "-DmaxHeartbeats=16000000",
+      "-DmaxRecDepth=10000",
+      "-R",
+      "Source"
+    ]
   }
 ]

@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_sheafify_mu_app_tensorSections
+namespace AlgebraicGeometry.Scheme.Modules
+alias sheafify_mu_app_tensorSections := P2MW.S_AlgebraicGeometry_Scheme_Modules_sheafify_mu_app_tensorSections.solution
+end AlgebraicGeometry.Scheme.Modules

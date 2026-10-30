@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_ProjPresentation_exists_of_iso
+
+alias AlgebraicGeometry.Scheme.Modules.ProjPresentation.exists_of_iso := P2MW.S_AlgebraicGeometry_Scheme_Modules_ProjPresentation_exists_of_iso.solution

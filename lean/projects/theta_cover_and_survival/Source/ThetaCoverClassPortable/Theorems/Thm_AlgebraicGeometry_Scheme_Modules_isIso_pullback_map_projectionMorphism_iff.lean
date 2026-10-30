@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isIso_pullback_map_projectionMorphism_iff
+namespace AlgebraicGeometry.Scheme.Modules
+alias isIso_pullback_map_projectionMorphism_iff := P2MW.S_AlgebraicGeometry_Scheme_Modules_isIso_pullback_map_projectionMorphism_iff.solution
+end AlgebraicGeometry.Scheme.Modules

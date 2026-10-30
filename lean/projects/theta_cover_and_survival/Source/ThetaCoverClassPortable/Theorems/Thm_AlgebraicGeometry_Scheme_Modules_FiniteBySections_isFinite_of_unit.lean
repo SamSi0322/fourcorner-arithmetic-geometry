@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_isFinite_of_unit
+
+alias AlgebraicGeometry.Scheme.Modules.FiniteBySections.isFinite_of_unit := P2MW.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_isFinite_of_unit.solution

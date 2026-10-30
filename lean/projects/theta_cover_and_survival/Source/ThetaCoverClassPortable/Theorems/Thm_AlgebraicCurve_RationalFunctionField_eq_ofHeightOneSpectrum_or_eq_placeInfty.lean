@@ -1,0 +1,15 @@
+import ThetaCoverClassPortable.ReplayImports
+import Mathlib.FieldTheory.RatFunc.Degree
+import Mathlib.FieldTheory.IsAlgClosed.Basic
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_RatFuncPlaceInfty
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_RatFuncPlaces
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_PlaceEvaluation
+import ThetaCoverClassPortable.P2M.Util
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_RationalFunctionField_eq_ofHeightOneSpectrum_or_eq_placeInfty
+import ThetaCoverClassPortable.Definitions.Def_AlgebraicCurve_RatFuncPlaceClassification
+attribute [-instance] AlgebraicCurve.RationalFunctionField.instNontrivialSubtypeUnitsWithZeroMultiplicativeIntMemSubgroupValueGroupRatFuncValuationInftyValuation_definitions
+attribute [-simp] AlgebraicCurve.RationalFunctionField.placeEquivOption_placeInfty AlgebraicCurve.RationalFunctionField.placeEquivOption_symm_some AlgebraicCurve.RationalFunctionField.placeEquivOption_placeOfPoint AlgebraicCurve.RationalFunctionField.placeEquivOption_symm_none
+
+open AlgebraicCurve AlgebraicCurve.RationalFunctionField
+theorem P2M.Dup.AlgebraicCurve.RationalFunctionField.eq_ofHeightOneSpectrum_or_eq_placeInfty {K : Type*} [Field K] [DecidableEq (RatFunc K)] (v : Place K (RatFunc K)) : (∃ w : IsDedekindDomain.HeightOneSpectrum (Polynomial K), v = Place.ofHeightOneSpectrum w) ∨ v = placeInfty K := by p2m_exact_reverting @_root_.P2MW.S_AlgebraicCurve_RationalFunctionField_eq_ofHeightOneSpectrum_or_eq_placeInfty.solution
+#p2m_type_eq_warn P2M.Dup.AlgebraicCurve.RationalFunctionField.eq_ofHeightOneSpectrum_or_eq_placeInfty AlgebraicCurve.RationalFunctionField.eq_ofHeightOneSpectrum_or_eq_placeInfty

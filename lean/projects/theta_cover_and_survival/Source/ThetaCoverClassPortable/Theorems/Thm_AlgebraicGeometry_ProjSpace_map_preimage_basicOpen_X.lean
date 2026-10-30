@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_ProjSpace_map_preimage_basicOpen_X
+
+alias AlgebraicGeometry.ProjSpace.map_preimage_basicOpen_X := P2MW.S_AlgebraicGeometry_ProjSpace_map_preimage_basicOpen_X.solution

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isLocallyFreeOfRank_tilde
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias isLocallyFreeOfRank_tilde := P2MW.S_AlgebraicGeometry_Scheme_Modules_isLocallyFreeOfRank_tilde.solution
+end AlgebraicGeometry.Scheme.Modules

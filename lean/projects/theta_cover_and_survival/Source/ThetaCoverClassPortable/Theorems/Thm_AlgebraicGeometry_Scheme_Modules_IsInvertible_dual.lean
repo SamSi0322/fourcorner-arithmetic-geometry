@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_dual
+
+alias AlgebraicGeometry.Scheme.Modules.IsInvertible.dual :=
+ P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_dual.solution

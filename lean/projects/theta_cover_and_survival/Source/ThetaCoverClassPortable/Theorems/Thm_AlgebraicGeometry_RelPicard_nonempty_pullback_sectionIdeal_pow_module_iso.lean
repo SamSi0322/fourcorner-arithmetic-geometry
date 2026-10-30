@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_nonempty_pullback_sectionIdeal_pow_module_iso
+
+alias AlgebraicGeometry.RelPicard.nonempty_pullback_sectionIdeal_pow_module_iso := P2MW.S_AlgebraicGeometry_RelPicard_nonempty_pullback_sectionIdeal_pow_module_iso.solution

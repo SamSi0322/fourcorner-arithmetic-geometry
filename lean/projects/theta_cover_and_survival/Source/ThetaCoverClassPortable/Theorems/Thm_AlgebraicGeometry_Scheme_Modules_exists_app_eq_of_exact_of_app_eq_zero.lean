@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_exists_app_eq_of_exact_of_app_eq_zero
+namespace AlgebraicGeometry.Scheme.Modules
+alias exists_app_eq_of_exact_of_app_eq_zero := P2MW.S_AlgebraicGeometry_Scheme_Modules_exists_app_eq_of_exact_of_app_eq_zero.solution
+end AlgebraicGeometry.Scheme.Modules

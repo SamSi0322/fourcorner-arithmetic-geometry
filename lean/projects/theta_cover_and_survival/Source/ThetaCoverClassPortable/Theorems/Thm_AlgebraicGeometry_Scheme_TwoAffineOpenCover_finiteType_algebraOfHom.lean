@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finiteType_algebraOfHom
+
+namespace AlgebraicGeometry.Scheme.TwoAffineOpenCover
+alias finiteType_algebraOfHom := P2MW.S_AlgebraicGeometry_Scheme_TwoAffineOpenCover_finiteType_algebraOfHom.solution
+end AlgebraicGeometry.Scheme.TwoAffineOpenCover

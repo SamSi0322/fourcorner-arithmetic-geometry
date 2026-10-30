@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_infinite_setOf_isClosed_singleton
+
+namespace AlgebraicCurve
+alias infinite_setOf_isClosed_singleton := P2MW.S_AlgebraicCurve_infinite_setOf_isClosed_singleton.solution
+end AlgebraicCurve

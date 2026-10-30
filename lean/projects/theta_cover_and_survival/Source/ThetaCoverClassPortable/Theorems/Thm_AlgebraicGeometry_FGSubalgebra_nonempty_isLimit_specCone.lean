@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_FGSubalgebra_nonempty_isLimit_specCone
+
+namespace AlgebraicGeometry.FGSubalgebra
+alias nonempty_isLimit_specCone := P2MW.S_AlgebraicGeometry_FGSubalgebra_nonempty_isLimit_specCone.solution
+end AlgebraicGeometry.FGSubalgebra

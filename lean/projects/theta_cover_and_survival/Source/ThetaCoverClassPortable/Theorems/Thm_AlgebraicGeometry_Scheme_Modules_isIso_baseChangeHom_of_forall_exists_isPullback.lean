@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isIso_baseChangeHom_of_forall_exists_isPullback
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias isIso_baseChangeHom_of_forall_exists_isPullback := P2MW.S_AlgebraicGeometry_Scheme_Modules_isIso_baseChangeHom_of_forall_exists_isPullback.solution
+end AlgebraicGeometry.Scheme.Modules

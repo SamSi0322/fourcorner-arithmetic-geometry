@@ -1,0 +1,2 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_exists_I_eq_ker_graphOver_mul
+alias AlgebraicGeometry.RelEffCartierDiv.exists_I_eq_ker_graphOver_mul := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_exists_I_eq_ker_graphOver_mul.solution

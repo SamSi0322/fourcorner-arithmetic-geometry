@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_exists_I_eq_zeroSchemeIdeal
+
+namespace AlgebraicGeometry.RelEffCartierDiv
+alias exists_I_eq_zeroSchemeIdeal := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_exists_I_eq_zeroSchemeIdeal.solution
+end AlgebraicGeometry.RelEffCartierDiv

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_baseChangeHom_comp_vertical
+
+alias AlgebraicGeometry.Scheme.Modules.baseChangeHom_comp_vertical := P2MW.S_AlgebraicGeometry_Scheme_Modules_baseChangeHom_comp_vertical.solution

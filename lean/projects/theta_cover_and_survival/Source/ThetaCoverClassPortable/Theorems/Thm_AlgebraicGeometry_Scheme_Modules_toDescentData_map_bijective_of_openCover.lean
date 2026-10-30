@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_toDescentData_map_bijective_of_openCover
+
+alias AlgebraicGeometry.Scheme.Modules.toDescentData_map_bijective_of_openCover :=
+ P2MW.S_AlgebraicGeometry_Scheme_Modules_toDescentData_map_bijective_of_openCover.solution

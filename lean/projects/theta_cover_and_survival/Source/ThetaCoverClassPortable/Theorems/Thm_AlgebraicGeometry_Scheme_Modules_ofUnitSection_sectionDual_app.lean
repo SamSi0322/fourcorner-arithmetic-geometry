@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_ofUnitSection_sectionDual_app
+
+alias AlgebraicGeometry.Scheme.Modules.ofUnitSection_sectionDual_app := P2MW.S_AlgebraicGeometry_Scheme_Modules_ofUnitSection_sectionDual_app.solution

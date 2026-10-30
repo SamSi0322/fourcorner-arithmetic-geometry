@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_ProjSpace_isPullback_map
+
+alias AlgebraicGeometry.ProjSpace.isPullback_map := P2MW.S_AlgebraicGeometry_ProjSpace_isPullback_map.solution

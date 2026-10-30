@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_ell_add_of_forall_eq_ord
+
+alias AlgebraicCurve.ell_add_of_forall_eq_ord := P2MW.S_AlgebraicCurve_ell_add_of_forall_eq_ord.solution

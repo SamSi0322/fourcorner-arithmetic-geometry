@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_IdealSheafData_IsInvertible_pow
+
+alias AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.pow := P2MW.S_AlgebraicGeometry_Scheme_IdealSheafData_IsInvertible_pow.solution

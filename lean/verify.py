@@ -6,6 +6,30 @@ root=Path(__file__).resolve().parent
 projects=json.loads((root/'projects.json').read_text())
 coverage=json.loads((root/'coverage.json').read_text())
 permitted={'propext','Classical.choice','Quot.sound'}
+allowed_audit_options={
+ '-DautoImplicit=false', '-DmaxSynthPendingDepth=3',
+ '-Dbackward.isDefEq.respectTransparency.types=false',
+ '-DsynthInstance.maxHeartbeats=400000', '-DmaxHeartbeats=16000000',
+ '-DmaxRecDepth=10000',
+}
+def audit_extra_args(project):
+ """Preserve recorded frontend settings without permitting trust or plugin overrides."""
+ values=project.get('audit_lean_args',[])
+ if not isinstance(values,list) or not all(isinstance(v,str) for v in values):
+  raise SystemExit('audit_lean_args must be a list of approved frontend arguments.')
+ result=[];seen=set();i=0
+ while i<len(values):
+  value=values[i]
+  if value in seen:raise SystemExit('Duplicate audit frontend argument: '+value)
+  seen.add(value)
+  if value=='-R':
+   if i+1>=len(values) or values[i+1]!='Source':
+    raise SystemExit('Only the project-local Source root is supported for audits.')
+   result.extend(['-R','Source']);i+=2
+  elif value in allowed_audit_options:
+   result.append(value);i+=1
+  else:raise SystemExit('Unapproved audit frontend argument: '+value)
+ return result
 lake=shutil.which('lake')
 if not lake:raise SystemExit('lake is not on PATH; install elan and the pinned Lean toolchain first.')
 stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
@@ -25,6 +49,8 @@ for index,project in enumerate(projects):
    if setup_path.is_absolute() or '..' in setup_path.parts:
     raise SystemExit('Audit setup must be a project-relative generated file: '+setup)
    args.extend(['--setup',setup])
+  args.extend(audit_extra_args(project))
+  # These fixed options follow frontend settings and cannot be overridden by project metadata.
   args.extend(['-t0','-Ddebug.skipKernelTC=false',source])
   steps.append((f'audit_{j}',args))
  for name,args in steps:

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_isFrameOn
+
+namespace AlgebraicGeometry.Scheme.Modules.IsInvertible
+alias exists_isFrameOn := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_exists_isFrameOn.solution
+end AlgebraicGeometry.Scheme.Modules.IsInvertible

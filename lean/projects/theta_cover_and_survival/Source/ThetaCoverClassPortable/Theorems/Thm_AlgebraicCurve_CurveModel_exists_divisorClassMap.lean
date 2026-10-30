@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_CurveModel_exists_divisorClassMap
+
+alias AlgebraicCurve.CurveModel.exists_divisorClassMap := P2MW.S_AlgebraicCurve_CurveModel_exists_divisorClassMap.solution

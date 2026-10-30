@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_of_finiteBySections_unit
+
+alias AlgebraicGeometry.Scheme.Modules.FiniteBySections.of_finiteBySections_unit := P2MW.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_of_finiteBySections_unit.solution

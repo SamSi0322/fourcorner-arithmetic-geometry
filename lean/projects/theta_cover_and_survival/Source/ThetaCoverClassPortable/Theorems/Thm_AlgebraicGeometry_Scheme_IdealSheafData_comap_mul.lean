@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_IdealSheafData_comap_mul
+
+alias AlgebraicGeometry.Scheme.IdealSheafData.comap_mul :=
+  P2MW.S_AlgebraicGeometry_Scheme_IdealSheafData_comap_mul.solution

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_of_isFinite
+
+alias AlgebraicGeometry.Scheme.Modules.FiniteBySections.of_isFinite := P2MW.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_of_isFinite.solution

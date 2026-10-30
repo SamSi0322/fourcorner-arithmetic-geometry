@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_IsAffineOpen_range_algebraMap_functionField_eq_iInf
+
+alias AlgebraicGeometry.IsAffineOpen.range_algebraMap_functionField_eq_iInf := P2MW.S_AlgebraicGeometry_IsAffineOpen_range_algebraMap_functionField_eq_iInf.solution

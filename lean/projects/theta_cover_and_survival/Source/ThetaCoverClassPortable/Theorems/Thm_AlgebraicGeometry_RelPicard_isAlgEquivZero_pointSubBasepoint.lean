@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_isAlgEquivZero_pointSubBasepoint
+
+namespace AlgebraicGeometry.RelPicard
+alias isAlgEquivZero_pointSubBasepoint := P2MW.S_AlgebraicGeometry_RelPicard_isAlgEquivZero_pointSubBasepoint.solution
+end AlgebraicGeometry.RelPicard

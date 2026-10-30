@@ -6,7 +6,7 @@ This archive accompanies the mathematical preprint. It contains the PDF and
 self-contained LaTeX sources, a partial Lean formalization, pinned dependencies,
 reproduction instructions, a statement-level coverage table and source hashes.
 
-The current Lean development fully verifies 57 of the 69 numbered statements. Further
+The current Lean development fully verifies 59 of the 69 numbered statements. Further
 formalization is ongoing. The exact coverage is recorded in `lean/coverage.csv`.
 The arithmetic and geometric results of the paper are stated and proved in the
 manuscript; the original global square rational-distance problem remains open.
@@ -91,3 +91,11 @@ level. The distinguished geometric component is defined over QQ, has nonboundary
 points over every Q_p, and contains a real point above the prescribed path-reachable
 subset. The proof uses actual scheme points, finite etale multiplication and the
 canonical strong topology.
+
+The theta-cover class and its surviving-cover corollary are fully formalized.
+The original double cover is identified with its actual nonzero rational
+two-torsion class on the genuine Jacobian. Both original Jacobians, their
+Abel--Jacobi maps and the quotient map retain the marked component at every
+positive multiplication level, all finite-place points and a strict off-diagonal
+real endpoint. The shared source-only project includes its complete dependency
+cone and exact compatibility and verification records.

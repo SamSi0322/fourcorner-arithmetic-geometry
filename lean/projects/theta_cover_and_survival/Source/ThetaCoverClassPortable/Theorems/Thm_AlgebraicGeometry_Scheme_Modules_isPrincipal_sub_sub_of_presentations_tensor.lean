@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isPrincipal_sub_sub_of_presentations_tensor
+
+alias AlgebraicGeometry.Scheme.Modules.isPrincipal_sub_sub_of_presentations_tensor := P2MW.S_AlgebraicGeometry_Scheme_Modules_isPrincipal_sub_sub_of_presentations_tensor.solution

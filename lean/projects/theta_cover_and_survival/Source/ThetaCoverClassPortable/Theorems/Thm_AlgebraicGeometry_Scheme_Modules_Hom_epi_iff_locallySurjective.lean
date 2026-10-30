@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_Hom_epi_iff_locallySurjective
+namespace AlgebraicGeometry.Scheme.Modules.Hom
+alias epi_iff_locallySurjective := P2MW.S_AlgebraicGeometry_Scheme_Modules_Hom_epi_iff_locallySurjective.solution
+end AlgebraicGeometry.Scheme.Modules.Hom

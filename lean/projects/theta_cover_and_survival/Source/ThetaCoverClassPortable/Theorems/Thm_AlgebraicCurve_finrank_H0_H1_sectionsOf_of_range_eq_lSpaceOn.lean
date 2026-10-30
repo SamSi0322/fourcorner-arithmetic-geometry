@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_finrank_H0_H1_sectionsOf_of_range_eq_lSpaceOn
+
+alias AlgebraicCurve.finrank_H0_H1_sectionsOf_of_range_eq_lSpaceOn := P2MW.S_AlgebraicCurve_finrank_H0_H1_sectionsOf_of_range_eq_lSpaceOn.solution

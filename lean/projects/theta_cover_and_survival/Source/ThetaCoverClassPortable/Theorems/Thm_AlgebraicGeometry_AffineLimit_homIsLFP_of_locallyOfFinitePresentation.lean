@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_AffineLimit_homIsLFP_of_locallyOfFinitePresentation
+
+namespace AlgebraicGeometry.AffineLimit
+alias homIsLFP_of_locallyOfFinitePresentation := P2MW.S_AlgebraicGeometry_AffineLimit_homIsLFP_of_locallyOfFinitePresentation.solution
+end AlgebraicGeometry.AffineLimit

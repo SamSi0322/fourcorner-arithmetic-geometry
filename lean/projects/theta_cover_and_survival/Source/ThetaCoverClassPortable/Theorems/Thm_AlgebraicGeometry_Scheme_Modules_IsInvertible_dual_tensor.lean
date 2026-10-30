@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_dual_tensor
+
+alias AlgebraicGeometry.Scheme.Modules.IsInvertible.dual_tensor :=
+ P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_dual_tensor.solution

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_flat_sections_of_locallyTrivial
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias flat_sections_of_locallyTrivial := P2MW.S_AlgebraicGeometry_Scheme_Modules_flat_sections_of_locallyTrivial.solution
+end AlgebraicGeometry.Scheme.Modules

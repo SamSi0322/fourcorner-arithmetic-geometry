@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isIso_projectionMorphism_of_iso_free
+namespace AlgebraicGeometry.Scheme.Modules
+alias isIso_projectionMorphism_of_iso_free := P2MW.S_AlgebraicGeometry_Scheme_Modules_isIso_projectionMorphism_of_iso_free.solution
+end AlgebraicGeometry.Scheme.Modules

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_epi_whiskerRight_wedgeVec_of_shortExact
+
+alias AlgebraicGeometry.Scheme.Modules.epi_whiskerRight_wedgeVec_of_shortExact := P2MW.S_AlgebraicGeometry_Scheme_Modules_epi_whiskerRight_wedgeVec_of_shortExact.solution

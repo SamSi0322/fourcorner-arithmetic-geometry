@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch
+
+alias AlgebraicCurve.exists_canonicalDivisor_genus_riemannRoch := P2MW.S_AlgebraicCurve_exists_canonicalDivisor_genus_riemannRoch.solution

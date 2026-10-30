@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_IsUniversal_geometricallyConnected
+
+alias AlgebraicGeometry.RelEffCartierDiv.IsUniversal.geometricallyConnected := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_IsUniversal_geometricallyConnected.solution

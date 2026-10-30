@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_zeroSchemeIdeal_eq_of_app_eq_smul
+
+namespace AlgebraicGeometry.Scheme.Modules.IsInvertible
+alias zeroSchemeIdeal_eq_of_app_eq_smul := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_zeroSchemeIdeal_eq_of_app_eq_smul.solution
+end AlgebraicGeometry.Scheme.Modules.IsInvertible

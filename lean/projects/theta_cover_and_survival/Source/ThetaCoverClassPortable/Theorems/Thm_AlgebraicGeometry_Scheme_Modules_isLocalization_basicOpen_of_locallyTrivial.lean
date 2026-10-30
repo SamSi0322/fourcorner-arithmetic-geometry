@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isLocalization_basicOpen_of_locallyTrivial
+
+alias AlgebraicGeometry.Scheme.Modules.isLocalization_basicOpen_of_locallyTrivial :=
+  P2MW.S_AlgebraicGeometry_Scheme_Modules_isLocalization_basicOpen_of_locallyTrivial.solution

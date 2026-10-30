@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isStackFor_openCover
+
+alias AlgebraicGeometry.Scheme.Modules.isStackFor_openCover :=
+ P2MW.S_AlgebraicGeometry_Scheme_Modules_isStackFor_openCover.solution

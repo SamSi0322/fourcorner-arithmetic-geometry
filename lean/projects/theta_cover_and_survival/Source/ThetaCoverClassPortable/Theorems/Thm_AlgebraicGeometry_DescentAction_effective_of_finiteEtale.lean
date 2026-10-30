@@ -1,0 +1,2 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_DescentAction_effective_of_finiteEtale
+alias AlgebraicGeometry.DescentAction.effective_of_finiteEtale := P2MW.S_AlgebraicGeometry_DescentAction_effective_of_finiteEtale.solution

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_zeroSchemeIdeal_comp_eq_of_isIso
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias zeroSchemeIdeal_comp_eq_of_isIso := P2MW.S_AlgebraicGeometry_Scheme_Modules_zeroSchemeIdeal_comp_eq_of_isIso.solution
+end AlgebraicGeometry.Scheme.Modules

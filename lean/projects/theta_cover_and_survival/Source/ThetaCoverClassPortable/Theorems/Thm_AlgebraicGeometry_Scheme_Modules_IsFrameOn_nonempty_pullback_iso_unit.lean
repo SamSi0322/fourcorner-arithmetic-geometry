@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_nonempty_pullback_iso_unit
+
+namespace AlgebraicGeometry.Scheme.Modules.IsFrameOn
+alias nonempty_pullback_iso_unit := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsFrameOn_nonempty_pullback_iso_unit.solution
+end AlgebraicGeometry.Scheme.Modules.IsFrameOn

@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_IdealSheafData_range_moduleIota_app_and_injective
+
+namespace AlgebraicGeometry.Scheme.IdealSheafData
+alias range_moduleIota_app_and_injective := P2MW.S_AlgebraicGeometry_Scheme_IdealSheafData_range_moduleIota_app_and_injective.solution
+end AlgebraicGeometry.Scheme.IdealSheafData

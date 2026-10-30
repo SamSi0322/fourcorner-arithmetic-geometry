@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Hom_finrank_comp_of_finrank_eq_const
+
+alias AlgebraicGeometry.Scheme.Hom.finrank_comp_of_finrank_eq_const := P2MW.S_AlgebraicGeometry_Scheme_Hom_finrank_comp_of_finrank_eq_const.solution

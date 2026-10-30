@@ -1,8 +1,8 @@
 {
   "release": "development-after-1.0.0",
   "numbered_statements": 69,
-  "fully_formalized_numbered_statements": 57,
-  "not_fully_formalized_numbered_statements": 12,
+  "fully_formalized_numbered_statements": 59,
+  "not_fully_formalized_numbered_statements": 10,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1146,10 +1146,16 @@
       "title": null,
       "statement_tex": "\\label{prop:theta-cover-class}\nLet\n\\[\n C_0=X^2+Y^2-2Z^2,\\qquad\n N=97X^2+99Y^2-196Z^2,\\qquad\n h=\\frac{C_0}{2Z^2},\\qquad\n \\ell_\\pm=Z\\pm\\frac X{\\sqrt2}.\n\\]\nThe cover $\\pi:C\\to D$ is the normalization of $v^2=h$.  If\n$E_0=\\sum_{\\epsilon,\\eta}E_{\\epsilon,\\eta}$ is the sum of the four points\nin \\eqref{eq:theta-four-boundary}, its geometric covering class is\n\\[\n \\delta=[E_0-H]\\in\\Jac(D)(\\Q)[2]\\setminus\\{0\\}.\n\\]\nOver $\\Q(\\sqrt2)$ it is identified with\n$[B_{\\ell_+}-B_{\\ell_-}]$ by the exact function-field identity\n\\begin{equation}\n h=\\frac{\\ell_+}{\\ell_-}\n       \\left(\\frac{N}{28\\sqrt2\\,Z\\ell_+}\\right)^2.\n \\label{eq:theta-cover-identity}\n\\end{equation}",
       "statement_sha256": "70c5b021954bcde05ad7c237022d862db2bdfafd4a621c001189b7468990a20d",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.ThetaCoverClassFullStatement.prop_theta_cover_class"
+      ],
+      "source": "projects/theta_cover_and_survival/Source/ThetaCoverClassPortable/ThetaCoverClassFullStatement.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "thm:theta-local-survival",
@@ -1176,10 +1182,16 @@
       "title": null,
       "statement_tex": "\\label{cor:theta-surviving-covers}\nPut $J_C=\\Jac(C)$, $J_D=\\Jac(D)$, and\n\\[\n i_C(P)=[P-O_C],\\qquad i_D(S)=[S-O_D].\n\\]\nFor every $m\\ge1$, the distinguished components of both covers\n\\begin{equation}\n C\\times_{i_C,J_C,[m]}J_C,\n \\qquad\n C\\times_{i_D\\circ\\pi,J_D,[m]}J_D\n \\label{eq:theta-surviving-covers}\n\\end{equation}\nhave nonboundary points at every finite place and a real point whose\nimage on $C$ belongs to $\\mathcal U$ and gives $x\\ne y$.",
       "statement_sha256": "cbf735c305f8370e5d67f56986489198f06223d237b0b2d116da0d83df1cb56f",
-      "lean_status": "not_fully_formalized",
-      "declarations": [],
-      "source": null,
-      "axioms": []
+      "lean_status": "verified",
+      "declarations": [
+        "FourCorner.ThetaSurvivingActualJacobians.cor_theta_surviving_covers"
+      ],
+      "source": "projects/theta_cover_and_survival/Source/ThetaCoverClassPortable/ActualTwoJacobianSurvival.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
     },
     {
       "label": "prop:theta-finite-primes",

@@ -1,0 +1,2 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_exists_sameDivisorScheme
+alias AlgebraicGeometry.RelEffCartierDiv.exists_sameDivisorScheme := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_exists_sameDivisorScheme.solution

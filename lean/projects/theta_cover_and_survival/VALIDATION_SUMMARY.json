@@ -1,0 +1,50 @@
+{
+  "status": "SOURCE_BUILT_AND_ALL2052_ORDINARY_COLD_LAKE_MAIN_PASS_SPLIT_PARTS_INDEPENDENT_PASS",
+  "toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "lean_sources": 2052,
+  "consumption_modules": 2050,
+  "separate_new_validation_modules": 1,
+  "entry_modules": 1,
+  "strict_replay_runs": 4104,
+  "main_olean_three_way_groups": 2052,
+  "split_modules": 6,
+  "split_complete_three_way_part_groups": 18,
+  "extra_server_private_three_way_groups": 12,
+  "batch_input_files": 47309,
+  "batch_posthash_mismatches": 0,
+  "toolchain_native_baseline_parts": 12417,
+  "native_modules": 8744,
+  "native_edges": 46058,
+  "native_parts": 35536,
+  "exact_scope_counts": {
+    "cover_owned": 51,
+    "cover_type_value_closure": 109937,
+    "surviving_owned": 246,
+    "surviving_type_value_closure": 112640
+  },
+  "private_candidate_counts_kept_separate": {
+    "cover_closure": 109962,
+    "surviving_closure": 112663
+  },
+  "axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "used_unsafe_partial_unresolved_placeholders": 0,
+  "raw_inherited_partial_auxiliaries_outside_used_scope": 10,
+  "source_only": true,
+  "publishing_verifier_only_strengthening": {
+    "executed_workspace_script_sha256": "be073db76a4d58d939c836088979b53a1b9e9d94836a499f2b166d2e771d43d1",
+    "publishing_source_script_sha256": "2859f0eb2054695fbba6940f094f55f61671f47716598d36f8834f1899a969d5",
+    "core_reexecution_after_strengthening_claimed": false
+  },
+  "IR_scope": "source-built actual native/runtime input parts pinned; this batch does not claim generated IR output byte equality",
+  "author_validation_numbered_credit": 0,
+  "root_accepted_paper_labels": [
+    "prop:theta-cover-class",
+    "cor:theta-surviving-covers"
+  ],
+  "root_acceptance_summary": "ROOT_ACCEPTANCE_SUMMARY.json"
+}

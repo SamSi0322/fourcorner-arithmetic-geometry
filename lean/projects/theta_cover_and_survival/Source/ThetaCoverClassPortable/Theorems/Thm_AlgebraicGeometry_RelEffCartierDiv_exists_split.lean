@@ -1,0 +1,2 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_exists_split
+alias AlgebraicGeometry.RelEffCartierDiv.exists_split := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_exists_split.solution

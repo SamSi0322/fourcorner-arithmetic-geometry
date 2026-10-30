@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_IdealSheafData_mono_whiskerLeft_moduleIota
+namespace AlgebraicGeometry.Scheme.IdealSheafData
+alias mono_whiskerLeft_moduleIota := P2MW.S_AlgebraicGeometry_Scheme_IdealSheafData_mono_whiskerLeft_moduleIota.solution
+end AlgebraicGeometry.Scheme.IdealSheafData

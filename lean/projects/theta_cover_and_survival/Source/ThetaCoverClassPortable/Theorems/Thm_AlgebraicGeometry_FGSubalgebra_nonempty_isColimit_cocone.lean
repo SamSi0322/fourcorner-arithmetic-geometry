@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_FGSubalgebra_nonempty_isColimit_cocone
+
+namespace AlgebraicGeometry.FGSubalgebra
+alias nonempty_isColimit_cocone := P2MW.S_AlgebraicGeometry_FGSubalgebra_nonempty_isColimit_cocone.solution
+end AlgebraicGeometry.FGSubalgebra

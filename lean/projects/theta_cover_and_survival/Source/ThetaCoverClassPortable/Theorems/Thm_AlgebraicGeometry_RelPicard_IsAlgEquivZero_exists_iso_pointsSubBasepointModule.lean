@@ -1,0 +1,2 @@
+import ThetaCoverClassPortable.ActualAlgZeroPointsFMD
+alias AlgebraicGeometry.RelPicard.IsAlgEquivZero.exists_iso_pointsSubBasepointModule := P2MW.ActualAlgZeroPointsFMD.solution

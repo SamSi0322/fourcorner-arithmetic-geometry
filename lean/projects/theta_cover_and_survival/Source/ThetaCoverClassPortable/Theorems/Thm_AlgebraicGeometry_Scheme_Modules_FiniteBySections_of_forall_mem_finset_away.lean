@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_of_forall_mem_finset_away
+
+alias AlgebraicGeometry.Scheme.Modules.FiniteBySections.of_forall_mem_finset_away := P2MW.S_AlgebraicGeometry_Scheme_Modules_FiniteBySections_of_forall_mem_finset_away.solution

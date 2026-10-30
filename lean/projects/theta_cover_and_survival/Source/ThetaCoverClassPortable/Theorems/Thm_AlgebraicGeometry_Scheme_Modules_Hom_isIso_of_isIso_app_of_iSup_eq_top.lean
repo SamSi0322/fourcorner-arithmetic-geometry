@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_Hom_isIso_of_isIso_app_of_iSup_eq_top
+namespace AlgebraicGeometry.Scheme.Modules.Hom
+alias isIso_of_isIso_app_of_iSup_eq_top := P2MW.S_AlgebraicGeometry_Scheme_Modules_Hom_isIso_of_isIso_app_of_iSup_eq_top.solution
+end AlgebraicGeometry.Scheme.Modules.Hom

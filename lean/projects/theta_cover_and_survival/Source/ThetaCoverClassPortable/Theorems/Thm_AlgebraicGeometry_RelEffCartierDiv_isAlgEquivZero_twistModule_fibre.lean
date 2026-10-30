@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelEffCartierDiv_isAlgEquivZero_twistModule_fibre
+
+namespace AlgebraicGeometry.RelEffCartierDiv
+alias isAlgEquivZero_twistModule_fibre := P2MW.S_AlgebraicGeometry_RelEffCartierDiv_isAlgEquivZero_twistModule_fibre.solution
+end AlgebraicGeometry.RelEffCartierDiv

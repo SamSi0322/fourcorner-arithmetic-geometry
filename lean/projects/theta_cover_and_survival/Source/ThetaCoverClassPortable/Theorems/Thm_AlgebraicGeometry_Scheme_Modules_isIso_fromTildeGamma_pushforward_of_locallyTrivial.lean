@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isIso_fromTildeGamma_pushforward_of_locallyTrivial
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias isIso_fromTildeGamma_pushforward_of_locallyTrivial := P2MW.S_AlgebraicGeometry_Scheme_Modules_isIso_fromTildeGamma_pushforward_of_locallyTrivial.solution
+end AlgebraicGeometry.Scheme.Modules

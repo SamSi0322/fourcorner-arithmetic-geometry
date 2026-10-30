@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_finite_H1_of_genusReached
+
+alias AlgebraicCurve.finite_H1_of_genusReached := P2MW.S_AlgebraicCurve_finite_H1_of_genusReached.solution

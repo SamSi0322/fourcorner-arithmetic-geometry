@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_nonempty_tensorPow_mul_iso
+
+alias AlgebraicGeometry.Scheme.Modules.nonempty_tensorPow_mul_iso := P2MW.S_AlgebraicGeometry_Scheme_Modules_nonempty_tensorPow_mul_iso.solution

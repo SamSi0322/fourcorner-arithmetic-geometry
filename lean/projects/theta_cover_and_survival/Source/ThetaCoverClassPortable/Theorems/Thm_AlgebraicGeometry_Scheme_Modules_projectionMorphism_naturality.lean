@@ -1,0 +1,4 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_projectionMorphism_naturality
+namespace AlgebraicGeometry.Scheme.Modules
+alias projectionMorphism_naturality := P2MW.S_AlgebraicGeometry_Scheme_Modules_projectionMorphism_naturality.solution
+end AlgebraicGeometry.Scheme.Modules

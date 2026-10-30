@@ -1,0 +1,5 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_isInvertible_tilde_of_projective_rankOne
+
+namespace AlgebraicGeometry.Scheme.Modules
+alias isInvertible_tilde_of_projective_rankOne := P2MW.S_AlgebraicGeometry_Scheme_Modules_isInvertible_tilde_of_projective_rankOne.solution
+end AlgebraicGeometry.Scheme.Modules

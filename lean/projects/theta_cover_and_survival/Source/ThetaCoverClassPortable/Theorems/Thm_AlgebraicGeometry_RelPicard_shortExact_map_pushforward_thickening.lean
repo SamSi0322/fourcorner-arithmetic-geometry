@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_RelPicard_shortExact_map_pushforward_thickening
+
+alias AlgebraicGeometry.RelPicard.shortExact_map_pushforward_thickening := P2MW.S_AlgebraicGeometry_RelPicard_shortExact_map_pushforward_thickening.solution

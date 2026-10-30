@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_tensorPow
+
+alias AlgebraicGeometry.Scheme.Modules.IsInvertible.tensorPow := P2MW.S_AlgebraicGeometry_Scheme_Modules_IsInvertible_tensorPow.solution

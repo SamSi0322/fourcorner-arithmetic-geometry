@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_GeometricallyIrreducible_geometricallyConnected
+
+alias AlgebraicGeometry.GeometricallyIrreducible.geometricallyConnected := P2MW.S_AlgebraicGeometry_GeometricallyIrreducible_geometricallyConnected.solution

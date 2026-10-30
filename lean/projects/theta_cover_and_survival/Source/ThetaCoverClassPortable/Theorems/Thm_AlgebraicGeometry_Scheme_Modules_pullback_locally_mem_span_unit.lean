@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicGeometry_Scheme_Modules_pullback_locally_mem_span_unit
+
+alias AlgebraicGeometry.Scheme.Modules.pullback_locally_mem_span_unit := P2MW.S_AlgebraicGeometry_Scheme_Modules_pullback_locally_mem_span_unit.solution

@@ -1,0 +1,3 @@
+import ThetaCoverClassPortable.P2M.Sol.S_AlgebraicCurve_exists_list_isPrincipal_sub_sum_single_sub_smul_single
+
+alias AlgebraicCurve.exists_list_isPrincipal_sub_sum_single_sub_smul_single := P2MW.S_AlgebraicCurve_exists_list_isPrincipal_sub_sum_single_sub_smul_single.solution
