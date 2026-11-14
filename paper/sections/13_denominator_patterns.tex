@@ -1,0 +1,334 @@
+\section{Signed sums and denominator patterns}
+\label{sec:denominator-patterns}
+
+We refine the prime-power comparisons by retaining the signs of all
+four radii at each denominator prime.  Use the primitive normalization
+of Section~\ref{sec:introduction}:
+\[
+ (x,y)=(X/L,Y/L),\quad A_i=Lr_i,\quad
+ G=\gcd(A_0,A_1,A_2,A_3),\quad H=L/G^2,\quad a_i=A_i/G.
+\]
+After exchanging coordinates, $X$ is odd, $4\mid Y$, $24\mid L$,
+and the $A_i$ are odd.  Every prime of $G$ is $1$ modulo $4$,
+and the $a_i$ are units at primes dividing $H$
+(Proposition~\ref{int:content}).  Put
+\[
+ M_x=L-2X,\quad M_y=L-2Y,\qquad
+ e_2=v_2(L)\geq3,\quad j=v_2(M_y)\geq3.
+\]
+The midline and diagonal exclusions make $M_x,M_y,X-Y,X+Y-L$
+nonzero.  Also $v_2(M_x)=1$.
+
+Let $\mathcal P=\{\pm1\}^4/\{\pm(1,1,1,1)\}$ and write
+\[
+ \alpha=(+,+,-,-),\quad \beta=(+,-,+,-),\quad
+ \gamma=(+,-,-,+),\qquad
+ \mathcal V=\{1,\alpha,\beta,\gamma\}.
+\]
+The elements of $\mathcal V$ have an even number of negative signs.
+The other coset is represented by $o_i$, with a single negative
+sign at corner $i$.  Define, up to an overall sign,
+\[
+ \Sigma_\epsilon=\sum_i\epsilon_i A_i,
+ \qquad \sigma_\epsilon=\Sigma_\epsilon/G,
+ \qquad P=A_0A_3-A_1A_2,quad Q=A_0A_3+A_1A_2.
+\]
+For the displayed representatives, direct expansion gives
+\begin{equation}
+ \begin{gathered}
+ \Sigma_1\Sigma_\gamma=2P=-\Sigma_\alpha\Sigma_\beta,
+ \qquad
+ \Sigma_{o_0}\Sigma_{o_3}=2Q=\Sigma_{o_1}\Sigma_{o_2},\\
+ PQ=-L^2M_xM_y,\\
+ (Q^2-L^4)(L^4-P^2)
+   =4L^4(X-Y)^2(X+Y-L)^2.
+ \end{gathered}
+ \label{eq:pat-product-identities}
+\end{equation}
+
+\begin{lemma}[Real bounds]
+\label{lem:pat-real-bounds}
+For a strict rational-distance point, all eight signed sums are nonzero,
+and
+\[
+ \begin{aligned}
+ 2\sqrt2L&\leq\Sigma_1<(2+\sqrt2)L,\\
+ |\Sigma_\alpha|,|\Sigma_\beta|&<\sqrt2L,
+ &|\Sigma_\gamma|&<(2-\sqrt2)L,\\
+ 0<\Sigma_{o_i}&<(2+\sqrt2)L,
+ &|P|&<L^2,\qquad L^2<Q<\frac{\sqrt5}{2}L^2.
+ \end{aligned}
+\]
+\end{lemma}
+
+\begin{proof}
+The opposite-pair triangle inequalities give
+$r_0+r_3\geq\sqrt2$ and $r_1+r_2\geq\sqrt2$.
+Convexity of the sum of distances on the closed square gives
+$r_0+r_1+r_2+r_3<2+\sqrt2$ in its interior.
+Every adjacent-pair sum is strictly between $1$ and $1+\sqrt2$:
+the lower bound is the triangle inequality and the upper bound
+follows by convexity from its four vertex values.  In the
+coordinates of \eqref{eq:sym-forward} this gives
+$|h|,|k|<\sqrt2-1$.  With the present sign convention,
+\[
+ \Sigma_\alpha=-h\Sigma_1,\qquad
+ \Sigma_\beta=-k\Sigma_1,\qquad
+ \Sigma_\gamma=-hk\Sigma_1.
+\]
+These prove the stated even-sum bounds.  Each odd sum is positive:
+for example $r_3<r_1+1<r_1+r_0+r_2$.
+Its upper bound follows from that for the total sum.
+Since $M_xM_y\ne0$, \eqref{eq:pat-product-identities} gives
+$P\ne0$, and all the even sums are nonzero as well.
+
+Put $\zeta=(x-\tfrac12)+i(y-\tfrac12)$, and write
+$\zeta^2=A+iB$.  Then
+\[
+ \frac Q{L^2}=|\zeta^2-i/2|+|\zeta^2+i/2|\geq1.
+\]
+Equality lies on a diagonal, which is excluded.  Here is an
+elementary upper bound.  Set
+$u=(x-\tfrac12)^2$, $v=(y-\tfrac12)^2$, so
+$0\leq u,v<1/4$, $A=u-v$ and $B^2=4uv$.
+The separately convex polynomial
+\[
+ 16(u-v)^2+\frac{64}{5}uv
+\]
+has values $0,1,1,4/5$ at the four vertices of
+$[0,1/4]^2$, and is strictly less than $1$ in the stated range.
+Thus $16A^2+(16/5)B^2<1$.  With
+$R=A^2+B^2+1/4=(u+v)^2+1/4<1/2$, this is equivalent to
+\[
+ 2R+2\sqrt{R^2-B^2}<\frac54.
+\]
+The left side is $(Q/L^2)^2$, proving the upper bound.
+Finally, $PQ=-L^2M_xM_y$, $Q>L^2$ and $|M_x|,|M_y|<L$
+give $|P|<L^2$.
+\end{proof}
+
+\begin{theorem}[Patterns and exact valuations]
+\label{thm:pat-valuations}
+For every odd prime $p\mid H$, put $e_p=v_p(H)$.  There is a
+unique $\epsilon_p\in\mathcal P$ such that
+\[
+ a_i\equiv\epsilon_p(i)\epsilon_p(0)a_0\pmod {p^{e_p}}.
+\]
+For $p=2$, let $\epsilon_2(i)\epsilon_2(0)$ be the sign of
+$A_i/A_0$ modulo $4$.  The same congruence then holds modulo
+$2^{e_2}$.
+
+For odd $p\mid H$, with $\epsilon=\epsilon_p$, the valuations are
+\begin{equation}
+\begin{aligned}
+ v_p(\sigma_\epsilon)&=0,\\
+ v_p(\sigma_{\epsilon\alpha})&=e_p+v_p(M_y),\\
+ v_p(\sigma_{\epsilon\beta})&=e_p+v_p(M_x),\\
+ v_p(\sigma_{\epsilon\gamma})&=2e_p+v_p(M_xM_y),\\
+ v_p(\sigma_\eta)&=0\quad(\eta\notin\epsilon\mathcal V).
+\end{aligned}
+\label{eq:pat-odd-table}
+\end{equation}
+At $2$ the corresponding five values are, in the same order,
+\begin{equation}
+ 2,\quad e_2+j,\quad e_2+1,\quad 2e_2+j-1,\quad 1.
+ \label{eq:pat-two-table}
+\end{equation}
+
+Put $P_r=P/G^2$ and $Q_r=Q/G^2$.  If $\epsilon_p$ is even,
+then for odd $p\mid H$
+\[
+ v_p(P_r)=2e_p+v_p(M_xM_y),\qquad v_p(Q_r)=0;
+\]
+if it is odd, the two values are exchanged.  At $2$ they are
+$2e_2+j$ and $1$, respectively, with the same exchange rule.
+For $p\mid G$ with $p\nmid H$, both $P_r$ and $Q_r$ are units.
+\end{theorem}
+
+\begin{proof}
+All six squared differences $a_i^2-a_j^2$ are divisible by $H$.
+For odd $p$, their unit roots therefore differ by unique signs
+modulo $p^{e_p}$.  At $2$, choose signs so that the four resulting
+$b_i$ are congruent to $A_0$ modulo $4$.  Then $v_2(b_i+b_j)=1$.
+The horizontal squared differences have valuation $e_2+1$,
+and the vertical ones have valuation $e_2+j$; hence the four
+$b_i$ are congruent modulo $2^{e_2}$.
+
+For odd $p$, put $b_i=\epsilon_p(i)\epsilon_p(0)a_i$.
+All $b_i$ are congruent to $a_0$ modulo $p^{e_p}$.
+The sum $S'=b_0+b_1+b_2+b_3$ and
+$Q'=b_0b_3+b_1b_2$ are units.  With
+$P'=b_0b_3-b_1b_2$ and $T'=b_0-b_1-b_2+b_3$, one has
+\[
+ S'T'=2P',\qquad P'Q'=-H^2M_xM_y.
+\]
+This proves the valuation of $\sigma_{\epsilon\gamma}$.
+Moreover,
+\[
+ (b_2-b_0)+(b_3-b_1)
+ =H M_y\left(\frac1{b_2+b_0}+\frac1{b_3+b_1}\right).
+\]
+The bracket is a unit modulo an odd $p$, since it is congruent
+to $a_0^{-1}$.  This gives the $\alpha$ entry; the horizontal
+version gives the $\beta$ entry.  The other coset consists,
+up to sign, of $S'-2b_i$, which are units.
+
+At $2$, the same reciprocal bracket has valuation zero: after
+factoring out $1/2$, its two unit terms agree modulo $4$.
+Thus the $\alpha$ and $\beta$ entries are $e_2+j$ and
+$e_2+1$.  The total sum has valuation two, and the other coset
+has valuation one.  The product identities then give
+$v_2(P')=2e_2+j$ and $v_2(T')=2e_2+j-1$.
+
+The normalized $P'$ is $\pm P_r$ for an even pattern and
+$\pm Q_r$ for an odd one, giving the exchange rule.  Finally,
+if $p\mid G$ and $p\nmid H$, then $p$ is split and $X,Y$,
+$M_x,M_y$ are units at $p$.  Since
+$P_rQ_r=-H^2M_xM_y$, both factors are units.
+\end{proof}
+
+\begin{proposition}[Colour determines the nonsplit patterns]
+\label{prop:pat-colours}
+For an odd prime $p\mid L$ with $p\equiv3\pmod4$,
+\[
+ \epsilon_p(i)\epsilon_p(j)=\leg{m_im_j}{p}.
+\]
+For $p\mid L$ with $p\equiv1\pmod4$, all six symbols
+$\leg{m_im_j}{p}$ are $1$.  At $2$,
+$\epsilon_2(i)\epsilon_2(j)=1$ if and only if
+$m_i\equiv m_j\pmod4$.  Consequently, for nonsplit odd $p$
+the pattern is even exactly when $\leg np=1$, and
+$\epsilon_2$ is even exactly when $n\equiv1\pmod8$.
+\end{proposition}
+
+\begin{proof}
+Use $U_i=m_iq_i^2$ and $A_i=m_i\Nm(q_i)$ from the Gaussian
+normalization.  At an inert prime, the four $U_i$ have the same
+nonzero image in $\F_{p^2}$.  If $\mu_i^2=m_i$, then
+$\mu_iq_i=\pm\mu_0q_0$.  Frobenius sends
+$\mu_i$ to $\leg{m_i}{p}\mu_i$, so taking norms gives
+$\leg{m_i}{p}A_i=\leg{m_0}{p}A_0$ modulo $p$.
+The sign lift is unique, proving the first assertion.
+At a split prime choose the factor of $p$ at which $U_0$ is a
+unit.  Reduction in its residue field $\F_p$ gives
+$m_i/m_j=(q_j/q_i)^2$.
+At $2$, each odd Gaussian norm $\Nm(q_i)$ is $1$ modulo $4$,
+so $A_i\equiv m_i\pmod4$.
+Taking the product of the four signs proves the parity claims,
+using $n\equiv1$ or $7\pmod8$.
+\end{proof}
+
+Let $E_+$ be the product of $p^{e_p}$ over odd primes of $H$
+with even pattern, and $E_-$ the corresponding product for odd
+patterns.  Thus $H=2^{e_2}E_+E_-$.
+
+\begin{theorem}[The two product denominators]
+\label{thm:pat-product-denominators}
+Write $t=r_0r_3+r_1r_2=N_t/D_t$ and
+$z=r_0r_3-r_1r_2=N_z/D_z$ in lowest terms with positive
+denominators.  If $n\equiv1\pmod8$, then
+\[
+ D_t=(2^{e_2}GE_+)^2/2,\qquad D_z=(GE_-)^2;
+\]
+if $n\equiv7\pmod8$, then
+\[
+ D_t=(GE_+)^2,\qquad D_z=(2^{e_2}GE_-)^2/2.
+\]
+In both cases $D_tD_z=L^2/2$ and $\gcd(D_t,D_z)=G^2$.
+
+There are factorizations $n=n_3n_4=n_1n_2$ and positive odd
+integers $u,v,u',v'$ such that
+\begin{equation}
+ 2D_t=n_4v^2-n_3u^2,\qquad
+ 2D_z=n_1u'^2+n_2v'^2,
+ \label{eq:pat-norm-denominators}
+\end{equation}
+and
+\[
+ n u v u'v'=|(X-Y)(X+Y-L)|,\qquad
+ 0<\frac{n_3u^2}{n_4v^2}<9-4\sqrt5.
+\]
+These two factorizations of $n$ are not required to be the
+corner-colour factorizations.
+\end{theorem}
+
+\begin{proof}
+We have $t=Q_r/(G^2H^2)$ and $z=P_r/(G^2H^2)$.
+The valuation table cancels precisely the square factors belonging
+to the opposite pattern parity.  At a prime shared by $G$ and $H$,
+$M_xM_y$ is a unit, so the residual denominator contains exactly
+the asserted factor from $G^2$.  At a prime of $G$ outside $H$
+both numerators are units.  The dyadic entries are $1$ and
+$2e_2+j$, and Proposition~\ref{prop:pat-colours} identifies
+which is which.  This proves the denominator formulas, including
+their product and gcd.  The numerator opposite an odd denominator
+is even; the numerator opposite an even denominator is odd.
+
+The kernel identity gives $t^2-1\in n\Q^{\times2}$.
+The last identity of \eqref{eq:pat-product-identities} gives
+$1-z^2\in n\Q^{\times2}$.  Both are positive by
+Lemma~\ref{lem:pat-real-bounds}.  The positive odd integers
+$N_t-D_t,N_t+D_t$ are coprime, as are
+$D_z-N_z,D_z+N_z$.  Their products have squarefree part $n$,
+so write
+\[
+ N_t-D_t=n_3u^2,\quad N_t+D_t=n_4v^2,\qquad
+ D_z-N_z=n_1u'^2,\quad D_z+N_z=n_2v'^2.
+\]
+This proves \eqref{eq:pat-norm-denominators}.
+Multiplying the four equations and using $D_tD_z=L^2/2$
+proves the product formula for $uv u'v'$.
+Finally $(t-1)/(t+1)<(\sqrt5-2)/(\sqrt5+2)=9-4\sqrt5$.
+\end{proof}
+
+\begin{corollary}[At least three denominator patterns]
+\label{cor:pat-three-patterns}
+If $G=1$, the primes dividing $L$ realize at least three different
+patterns, and both cosets of $\mathcal V$ occur.  In particular,
+if only one corner colour is nontrivial, then $L$ has a prime
+divisor congruent to $1$ modulo $4$.
+\end{corollary}
+
+\begin{proof}
+Put $m_p=v_p(M_xM_y)$ for odd $p\mid H$.
+If all patterns are even, the table gives
+\[
+ |P_r|\geq 2^jH^2\prod_{p\mid H,\ p\ {m odd}}p^{m_p},
+ \qquad |P_r|<G^2H^2.
+\]
+If all are odd, use $Q_r$ and its upper bound
+$(\sqrt5/2)G^2H^2$ instead.  Since $2^j\geq8$, $3\mid H$
+and $m_3\geq1$, either alternative is impossible for $G=1$.
+
+Suppose there are only two patterns $\epsilon,\epsilon'$ in
+different cosets.  Apply the valuation table to
+$\sigma_{\epsilon\gamma}\sigma_{\epsilon'\gamma}$.
+Each odd prime contributes $2e_p+m_p$, and the dyadic contribution
+is $2e_2+j$.  Therefore
+\[
+ 2^jH^2\prod_{p\mid H,\ p\ {m odd}}p^{m_p}
+ \leq|\sigma_{\epsilon\gamma}\sigma_{\epsilon'\gamma}|
+ <(2+\sqrt2)^2G^2H^2.
+\]
+For $G=1$ this contradicts $24>(2+\sqrt2)^2$.
+
+For the last assertion, if $G>1$ a prime of $G$ suffices.
+If $G=1$ and no split prime divides $L$, all patterns are
+determined by the colours.  When only $m_k$ is nontrivial they
+belong to $\{1,o_k\}$, contrary to the first assertion.
+\end{proof}
+
+\begin{corollary}[A sharper dyadic comparison]
+\label{cor:pat-dyadic-bound}
+If $m_i\equiv1\pmod4$ for every corner, and
+$K=2^{v_2(L)}$, then
+\[
+ K^2<\frac{2-\sqrt2}{4}\,L.
+\]
+\end{corollary}
+
+\begin{proof}
+Here $\epsilon_2=1$.  The exact valuation of $\Sigma_\gamma$
+is $2e_2+j-1\geq2e_2+2$, so
+$4K^2\leq|\Sigma_\gamma|<(2-\sqrt2)L$.
+\end{proof}

@@ -1,0 +1,214 @@
+\section{All rational points of the one-fifth source}
+\label{sec:one-fifth-points}
+
+We now determine the rational points of the curves $C,D$ in
+\eqref{eq:theta-C} and \eqref{eq:theta-quartic}.  The proof is an
+explicit Dem'janenko--Manin comparison of two maps to one elliptic
+curve; see also \cite{stoll2011}.  One fixed elliptic group is
+certified by rational two-descent and saturation.  The height
+comparison and the resulting finite endgame are given explicitly.
+
+\begin{lemma}[The elliptic group]
+\label{lem:fifth-group}
+For
+\[
+ E:\quad y^2=x(x-81)(x-121),\qquad G=(49,336),
+\]
+one has
+\[
+ E(\Q)=\Z G\oplus E[2](\Q),\qquad
+ E[2](\Q)=\{O,(0,0),(81,0),(121,0)\}.
+\]
+\end{lemma}
+
+\begin{proof}
+A two-descent gives a two-Selmer group with invariants $(2,2,2)$;
+the torsion invariants are $(2,2)$ and $G$ has infinite order.
+Thus the rank is one.  Full saturation gives
+$H=(484/9,-8470/27)$, with $H+(121,0)=G$.
+Here is the complete two-descent and saturation certificate, in Magma syntax:
+\begin{verbatim}
+E := EllipticCurve([Rationals() | 0,-202,0,9801,0]);
+G := E![49,336,1];
+T, tmap := TorsionSubgroup(E);
+S, smap := TwoSelmerGroup(E);
+assert Invariants(T) eq [2,2];
+assert Invariants(S) eq [2,2,2];
+assert Order(G) eq 0;
+H, proved := Saturation([G] : TorsionFree := true);
+assert proved and #H eq 1;
+assert exists{t : t in [P @ tmap : P in T] |
+             H[1] eq G+t or H[1] eq -G+t};
+\end{verbatim}
+The local-condition dimensions, starting with the supported
+three-coordinate squareclass space, are $15,10,9,7,5,3,3$:
+the successive steps are the norm condition and the places
+$\infty,3,5,11,2$.  The prime-saturation bound is $7$; the
+additional small-height search bound in the full saturation routine is $1379$.
+This certificate uses the rational descent and full saturation
+algorithms, with no analytic rank or GRH input.
+\end{proof}
+
+\begin{theorem}[The complete rational point sets]
+\label{thm:fifth-complete-points}
+The quartic and its genus-five double cover have rational point sets
+\[
+ D(\Q)=\{[\epsilon:\eta:1]:\epsilon,\eta\in\{1,-1\}\},
+\]
+\[
+ C(\Q)=\{[\epsilon_1:\epsilon_2:\epsilon_3:1:0]:
+                   \epsilon_i\in\{1,-1\}\}.
+\]
+Consequently no strict rational-distance point has an opposite-pair
+distance difference equal to $1/5$ or $-1/5$.
+\end{theorem}
+
+\begin{proof}
+There is no real point of $D$ with $Z=0$, since the homogeneous
+quartic there is positive for $(X,Y)\ne(0,0)$.
+Set $\xi=X/Z$, $\eta=Y/Z$ and $c=\xi^2+\eta^2-2$.
+When $c=0$, the quartic gives $(\xi^2-\eta^2)^2=0$, so
+$(\xi,\eta)=(\pm1,\pm1)$.
+Suppose henceforth that $c\ne0$, and put
+\[
+ z=\frac{\xi^2-\eta^2}{14c},\qquad
+ w_+=\frac{2\xi}{c},\qquad w_-=\frac{2\eta}{c}.
+\]
+Substitution gives
+\begin{equation}
+ w_+^2=(z^2+50)(z^2+14z+51),\qquad
+ w_-^2=(z^2+50)(z^2-14z+51).
+ \label{eq:fifth-two-maps}
+\end{equation}
+The first quartic is birational to $E$ through
+\[
+ A=w+z^2+7z+26,\qquad
+ x=2A+49,\qquad y=(4z+14)A+336.
+\]
+Its inverse coordinate is
+\begin{equation}
+ \pi(P)=\frac{y(P)-7x(P)+7}{2(x(P)-49)}.
+ \label{eq:fifth-pi}
+\end{equation}
+This function has simple poles at $O,-G$ and
+$\pi(G)=-937/168$ at its removable singularity.
+The involution over the $z$-line is $P\mapsto-G-P$.
+Thus \eqref{eq:fifth-two-maps} produces rational points $P_+,P_-$
+with $\pi(P_+)=z$ and $\pi(P_-)=-z$.
+
+The map $P\mapsto3P+G$ commutes with this involution, and hence
+descends to a degree-nine map $R$ on the $z$-line.  Write
+$R=\mathcal A/\mathcal B$ with coefficients listed in
+Table~\ref{tab:fifth-map}.  Substitution in the elliptic addition
+law verifies
+\begin{equation}
+ R(\pi(P))=\pi(3P+G).
+ \label{eq:fifth-triplication}
+\end{equation}
+Let $h_2([a:b])=\log_2\max(|a|,|b|)$ for coprime integers
+$a,b$.  The B\'ezout coefficients displayed below give
+\[
+ U_0\mathcal A+V_0\mathcal B=D_0,
+ \qquad U_\infty\mathcal A^\vee+V_\infty\mathcal B^\vee=D_0,
+ \qquad D_0=55399054482258080041175062500,
+\]
+where $F^\vee(z)=z^9F(1/z)$ and all four B\'ezout polynomials
+have degree at most eight.  Their paired coefficient norms, and
+the norms of $\mathcal A,\mathcal B$, are less than $2^{124}$.
+The two polynomials have no common root.
+
+After homogenization, these identities give $D_0b^{17}$ and
+$D_0a^{17}$.  The gcd of
+$\mathcal A_h(a,b),\mathcal B_h(a,b)$ therefore divides $D_0$.
+Use the identity corresponding to the larger of $|a|,|b|$ to
+obtain the lower bound; the coefficient norms give the upper bound.
+It follows that
+\begin{equation}
+ |h_2(R(t))-9h_2(t)|\leq124\qquad(t\in\PP^1(\Q)).
+ \label{eq:fifth-height-error}
+\end{equation}
+The telescoping limit
+$\widehat h_R(t)=\lim_{j\to\infty}9^{-j}h_2(R^j(t))$
+therefore exists and differs from $h_2(t)$ by at most $124/8$.
+The first four iterates of $\infty$ have maximum-coordinate
+bit lengths $10,95,860,7754$.  Consequently
+\begin{equation}
+ h_0:=\widehat h_R(\infty)
+ \geq\frac{7753-124/8}{9^4}
+ =\frac{15475}{13122}>0.
+ \label{eq:fifth-positive-height}
+\end{equation}
+
+Choose $A_0$ over a finite extension with $2A_0=G$.
+The pole divisor $O+(-G)$ of $\pi$ is linearly equivalent to
+$2(-A_0)$.  The standard comparison with the canonical elliptic
+height, together with
+$(3P+G)+A_0=3(P+A_0)$, gives
+\[
+ \widehat h_R(\pi(P))=2\widehat h_E(P+A_0).
+\]
+Here the heights use logarithms to base two; the bounded error in
+the divisor-height comparison disappears in the limit.
+Lemma~\ref{lem:fifth-group} now yields
+\begin{equation}
+ \widehat h_R(\pi(mG+T))=(2m+1)^2h_0
+ \quad(m\in\Z,\ T\in E[2](\Q)).
+ \label{eq:fifth-height-multiple}
+\end{equation}
+Write $P_+=mG+T$ and $P_-=nG+T'$.
+Since $h_2(z)=h_2(-z)$, the height error gives
+\[
+ 4|(m-n)(m+n+1)|h_0\leq31,
+ \qquad |(m-n)(m+n+1)|<7.
+\]
+
+If the product is zero, the involution $P\mapsto-G-P$
+reduces to $n=m$, and a two-torsion translation must send $z$
+to $-z$.  The complete translation table is
+\[
+\begin{array}{c|c|c}
+T''&\pi(P+T'')&\text{equation for finite }z\\\hline
+O&z&z=0\\
+(0,0)&(-z+700)/(14z+1)&z^2=-50\\
+(81,0)&(-35z-205)/(4z+35)&z^2=205/4\\
+(121,0)&(-35z-305)/(6z+35)&z^2=305/6.
+\end{array}
+\]
+The last two equations fail at $5$, the second fails over $\R$,
+and $z=0$ would give $w_+^2=2550$, which fails at $2$.
+
+If the product is nonzero, write $a=m-n$, $b=m+n+1$.
+Then $|a|+|b|\leq|ab|+1\leq7$, whence $-4\leq m\leq3$.
+The involution replaces $m$ by $-m-1$ without changing $z$,
+so it remains to inspect $P_+=mG+T$ with $0\leq m\leq3$.
+For $z=A/B$ in lowest terms the second equation of
+\eqref{eq:fifth-two-maps} requires
+\[
+ \mathcal N=(A^2+50B^2)(A^2-14AB+51B^2)
+\]
+to be an integer square.  The following table, obtained by the
+rational addition law on $E$, gives $(p,v_p(\mathcal N),u)$,
+where $u$ is the nonzero unit residue modulo $p$.
+Every displayed $u$ is a quadratic nonresidue and every valuation
+is even.  The missing entry is $z=\infty$.
+\[
+\begin{array}{c|cccc}
+ m&T=O&T=(0,0)&T=(81,0)&T=(121,0)\\\hline
+ 0&\infty&(3,4,2)&(3,4,2)&(11,2,7)\\
+ 1&(5,0,3)&(3,4,2)&(3,4,2)&(11,2,2)\\
+ 2&(5,0,3)&(3,4,2)&(3,4,2)&(11,2,8)\\
+ 3&(11,0,2)&(3,4,2)&(3,4,2)&(11,2,8).
+\end{array}
+\]
+This excludes every finite $z$, proving the assertion about $D$.
+
+The quotient $C\to D$ is $[P:Q:R:z:T]\mapsto[Q:R:P]$.
+Above the four points just found, $Q^2=R^2=P^2$.
+The equations of $C$ give $28zT=0$ and $14zT+T^2=0$,
+so $T=0$.  The eight stated boundary points are exactly these
+fibres.  The strict return \eqref{eq:theta-return} uses $T=1$,
+which is impossible.  The square symmetries give both opposite
+pairs and both signs of the difference.
+\end{proof}
+
+\input{sections/14_height_coefficients}

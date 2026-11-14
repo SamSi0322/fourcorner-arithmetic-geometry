@@ -1,0 +1,16 @@
+H^1: 15
+Norm: 10
+At oo: 9
+At 3: 7
+At 5: 5
+At 11: 3
+At 2: 3
+Saturation bound = 7
+Saturation : Precomputing auxiliary primes q up to 93: Time: 0.000
+Time: 0.050
+Search bound = 1379
+Search : Time: 0.020
+TORSION_INVARIANTS [ 2, 2 ]
+TWO_SELMER_INVARIANTS [ 2, 2, 2 ]
+SATURATION_PROVED true SATURATED_BASIS [ (484/9 : -8470/27 : 1) ]
+PASS_ALGEBRAIC_DESCENT_AND_FULL_SATURATION_WITHOUT_ANALYTIC_RANK_CALL

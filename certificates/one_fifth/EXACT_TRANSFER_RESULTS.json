@@ -1,0 +1,187 @@
+{
+  "status": "PASS_EXACT_IDENTITIES_AND_BOUNDED_FINITE_FIELD_CHECKS",
+  "two_angle_polynomials": {
+    "F": "2*u**4*v**2 + 2*u**3*v**3 + 4*u**3*v**2 - 2*u**3*v + u**2*v**4 + 4*u**2*v**3 - 2*u**2*v**2 - 4*u**2*v + u**2 - 2*u*v**3 - 4*u*v**2 + 2*u*v + 2*v**2",
+    "G": "u**4*v**2 + 2*u**3*v**3 + 4*u**3*v**2 - 2*u**3*v + 2*u**2*v**4 + 4*u**2*v**3 - 2*u**2*v**2 - 4*u**2*v + 2*u**2 - 2*u*v**3 - 4*u*v**2 + 2*u*v + v**2",
+    "disc_F": "64*u**4*(u - 1)**4*(u + 1)**4*(u**2 + 1)**2*(u**2 + 2*u - 1)**2",
+    "disc_G": "16*u**4*(u**2 + 1)**2*(u**2 + 2*u - 1)**4*(u**4 + 8*u**3 + 18*u**2 - 8*u + 1)",
+    "resultant": "u**8*(u**2 + 1)**4*(5*u**4 + 8*u**3 - 6*u**2 - 8*u + 5)**2"
+  },
+  "cayley_trace_identity": "identically zero for three two-dimensional vectors after clearing norms",
+  "quartic_quotient_maps": "PQ, PR, QR and maps to original E4 and E1 identities verified",
+  "good_prime": 13,
+  "quartic_reduction_points": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      5,
+      1
+    ],
+    [
+      1,
+      8,
+      1
+    ],
+    [
+      1,
+      12,
+      1
+    ],
+    [
+      3,
+      6,
+      1
+    ],
+    [
+      3,
+      7,
+      1
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      12,
+      1
+    ],
+    [
+      6,
+      3,
+      1
+    ],
+    [
+      6,
+      10,
+      1
+    ],
+    [
+      7,
+      3,
+      1
+    ],
+    [
+      7,
+      10,
+      1
+    ],
+    [
+      8,
+      1,
+      1
+    ],
+    [
+      8,
+      12,
+      1
+    ],
+    [
+      10,
+      6,
+      1
+    ],
+    [
+      10,
+      7,
+      1
+    ],
+    [
+      12,
+      1,
+      1
+    ],
+    [
+      12,
+      5,
+      1
+    ],
+    [
+      12,
+      8,
+      1
+    ],
+    [
+      12,
+      12,
+      1
+    ]
+  ],
+  "quartic_reduction_point_count": 20,
+  "principal_minors": [
+    19602,
+    19602,
+    156800,
+    79968,
+    6272,
+    6272,
+    -1229312
+  ],
+  "model_bad_prime_candidates": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    17
+  ],
+  "three_trace_zero_correspondence_matrices": [
+    [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        -2,
+        0
+      ],
+      [
+        0,
+        0,
+        -2
+      ]
+    ],
+    [
+      [
+        -2,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        -2
+      ]
+    ],
+    [
+      [
+        1,
+        -3,
+        0
+      ],
+      [
+        -3,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -2
+      ]
+    ]
+  ],
+  "scope": "All-parameter polynomial identities and the complete projective reduction over F_13. No rational-point completeness computation or global four-corner exclusion."
+}

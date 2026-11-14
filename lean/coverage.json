@@ -1,8 +1,8 @@
 {
-  "release": "development-after-1.0.0",
-  "numbered_statements": 69,
+  "release": "1.1.0",
+  "numbered_statements": 83,
   "fully_formalized_numbered_statements": 59,
-  "not_fully_formalized_numbered_statements": 10,
+  "not_fully_formalized_numbered_statements": 24,
   "description": "Coverage is for complete numbered statements. Verified helper statements do not count as additional paper theorems. The paper is a mathematical preprint; this accompanying Lean development is partial.",
   "statements": [
     {
@@ -1583,11 +1583,198 @@
       "declarations": [],
       "source": null,
       "axioms": []
+    },
+    {
+      "label": "thm:sym-return",
+      "kind": "theorem",
+      "section": "sections/11_symmetric_models.tex",
+      "statement_tex": "\\label{thm:sym-return}\nLet $h,k,W\\in\\Q$ satisfy $W^2=\\Phi(h)\\Phi(k)$ and set\n\\[\n A=(1+h^2)(1+k^2),\\qquad T=A+W.\n\\]\nIf $T\\ne0$, the point\n\\begin{equation}\n x=\\frac12-\\frac{2k(1-h^2)}T,\n \\qquad\n y=\\frac12-\\frac{2h(1-k^2)}T\n \\label{eq:sym-return}\n\\end{equation}\nsatisfies the four distance identities $q_j=N_j^2/T$ in the corner\norder $00,10,01,11$.\n\nConversely, let $(x,y)$ be a real point different from the corners,\nlet $r_j>0$ be its four distances, and put $S=r_0+r_1+r_2+r_3$.\nThen\n\\begin{equation}\n h=\\frac{r_2+r_3-r_0-r_1}{S},\\qquad\n k=\\frac{r_1+r_3-r_0-r_2}{S},\\qquad\n T=\\frac{16}{S^2},\\qquad W=T-(1+h^2)(1+k^2)\n \\label{eq:sym-forward}\n\\end{equation}\nsatisfy $W^2=\\Phi(h)\\Phi(k)$, $N_j=4r_j/S$, and\n\\eqref{eq:sym-return} returns the same point.  If\n$r_j\\in\\sqrt d\\,\\Q_{>0}$ for one positive squarefree $d$, all four\nparameters are rational and $[T]=[d]$.\n\nIn particular, the strict rational-distance problem is equivalent to\nthe existence of rational $h,k,W$ for which\n\\begin{equation}\n \\begin{gathered}\n W^2=\\Phi(h)\\Phi(k),\\qquad\n T=(1+h^2)(1+k^2)+W\\in\\Q^{\\times2},\\\\\n 4|k(1-h^2)|<T,\\qquad 4|h(1-k^2)|<T.\n \\end{gathered}\n \\label{eq:sym-complete-system}\n\\end{equation}",
+      "statement_sha256": "5bb1fe96b75f7e14479d46b09f9f799e3741f4bf9f1e708308146fca22d2c9da",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "prop:sym-normalization",
+      "kind": "proposition",
+      "section": "sections/11_symmetric_models.tex",
+      "statement_tex": "\\label{prop:sym-normalization}\nFor $n>1$, every rational point of $D_n$ has $a+e\\ne0$.\nThe functions\n\\[\n h=\\frac{c}{a+e},\\qquad \\beta=\\frac{2b}{a+e}\n\\]\nidentify its rational points with $n\\beta^2=\\Phi(h)$.\nFor two such points the returned squareclass is the class of\n\\begin{equation}\n T(p,q)=\\frac{4(aa'+nbb')}{(a+e)(a'+e')}.\n \\label{eq:sym-projective-T}\n\\end{equation}\nThis expression is invariant under independent rescaling of both\nprojective representatives.\n\nThe curve has no rational point if $n$ is even.  If $n$ is odd and\n$(a,b,c,e)$ is a primitive integral representative with $a>0$, then\n\\[\n a+e=\n \\begin{cases}\n 2s^2,&n\\equiv1\\pmod4,\\\\\n s^2,&n\\equiv3\\pmod4\n \\end{cases}\n \\qquad(s\\in\\Z\\setminus\\{0\\}).\n\\]\nConsequently, for two primitive integral representatives with\n$a,a'>0$, the class in \\eqref{eq:sym-projective-T} equals\n$[aa'+nbb']$.",
+      "statement_sha256": "fb548afee515d549b7c2f32cf7701bad48f9344ed3d3c324b130ee15b8571f2a",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "thm:sym-quartic-pencil",
+      "kind": "theorem",
+      "section": "sections/11_symmetric_models.tex",
+      "statement_tex": "\\label{thm:sym-quartic-pencil}\nFor $\\lambda\\in\\Q\\setminus\\{0,1,-1\\}$, the projective\ncompletion of \\eqref{eq:sym-plane-quartic} is a smooth plane\nquartic.  Put $c_\\lambda=-\\Phi(\\lambda)$ and\n\\[\n E_{c_\\lambda}:\\quad y^2=x^3-c_\\lambda^2x,\n \\qquad\n F_\\lambda:\\quad v^2=c_\\lambda(s^2-4)(s^2-4\\lambda^2),\n\\]\nwhere $(s,v)=(2,0)$ is chosen as origin on $F_\\lambda$.\nThen there is a $\\Q$-isogeny\n\\[\n \\Jac(\\Gamma_\\lambda)\\sim_\\Q\n E_{c_\\lambda}\\times F_\\lambda^2.\n\\]\nThe other ruling gives a second pencil with the same description.\nIf the four distances lie in $\\sqrt d\\,\\Q$, the two\n$F_\\lambda$ factors are replaced by their quadratic twists by $d$.",
+      "statement_sha256": "f437e3947f921df5a6ebd1a3fa7bb13067a8b2c5256360aa1a5fdbfbab221845",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "lem:indp-level",
+      "kind": "lemma",
+      "section": "sections/12_independent_sources.tex",
+      "statement_tex": "\\label{lem:indp-level}\nEach point of $E_n(\\Q_2)\\setminus E_n[2]$ has a unique level\n$\\ell\\geq1$ and lies in one of the following four regions:\n\\[\n\\begin{array}{c|c|c}\n\\text{region}&\\text{condition}&v(u-1)\\\\\\hline\nR_\\infty&v(u)=-2\\ell&-2\\ell\\\\\nR_0&v(u)=2\\ell&0\\\\\nR_+&v(u-1)=2\\ell+1&2\\ell+1\\\\\nR_-&v(u+1)=2\\ell+1&1.\n\\end{array}\n\\]\nTranslation by $E_n[2]$ preserves the level.  Every point is uniquely\nthe sum of a point of $E_n[2]$ and a point of the formal subgroup\n$E_1=\\{O\\}\\cup\\{v(X)<0\\}$.  This subgroup is torsion-free, and\n\\[\n \\ell(mZ)=\\ell(Z)+v(m)\n \\quad(Z\\in E_1\\setminus\\{O\\},\\ m\\in\\Z\\setminus\\{0\\}).\n\\]\n\nIf $u,u'$ belong to points of different levels and\n$(u-1)(u'-1)$ is a square in $\\Q_2$, then\n\\[\n v\\bigl(2(u-1)(u+u')\\bigr)\\quad\\hbox{is odd}.\n\\]",
+      "statement_sha256": "761e0b5da877e68bef0448a6f881106029240c18cbbb5203a13e55e7e652373b",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "thm:indp-criterion",
+      "kind": "theorem",
+      "section": "sections/12_independent_sources.tex",
+      "statement_tex": "\\label{thm:indp-criterion}\nLet $P,P'\\in E_n(\\Q)\\setminus E_n[2]$, and put\n$u=X(P)/n$, $u'=X(P')/n$.  Suppose\n\\[\n \\delta(P')=\\delta(P)(n,1,n),\\qquad u+u'\\ne0,\n \\qquad v\\bigl(2(u-1)(u+u')\\bigr)\\equiv0\\pmod2.\n\\]\nThen $P$ and $P'$ are linearly independent modulo torsion.",
+      "statement_sha256": "8d7c588c950201640f11a751d4db0f8670a5abec3fd4736a684e79a74d73f595",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "cor:indp-original",
+      "kind": "corollary",
+      "section": "sections/12_independent_sources.tex",
+      "statement_tex": "\\label{cor:indp-original}\nEvery strict rational-distance point with canonical kernel\n$n=m_0m_1m_2m_3$ gives two explicit independent points of\n$E_n(\\Q)$.  In particular $\\rank E_n(\\Q)\\geq2$.",
+      "statement_sha256": "5581b15b139e90d73e606d7e8516a11453a1601a41fb2f95d14b10a67e3de0d1",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "lem:pat-real-bounds",
+      "kind": "lemma",
+      "section": "sections/13_denominator_patterns.tex",
+      "statement_tex": "\\label{lem:pat-real-bounds}\nFor a strict rational-distance point, all eight signed sums are nonzero,\nand\n\\[\n \\begin{aligned}\n 2\\sqrt2L&\\leq\\Sigma_1<(2+\\sqrt2)L,\\\\\n |\\Sigma_\\alpha|,|\\Sigma_\\beta|&<\\sqrt2L,\n &|\\Sigma_\\gamma|&<(2-\\sqrt2)L,\\\\\n 0<\\Sigma_{o_i}&<(2+\\sqrt2)L,\n &|P|&<L^2,\\qquad L^2<Q<\\frac{\\sqrt5}{2}L^2.\n \\end{aligned}\n\\]",
+      "statement_sha256": "51f21e16adf2cf902d4424cdf0b10d83247262a02d98f064784ba1f539d9dd23",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "thm:pat-valuations",
+      "kind": "theorem",
+      "section": "sections/13_denominator_patterns.tex",
+      "statement_tex": "\\label{thm:pat-valuations}\nFor every odd prime $p\\mid H$, put $e_p=v_p(H)$.  There is a\nunique $\\epsilon_p\\in\\mathcal P$ such that\n\\[\n a_i\\equiv\\epsilon_p(i)\\epsilon_p(0)a_0\\pmod {p^{e_p}}.\n\\]\nFor $p=2$, let $\\epsilon_2(i)\\epsilon_2(0)$ be the sign of\n$A_i/A_0$ modulo $4$.  The same congruence then holds modulo\n$2^{e_2}$.\n\nFor odd $p\\mid H$, with $\\epsilon=\\epsilon_p$, the valuations are\n\\begin{equation}\n\\begin{aligned}\n v_p(\\sigma_\\epsilon)&=0,\\\\\n v_p(\\sigma_{\\epsilon\\alpha})&=e_p+v_p(M_y),\\\\\n v_p(\\sigma_{\\epsilon\\beta})&=e_p+v_p(M_x),\\\\\n v_p(\\sigma_{\\epsilon\\gamma})&=2e_p+v_p(M_xM_y),\\\\\n v_p(\\sigma_\\eta)&=0\\quad(\\eta\\notin\\epsilon\\mathcal V).\n\\end{aligned}\n\\label{eq:pat-odd-table}\n\\end{equation}\nAt $2$ the corresponding five values are, in the same order,\n\\begin{equation}\n 2,\\quad e_2+j,\\quad e_2+1,\\quad 2e_2+j-1,\\quad 1.\n \\label{eq:pat-two-table}\n\\end{equation}\n\nPut $P_r=P/G^2$ and $Q_r=Q/G^2$.  If $\\epsilon_p$ is even,\nthen for odd $p\\mid H$\n\\[\n v_p(P_r)=2e_p+v_p(M_xM_y),\\qquad v_p(Q_r)=0;\n\\]\nif it is odd, the two values are exchanged.  At $2$ they are\n$2e_2+j$ and $1$, respectively, with the same exchange rule.\nFor $p\\mid G$ with $p\\nmid H$, both $P_r$ and $Q_r$ are units.",
+      "statement_sha256": "3377173010f44b65ba4d342ea03fab115e547c71377770d9eb242291ba44a3c6",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "prop:pat-colours",
+      "kind": "proposition",
+      "section": "sections/13_denominator_patterns.tex",
+      "statement_tex": "\\label{prop:pat-colours}\nFor an odd prime $p\\mid L$ with $p\\equiv3\\pmod4$,\n\\[\n \\epsilon_p(i)\\epsilon_p(j)=\\leg{m_im_j}{p}.\n\\]\nFor $p\\mid L$ with $p\\equiv1\\pmod4$, all six symbols\n$\\leg{m_im_j}{p}$ are $1$.  At $2$,\n$\\epsilon_2(i)\\epsilon_2(j)=1$ if and only if\n$m_i\\equiv m_j\\pmod4$.  Consequently, for nonsplit odd $p$\nthe pattern is even exactly when $\\leg np=1$, and\n$\\epsilon_2$ is even exactly when $n\\equiv1\\pmod8$.",
+      "statement_sha256": "395acafee30f88763e09b032f16f62c3eabc8184feeb2c3f58d2a877ca543ea1",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "thm:pat-product-denominators",
+      "kind": "theorem",
+      "section": "sections/13_denominator_patterns.tex",
+      "statement_tex": "\\label{thm:pat-product-denominators}\nWrite $t=r_0r_3+r_1r_2=N_t/D_t$ and\n$z=r_0r_3-r_1r_2=N_z/D_z$ in lowest terms with positive\ndenominators.  If $n\\equiv1\\pmod8$, then\n\\[\n D_t=(2^{e_2}GE_+)^2/2,\\qquad D_z=(GE_-)^2;\n\\]\nif $n\\equiv7\\pmod8$, then\n\\[\n D_t=(GE_+)^2,\\qquad D_z=(2^{e_2}GE_-)^2/2.\n\\]\nIn both cases $D_tD_z=L^2/2$ and $\\gcd(D_t,D_z)=G^2$.\n\nThere are factorizations $n=n_3n_4=n_1n_2$ and positive odd\nintegers $u,v,u',v'$ such that\n\\begin{equation}\n 2D_t=n_4v^2-n_3u^2,\\qquad\n 2D_z=n_1u'^2+n_2v'^2,\n \\label{eq:pat-norm-denominators}\n\\end{equation}\nand\n\\[\n n u v u'v'=|(X-Y)(X+Y-L)|,\\qquad\n 0<\\frac{n_3u^2}{n_4v^2}<9-4\\sqrt5.\n\\]\nThese two factorizations of $n$ are not required to be the\ncorner-colour factorizations.",
+      "statement_sha256": "ef5fff6d69072f684a5394849967a4a877c0465359f1d4eac741e4609d18488b",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "cor:pat-three-patterns",
+      "kind": "corollary",
+      "section": "sections/13_denominator_patterns.tex",
+      "statement_tex": "\\label{cor:pat-three-patterns}\nIf $G=1$, the primes dividing $L$ realize at least three different\npatterns, and both cosets of $\\mathcal V$ occur.  In particular,\nif only one corner colour is nontrivial, then $L$ has a prime\ndivisor congruent to $1$ modulo $4$.",
+      "statement_sha256": "66ac606e7e6a9e0eaae0ed8efbc7e5221954a18035071b0bf2529920c0d3f778",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "cor:pat-dyadic-bound",
+      "kind": "corollary",
+      "section": "sections/13_denominator_patterns.tex",
+      "statement_tex": "\\label{cor:pat-dyadic-bound}\nIf $m_i\\equiv1\\pmod4$ for every corner, and\n$K=2^{v_2(L)}$, then\n\\[\n K^2<\\frac{2-\\sqrt2}{4}\\,L.\n\\]",
+      "statement_sha256": "0e2ce5afccdf6486560dac61c4e6ff9fb483409ca45d98a7af767982ab709a5e",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "lem:fifth-group",
+      "kind": "lemma",
+      "section": "sections/14_one_fifth_points.tex",
+      "statement_tex": "\\label{lem:fifth-group}\nFor\n\\[\n E:\\quad y^2=x(x-81)(x-121),\\qquad G=(49,336),\n\\]\none has\n\\[\n E(\\Q)=\\Z G\\oplus E[2](\\Q),\\qquad\n E[2](\\Q)=\\{O,(0,0),(81,0),(121,0)\\}.\n\\]",
+      "statement_sha256": "9924390eddc3182df94fc220a6b92da47735ddb4054fa77f41e45eae80ca7841",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
+    },
+    {
+      "label": "thm:fifth-complete-points",
+      "kind": "theorem",
+      "section": "sections/14_one_fifth_points.tex",
+      "statement_tex": "\\label{thm:fifth-complete-points}\nThe quartic and its genus-five double cover have rational point sets\n\\[\n D(\\Q)=\\{[\\epsilon:\\eta:1]:\\epsilon,\\eta\\in\\{1,-1\\}\\},\n\\]\n\\[\n C(\\Q)=\\{[\\epsilon_1:\\epsilon_2:\\epsilon_3:1:0]:\n                   \\epsilon_i\\in\\{1,-1\\}\\}.\n\\]\nConsequently no strict rational-distance point has an opposite-pair\ndistance difference equal to $1/5$ or $-1/5$.",
+      "statement_sha256": "9eb9253ff588cf3591678f6fc9710aa403fc2aa381126c48fe4f092d3adad20e",
+      "title": null,
+      "lean_status": "not_fully_formalized",
+      "declarations": [],
+      "source": null,
+      "axioms": [],
+      "added_in_version": "1.1.0"
     }
   ],
   "published_snapshot": {
     "version": "1.0.0",
     "verified_numbered_statements": 34,
     "doi": "10.5281/zenodo.23638745"
-  }
+  },
+  "original_statement_coverage": {
+    "numbered_statements": 69,
+    "fully_formalized": 59
+  },
+  "new_statements_in_this_version": 14
 }

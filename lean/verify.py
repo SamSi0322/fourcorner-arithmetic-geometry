@@ -2,6 +2,7 @@
 """Build this release and cold-check its declared theorem endpoints."""
 from pathlib import Path
 import datetime, hashlib, json, os, re, shutil, subprocess, sys, time
+from audit_parser import parse_axioms
 root=Path(__file__).resolve().parent
 projects=json.loads((root/'projects.json').read_text())
 coverage=json.loads((root/'coverage.json').read_text())
@@ -70,12 +71,10 @@ for index,project in enumerate(projects):
   print(project['directory'],name,'exit',result.returncode,flush=True)
   if result.returncode:raise SystemExit(result.returncode)
   if name.startswith('audit'):
-   for theorem in re.findall(r"'([^']+)' does not depend on any axioms",text):
-    audited[theorem]=[]
-   for theorem,axes in re.findall(r"'([^']+)' depends on axioms:\s*\[([^]]*)\]",text):
-    axioms={re.sub(r'\.\{[^}]*\}','',a.strip()) for a in axes.split(',') if a.strip()}
-    if not axioms<=permitted:raise SystemExit('Unexpected axiom closure: '+theorem+' '+repr(axioms))
-    audited[theorem]=sorted(axioms)
+   for theorem, axioms in parse_axioms(text).items():
+    if theorem in audited and audited[theorem] != axioms:
+     raise SystemExit('Inconsistent axiom closure across audits: '+theorem)
+    audited[theorem]=axioms
 missing=[]
 for e in coverage['statements']:
  if e['lean_status']=='verified':

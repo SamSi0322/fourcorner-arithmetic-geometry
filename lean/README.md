@@ -1,9 +1,9 @@
-# Lean companion — postpublication development
+# Lean companion — version 1.1.0
 
 Author of the manuscript: Yuan Si.
 
-This snapshot contains complete formal proofs of 59 of the paper's 69 numbered
-statements, together with supporting lemmas. `coverage.csv` and `coverage.json`
+This snapshot contains complete formal proofs of 59 of the paper's 83 numbered
+statements (59 of the original 69), together with supporting lemmas. `coverage.csv` and `coverage.json`
 identify every complete statement and its exact Lean declarations. Formalization
 of the remaining statements is continuing. The published v1.0.0 snapshot remains
 at 34 of 69 statements.
@@ -154,3 +154,7 @@ Abel--Jacobi maps and the quotient map retain the marked component at every
 positive multiplication level, all finite-place points and a strict off-diagonal
 real endpoint. The shared source-only project includes its complete dependency
 cone and exact compatibility and verification records.
+
+The 14 numbered statements added in version 1.1.0 have written proofs in the
+manuscript and no full Lean formalization in this snapshot. The original
+10 pending statements also remain outside the verified coverage.

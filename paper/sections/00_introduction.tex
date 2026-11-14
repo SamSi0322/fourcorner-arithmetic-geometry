@@ -100,7 +100,7 @@ evaluations give an explicit parity criterion through Hilbert reciprocity
 an infinite family of complete genus-five failures of the Hasse principle
 (Theorem~\ref{thm:hp-infinite}).
 
-The final section treats the fixed opposite-distance difference $1/5$
+The theta section treats the fixed opposite-distance difference $1/5$
 in detail. Its genus-five source has an unramified genus-three quotient
 which is a smooth plane quartic. We determine all twenty-eight
 bitangents, their contact divisors and Galois action, obtaining the
@@ -117,11 +117,37 @@ every finite Abel--Jacobi multiplication cover through a rational boundary
 point. Its application preserves the original double cover and a strict
 real point (Corollary~\ref{cor:theta-surviving-covers}).
 
+The symmetric coordinates of Section~\ref{sec:symmetric-models} give a
+normalized return in two rational parameters and two pencils of smooth
+plane quartics. Their Jacobians split, up to isogeny, into three elliptic
+factors. The multiplicity-two factor changes with the common distance
+squareclass. A dyadic comparison of the ordered elliptic sources then
+shows that every strict rational-distance point forces two independent
+points on its congruent-number curve
+(Corollary~\ref{cor:indp-original}).
+
+Section~\ref{sec:denominator-patterns} records the signs of the four
+radii at every prime dividing $L/G^2$. The valuations of all eight signed
+sums determine square or half-square denominators for
+$r_0r_3+r_1r_2$ and $r_0r_3-r_1r_2$. Combining these valuations with real
+size bounds shows that, when $G=1$, at least three sign patterns occur.
+It also gives a sharper dyadic bound and a split-prime requirement when
+only one corner colour is nontrivial.
+
+Finally, Section~\ref{sec:one-fifth-points} completes the rational-point
+calculation for the one-fifth source. Two maps to the same elliptic curve,
+an explicit canonical-height comparison and a finite table of nonsquare
+tests give exactly four rational points on its plane-quartic quotient
+and eight boundary points on the genus-five curve. Thus the entire
+opposite-distance difference $\pm1/5$ is excluded at every rational height.
+
 For the models encoding the original four-distance configurations, we give
 explicit reconstruction formulas and the inequalities defining the strict
 real chamber. Finite residue calculations
 are given as explicit identities, congruences or complete small tables.
-We use the classical torsion theorem of Mazur, the finiteness theorem of
+The elliptic group needed in the one-fifth calculation is supplied by an
+explicit rational two-descent and full-saturation certificate. We use the
+classical torsion theorem of Mazur, the finiteness theorem of
 Faltings, and standard facts about elliptic curves, covers and Brauer groups
 in the statements where they enter. The appendix describes the compact
 four-radius surface and the Brauer evaluations associated with its real
@@ -129,5 +155,9 @@ components.
 
 \paragraph{Companion material.}
 The paper sources and a partial Lean formalization are archived at
-\url{https://doi.org/10.5281/zenodo.23638745}.
-The archive identifies the verified statements and the pinned build environment.
+\url{https://doi.org/10.5281/zenodo.23638744}.
+The archive identifies the verified statements, pinned build environment,
+and exact arithmetic certificates. The Lean companion verifies 59 of the
+original 69 numbered statements. The additional statements of this
+version have written proofs; their formalization status is listed
+separately in the accompanying coverage table.

@@ -1,0 +1,289 @@
+\section{Symmetric return maps and quartic pencils}
+\label{sec:symmetric-models}
+
+The four distances admit coordinates in which their common squareclass
+and the final rational square are separate equations.  We first give the
+return map, including its normalization, and then use the two rulings of
+the radius quadric to obtain pencils of plane quartics.
+
+Put
+\[
+ \Phi(u)=u^4-6u^2+1,
+ \qquad
+ \begin{aligned}
+ N_0&=1-h-k-hk,&N_1&=1-h+k+hk,\\
+ N_2&=1+h-k+hk,&N_3&=1+h+k-hk.
+ \end{aligned}
+\]
+
+\begin{theorem}[Symmetric return]
+\label{thm:sym-return}
+Let $h,k,W\in\Q$ satisfy $W^2=\Phi(h)\Phi(k)$ and set
+\[
+ A=(1+h^2)(1+k^2),\qquad T=A+W.
+\]
+If $T\ne0$, the point
+\begin{equation}
+ x=\frac12-\frac{2k(1-h^2)}T,
+ \qquad
+ y=\frac12-\frac{2h(1-k^2)}T
+ \label{eq:sym-return}
+\end{equation}
+satisfies the four distance identities $q_j=N_j^2/T$ in the corner
+order $00,10,01,11$.
+
+Conversely, let $(x,y)$ be a real point different from the corners,
+let $r_j>0$ be its four distances, and put $S=r_0+r_1+r_2+r_3$.
+Then
+\begin{equation}
+ h=\frac{r_2+r_3-r_0-r_1}{S},\qquad
+ k=\frac{r_1+r_3-r_0-r_2}{S},\qquad
+ T=\frac{16}{S^2},\qquad W=T-(1+h^2)(1+k^2)
+ \label{eq:sym-forward}
+\end{equation}
+satisfy $W^2=\Phi(h)\Phi(k)$, $N_j=4r_j/S$, and
+\eqref{eq:sym-return} returns the same point.  If
+$r_j\in\sqrt d\,\Q_{>0}$ for one positive squarefree $d$, all four
+parameters are rational and $[T]=[d]$.
+
+In particular, the strict rational-distance problem is equivalent to
+the existence of rational $h,k,W$ for which
+\begin{equation}
+ \begin{gathered}
+ W^2=\Phi(h)\Phi(k),\qquad
+ T=(1+h^2)(1+k^2)+W\in\Q^{\times2},\\
+ 4|k(1-h^2)|<T,\qquad 4|h(1-k^2)|<T.
+ \end{gathered}
+ \label{eq:sym-complete-system}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The identity
+\begin{equation}
+ A^2-\Phi(h)\Phi(k)
+ =8\bigl(k^2(1-h^2)^2+h^2(1-k^2)^2\bigr)
+ \label{eq:sym-discriminant}
+\end{equation}
+gives the first distance equation on substituting
+$xT=T/2-2k(1-h^2)$ and $yT=T/2-2h(1-k^2)$.
+Indeed, twice its residual is
+$T^2-2AT+A^2-\Phi(h)\Phi(k)=W^2-\Phi(h)\Phi(k)$.
+The other three follow from
+\[
+ N_1^2-N_0^2=4k(1-h^2),\quad
+ N_2^2-N_0^2=4h(1-k^2),\quad
+ N_0^2+N_3^2=N_1^2+N_2^2.
+\]
+
+For the converse, $r_0^2+r_3^2=r_1^2+r_2^2$.  Expanding the
+definitions in \eqref{eq:sym-forward} using this relation gives
+$S^2N_j=4r_jS$.  For example,
+\[
+ \frac{S^2N_0}{2}
+ =r_0^2+r_1^2+r_2^2-r_3^2+2r_0(r_1+r_2+r_3)
+ =2r_0S.
+\]
+Thus $q_j=N_j^2/T$.  The differences
+$q_1-q_0=1-2x$ and $q_2-q_0=1-2y$ give the return map.
+Substitution in $q_0=x^2+y^2$ and
+\eqref{eq:sym-discriminant} gives $W^2=\Phi(h)\Phi(k)$.
+If $r_j=\sqrt d\,\rho_j$ with positive rational $\rho_j$, then
+$S=\sqrt d\,s$ for $s\in\Q_{>0}$, so all the asserted
+rationalities and $[T]=[d]$ follow.
+
+Finally, when $T=t_0^2\ne0$, the return gives positive rational
+distances $|N_j/t_0|$ whenever $0<x,y<1$; an interior point has no
+zero distance.  The last two inequalities in
+\eqref{eq:sym-complete-system} are exactly $|1-2x|<1$ and
+$|1-2y|<1$.  The forward construction proves the reverse implication.
+\end{proof}
+
+The excluded case $T=0$ is explicit.  By
+\eqref{eq:sym-discriminant}, it requires
+$k(1-h^2)=h(1-k^2)=0$, hence
+$(h,k)=(0,0)$ or $(h,k)=(\pm1,\pm1)$, with $W=-A$.
+Also, $\Phi$ has no rational root.  These observations account for
+the exceptional denominators in the return map.
+
+\subsection{The homogeneous squareclass}
+
+For a positive squarefree $n$, consider the intersection
+\[
+ D_n\subset\PP^3_{[a:b:c:e]}:\qquad
+ a^2=e^2+c^2,\qquad nb^2=e^2-c^2.
+\]
+
+\begin{proposition}[Normalization of the return]
+\label{prop:sym-normalization}
+For $n>1$, every rational point of $D_n$ has $a+e\ne0$.
+The functions
+\[
+ h=\frac{c}{a+e},\qquad \beta=\frac{2b}{a+e}
+\]
+identify its rational points with $n\beta^2=\Phi(h)$.
+For two such points the returned squareclass is the class of
+\begin{equation}
+ T(p,q)=\frac{4(aa'+nbb')}{(a+e)(a'+e')}.
+ \label{eq:sym-projective-T}
+\end{equation}
+This expression is invariant under independent rescaling of both
+projective representatives.
+
+The curve has no rational point if $n$ is even.  If $n$ is odd and
+$(a,b,c,e)$ is a primitive integral representative with $a>0$, then
+\[
+ a+e=
+ \begin{cases}
+ 2s^2,&n\equiv1\pmod4,\\
+ s^2,&n\equiv3\pmod4
+ \end{cases}
+ \qquad(s\in\Z\setminus\{0\}).
+\]
+Consequently, for two primitive integral representatives with
+$a,a'>0$, the class in \eqref{eq:sym-projective-T} equals
+$[aa'+nbb']$.
+\end{proposition}
+
+\begin{proof}
+If $a+e=0$, the first quadric gives $c=0$ and the second gives
+$nb^2=e^2$.  Since $n>1$ is squarefree, this would be the zero
+vector.  Multiplication by $2/(a+e)$ gives the representative
+\[
+ (a,b,c,e)=(1+h^2,\beta,2h,1-h^2),
+\]
+because $(a+e)(a-e)=c^2$.  The second quadric becomes
+$n\beta^2=\Phi(h)$.  For two normalized representatives,
+\eqref{eq:sym-projective-T} is
+$(1+h^2)(1+k^2)+n\beta\beta'$, as in
+Theorem~\ref{thm:sym-return}.  Its numerator and denominator both
+have bidegree $(1,1)$, proving invariance.
+
+If a prime divides $a,c,e$, its square divides $nb^2$ and hence
+the prime divides $b$, contradicting primitivity.  Thus
+$(a,c,e)$ is a primitive Pythagorean triple: $a$ is odd and the
+two legs have opposite parity.  In particular $e^2-c^2$ is odd,
+which excludes even $n$ and makes $b$ odd.  When $c$ is even,
+the coprime nonnegative integers $(a+e)/2,(a-e)/2$ have square
+product $(c/2)^2$, so both are squares; here $n\equiv1\pmod4$.
+When $c$ is odd, the coprime positive odd integers $a+e,a-e$
+have square product $c^2$, and $n\equiv3\pmod4$.
+The product $(a+e)(a'+e')$ is therefore a square.  Finally
+$a^2-nb^2=2c^2>0$ at these rational points, so
+$aa'>n|bb'|$ and $aa'+nbb'>0$.
+\end{proof}
+
+This normalization matters when choosing representatives.  For example,
+on $D_{161}$ take
+\[
+ p=(17,1,8,15),\qquad q=(689,31,400,561).
+\]
+Then $aa'+161bb'=16704=29\cdot24^2$, whereas replacing $p$ by
+$p/16704$ makes this raw value equal to $1$.  In both cases
+\eqref{eq:sym-projective-T} is $1044/625=29(6/25)^2$ and
+the return is $(49/348,161/696)$.  Its four distances are
+$\sqrt{29}(35,115,101,149)/696$.
+
+\subsection{Two pencils of genus-three curves}
+
+The quadric $r_0^2+r_3^2=r_1^2+r_2^2$ also has the ruling
+coordinates
+\[
+ (r_0:r_1:r_2:r_3)
+ =(\lambda+\mu:\mu-\lambda:\lambda\mu+1:\lambda\mu-1).
+\]
+For positive distances with $r_2\ne r_3$, one may take
+$\lambda=(r_2+r_3)/(r_0+r_1)$ and
+$\mu=(r_0+r_1)/(r_2-r_3)$.  If $s=2/(r_2-r_3)$, the unit-side
+condition becomes
+\begin{equation}
+ \Gamma_\lambda:\quad
+ \bigl(2s^2-(1+\lambda^2)(1+\mu^2)\bigr)^2
+ =-\Phi(\lambda)\Phi(\mu).
+ \label{eq:sym-plane-quartic}
+\end{equation}
+For a rational point of this curve with $s\ne0$, the return is
+\[
+ x=\frac12+\frac{2\lambda\mu}{s^2},\qquad
+ y=\frac12-\frac{(\lambda^2-1)(\mu^2-1)}{2s^2},
+\]
+and the four squared distances are the squares of the four displayed
+bilinear coordinates divided by $s^2$.  Thus the same strict chamber
+selects the original configurations on each fibre.
+
+\begin{theorem}[Quartic pencils and elliptic factors]
+\label{thm:sym-quartic-pencil}
+For $\lambda\in\Q\setminus\{0,1,-1\}$, the projective
+completion of \eqref{eq:sym-plane-quartic} is a smooth plane
+quartic.  Put $c_\lambda=-\Phi(\lambda)$ and
+\[
+ E_{c_\lambda}:\quad y^2=x^3-c_\lambda^2x,
+ \qquad
+ F_\lambda:\quad v^2=c_\lambda(s^2-4)(s^2-4\lambda^2),
+\]
+where $(s,v)=(2,0)$ is chosen as origin on $F_\lambda$.
+Then there is a $\Q$-isogeny
+\[
+ \Jac(\Gamma_\lambda)\sim_\Q
+ E_{c_\lambda}\times F_\lambda^2.
+\]
+The other ruling gives a second pencil with the same description.
+If the four distances lie in $\sqrt d\,\Q$, the two
+$F_\lambda$ factors are replaced by their quadratic twists by $d$.
+\end{theorem}
+
+\begin{proof}
+Set $A=1+\lambda^2$, $D=(\lambda^2-1)^2$ and
+$B=\lambda^4-10\lambda^2+1$.  In the squared projective
+coordinates $M=\mu^2$, $S=s^2$, $Z=z^2$, the equation is the conic
+\[
+ 2S^2-2AS(M+Z)+D(M^2+Z^2)-2BMZ=0.
+\]
+Its symmetric matrix has determinant $-4\Phi(\lambda)^2$.
+The discriminants on $M=0$ and $Z=0$ are
+$-4\Phi(\lambda)$; on $S=0$ the discriminant is
+$-64\lambda^2\Phi(\lambda)$.  They are nonzero, and the
+conic contains none of the three coordinate vertices.  Pulling
+back by $(\mu:s:z)\mapsto(\mu^2:s^2:z^2)$ therefore gives
+a smooth degree-four plane curve.  Equivalently, its degree-four
+cover of the conic has six distinct branch points, each of inertia
+two, so $2g-2=-8+12=4$.
+
+The involutions changing the signs of $\mu$ and $s$ generate
+a Klein four-group.  The quotient by the sign of $s$ is
+\[
+ C_\lambda:\quad W^2=c_\lambda\Phi(\mu).
+\]
+It maps nonconstantly to
+$E':Y^2=X(X^2-6c_\lambda X+c_\lambda^2)$ by
+$(X,Y)=(c_\lambda\mu^2,c_\lambda\mu W)$.
+The usual degree-two map
+\[
+ X_1=\frac{X^2-6c_\lambda X+c_\lambda^2}{X},\qquad
+ Y_1=Y\left(1-\frac{c_\lambda^2}{X^2}\right)
+\]
+has image $Y_1^2=X_1(X_1+4c_\lambda)(X_1+8c_\lambda)$.
+Setting $X_1=4(x-c_\lambda)$, $Y_1=8y$ gives
+$E_{c_\lambda}$; hence $\Jac(C_\lambda)$ is isogenous to it.
+
+The quotient by the sign of $\mu$ is $F_\lambda$.  Indeed,
+with
+$v=D\mu^2-B-As^2$, its equation is
+$v^2=c_\lambda(s^2-4)(s^2-4\lambda^2)$.
+Interchanging the projective coordinates $\mu,z$ preserves the
+quartic and conjugates this involution to the third nontrivial
+element of the Klein group.  The third quotient is consequently
+isomorphic to $F_\lambda$ over $\Q$.
+The pullbacks of the three genus-one differentials lie in the three
+different nontrivial character spaces.  They span the three-dimensional
+space of regular differentials, so the induced homomorphism of
+Jacobians is an isogeny.
+
+For a common twist $d$, write the side parameter as $s^2=d t^2$.
+The second quotient becomes
+$v^2=c_\lambda(d t^2-4)(d t^2-4\lambda^2)$.
+Over $\Q(\sqrt d)$ it is identified with $F_\lambda$ by
+$s=\sqrt d\,t$.  The nontrivial Galois action changes $s$ to
+$-s$, which acts by negation on the Jacobian, as is also seen on
+the differential $ds/v$.  This is the quadratic twist by $d$.
+\end{proof}

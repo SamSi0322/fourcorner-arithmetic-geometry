@@ -1,0 +1,201 @@
+\section{Two-adic independence of the elliptic sources}
+\label{sec:source-independence}
+
+The last square in the distance problem imposes a useful independence
+condition.  The argument uses the complete rational points, rather than
+chosen generators or a saturation computation.
+Throughout this section $n>1$ is a positive odd squarefree integer and
+\[
+ E_n:\quad Y^2=X(X-n)(X+n).
+\]
+For a point outside $E_n[2]$, write $u=X/n$ and denote the
+$2$-adic valuation by $v$.
+
+\begin{lemma}[The dyadic level]
+\label{lem:indp-level}
+Each point of $E_n(\Q_2)\setminus E_n[2]$ has a unique level
+$\ell\geq1$ and lies in one of the following four regions:
+\[
+\begin{array}{c|c|c}
+\text{region}&\text{condition}&v(u-1)\\\hline
+R_\infty&v(u)=-2\ell&-2\ell\\
+R_0&v(u)=2\ell&0\\
+R_+&v(u-1)=2\ell+1&2\ell+1\\
+R_-&v(u+1)=2\ell+1&1.
+\end{array}
+\]
+Translation by $E_n[2]$ preserves the level.  Every point is uniquely
+the sum of a point of $E_n[2]$ and a point of the formal subgroup
+$E_1=\{O\}\cup\{v(X)<0\}$.  This subgroup is torsion-free, and
+\[
+ \ell(mZ)=\ell(Z)+v(m)
+ \quad(Z\in E_1\setminus\{O\},\ m\in\Z\setminus\{0\}).
+\]
+
+If $u,u'$ belong to points of different levels and
+$(u-1)(u'-1)$ is a square in $\Q_2$, then
+\[
+ v\bigl(2(u-1)(u+u')\bigr)\quad\hbox{is odd}.
+\]
+\end{lemma}
+
+\begin{proof}
+The normalized equation is $n\eta^2=u(u^2-1)$.
+For $v(u)<0$ or $v(u)>0$, parity of the right-hand valuation
+forces respectively $v(u)=-2\ell$ or $v(u)=2\ell$.
+For a unit $u\equiv1\pmod4$, one has $v(u+1)=1$, so
+$v(u-1)$ is odd and at least three.  The case
+$u\equiv-1\pmod4$ is symmetric.
+The three nontrivial two-torsion translations act on $u$ by
+\[
+ -\frac1u,\qquad \frac{u+1}{u-1},\qquad
+ -\frac{u-1}{u+1}.
+\]
+They take $R_\infty$ bijectively onto the other three regions,
+preserving the indicated level.  This proves the decomposition.
+
+The integral formal parameter $z=-X/Y$ identifies the filtration
+on $E_1$ with $v(z)\geq\ell$; its successive quotients have order
+two.  The formal addition law has integral coefficients and linear
+term $z_1+z_2$, so odd multiplication preserves each exact level.
+The duplication formula
+\[
+ u(2Z)=\frac{(u(Z)^2+1)^2}{4u(Z)(u(Z)^2-1)}
+\]
+increases the level by one.  Factoring an integer as an odd number
+times a power of two proves the formula for $mZ$, and also proves
+that $E_1$ has no torsion.  The formal-group assertions used here
+are the usual integral expansion at the nonsingular point $O$;
+see \cite[Chs.~IV and VII]{silverman2009}.
+
+The square hypothesis in the last assertion places both points
+in $R_\infty\cup R_0$, or both in $R_+\cup R_-$.
+In the first case, at different levels $v(u+u')$ is even and
+$v(u-1)$ is even.  In the second case, if the regions are equal
+then $v(u+u')=1$.  If they are opposite, the different levels give
+$v(u+u')=2\min(\ell,\ell')+1$.  In either situation
+$1+v(u-1)+v(u+u')$ is odd.
+\end{proof}
+
+Use the ordered Kummer map
+\[
+ \delta(P)=([X(P)],[X(P)-n],[X(P)+n]).
+\]
+It extends at the two-torsion points to the homomorphism with values
+\begin{equation}
+\begin{array}{c|c}
+O&(1,1,1)\\
+(0,0)&(-1,-n,n)\\
+(n,0)&(n,2,2n)\\
+(-n,0)&(-n,-2n,2).
+\end{array}
+\label{eq:indp-torsion-kummer}
+\end{equation}
+Here every entry is taken modulo $\Q^{\times2}$.  The homomorphism
+property follows from the chord-and-tangent rule: evaluating
+$X(X-n)(X+n)-l(X)^2$ at each root shows that the product of the
+three corresponding coordinate differences is a square.  The
+values at a two-torsion point use the derivative at that root.
+
+\begin{theorem}[Independence criterion]
+\label{thm:indp-criterion}
+Let $P,P'\in E_n(\Q)\setminus E_n[2]$, and put
+$u=X(P)/n$, $u'=X(P')/n$.  Suppose
+\[
+ \delta(P')=\delta(P)(n,1,n),\qquad u+u'\ne0,
+ \qquad v\bigl(2(u-1)(u+u')\bigr)\equiv0\pmod2.
+\]
+Then $P$ and $P'$ are linearly independent modulo torsion.
+\end{theorem}
+
+\begin{proof}
+The local decomposition in Lemma~\ref{lem:indp-level} shows that
+$E_n(\Q_2)_{\rm tors}=E_n[2]$.  In particular the same is true
+over $\Q$.  If $P,P'$ were dependent, the subgroup they generate
+together with $E_n[2]$ would have the form
+$\Z M\oplus E_n[2]$, where $M$ has infinite order.  Write
+$P=aM+T$ and $P'=bM+T'$ with nonzero integers $a,b$.
+By \eqref{eq:indp-torsion-kummer}, the class $(n,1,n)$ does not
+belong to $\delta(E_n[2])$.  The Kummer relation therefore forces
+$b-a$ to be odd: otherwise its right side would be the class of
+$T'-T$.  Exactly one of $a,b$ is even.
+
+Write $M=T_M+Z$ locally, with $Z\in E_1\setminus\{O\}$.
+The two levels are $\ell(Z)+v(a)$ and $\ell(Z)+v(b)$, which
+are different.  The middle Kummer slot implies that
+$(u-1)(u'-1)$ is a rational square.  The last assertion of
+Lemma~\ref{lem:indp-level} now makes the valuation in the theorem
+odd, a contradiction.
+\end{proof}
+
+\begin{corollary}[A uniform rank requirement]
+\label{cor:indp-original}
+Every strict rational-distance point with canonical kernel
+$n=m_0m_1m_2m_3$ gives two explicit independent points of
+$E_n(\Q)$.  In particular $\rank E_n(\Q)\geq2$.
+\end{corollary}
+
+\begin{proof}
+Put
+\[
+ S=r_0+r_3,\quad D=r_3-r_0,\quad
+ \Sigma=r_1+r_2,\quad \Delta=r_1-r_2,
+ \qquad
+ u=\frac{\Sigma^2-2}{D^2},\quad
+ u'=\frac{S^2-2}{\Delta^2}.
+\]
+The denominators are nonzero by Lemma~\ref{lem:int:symmetry}.
+The distance equations give
+$S^2+D^2=\Sigma^2+\Delta^2$ and
+$(S^2-2)(2-D^2)=\Sigma^2\Delta^2$.  Solving for the four
+squares gives
+\begin{equation}
+\begin{aligned}
+ S^2&=\frac{2u(u'+1)}{u+u'},&
+ D^2&=\frac{2(u'-1)}{u+u'},\\
+ \Sigma^2&=\frac{2u'(u+1)}{u+u'},&
+ \Delta^2&=\frac{2(u-1)}{u+u'}.
+\end{aligned}
+\label{eq:indp-four-squares}
+\end{equation}
+The opposite-pair triangle inequalities make $u,u'>0$, and
+\eqref{eq:indp-four-squares} then gives $u,u'>1$.
+Also
+\[
+ t=r_0r_3+r_1r_2=\frac{uu'+1}{u+u'},\qquad
+ t^2-1=\frac{(u^2-1)(u'^2-1)}{(u+u')^2}.
+\]
+Write $t^2-1=nq^2$.  The kernel-product result gives the positive
+odd squarefree integer $n>1$.  The identities
+\[
+ \begin{aligned}
+ u(u^2-1)&=(t^2-1)
+   \left(\frac{S(u+u')}{D(u'+1)}\right)^2,\\
+ u'(u'^2-1)&=(t^2-1)
+   \left(\frac{\Sigma(u+u')}{\Delta(u+1)}\right)^2
+ \end{aligned}
+\]
+produce points $P,P'$ of $E_n(\Q)$ with normalized abscissas
+$u,u'$.  The scale from $n\eta^2=u(u^2-1)$ to $E_n$ is
+$(X,Y)=(nu,n^2\eta)$.
+
+By \eqref{eq:indp-four-squares}, the three numbers
+\[
+ (u-1)(u'-1),\quad u(u'+1)(u-1),\quad
+ u'(u+1)(u-1)
+\]
+are rational squares.  The first gives the middle Kummer slot.
+Multiplying the third by $u(u-1)(u+1)$ gives
+$[uu']=[n]$; the product of the three Kummer slots is one,
+so their ratio is $(n,1,n)$.
+Finally,
+\[
+ 2(u-1)(u+u')=\bigl(\Delta(u+u')\bigr)^2.
+\]
+Theorem~\ref{thm:indp-criterion} applies.
+\end{proof}
+
+The criterion uses the parity of one dyadic valuation.  It applies
+to every even-valuation squareclass of that expression, including
+some nontrivial common twists.  Its conclusion is an independence
+condition on the actual source pair.

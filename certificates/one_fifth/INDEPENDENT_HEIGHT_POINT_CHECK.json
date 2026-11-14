@@ -1,0 +1,435 @@
+{
+  "status": "PASS_INDEPENDENT_INTEGER_BEZOUT_AND_FRACTION_GROUP_CHECKS",
+  "height_error_bits": 124,
+  "canonical_height_at_infinity_lower": "15475/13122",
+  "product_bound": 6,
+  "coefficient_bound": 4,
+  "bounded_group_elements": [
+    {
+      "coefficient": -4,
+      "torsion_index": 0,
+      "z": "-135927341625456191/3631997188201200",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 0,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -4,
+      "torsion_index": 1,
+      "z": "-2678325373366296191/1899350785568185474",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -4,
+      "torsion_index": 2,
+      "z": "-4012897533309720685/416589464914782764",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -4,
+      "torsion_index": 3,
+      "z": "-3649697814489600685/688444148165695146",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 8,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -3,
+      "torsion_index": 0,
+      "z": "-520158647/85660008",
+      "boundary": false,
+      "obstruction": {
+        "prime": 5,
+        "valuation": 0,
+        "unit_mod_prime": 3,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -3,
+      "torsion_index": 1,
+      "z": "-60482164247/7196561050",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -3,
+      "torsion_index": 2,
+      "z": "645251005/917465692",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -3,
+      "torsion_index": 3,
+      "z": "7920749795/122851602",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 8,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -2,
+      "torsion_index": 0,
+      "z": "-937/168",
+      "boundary": false,
+      "obstruction": {
+        "prime": 5,
+        "valuation": 0,
+        "unit_mod_prime": 3,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -2,
+      "torsion_index": 1,
+      "z": "-118537/12950",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -2,
+      "torsion_index": 2,
+      "z": "-1645/2132",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -2,
+      "torsion_index": 3,
+      "z": "-18445/258",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -1,
+      "torsion_index": 0,
+      "boundary": true
+    },
+    {
+      "coefficient": -1,
+      "torsion_index": 1,
+      "z": "-1/14",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -1,
+      "torsion_index": 2,
+      "z": "-35/4",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": -1,
+      "torsion_index": 3,
+      "z": "-35/6",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 7,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 0,
+      "torsion_index": 0,
+      "boundary": true
+    },
+    {
+      "coefficient": 0,
+      "torsion_index": 1,
+      "z": "-1/14",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 0,
+      "torsion_index": 2,
+      "z": "-35/4",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 0,
+      "torsion_index": 3,
+      "z": "-35/6",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 7,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 1,
+      "torsion_index": 0,
+      "z": "-937/168",
+      "boundary": false,
+      "obstruction": {
+        "prime": 5,
+        "valuation": 0,
+        "unit_mod_prime": 3,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 1,
+      "torsion_index": 1,
+      "z": "-118537/12950",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 1,
+      "torsion_index": 2,
+      "z": "-1645/2132",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 1,
+      "torsion_index": 3,
+      "z": "-18445/258",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 2,
+      "torsion_index": 0,
+      "z": "-520158647/85660008",
+      "boundary": false,
+      "obstruction": {
+        "prime": 5,
+        "valuation": 0,
+        "unit_mod_prime": 3,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 2,
+      "torsion_index": 1,
+      "z": "-60482164247/7196561050",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 2,
+      "torsion_index": 2,
+      "z": "645251005/917465692",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 2,
+      "torsion_index": 3,
+      "z": "7920749795/122851602",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 8,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 3,
+      "torsion_index": 0,
+      "z": "-135927341625456191/3631997188201200",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 0,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 3,
+      "torsion_index": 1,
+      "z": "-2678325373366296191/1899350785568185474",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 3,
+      "torsion_index": 2,
+      "z": "-4012897533309720685/416589464914782764",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 3,
+      "torsion_index": 3,
+      "z": "-3649697814489600685/688444148165695146",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 8,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 4,
+      "torsion_index": 0,
+      "z": "25008967772582310756304273151/823945664867645864988553200",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 0,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 4,
+      "torsion_index": 1,
+      "z": "551752997634769794735682966849/350949494481019996453248377314",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 4,
+      "torsion_index": 2,
+      "z": "-1044222733338248278793302966285/128873969360696848299816454604",
+      "boundary": false,
+      "obstruction": {
+        "prime": 3,
+        "valuation": 4,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    },
+    {
+      "coefficient": 4,
+      "torsion_index": 3,
+      "z": "-1126617299825012865292158286285/178891904905861469812425000906",
+      "boundary": false,
+      "obstruction": {
+        "prime": 11,
+        "valuation": 2,
+        "unit_mod_prime": 2,
+        "reason": "nonsquare unit"
+      }
+    }
+  ],
+  "finite_points_surviving": 0,
+  "torsion_zero_product_equations": [
+    "z=0",
+    "z^2=-50",
+    "z^2=205/4",
+    "z^2=305/6"
+  ],
+  "scope": "Complete finite endgame after the height and zero-product arguments. Mordell-Weil completeness is independently supplied by the Magma full-rank and full-index result."
+}

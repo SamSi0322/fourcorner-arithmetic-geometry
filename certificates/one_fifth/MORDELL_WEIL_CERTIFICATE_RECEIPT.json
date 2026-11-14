@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-11-14T04:16:36.281730+00:00",
+  "status": "PASS",
+  "engine": "Local Magma 2.29-7",
+  "source_sha256": "03b60a4000b1181e646377a6bcbf6d4e83f8ff42c45bae081e1b849cdbff732f",
+  "stdout_sha256": "71f76dbc47d52fe38ba53321882ba54b680602581b3bc030fd2a978eff2d2e0c",
+  "exit_code": 0,
+  "analytic_rank_call": false,
+  "grh_option": false
+}
